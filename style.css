@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #050505;
+  color: #f5f5f5;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111;
+}
+::-webkit-scrollbar-thumb {
+  background: #6b21a5;
+  border-radius: 10px;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 300px;
+  background: rgba(8, 8, 8, 0.95);
+  backdrop-filter: blur(10px);
+  border-right: 1px solid rgba(107, 33, 165, 0.3);
+  padding: 32px 24px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.logo-icon {
+  font-size: 32px;
+  color: #a855f7;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; text-shadow: 0 0 0px #a855f7; }
+  50% { opacity: 1; text-shadow: 0 0 10px #a855f7; }
+}
+
+.logo h1 {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #fff 0%, #a855f7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.categories h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.cat-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 12px 16px;
+  margin: 6px 0;
+  border-radius: 14px;
+  color: #aaa;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.cat-btn .btn-icon {
+  font-size: 18px;
+  width: 28px;
+}
+
+.cat-btn:hover {
+  background: rgba(168, 85, 247, 0.1);
+  color: #fff;
+  transform: translateX(4px);
+}
+
+.cat-btn.active {
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(168, 85, 247, 0.05));
+  color: #a855f7;
+  border-left: 2px solid #a855f7;
+}
+
+.stats {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stat-item {
+  background: rgba(168, 85, 247, 0.05);
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+}
+
+.stat-value {
+  display: block;
+  font-size: 32px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #a855f7, #c084fc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.main {
+  flex: 1;
+  padding: 32px 40px;
+  overflow-y: auto;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.title-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #a855f7, #c084fc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.title-section p {
+  color: #666;
+  font-size: 14px;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  pointer-events: none;
+}
+
+.search-box input {
+  background: rgba(17, 17, 17, 0.9);
+  border: 1px solid rgba(168, 85, 247, 0.2);
+  border-radius: 40px;
+  padding: 12px 20px 12px 48px;
+  width: 280px;
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #a855f7;
+  background: #111;
+  width: 320px;
+}
+
+.search-box input::placeholder {
+  color: #444;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 28px;
+}
+
+.card {
+  background: rgba(17, 17, 17, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 24px;
+  padding: 16px;
+  transition: all 0.4s cubic-bezier(0.2, 0.8, 0.4, 1);
+  border: 1px solid rgba(168, 85, 247, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #a855f7, transparent);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+}
+
+.card:hover::before {
+  transform: translateX(100%);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(168, 85, 247, 0.3);
+  box-shadow: 0 20px 40px -20px rgba(168, 85, 247, 0.3);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+  background: #0a0a0a;
+  transition: transform 0.4s ease;
+}
+
+.card:hover img {
+  transform: scale(1.02);
+}
+
+.card h3 {
+  margin: 16px 0 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #a855f7;
+  margin: 8px 0;
+}
+
+.rating {
+  color: #fbbf24;
+  font-size: 14px;
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+
+.tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #6b21a5, #a855f7);
+  padding: 4px 12px;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 20px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  backdrop-filter: blur(4px);
+}
+
+button.link {
+  width: 100%;
+  padding: 12px;
+  background: rgba(168, 85, 247, 0.1);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 12px;
+}
+
+button.link:hover {
+  background: #a855f7;
+  border-color: #a855f7;
+  transform: scale(0.98);
+}
+
+.loading {
+  text-align: center;
+  padding: 60px;
+  color: #666;
+  font-size: 16px;
+}
+
+/* ============================================
+   🟣 PŁYWAJĄCE KOŁO Z LINKAMI - ZDJĘCIA PNG
+   ============================================ */
+.floating-circle {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+}
+
+.circle-trigger {
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, #6b21a5, #a855f7);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  transition: all 0.3s ease;
+  animation: glow 2s infinite;
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(168, 85, 247, 0.5); }
+  50% { box-shadow: 0 0 35px rgba(168, 85, 247, 0.8); }
+}
+
+.circle-trigger:hover {
+  transform: scale(1.08);
+}
+
+.plus-icon {
+  font-size: 32px;
+  font-weight: 300;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.circle-trigger.open .plus-icon {
+  transform: rotate(45deg);
+}
+
+.circle-links {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px) scale(0.9);
+  transition: all 0.25s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+}
+
+.circle-links.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: rgba(15, 15, 15, 0.95);
+  backdrop-filter: blur(12px);
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  overflow: hidden;
+}
+
+.link-item img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  transition: all 0.25s ease;
+}
+
+.link-item:hover {
+  transform: scale(1.12) translateX(-4px);
+}
+
+.link-item.tiktok:hover {
+  background: #000;
+  border-color: #25f4ee;
+  box-shadow: 0 0 15px rgba(37, 244, 238, 0.4);
+}
+
+.link-item.discord:hover {
+  background: #5865f2;
+  border-color: #5865f2;
+}
+
+.link-item.kakobuy:hover {
+  background: linear-gradient(135deg, #ff6b35, #f7931e);
+  border-color: #ff6b35;
+}
+
+.link-item:hover img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid rgba(168, 85, 247, 0.2);
+  }
+  .main {
+    padding: 24px;
+  }
+  .search-box input {
+    width: 100%;
+  }
+  .search-box input:focus {
+    width: 100%;
+  }
+  .floating-circle {
+    bottom: 20px;
+    right: 20px;
+  }
+  .circle-trigger {
+    width: 48px;
+    height: 48px;
+  }
+  .plus-icon {
+    font-size: 28px;
+  }
+  .link-item {
+    width: 44px;
+    height: 44px;
+  }
+  .link-item img {
+    width: 24px;
+    height: 24px;
+  }
+}

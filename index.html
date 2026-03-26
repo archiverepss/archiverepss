@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArchiveRepss</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="logo">
+      <span class="logo-icon">✦</span>
+      <h1>ArchiveRepss</h1>
+    </div>
+    <div class="categories">
+      <h3>Kategorie</h3>
+      <button onclick="setCategory('All')" class="cat-btn active" id="cat-all">
+        <span class="btn-icon">📦</span> Wszystko
+      </button>
+      <button onclick="setCategory('Shoes')" class="cat-btn">
+        <span class="btn-icon">👟</span> Buty
+      </button>
+      <button onclick="setCategory('Tshirts')" class="cat-btn">
+        <span class="btn-icon">👕</span> Koszulki
+      </button>
+      <button onclick="setCategory('Hoodies')" class="cat-btn">
+        <span class="btn-icon">🧥</span> Bluzy
+      </button>
+      <button onclick="setCategory('Shorts')" class="cat-btn">
+        <span class="btn-icon">🩳</span> Spodenki
+      </button>
+      <button onclick="setCategory('Jackets')" class="cat-btn">
+        <span class="btn-icon">🧥</span> Kurtki
+      </button>
+      <button onclick="setCategory('Underwear')" class="cat-btn">
+        <span class="btn-icon">🩲</span> Bielizna
+      </button>
+      <button onclick="setCategory('Belts')" class="cat-btn">
+        <span class="btn-icon">⛓️</span> Paski
+      </button>
+    </div>
+    <div class="stats">
+      <div class="stat-item">
+        <span class="stat-value" id="productCount">0</span>
+        <span class="stat-label">produktów</span>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="topbar">
+      <div class="title-section">
+        <h2>Archive <span class="gradient-text">Repss</span></h2>
+        <p>Wszystkie produkty</p>
+      </div>
+      <div class="search-box">
+        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input type="text" id="search" placeholder="Szukaj produktu..." oninput="renderProducts()" />
+      </div>
+    </div>
+
+    <div id="grid" class="grid"></div>
+  </main>
+</div>
+
+<!-- 🟣 PŁYWAJĄCE KOŁO Z LINKAMI -->
+<div class="floating-circle">
+  <div class="circle-trigger" id="circleTrigger">
+    <div class="plus-icon">+</div>
+  </div>
+  <div class="circle-links" id="circleLinks">
+    <a href="https://www.tiktok.com" target="_blank" class="link-item tiktok">
+      <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
+    </a>
+    <a href="https://discord.gg/twojlink" target="_blank" class="link-item discord">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord">
+    </a>
+    <a href="https://www.kakobuy.com" target="_blank" class="link-item kakobuy">
+      <img src="https://kakobuy.com/favicon.ico" alt="Kakobuy">
+    </a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
