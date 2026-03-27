@@ -555,8 +555,385 @@ let products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "NEW BALANCE 530",
+    category: "Shoes",
+    price: "$43.88",
+    image: "https://si.geilicdn.com/pcitem1854263096-7b1e00000195dd73e3850a20e2c5_1200_1200.jpg",
+    link: "https://ikako.vip/5azyb",
+    tag: "M",
+    rating: 5
+  },
+  {
+    name: "NEW BALANCE 990",
+    category: "Shoes",
+    price: "$41",
+    image: "https://si.geilicdn.com/pcitem901870080011-39bf00000197227e34340a23047e_1440_1440.jpg",
+    link: "https://ikako.vip/r2d6r",
+    tag: "ZC",
+    rating: 5
+  },
+  {
+    name: "NEW BALANCE 990",
+    category: "Shoes",
+    price: "$41",
+    image: "https://si.geilicdn.com/pcitem901870080011-39bf00000197227e34340a23047e_1440_1440.jpg",
+    link: "https://ikako.vip/r2d6r",
+    tag: "ZC",
+    rating: 5
+  },
+  {
+    name: "NEW BALANCE 9060",
+    category: "Shoes",
+    price: "$29",
+    image: "https://si.geilicdn.com/pcitem901870080011-0f5900000197ccd442460a23041a_1440_1440.jpg",
+    link: "https://ikako.vip/m75qc",
+    tag: "M",
+    rating: 5
+  },
+  {
+    name: "NEW BALANCE 1906",
+    category: "Shoes",
+    price: "$31",
+    image: "https://si.geilicdn.com/wdseller1558770107-683f0000018f7d842c330a230417_1742_1739.jpg",
+    link: "https://ikako.vip/f2988",
+    tag: "RANDOM BATCH",
+    rating: 3.5
+  },
+  {
+    name: "NEW BALANCE 2002",
+    category: "Shoes",
+    price: "$40-43",
+    image: "https://si.geilicdn.com/wdseller901559461514-266c00000180deef08dd0a8134f0_1284_1285.jpg",
+    link: "https://ikako.vip/89pb2",
+    tag: "ZC/M",
+    rating: 5
+  },
+  {
+    name: "LANVIN LEATHER CURB",
+    category: "Shoes",
+    price: "$75",
+    image: "https://si.geilicdn.com/wdseller1425026222-4ca70000018909df212e0a231565_2560_2560.jpg",
+    link: "https://ikako.vip/8a84f",
+    tag: "FOSHAN",
+    rating: 5
+  },
+  {
+    name: "LV TRAINER",
+    category: "Shoes",
+    price: "$76",
+    image: "https://si.geilicdn.com/pcitem1710010242-1de500000198412384980a230115_1840_1840.jpg",
+    link: "https://ikako.vip/gj47w",
+    tag: "FOSHAN",
+    rating: 5
+  },
+  {
+    name: "LV SKATE",
+    category: "Shoes",
+    price: "$72",
+    image: "https://si.geilicdn.com/weidian1710010242-62d800000188ac29f0b60a231179_1496_1496.jpg",
+    link: "https://ikako.vip/eqwhz",
+    tag: "FOSHAN",
+    rating: 5
+  },
+  {
+    name: "UGG",
+    category: "Shoes",
+    price: "$26 - $40 ",
+    image: "https://si.geilicdn.com/pcitem901870080011-25c6000001990c6cb29b0a20e7c7_1080_1080.jpg",
+    link: "https://ikako.vip/2eqst",
+    tag: "TOP",
+    rating: 5
+  },
+  {
+    name: "ASICS GEL KAYANO 14",
+    category: "Shoes",
+    price: "$37.61 ",
+    image: "https://si.geilicdn.com/wdseller1845163825-6813000001930325d8200a8134f0_1179_1179.jpg",
+    link: "https://ikako.vip/m2avv",
+    tag: "ZC",
+    rating: 5
+  },
+  {
+    name: "ASICS GEL NYC",
+    category: "Shoes",
+    price: "$36 ",
+    image: "https://si.geilicdn.com/pcitem1845163825-774f000001988d52d82f0a81347d_1440_1440.jpg",
+    link: "https://ikako.vip/k99a6",
+    tag: "ZC",
+    rating: 5
+  },
+  {
+    name: "NUMERIS",
+    category: "Shoes",
+    price: "$60 ",
+    image: "https://si.geilicdn.com/pcitem1809160355-344300000197e7a863740a20e273_4279_4376.jpg",
+    link: "https://ikako.vip/7dpc7s",
+    tag: "RANDOM",
+    rating: 4
+  },
+  {
+    name: "BALENCIAGA RUNNER 7.0",
+    category: "Shoes",
+    price: "$69 ",
+    image: "https://si.geilicdn.com/wdseller1268847658-287900000187c2f2271f0a20e273-unadjust_1170_1170.gif",
+    link: "https://ikako.vip/5hmve",
+    tag: "XA",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA TRACK 2.0",
+    category: "Shoes",
+    price: "$75 ",
+    image: "https://si.geilicdn.com/open1268847658-1234478995-1b7200000196303502cc0a23b4de_769_767.jpg",
+    link: "https://ikako.vip/6278e",
+    tag: "VG",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA TRACK",
+    category: "Shoes",
+    price: "$60 ",
+    image: "https://si.geilicdn.com/wdseller1268847658-37100000018adde9cc270a20e273-unadjust_1170_1170.gif",
+    link: "https://ikako.vip/xqj28",
+    tag: "VG",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA TRACK LED",
+    category: "Shoes",
+    price: "$76 ",
+    image: "https://si.geilicdn.com/wdseller1268847658-38100000018adde920f70a23034c_1170_1170.jpg",
+    link: "https://ikako.vip/57u8s",
+    tag: "VG",
+    rating: 4
+  },
+  {
+    name: "HYSTERIC GLAMOUR STRAWBERRY HOODIE",
+    category: "Hoodies",
+    price: "$58",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01fFyu291RR3c2VDKOd~hdr~_!!2126072107.heic",
+    link: "https://ikako.vip/24jdd",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC GLAMOUR REVERSIBLE FUR HOODIE",
+    category: "Hoodies",
+    price: "$69",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01rwzcst1RR3bu8hZy7_!!2126072107.png",
+    link: "https://ikako.vip/zjvkm",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC GLAMOUR HEADACHE HOODIE",
+    category: "Hoodies",
+    price: "$40",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01z6bJYX1FEti8NG0Fq_!!2943390456.jpg",
+    link: "https://ikako.vip/x52n4",
+    tag: "LMYER",
+    rating: 4
+  },
+  {
+    name: "SP5DER PINK HOODIE",
+    category: "Hoodies",
+    price: "$42",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2219813327674/O1CN01kBCXn826YkT4irGlc_!!2219813327674.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D929834666023&affcode=archivee",
+    tag: "PIKA",
+    rating: 5
+  },
+  {
+    name: "SP5DER x TRAVIS SCOTT RODERO HOODIE",
+    category: "Hoodies",
+    price: "$42",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2219813327674/O1CN01GVmRBd26YkVqaLfGR_!!2219813327674.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D992371547557&affcode=archivee",
+    tag: "PIKA",
+    rating: 5
+  },
+  {
+    name: "SP5DER RHINESTONE HOODIE",
+    category: "Hoodies",
+    price: "$45",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2219813327674/O1CN01azRhoa26YkVqZGFgm_!!2219813327674.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D992372979833&affcode=archivee",
+    tag: "PIKA",
+    rating: 5
+  },
+  {
+    name: "SUPREME SATIN APPLIQUE HOODIE",
+    category: "Hoodies",
+    price: "$40",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/23/afe7fda8ee5b94ac8692ad51017f5bd1.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D982922629033&affcode=archivee",
+    tag: "DRAGONREP",
+    rating: 5
+  },
+  {
+    name: "SUPREME SIMON HOODIE",
+    category: "Hoodies",
+    price: "$55",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvJl2QewvbqDauViL0QQqH2nE_J4Yol5VixQ&s",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D982010867316&affcode=archivee",
+    tag: "DRAGONREP",
+    rating: 5
+  },
+  {
+    name: "CHROME HEARTS USA HOODIE",
+    category: "Hoodies",
+    price: "$46",
+    image: "https://n-hype.com/cdn/shop/files/Chrome_Hearts_USA_Flag_Thermal_Black_Zip-up_Hoodie_Showroom_NHype_Lodz_Polska_1800x1800.png?v=1718778366",
+    link: "https://ikako.vip/nmtan",
+    tag: "TOPHOT",
+    rating: 5
+  },
+  {
+    name: "CHROME HEARTS HOODIE",
+    category: "Hoodies",
+    price: "$46",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/29/fe1c33a49608f3c31f683f10a1dd34cd.jpg",
+    link: "https://ikako.vip/dbudg",
+    tag: "TOPHOT",
+    rating: 5
+  },
+  {
+    name: "CHROME HEARTS DEADLY DOLL HOODIE",
+    category: "Hoodies",
+    price: "$42",
+    image: "https://shengliroadmarket.com/cdn/shop/products/chrome-hearts-deadly-doll-pink-cross-scroll-logo-zip-up-hoodie-433121.jpg?v=1704692844",
+    link: "https://ikako.vip/eztq3",
+    tag: "TOPHOT",
+    rating: 5
+  },
+  {
+    name: "CHROME HEARTS HOODIE",
+    category: "Hoodies",
+    price: "$43",
+    image: "https://media-photos.depop.com/b1/34953571/1405202588_a0646994b5d14e8fa6d6d03bba9c6d9f/P0.jpg",
+    link: "https://ikako.vip/2pm5s",
+    tag: "TOPHOT",
+    rating: 5
+  },
+  {
+    name: "RICK OWENS HOODIE",
+    category: "Hoodies",
+    price: "$41",
+    image: "https://img.alicdn.com/bao/uploaded/i1/62314016/O1CN01e9pAON1fXNjKDiAAl_!!62314016.jpg",
+    link: "https://ikako.vip/9nekn",
+    tag: "RANDOM",
   
-  // DODAC BUTY OD NEW BALANCOW // DODAC BUTY OD NEW BALANCOW // DODAC BUTY OD NEW BALANCOW // DODAC BUTY OD NEW BALANCOW
+  },
+  {
+    name: "RICK OWENS WIZARD HOODIE",
+    category: "Hoodies",
+    price: "$41",
+    image: "https://img.alicdn.com/bao/uploaded/i4/62314016/O1CN01acQlrm1fXNTge4elY_!!62314016.jpg",
+    link: "https://ikako.vip/7a3v6",
+    tag: "RANDOM",
+  
+  },
+  {
+    name: "RICK OWENS SUBHUMAN HOODIE",
+    category: "Hoodies",
+    price: "$39",
+    image: "https://img.alicdn.com/bao/uploaded/i3/62314016/O1CN01OVNA0I1fXNf0akPcv_!!62314016.jpg",
+    link: "https://ikako.vip/ghbm5",
+    tag: "RANDOM",
+  
+  },
+  {
+    name: "RICK OWENS SUBHUMAN LONGSLEEVE",
+    category: "Hoodies",
+    price: "$18",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01o9drtS1roZqgKLZPw_!!3361665678-0-cib.jpg",
+    link: "https://ikako.vip/v4kcc",
+    tag: "RANDOM",
+  
+  },
+  {
+    name: "DIOR HOMME SS07 BRUCE LEE HOODIE",
+    category: "Hoodies",
+    price: "$34",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/987caa4325a3033d07db37d9cdca1547.jpg",
+    link: "https://ikako.vip/k9crx",
+    tag: "RANDOM",
+  
+  },
+  {
+    name: "VETEMENTS SEXUAL FANTASIES",
+    category: "Hoodies",
+    price: "$58",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3822597683/O1CN014fPBij26cs22QmStU_!!3822597683.jpg",
+    link: "https://ikako.vip/8c7vs",
+    tag: "KJMADE",
+    rating: 5
+  
+  },
+  {
+    name: "VETEMENTS MTB HOODIE",
+    category: "Hoodies",
+    price: "$59",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3822597683/O1CN01Yhu5J226cs1sovJJR_!!3822597683.jpg",
+    link: "https://ikako.vip/xkucr",
+    tag: "KJMADE",
+    rating: 5
+  
+  },
+  {
+    name: "VETEMENTS ELEVEN INCH GUN CLUB GRAY",
+    category: "Hoodies",
+    price: "$59",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN01UPBPBu26crxz53r1G_!!3822597683.jpg",
+    link: "https://ikako.vip/nsudt",
+    tag: "KJMADE",
+    rating: 5
+  
+  },
+  {
+    name: "VETEMENTS ELEVEN INCH GUN CLUB BLACK",
+    category: "Hoodies",
+    price: "$59",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN01pGP7R726cs20IAU16_!!3822597683.jpg",
+    link: "https://ikako.vip/nhy34",
+    tag: "KJMADE",
+    rating: 5
+  
+  },
+  {
+    name: "VETEMENTS FREE HUGS",
+    category: "Hoodies",
+    price: "$59",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN018aIb1226cs3zM1v6p~hdr~_!!3822597683.heic",
+    link: "https://ikako.vip/fgp89",
+    tag: "KJMADE",
+    rating: 5
+  
+  },
+  {
+    name: "VETEMENTS ECTASY HOODIE",
+    category: "Hoodies",
+    price: "$62",
+    image: "https://img.alicdn.com/bao/uploaded/i3/3410334215/O1CN01rlgq9M1h0WOJUe6PP_!!3410334215.jpg",
+    link: "https://ikako.vip/ywje3",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  
+
+  // OD HELLSTARA W DOL   // OD HELLSTARA W DOL   // OD HELLSTARA W DOL   // OD HELLSTARA W DOL   // OD HELLSTARA W DOL   // OD HELLSTARA W DOL
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
   
   
@@ -620,7 +997,7 @@ function renderProducts() {
       <p>${p.price}</p>
       <div class="rating">${stars}</div>
       <a href="${p.link}" target="_blank" rel="noopener noreferrer">
-        <button class="link">✨ Zobacz produkt</button>
+        <button class="link">✨ Zobacz item</button>
       </a>
     `;
 
