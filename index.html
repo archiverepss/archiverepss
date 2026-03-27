@@ -46,6 +46,25 @@
         <span class="btn-icon">⛓️</span> Paski
       </button>
     </div>
+    
+    <!-- OPCJE SORTOWANIA I FILTROWANIA -->
+    <div class="filter-section">
+      <h3>Sortowanie</h3>
+      <select id="sortSelect" onchange="applyFiltersAndSort()" class="filter-select">
+        <option value="default">Domyślne</option>
+        <option value="price_asc">Cena: od najniższej</option>
+        <option value="price_desc">Cena: od najwyższej</option>
+      </select>
+      
+      <h3>Filtr cenowy (PLN)</h3>
+      <div class="price-filter">
+        <input type="number" id="minPrice" placeholder="Min cena" oninput="applyFiltersAndSort()" class="price-input">
+        <span>-</span>
+        <input type="number" id="maxPrice" placeholder="Max cena" oninput="applyFiltersAndSort()" class="price-input">
+      </div>
+      <button onclick="clearPriceFilter()" class="clear-filter-btn">Wyczyść filtr</button>
+    </div>
+    
     <div class="stats">
       <div class="stat-item">
         <span class="stat-value" id="productCount">0</span>
@@ -65,7 +84,7 @@
           <circle cx="11" cy="11" r="8"/>
           <path d="m21 21-4.35-4.35"/>
         </svg>
-        <input type="text" id="search" placeholder="Szukaj produktu..." oninput="renderProducts()" />
+        <input type="text" id="search" placeholder="Szukaj produktu..." oninput="applyFiltersAndSort()" />
       </div>
     </div>
 
@@ -73,7 +92,7 @@
   </main>
 </div>
 
-<!-- 🟣 PŁYWAJĄCE KOŁO Z LINKAMI -->
+<!-- PŁYWAJĄCE KOŁO Z LINKAMI -->
 <div class="floating-circle">
   <div class="circle-trigger" id="circleTrigger">
     <div class="plus-icon">+</div>

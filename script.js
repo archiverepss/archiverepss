@@ -90,7 +90,7 @@ let products = [
   {
     name: "AF1 X NOCTA",
     category: "Shoes",
-    price: "$44",
+    price: "$41",
     image: "https://si.geilicdn.com/open1733523732-1234478995-7a39000001937dd368d70aa08290_1166_874.jpg?w=640&h=640",
     link: "https://ikako.vip/3nrke",
     tag: "X",
@@ -921,9 +921,256 @@ let products = [
     rating: 5
   
   },
+  {
+    name: "HELLSTAR TOUR HOODIE",
+    category: "Hoodies",
+    price: "$47",
+    image: "https://image.ceneostatic.pl/data/products/165027476/i-hellstar-tour-hoodie-xl.jpg",
+    link: "https://ikako.vip/rsvfq",
+    tag: "PIKA",
+    rating: 5
+  
+  },
+  {
+    name: "HELLSTAR BRAINWASHED PINK HOODIE",
+    category: "Hoodies",
+    price: "$66",
+    image: "https://images.stockx.com/images/Hellstar-Brainwashed-With-Brain-Hoodie-Pink.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&q=60&dpr=1&trim=color&updated_at=1692432898",
+    link: "https://ikako.vip/26z7v",
+    tag: "PIKA",
+    rating: 5
+  
+  },
+  {
+    name: "1000GSM DOUBLE LAYER BLANK HOODIE",
+    category: "Hoodies",
+    price: "$56",
+    image: "https://img.alicdn.com/bao/uploaded/i4/808386976/O1CN01zulWYB21P44MltpmS_!!808386976.jpg",
+    link: "https://ikako.vip/b7gtj",
+    tag: "UNIONKINGDOM",
+    rating: 5
+  
+  },
+  {
+    name: "360GSM BLANK HOODIE",
+    category: "Hoodies",
+    price: "$25",
+    image: "https://img.alicdn.com/bao/uploaded/i1/808386976/O1CN01Z31Ese21P44B6wCSa_!!808386976.jpg",
+    link: "https://ikako.vip/jdar4",
+    tag: "UNIONKINGDOM",
+    rating: 5
+  
+  },
+  {
+    name: "480GSM BLANK HOODIE",
+    category: "Hoodies",
+    price: "$34",
+    image: "https://img.alicdn.com/bao/uploaded/i4/808386976/O1CN01xJiAAp21P44PkivwB_!!808386976.jpg",
+    link: "https://ikako.vip/d65q6",
+    tag: "UNIONKINGDOM",
+    rating: 5
+  
+  },
+  {
+    name: "630GSM BLANK HOODIE",
+    category: "Hoodies",
+    price: "$37",
+    image: "https://img.alicdn.com/bao/uploaded/i3/808386976/O1CN01yn8oxv21P3z1hfHon_!!808386976.jpg",
+    link: "https://ikako.vip/v8tnp",
+    tag: "UNIONKINGDOM",
+    rating: 5
+  
+  },
+  {
+    name: "AKIMBO WHITE HOODIE",
+    category: "Hoodies",
+    price: "$29",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/13/9bb1203a492c88a9272183207842e6ae.jpg",
+    link: "https://ikako.vip/ph9jr",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "AKIMBO BLACK HOODIE",
+    category: "Hoodies",
+    price: "$29",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/1/cc78d72496fef80b9adb516e3b559444.jpg",
+    link: "https://ikako.vip/yjdtx",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "RAF SIMONS NEW ORDER HOODIE",
+    category: "Hoodies",
+    price: "$75",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2200736549757/O1CN01fQtofd2LwlX2BV5UF_!!2200736549757.jpg",
+    link: "https://ikako.vip/agxty",
+    tag: "MADEBYSWAG",
+    rating: 5
+  
+  },
+  {
+    name: "RAF SIMONS ROOTS HOODIE",
+    category: "Hoodies",
+    price: "$75",
+    image: "http://img.alicdn.com/imgextra/i3/2200736549757/O1CN01C04sop2LwlX7Dmw5p_!!2200736549757.jpg",
+    link: "https://ikako.vip/68ntw",
+    tag: "MADEBYSWAG",
+    rating: 5
+  
+  },
+  {
+    name: "RAF SIMONS VIRGINIA CREEPER CREWNECK",
+    category: "Hoodies",
+    price: "$62",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/18/87db2535902729346f1b20f54751989d.jpg",
+    link: "https://ikako.vip/myvhe3",
+    tag: "MADEBYSWAG",
+    rating: 5
+  
+  },
+  {
+    name: "PEACE IN WAR CHERRY BLOSSOM HOODIE",
+    category: "Hoodies",
+    price: "$31",
+    image: "https://si.geilicdn.com/wdseller1995625455-017a0000019b0db3cdb80a2303ea_1290_1720.jpg",
+    link: "https://ikako.vip/9ngyc",
+    tag: "ALIEN",
+    rating: 5
+  
+  },
+  {
+    name: "PEACE IN WAR FUCK THE INDUSTRY HOODIE",
+    category: "Hoodies",
+    price: "$32.76",
+    image: "https://si.geilicdn.com/wdseller1995625455-03d40000019b0db7d7b00a2102b1_1290_1720.jpg",
+    link: "https://ikako.vip/kassc",
+    tag: "ALIEN",
+    rating: 5
+  
+  },
+  {
+    name: "PEACE IN WAR WINTER WAR HOODIE",
+    category: "Hoodies",
+    price: "$32.6",
+    image: "https://si.geilicdn.com/wdseller1995625455-5b8a0000019b5e45a2bb0a2395e9_1290_1720.jpg",
+    link: "https://ikako.vip/pjby8",
+    tag: "ALIEN",
+    rating: 5
+  
+  },
+  {
+    name: "PEACE IN WAR SWEDEN HOODIE",
+    category: "Hoodies",
+    price: "$31.03",
+    image: "https://si.geilicdn.com/wdseller1995625455-4a6200000199b48e9dbe0a2301f1_1290_1720.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7567731360%26wfr%3Dc&affcode=archivee",
+    tag: "ALIEN",
+    rating: 5
+  
+  },
+  {
+    name: "BURBERRY BLACK HOODIE",
+    category: "Hoodies",
+    price: "$48.27",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/13/6be7311acca5546e85446e84396a055b.jpg",
+    link: "https://ikako.vip/9znptv",
+    tag: "THUNDER",
+    rating: 5
+  
+  },
+  {
+    name: "BURBERRY GREY HOODIE",
+    category: "Hoodies",
+    price: "$50.93",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/26/bb6e3a8cb6932b8b81a8bcbfdca839f0.jpg",
+    link: "https://ikako.vip/s7kpd",
+    tag: "THUNDER",
+    rating: 5
+  
+  },
+
+  {
+    name: "SUPREME X BURBERRY",
+    category: "Hoodies",
+    price: "$48.27",
+    image: "https://sneakerman.store/wp-content/uploads/2024/10/supreme-x-burberry-box-logo-hooded-sweatshirt-heather-grey-1200x1321.webp",
+    link: "https://ikako.vip/vnfeq",
+    tag: "THUNDER",
+    rating: 5
+  
+  },
+  {
+    name: "BURBERRY ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$50.93",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/25/7c0d044a539812b3b2d5eb77a7f0addc.jpg",
+    link: "https://ikako.vip/zjmxnf",
+    tag: "THUNDER",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS 1997 HOODIE",
+    category: "Hoodies",
+    price: "$20.38",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01h6khbf1qHJY0gTJYt_!!2219381645470-0-cib.jpg",
+    link: "https://ikako.vip/bpdqj",
+    tag: "YISHAN",
+    rating: 3
+  
+  },
+  {
+    name: "ESSENTIALS X NBA HOODIE",
+    category: "Hoodies",
+    price: "$24.29",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/11/b02c219556fa4b16065c111d9828b494.jpg",
+    link: "https://ikako.vip/tgsvs",
+    tag: "YISHAN",
+    rating: 3
+  
+  },
+  {
+    name: "ESSENTIALS FOG",
+    category: "Hoodies",
+    price: "$36.24",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/e18f98ce66ec33a026096aae8e59cee0.jpg",
+    link: "https://ikako.vip/9jecu",
+    tag: "TOPHOT",
+    rating: 4
+  
+  },
+  {
+    name: "ESSENTIALS FOG",
+    category: "Hoodies",
+    price: "$31",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/11/b7239d9756a065d5d55db2b307947615.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D978371331776&affcode=archivee",
+    tag: "TOPHOT",
+    rating: 4
+  
+  },
+  {
+    name: "ESSENTIALS FOG",
+    category: "Hoodies",
+    price: "$34.84",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/11/802a6f35780b40baf23b8b6e34068ca0.jpg",
+    link: "https://ikako.vip/rqe7wa",
+    tag: "TOPHOT",
+    rating: 4
+  
+  },
+  
+   // ralph // ralph
+  
+  
+  
+  
   
 
-  // OD HELLSTARA W DOL   // OD HELLSTARA W DOL   // OD HELLSTARA W DOL   // OD HELLSTARA W DOL   // OD HELLSTARA W DOL   // OD HELLSTARA W DOL
+  
   
   
   
@@ -943,6 +1190,82 @@ let products = [
 // ⚠️ NIE EDYTUJ KODU PONIŻEJ (chyba że wiesz co robisz)
 // ============================================
 
+// Kurs USD do PLN
+const USD_TO_PLN = 3.74;
+
+// Funkcja parsująca cenę z stringa
+function parsePrice(priceStr) {
+  if (!priceStr) return 0;
+  let clean = priceStr.replace('$', '').trim();
+  if (clean.includes('-')) {
+    const parts = clean.split('-');
+    const min = parseFloat(parts[0]);
+    const max = parseFloat(parts[1]);
+    return (min + max) / 2;
+  }
+  return parseFloat(clean);
+}
+
+// Funkcja konwertująca USD na PLN
+function usdToPln(priceStr) {
+  const usd = parsePrice(priceStr);
+  if (isNaN(usd)) return 0;
+  return Math.round(usd * USD_TO_PLN);
+}
+
+// Funkcja formatująca cenę do wyświetlenia
+function formatPrice(priceStr) {
+  const usdValue = parsePrice(priceStr);
+  if (isNaN(usdValue)) return priceStr;
+  
+  if (priceStr.includes('-')) {
+    const parts = priceStr.replace('$', '').split('-');
+    const minPln = Math.round(parseFloat(parts[0]) * USD_TO_PLN);
+    const maxPln = Math.round(parseFloat(parts[1]) * USD_TO_PLN);
+    return `
+      <div class="card-price-wrapper">
+        <span class="card-price-usd">${priceStr}</span>
+        <span class="card-price-pln">≈ ${minPln} - ${maxPln} PLN</span>
+      </div>
+    `;
+  }
+  
+  const pln = usdToPln(priceStr);
+  return `
+    <div class="card-price-wrapper">
+      <span class="card-price-usd">${priceStr}</span>
+      <span class="card-price-pln">≈ ${pln} PLN</span>
+    </div>
+  `;
+}
+
+// Zmienne do filtrowania i sortowania
+let currentSort = "default";
+let currentMinPrice = null;
+let currentMaxPrice = null;
+
+function applyFiltersAndSort() {
+  currentSort = document.getElementById("sortSelect")?.value || "default";
+  
+  const minInput = document.getElementById("minPrice");
+  const maxInput = document.getElementById("maxPrice");
+  
+  currentMinPrice = minInput && minInput.value ? parseFloat(minInput.value) : null;
+  currentMaxPrice = maxInput && maxInput.value ? parseFloat(maxInput.value) : null;
+  
+  renderProducts();
+}
+
+function clearPriceFilter() {
+  const minInput = document.getElementById("minPrice");
+  const maxInput = document.getElementById("maxPrice");
+  if (minInput) minInput.value = "";
+  if (maxInput) maxInput.value = "";
+  currentMinPrice = null;
+  currentMaxPrice = null;
+  renderProducts();
+}
+
 function setCategory(cat) {
   category = cat;
   
@@ -961,10 +1284,36 @@ function renderProducts() {
 
   if (!grid) return;
 
-  const filtered = products.filter(p => 
+  // Filtrowanie po kategorii i wyszukiwaniu
+  let filtered = products.filter(p => 
     (category === "All" || p.category === category) &&
     p.name.toLowerCase().includes(search)
   );
+  
+  // Filtrowanie po cenie (PLN)
+  if (currentMinPrice !== null || currentMaxPrice !== null) {
+    filtered = filtered.filter(p => {
+      const pricePLN = usdToPln(p.price);
+      if (currentMinPrice !== null && pricePLN < currentMinPrice) return false;
+      if (currentMaxPrice !== null && pricePLN > currentMaxPrice) return false;
+      return true;
+    });
+  }
+  
+  // Sortowanie
+  if (currentSort === "price_asc") {
+    filtered.sort((a, b) => {
+      const priceA = parsePrice(a.price);
+      const priceB = parsePrice(b.price);
+      return priceA - priceB;
+    });
+  } else if (currentSort === "price_desc") {
+    filtered.sort((a, b) => {
+      const priceA = parsePrice(a.price);
+      const priceB = parsePrice(b.price);
+      return priceB - priceA;
+    });
+  }
 
   const productCountSpan = document.getElementById("productCount");
   if (productCountSpan) {
@@ -989,12 +1338,13 @@ function renderProducts() {
 
     let stars = "★".repeat(p.rating) + "☆".repeat(5 - p.rating);
     const tagHtml = p.tag ? `<div class="tag">${p.tag}</div>` : '';
+    const priceHtml = formatPrice(p.price);
 
     el.innerHTML = `
       <img src="${p.image}" alt="${p.name}" onerror="this.src='https://via.placeholder.com/300?text=No+Image'">
       ${tagHtml}
       <h3>${escapeHtml(p.name)}</h3>
-      <p>${p.price}</p>
+      ${priceHtml}
       <div class="rating">${stars}</div>
       <a href="${p.link}" target="_blank" rel="noopener noreferrer">
         <button class="link">✨ Zobacz item</button>

@@ -110,6 +110,86 @@ body {
   border-left: 2px solid #a855f7;
 }
 
+.filter-section {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.filter-section h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #666;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+
+.filter-section h3:first-of-type {
+  margin-top: 0;
+}
+
+.filter-select {
+  width: 100%;
+  background: rgba(17, 17, 17, 0.9);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: 12px;
+  padding: 10px 12px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #a855f7;
+}
+
+.price-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.price-input {
+  flex: 1;
+  background: rgba(17, 17, 17, 0.9);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: 12px;
+  padding: 10px 12px;
+  color: white;
+  font-size: 14px;
+}
+
+.price-input:focus {
+  outline: none;
+  border-color: #a855f7;
+}
+
+.price-filter span {
+  color: #666;
+}
+
+.clear-filter-btn {
+  width: 100%;
+  background: rgba(168, 85, 247, 0.1);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: 12px;
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 8px;
+}
+
+.clear-filter-btn:hover {
+  background: rgba(168, 85, 247, 0.2);
+  border-color: #a855f7;
+}
+
 .stats {
   margin-top: 48px;
   padding-top: 24px;
@@ -267,11 +347,23 @@ body {
   font-weight: 600;
 }
 
-.card p {
+.card-price-wrapper {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 8px 0;
+}
+
+.card-price-usd {
   font-size: 20px;
   font-weight: 700;
   color: #a855f7;
-  margin: 8px 0;
+}
+
+.card-price-pln {
+  font-size: 14px;
+  color: #888;
 }
 
 .rating {
@@ -322,9 +414,7 @@ button.link:hover {
   font-size: 16px;
 }
 
-/* ============================================
-   🟣 PŁYWAJĄCE KOŁO Z LINKAMI - ZDJĘCIA PNG
-   ============================================ */
+/* PŁYWAJĄCE KOŁO Z LINKAMI */
 .floating-circle {
   position: fixed;
   bottom: 40px;
@@ -470,5 +560,11 @@ button.link:hover {
   .link-item img {
     width: 24px;
     height: 24px;
+  }
+  .price-filter {
+    flex-wrap: wrap;
+  }
+  .price-input {
+    min-width: 100px;
   }
 }
