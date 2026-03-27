@@ -1519,9 +1519,8 @@ let products = [
 // ============================================
 
 // Kurs USD do PLN
-const USD_TO_PLN = 3.74;
+const USD_TO_PLN = 3.72;
 
-// Funkcja parsująca cenę z stringa
 function parsePrice(priceStr) {
   if (!priceStr) return 0;
   let clean = priceStr.replace('$', '').trim();
@@ -1534,18 +1533,13 @@ function parsePrice(priceStr) {
   return parseFloat(clean);
 }
 
-// Funkcja konwertująca USD na PLN
 function usdToPln(priceStr) {
   const usd = parsePrice(priceStr);
   if (isNaN(usd)) return 0;
   return Math.round(usd * USD_TO_PLN);
 }
 
-// Funkcja formatująca cenę do wyświetlenia
 function formatPrice(priceStr) {
-  const usdValue = parsePrice(priceStr);
-  if (isNaN(usdValue)) return priceStr;
-  
   if (priceStr.includes('-')) {
     const parts = priceStr.replace('$', '').split('-');
     const minPln = Math.round(parseFloat(parts[0]) * USD_TO_PLN);
@@ -1557,7 +1551,6 @@ function formatPrice(priceStr) {
       </div>
     `;
   }
-  
   const pln = usdToPln(priceStr);
   return `
     <div class="card-price-wrapper">
@@ -1567,58 +1560,60 @@ function formatPrice(priceStr) {
   `;
 }
 
-// Zmienne do filtrowania i sortowania
 let currentSort = "default";
 let currentMinPrice = null;
 let currentMaxPrice = null;
 
 function applyFiltersAndSort() {
   currentSort = document.getElementById("sortSelect")?.value || "default";
-  
   const minInput = document.getElementById("minPrice");
   const maxInput = document.getElementById("maxPrice");
-  
   currentMinPrice = minInput && minInput.value ? parseFloat(minInput.value) : null;
   currentMaxPrice = maxInput && maxInput.value ? parseFloat(maxInput.value) : null;
-  
   renderProducts();
 }
 
 function clearPriceFilter() {
   const minInput = document.getElementById("minPrice");
   const maxInput = document.getElementById("maxPrice");
+  const sortSelect = document.getElementById("sortSelect");
+  
+  // Wyczyść pola cenowe
   if (minInput) minInput.value = "";
   if (maxInput) maxInput.value = "";
+  
+  // Zresetuj zmienne filtrów
   currentMinPrice = null;
   currentMaxPrice = null;
+  
+  // Opcjonalnie: zresetuj sortowanie do domyślnego (jeśli chcesz)
+  if (sortSelect) {
+    sortSelect.value = "default";
+    currentSort = "default";
+  }
+  
+  // Odśwież produkty
   renderProducts();
 }
 
 function setCategory(cat) {
   category = cat;
-  
-  document.querySelectorAll('.cat-btn').forEach(btn => {
-    btn.classList.remove('active');
-  });
+  document.querySelectorAll('.cat-btn').forEach(btn => btn.classList.remove('active'));
   const activeBtn = document.querySelector(`[onclick="setCategory('${cat}')"]`);
   if (activeBtn) activeBtn.classList.add('active');
-  
   renderProducts();
 }
 
 function renderProducts() {
   const grid = document.getElementById("grid");
   const search = document.getElementById("search").value.toLowerCase();
-
   if (!grid) return;
 
-  // Filtrowanie po kategorii i wyszukiwaniu
   let filtered = products.filter(p => 
     (category === "All" || p.category === category) &&
     p.name.toLowerCase().includes(search)
   );
   
-  // Filtrowanie po cenie (PLN)
   if (currentMinPrice !== null || currentMaxPrice !== null) {
     filtered = filtered.filter(p => {
       const pricePLN = usdToPln(p.price);
@@ -1628,42 +1623,24 @@ function renderProducts() {
     });
   }
   
-  // Sortowanie
   if (currentSort === "price_asc") {
-    filtered.sort((a, b) => {
-      const priceA = parsePrice(a.price);
-      const priceB = parsePrice(b.price);
-      return priceA - priceB;
-    });
+    filtered.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
   } else if (currentSort === "price_desc") {
-    filtered.sort((a, b) => {
-      const priceA = parsePrice(a.price);
-      const priceB = parsePrice(b.price);
-      return priceB - priceA;
-    });
+    filtered.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
   }
 
   const productCountSpan = document.getElementById("productCount");
-  if (productCountSpan) {
-    productCountSpan.textContent = filtered.length;
-  }
+  if (productCountSpan) productCountSpan.textContent = filtered.length;
 
   if (filtered.length === 0) {
-    grid.innerHTML = `
-      <div class="loading">
-        ✨ Brak produktów w tej kategorii<br>
-        <span style="font-size: 12px; color: #444;">Spróbuj zmienić filtry</span>
-      </div>
-    `;
+    grid.innerHTML = `<div class="loading">✨ Brak produktów w tej kategorii<br><span style="font-size: 12px; color: #444;">Spróbuj zmienić filtry</span></div>`;
     return;
   }
 
   grid.innerHTML = "";
-
   filtered.forEach(p => {
     const el = document.createElement("div");
     el.className = "card";
-
     let stars = "★".repeat(p.rating) + "☆".repeat(5 - p.rating);
     const tagHtml = p.tag ? `<div class="tag">${p.tag}</div>` : '';
     const priceHtml = formatPrice(p.price);
@@ -1678,7 +1655,6 @@ function renderProducts() {
         <button class="link">✨ Zobacz item</button>
       </a>
     `;
-
     grid.appendChild(el);
   });
 }
@@ -1693,7 +1669,22 @@ function escapeHtml(str) {
   });
 }
 
-// 🟣 OBSŁUGA PŁYWAJĄCEGO KOŁA
+// Funkcja kopiowania kodu rabatowego
+function copyCode() {
+  const code = "archiverepss";
+  navigator.clipboard.writeText(code).then(() => {
+    const btn = document.querySelector('.copy-code');
+    if (btn) {
+      const originalText = btn.innerHTML;
+      btn.innerHTML = '✅ Skopiowano!';
+      setTimeout(() => {
+        btn.innerHTML = originalText;
+      }, 2000);
+    }
+  });
+}
+
+// Obsługa pływającego koła
 document.addEventListener('DOMContentLoaded', () => {
   const trigger = document.getElementById('circleTrigger');
   const links = document.getElementById('circleLinks');
@@ -1710,6 +1701,35 @@ document.addEventListener('DOMContentLoaded', () => {
         trigger.classList.remove('open');
         links.classList.remove('open');
       });
+    });
+  }
+});
+
+// Popup rejestracyjny
+document.addEventListener('DOMContentLoaded', () => {
+  const popup = document.getElementById('popupOverlay');
+  const closeBtn = document.getElementById('popupClose');
+  
+  const hasSeenPopup = sessionStorage.getItem('hasSeenKakobuyPopup');
+  
+  if (!hasSeenPopup && popup) {
+    setTimeout(() => {
+      popup.classList.add('active');
+      sessionStorage.setItem('hasSeenKakobuyPopup', 'true');
+    }, 1500);
+  }
+  
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      if (popup) popup.classList.remove('active');
+    });
+  }
+  
+  if (popup) {
+    popup.addEventListener('click', (e) => {
+      if (e.target === popup) {
+        popup.classList.remove('active');
+      }
     });
   }
 });
