@@ -756,3 +756,127 @@ button.link:hover {
     font-size: 40px;
   }
 }
+
+/* ============================================
+   LIGHTBOX - POWIĘKSZANIE ZDJĘĆ
+   ============================================ */
+   .lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(8px);
+    z-index: 3000;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .lightbox.active {
+    display: flex;
+  }
+  
+  .lightbox-img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 0 50px rgba(168, 85, 247, 0.3);
+    animation: zoomIn 0.3s ease;
+    cursor: default;
+  }
+  
+  .lightbox-close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 48px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 3001;
+    font-weight: 300;
+  }
+  
+  .lightbox-close:hover {
+    color: #a855f7;
+    transform: rotate(90deg);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes zoomIn {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  
+  /* Przycisk powiększenia na zdjęciu */
+  .card-img-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  
+  .card-img-wrapper img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-img-wrapper:hover img {
+    transform: scale(1.05);
+  }
+  
+  .zoom-icon {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .zoom-icon svg {
+    width: 20px;
+    height: 20px;
+    stroke: white;
+    stroke-width: 2;
+  }
+  
+  .card-img-wrapper:hover .zoom-icon {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .lightbox-close {
+      top: 20px;
+      right: 20px;
+      font-size: 36px;
+    }
+    .zoom-icon {
+      width: 32px;
+      height: 32px;
+    }
+    .zoom-icon svg {
+      width: 18px;
+      height: 18px;
+    }
+  }

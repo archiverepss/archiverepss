@@ -1485,6 +1485,327 @@ let products = [
     rating: 5
   
   },
+  {
+    name: "VETEMENTS INTERPOL TEE",
+    category: "Tshirts",
+    price: "$32.76",
+    image: "https://img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i4/3410334215/O1CN01z6vrDX1h0WOiAv5WA_!!3410334215.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D824732030088",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  {
+    name: "SYNA WORLD PLAYBOY T-SHIRT",
+    category: "Tshirts",
+    price: "$12",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2200616171702/O1CN018kCAEI1ORZ4zgd6WC_!!2200616171702.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D819278430583&affcode=archivee",
+    tag: "BEST",
+    rating: 5
+  
+  },
+  {
+    name: "SYNA X PSG T-SHIRT",
+    category: "Tshirts",
+    price: "$12.23",
+    image: "https://si.geilicdn.com/wdseller1274221412-3d860000019614d0152a0a2102b1_1284_1284.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1274221412.v.weidian.com%2Fitem.html%3FitemID%3D7443980484&affcode=archivee",
+    tag: "BEST",
+    rating: 5
+  
+  },
+  {
+    name: "SYNA BLACK T-SHIRT",
+    category: "Tshirts",
+    price: "$12.23",
+    image: "https://si.geilicdn.com/wdseller1274221412-6f2900000192fba736a60a230246_1284_1284.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1274221412.v.weidian.com%2Fitem.html%3FitemID%3D7298162199&affcode=archivee",
+    tag: "BEST",
+    rating: 5
+  
+  },
+  {
+    name: "NIKE X STUSSY T-SHIRT",
+    category: "Tshirts",
+    price: "$14.89",
+    image: "https://si.geilicdn.com/open1804138897-1234478995-1839000001900cbb3a7b0a8133b5_800_800.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7243919380&affcode=archivee",
+    tag: "RANDOM BATCH",
+    rating: 4
+  
+  },
+  {
+    name: "STUSSY T-SHIRTS",
+    category: "Tshirts",
+    price: "$7.06",
+    image: "https://si.geilicdn.com/pcitem901870080011-5c1e000001979bb785ea0a8134f0_1180_1572.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fk.youshop10.com%2FKfGo8Zl4&affcode=archivee",
+    tag: "YOLO",
+    rating: 4
+  
+  },
+  {
+    name: "SP5DER OG WEB V2 GRAY TEE",
+    category: "Tshirts",
+    price: "$16.06",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2219813327674/O1CN013L2ggE26YkUE7zWaG_!!2219813327674.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D931241172963&affcode=archivee",
+    tag: "PIKA",
+    rating: 5
+  
+  },
+  {
+    name: "SP5DER X TRAVIS CACTUS JACK",
+    category: "Tshirts",
+    price: "$16.73",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2219813327674/O1CN01UGy4hV26YkT5zYhNU_!!2219813327674.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D930374774167&affcode=archivee",
+    tag: "PIKA",
+    rating: 5
+  
+  },
+  {
+    name: "SP5DER TEE",
+    category: "Tshirts",
+    price: "$9.41",
+    image: "https://img.alicdn.com/imgextra/i1/2212715957798/O1CN01WlY4l327TXW9PW7at_!!2212715957798.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D823211569627&affcode=archivee",
+    tag: "PIKA",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ HEAVYWEIGHT TEE",
+    category: "Tshirts",
+    price: "$17.27",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3105353542/O1CN01f52U491c2Hv6O2aCe_!!3105353542.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D921974523491%26pisk%3Dg&affcode=archivee",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ CAN'T RUSH TEE",
+    category: "Tshirts",
+    price: "$12.58",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3105353542/O1CN01WQKHfq1c2HuCZedyJ_!!3105353542.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D899613948225%26sku_properties%3D1627207%253A37183560801&affcode=archivee",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ ITALIA TEE",
+    category: "Tshirts",
+    price: "$12.23",
+    image: "https://si.geilicdn.com/wdseller1936187346-08d8000001988d7354380a23111a_1288_1288.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1833725707.v.weidian.com%2Fitem.html%3FitemID%3D7653791465&affcode=archivee",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ BBK TEE",
+    category: "Tshirts",
+    price: "$13.32",
+    image: "https://si.geilicdn.com/wdseller1936187346-574f000001991dcde8250a23037f_1290_1290.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1833725707.v.weidian.com%2Fitem.html%3FitemID%3D7656820910&affcode=archivee",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ SANTAN ALCATRAZ TEE",
+    category: "Tshirts",
+    price: "$13.32",
+    image: "https://si.geilicdn.com/wdseller1936187346-0edc0000019aaa7bfd990a231177_1320_1320.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1833725707.v.weidian.com%2Fitem.html%3FitemID%3D7653884243&affcode=archivee",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ RSLM TEE",
+    category: "Tshirts",
+    price: "$12.23",
+    image: "https://si.geilicdn.com/wdseller1936187346-44ad0000019ace2f775f0a210139_1320_1320.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1833725707.v.weidian.com%2Fitem.html%3FitemID%3D7656862294&affcode=archivee",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  
+  {
+    name: "CDG TEE",
+    category: "Tshirts",
+    price: "$20.62",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01vmC0951FEtQNWRf5j_!!2943390456.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D706505282193&affcode=archivee",
+    tag: "LMYER",
+    rating: 5
+  
+  },
+  {
+    name: "CDG PLAY TEE",
+    category: "Tshirts",
+    price: "$22.93",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2220706226099/O1CN01rAsnnL1uvOh82eklG_!!2220706226099.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D974955606875&affcode=archivee",
+    tag: "REPBROS",
+    rating: 5
+  
+  },
+  {
+    name: "CDG DOUBLE HEARTS",
+    category: "Tshirts",
+    price: "$22.5",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2220706226099/O1CN01e2HvS31uvOh7Cx4Eo_!!2220706226099.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D976288568920&affcode=archivee",
+    tag: "REPBROS",
+    rating: 5
+  
+  },
+  {
+    name: "CDG PLAY TEES",
+    category: "Tshirts",
+    price: "$19.46",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2220706226099/O1CN019YyHZ01uvOh7HyhDp_!!2220706226099.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D974427059839&affcode=archivee",
+    tag: "REPBROS",
+    rating: 5
+  
+  },
+  {
+    name: "CDG PLAY TEE",
+    category: "Tshirts",
+    price: "$22.52",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2220706226099/O1CN01F6vyZ21uvOh7iPfPv_!!2220706226099.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D976313608209&affcode=archivee",
+    tag: "REPBROS",
+    rating: 5
+  
+  },
+  {
+    name: "GALLERY DEPT TSHIRTS (BUDGET)",
+    category: "Tshirts",
+    price: "$14.15",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2217139011106/O1CN01rLyBXN1K2b1ufD22p_!!2217139011106.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D771007293616&affcode=archivee",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "PALM ANGELS TSHIRTS (BUDGET)",
+    category: "Tshirts",
+    price: "$14.15",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2217139011106/O1CN01ImpDF51K2azrRaWIl_!!2217139011106.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D770939300665&affcode=archivee",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "BALENCIAGA T-SHIRTS (BUDGET)",
+    category: "Tshirts",
+    price: "$17.32",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01eawJE91lYBvjgEwV7_!!2217508584830-0-cib.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F772475692748.html&affcode=archivee",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "FORTNITE X BALENCIAGA (RANDOM/BUDGET)",
+    category: "Tshirts",
+    price: "$31.19",
+    image: "https://si.geilicdn.com/wdseller1024195542-7f15000001814d53603a0a22b3e4_1124_1500.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D4980473884&affcode=archivee",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "BALENCIAGA PULL UP PANTS",
+    category: "Shorts",
+    price: "$69.07",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/54ed7f4ebe9c6436bf64b82e1a493b6b.jpg",
+    link: "https://ikako.vip/yg962",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  {
+    name: "BALENCIAGA BLUE FLARED LOST TAPES",
+    category: "Shorts",
+    price: "$62.96",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/2e1e9a448e834633f20451e8996d735a.jpg",
+    link: "https://ikako.vip/7zk79",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  {
+    name: "BALENCIAGA FITTED GEORGE V LOW WAIST PANTS",
+    category: "Shorts",
+    price: "$65.76",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/53fd709cf6ccc48d1922844fd88800dd.jpg",
+    link: "https://ikako.vip/u2csv",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  {
+    name: "BUDGET BALENCIAGA BAGGY JEANS",
+    category: "Shorts",
+    price: "$21.42",
+    image: "https://img.alicdn.com/bao/uploaded/i4/402758480/O1CN010zXoKN2CVtV2JeZT1_!!402758480.jpg",
+    link: "https://ikako.vip/an9zs",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "BALENCIAGA DOUBLE WAIST SWEATPANTS",
+    category: "Shorts",
+    price: "$56.14",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/a34e2928fe9e5b409c2cd43551fb0d14.jpg",
+    link: "https://ikako.vip/zc3nz",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  {
+    name: "BALENCIAGA FLARED JEANS (BUDGET)",
+    category: "Shorts",
+    price: "$25",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2214514093/O1CN01iiHQSF1g6dzXIV2Gj_!!2214514093.jpg",
+    link: "https://ikako.vip/z6naf",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "BALENCIAGA CUT UP JEANS",
+    category: "Shorts",
+    price: "$82",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/26/0fb129ef5dc14a4f903db78713952641.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fe.tb.cn%2Fh.SJOZrGOcmZOEBIX%3Ftk%3Dwi7xf7YnCzH&affcode=archivee",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  
+
+
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -1735,3 +2056,121 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 renderProducts();
+
+// ============================================
+// 🔍 LIGHTBOX - POWIĘKSZANIE ZDJĘĆ
+// ============================================
+
+function initLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const closeBtn = document.querySelector('.lightbox-close');
+  
+  if (!lightbox) return;
+  
+  // Funkcja otwierająca lightbox
+  window.openLightbox = function(imgSrc) {
+    lightboxImg.src = imgSrc;
+    lightbox.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  };
+  
+  // Zamknięcie po kliknięciu X
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    });
+  }
+  
+  // Zamknięcie po kliknięciu w tło
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  });
+  
+  // Zamknięcie po naciśnięciu ESC
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  });
+}
+
+// Zmodyfikuj funkcję renderProducts() – dodaj wrapper i ikonę lupy
+// ZASTĄP starą funkcję renderProducts() tą nową:
+
+function renderProducts() {
+  const grid = document.getElementById("grid");
+  const search = document.getElementById("search")?.value.toLowerCase() || "";
+  if (!grid) return;
+
+  let filtered = products.filter(p => 
+    (category === "All" || p.category === category) &&
+    p.name.toLowerCase().includes(search)
+  );
+  
+  if (currentMinPrice !== null || currentMaxPrice !== null) {
+    filtered = filtered.filter(p => {
+      const pricePLN = usdToPln(p.price);
+      if (currentMinPrice !== null && pricePLN < currentMinPrice) return false;
+      if (currentMaxPrice !== null && pricePLN > currentMaxPrice) return false;
+      return true;
+    });
+  }
+  
+  if (currentSort === "price_asc") {
+    filtered.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
+  } else if (currentSort === "price_desc") {
+    filtered.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
+  }
+
+  const productCountSpan = document.getElementById("productCount");
+  if (productCountSpan) productCountSpan.textContent = filtered.length;
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div class="loading">✨ Brak produktów w tej kategorii<br><span style="font-size: 12px; color: #444;">Spróbuj zmienić filtry</span></div>`;
+    return;
+  }
+
+  grid.innerHTML = "";
+  filtered.forEach(p => {
+    const el = document.createElement("div");
+    el.className = "card";
+    let stars = "★".repeat(p.rating) + "☆".repeat(5 - p.rating);
+    const tagHtml = p.tag ? `<div class="tag">${p.tag}</div>` : '';
+    const priceHtml = formatPrice(p.price);
+    
+    // Sprawdź czy zdjęcie jest dostępne
+    const imgSrc = p.image && p.image !== "" ? p.image : "https://via.placeholder.com/300?text=No+Image";
+
+    el.innerHTML = `
+      <div class="card-img-wrapper" onclick="openLightbox('${imgSrc}')">
+        <img src="${imgSrc}" alt="${escapeHtml(p.name)}" onerror="this.src='https://via.placeholder.com/300?text=No+Image'">
+        <div class="zoom-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.35-4.35"/>
+            <path d="M11 8v6M8 11h6"/>
+          </svg>
+        </div>
+      </div>
+      ${tagHtml}
+      <h3>${escapeHtml(p.name)}</h3>
+      ${priceHtml}
+      <div class="rating">${stars}</div>
+      <a href="${p.link}" target="_blank" rel="noopener noreferrer">
+        <button class="link">✨ Zobacz item</button>
+      </a>
+    `;
+    grid.appendChild(el);
+  });
+}
+
+// Inicjalizacja lightbox po załadowaniu strony
+document.addEventListener('DOMContentLoaded', () => {
+  initLightbox();
+});
