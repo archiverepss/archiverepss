@@ -843,15 +843,7 @@ let products = [
     tag: "RANDOM",
   
   },
-  {
-    name: "RICK OWENS SUBHUMAN LONGSLEEVE",
-    category: "Hoodies",
-    price: "$18",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN014HGIa71roZqfFu84C_!!3361665678-0-cib.jpg",
-    link: "https://ikako.vip/v4kcc",
-    tag: "RANDOM",
-  
-  },
+
   {
     name: "DIOR HOMME SS07 BRUCE LEE HOODIE",
     category: "Hoodies",
@@ -1112,16 +1104,7 @@ let products = [
     rating: 5
   
   },
-  {
-    name: "ESSENTIALS 1977 HOODIE",
-    category: "Hoodies",
-    price: "$20.38",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01N7w4PV1qHJY0gTiXF_!!2219381645470-0-cib.jpg",
-    link: "https://ikako.vip/bpdqj",
-    tag: "YISHAN",
-    rating: 3
-  
-  },
+
   {
     name: "ESSENTIALS X NBA HOODIE",
     category: "Hoodies",
@@ -1335,36 +1318,8 @@ let products = [
     rating: 5
   
   },
-  {
-    name: "CHROME HEARTS T-SHIRT (BUDGET BATCH)",
-    category: "Tshirts",
-    price: "$10.82",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01J5aZDL1EWT7YOmgUZ_!!2216561520359-0-cib.jpg",
-    link: "https://ikako.vip/a2hjh",
-    tag: "BUDGET",
-    rating: 4
-  
-  },
-  {
-    name: "MAISON MARGIELA T-SHIRTS (BUDGET)",
-    category: "Tshirts",
-    price: "$9.09",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN017Uh1YX2C3xZoLdTIY_!!2206818368419-0-cib.jpg",
-    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F987959630339.html&affcode=archivee",
-    tag: "BUDGET",
-    rating: 3
-  
-  },
-  {
-    name: "VETEMENTS T-SHIRTS (BUDGET)",
-    category: "Tshirts",
-    price: "$9.41",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01ix5nw61Oy56yrD2z6_!!2216497371773-0-cib.jpg",
-    link: "https://ikako.vip/4dj62",
-    tag: "BUDGET",
-    rating: 3
-  
-  },
+
+
   {
     name: "NUMBER NINE SOVC TEE",
     category: "Tshirts",
@@ -1706,16 +1661,7 @@ let products = [
     rating: 4
   
   },
-  {
-    name: "BALENCIAGA T-SHIRTS (BUDGET)",
-    category: "Tshirts",
-    price: "$17.32",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01J0CJsw1lYBvb88TiZ_!!2217508584830-0-cib.jpg",
-    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F772475692748.html&affcode=archivee",
-    tag: "BUDGET",
-    rating: 4
   
-  },
   {
     name: "FORTNITE X BALENCIAGA (RANDOM/BUDGET)",
     category: "Tshirts",
