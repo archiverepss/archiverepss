@@ -28,11 +28,11 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  width: 280px;
   background: rgba(8, 8, 8, 0.95);
   backdrop-filter: blur(10px);
   border-right: 1px solid rgba(107, 33, 165, 0.3);
-  padding: 32px 24px;
+  padding: 24px 20px;
   position: sticky;
   top: 0;
   height: 100vh;
@@ -42,12 +42,12 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 48px;
+  gap: 10px;
+  margin-bottom: 32px;
 }
 
 .logo-icon {
-  font-size: 32px;
+  font-size: 28px;
   color: #a855f7;
   animation: pulse 2s infinite;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .logo h1 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 800;
   letter-spacing: -0.5px;
   background: linear-gradient(135deg, #fff 0%, #a855f7 100%);
@@ -68,11 +68,11 @@ body {
 }
 
 .categories h3 {
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #666;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .cat-btn {
@@ -82,11 +82,11 @@ body {
   width: 100%;
   background: transparent;
   border: none;
-  padding: 12px 16px;
-  margin: 6px 0;
-  border-radius: 14px;
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 12px;
   color: #aaa;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -111,18 +111,18 @@ body {
 }
 
 .filter-section {
-  margin-top: 32px;
-  padding-top: 24px;
+  margin-top: 24px;
+  padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .filter-section h3 {
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #666;
-  margin-bottom: 12px;
-  margin-top: 16px;
+  margin-bottom: 10px;
+  margin-top: 12px;
 }
 
 .filter-section h3:first-of-type {
@@ -133,12 +133,12 @@ body {
   width: 100%;
   background: rgba(17, 17, 17, 0.9);
   border: 1px solid rgba(168, 85, 247, 0.3);
-  border-radius: 12px;
-  padding: 10px 12px;
+  border-radius: 10px;
+  padding: 8px 10px;
   color: white;
-  font-size: 14px;
+  font-size: 13px;
   cursor: pointer;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .filter-select:focus {
@@ -149,18 +149,20 @@ body {
 .price-filter {
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 12px;
+  gap: 6px;
+  margin-bottom: 10px;
 }
 
 .price-input {
   flex: 1;
   background: rgba(17, 17, 17, 0.9);
   border: 1px solid rgba(168, 85, 247, 0.3);
-  border-radius: 12px;
-  padding: 10px 12px;
+  border-radius: 10px;
+  padding: 8px 8px;
   color: white;
-  font-size: 14px;
+  font-size: 12px;
+  text-align: center;
+  width: 80px;
 }
 
 .price-input:focus {
@@ -170,19 +172,20 @@ body {
 
 .price-filter span {
   color: #666;
+  font-size: 12px;
 }
 
 .clear-filter-btn {
   width: 100%;
   background: rgba(168, 85, 247, 0.1);
   border: 1px solid rgba(168, 85, 247, 0.3);
-  border-radius: 12px;
-  padding: 10px;
+  border-radius: 10px;
+  padding: 8px;
   color: white;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 .clear-filter-btn:hover {
@@ -191,21 +194,21 @@ body {
 }
 
 .stats {
-  margin-top: 48px;
-  padding-top: 24px;
+  margin-top: 32px;
+  padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .stat-item {
   background: rgba(168, 85, 247, 0.05);
-  border-radius: 16px;
-  padding: 16px;
+  border-radius: 14px;
+  padding: 12px;
   text-align: center;
 }
 
 .stat-value {
   display: block;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 800;
   background: linear-gradient(135deg, #a855f7, #c084fc);
   -webkit-background-clip: text;
@@ -214,7 +217,7 @@ body {
 }
 
 .stat-label {
-  font-size: 12px;
+  font-size: 11px;
   color: #666;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -222,7 +225,7 @@ body {
 
 .main {
   flex: 1;
-  padding: 32px 40px;
+  padding: 24px 32px;
   overflow-y: auto;
 }
 
@@ -230,16 +233,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 16px;
 }
 
 .title-section h2 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   letter-spacing: -0.5px;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .gradient-text {
@@ -251,7 +254,7 @@ body {
 
 .title-section p {
   color: #666;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .search-box {
@@ -260,21 +263,23 @@ body {
 
 .search-icon {
   position: absolute;
-  left: 16px;
+  left: 14px;
   top: 50%;
   transform: translateY(-50%);
   color: #666;
   pointer-events: none;
+  width: 16px;
+  height: 16px;
 }
 
 .search-box input {
   background: rgba(17, 17, 17, 0.9);
   border: 1px solid rgba(168, 85, 247, 0.2);
-  border-radius: 40px;
-  padding: 12px 20px 12px 48px;
-  width: 280px;
+  border-radius: 30px;
+  padding: 10px 16px 10px 40px;
+  width: 260px;
   color: #fff;
-  font-size: 14px;
+  font-size: 13px;
   transition: all 0.3s ease;
 }
 
@@ -282,28 +287,34 @@ body {
   outline: none;
   border-color: #a855f7;
   background: #111;
-  width: 320px;
+  width: 280px;
 }
 
 .search-box input::placeholder {
   color: #444;
 }
 
+/* KARTY PRODUKTÓW - RÓWNA WYSOKOŚĆ */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 28px;
+  gap: 24px;
+  align-items: stretch;
 }
 
 .card {
   background: rgba(17, 17, 17, 0.8);
   backdrop-filter: blur(10px);
-  border-radius: 24px;
-  padding: 16px;
+  border-radius: 20px;
+  padding: 14px;
   transition: all 0.4s cubic-bezier(0.2, 0.8, 0.4, 1);
   border: 1px solid rgba(168, 85, 247, 0.1);
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 400px;
 }
 
 .card::before {
@@ -323,28 +334,69 @@ body {
 }
 
 .card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-6px);
   border-color: rgba(168, 85, 247, 0.3);
   box-shadow: 0 20px 40px -20px rgba(168, 85, 247, 0.3);
 }
 
-.card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 16px;
-  background: #0a0a0a;
-  transition: transform 0.4s ease;
+.card-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  cursor: pointer;
+  flex-shrink: 0;
 }
 
-.card:hover img {
-  transform: scale(1.02);
+.card-img-wrapper img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card-img-wrapper:hover img {
+  transform: scale(1.05);
+}
+
+.zoom-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.zoom-icon svg {
+  width: 18px;
+  height: 18px;
+  stroke: white;
+  stroke-width: 2;
+}
+
+.card-img-wrapper:hover .zoom-icon {
+  opacity: 1;
+  transform: scale(1.05);
 }
 
 .card h3 {
-  margin: 16px 0 8px;
-  font-size: 18px;
+  margin: 12px 0 6px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 44px;
 }
 
 .card-price-wrapper {
@@ -352,53 +404,57 @@ body {
   align-items: baseline;
   gap: 8px;
   flex-wrap: wrap;
-  margin: 8px 0;
+  margin: 6px 0;
+  flex-shrink: 0;
 }
 
 .card-price-usd {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: #a855f7;
 }
 
 .card-price-pln {
-  font-size: 14px;
+  font-size: 12px;
   color: #888;
 }
 
 .rating {
   color: #fbbf24;
-  font-size: 14px;
-  margin: 10px 0;
+  font-size: 12px;
+  margin: 8px 0;
   letter-spacing: 2px;
+  flex-shrink: 0;
 }
 
 .tag {
   display: inline-block;
   background: linear-gradient(135deg, #6b21a5, #a855f7);
-  padding: 4px 12px;
-  font-size: 10px;
+  padding: 3px 10px;
+  font-size: 9px;
   font-weight: 700;
-  border-radius: 20px;
+  border-radius: 16px;
   position: absolute;
-  top: 24px;
-  right: 24px;
+  top: 18px;
+  right: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
   backdrop-filter: blur(4px);
+  z-index: 2;
 }
 
 button.link {
   width: 100%;
-  padding: 12px;
+  padding: 10px;
   background: rgba(168, 85, 247, 0.1);
   border: 1px solid rgba(168, 85, 247, 0.3);
-  border-radius: 40px;
+  border-radius: 30px;
   color: #fff;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-top: 12px;
+  margin-top: auto;
+  font-size: 13px;
 }
 
 button.link:hover {
@@ -409,22 +465,22 @@ button.link:hover {
 
 .loading {
   text-align: center;
-  padding: 60px;
+  padding: 50px;
   color: #666;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* PŁYWAJĄCE KOŁO Z LINKAMI */
 .floating-circle {
   position: fixed;
-  bottom: 40px;
-  right: 40px;
+  bottom: 30px;
+  right: 30px;
   z-index: 1000;
 }
 
 .circle-trigger {
-  width: 56px;
-  height: 56px;
+  width: 52px;
+  height: 52px;
   background: linear-gradient(135deg, #6b21a5, #a855f7);
   border-radius: 50%;
   display: flex;
@@ -438,7 +494,7 @@ button.link:hover {
 
 @keyframes glow {
   0%, 100% { box-shadow: 0 0 20px rgba(168, 85, 247, 0.5); }
-  50% { box-shadow: 0 0 35px rgba(168, 85, 247, 0.8); }
+  50% { box-shadow: 0 0 30px rgba(168, 85, 247, 0.8); }
 }
 
 .circle-trigger:hover {
@@ -446,7 +502,7 @@ button.link:hover {
 }
 
 .plus-icon {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 300;
   color: white;
   transition: transform 0.3s ease;
@@ -458,11 +514,11 @@ button.link:hover {
 
 .circle-links {
   position: absolute;
-  bottom: 70px;
+  bottom: 65px;
   right: 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   opacity: 0;
   visibility: hidden;
   transform: translateY(15px) scale(0.9);
@@ -479,8 +535,8 @@ button.link:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   background: rgba(15, 15, 15, 0.95);
   backdrop-filter: blur(12px);
   border-radius: 50%;
@@ -492,8 +548,8 @@ button.link:hover {
 }
 
 .link-item img {
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   object-fit: contain;
   transition: all 0.25s ease;
 }
@@ -505,7 +561,6 @@ button.link:hover {
 .link-item.tiktok:hover {
   background: #000;
   border-color: #25f4ee;
-  box-shadow: 0 0 15px rgba(37, 244, 238, 0.4);
 }
 
 .link-item.discord:hover {
@@ -520,6 +575,64 @@ button.link:hover {
 
 .link-item:hover img {
   transform: scale(1.1);
+}
+
+/* LIGHTBOX - POWIĘKSZANIE ZDJĘĆ */
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(8px);
+  z-index: 3000;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  animation: fadeIn 0.3s ease;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox-img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 0 50px rgba(168, 85, 247, 0.3);
+  animation: zoomIn 0.3s ease;
+  cursor: default;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  font-size: 48px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 3001;
+  font-weight: 300;
+}
+
+.lightbox-close:hover {
+  color: #a855f7;
+  transform: rotate(90deg);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
 }
 
 /* POPUP REJESTRACYJNY */
@@ -548,9 +661,9 @@ button.link:hover {
 .popup-container {
   background: linear-gradient(135deg, rgba(20, 20, 20, 0.98), rgba(10, 10, 10, 0.98));
   backdrop-filter: blur(20px);
-  border-radius: 28px;
-  padding: 32px;
-  max-width: 400px;
+  border-radius: 24px;
+  padding: 28px;
+  max-width: 360px;
   width: 90%;
   text-align: center;
   border: 1px solid rgba(168, 85, 247, 0.3);
@@ -566,12 +679,12 @@ button.link:hover {
 
 .popup-close {
   position: absolute;
-  top: 16px;
-  right: 20px;
+  top: 12px;
+  right: 16px;
   background: none;
   border: none;
   color: #888;
-  font-size: 28px;
+  font-size: 24px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -582,20 +695,20 @@ button.link:hover {
 }
 
 .popup-icon {
-  font-size: 48px;
-  margin-bottom: 16px;
+  font-size: 40px;
+  margin-bottom: 12px;
   animation: bounce 1s ease infinite;
 }
 
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
+  50% { transform: translateY(-6px); }
 }
 
 .popup-container h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   background: linear-gradient(135deg, #fff, #a855f7);
   -webkit-background-clip: text;
   background-clip: text;
@@ -604,40 +717,35 @@ button.link:hover {
 
 .popup-container p {
   color: #aaa;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5;
-  margin-bottom: 24px;
-}
-
-.popup-container p strong {
-  color: #a855f7;
+  margin-bottom: 16px;
 }
 
 .popup-code {
   background: rgba(168, 85, 247, 0.1);
   border: 1px solid rgba(168, 85, 247, 0.3);
-  border-radius: 12px;
-  padding: 12px;
-  margin-bottom: 16px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
 }
 
 .code-label {
-  font-size: 12px;
+  font-size: 11px;
   color: #888;
-  letter-spacing: 1px;
 }
 
 .code-value {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   color: #a855f7;
   background: rgba(0, 0, 0, 0.5);
-  padding: 4px 12px;
+  padding: 4px 10px;
   border-radius: 8px;
   letter-spacing: 1px;
   font-family: monospace;
@@ -647,10 +755,10 @@ button.link:hover {
   background: rgba(168, 85, 247, 0.2);
   border: 1px solid rgba(168, 85, 247, 0.4);
   color: #a855f7;
-  padding: 6px 12px;
+  padding: 5px 10px;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
   transition: all 0.3s ease;
 }
@@ -658,21 +766,20 @@ button.link:hover {
 .copy-code:hover {
   background: #a855f7;
   color: white;
-  transform: scale(1.02);
 }
 
 .popup-discount {
   background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(168, 85, 247, 0.05));
-  border-radius: 12px;
-  padding: 10px;
-  margin-bottom: 20px;
-  font-size: 14px;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 16px;
+  font-size: 13px;
   color: #fff;
 }
 
 .popup-discount strong {
   color: #a855f7;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .popup-btn {
@@ -680,26 +787,26 @@ button.link:hover {
   background: linear-gradient(135deg, #6b21a5, #a855f7);
   color: white;
   text-decoration: none;
-  padding: 12px 28px;
-  border-radius: 40px;
+  padding: 10px 24px;
+  border-radius: 30px;
   font-weight: 600;
   transition: all 0.3s ease;
-  margin-bottom: 16px;
-  border: none;
-  cursor: pointer;
+  margin-bottom: 12px;
+  font-size: 14px;
 }
 
 .popup-btn:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
 }
 
 .popup-footer {
-  font-size: 11px;
+  font-size: 10px;
   color: #666;
   margin-bottom: 0;
 }
 
+/* RESPONSYWNOŚĆ */
 @media (max-width: 768px) {
   .app {
     flex-direction: column;
@@ -708,11 +815,10 @@ button.link:hover {
     width: 100%;
     height: auto;
     position: relative;
-    border-right: none;
-    border-bottom: 1px solid rgba(168, 85, 247, 0.2);
+    padding: 16px;
   }
   .main {
-    padding: 24px;
+    padding: 16px;
   }
   .search-box input {
     width: 100%;
@@ -720,163 +826,56 @@ button.link:hover {
   .search-box input:focus {
     width: 100%;
   }
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    min-height: 380px;
+  }
+  .card-img-wrapper img {
+    height: 160px;
+  }
+  .card h3 {
+    font-size: 15px;
+    min-height: 40px;
+  }
   .floating-circle {
-    bottom: 20px;
-    right: 20px;
+    bottom: 16px;
+    right: 16px;
   }
   .circle-trigger {
-    width: 48px;
-    height: 48px;
-  }
-  .plus-icon {
-    font-size: 28px;
-  }
-  .link-item {
     width: 44px;
     height: 44px;
   }
-  .link-item img {
-    width: 24px;
-    height: 24px;
+  .plus-icon {
+    font-size: 24px;
+  }
+  .link-item {
+    width: 40px;
+    height: 40px;
   }
   .price-filter {
-    flex-wrap: wrap;
+    gap: 4px;
   }
   .price-input {
-    min-width: 100px;
+    width: 70px;
+    font-size: 11px;
+    padding: 6px 4px;
   }
   .popup-container {
-    padding: 24px;
-    max-width: 320px;
+    padding: 20px;
+    max-width: 300px;
   }
   .popup-container h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .popup-icon {
-    font-size: 40px;
+    font-size: 36px;
+  }
+  .lightbox-close {
+    top: 20px;
+    right: 20px;
+    font-size: 36px;
   }
 }
-
-/* ============================================
-   LIGHTBOX - POWIĘKSZANIE ZDJĘĆ
-   ============================================ */
-   .lightbox {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.95);
-    backdrop-filter: blur(8px);
-    z-index: 3000;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    animation: fadeIn 0.3s ease;
-  }
-  
-  .lightbox.active {
-    display: flex;
-  }
-  
-  .lightbox-img {
-    max-width: 90%;
-    max-height: 90%;
-    object-fit: contain;
-    border-radius: 12px;
-    box-shadow: 0 0 50px rgba(168, 85, 247, 0.3);
-    animation: zoomIn 0.3s ease;
-    cursor: default;
-  }
-  
-  .lightbox-close {
-    position: absolute;
-    top: 30px;
-    right: 40px;
-    font-size: 48px;
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    z-index: 3001;
-    font-weight: 300;
-  }
-  
-  .lightbox-close:hover {
-    color: #a855f7;
-    transform: rotate(90deg);
-  }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
-  @keyframes zoomIn {
-    from { transform: scale(0.9); opacity: 0; }
-    to { transform: scale(1); opacity: 1; }
-  }
-  
-  /* Przycisk powiększenia na zdjęciu */
-  .card-img-wrapper {
-    position: relative;
-    overflow: hidden;
-    border-radius: 16px;
-    cursor: pointer;
-  }
-  
-  .card-img-wrapper img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-  }
-  
-  .card-img-wrapper:hover img {
-    transform: scale(1.05);
-  }
-  
-  .zoom-icon {
-    position: absolute;
-    bottom: 12px;
-    right: 12px;
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(4px);
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: all 0.3s ease;
-    pointer-events: none;
-  }
-  
-  .zoom-icon svg {
-    width: 20px;
-    height: 20px;
-    stroke: white;
-    stroke-width: 2;
-  }
-  
-  .card-img-wrapper:hover .zoom-icon {
-    opacity: 1;
-    transform: scale(1.05);
-  }
-  
-  @media (max-width: 768px) {
-    .lightbox-close {
-      top: 20px;
-      right: 20px;
-      font-size: 36px;
-    }
-    .zoom-icon {
-      width: 32px;
-      height: 32px;
-    }
-    .zoom-icon svg {
-      width: 18px;
-      height: 18px;
-    }
-  }
