@@ -1162,8 +1162,336 @@ let products = [
     rating: 4
   
   },
+  {
+    name: "RALPH LAUREN ZIPPER HOODIE",
+    category: "Hoodies",
+    price: "$27.54",
+    image: "https://si.geilicdn.com/open1831762514-252808396-13a1000001935930c3280aa08290_1239_1241.jpg",
+    link: "https://ikako.vip/rfy5a",
+    tag: "NEWDP",
+    rating: 4
   
-   // ralph // ralph
+  },
+  {
+    name: "RALPH LAUREN FLEECE HOODIE",
+    category: "Hoodies",
+    price: "$23.35",
+    image: "https://si.geilicdn.com/wdseller1980586073-3daf00000199cdc9028d0a2304aa_1170_1170.jpg",
+    link: "https://ikako.vip/na9y9",
+    tag: "NEWDP",
+    rating: 4
+  
+  },
+  {
+    name: "BROKEN PLANET NOT FROM HERE ",
+    category: "Hoodies",
+    price: "$32.76",
+    image: "https://si.geilicdn.com/wdseller1746487736-7f870000019ae9e68b210a21146b_1179_1179.jpg",
+    link: "https://ikako.vip/na9y9",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "BROKEN PLANET MOON PHASE",
+    category: "Hoodies",
+    price: "$32.76",
+    image: "https://si.geilicdn.com/wdseller1746487736-2220000001956987605d0a23041a_1170_1170.jpg",
+    link: "https://ikako.vip/9q9e8",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "BROKEN PLANET ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$34.32",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/17/0c05c924d34c2c57735613ff7b958e6b.jpg",
+    link: "https://ikako.vip/89xdp",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "SYNA HOODIE",
+    category: "Hoodies",
+    price: "$25.81",
+    image: "https://si.geilicdn.com/wdseller1274221412-6c8b0000019170bc30be0a2393d9_1284_1284.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7261685985%26wfr%3Dc&affcode=archivee",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "I LOVE SYNA HOODIE",
+    category: "Hoodies",
+    price: "$31",
+    image: "https://si.geilicdn.com/wdseller1274221412-15d2000001976435d3200a22d58f_1284_1284.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7491890348%26wfr%3Dc&affcode=archivee",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "SYNA X NEM RENTS DUE HOODIE",
+    category: "Hoodies",
+    price: "$30",
+    image: "https://si.geilicdn.com/wdseller1936187346-365c00000198ef2e82950a2301b4_1373_1373.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7656816950&affcode=archivee",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "SUPREME X MM6",
+    category: "Hoodies",
+    price: "$62.72",
+    image: "https://images.stockx.com/images/Supreme-MM6-Maison-Margiela-Zip-Up-Hooded-Sweatshirt-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1744142786",
+    link: "https://ikako.vip/t64fj",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  {
+    name: "MERTRA HOODIE",
+    category: "Hoodies",
+    price: "$36",
+    image: "https://si.geilicdn.com/wdseller1940384309-770900000199d2b5e7b60a230449_1320_1320.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1739784557.v.weidian.com%2Fitem.html%3FitemID%3D7569423015&affcode=archivee",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "MERTRA X UMBRO HOODIE",
+    category: "Hoodies",
+    price: "$36",
+    image: "https://si.geilicdn.com/wdseller1940384309-15220000019ae55ad4570a230215_1320_1320.jpg",
+    link: "https://ikako.vip/faqpu",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  
+  //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE
+
+  {
+    name: "ERD MULHOLLAND T-SHIRT",
+    category: "Tshirts",
+    price: "$25.7",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3550899246/O1CN01A49ALr2IAj5LKXF92_!!3550899246.jpg",
+    link: "https://ikako.vip/9ene7",
+    tag: "APEXMADE",
+    rating: 5
+  
+  },
+  {
+    name: "ERD MULHOLLAND T-SHIRT",
+    category: "Tshirts",
+    price: "$20.22",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/5/8fa95a38b94c6c65549b40660032db9b.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7491984689&affcode=archivee",
+    tag: "TOPHOT",
+    rating: 4
+  
+  },
+  {
+    name: "ERD CHRISTINA T-SHIRT",
+    category: "Tshirts",
+    price: "$19.12",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2214656006513/O1CN011G8Otv1xz0blTvUkr_!!2214656006513.jpg",
+    link: "https://ikako.vip/xapqq",
+    tag: "K8",
+    rating: 5
+  
+  },
+  {
+    name: "CHROME HEARTS T-SHIRT",
+    category: "Tshirts",
+    price: "$28",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/18/7614d9903500303cd30469a9e0e7717a.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7506477680&affcode=archivee",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "CHROME HEARTS T-SHIRT",
+    category: "Tshirts",
+    price: "$28.05",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/14/289102da081ca2571c46a84d1f82aad8.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7504593741&affcode=archivee",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "CHROME HEARTS T-SHIRT",
+    category: "Tshirts",
+    price: "$28.05",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/15/e312e36ff34100469743281690df01d0.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7505571487&affcode=archivee",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "CHROME HEARTS T-SHIRT (BUDGET BATCH)",
+    category: "Tshirts",
+    price: "$10.82",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01HmBn9B1EWT7bBkxJS_!!2216561520359-0-cib.jpg",
+    link: "https://ikako.vip/a2hjh",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "MAISON MARGIELA T-SHIRTS (BUDGET)",
+    category: "Tshirts",
+    price: "$9.09",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01JozGwF2C3xZpzAdGc_!!2206818368419-0-cib.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F987959630339.html&affcode=archivee",
+    tag: "BUDGET",
+    rating: 3
+  
+  },
+  {
+    name: "VETEMENTS T-SHIRTS (BUDGET)",
+    category: "Tshirts",
+    price: "$9.41",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01BZNABW1Oy56lrIYvB_!!2216497371773-0-cib.jpg",
+    link: "https://ikako.vip/4dj62",
+    tag: "BUDGET",
+    rating: 3
+  
+  },
+  {
+    name: "NUMBER NINE SOVC TEE",
+    category: "Tshirts",
+    price: "$20.79",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01B0RHgZ1FEtc0ZsHLP_!!2943390456.jpg",
+    link: "https://ikako.vip/gujga",
+    tag: "LMYER",
+    rating: 5
+  
+  },
+  {
+    name: "UNDERCOVER TEE",
+    category: "Tshirts",
+    price: "$10",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2217964616975/O1CN01F56UB321ObbEM5ji2~crop,338,0,1899,2532~_!!2217964616975.jpg",
+    link: "https://ikako.vip/drx57",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "UNDERCOVER KLAUS TEE",
+    category: "Tshirts",
+    price: "$20.57",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01FxjFJU1FEtW2R4hRn_!!2943390456.jpg",
+    link: "https://ikako.vip/rwawv",
+    tag: "LMYER",
+    rating: 5
+  
+  },
+  {
+    name: "UNDERCOVER GURUGURU",
+    category: "Tshirts",
+    price: "$15.87",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01bCYjdF1FEtVrAiEHL_!!2943390456.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D645671108769&affcode=archivee",
+    tag: "LMYER",
+    rating: 5
+  
+  },
+  {
+    name: "GOTHAM TEE",
+    category: "Tshirts",
+    price: "$20.87",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01Mh3Dpd1FEtc2vVoCn_!!2943390456.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D850109331994&affcode=archivee",
+    tag: "LMYER",
+    rating: 5
+  
+  },
+  {
+    name: "NUMBER NINE KURT TEE",
+    category: "Tshirts",
+    price: "$14.29",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01Fs4sxm1FEtb1nSbQO_!!2943390456.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D834164734264&affcode=archivee",
+    tag: "LMYER",
+    rating: 5
+  
+  },
+  {
+    name: "GIVENCHY T-SHIRT",
+    category: "Tshirts",
+    price: "$28",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202507/30/d9ad15c50bafde4199670bd8167141c3.jpg",
+    link: "https://ikako.vip/rbfcm",
+    tag: "BACKSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS T-SHIRTS",
+    category: "Tshirts",
+    price: "$20.63",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2219953490549/O1CN01Yvv4p51FvUWKVHMx9_!!2219953490549.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D962636024464&affcode=archivee",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS T-SHIRTS",
+    category: "Tshirts",
+    price: "$20.86",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/5000a6f78c898bdf535f4cbcb730065e.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D962039057752&affcode=archivee",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS T-SHIRTS (BUDGET BATCH)",
+    category: "Tshirts",
+    price: "$8.59",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2075710764/O1CN01TmCj9b1HVxKvJL8ZN_!!2075710764.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fcnfans.com%2Fproduct%2F%3Fshop_type%3Dtaobao%26id%3D668913880734&affcode=archivee",
+    tag: "BUDGET",
+    rating: 3
+  
+  },
+  {
+    name: "RALPH LAUREN T-SHIRTS",
+    category: "Tshirts",
+    price: "$12.38",
+    image: "https://si.geilicdn.com/open1831762514-252808396-37160000019359434ee50aa0834c_978_1024.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1852083541.v.weidian.com%2Fitem.html%3FitemID%3D7596975464%26spider_token%3D4592&affcode=archivee",
+    tag: "NEWDP",
+    rating: 5
+  
+  },
+  {
+    name: "RALPH LAUREN POLO",
+    category: "Tshirts",
+    price: "$20.22",
+    image: "https://si.geilicdn.com/wdseller1595179932-06af0000019759d8e5370a230115_1170_1170.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1852083541.v.weidian.com%2Fitem.html%3FitemID%3D7595170179&affcode=archivee",
+    tag: "NEWDP",
+    rating: 5
+  
+  },
+  
+  
+  
+  
+  
+  
+  
   
   
   
