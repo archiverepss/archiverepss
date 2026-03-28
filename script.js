@@ -1786,7 +1786,7 @@ let products = [
     name: "MIJKO PATCH JEANS",
     category: "Shorts",
     price: "$22",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01O1orgc2BKcL12Zsz2_!!2210306378320-0-cib.jpg",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/15/140d728f36b7fa7716cc73b1bfdecf47.jpg",
     link: "https://ikako.vip/pdyhvd",
     tag: "RANDOM",
     rating: 4
@@ -1837,7 +1837,7 @@ let products = [
     name: "ESSENTIALS PANTS (BUDGET)",
     category: "Shorts",
     price: "$18.81",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN012VDKoZ1eWB0Mn0X5v_!!2211916693878-0-cib.jpg",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/3ff28cfd0ce1bdc77444552311e3ed6d.jpg",
     link: "https://ikako.vip/gqh67",
     tag: "BUDGET",
     rating: 3
@@ -1887,7 +1887,7 @@ let products = [
     name: "RICK OWENS SUBHUMAN WAXED PANTS",
     category: "Shorts",
     price: "$34.17",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01RLTOsZ1roZhST1sLl_!!3361665678-0-cib.jpg",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/8/28b72f710ddd559c7f062da4aae71937.jpg",
     link: "https://ikako.vip/8rb6r",
     tag: "RANDOM",
     rating: 4
@@ -1907,7 +1907,7 @@ let products = [
     name: "RICK OWENS PANTS",
     category: "Shorts",
     price: "$34.48",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01zDhAm421Ez7BKOEsY_!!2213343996954-0-cib.jpg",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/6/ae41f484f522f921f4f6434444778709.jpg",
     link: "https://ikako.vip/8qyny",
     tag: "RANDOM",
     rating: 4
@@ -1957,7 +1957,7 @@ let products = [
     name: "GALLERY DEPT PANTS",
     category: "Shorts",
     price: "$30.78",
-    image: "https://img.alicdn.com/bao/uploaded/i1/574102188/O1CN01956YVD1S29Yagn3BV_!!574102188.jpg",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/20/3897ba39e80549745b2d931aad7e38a8.jpg",
     link: "https://ikako.vip/w6nrz",
     tag: "BUDGET",
     rating: 4
@@ -2017,7 +2017,7 @@ let products = [
     name: "NIKE X NOCTA",
     category: "Shorts",
     price: "$25.08",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01V18fqe2Gbd3ERr0tF_!!2217753779034-0-cib.jpg",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/11/4465525b6a49c60f138d8bee4cfbbfd6.jpg",
     link: "https://ikako.vip/h3w3s",
     tag: "RANDOM",
     rating: 4
@@ -2133,6 +2133,437 @@ let products = [
     rating: 5
   
   },
+  {
+    name: "Derschutze Denim Pants",
+    category: "Shorts",
+    price: "$32.91",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/99f0e3e1b3574f6ed874f6cba2305bcc.jpg",
+    link: "https://ikako.vip/8j95q8",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "Derschutze blue Denim Pants",
+    category: "Shorts",
+    price: "$32.91",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/31/6d865564526a5a676882dd6cd609facb.jpg",
+    link: "https://ikako.vip/fpsdy",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "Derschutze Western Jogger",
+    category: "Shorts",
+    price: "$32.91",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/ad5cf687195083e02bf18eecb6740cb2.jpg",
+    link: "https://ikako.vip/z3g2x",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "Derschutze Denim Pants",
+    category: "Shorts",
+    price: "$32.91",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/14e6f3fb99a8b11cf8dcf951f7c96f39.jpg",
+    link: "https://ikako.vip/f5hec",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "Ralph Lauren Suit Pants",
+    category: "Shorts",
+    price: "$24.51",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/559e31f4b72c116d181bfd30ef77e851.jpg",
+    link: "https://ikako.vip/vxpf4u",
+    tag: "NEWDP",
+    rating: 5
+  
+  },
+  {
+    name: "Ralph Lauren FLeece Pants",
+    category: "Shorts",
+    price: "$21.79",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/24/adafb0606dea315046027c9d39baeaea.jpg",
+    link: "https://ikako.vip/ep3p5",
+    tag: "NEWDP",
+    rating: 5
+  
+  },
+  {
+    name: "Ralph Lauren Pants",
+    category: "Shorts",
+    price: "$21.79",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/b3b5c401937392c718e40bbd14b5971c.jpg",
+    link: "https://ikako.vip/j7dpx",
+    tag: "NEWDP",
+    rating: 5
+  
+  },
+  {
+    name: "BPM RENT'S DUE PANTS",
+    category: "Shorts",
+    price: "$28.99",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/2/cd56a7fa0e73e86b596b5e69de6d6dc9.jpg",
+    link: "https://ikako.vip/f5yw8",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "BPM PANTS ALL THE STARS",
+    category: "Shorts",
+    price: "$31.19",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/30/c2ce72f87d12679b12048bb059796047.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1621342910.v.weidian.com%2Fitem.html%3FitemID%3D7499784900&affcode=archivee",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "HYSTERIC GLAMOUR HAGI JEANS",
+    category: "Shorts",
+    price: "$64.18",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/6611d64c5141dd3bae6bdfb05b5c2c91.jpg",
+    link: "https://ikako.vip/zqt64",
+    tag: "BDSS",
+    rating: 5
+  
+  },
+  {
+    name: "BALENCIAGA SHORTS",
+    category: "Shorts",
+    price: "$18.65",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/14/67ab0f21735bbada4796e8a5723f6d83.jpg",
+    link: "https://ikako.vip/e3wcb",
+    tag: "SATANMADE",
+    rating: 5
+  
+  },
+  {
+    name: "BALENCIAGA SHORTS",
+    category: "Shorts",
+    price: "$34.17",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202508/25/c101b6e35b82ad64eed0589c6ec742a0.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7519004840%26spider_token%3D8dbf&affcode=archivee",
+    tag: "THUNDER",
+    rating: 5
+  
+  },
+  {
+    name: "BALENCIAGA SHORTS",
+    category: "Shorts",
+    price: "$32.6",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/18/10f059bf1e46c242e52a9784466bd5a3.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7499057490%26spider_token%3Da6ee&affcode=archivee",
+    tag: "THUNDER",
+    rating: 5
+  
+  },
+  {
+    name: "BALENCIAGA SHORTS",
+    category: "Shorts",
+    price: "$42",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/2/c1dfbc22d5b6d0fd9466ab6969479fc7.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7497106511%26spider_token%3Df58f&affcode=archivee",
+    tag: "THUNDER",
+    rating: 5
+  
+  },
+  {
+    name: "BALENCIAGA SHORTS",
+    category: "Shorts",
+    price: "$34.42",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/24/c7de5443bfae1f2aaa028671d078de7f.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7618065701%26wfr%3Dc&affcode=archivee",
+    tag: "THUNDER",
+    rating: 5
+  
+  },
+  {
+    name: "BALENCIAGA SHORTS",
+    category: "Shorts",
+    price: "$35.89",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/30/c0bbe2344e541f395d0b5e6c2c1101d3.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7604006524%26wfr%3Dc&affcode=archivee",
+    tag: "THUNDER",
+    rating: 5
+  
+  },
+  {
+    name: "BALENCIAGA DOUBLE WAIST SHORTS",
+    category: "Shorts",
+    price: "$28.05",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/13/a90014fb24db666980977a8e5a6917b6.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7510584472%26wfr%3Dc&affcode=archivee",
+    tag: "TOPHOT",
+    rating: 4
+  
+  },
+  {
+    name: "ESSENTIALS NBA SHORTS",
+    category: "Shorts",
+    price: "$14.11",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/26/b5787adaa03393adb57326c6b41d5a6a.jpg",
+    link: "https://ikako.vip/apvuy",
+    tag: "YISHAN",
+    rating: 4
+  
+  },
+  {
+    name: "ESSENTIALS FOG SHORTS",
+    category: "Shorts",
+    price: "$23.95",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/114450d1949c026e2889fc048bbcb7ea.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D962037909233&affcode=archivee",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS FOG SHORTS",
+    category: "Shorts",
+    price: "$27",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/c4b3acab7da80306ff239e225b14fa5f.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D934124406348&affcode=archivee",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS FOG SHORTS",
+    category: "Shorts",
+    price: "$27",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/28/5d81b84ec4734a2de9c94bc0814f42b7.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7254715223%26wfr%3Dc&affcode=archivee",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "GALLERY DEPT SHORTS",
+    category: "Shorts",
+    price: "$32.76",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202505/24/e69e06249af5084e7e44e981011e1d41.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D923514622610&affcode=archivee",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "BPM WASHED SHORTS",
+    category: "Shorts",
+    price: "$29",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202507/19/91f12c173cca026989a4ea6afcf5820f.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1621342910.v.weidian.com%2Fitem.html%3FitemID%3D7342141752&affcode=archivee",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "BPM SUN LOGO SHORTS",
+    category: "Shorts",
+    price: "$21.16",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/16/fbce57d171dc0586f469c928d5baa681.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1621342910.v.weidian.com%2Fitem.html%3FitemID%3D7490154691&affcode=archivee",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "BPM BLACK DENIM SHORTS",
+    category: "Shorts",
+    price: "$27.43",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/3da68e9be909cb9a633a12e0dba08f67.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1621342910.v.weidian.com%2Fitem.html%3FitemID%3D7342496656&affcode=archivee",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "BPM GRAY SHORTS",
+    category: "Shorts",
+    price: "$21.16",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/2/05749b43cd3f94f01d387aea9aab0c2c.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1621342910.v.weidian.com%2Fitem.html%3FitemID%3D7341453361&affcode=archivee",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "DERSCHUTZE SHORTS",
+    category: "Shorts",
+    price: "$25.86",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/62e6dddcb36f78163bae1fcb55983694.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1739784557.v.weidian.com%2Fitem.html%3FitemID%3D7632918134&affcode=archivee",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "DERSCHUTZE SHORTS",
+    category: "Shorts",
+    price: "$25.86",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/26/4bbf8a50d359ec1a30a0619f350790f1.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1739784557.v.weidian.com%2Fitem.html%3FitemID%3D7618310132&affcode=archivee",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "DERSCHUTZE SHORTS",
+    category: "Shorts",
+    price: "$24.29",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/659cab4a9184888970269896b817b110.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1739784557.v.weidian.com%2Fitem.html%3FitemID%3D7576666451&affcode=archivee",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "ISLAND PUFF PRINT SHORTS",
+    category: "Shorts",
+    price: "$24.29",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/23/e7f6c5d48640b998df20b480690b274d.jpg",
+    link: "https://ikako.vip/8ng37",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ BLACK MESH SHORTS",
+    category: "Shorts",
+    price: "$22.73",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/4c64ce089170c4d5a9c82d5cafa70ad4.jpg",
+    link: "https://ikako.vip/aaeeg",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ ISLAND BAGGY SHORTS",
+    category: "Shorts",
+    price: "$33.7",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/9/5d082decb4d5409a4e4b8a4a34d3462c.jpg",
+    link: "https://ikako.vip/aewkm",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ BLACK DENIM SHORTS",
+    category: "Shorts",
+    price: "$33.7",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/24/6509876c3cb9a058f071e50435beebbf.jpg",
+    link: "https://ikako.vip/szbk5",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "EE X WARREN LOTAS",
+    category: "Shorts",
+    price: "$13.11",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/9/28e8ba7b6df49759ebc80caedd80d1db.jpg",
+    link: "https://ikako.vip/43fhs",
+    tag: "PIKA",
+    rating: 5
+  
+  },
+  {
+    name: "EE SHORTS",
+    category: "Shorts",
+    price: "$12.96",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/01bdce96a23355117620332f72a225e2.jpg",
+    link: "https://ikako.vip/a2vks",
+    tag: "PIKA",
+    rating: 5
+  
+  },
+  {
+    name: "EE SHORTS",
+    category: "Shorts",
+    price: "$12.96",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/14/97ba7964e94d9e242c4e365d16c1953a.jpg",
+    link: "https://ikako.vip/numeb",
+    tag: "PIKA",
+    rating: 5
+  
+  },
+  {
+    name: "EE SHORTS",
+    category: "Shorts",
+    price: "$13.1",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/18/f1ba1d316fa6addab797657d25137b6d.jpg",
+    link: "https://ikako.vip/tfdjm",
+    tag: "PIKA",
+    rating: 5
+  
+  },
+  {
+    name: "STUSSY DENIM SHORTS",
+    category: "Shorts",
+    price: "$26.08",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/13/bcbbb1ec06131880610df327ef2b5e0e.jpg",
+    link: "https://ikako.vip/k3smqt",
+    tag: "DRAGONREP",
+    rating: 4
+  
+  },
+  {
+    name: "STUSSY SHORTS",
+    category: "Shorts",
+    price: "$11.34",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/9/f71877c8f60fce590a421f242c63e769.jpg",
+    link: "https://ikako.vip/hps4z",
+    tag: "DRAGONREP",
+    rating: 4
+  
+  },
+  {
+    name: "STUSSY SHORTS",
+    category: "Shorts",
+    price: "$17.72",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/24/e64c87aecf04d00955f26da2d09cfa76.jpg",
+    link: "https://ikako.vip/chst3",
+    tag: "DRAGONREP",
+    rating: 4
+  
+  },
+  {
+    name: "NIKE/JORDAN SHORTS",
+    category: "Shorts",
+    price: "$10.12",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/23/be00e61dbce212ec44aef4df4e24fe50.jpg",
+    link: "https://ikako.vip/75yyf",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "JORDAN SHORTS",
+    category: "Shorts",
+    price: "$6.27",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/291088b20efa88c4358653548e605092.jpg",
+    link: "https://ikako.vip/55xmv",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "CARHARTT SHORTS",
+    category: "Shorts",
+    price: "$26.63",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/15/e7881787353d393c62d2d66edc425982.jpg",
+    link: "https://ikako.vip/fh3yp",
+    tag: "HUSKY",
+    rating: 4
+  
+  },
+  
    
   
   
@@ -2242,21 +2673,17 @@ function clearPriceFilter() {
   const maxInput = document.getElementById("maxPrice");
   const sortSelect = document.getElementById("sortSelect");
   
-  // Wyczyść pola cenowe
   if (minInput) minInput.value = "";
   if (maxInput) maxInput.value = "";
   
-  // Zresetuj zmienne filtrów
   currentMinPrice = null;
   currentMaxPrice = null;
   
-  // Opcjonalnie: zresetuj sortowanie do domyślnego (jeśli chcesz)
   if (sortSelect) {
     sortSelect.value = "default";
     currentSort = "default";
   }
   
-  // Odśwież produkty
   renderProducts();
 }
 
@@ -2266,61 +2693,6 @@ function setCategory(cat) {
   const activeBtn = document.querySelector(`[onclick="setCategory('${cat}')"]`);
   if (activeBtn) activeBtn.classList.add('active');
   renderProducts();
-}
-
-function renderProducts() {
-  const grid = document.getElementById("grid");
-  const search = document.getElementById("search").value.toLowerCase();
-  if (!grid) return;
-
-  let filtered = products.filter(p => 
-    (category === "All" || p.category === category) &&
-    p.name.toLowerCase().includes(search)
-  );
-  
-  if (currentMinPrice !== null || currentMaxPrice !== null) {
-    filtered = filtered.filter(p => {
-      const pricePLN = usdToPln(p.price);
-      if (currentMinPrice !== null && pricePLN < currentMinPrice) return false;
-      if (currentMaxPrice !== null && pricePLN > currentMaxPrice) return false;
-      return true;
-    });
-  }
-  
-  if (currentSort === "price_asc") {
-    filtered.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
-  } else if (currentSort === "price_desc") {
-    filtered.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
-  }
-
-  const productCountSpan = document.getElementById("productCount");
-  if (productCountSpan) productCountSpan.textContent = filtered.length;
-
-  if (filtered.length === 0) {
-    grid.innerHTML = `<div class="loading">✨ Brak produktów w tej kategorii<br><span style="font-size: 12px; color: #444;">Spróbuj zmienić filtry</span></div>`;
-    return;
-  }
-
-  grid.innerHTML = "";
-  filtered.forEach(p => {
-    const el = document.createElement("div");
-    el.className = "card";
-    let stars = "★".repeat(p.rating) + "☆".repeat(5 - p.rating);
-    const tagHtml = p.tag ? `<div class="tag">${p.tag}</div>` : '';
-    const priceHtml = formatPrice(p.price);
-
-    el.innerHTML = `
-      <img src="${p.image}" alt="${p.name}" onerror="this.src='https://via.placeholder.com/300?text=No+Image'">
-      ${tagHtml}
-      <h3>${escapeHtml(p.name)}</h3>
-      ${priceHtml}
-      <div class="rating">${stars}</div>
-      <a href="${p.link}" target="_blank" rel="noopener noreferrer">
-        <button class="link">✨ Zobacz item</button>
-      </a>
-    `;
-    grid.appendChild(el);
-  });
 }
 
 function escapeHtml(str) {
@@ -2333,73 +2705,6 @@ function escapeHtml(str) {
   });
 }
 
-// Funkcja kopiowania kodu rabatowego
-function copyCode() {
-  const code = "archiverepss";
-  navigator.clipboard.writeText(code).then(() => {
-    const btn = document.querySelector('.copy-code');
-    if (btn) {
-      const originalText = btn.innerHTML;
-      btn.innerHTML = '✅ Skopiowano!';
-      setTimeout(() => {
-        btn.innerHTML = originalText;
-      }, 2000);
-    }
-  });
-}
-
-// Obsługa pływającego koła
-document.addEventListener('DOMContentLoaded', () => {
-  const trigger = document.getElementById('circleTrigger');
-  const links = document.getElementById('circleLinks');
-  
-  if (trigger && links) {
-    trigger.addEventListener('click', () => {
-      trigger.classList.toggle('open');
-      links.classList.toggle('open');
-    });
-    
-    const linkItems = document.querySelectorAll('.link-item');
-    linkItems.forEach(link => {
-      link.addEventListener('click', () => {
-        trigger.classList.remove('open');
-        links.classList.remove('open');
-      });
-    });
-  }
-});
-
-// Popup rejestracyjny
-document.addEventListener('DOMContentLoaded', () => {
-  const popup = document.getElementById('popupOverlay');
-  const closeBtn = document.getElementById('popupClose');
-  
-  const hasSeenPopup = sessionStorage.getItem('hasSeenKakobuyPopup');
-  
-  if (!hasSeenPopup && popup) {
-    setTimeout(() => {
-      popup.classList.add('active');
-      sessionStorage.setItem('hasSeenKakobuyPopup', 'true');
-    }, 1500);
-  }
-  
-  if (closeBtn) {
-    closeBtn.addEventListener('click', () => {
-      if (popup) popup.classList.remove('active');
-    });
-  }
-  
-  if (popup) {
-    popup.addEventListener('click', (e) => {
-      if (e.target === popup) {
-        popup.classList.remove('active');
-      }
-    });
-  }
-});
-
-renderProducts();
-
 // ============================================
 // 🔍 LIGHTBOX - POWIĘKSZANIE ZDJĘĆ
 // ============================================
@@ -2411,14 +2716,12 @@ function initLightbox() {
   
   if (!lightbox) return;
   
-  // Funkcja otwierająca lightbox
   window.openLightbox = function(imgSrc) {
     lightboxImg.src = imgSrc;
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
   };
   
-  // Zamknięcie po kliknięciu X
   if (closeBtn) {
     closeBtn.addEventListener('click', () => {
       lightbox.classList.remove('active');
@@ -2426,7 +2729,6 @@ function initLightbox() {
     });
   }
   
-  // Zamknięcie po kliknięciu w tło
   lightbox.addEventListener('click', (e) => {
     if (e.target === lightbox) {
       lightbox.classList.remove('active');
@@ -2434,7 +2736,6 @@ function initLightbox() {
     }
   });
   
-  // Zamknięcie po naciśnięciu ESC
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && lightbox.classList.contains('active')) {
       lightbox.classList.remove('active');
@@ -2443,8 +2744,9 @@ function initLightbox() {
   });
 }
 
-// Zmodyfikuj funkcję renderProducts() – dodaj wrapper i ikonę lupy
-// ZASTĄP starą funkcję renderProducts() tą nową:
+// ============================================
+// 🟢 GŁÓWNA FUNKCJA RENDERPRODUCTS (z lightboxem)
+// ============================================
 
 function renderProducts() {
   const grid = document.getElementById("grid");
@@ -2486,13 +2788,11 @@ function renderProducts() {
     let stars = "★".repeat(p.rating) + "☆".repeat(5 - p.rating);
     const tagHtml = p.tag ? `<div class="tag">${p.tag}</div>` : '';
     const priceHtml = formatPrice(p.price);
-    
-    // Sprawdź czy zdjęcie jest dostępne
     const imgSrc = p.image && p.image !== "" ? p.image : "https://via.placeholder.com/300?text=No+Image";
 
     el.innerHTML = `
       <div class="card-img-wrapper" onclick="openLightbox('${imgSrc}')">
-        <img src="${imgSrc}" alt="${escapeHtml(p.name)}" onerror="this.src='https://via.placeholder.com/300?text=No+Image'">
+        <img src="${imgSrc}" alt="${escapeHtml(p.name)}" onerror="this.src='https://via.placeholder.com/300?text=No+Image'" loading="lazy">
         <div class="zoom-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="11" cy="11" r="8"/>
@@ -2506,14 +2806,139 @@ function renderProducts() {
       ${priceHtml}
       <div class="rating">${stars}</div>
       <a href="${p.link}" target="_blank" rel="noopener noreferrer">
-        <button class="link">✨ Zobacz item</button>
+        <button class="link"> Zobacz item</button>
       </a>
     `;
     grid.appendChild(el);
   });
 }
 
-// Inicjalizacja lightbox po załadowaniu strony
+// ============================================
+// FUNKCJA KOPIOWANIA KODU
+// ============================================
+
+function copyCode() {
+  const code = "archiverepss";
+  navigator.clipboard.writeText(code).then(() => {
+    const btn = document.querySelector('.copy-code');
+    if (btn) {
+      const originalText = btn.innerHTML;
+      btn.innerHTML = '✅ Skopiowano!';
+      setTimeout(() => {
+        btn.innerHTML = originalText;
+      }, 2000);
+    }
+  });
+}
+
+// ============================================
+// OBSŁUGA PŁYWAJĄCEGO KOŁA
+// ============================================
+
 document.addEventListener('DOMContentLoaded', () => {
+  const trigger = document.getElementById('circleTrigger');
+  const links = document.getElementById('circleLinks');
+  
+  if (trigger && links) {
+    trigger.addEventListener('click', () => {
+      trigger.classList.toggle('open');
+      links.classList.toggle('open');
+    });
+    
+    const linkItems = document.querySelectorAll('.link-item');
+    linkItems.forEach(link => {
+      link.addEventListener('click', () => {
+        trigger.classList.remove('open');
+        links.classList.remove('open');
+      });
+    });
+  }
+});
+
+// ============================================
+// POPUP REJESTRACYJNY
+// ============================================
+
+document.addEventListener('DOMContentLoaded', () => {
+  const popup = document.getElementById('popupOverlay');
+  const closeBtn = document.getElementById('popupClose');
+  
+  const hasSeenPopup = sessionStorage.getItem('hasSeenKakobuyPopup');
+  
+  if (!hasSeenPopup && popup) {
+    setTimeout(() => {
+      popup.classList.add('active');
+      sessionStorage.setItem('hasSeenKakobuyPopup', 'true');
+    }, 1500);
+  }
+  
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      if (popup) popup.classList.remove('active');
+    });
+  }
+  
+  if (popup) {
+    popup.addEventListener('click', (e) => {
+      if (e.target === popup) {
+        popup.classList.remove('active');
+      }
+    });
+  }
+});
+
+// ============================================
+// OPTYMALIZACJA - DEBOUNCE DLA WYSZUKIWANIA
+// ============================================
+
+function debounce(func, wait) {
+  let timeout;
+  return function executedFunction(...args) {
+    const later = () => {
+      clearTimeout(timeout);
+      func(...args);
+    };
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+  };
+}
+
+// ============================================
+// LENIWE ŁADOWANIE OBRAZKÓW
+// ============================================
+
+function lazyLoadImages() {
+  const images = document.querySelectorAll('.card-img-wrapper img');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const img = entry.target;
+        img.loading = 'lazy';
+        observer.unobserve(img);
+      }
+    });
+  });
+  images.forEach(img => observer.observe(img));
+}
+
+// ============================================
+// INICJALIZACJA
+// ============================================
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Lightbox
   initLightbox();
+  
+  // Debounce dla wyszukiwania
+  const searchInput = document.getElementById('search');
+  if (searchInput) {
+    const debouncedSearch = debounce(() => applyFiltersAndSort(), 300);
+    searchInput.addEventListener('input', debouncedSearch);
+  }
+  
+  // Renderuj produkty
+  renderProducts();
+  
+  // Leniwe ładowanie obrazków po renderowaniu
+  setTimeout(lazyLoadImages, 200);
 });
