@@ -1742,6 +1742,403 @@ let products = [
     rating: 5
   
   },
+  {
+    name: "PURPLE BRAND JEANS (WM179)",
+    category: "Shorts",
+    price: "$40.75",
+    image: "https://si.geilicdn.com/pcitem453299265-22dd0000019afa3b95f30a23111a_500_500.jpg",
+    link: "https://ikako.vip/2cb9f",
+    tag: "HENGYU",
+    rating: 5
+  
+  },
+  {
+    name: "PURPLE BRAND JEANS (WM178)",
+    category: "Shorts",
+    price: "$41",
+    image: "https://si.geilicdn.com/pcitem453299265-20050000019afa3b80360a2303ee_500_500.jpg",
+    link: "https://ikako.vip/2cb9f",
+    tag: "HENGYU",
+    rating: 5
+  
+  },
+  {
+    name: "PURPLE BRAND JEANS(PB141)",
+    category: "Shorts",
+    price: "$41",
+    image: "https://si.geilicdn.com/pcitem453299265-417500000198053f14a20a23111a_1200_1200.jpg",
+    link: "https://ikako.vip/7dh9b",
+    tag: "HENGYU",
+    rating: 5
+  
+  },
+  {
+    name: "PURPLE BRAND JEANS (WM131)",
+    category: "Shorts",
+    price: "$41",
+    image: "https://si.geilicdn.com/pcitem453299265-4c9d000001996672c29e0a2303ee_4168_4168.jpg",
+    link: "https://ikako.vip/2cb9f",
+    tag: "HENGYU",
+    rating: 5
+  
+  },
+  {
+    name: "MIJKO PATCH JEANS",
+    category: "Shorts",
+    price: "$22",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01O1orgc2BKcL12Zsz2_!!2210306378320-0-cib.jpg",
+    link: "https://ikako.vip/pdyhvd",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "ACNE 1981M VINTAGE BLACK",
+    category: "Shorts",
+    price: "$53",
+    image: "https://preview.redd.it/rep-topacney-vs-retail-comparison-acne-studios-1981m-v0-2e3k8p3tz1de1.jpg?width=640&crop=smart&auto=webp&s=0aa242d0926cb170c02200f94939f8e03fa789f4",
+    link: "https://ikako.vip/byp9n",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  {
+    name: "ACNE 2010M BLACK",
+    category: "Shorts",
+    price: "$53",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/18/ef2e323b80ef60a1376681f3da89032e.jpg",
+    link: "https://ikako.vip/bp8nd",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  ,
+  {
+    name: "ACNE 1981 PAINT SPLATTER",
+    category: "Shorts",
+    price: "$53",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/13/39dbf5ea52bed1b15138a5bd0a7d6359.jpg",
+    link: "https://ikako.vip/sguec",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  {
+    name: "ACNE STUDIOS 1989 ASH BLACK",
+    category: "Shorts",
+    price: "$49.35",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/c2bd75caab75d5b830465224b0d69bda.jpg",
+    link: "https://ikako.vip/2qjzzy",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS PANTS (BUDGET)",
+    category: "Shorts",
+    price: "$18.81",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN012VDKoZ1eWB0Mn0X5v_!!2211916693878-0-cib.jpg",
+    link: "https://ikako.vip/gqh67",
+    tag: "BUDGET",
+    rating: 3
+  
+  },
+  {
+    name: "ESSENTIALS FOG PANTS",
+    category: "Shorts",
+    price: "$28.38",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/6/125c4d37e99863a1509cd2ea48d04914.jpg",
+    link: "https://ikako.vip/gud2k",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS FOG PANTS",
+    category: "Shorts",
+    price: "$32",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/24/c14bfc2bee51c3135cc38d019d83d4dd.jpg",
+    link: "https://ikako.vip/j5fy8",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS FOG SWEATPANTS",
+    category: "Shorts",
+    price: "$34",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/8/ad612033899daad33e1289c3ba8f933a.jpg",
+    link: "https://ikako.vip/3xyzy",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS X NBA SWEATPANTS",
+    category: "Shorts",
+    price: "$31.66",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/11/20260c12685cf9313b18d60cce827bd5.jpg",
+    link: "https://ikako.vip/n77sp",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "RICK OWENS SUBHUMAN WAXED PANTS",
+    category: "Shorts",
+    price: "$34.17",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01RLTOsZ1roZhST1sLl_!!3361665678-0-cib.jpg",
+    link: "https://ikako.vip/8rb6r",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "RICK OWENS DRKSHDW JEANS",
+    category: "Shorts",
+    price: "$28",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2214514093/O1CN01Mw6ugI1g6e9yzqzbr_!!2214514093.jpg",
+    link: "https://ikako.vip/xrfzt",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "RICK OWENS PANTS",
+    category: "Shorts",
+    price: "$34.48",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01zDhAm421Ez7BKOEsY_!!2213343996954-0-cib.jpg",
+    link: "https://ikako.vip/8qyny",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "RICK OWENS PANTS",
+    category: "Shorts",
+    price: "$49.99",
+    image: "https://si.geilicdn.com/pcitem1487039158-331200000196a90ffc680a20e7c7_800_800.jpg",
+    link: "https://ikako.vip/4vm26",
+    tag: "PINK ELEPHANT",
+    rating: 4
+  
+  },
+  {
+    name: "RICK OWENS PANTS",
+    category: "Shorts",
+    price: "$58",
+    image: "https://img.alicdn.com/bao/uploaded/i1/62314016/O1CN01nLKBFG1fXNMak3ugp_!!62314016.jpg",
+    link: "https://ikako.vip/5fgu4",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "GUCCI DEMNA BLACK JEANS",
+    category: "Shorts",
+    price: "$63.5",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/26/ab1bd2aea8baab67c337ea8110c87103.jpg",
+    link: "https://ikako.vip/4na4r",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  {
+    name: "GUCCI DEMNA JEANS",
+    category: "Shorts",
+    price: "$63.5",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/41d1bb469c2875b723dd64d5839b48ff.jpg",
+    link: "https://ikako.vip/4na4r",
+    tag: "MVT",
+    rating: 5
+  
+  },
+  {
+    name: "GALLERY DEPT PANTS",
+    category: "Shorts",
+    price: "$30.78",
+    image: "https://img.alicdn.com/bao/uploaded/i1/574102188/O1CN01956YVD1S29Yagn3BV_!!574102188.jpg",
+    link: "https://ikako.vip/w6nrz",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "GALLERY DEPT PANTS",
+    category: "Shorts",
+    price: "$48.07",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/19/4ea0ec8e7e5f2b07e8255ca310236cc5.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D821375995617&affcode=archivee",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "HELLSTAR UNIFORM PANTS",
+    category: "Shorts",
+    price: "$55",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202507/27/697b7b347c5aa8789840344516f33bd5.jpg",
+    link: "https://ikako.vip/sjqrn",
+    tag: "PIKA",
+    rating: 5
+  
+  },
+  {
+    name: "HELLSTAR PANTS",
+    category: "Shorts",
+    price: "$28.06",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/13/2c6efc36b1fc6bbab51bfddf9ccc3c67.jpg",
+    link: "https://ikako.vip/zb326",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "TRUE RELIGION JEANS",
+    category: "Shorts",
+    price: "$27",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2404365569/O1CN01Dd5upM1r0egErRCpf_!!2404365569.jpg",
+    link: "https://ikako.vip/yn4wj",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "NIKE X STUSSY SWEATPANTS",
+    category: "Shorts",
+    price: "$23.55",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/16/0236cfe2a833020b9233c5441ae5f14c.jpg",
+    link: "https://ikako.vip/7czwr",
+    tag: "NEWDP",
+    rating: 4
+  
+  },
+  {
+    name: "NIKE X NOCTA",
+    category: "Shorts",
+    price: "$25.08",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01V18fqe2Gbd3ERr0tF_!!2217753779034-0-cib.jpg",
+    link: "https://ikako.vip/h3w3s",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "CORTEIZ GUERILLAZ CARGO PANTS",
+    category: "Shorts",
+    price: "$43.88",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/9/05dda5b8928b791df52bc298fa7b1840.jpg",
+    link: "https://ikako.vip/b4s9d",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ EMBOSED C-STAR DENIM",
+    category: "Shorts",
+    price: "$35.89",
+    image: "https://si.geilicdn.com/wdseller1936187346-12330000019a674967b40a239846_1320_1320.jpg",
+    link: "https://ikako.vip/2y6u86",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ ROAYLE CREST OPEN SWEATPANTS",
+    category: "Shorts",
+    price: "$27.43",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/22/6795ee0c3d44f905fd543e42ca9cf564.jpg",
+    link: "https://ikako.vip/jw4vs",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ DENIM JEANS DARK WASH",
+    category: "Shorts",
+    price: "$35.89",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/1fec263c6b4af69f3a3401f541eb7f10.jpg",
+    link: "https://ikako.vip/njcur",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ ISLAND BAGGY JEANS",
+    category: "Shorts",
+    price: "$33.75",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/13/3d5cdcb2effe9b1c5d235e1285f8d37a.jpg",
+    link: "https://ikako.vip/wu8sf",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ ALCATRAZ SWEATPANTS",
+    category: "Shorts",
+    price: "$27.74",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/15/2eea76dbabf0b1eca9dbdadb941dd325.jpg",
+    link: "https://ikako.vip/zejc3",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ 4 STAR CARGOS",
+    category: "Shorts",
+    price: "44.37",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202508/15/70a0e74fa8004d6c3c3676b910eb7f95.jpg",
+    link: "https://ikako.vip/avxp6",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "PALM ANGELS PANTS",
+    category: "Shorts",
+    price: "20.6",
+    image: "https://img.alicdn.com/bao/uploaded/i1/574102188/O1CN010s0FJx1S29g8lHaPK_!!574102188.jpg",
+    link: "https://ikako.vip/r57j9",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "THE NORTH FACE 1996 VEST",
+    category: "Jackets",
+    price: "28.21",
+    image: "https://si.geilicdn.com/wdseller901828721618-4d7100000192201ef5a30a239646_1442_1444.jpg",
+    link: "https://ikako.vip/6yhwt",
+    tag: "TOP",
+    rating: 5
+  
+  },
+  {
+    name: "TNF 1996 RETRO NUPTSE 700",
+    category: "Jackets",
+    price: "42.31",
+    image: "https://si.geilicdn.com/pcitem1425026222-3ec000000199e4a07d640a20e2c5_1440_1440.jpg",
+    link: "https://ikako.vip/y6w24",
+    tag: "TOP",
+    rating: 5
+  
+  },
+  {
+    name: "ARCTERYX BLACK SL",
+    category: "Jackets",
+    price: "63",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/23/6f83f9e1502b15462c9d8132157c4b6a.jpg",
+    link: "https://ikako.vip/mcegm",
+    tag: "DREAMREMAKE",
+    rating: 5
+  
+  },
+   
+  
+  
+  
+  
+  
   
 
 
