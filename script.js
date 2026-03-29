@@ -2693,6 +2693,276 @@ let products = [
     rating: 5
   
   },
+  {
+    name: "BALENCIAGA HAMPTONS",
+    category: "Shoes",
+    price: "$67",
+    image: "https://si.geilicdn.com/wdseller1268847658-3dc60000019c2dd97f0d0a21146b_1320_1320.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1268847658.v.weidian.com%2Fitem.html%3FitemID%3D7509083332&affcode=archivee",
+    tag: "XA/VG",
+    rating: 4
+  
+  },
+  {
+    name: "BALENCIAGA 3XL",
+    category: "Shoes",
+    price: "$63",
+    image: "https://si.geilicdn.com/pcitem1710010242-5ba400000198b83c96f30a2304aa_2832_2832.jpg",
+    link: "https://ikako.vip/mk6w3",
+    tag: "VG",
+    rating: 4
+  
+  },
+  {
+    name: "BALENCIAGA X-PANDER",
+    category: "Shoes",
+    price: "$82",
+    image: "https://si.geilicdn.com/pcitem1425026222-7955000001964561a7a90a811411_1440_1920.jpg",
+    link: "https://ikako.vip/9wev4",
+    tag: "OK",
+    rating: 4
+  
+  },
+  {
+    name: "CP COMPANY BEANIE",
+    category: "Belts",
+    price: "$13",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/1/c51e13567bf2ae0bd3a592b1bb8b6a7c.jpg",
+    link: "https://ikako.vip/vf5qn",
+    tag: "CPREPS",
+    rating: 5
+  
+  },
+  {
+    name: "ARCTERYX BEANIE",
+    category: "Belts",
+    price: "$13",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/21/bca95dec778712dff8b754137e7a2f29.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7549993727&affcode=archivee",
+    tag: "OGWAVE",
+    rating: 5
+  
+  },
+  {
+    name: "MONCLER BEANIE",
+    category: "Belts",
+    price: "$12.38",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/25/45a977f803b950c4ad385b797e5d4dde.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7549993727&affcode=archivee",
+    tag: "OGWAVE",
+    rating: 5
+  
+  },
+  {
+    name: "SUPREME BEANIE",
+    category: "Belts",
+    price: "$16",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/24/aced86b8315f485a17dc22155631726f.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7617676948%26spider_token%3D9792&affcode=archivee",
+    tag: "OGWAVE",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ BEANIE",
+    category: "Belts",
+    price: "$16",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2214278784178/O1CN01l1Zlul1gjZlcOdbql_!!2214278784178.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D694456604440&affcode=archivee",
+    tag: "OGWAVE",
+    rating: 5
+  
+  },
+  {
+    name: "LV BELT",
+    category: "Belts",
+    price: "$35",
+    image: "https://si.geilicdn.com/weidian1860614617-151d00000197960f4fc70a23038e_1440_1920.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7496492536&affcode=archivee",
+    tag: "K8",
+    rating: 5
+  
+  },
+  {
+    name: "LV BELTS",
+    category: "Belts",
+    price: "$35",
+    image: "https://si.geilicdn.com/open1621840505-1234478995-0ccd0000018f589a161f0a210559_1080_1080.jpg",
+    link: "https://ikako.vip/gezpn",
+    tag: "K8",
+    rating: 5
+  
+  },
+  {
+    name: "YSL BELTS",
+    category: "Belts",
+    price: "$35",
+    image: "https://si.geilicdn.com/open1621840505-1234478995-51870000018f58aba4550a239631_1080_1080.jpg",
+    link: "https://ikako.vip/cs28e",
+    tag: "K8",
+    rating: 5
+  
+  },
+  {
+    name: "YSL BELTS",
+    category: "Belts",
+    price: "$35",
+    image: "https://si.geilicdn.com/weidian1860614617-4f5c000001977b43220c0a2395e5_1440_1920.jpg",
+    link: "https://ikako.vip/nvanfy",
+    tag: "K8",
+    rating: 5
+  
+  },
+  {
+    name: "HERMES BELTS",
+    category: "Belts",
+    price: "$39",
+    image: "https://si.geilicdn.com/weidian1860614617-409a000001990f45f4b30a231316_1512_2016.jpg",
+    link: "https://ikako.vip/sfn7a",
+    tag: "K8",
+    rating: 5
+  
+  },
+  {
+    name: "GUCCI BELTS",
+    category: "Belts",
+    price: "$35",
+    image: "https://si.geilicdn.com/weidian1854818118-2fb60000019a70bdcd000a23041a_1279_1706.jpg",
+    link: "https://ikako.vip/khkw5",
+    tag: "K8",
+    rating: 5
+  
+  },
+  {
+    name: "GUCCI BELTS",
+    category: "Belts",
+    price: "$35",
+    image: "https://si.geilicdn.com/open1621840505-1234478995-17220000018f588c067d0a8115b5_1440_1920.jpg",
+    link: "https://ikako.vip/retz6",
+    tag: "K8",
+    rating: 5
+  
+  },
+  {
+    name: "FERRAGAMO BELTS",
+    category: "Belts",
+    price: "$36",
+    image: "https://si.geilicdn.com/weidian1860614617-0a6a00000199460a11c90a23047e_1440_1920.jpg",
+    link: "https://ikako.vip/vny7g",
+    tag: "K8",
+    rating: 5
+  
+  },
+  {
+    name: "FERRAGAMO BELTS",
+    category: "Belts",
+    price: "$36",
+    image: "https://si.geilicdn.com/weidian1860614617-7f580000019889a6820b0a230115_1440_1920.jpg",
+    link: "https://ikako.vip/348by",
+    tag: "K8",
+    rating: 5
+  
+  },
+  {
+    name: "FERRAGAMO BELTS",
+    category: "Belts",
+    price: "$36",
+    image: "https://si.geilicdn.com/weidian1860614617-7827000001910c0052160a23057e_1440_1920.jpg",
+    link: "https://ikako.vip/b6jygq",
+    tag: "K8",
+    rating: 5
+  
+  },
+  {
+    name: "CHROME HEARTS BELT",
+    category: "Belts",
+    price: "$41",
+    image: "https://si.geilicdn.com/weidian1860614617-57d100000197981ca68a0a23111a_1080_1080.jpg",
+    link: "https://ikako.vip/bkbm9",
+    tag: "K8",
+    rating: 5
+  
+  },
+  {
+    name: "CHROME HEARTS BELT",
+    category: "Belts",
+    price: "$45",
+    image: "https://si.geilicdn.com/weidian1860614617-5f1a0000019798181d4a0a2395a3_1080_1080.jpg",
+    link: "https://ikako.vip/ckzgq",
+    tag: "K8",
+    rating: 5
+  
+  },
+  {
+    name: "SLP T-SHIRTS (100 CW)",
+    category: "Tshirts",
+    price: "$15.5",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2214183518581/O1CN01zvzBmf2DG9jbN9HCS_!!2214183518581.png",
+    link: "https://ikako.vip/sv2y8",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "KETAMINE T-SHIRT",
+    category: "Tshirts",
+    price: "$26.6",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01sjBPY41gquCafTLof_!!2215791284194.png",
+    link: "https://ikako.vip/ecqqy",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "NETTSPEND INVERT T-SHIRT",
+    category: "Tshirts",
+    price: "$11.25",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01xWayyE2IpUKYRcAgu_!!2212643669335.png",
+    link: "https://ikako.vip/3ne6e",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "NETTSPEND EARLY LIFE CRISIS T-SHIRT",
+    category: "Tshirts",
+    price: "$20.59",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01WNOvQf1gqu9vhs1qX_!!2215791284194.png",
+    link: "https://ikako.vip/jsy98",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "NETTSPEND REHAB T-SHIRT",
+    category: "Tshirts",
+    price: "$20.59",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN01CBZsge1gquBBxFzdl_!!2215791284194.png",
+    link: "https://ikako.vip/jjvrj",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "HYSTERIC GLAMOUR STRAWBERRY T-SHIRT",
+    category: "Tshirts",
+    price: "$22.13",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/16/4699cea934b2176cbbf843445a475a75.jpg",
+    link: "https://ikako.vip/p34fw",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "HYSTERIC GLAMOUR T-SHIRT",
+    category: "Tshirts",
+    price: "$19.04",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01jJ8hET1RR3ZKEXxxg_!!2126072107.png",
+    link: "https://ikako.vip/8z3nm",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
   
    
   
