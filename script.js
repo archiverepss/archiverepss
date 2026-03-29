@@ -2563,6 +2563,136 @@ let products = [
     rating: 4
   
   },
+  {
+    name: "ARCTERYX MACAI REMOVABLE HOOD",
+    category: "Jackets",
+    price: "$94.03",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/20/a6a922185e74f1b6f3facda4e86fda30.jpg",
+    link: "https://ikako.vip/fs6gt",
+    tag: "DREAMREMAKE",
+    rating: 5
+  
+  },
+  {
+    name: "ARCTERYX MACAI",
+    category: "Jackets",
+    price: "$94.03",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/10/c70355efaf91825e34c6e383a58280b0.jpg",
+    link: "https://ikako.vip/dn9k2",
+    tag: "DREAMREMAKE",
+    rating: 5
+  
+  },
+  {
+    name: "MONCLER VEST BUDGET",
+    category: "Jackets",
+    price: "$68.17",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/5/78ac8e7f607b21da8b89a3b27967897e.jpg",
+    link: "https://ikako.vip/2zwqd",
+    tag: "BUDGET BATCH",
+    rating: 5
+  
+  },
+  {
+    name: "MONCLER MAYA BEST BATCH",
+    category: "Jackets",
+    price: "$204.18",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/8/7f2ba002068ecdfe1d72796567584c56.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fh5.m.taobao.com%2Fawp%2Fcore%2Fdetail.htm%3Fft%3Dt%26id%3D903368724429&affcode=archivee",
+    tag: "JIEYI",
+    rating: 5
+  
+  },
+  {
+    name: "MONCLER TBELIARD BEST BATCH",
+    category: "Jackets",
+    price: "$221.73",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/26/ff8f17f63ff47b9585f44fc60e5228f4.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D699573998420%26spm%3Da213gs.v2success.result.1.61584831mOrh1a&affcode=archivee",
+    tag: "JIEYI",
+    rating: 5
+  
+  },
+  {
+    name: "RICK OWENS SECRET PARKA JACKET",
+    category: "Jackets",
+    price: "$208",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/9/4ab182e98917ca976d54543797db3b23.jpg",
+    link: "https://ikako.vip/wdg8b",
+    tag: "APEXMADE",
+    rating: 5
+  
+  },
+  {
+    name: "JORDAN SOCKS 2 PAIR (42-46)",
+    category: "Underwear",
+    price: "$7.21",
+    image: "https://si.geilicdn.com/pcitem1944479080-13890000019abefe66f00a2103bd_1276_1276.jpg",
+    link: "https://ikako.vip/add9k",
+    tag: "BAYMAXSOCKS",
+    rating: 5
+  
+  },
+  {
+    name: "NIKE SOCKS 6 PAIR (42-46)",
+    category: "Underwear",
+    price: "$9.25",
+    image: "https://si.geilicdn.com/open1847561709-1234478995-59c70000019638db296d0a22d249_1276_1276.jpg",
+    link: "https://ikako.vip/97wg9",
+    tag: "BAYMAXSOCKS",
+    rating: 5
+  
+  },
+  {
+    name: "NIKE SOCKS 3 PAIR",
+    category: "Underwear",
+    price: "$5.49",
+    image: "https://si.geilicdn.com/open1847561709-1234478995-571d000001978909a5ee0a22d249_2560_1920.jpg",
+    link: "https://ikako.vip/nvxcm",
+    tag: "BAYMAXSOCKS",
+    rating: 5
+  
+  },
+  {
+    name: "VETEMENTS SOCKS (36-42)",
+    category: "Underwear",
+    price: "$2.2",
+    image: "https://si.geilicdn.com/pcitem1234071531-7e440000019a66c3da5e0a23111a_1276_1276.jpg",
+    link: "https://ikako.vip/mbvwk",
+    tag: "BAYMAXSOCKS",
+    rating: 5
+  
+  },
+  {
+    name: "ERIC EMANUEL SOCKS (3 PACK)",
+    category: "Underwear",
+    price: "$7.06",
+    image: "https://si.geilicdn.com/pcitem2005654965-0c360000019aafb796620a207569_1702_1276.jpg",
+    link: "https://ikako.vip/559eq",
+    tag: "BAYMAXSOCKS",
+    rating: 5
+  
+  },
+  {
+    name: "CALVIN KLEIN BOXERS (5 PACK)",
+    category: "Underwear",
+    price: "$15.52",
+    image: "https://si.geilicdn.com/open1847561709-1234478995-608c0000019638dab1650a8115c2_2560_2560.jpg",
+    link: "https://ikako.vip/bgsjc",
+    tag: "BAYMAXSOCKS",
+    rating: 5
+  
+  },
+  {
+    name: "FOG BOXERS (2 PACK)",
+    category: "Underwear",
+    price: "$15.52",
+    image: "https://si.geilicdn.com/open1847561709-1234478995-65070000019639728abe0a8133b0_1155_1280.jpg",
+    link: "https://ikako.vip/gj93u",
+    tag: "BAYMAXSOCKS",
+    rating: 5
+  
+  },
   
    
   
