@@ -2963,6 +2963,219 @@ let products = [
     rating: 5
   
   },
+  {
+    name: "Jordan 4 (LJR BATCH)",
+    category: "Shoes",
+    price: "$75.22",
+    image: "https://si.geilicdn.com/open1773336045-1234478995-53ce00000195f0f1a5820a23b4de_960_962.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7436802531%26spider_token%3D6edf&affcode=archivee",
+    tag: "LJR",
+    rating: 5
+  
+  },
+  {
+    name: "Jordan 5 (Y3/LJR)",
+    category: "Shoes",
+    price: "$70",
+    image: "https://si.geilicdn.com/wdseller1505219366-388a00000198fd3b8e8b0a20e2c5_1184_666.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7564001027&affcode=archivee",
+    tag: "Y3/LJR",
+    rating: 5
+  
+  },
+  {
+    name: "Nike Mind 001",
+    category: "Shoes",
+    price: "$25.08",
+    image: "https://si.geilicdn.com/pcitem902012511577-61820000019bd02b3acc0a207569_1179_1070.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1789988531.v.weidian.com%2Fitem.html%3FitemID%3D7665676161&affcode=archivee",
+    tag: "S2",
+    rating: 5
+  
+  },
+  {
+    name: "HYSTERIC GLAMOUR MEDICINE T-SHIRT",
+    category: "Tshirts",
+    price: "$22.23",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01St4jiG1RR3bSE8ugM~crop,156,0,858,1144~_!!2126072107.jpg",
+    link: "https://ikako.vip/a6r8y",
+    tag: "BDSS",
+    rating: 5
+  
+  },
+  {
+    name: "HYSTERIC GLAMOUR T-SHIRT",
+    category: "Tshirts",
+    price: "$15.83",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN018ydGoN1RR3bBHQ0VV_!!2126072107.jpg",
+    link: "https://ikako.vip/wvszt",
+    tag: "BDSS",
+    rating: 5
+  
+  },
+  {
+    name: "RANDOM T-SHIRT",
+    category: "Tshirts",
+    price: "$8",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3043413681/O1CN014K74s61d3x01hzmT4_!!3043413681.jpg",
+    link: "https://ikako.vip/rzmpc",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "SHIBU T-SHIRT",
+    category: "Tshirts",
+    price: "$11.08",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2217023441945/O1CN01jwviZQ1QErOaZ7YP8_!!2217023441945.jpg",
+    link: "https://ikako.vip/ykfau",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "ANN D LOCTUS T-SHIRT",
+    category: "Tshirts",
+    price: "$20.89",
+    image: "https://img.alicdn.com/bao/uploaded/i3/4169169639/O1CN01EB8QXG2L4ik5ZHuQp_!!4169169639.jpg",
+    link: "https://ikako.vip/8j6ap",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "CARTI WLR T-SHIRT",
+    category: "Tshirts",
+    price: "$11.33",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01Ps8PHy2IpUEzjtIYL_!!2212643669335.jpg",
+    link: "https://ikako.vip/x3sbe",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "AKIRA T-SHIRT",
+    category: "Tshirts",
+    price: "$11.4",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01QnSHXd2IpUHMH8zZ9_!!2212643669335.jpg",
+    link: "https://ikako.vip/k8bhm",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "UNDERCOVER 10SS T-SHIRT",
+    category: "Tshirts",
+    price: "$15.36",
+    image: "https://si.geilicdn.com/pcitem901965113164-7ddb00000197c01360500a20e284_2796_2796.jpg",
+    link: "https://ikako.vip/ej45a",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "VUJADE T-SHIRT",
+    category: "Tshirts",
+    price: "$15.78",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3954478424/O1CN01UiQ4y52C6FGCRraDv_!!3954478424.jpg",
+    link: "https://ikako.vip/bf8de",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "KANYE X GOSHA T-SHIRT",
+    category: "Tshirts",
+    price: "$16.93",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/21/2bf41571d198c15fa1cf1017c6e0ec77.jpg",
+    link: "https://ikako.vip/q7gsm",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "I'M FINE BLOOD STAIN SHIRT",
+    category: "Tshirts",
+    price: "$11.26",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2218252751209/O1CN019PGXtm1KnlrjXlurh_!!2218252751209.jpg",
+    link: "https://ikako.vip/n2rha",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  
+  {
+    name: "SUPREME ARABIC SHIRT",
+    category: "Tshirts",
+    price: "$16",
+    image: "https://si.geilicdn.com/open1624782517-1624782517-2b2300000198f1c6ba720aa043f9_1350_1350.jpg",
+    link: "https://ikako.vip/zdj9p",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "APHEX TWIN TEE",
+    category: "Tshirts",
+    price: "$11.36",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2212643669335/O1CN01DD6m0g2IpUExmmB9h_!!2212643669335.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D809631048361&affcode=archivee",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "2HOLLIS TEE",
+    category: "Tshirts",
+    price: "$11.23",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2212643669335/O1CN01fOFFsO2IpUKN3AGJI_!!2212643669335.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D921199812955&affcode=archivee",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "2HOLLIS TEE",
+    category: "Tshirts",
+    price: "$11.39",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2212643669335/O1CN01REr0ZU2IpUMpVaF3f_!!2212643669335.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D981183457748&affcode=archivee",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "NUMBER NINE MICKEY TEE",
+    category: "Tshirts",
+    price: "$11.18",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01fRcB0T2IpUKCsPfL2_!!2212643669335.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D916936678572&affcode=archivee",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "RANDOM OPIUM TEE",
+    category: "Tshirts",
+    price: "$12.88",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01FMzCwD2IpUHgIwuUr_!!2212643669335.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D808924265747&affcode=archivee",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "SUPREME THIRTS",
+    category: "Tshirts",
+    price: "$8.62",
+    image: "https://si.geilicdn.com/wdseller1947147904-63130000019735ab59920a2315ef_1288_1288.jpg",
+    link: "https://ikako.vip/bvck7",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  
+  
   
    
   
