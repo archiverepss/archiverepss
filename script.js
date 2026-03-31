@@ -3174,10 +3174,269 @@ let products = [
     rating: 5
   
   },
+  {
+    name: "NIKE X NOCTA HOODIES",
+    category: "Hoodies",
+    price: "$32",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/14/e0d7afed2005d6bde1003ba80a38791b.jpg",
+    link: "https://ikako.vip/87fzm",
+    tag: "RANDOM",
+    rating: 5
   
+  },
+  {
+    name: "Derschutze Ariza Hoodie",
+    category: "Hoodies",
+    price: "$35.06",
+    image: "https://img.alicdn.com/bao/uploaded/i4/1854157063/O1CN01hOdpUV222uVxtFpJC~hdr~_!!1854157063.heic",
+    link: "https://ikako.vip/c6c39",
+    tag: "PENGREPS",
+    rating: 5
   
+  },
+  {
+    name: "Derschutze Gallery Hoodie",
+    category: "Hoodies",
+    price: "$38",
+    image: "https://img.alicdn.com/bao/uploaded/i1/1854157063/O1CN01QyqjQx222uUMVbfRC_!!1854157063.jpg",
+    link: "https://ikako.vip/wks7m",
+    tag: "PENGREPS",
+    rating: 5
   
-   
+  },
+  {
+    name: "Derschutze Hoodie",
+    category: "Hoodies",
+    price: "$36",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/27/877099cfac8f23bb9f89f10d4a7561a9.jpg",
+    link: "https://ikako.vip/jfr3x",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "Derschutze awakening V2 BLOSSOM Hoodie",
+    category: "Hoodies",
+    price: "$33",
+    image: "https://img.alicdn.com/bao/uploaded/i1/1854157063/O1CN01w8zgPc222uSmzxiKS_!!1854157063.jpg",
+    link: "https://ikako.vip/jadt8",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "CDG HOODIE BIG HEART",
+    category: "Hoodies",
+    price: "$42",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/28/01c50d2925f56d4836c9bd496afc6501.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D975518273866&affcode=archivee",
+    tag: "REPBROS",
+    rating: 5
+  
+  },
+  {
+    name: "CDG HOODIE",
+    category: "Hoodies",
+    price: "$39",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/28/35262d6361a5fdfd130146e16d92089f.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D974299403094&affcode=archivee",
+    tag: "REPBROS",
+    rating: 5
+  
+  },
+  {
+    name: "CDG ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$40",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/20/08e16a9401ebe00c2643f5d1e4150eff.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D975522325315&affcode=archivee",
+    tag: "REPBROS",
+    rating: 5
+  
+  },
+  {
+    name: "CDG PLAY ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$42",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/8f30df14c597686ba901499db9dc7cce.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D974788342665&affcode=archivee",
+    tag: "REPBROS",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ X BBK ROYALE ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$39",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/29/9ba1aab474da34577ab50582277951da.jpg",
+    link: "https://ikako.vip/3hu3p",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: "CORTEIZ ALCATRAZ YELLOW HOODIE",
+    category: "Hoodies",
+    price: "$33",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/12/06ef6f109e7297a40f61ff3bb510d442.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1833725707.v.weidian.com%2Fitem.html%3FitemID%3D7656856394&affcode=archivee",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  {
+    name: " CORTEIZ BLACK ALCATRAZ HOODIE",
+    category: "Hoodies",
+    price: "$32",
+    image: "https://si.geilicdn.com/wdseller1781632402-291f00000189b9c04af50a2102d0_750_750.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1760986891.v.weidian.com%2Fitem.html%3FitemID%3D7653811325&affcode=archivee",
+    tag: "GOAT",
+    rating: 5
+  
+  },
+  
+  {
+    name: "CP COMPANY GOGGLE HOODIE",
+    category: "Hoodies",
+    price: "$46.84",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/23/23278811efe0b2969fe481bf0e3fe675.jpg",
+    link: "https://ikako.vip/ep73a",
+    tag: "CPREPSCN",
+    rating: 5
+  
+  },
+  {
+    name: "CP COMPANY GREY ZIPPER HOODIE",
+    category: "Hoodies",
+    price: "$45.5",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/5/8de0efcaae81f8e25272328226518ea6.jpg",
+    link: "https://ikako.vip/94jpb",
+    tag: "CPREPSCN",
+    rating: 5
+  
+  },
+  {
+    name: "CP COMPANY NAVY HOODIE",
+    category: "Hoodies",
+    price: "$40.45",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/28/2122f6d3e742885e37f085223b460f59.jpg",
+    link: "https://ikako.vip/686d8",
+    tag: "CPREPSCN",
+    rating: 5
+  
+  },
+  {
+    name: "PAIKI FUR ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$41",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/26/336f42209aa9b110214507fcadaef5bc.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D841606251822&affcode=archivee",
+    tag: "PAIKI",
+    rating: 5
+  
+  },
+  {
+    name: "PLAYBOI CARTI CAT HOODIE",
+    category: "Hoodies",
+    price: "$25.19",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01VhYQHf2IpUFI208vJ_!!2212643669335.png",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D817686026285&affcode=archivee",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "808VISION HOODIE",
+    category: "Hoodies",
+    price: "$38.65",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/29/c5508179bbb9b4dbd5f652cb78666e98.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1006072606020&affcode=archivee",
+    tag: "DRAGONREP",
+    rating: 5
+  
+  },
+  {
+    name: "ARTIEMASTER BLANK HOODIE'S (A LOT OF CW)",
+    category: "Hoodies",
+    price: "$11.45",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01GD1BYr1rFljOsRngl_!!2631375602-0-cib.jpg",
+    link: "https://ikako.vip/9vufw",
+    tag: "ARTIEMASTER",
+    rating: 5
+  
+  },
+  {
+    name: "YEEZY X GOSHA RUBCHINSKIYE",
+    category: "Hoodies",
+    price: "$25",
+    image: "https://si.geilicdn.com/pcitem1375395368-115e000001913862f2820a8133cc_845_845.jpg",
+    link: "https://ikako.vip/4b9av",
+    tag: "CCHAOS",
+    rating: 4
+  
+  },
+  {
+    name: "UNDERCOVER 06SS HOODIE",
+    category: "Hoodies",
+    price: "$16",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2217964616975/O1CN01c4f4jN21ObaS8Vpwo_!!2217964616975.jpg",
+    link: "https://ikako.vip/dng5f3",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "SAINT ALEXANDER HOODIE",
+    category: "Hoodies",
+    price: "$26.35",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01SBEtji1riALGKiIdY_!!2217847465664-0-cib.jpg",
+    link: "https://ikako.vip/8zmvb",
+    tag: "RANDOM (BUDGET)",
+    rating: 3
+  
+  },
+  {
+    name: "PLAYBOI CARTI WLR HOODIE",
+    category: "Hoodies",
+    price: "$25.50",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01X2kFIu2IpUFUNdM2m_!!2212643669335.png",
+    link: "https://ikako.vip/gweh5",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "6PM X TRUE RELIGION HOODIE",
+    category: "Hoodies",
+    price: "$34.5",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/16/224a509609ddef3f69f4bceadbb48eb6.jpg",
+    link: "https://ikako.vip/dwk5g",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  {
+    name: "LOEWE ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$17.57",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01NLBNhc1WvLg0B31CC_!!2216716812850-0-cib.jpg",
+    link: "https://ikako.vip/7mu8w",
+    tag: "RANDOM",
+    rating: 3
+  
+  },
+  {
+    name: "6PM HOODIE",
+    category: "Hoodies",
+    price: "$36",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/13/de578be16a2583a01b2abc2675e77b9b.jpg",
+    link: "https://ikako.vip/zjqxk",
+    tag: "HOTDOG",
+    rating: 5
+  
+  },
+  
+   //CREWNECK//LONGSLEEVE
   
   
   
