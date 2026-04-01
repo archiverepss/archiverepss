@@ -3435,8 +3435,293 @@ let products = [
     rating: 5
   
   },
+  {
+    name: "PEACEINWAR PATRIOT HOODIE",
+    category: "Hoodies",
+    price: "$32.17",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2687803572/O1CN01FhgslU1cG1sGFeTNn_!!2687803572.jpg",
+    link: "https://ikako.vip/s5ej2",
+    tag: "ALIENSTUDIO",
+    rating: 5
   
-   //CREWNECK//LONGSLEEVE
+  },
+  {
+    name: "PEACEINWAR YIN YANG HOODIE",
+    category: "Hoodies",
+    price: "$31.21",
+    image: "https://si.geilicdn.com/wdseller1995625455-75300000019ada5206720a2102b1_1290_1720.jpg",
+    link: "https://ikako.vip/ap9c4",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR HOODIE",
+    category: "Hoodies",
+    price: "$32.79",
+    image: "https://si.geilicdn.com/wdseller1995625455-37e50000019b21f71ac80a2395e9_1290_1720.jpg",
+    link: "https://ikako.vip/xtndr",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR SOLIDER HOODIE",
+    category: "Hoodies",
+    price: "$33.5",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2687803572/O1CN014myot71cG1sFmRZBR_!!2687803572.jpg",
+    link: "https://ikako.vip/cawfg",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR EU T-SHIRT",
+    category: "Tshirts",
+    price: "$13.4",
+    image: "https://si.geilicdn.com/wdseller1995625455-6b190000019d1a09ad3d0a23c286_1320_1760.jpg",
+    link: "https://ikako.vip/7mmaw",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR NATIONAL FLAG T-SHIRT",
+    category: "Tshirts",
+    price: "$13.4",
+    image: "https://si.geilicdn.com/wdseller1995625455-3f300000019d19ee36ce0a23c1e0_1320_1760.jpg",
+    link: "https://ikako.vip/gekdf",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR ANTI-WAR SKULL TSHIRT",
+    category: "Tshirts",
+    price: "$13.4",
+    image: "https://si.geilicdn.com/wdseller1995625455-53a30000019d19e9c52e0a239839_1320_1760.jpg",
+    link: "https://ikako.vip/qnk8t",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR COLLABORATION SKULL",
+    category: "Tshirts",
+    price: "$13.4",
+    image: "https://si.geilicdn.com/wdseller1995625455-196b0000019d24d6ddee0a20e672_1320_1760.jpg",
+    link: "https://ikako.vip/q62s7",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR BATTLEFIELD PHOTO",
+    category: "Tshirts",
+    price: "$13.4",
+    image: "https://si.geilicdn.com/wdseller1995625455-7e7a0000019d245e199e0a239646_1320_1760.jpg",
+    link: "https://ikako.vip/gwyqy",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR CAMOUFLAGE SKULL ",
+    category: "Tshirts",
+    price: "$13.4",
+    image: "https://si.geilicdn.com/wdseller1995625455-020a0000019d2458154e0a2303ea_1320_1760.jpg",
+    link: "https://ikako.vip/fyhge",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR BRAIDED NATIONAL FLAG",
+    category: "Tshirts",
+    price: "$13.4",
+    image: "https://si.geilicdn.com/wdseller1995625455-07260000019d244eb7920a2305d8_1320_1760.jpg",
+    link: "https://ikako.vip/u3tp2",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR FEDERAL POLO",
+    category: "Tshirts",
+    price: "$21.28",
+    image: "https://si.geilicdn.com/wdseller1995625455-02c30000019d244b12460a240147_1320_1760.jpg",
+    link: "https://ikako.vip/q9j4k",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR SKULL SWEATPANTS",
+    category: "Shorts",
+    price: "$34.52",
+    image: "https://si.geilicdn.com/wdseller1995625455-5ccb0000019b21edc7d70a23b5fa_1290_1720.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7635947538&affcode=archivee",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR SKULL SWEATPANTS",
+    category: "Shorts",
+    price: "$36.1",
+    image: "https://si.geilicdn.com/wdseller1995625455-7f440000019b0db144a60a2304a0_1290_1720.jpg",
+    link: "https://ikako.vip/vukad",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR EU SWEATPANTS",
+    category: "Shorts",
+    price: "$34",
+    image: "https://si.geilicdn.com/wdseller1995625455-1ad70000019b8d082bd60a230417_1290_1720.jpg",
+    link: "https://ikako.vip/f6s9w",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "CHROME HEARTS MORO LONGSLEEVE",
+    category: "Hoodies",
+    price: "$31.37",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/6/cb50d32e7616cd79c15d4e855f2a7b61.jpg",
+    link: "https://ikako.vip/buhj4",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "CHROME HEARTS LONGSLEEVE",
+    category: "Hoodies",
+    price: "$26.64",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/2/3e84c625460f0f2751299a169f5d7af0.jpg",
+    link: "https://ikako.vip/by29w",
+    tag: "TOPHOT",
+    rating: 5
+  
+  },
+  {
+    name: "CDG LONGSLEEVE",
+    category: "Hoodies",
+    price: "$19",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202604/1/1f0873b020b72d07495626288df5e5d2.jpg",
+    link: "https://ikako.vip/ubd6c",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "HYSTERIC GLAMOUR SUE RYNSKI LONGSLEEVE",
+    category: "Hoodies",
+    price: "$25",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01gWT2HW1RR3afrvxpb_!!2126072107.jpg",
+    link: "https://ikako.vip/65udt",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "HYSTERIC GLAMOUR LONGSLEEVE",
+    category: "Hoodies",
+    price: "$17.5",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/25/4d3ff2a9c2d42750e25ac0869365b6af.jpg",
+    link: "https://ikako.vip/typeg",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "UNDERCOVER LONGSLEEVE",
+    category: "Hoodies",
+    price: "$20.78",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2214916689299/O1CN014S01jV2IZ04zhEr6o_!!2214916689299.jpg",
+    link: "https://ikako.vip/tt8hz",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "ERD LONGSLEEVE",
+    category: "Hoodies",
+    price: "$40",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202510/12/020e3d1b4f980b0bc2087f8e2292af57.jpg",
+    link: "https://ikako.vip/yjb6t",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "ERD CREWNECK",
+    category: "Hoodies",
+    price: "$17.42",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2075710764/O1CN01J9qQW51HVxdjUi5Yc_!!2075710764.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D906486784153&affcode=archivee",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "ERD CREWNECK",
+    category: "Hoodies",
+    price: "$45",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/11/dcc2f9e77b00e9509c66c55e770f7d33.jpg",
+    link: "https://ikako.vip/x6fpu",
+    tag: "BDSJ",
+    rating: 5
+  
+  },
+  {
+    name: "MM KNIT ZIP UP",
+    category: "Hoodies",
+    price: "$22.38",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/11/dd80e2246adf1ccbb16ea8dadd758a26.jpg",
+    link: "https://ikako.vip/42939",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "MM KNIT",
+    category: "Hoodies",
+    price: "$13.87",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/30/9305cdee6827484dbe11dbe4e38ed260.jpg",
+    link: "https://ikako.vip/5evbs",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "UNDERCOVER CREWNECK",
+    category: "Hoodies",
+    price: "$22.24",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/2/d198911674bc2f0414fd477145dc6a54.jpg",
+    link: "https://ikako.vip/mzute",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "UNDERCOVER GIZ SAWTOOTH CREWNECK",
+    category: "Hoodies",
+    price: "$18.76",
+    image: "http://img.alicdn.com/imgextra/i4/2217964616975/O1CN01KzYlGH21ObetuoSGL_!!2217964616975.jpg",
+    link: "https://ikako.vip/65v9v",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  
+
+
+
+
+  
+  
   
   
   
