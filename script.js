@@ -3715,6 +3715,146 @@ let products = [
     rating: 4
   
   },
+  {
+    name: "NUMBER NINE BYE BYE GOOD NIGHT",
+    category: "Tshirts",
+    price: "$14.23",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/7/0e851edaa511445340d2cc680634c12d.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D910677881280&affcode=archivee",
+    tag: "LMYER",
+    rating: 5
+  
+  },
+  {
+    name: "SUPREME X HYSTERIC GLAMOUR TEE",
+    category: "Tshirts",
+    price: "$14.27",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3421444534/O1CN01CRPV8S1jMcmmySngs_!!3421444534.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D871616414168&affcode=archivee",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE KICK YOUR ASS TEE",
+    category: "Tshirts",
+    price: "$14.31",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01SSGrRX1FEtYp8DuZk_!!2943390456.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D793393698046&affcode=archivee",
+    tag: "LMYER",
+    rating: 5
+  
+  },
+  {
+    name: "MASTERMIND RHINESTONE TEE",
+    category: "Tshirts",
+    price: "$16",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3483485472/O1CN01YJgxSZ1qIEAuPPmwl_!!3483485472.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D752233274681&affcode=archivee",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "AKIMBO CLUB HOODIE",
+    category: "Hoodies",
+    price: "$22.53",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/30/96f7605dd9e294245bb0b2dc6e89acd9.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D902000743084&affcode=archivee",
+    tag: "MadMan",
+    rating: 4
+  
+  },
+  {
+    name: "WLNEXT ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$32.38",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/16/f559eea0e0c0d63617688c5672e4b297.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D749224137219&affcode=archivee",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "UVU TOSCANA HOODIE",
+    category: "Hoodies",
+    price: "$31.44",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/10/ba00e9190330410d93402aad33c67de1.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7508712321&affcode=archivee",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "UVU INSIGNA ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$31.44",
+    image: "https://si.geilicdn.com/wdseller1940384309-11f4000001982dab0b4d0a22d58f_1320_1320.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7513593962&affcode=archivee",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "ARTE HOODIE",
+    category: "Hoodies",
+    price: "$25.16",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202510/23/5c3d05cf5d2238ca7afc52233acc681a.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D962640498751&affcode=archivee",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "BASIC NIKE PANTS",
+    category: "Shorts",
+    price: "$13.37",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/10/fd5cfb59281b8cb55b947a6c9f9b2568.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7535370671&affcode=archivee",
+    tag: "RANDOM",
+    rating: 3
+  
+  },
+  {
+    name: "Survet Flared joggers",
+    category: "Shorts",
+    price: "$12",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/9/f11639e00eb8d5d83b77f538a66b85c9.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7536809461&affcode=archivee",
+    tag: "RANDOM",
+    rating: 3
+  
+  },
+  {
+    name: "(BUDGET) ACNE STUDIOS JEANS",
+    category: "Shorts",
+    price: "$28.16",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/31/37b4f42c2cfe7c74c4ae63dd565aa82c.jpg",
+    link: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D896534806883&affcode=archivee",
+    tag: "BUDGET",
+    rating: 3
+  
+  },
+  {
+    name: "NO FAITH STUDIOS JEANS",
+    category: "Shorts",
+    price: "$40.15",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/26/bf6a07eeb00ca9b39ddceb49721aa468.jpg",
+    link: "https://ikako.vip/fj85r",
+    tag: "INFINITE",
+    rating: 5
+  
+  },
+  {
+    name: "(BUDGET) GALLERY DEPT JEANS",
+    category: "Shorts",
+    price: "$20.01",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202604/1/6bf9a3c39e99d20e8624b1d2f4ecafeb.jpg",
+    link: "https://ikako.vip/uhsqa",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
   
 
 
