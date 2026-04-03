@@ -939,3 +939,216 @@ button.link:hover {
     padding: 12px;
   }
 }
+/* ============================================
+   PRZYCISKI PRZEŁĄCZANIA WIDOKU
+   ============================================ */
+.view-toggle {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.view-btn {
+  flex: 1;
+  background: rgba(17, 17, 17, 0.9);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: 12px;
+  padding: 10px;
+  color: #aaa;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.view-btn:hover {
+  background: rgba(168, 85, 247, 0.1);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.view-btn.active {
+  background: linear-gradient(135deg, #6b21a5, #a855f7);
+  color: white;
+  border-color: #a855f7;
+  box-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
+}
+
+/* ============================================
+   KARTY SPRZEDAWCÓW
+   ============================================ */
+.seller-card {
+  min-height: 420px;
+  transition: all 0.3s ease;
+}
+
+.seller-card .card-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.seller-card .card-img-wrapper img {
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.seller-card:hover .card-img-wrapper img {
+  transform: scale(1.05);
+}
+
+.seller-tag {
+  background: linear-gradient(135deg, #a855f7, #c084fc);
+  font-size: 10px;
+  padding: 4px 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(168, 85, 247, 0.3);
+}
+
+.seller-rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0 10px;
+}
+
+.rating-stars {
+  color: #fbbf24;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.rating-score {
+  background: rgba(168, 85, 247, 0.15);
+  padding: 3px 10px;
+  border-radius: 20px;
+  color: #c084fc;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid rgba(168, 85, 247, 0.3);
+}
+
+.seller-description {
+  color: #cbd5e1;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 12px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  overflow: hidden;
+  min-height: 58px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.seller-card .link {
+  margin-top: 12px;
+  background: rgba(168, 85, 247, 0.1);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  transition: all 0.3s ease;
+}
+
+.seller-card .link:hover {
+  background: #a855f7;
+  border-color: #a855f7;
+  transform: translateY(-2px);
+}
+
+/* Kategorie sprzedawców - poprawione */
+.sellers-categories {
+  margin-top: 20px;
+}
+
+.sellers-categories h3 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #888;
+  margin-bottom: 14px;
+}
+
+.seller-cat-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 10px 14px;
+  margin: 4px 0;
+  border-radius: 12px;
+  color: #aaa;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.seller-cat-btn .btn-icon {
+  font-size: 18px;
+  width: 28px;
+}
+
+.seller-cat-btn:hover {
+  background: rgba(168, 85, 247, 0.12);
+  color: #fff;
+  transform: translateX(4px);
+}
+
+.seller-cat-btn.active {
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(168, 85, 247, 0.05));
+  color: #c084fc;
+  border-left: 2px solid #c084fc;
+}
+
+/* Responsywność dla sprzedawców */
+@media (max-width: 768px) {
+  .seller-card {
+    min-height: 380px;
+  }
+  
+  .seller-card .card-img-wrapper img {
+    height: 150px;
+  }
+  
+  .seller-description {
+    font-size: 12px;
+    min-height: 52px;
+  }
+  
+  .rating-stars {
+    font-size: 12px;
+  }
+  
+  .rating-score {
+    font-size: 11px;
+    padding: 2px 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .seller-card {
+    min-height: 340px;
+  }
+  
+  .seller-card .card-img-wrapper img {
+    height: 130px;
+  }
+  
+  .seller-description {
+    font-size: 11px;
+    min-height: 48px;
+  }
+  
+  .seller-tag {
+    font-size: 8px;
+    padding: 3px 8px;
+  }
+}

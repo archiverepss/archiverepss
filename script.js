@@ -3906,6 +3906,265 @@ let products = [
   
 ];
 
+
+
+// ============================================
+// 🏪 LISTA SPRZEDAWCÓW
+// ============================================
+
+let sellers = [
+  {
+    name: "Tophotfashion",
+    category: "clothing",
+    rating: 9.0,
+    description: "Chrome hearts,Gallery dept, Essentials, luxury items",
+    link: "https://tophotfashion.x.yupoo.com/albums",
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png",
+    tag: "BEST"
+  },
+  {
+    name: "UMKAO",
+    category: "shoes",
+    rating: 7.0,
+    description: "ok and cheap seller for  Nike TN and similar shoes",
+    link: "https://umkao.x.yupoo.com/albums",
+    image: "https://m.media-amazon.com/images/I/615d34h0UiL._AC_UY900_.jpg",
+    tag: "OK"
+  },
+  {
+    name: "REPBROS",
+    category: "clothing",
+    rating: 9.0,
+    description: "BEST SELLER FOR CDG, AMI",
+    link: "https://repbros.x.yupoo.com/albums",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2221369795952/O1CN01TiMfk61tq4UrKL0kC_!!2221369795952.jpg",
+    tag: "BEST"
+  },
+  {
+    name: "SHARKBREEDER",
+    category: "clothing",
+    rating: 9.0,
+    description: "BEST SELLER FOR TNF JACKET [TOP BATCH]",
+    link: "https://shark-breeder.x.yupoo.com/collections/4994709",
+    image: "https://si.geilicdn.com/pcitem1425026222-3ec000000199e4a07d640a20e2c5_1440_1440.jpg",
+    tag: "BEST FOR TNF"
+  },
+  {
+    name: "WWTOP",
+    category: "shoes",
+    rating: 9.0,
+    description: "BEST SELLER FOR SHOES (CHECK WHICH IS BEST  BATCH BEFORE BUY)",
+    link: "https://wwfake100.x.yupoo.com/albums?tab=gallery",
+    image: "https://si.geilicdn.com/open1733523732-1234478995-610f0000019490b1b22c0aa0834c_1179_1179.jpg.webp?w=750&h=750&cp=1",
+    tag: "BEST"
+  },
+  {
+    name: "THETHUNDER",
+    category: "clothing",
+    rating: 10,
+    description: "BEST SELLER FOR BURBERRY,BALENCIAGA (LUXURY ITEMS)",
+    link: "https://thethunder.x.yupoo.com/albums",
+    image: "https://si.geilicdn.com/pcitem2020241165-3ae60000019b4130bfc40a23041a-unadjust_731_728.png?w=400&h=400",
+    tag: "BEST"
+  },
+
+  {
+    name: "BAYMAXSOCKS",
+    category: "clothing",
+    rating: 10,
+    description: "GOOD QUALITY SELLER FOR UNDERWEAR/SOCKS ETC.",
+    link: "https://baymaxsocks.x.yupoo.com",
+    image: "https://si.geilicdn.com/open1847561709-1234478995-571d000001978909a5ee0a22d249_2560_1920.jpg.webp?w=750&h=750&cp=1",
+    tag: "UNDERWEAR"
+  },
+  {
+    name: "GOAT222",
+    category: "clothing",
+    rating: 10,
+    description: "BEST BATCH FOR SYNA",
+    link: "https://goat-official222.x.yupoo.com/categories/4215138",
+    image: "https://si.geilicdn.com/wdseller1936187346-365c00000198ef2e82950a2301b4_1373_1373.jpg",
+    tag: "BEST"
+  },
+  {
+    name: "GOAT",
+    category: "clothing",
+    rating: 10,
+    description: "BEST BATCH FOR CORTEIZ",
+    link: "https://goat-official.x.yupoo.com/",
+    image: "https://si.geilicdn.com/wdseller1781632402-291f00000189b9c04af50a2102d0_750_750.jpg",
+    tag: "BEST"
+  },
+  {
+    name: "HOTDOG",
+    category: "clothing",
+    rating: 10,
+    description: "BEST BATCH FOR Broken Planet & Akimbo",
+    link: "https://hotdog-official.x.yupoo.com/categories/4098105",
+    image: "https://si.geilicdn.com/wdseller1746487736-2220000001956987605d0a23041a_1170_1170.jpg",
+    tag: "BEST"
+  },
+  {
+    name: "PENGREPS",
+    category: "clothing",
+    rating: 10,
+    description: "BEST BATCH FOR DERSCHUTZE,MERTRA",
+    link: "https://pengreps.x.yupoo.com/albums",
+    image: "https://img.alicdn.com/bao/uploaded/i4/1854157063/O1CN01hOdpUV222uVxtFpJC~hdr~_!!1854157063.heic",
+    tag: "BEST"
+  },
+  {
+    name: "OGWAVE",
+    category: "clothing",
+    rating: 10,
+    description: "BEST SELLER FOR BEANIE/HATS",
+    link: "https://ogwave.x.yupoo.com/",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/25/45a977f803b950c4ad385b797e5d4dde.jpg",
+    tag: "BEST"
+  },
+  {
+    name: "GODMALL (BUDGET)",
+    category: "luxury",
+    rating: 9,
+    description: "BAGS (BUDGET) WE RECOMMEND TAKE  ITEMS WITH LETTER A E.G  P580A",
+    link: "https://godmall.x.yupoo.com/",
+    image: "https://si.geilicdn.com/pcitem902006663336-62d80000019ca80262160a20e284_529_686.jpg",
+    tag: "BEST BUDGET"
+  },
+  {
+    name: "SCARLETTLUXURY",
+    category: "luxury",
+    rating: 10,
+    description: "(BEST BATCH) FOR LUXURY BAGS ETC.",
+    link: "https://scarlettluxury.x.yupoo.com/",
+    image: "https://si.geilicdn.com/pcitem902006663336-62d80000019ca80262160a20e284_529_686.jpg",
+    tag: "BEST"
+  },
+  {
+    name: "YOLO66",
+    category: "shoes",
+    rating: 10,
+    description: "BEST SELLER FOR SHOES (CHECK WHICH IS BEST  BATCH BEFORE BUY)",
+    link: "https://yolo66.x.yupoo.com/categories",
+    image: "https://i.redd.it/yolo66-p6000s-v0-j0acjk5ivaig1.jpg?width=3024&format=pjpg&auto=webp&s=3eac553c523ab217429321abbd15c5d5bb0c6faa",
+    tag: "BEST"
+  }
+  
+  
+
+
+
+  
+];
+
+
+
+
+
+// Widok: 'products' lub 'sellers'
+let currentView = 'products';
+let sellerCategory = 'all';
+
+function switchView(view) {
+  currentView = view;
+  
+  const productsBtn = document.getElementById('viewProductsBtn');
+  const sellersBtn = document.getElementById('viewSellersBtn');
+  const categoriesSection = document.getElementById('categoriesSection');
+  const sellersCategories = document.getElementById('sellersCategories');
+  const filterSection = document.getElementById('filterSection');
+  const subtitle = document.getElementById('subtitle');
+  const searchInput = document.getElementById('search');
+  
+  if (view === 'products') {
+    productsBtn.classList.add('active');
+    sellersBtn.classList.remove('active');
+    categoriesSection.style.display = 'block';
+    sellersCategories.style.display = 'none';
+    filterSection.style.display = 'block';
+    subtitle.textContent = 'Najlepszy Spreadsheet';
+    if (searchInput) searchInput.placeholder = 'Szukaj produktu...';
+    renderProducts();
+  } else {
+    productsBtn.classList.remove('active');
+    sellersBtn.classList.add('active');
+    categoriesSection.style.display = 'none';
+    sellersCategories.style.display = 'block';
+    filterSection.style.display = 'none';
+    subtitle.textContent = 'Najlepsi Sprzedawcy';
+    if (searchInput) {
+      searchInput.placeholder = 'Szukaj sprzedawcy...';
+      searchInput.value = '';
+    }
+    renderSellers();
+  }
+}
+
+function filterSellers(cat) {
+  sellerCategory = cat;
+  
+  document.querySelectorAll('.seller-cat-btn').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  const activeBtn = document.querySelector(`[onclick="filterSellers('${cat}')"]`);
+  if (activeBtn) activeBtn.classList.add('active');
+  
+  renderSellers();
+}
+
+function renderSellers() {
+  const grid = document.getElementById("grid");
+  const search = document.getElementById("search")?.value.toLowerCase() || "";
+  
+  if (!grid) return;
+  
+  let filtered = sellers.filter(s => 
+    (sellerCategory === "all" || s.category === sellerCategory) &&
+    s.name.toLowerCase().includes(search)
+  );
+  
+  const productCountSpan = document.getElementById("productCount");
+  if (productCountSpan) productCountSpan.textContent = filtered.length;
+  
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div class="loading">✨ Brak sprzedawców w tej kategorii<br><span style="font-size: 12px; color: #444;">Spróbuj zmienić filtry</span></div>`;
+    return;
+  }
+  
+  grid.innerHTML = "";
+  filtered.forEach(s => {
+    const el = document.createElement("div");
+    el.className = "card seller-card";
+    
+    // Generuj gwiazdki na podstawie oceny (9.2 -> 4.5 gwiazdki)
+    const ratingStars = "★".repeat(Math.floor(s.rating / 2)) + "☆".repeat(5 - Math.floor(s.rating / 2));
+    
+    el.innerHTML = `
+      <div class="card-img-wrapper">
+        <img src="${s.image}" alt="${s.name}" onerror="this.src='https://via.placeholder.com/300x200?text=No+Image'">
+      </div>
+      <div class="tag seller-tag">${s.tag}</div>
+      <h3>${escapeHtml(s.name)}</h3>
+      <div class="seller-rating">
+        <span class="rating-stars">${ratingStars}</span>
+        <span class="rating-score">${s.rating}/10</span>
+      </div>
+      <p class="seller-description">${escapeHtml(s.description)}</p>
+      <a href="${s.link}" target="_blank" rel="noopener noreferrer">
+        <button class="link">🏪 Zobacz produkty →</button>
+      </a>
+    `;
+    grid.appendChild(el);
+  });
+}
+
+function handleSearch() {
+  if (currentView === 'products') {
+    applyFiltersAndSort();
+  } else {
+    renderSellers();
+  }
+}
 // ============================================
 // ⚠️ NIE EDYTUJ KODU PONIŻEJ (chyba że wiesz co robisz)
 // ============================================

@@ -40,7 +40,14 @@
       <span class="logo-icon">✦</span>
       <h1>ArchiveRepss</h1>
     </div>
-    <div class="categories">
+    
+    <!-- PRZYCISKI PRZEŁĄCZANIA -->
+    <div class="view-toggle">
+      <button onclick="switchView('products')" id="viewProductsBtn" class="view-btn active">🛍️ Spreadsheet</button>
+      <button onclick="switchView('sellers')" id="viewSellersBtn" class="view-btn">🏪 Sprzedawcy</button>
+    </div>
+    
+    <div id="categoriesSection" class="categories">
       <h3>Kategorie</h3>
       <button onclick="setCategory('All')" class="cat-btn active" id="cat-all">
         <span class="btn-icon">📦</span> Wszystko
@@ -52,7 +59,7 @@
         <span class="btn-icon">👕</span> Koszulki
       </button>
       <button onclick="setCategory('Hoodies')" class="cat-btn">
-        <span class="btn-icon">🧥</span> Bluzy / Swetry / Longsleeve
+        <span class="btn-icon">🧥</span> Bluzy
       </button>
       <button onclick="setCategory('Shorts')" class="cat-btn">
         <span class="btn-icon">🩳</span> Spodenki / Spodnie
@@ -64,11 +71,27 @@
         <span class="btn-icon">🩲</span> Bielizna
       </button>
       <button onclick="setCategory('Belts')" class="cat-btn">
-        <span class="btn-icon">⛓️</span> Paski / czapki
+        <span class="btn-icon">⛓️</span> Paski
       </button>
     </div>
     
-    <div class="filter-section">
+    <div id="sellersCategories" class="sellers-categories" style="display: none;">
+      <h3>Sprzedawcy</h3>
+      <button onclick="filterSellers('all')" class="seller-cat-btn active" id="sellerCatAll">
+        <span class="btn-icon">📦</span> Wszystko
+      </button>
+      <button onclick="filterSellers('clothing')" class="seller-cat-btn">
+        <span class="btn-icon">👕</span> Odzież
+      </button>
+      <button onclick="filterSellers('shoes')" class="seller-cat-btn">
+        <span class="btn-icon">👟</span> Buty
+      </button>
+      <button onclick="filterSellers('luxury')" class="seller-cat-btn">
+        <span class="btn-icon">💎</span> Luxury
+      </button>
+    </div>
+    
+    <div class="filter-section" id="filterSection">
       <h3>Sortowanie</h3>
       <select id="sortSelect" onchange="applyFiltersAndSort()" class="filter-select">
         <option value="default">Domyślne</option>
@@ -97,14 +120,14 @@
     <div class="topbar">
       <div class="title-section">
         <h2>Archive <span class="gradient-text">Repss</span></h2>
-        <p>Najlepszy Spreadsheet</p>
+        <p id="subtitle">Najlepszy Spreadsheet</p>
       </div>
       <div class="search-box">
         <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <circle cx="11" cy="11" r="8"/>
           <path d="m21 21-4.35-4.35"/>
         </svg>
-        <input type="text" id="search" placeholder="Szukaj..." oninput="applyFiltersAndSort()" />
+        <input type="text" id="search" placeholder="Szukaj..." oninput="handleSearch()" />
       </div>
     </div>
 
