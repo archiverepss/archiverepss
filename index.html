@@ -29,8 +29,28 @@
       <button class="copy-code" onclick="copyCode()">📋 Kopiuj</button>
     </div>
     <p class="popup-discount">🎉 Otrzymujesz <strong>-15$</strong> na shipping!</p>
-    <a href="https://www.kakobuy.com/register/?affcode=archivee" target="_blank" rel="noopener" class="popup-btn">Zarejestruj się →</a>
+    <a href="https://www.kakobuy.com/register/?affcode=archivee" target="_blank" rel="noopener" class="popup-btn" id="registerBtn">Zarejestruj się →</a>
     <p class="popup-footer">Kod obowiązuje przy pierwszym zamówieniu</p>
+  </div>
+</div>
+
+<!-- POPUP WYBORU AGENTA -->
+<div class="agent-popup-overlay" id="agentPopupOverlay">
+  <div class="agent-popup-container">
+    <div class="agent-popup-icon">🛒</div>
+    <h3>Wybierz agenta zakupowego</h3>
+    <p>Linki do produktów będą automatycznie konwertowane dla wybranego agenta.<br>Możesz to zmienić w dowolnym momencie.</p>
+    <div class="agent-buttons">
+      <button class="agent-btn" data-agent="kakobuy" id="agentKakobuy">
+        <img src="https://kakobuy.com/favicon.ico" alt="Kakobuy">
+        <span>Kakobuy</span>
+      </button>
+      <button class="agent-btn" data-agent="usfans" id="agentUsfans">
+        <img src="https://usfans.com/favicon.ico" alt="USFans">
+        <span>USFans</span>
+      </button>
+    </div>
+    <button id="confirmAgentBtn" class="agent-confirm-btn">Kontynuuj z <span id="selectedAgentName">Kakobuy</span></button>
   </div>
 </div>
 
@@ -46,6 +66,9 @@
       <button onclick="switchView('products')" id="viewProductsBtn" class="view-btn active">🛍️ Spreadsheet</button>
       <button onclick="switchView('sellers')" id="viewSellersBtn" class="view-btn">🏪 Sprzedawcy</button>
     </div>
+    
+    <!-- PRZYCISK DO ZMIANY AGENTA -->
+    <button id="changeAgentBtn" class="change-agent-btn">🔄 Zmień agenta</button>
     
     <div id="categoriesSection" class="categories">
       <h3>Kategorie</h3>

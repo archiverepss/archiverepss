@@ -1152,3 +1152,206 @@ button.link:hover {
     padding: 3px 8px;
   }
 }
+/* ============================================
+   POPUP WYBORU AGENTA
+   ============================================ */
+.agent-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(12px);
+  z-index: 3000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+}
+
+.agent-popup-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.agent-popup-container {
+  background: linear-gradient(135deg, rgba(18, 18, 18, 0.98), rgba(8, 8, 8, 0.98));
+  backdrop-filter: blur(20px);
+  border-radius: 28px;
+  padding: 32px;
+  max-width: 420px;
+  width: 90%;
+  text-align: center;
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  box-shadow: 0 25px 50px -12px rgba(168, 85, 247, 0.4);
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+
+.agent-popup-overlay.active .agent-popup-container {
+  transform: scale(1);
+}
+
+.agent-popup-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.agent-popup-container h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  background: linear-gradient(135deg, #fff, #a855f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.agent-popup-container p {
+  color: #aaa;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.agent-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.agent-btn {
+  flex: 1;
+  background: rgba(17, 17, 17, 0.9);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: 16px;
+  padding: 16px 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.agent-btn img {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  object-fit: contain;
+}
+
+.agent-btn span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.agent-btn:hover {
+  background: rgba(168, 85, 247, 0.15);
+  border-color: #a855f7;
+  transform: translateY(-3px);
+}
+
+.agent-btn.active {
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.25), rgba(168, 85, 247, 0.1));
+  border-color: #a855f7;
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.3);
+}
+
+.agent-btn.active span {
+  color: #a855f7;
+}
+
+.agent-confirm-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #6b21a5, #a855f7);
+  border: none;
+  border-radius: 40px;
+  padding: 14px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 16px;
+}
+
+.agent-confirm-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+}
+
+.change-agent-btn {
+  width: 100%;
+  background: rgba(168, 85, 247, 0.1);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: 12px;
+  padding: 10px;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.change-agent-btn:hover {
+  background: rgba(168, 85, 247, 0.2);
+  border-color: #a855f7;
+}
+
+@media (max-width: 480px) {
+  .agent-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .agent-btn {
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px;
+  }
+  .agent-btn img {
+    width: 32px;
+    height: 32px;
+  }
+  .agent-popup-container {
+    padding: 24px;
+  }
+}
+/* ============================================
+   UKRYCIE PASKÓW PRZEWIJANIA W SIDEBARZE
+   ============================================ */
+
+.sidebar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none; /* Chrome/Safari/Opera */
+}
+
+/* Jeśli chcesz ukryć pasek przewijania na całej stronie (opcjonalnie) */
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
