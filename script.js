@@ -4365,6 +4365,84 @@ let products = [
     rating: 4
   
   },
+  {
+    name: "AJ1 X TRAVIS",
+    category: "Shoes",
+    price: "$63 - 72",
+    image: "https://si.geilicdn.com/wdseller1505219366-0c5a00000198343b658f0a2396f4_960_961.jpg",
+    linkKakobuy: "https://ikako.vip/a4svt",
+    linkUsfans: "https://usfans.com/product/3/7564030719?ref=TX9V9N",
+    tag: "PK 4.0",
+    rating: 5
+  
+  },
+  {
+    name: "VETEMENTS ZURICH",
+    category: "Hoodies",
+    price: "$56.83",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2210299185015/O1CN01ZfxYcp1muvO3pGJrk_!!2210299185015.jpg",
+    linkKakobuy: "https://ikako.vip/vuqaj",
+    linkUsfans: "https://usfans.com/product/2/809389387349?ref=TX9V9N",
+    tag: "VOGUE",
+    rating: 5
+  
+  },
+  {
+    name: "VETEMENTS ZURICH",
+    category: "Hoodies",
+    price: "$56.83",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2210299185015/O1CN01ZfxYcp1muvO3pGJrk_!!2210299185015.jpg",
+    linkKakobuy: "https://ikako.vip/vuqaj",
+    linkUsfans: "https://usfans.com/product/2/809389387349?ref=TX9V9N",
+    tag: "VOGUE",
+    rating: 5
+  
+  },
+  {
+    name: "HOMIXIDE GANG TOUR TEE",
+    category: "Tshirts",
+    price: "$11.52",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01JsaxDn2IpUF05WMXl_!!2212643669335.jpg",
+    linkKakobuy: "https://ikako.vip/ed8kr",
+    linkUsfans: "https://usfans.com/product/2/811257266296?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 3
+  
+  },
+  {
+    name: "NO E MOSEN LONGSLEEVE",
+    category: "Tshirts",
+    price: "$32.19",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/30/58fb6d15c4033af0b330e43ab210efb8.jpg",
+    linkKakobuy: "https://ikako.vip/xdmpq",
+    linkUsfans: "https://usfans.com/product/2/764799778569?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "Air Max Plus Tn",
+    category: "Shoes",
+    price: "$23.63 - 32",
+    image: "https://si.geilicdn.com/weidian1744790155-524b0000018cdbccae590a231418_1536_2048.jpg",
+    linkKakobuy: "https://ikako.vip/8fa4d",
+    linkUsfans: "https://www.usfans.com/product/3/6565730165?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 3
+  
+  },
+  {
+    name: "(BUDGET) RANDOM FLARED PANTS",
+    category: "Shorts",
+    price: "$24.13",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/5/db25d86d05522290e161b280a055f232.jpg",
+    linkKakobuy: "https://ikako.vip/et2g3",
+    linkUsfans: "https://www.usfans.com/product/2/945274664699?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 3
+  
+  },
+  
   
 
 
