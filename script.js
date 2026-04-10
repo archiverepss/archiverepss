@@ -4442,6 +4442,28 @@ let products = [
     rating: 3
   
   },
+   {
+    name: "BUDGET MAISON MARGIELA T-SHIRT",
+    category: "Tshirts",
+    price: "$15.31",
+    image: "https://media.usfans.com/PDA/674b546c-8c5e-43ba-8205-cb1503335d57.jpg",
+    linkKakobuy: "https://ikako.vip/yxnu2",
+    linkUsfans: "https://usfans.com/product/2/1003882569724?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "CARHARTT JACKETS [A LOT OF CW]",
+    category: "Jackets",
+    price: "$31.73 - 41.27",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/23/597513f4fa29c1ecaa8c336bde5ec22c.jpg",
+    linkKakobuy: "https://ikako.vip/gr5ma",
+    linkUsfans: "https://usfans.com/product/1/743062544600?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
   
   
 
@@ -5316,3 +5338,25 @@ function updateRegisterPopup() {
     if (popupDiscount) popupDiscount.innerHTML = '🎉 Otrzymujesz <strong>specjalne zniżki</strong> na shipping!';
   }
 }
+
+
+// ============================================
+// ⬆️ PRZYCISK SCROLL TO TOP
+// ============================================
+
+const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) {
+    scrollToTopBtn.classList.add('show');
+  } else {
+    scrollToTopBtn.classList.remove('show');
+  }
+});
+
+scrollToTopBtn.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
