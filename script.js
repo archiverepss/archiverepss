@@ -4376,17 +4376,7 @@ let products = [
     rating: 5
   
   },
-  {
-    name: "VETEMENTS ZURICH",
-    category: "Hoodies",
-    price: "$56.83",
-    image: "https://img.alicdn.com/bao/uploaded/i4/2210299185015/O1CN01ZfxYcp1muvO3pGJrk_!!2210299185015.jpg",
-    linkKakobuy: "https://ikako.vip/vuqaj",
-    linkUsfans: "https://usfans.com/product/2/809389387349?ref=TX9V9N",
-    tag: "VOGUE",
-    rating: 5
-  
-  },
+
   {
     name: "VETEMENTS ZURICH",
     category: "Hoodies",
@@ -4461,6 +4451,116 @@ let products = [
     linkKakobuy: "https://ikako.vip/gr5ma",
     linkUsfans: "https://usfans.com/product/1/743062544600?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "WEST COAST CHOPPERS HOODIE",
+    category: "Hoodies",
+    price: "$24.72",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202604/10/a8562c23796229200c464ad487cf96ed.jpg",
+    linkKakobuy: "https://ikako.vip/5tbt5",
+    linkUsfans: "https://usfans.com/product/3/7542163380?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "WEST COAST CHOPPERS T-SHIRTS",
+    category: "Tshirt",
+    price: "$10.31 - 12.27",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2210749411287/O1CN01QbLK5c1LNUqryJwck_!!2210749411287.jpg",
+    linkKakobuy: "https://ikako.vip/m489a",
+    linkUsfans: "https://usfans.com/product/2/885178756710?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "RICK OWENS BIAS BOOTCUT JEANS",
+    category: "Shorts",
+    price: "$27.89",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/29/99a5dfd17759aea546184e92b8b1fdf7.jpg",
+    linkKakobuy: "https://ikako.vip/u94wn",
+    linkUsfans: "https://usfans.com/product/2/909290620880?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "UNDERCOVER 03 TEE",
+    category: "Tshirts",
+    price: "$16.24",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2652892586/O1CN01laq0eg1UyRHYWO6Ib_!!2652892586.jpg",
+    linkKakobuy: "https://ikako.vip/p52x4",
+    linkUsfans: "https://usfans.com/product/2/927709845234?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "UNDERCOVER 10SS TEE",
+    category: "Tshirts",
+    price: "$11.16",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2652892586/O1CN016H5Gte1UyRGxJlwq7_!!2652892586.jpg",
+    linkKakobuy: "https://ikako.vip/uar5d",
+    linkUsfans: "https://usfans.com/product/2/907865244699?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "UNDERCOVER 10SS TEE",
+    category: "Tshirts",
+    price: "$12.91",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2652892586/O1CN01u9yYnP1UyRHDoVhtW_!!2652892586.jpg",
+    linkKakobuy: "https://ikako.vip/8knn9",
+    linkUsfans: "https://usfans.com/product/2/915690722743?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+   {
+    name: "UNDERCOVER 18SS TEE",
+    category: "Tshirts",
+    price: "$16.25",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2652892586/O1CN01k4BIlw1UyRIKCmCx1_!!2652892586.jpg",
+    linkKakobuy: "https://ikako.vip/ujp77",
+    linkUsfans: "https://usfans.com/product/2/946392353863?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE GUITAR TEE",
+    category: "Tshirts",
+    price: "$23.93",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01WijceZ1FEtRAGUuUY_!!2943390456.jpg",
+    linkKakobuy: "https://ikako.vip/2a4p9",
+    linkUsfans: "https://usfans.com/product/2/713152360154?ref=TX9V9N",
+    tag: "LMYER",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE TEE",
+    category: "Tshirts",
+    price: "$14.38",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01aQostt1FEtZm3P9Gg_!!2943390456.jpg",
+    linkKakobuy: "https://ikako.vip/8ja72",
+    linkUsfans: "https://usfans.com/product/2/811258955442?ref=TX9V9N",
+    tag: "LMYER",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE SOVC TEE",
+    category: "Tshirts",
+    price: "$14.64",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01QNMsQZ1FEtZfvbVku_!!2943390456.jpg",
+    linkKakobuy: "https://ikako.vip/p6br4",
+    linkUsfans: "https://usfans.com/product/2/811533361881?ref=TX9V9N",
+    tag: "LMYER",
     rating: 4
   
   },
