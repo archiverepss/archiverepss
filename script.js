@@ -4349,7 +4349,7 @@ let products = [
     price: "$21.73",
     image: "https://img.alicdn.com/imgextra/i2/2219806430381/O1CN01bP0Cfh1EgXznL0xTI_!!2219806430381.jpg",
     linkKakobuy: "https://ikako.vip/b6p3y",
-    linkUsfans: "",
+    linkUsfans: "https://usfans.com/product/2/1037334046765?ref=TX9V9N",
     tag: "RANDOM BATCH",
     rating: 4
   
@@ -4370,9 +4370,9 @@ let products = [
     category: "Shoes",
     price: "$63 - 72",
     image: "https://si.geilicdn.com/wdseller1505219366-0c5a00000198343b658f0a2396f4_960_961.jpg",
-    linkKakobuy: "https://ikako.vip/a4svt",
+    linkKakobuy: "https://ikako.vip/zn5kr",
     linkUsfans: "https://usfans.com/product/3/7564030719?ref=TX9V9N",
-    tag: "PK 4.0",
+    tag: "PK 4.0/LJR",
     rating: 5
   
   },
@@ -4561,6 +4561,62 @@ let products = [
     linkKakobuy: "https://ikako.vip/p6br4",
     linkUsfans: "https://usfans.com/product/2/811533361881?ref=TX9V9N",
     tag: "LMYER",
+    rating: 4
+  
+  },
+  {
+    name: "NOCTA HOTSTEP 2",
+    category: "Shoes",
+    price: "$60.39",
+    image: "https://si.geilicdn.com/wdseller1745861162-202a0000019ad93b99780a20e672_1179_884.jpg",
+    linkKakobuy: "https://ikako.vip/raddj",
+    linkUsfans: "https://usfans.com/product/3/7621101817?ref=TX9V9N",
+    tag: "GX (WWTOP)",
+    rating: 5
+  
+  },
+  {
+    name: "UNDERCOVER 10AW LONGSLEEVE",
+    category: "Tshirts",
+    price: "$24.63",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01X0CYbH1FEtWMvrjxb_!!2943390456.jpg",
+    linkKakobuy: "https://ikako.vip/jbrdq",
+    linkUsfans: "https://usfans.com/product/2/745757648215?ref=TX9V9N",
+    tag: "LMYER",
+    rating: 4
+  
+  },
+
+  {
+    name: "RICK OWENS FLARED PANTS",
+    category: "Shorts",
+    price: "$28.39",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2214514093/O1CN01Q8Rq121g6e8wZQQMe_!!2214514093.jpg",
+    linkKakobuy: "https://ikako.vip/v9kge",
+    linkUsfans: "https://usfans.com/product/2/908704092173?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "RANDOM SUPREME T-SHIRTS",
+    category: "Tshirts",
+    price: "$10.79",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01IWOXUi29Zc4ai2fGD_!!2220073568082-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/mbdr3",
+    linkUsfans: "https://usfans.com/product/1/944517412239?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "HYSTERIC GLAMOUR BOB DYLAN TSHIRT",
+    category: "Tshirts",
+    price: "$12.66",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3926619803/O1CN01DwSH112MHpkO87CMD_!!3926619803.jpg",
+    linkKakobuy: "https://ikako.vip/v4myt",
+    linkUsfans: "https://usfans.com/product/2/922348545861?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
     rating: 4
   
   },
