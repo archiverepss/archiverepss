@@ -4620,6 +4620,72 @@ let products = [
     rating: 4
   
   },
+  {
+    name: "XAVIERSOBASED ANIME T-SHIRT",
+    category: "Tshirts",
+    price: "$20.86",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202604/17/c9cfbcbfefa773cb12dfa40b852f158f.jpg",
+    linkKakobuy: "https://ikako.vip/gpy3w",
+    linkUsfans: "https://usfans.com/product/2/1032859742347?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "GOTH MONEY RECORD TEE",
+    category: "Tshirts",
+    price: "$19.34",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN015G4fNA1gquA1olip3_!!2215791284194.png",
+    linkKakobuy: "https://ikako.vip/jqpje",
+    linkUsfans: "https://usfans.com/product/2/934889424661?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "SALEM X BLADEE SILKROAD T-SHIRT",
+    category: "Tshirts",
+    price: "$20.83",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01r1Tptf1gqu7WVDzgP_!!2215791284194.png",
+    linkKakobuy: "https://ikako.vip/u8suf",
+    linkUsfans: "https://usfans.com/product/2/864034495080?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "HAUNTED MOUND T-SHIRT",
+    category: "Tshirts",
+    price: "$21.03",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01uKtX2J1gquAhsa2jk_!!2215791284194.png",
+    linkKakobuy: "https://ikako.vip/jya2g",
+    linkUsfans: "https://usfans.com/product/2/949940321064?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+   {
+    name: "I LOVE HAUNTED MOUND T-SHIRT",
+    category: "Tshirts",
+    price: "$15.51",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01koPi4m1gqu4Hv35xv_!!2215791284194.png",
+    linkKakobuy: "https://ikako.vip/jbc6n",
+    linkUsfans: "https://usfans.com/product/2/810238559904?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "CPFFM X SAINT MICHAEL T-SHIRT",
+    category: "Tshirts",
+    price: "$12.37",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01iKK7G7206uZu9ZDam_!!2837346801-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/ssdam",
+    linkUsfans: "https://usfans.com/product/1/774276403487?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
   
   
 
@@ -4947,7 +5013,7 @@ function handleSearch() {
 // ============================================
 
 // Kurs USD do PLN
-const USD_TO_PLN = 3.72;
+const USD_TO_PLN = 3.62;
 
 function parsePrice(priceStr) {
   if (!priceStr) return 0;
