@@ -5,6 +5,298 @@
 
 let category = "All";
 
+// ============================================
+// 🌐 WYBÓR JĘZYKA (Polski / English)
+// ============================================
+
+let currentLanguage = localStorage.getItem('selectedLanguage') || 'pl';
+const translations = {
+  pl: {
+    // Sidebar
+    archiveRepss: "ArchiveRepss",
+    spreadsheet: "Spreadsheet",
+    sellers: "Sprzedawcy",
+    changeAgent: "Zmień agenta",
+    categories: "Kategorie",
+    all: "Wszystko",
+    shoes: "Buty",
+    tshirts: "Koszulki",
+    hoodies: "Bluzy",
+    shorts: "Spodenki / Spodnie",
+    jackets: "Kurtki",
+    underwear: "Bielizna",
+    belts: "Paski",
+    // Sellers categories
+    allSellers: "Wszystko",
+    clothing: "Odzież",
+    luxury: "Luxury",
+    // Filters
+    sorting: "Sortowanie",
+    defaultSort: "Domyślne",
+    priceAsc: "Cena: od najniższej",
+    priceDesc: "Cena: od najwyższej",
+    priceFilter: "Filtr cenowy (PLN)",
+    min: "Min",
+    max: "Max",
+    clearFilter: "Wyczyść filtr",
+    items: "itemów",
+    // Topbar
+    archive: "Archive",
+    repss: "Repss",
+    bestSpreadsheet: "Najlepszy Spreadsheet",
+    bestSellers: "Najlepsi Sprzedawcy",
+    searchProduct: "Szukaj produktu...",
+    searchSeller: "Szukaj sprzedawcy...",
+    search: "Szukaj...",
+    // Popup rejestracyjny
+    joinKakobuy: "Dołącz do Kakobuy!",
+    joinUSFans: "Dołącz do USFans!",
+    registerBonus: "Zarejestruj się przez nasz link i otrzymaj <strong>bonus powitalny</strong> na pierwsze zakupy!",
+    discountCode: "Kod rabatowy:",
+    refCode: "Kod referencyjny:",
+    copy: "Kopiuj",
+    shippingDiscount: "Otrzymujesz <strong>-15$</strong> na shipping!",
+    specialDiscount: "Otrzymujesz <strong>specjalne zniżki</strong> na shipping!",
+    register: "Zarejestruj się →",
+    codeValid: "Kod obowiązuje przy pierwszym zamówieniu",
+    // Agent popup
+    chooseAgent: "Wybierz agenta zakupowego",
+    agentDesc: "Linki do produktów będą automatycznie konwertowane dla wybranego agenta. Możesz to zmienić w dowolnym momencie.",
+    continueWith: "Kontynuuj z",
+    // Product card
+    viewItem: "Zobacz item",
+    // Loading
+    noProducts: "✨ Brak produktów w tej kategorii",
+    tryChangeFilters: "Spróbuj zmienić filtry",
+    noSellers: "✨ Brak sprzedawców w tej kategorii",
+    // Common
+    copied: "Skopiowano!"
+  },
+  en: {
+    // Sidebar
+    archiveRepss: "ArchiveRepss",
+    spreadsheet: "Spreadsheet",
+    sellers: "Sellers",
+    changeAgent: "Change agent",
+    categories: "Categories",
+    all: "All",
+    shoes: "Shoes",
+    tshirts: "T-shirts",
+    hoodies: "Hoodies",
+    shorts: "Shorts / Pants",
+    jackets: "Jackets",
+    underwear: "Underwear",
+    belts: "Belts",
+    // Sellers categories
+    allSellers: "All",
+    clothing: "Clothing",
+    luxury: "Luxury",
+    // Filters
+    sorting: "Sorting",
+    defaultSort: "Default",
+    priceAsc: "Price: lowest first",
+    priceDesc: "Price: highest first",
+    priceFilter: "Price filter (PLN)",
+    min: "Min",
+    max: "Max",
+    clearFilter: "Clear filter",
+    items: "items",
+    // Topbar
+    archive: "Archive",
+    repss: "Repss",
+    bestSpreadsheet: "Best Spreadsheet",
+    bestSellers: "Best Sellers",
+    searchProduct: "Search product...",
+    searchSeller: "Search seller...",
+    search: "Search...",
+    // Popup rejestracyjny
+    joinKakobuy: "Join Kakobuy!",
+    joinUSFans: "Join USFans!",
+    registerBonus: "Register through our link and get a <strong>welcome bonus</strong> on your first purchase!",
+    discountCode: "Discount code:",
+    refCode: "Referral code:",
+    copy: "Copy",
+    shippingDiscount: "Get <strong>-15$</strong> on shipping!",
+    specialDiscount: "Get <strong>special discounts</strong> on shipping!",
+    register: "Register →",
+    codeValid: "Code valid for first order",
+    // Agent popup
+    chooseAgent: "Choose your agent",
+    agentDesc: "Product links will be automatically converted for the selected agent. You can change this at any time.",
+    continueWith: "Continue with",
+    // Product card
+    viewItem: "View item",
+    // Loading
+    noProducts: "✨ No products in this category",
+    tryChangeFilters: "Try changing filters",
+    noSellers: "✨ No sellers in this category",
+    // Common
+    copied: "Copied!"
+  }
+};
+
+function translatePage() {
+  // Tłumaczenie statycznych elementów
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (translations[currentLanguage][key]) {
+      if (el.tagName === 'INPUT' && el.placeholder) {
+        el.placeholder = translations[currentLanguage][key];
+      } else {
+        el.textContent = translations[currentLanguage][key];
+      }
+    }
+  });
+  
+  // Dynamiczne elementy (subtitle, stats itp.)
+  const subtitle = document.getElementById('subtitle');
+  if (subtitle) {
+    subtitle.textContent = currentView === 'products' 
+      ? translations[currentLanguage].bestSpreadsheet 
+      : translations[currentLanguage].bestSellers;
+  }
+  
+  const searchInput = document.getElementById('search');
+  if (searchInput) {
+    searchInput.placeholder = currentView === 'products' 
+      ? translations[currentLanguage].searchProduct 
+      : translations[currentLanguage].searchSeller;
+  }
+  
+  // Przyciski kategorii
+  const catButtons = document.querySelectorAll('.cat-btn');
+  const catLabels = ['all', 'shoes', 'tshirts', 'hoodies', 'shorts', 'jackets', 'underwear', 'belts'];
+  catButtons.forEach((btn, index) => {
+    if (catLabels[index]) {
+      const span = btn.querySelector('span:last-child');
+      if (span) span.textContent = translations[currentLanguage][catLabels[index]];
+    }
+  });
+  
+  // Przyciski kategorii sprzedawców
+  const sellerCatLabels = ['allSellers', 'clothing', 'shoes', 'luxury'];
+  const sellerBtns = document.querySelectorAll('.seller-cat-btn');
+  sellerBtns.forEach((btn, index) => {
+    if (sellerCatLabels[index]) {
+      const span = btn.querySelector('span:last-child');
+      if (span) span.textContent = translations[currentLanguage][sellerCatLabels[index]];
+    }
+  });
+  
+  // Filtry
+  const sortSelect = document.getElementById('sortSelect');
+  if (sortSelect) {
+    sortSelect.options[0].text = translations[currentLanguage].defaultSort;
+    sortSelect.options[1].text = translations[currentLanguage].priceAsc;
+    sortSelect.options[2].text = translations[currentLanguage].priceDesc;
+  }
+  
+  const minInput = document.getElementById('minPrice');
+  const maxInput = document.getElementById('maxPrice');
+  if (minInput) minInput.placeholder = translations[currentLanguage].min;
+  if (maxInput) maxInput.placeholder = translations[currentLanguage].max;
+  
+  const clearBtn = document.querySelector('.clear-filter-btn');
+  if (clearBtn) clearBtn.textContent = translations[currentLanguage].clearFilter;
+  
+  const statLabel = document.querySelector('.stat-label');
+  if (statLabel) statLabel.textContent = translations[currentLanguage].items;
+  
+  // Przyciski widoku
+  const viewProductsBtn = document.getElementById('viewProductsBtn');
+  const viewSellersBtn = document.getElementById('viewSellersBtn');
+  if (viewProductsBtn) viewProductsBtn.innerHTML = `🛍️ ${translations[currentLanguage].spreadsheet}`;
+  if (viewSellersBtn) viewSellersBtn.innerHTML = `🏪 ${translations[currentLanguage].sellers}`;
+  
+  // Przycisk zmiany agenta
+  const changeAgentBtn = document.getElementById('changeAgentBtn');
+  if (changeAgentBtn) {
+    changeLangBtn.addEventListener('click', () => {
+    showLanguagePopup();
+    });
+}
+  
+  // Popup agenta
+  const agentPopupTitle = document.querySelector('#agentPopupOverlay h3');
+  const agentPopupDesc = document.querySelector('#agentPopupOverlay p');
+  const agentConfirmBtn = document.querySelector('#agentPopupOverlay .agent-confirm-btn');
+  if (agentPopupTitle) agentPopupTitle.textContent = translations[currentLanguage].chooseAgent;
+  if (agentPopupDesc) agentPopupDesc.innerHTML = translations[currentLanguage].agentDesc;
+  if (agentConfirmBtn) agentConfirmBtn.innerHTML = `${translations[currentLanguage].continueWith} <span id="selectedAgentName">${currentAgent === 'kakobuy' ? 'Kakobuy' : 'USFans'}</span>`;
+  
+  // Kopiuj przycisk tekst
+  const copyBtn = document.querySelector('.copy-code');
+  if (copyBtn && copyBtn.innerHTML === '📋 Kopiuj') copyBtn.innerHTML = `📋 ${translations[currentLanguage].copy}`;
+  
+  // Popup rejestracyjny
+  updateRegisterPopup();
+}
+
+function showLanguagePopup() {
+  const popup = document.getElementById('languagePopupOverlay');
+  if (popup) popup.classList.add('active');
+}
+
+function hideLanguagePopup() {
+  const popup = document.getElementById('languagePopupOverlay');
+  if (popup) popup.classList.remove('active');
+}
+
+function setLanguage(lang) {
+  currentLanguage = lang;
+  localStorage.setItem('selectedLanguage', lang);
+  
+  // Aktualizuj aktywny przycisk
+  document.querySelectorAll('.language-btn').forEach(btn => {
+    if (btn.dataset.lang === lang) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+  
+  translatePage();
+}
+
+function initializeLanguage() {
+  setLanguage(currentLanguage);
+}
+
+// Obsługa kliknięć w przyciski języka
+document.addEventListener('DOMContentLoaded', () => {
+  // Przycisk zmiany języka
+const changeLangBtn = document.getElementById('changeLanguageBtn');
+if (changeLangBtn) {
+  changeLangBtn.addEventListener('click', () => {
+    showLanguagePopup();
+  });
+}
+  const langPlBtn = document.getElementById('langPl');
+  const langEnBtn = document.getElementById('langEn');
+  const confirmLangBtn = document.getElementById('confirmLangBtn');
+  
+  if (langPlBtn) {
+    langPlBtn.addEventListener('click', () => setLanguage('pl'));
+  }
+  if (langEnBtn) {
+    langEnBtn.addEventListener('click', () => setLanguage('en'));
+  }
+  if (confirmLangBtn) {
+    confirmLangBtn.addEventListener('click', () => {
+      hideLanguagePopup();
+      initializeLanguage();
+    });
+  }
+  
+  // Pokaż popup języka tylko jeśli język nie był wybrany
+  const hasSelectedLanguage = localStorage.getItem('selectedLanguage');
+  if (!hasSelectedLanguage) {
+    setTimeout(() => showLanguagePopup(), 300);
+  } else {
+    initializeLanguage();
+  }
+});
+
 let products = [
   {
     name: "Jordan 4 Frozen Moments / Black Canvas",
@@ -4903,7 +5195,6 @@ let sellers = [
 
 
 
-
 // Widok: 'products' lub 'sellers'
 let currentView = 'products';
 let sellerCategory = 'all';
@@ -5543,21 +5834,24 @@ function updateRegisterPopup() {
   const popupCodeLabel = document.querySelector('#popupOverlay .code-label');
   const popupCodeValue = document.querySelector('#popupOverlay .code-value');
   const popupDiscount = document.querySelector('#popupOverlay .popup-discount');
+  const popupFooter = document.querySelector('#popupOverlay .popup-footer');
   
   if (currentAgent === 'kakobuy') {
-    if (popupTitle) popupTitle.textContent = 'Dołącz do Kakobuy!';
-    if (popupDesc) popupDesc.innerHTML = 'Zarejestruj się przez nasz link i otrzymaj <strong>bonus powitalny</strong> na pierwsze zakupy!';
+    if (popupTitle) popupTitle.textContent = translations[currentLanguage].joinKakobuy;
+    if (popupDesc) popupDesc.innerHTML = translations[currentLanguage].registerBonus;
     if (popupBtn) popupBtn.href = 'https://www.kakobuy.com/register/?affcode=archivee';
-    if (popupCodeLabel) popupCodeLabel.textContent = 'Kod rabatowy:';
+    if (popupCodeLabel) popupCodeLabel.textContent = translations[currentLanguage].discountCode;
     if (popupCodeValue) popupCodeValue.textContent = 'archiverepss';
-    if (popupDiscount) popupDiscount.innerHTML = '🎉 Otrzymujesz <strong>-15$</strong> na shipping!';
+    if (popupDiscount) popupDiscount.innerHTML = `🎉 ${translations[currentLanguage].shippingDiscount}`;
+    if (popupFooter) popupFooter.textContent = translations[currentLanguage].codeValid;
   } else {
-    if (popupTitle) popupTitle.textContent = 'Dołącz do USFans!';
-    if (popupDesc) popupDesc.innerHTML = 'Zarejestruj się przez nasz link i otrzymaj <strong>bonus powitalny</strong> na pierwsze zakupy!';
+    if (popupTitle) popupTitle.textContent = translations[currentLanguage].joinUSFans;
+    if (popupDesc) popupDesc.innerHTML = translations[currentLanguage].registerBonus;
     if (popupBtn) popupBtn.href = 'https://usfans.com/register?ref=TX9V9N';
-    if (popupCodeLabel) popupCodeLabel.textContent = 'Kod referencyjny:';
+    if (popupCodeLabel) popupCodeLabel.textContent = translations[currentLanguage].refCode;
     if (popupCodeValue) popupCodeValue.textContent = 'TX9V9N';
-    if (popupDiscount) popupDiscount.innerHTML = '🎉 Otrzymujesz <strong>specjalne zniżki</strong> na shipping!';
+    if (popupDiscount) popupDiscount.innerHTML = `🎉 ${translations[currentLanguage].specialDiscount}`;
+    if (popupFooter) popupFooter.textContent = translations[currentLanguage].codeValid;
   }
 }
 

@@ -16,6 +16,26 @@
 </head>
 <body>
 
+<!-- POPUP WYBORU JĘZYKA -->
+<div class="language-popup-overlay" id="languagePopupOverlay">
+  <div class="language-popup-container">
+    <div class="language-popup-icon">🌐</div>
+    <h3>Wybierz język</h3>
+    <div class="language-buttons">
+      <button class="language-btn" data-lang="pl" id="langPl">
+        <img src="https://flagcdn.com/w40/pl.png" alt="Polska" class="flag-img">
+        <span>Polski</span>
+      </button>
+      <button class="language-btn" data-lang="en" id="langEn">
+        <img src="https://flagcdn.com/w40/gb.png" alt="UK" class="flag-img">
+        <span>English</span>
+      </button>
+    </div>
+    <button id="confirmLangBtn" class="language-confirm-btn">Kontynuuj</button>
+    <p class="language-footer">Możesz zmienić wybór później w ustawieniach</p>
+  </div>
+</div>
+
 <!-- POPUP REJESTRACYJNY -->
 <div class="popup-overlay" id="popupOverlay">
   <div class="popup-container">
@@ -69,48 +89,62 @@
     
     <!-- PRZYCISK DO ZMIANY AGENTA -->
     <button id="changeAgentBtn" class="change-agent-btn">🔄 Zmień agenta</button>
+    <!-- PRZYCISK DO ZMIANY JĘZYKA -->
+<button id="changeLanguageBtn" class="change-language-btn">🌐 Zmień język</button>
     
     <div id="categoriesSection" class="categories">
       <h3>Kategorie</h3>
-      <button onclick="setCategory('All')" class="cat-btn active" id="cat-all">
-        <span class="btn-icon">📦</span> Wszystko
+      <button onclick="setCategory('All')" class="cat-btn active">
+        <span class="btn-icon">📦</span>
+        <span>Wszystko</span>
       </button>
       <button onclick="setCategory('Shoes')" class="cat-btn">
-        <span class="btn-icon">👟</span> Buty
+        <span class="btn-icon">👟</span>
+        <span>Buty</span>
       </button>
       <button onclick="setCategory('Tshirts')" class="cat-btn">
-        <span class="btn-icon">👕</span> Koszulki
+        <span class="btn-icon">👕</span>
+        <span>Koszulki</span>
       </button>
       <button onclick="setCategory('Hoodies')" class="cat-btn">
-        <span class="btn-icon">🧥</span> Bluzy
+        <span class="btn-icon">🧥</span>
+        <span>Bluzy</span>
       </button>
       <button onclick="setCategory('Shorts')" class="cat-btn">
-        <span class="btn-icon">🩳</span> Spodenki / Spodnie
+        <span class="btn-icon">🩳</span>
+        <span>Spodenki / Spodnie</span>
       </button>
       <button onclick="setCategory('Jackets')" class="cat-btn">
-        <span class="btn-icon">🧥</span> Kurtki
+        <span class="btn-icon">🧥</span>
+        <span>Kurtki</span>
       </button>
       <button onclick="setCategory('Underwear')" class="cat-btn">
-        <span class="btn-icon">🩲</span> Bielizna
+        <span class="btn-icon">🩲</span>
+        <span>Bielizna</span>
       </button>
       <button onclick="setCategory('Belts')" class="cat-btn">
-        <span class="btn-icon">⛓️</span> Paski
+        <span class="btn-icon">⛓️</span>
+        <span>Paski</span>
       </button>
     </div>
     
     <div id="sellersCategories" class="sellers-categories" style="display: none;">
       <h3>Sprzedawcy</h3>
       <button onclick="filterSellers('all')" class="seller-cat-btn active" id="sellerCatAll">
-        <span class="btn-icon">📦</span> Wszystko
+        <span class="btn-icon">📦</span>
+        <span>Wszystko</span>
       </button>
       <button onclick="filterSellers('clothing')" class="seller-cat-btn">
-        <span class="btn-icon">👕</span> Odzież
+        <span class="btn-icon">👕</span>
+        <span>Odzież</span>
       </button>
       <button onclick="filterSellers('shoes')" class="seller-cat-btn">
-        <span class="btn-icon">👟</span> Buty
+        <span class="btn-icon">👟</span>
+        <span>Buty</span>
       </button>
       <button onclick="filterSellers('luxury')" class="seller-cat-btn">
-        <span class="btn-icon">💎</span> Luxury
+        <span class="btn-icon">💎</span>
+        <span>Luxury</span>
       </button>
     </div>
     
@@ -181,8 +215,6 @@
 </div>
 
 <script src="script.js" defer></script>
-
-
 
 <!-- PRZYCISK SCROLL TO TOP -->
 <button id="scrollToTopBtn" class="scroll-to-top" aria-label="Do góry">
