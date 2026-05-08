@@ -4650,7 +4650,7 @@ let products = [
     name: "BALENCIAGA BRITNEY T-SHIRT",
     category: "Tshirts",
     price: "$14.17",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202605/1/19fe3845ff30a90e388bdc4cdbff2038.jpg",
+    image: "https://media.usfans.com/PDA/ae59dfe1-5e33-4615-8709-90b4c18310e4.jpg",
     linkKakobuy: "https://ikako.vip/a4svt",
     linkUsfans: "https://usfans.com/product/1/939227571473?ref=TX9V9N",
     tag: "RANDOM BATCH",
@@ -5121,6 +5121,39 @@ let products = [
     rating: 4
   
   },
+  {
+    name: "BALENCIAGA 3XL (BEST)",
+    category: "Tshirts",
+    price: "$14.34",
+    image: "https://si.geilicdn.com/pcitem1268847658-3d7e0000019515e5c1fb0a2303ee_1290_1290.jpg",
+    linkKakobuy: "https://ikako.vip/fprtr",
+    linkUsfans: "https://usfans.com/product/3/6229036205?ref=TX9V9N",
+    tag: "ZC / BEST",
+    rating: 5
+  
+  },
+  {
+    name: "DERSCHUTZE DENIM SHORTS",
+    category: "Tshirts",
+    price: "$19.04",
+    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/22/0a449d60950d93f378222cdb347052c7.jpg",
+    linkKakobuy: "https://ikako.vip/ykm3x",
+    linkUsfans: "https://usfans.com/product/1/1031401531331?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "SMOKING BOY HOODIE",
+    category: "Hoodies",
+    price: "$31.71",
+    image: "https://si.geilicdn.com/wdseller1995625455-41b00000019d24da6ee70a23047e_1320_1760.jpg",
+    linkKakobuy: "https://ikako.vip/w695t",
+    linkUsfans: "https://usfans.com/product/3/7717334619?ref=TX9V9N",
+    tag: "ALIEN",
+    rating: 5
+  
+  },
   
   
 
@@ -5235,7 +5268,15 @@ let sellers = [
     image: "https://si.geilicdn.com/pcitem2020241165-3ae60000019b4130bfc40a23041a-unadjust_731_728.png?w=400&h=400",
     tag: "BEST"
   },
-  
+  {
+    name: "PIKA",
+    category: "clothing",
+    rating: 10,
+    description: "BEST HELLSTAR,SP5DER,EE,COUGH SYRUP",
+    link: "https://pikachushop.x.yupoo.com/albums",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2212425898654/O1CN0156kV3P2DnagLfMXmL_!!2212425898654.jpg",
+    tag: "BEST"
+  },
 
   {
     name: "BAYMAXSOCKS",
@@ -5244,13 +5285,13 @@ let sellers = [
     description: "GOOD QUALITY SELLER FOR UNDERWEAR/SOCKS ETC.",
     link: "https://baymaxsocks.x.yupoo.com",
     image: "https://si.geilicdn.com/open1847561709-1234478995-571d000001978909a5ee0a22d249_2560_1920.jpg.webp?w=750&h=750&cp=1",
-    tag: "UNDERWEAR"
+    tag: "UNDERWEAR / SOCKS ETC."
   },
   {
     name: "GOAT222",
     category: "clothing",
     rating: 10,
-    description: "BEST BATCH FOR SYNA",
+    description: "BEST BATCH FOR SYNA,BROKEN PLANET",
     link: "https://goat-official222.x.yupoo.com/categories/4215138",
     image: "https://si.geilicdn.com/wdseller1936187346-365c00000198ef2e82950a2301b4_1373_1373.jpg",
     tag: "BEST"
