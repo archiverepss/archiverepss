@@ -5124,7 +5124,7 @@ let products = [
   {
     name: "BALENCIAGA 3XL (BEST)",
     category: "Tshirts",
-    price: "$14.34",
+    price: "$72",
     image: "https://si.geilicdn.com/pcitem1268847658-3d7e0000019515e5c1fb0a2303ee_1290_1290.jpg",
     linkKakobuy: "https://ikako.vip/fprtr",
     linkUsfans: "https://usfans.com/product/3/6229036205?ref=TX9V9N",
@@ -5134,7 +5134,7 @@ let products = [
   },
   {
     name: "DERSCHUTZE DENIM SHORTS",
-    category: "Tshirts",
+    category: "Shorts",
     price: "$19.04",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/22/0a449d60950d93f378222cdb347052c7.jpg",
     linkKakobuy: "https://ikako.vip/ykm3x",
@@ -5152,6 +5152,106 @@ let products = [
     linkUsfans: "https://usfans.com/product/3/7717334619?ref=TX9V9N",
     tag: "ALIEN",
     rating: 5
+  
+  },
+  {
+    name: "BALENCIAGA TAPE T-SHIRT",
+    category: "Tshirts",
+    price: "$13",
+    image: "https://si.geilicdn.com/wdseller1995625455-41b00000019d24da6ee70a23047e_1320_1760.jpg",
+    linkKakobuy: "https://ikako.vip/j9du3",
+    linkUsfans: "https://usfans.com/product/3/6149020617?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "BALENCIAGA STRIKE BOOTS",
+    category: "Shoes",
+    price: "$84",
+    image: "https://si.geilicdn.com/wdseller1268847658-362000000195e2bc23a10a2396f4_1290_1290.jpg",
+    linkKakobuy: "https://ikako.vip/6vdc3",
+    linkUsfans: "https://usfans.com/product/3/7435510687?ref=TX9V9N",
+    tag: "GZ / EVGA",
+    rating: 4
+  
+  },
+  {
+    name: "BALENCIAGA MICKEY SHOES",
+    category: "Shoes",
+    price: "$77",
+    image: "https://si.geilicdn.com/wdseller1268847658-38c400000195e2c291610a2304a0_1080_1080.jpg",
+    linkKakobuy: "https://ikako.vip/6vdc3",
+    linkUsfans: "https://usfans.com/product/3/7435510687?ref=TX9V9N",
+    tag: "GZ / EVGA",
+    rating: 4
+  
+  },
+
+  {
+    name: "BALENCIAGA LAMBORGHINI LONGSLEEVE",
+    category: "Tshirts",
+    price: "$27.45",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3550899246/O1CN01RRhMbA2IAj5VkWYgV_!!3550899246.jpg",
+    linkKakobuy: "https://ikako.vip/xpbke",
+    linkUsfans: "https://usfans.com/product/2/938199594257?ref=TX9V9N",
+    tag: "APEXMADE",
+    rating: 5
+  
+  },
+  {
+    name: "MOWALOLA TANK TOP",
+    category: "Tshirts",
+    price: "$13",
+    image: "https://media.usfans.com/PDA/a84b58c0-4ad9-4fa8-9031-2461bad7e9d1.jpg",
+    linkKakobuy: "https://ikako.vip/37c9n",
+    linkUsfans: "https://usfans.com/product/2/920048929139?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "COINBASE LARP T-SHIRT",
+    category: "Tshirts",
+    price: "$16",
+    image: "https://si.geilicdn.com/open1831483949-1831483949-1f110000019be4a161fe0a8115c2_3024_4032.jpg",
+    linkKakobuy: "https://ikako.vip/xpf32",
+    linkUsfans: "https://usfans.com/product/3/7659907941?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "KEN CARSON GREAT CHAOS TEE",
+    category: "Tshirts",
+    price: "$12",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2212643669335/O1CN01NJWVhz2IpUFxQXabh_!!2212643669335.jpg",
+    linkKakobuy: "https://ikako.vip/ws4vd",
+    linkUsfans: "https://usfans.com/product/2/826961978094?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "VETEMENTS INTERPOL TEE",
+    category: "Tshirts",
+    price: "$17",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2217868191481/O1CN014Aglbz1MoLdSpv9RA_!!2217868191481.jpg",
+    linkKakobuy: "https://ikako.vip/ttknj",
+    linkUsfans: "https://usfans.com/product/2/936089180003?ref=TX9V9N",
+    tag: "ANGELKING",
+    rating: 4
+  
+  },
+  {
+    name: "STUSSY X RICK OWENS T-SHIRT",
+    category: "Tshirts",
+    price: "$15",
+    image: "https://media.usfans.com/PDA/2f1adf51-db55-4821-a5a5-eac8ac238133.jpg",
+    linkKakobuy: "https://ikako.vip/d54sn",
+    linkUsfans: "https://usfans.com/product/2/647326458771?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
   
   },
   
