@@ -5254,6 +5254,39 @@ let products = [
     rating: 4
   
   },
+  {
+    name: "BUDGET CORTEIZ SHORTS",
+    category: "Shorts",
+    price: "$11.49",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01KvEGXK1zbJBbhTh50_!!2215823446732-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/v6wsg",
+    linkUsfans: "https://usfans.com/product/1/735102637544?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "BUDGET RHUDE SHORTS",
+    category: "Tshirts",
+    price: "$17.93",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2215032114223/O1CN01pQuK1h1h4BYVhoPD4_!!2215032114223.jpg",
+    linkKakobuy: "https://ikako.vip/ktb6p",
+    linkUsfans: "https://usfans.com/product/2/811924496322?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "UP IN FLAMES SHORTS",
+    category: "Shorts",
+    price: "$14.53",
+    image: "https://media.usfans.com/2026/05/10/111204/617ab167-7882-4529-93a8-c561bbfab666.jpg",
+    linkKakobuy: "https://ikako.vip/gh5b9",
+    linkUsfans: "https://usfans.com/product/2/1037669402414?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
   
   
 
