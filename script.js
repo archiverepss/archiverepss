@@ -771,10 +771,10 @@ let products = [
   {
     name: "YEEZY 500",
     category: "Shoes",
-    price: "$59",
+    price: "$62",
     image: "https://si.geilicdn.com/pcitem1437660918-07cf00000178b8495aca0a217216_4032_4030.jpg",
-    linkKakobuy: "https://ikako.vip/avv4n",
-    linkUsfans: "https://usfans.com/product/3/4345115341?ref=TX9V9N",
+    linkKakobuy: "https://ikako.vip/quc5s",
+    linkUsfans: "https://usfans.com/product/3/7363285902?ref=TX9V9N",
     tag: "LW",
     rating: 5
   },
@@ -5123,7 +5123,7 @@ let products = [
   },
   {
     name: "BALENCIAGA 3XL (BEST)",
-    category: "Tshirts",
+    category: "Shoes",
     price: "$72",
     image: "https://si.geilicdn.com/pcitem1268847658-3d7e0000019515e5c1fb0a2303ee_1290_1290.jpg",
     linkKakobuy: "https://ikako.vip/fprtr",
@@ -5158,7 +5158,7 @@ let products = [
     name: "BALENCIAGA TAPE T-SHIRT",
     category: "Tshirts",
     price: "$13",
-    image: "https://si.geilicdn.com/wdseller1995625455-41b00000019d24da6ee70a23047e_1320_1760.jpg",
+    image: "https://si.geilicdn.com/wdseller1730445636-502f00000186ef745c1f0a22d246_1284_1503.jpg",
     linkKakobuy: "https://ikako.vip/j9du3",
     linkUsfans: "https://usfans.com/product/3/6149020617?ref=TX9V9N",
     tag: "RANDOM",
@@ -5258,7 +5258,7 @@ let products = [
     name: "BUDGET CORTEIZ SHORTS",
     category: "Shorts",
     price: "$11.49",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01KvEGXK1zbJBbhTh50_!!2215823446732-0-cib.jpg",
+    image: "https://media.usfans.com/2026/05/12/193416/dd931f11-aa29-4c8d-8f16-07cab2bcac6a.jpg",
     linkKakobuy: "https://ikako.vip/v6wsg",
     linkUsfans: "https://usfans.com/product/1/735102637544?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
@@ -5287,7 +5287,72 @@ let products = [
     rating: 4
   
   },
+  {
+    name: "NEBRASKA LICENSE ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$28.20",
+    image: "https://media.usfans.com/PDA/933b891c-df44-4061-8435-77dab1696a7b.jpg",
+    linkKakobuy: "https://ikako.vip/hmwac",
+    linkUsfans: "https://usfans.com/product/2/939189723127?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 4
   
+  },
+   {
+    name: "NUMBER NINE ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$40",
+    image: "https://media.usfans.com/images/qc/20250806/2138c20a30e8452f9412aff29b1e7840.png",
+    linkKakobuy: "https://ikako.vip/uxf3j",
+    linkUsfans: "https://usfans.com/product/2/811387802141?ref=TX9V9N",
+    tag: "LMYER (BUDGET)",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE SHIELD HOODIE",
+    category: "Hoodies",
+    price: "$41.3",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN013eXWen1FEtiXWjEzR_!!2943390456.jpg",
+    linkKakobuy: "https://ikako.vip/t9by3",
+    linkUsfans: "https://usfans.com/product/2/1003542169569?ref=TX9V9N",
+    tag: "LMYER",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE SHIELD CREWNECK",
+    category: "Hoodies",
+    price: "$39.70",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01lljFWz1FEti0CWjky_!!2943390456.jpg",
+    linkKakobuy: "https://ikako.vip/d7esy",
+    linkUsfans: "https://usfans.com/product/2/992561433919?ref=TX9V9N",
+    tag: "LMYER",
+    rating: 4
+  
+  },
+  {
+    name: "UNDERCOVER LUNAR T-SHIRT",
+    category: "Tshirts",
+    price: "$16.21",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01kuwrP31FEtVsFRf8A_!!2943390456.jpg",
+    linkKakobuy: "https://ikako.vip/xh3eg",
+    linkUsfans: "https://usfans.com/product/2/645671704610?ref=TX9V9N",
+    tag: "LMYER",
+    rating: 4
+  
+  },
+   {
+    name: "UNDERCOVER CANDLE T-SHIRT",
+    category: "Tshirts",
+    price: "$10",
+    image: "https://media.usfans.com/PDA/36ad257c-54b6-4e90-8c45-c83c492b7684.jpg",
+    linkKakobuy: "https://ikako.vip/7y5dt",
+    linkUsfans: "https://usfans.com/product/2/1030419356013?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
   
 
 
