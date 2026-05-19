@@ -5353,6 +5353,73 @@ let products = [
     rating: 4
   
   },
+  {
+    name: "NUMBERNINE HOODIE",
+    category: "Hoodies",
+    price: "$42",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01k7uYHE1CUymOrdtsb_!!2025450085.jpg",
+    linkKakobuy: "https://ikako.vip/bpu4z",
+    linkUsfans: "https://usfans.com/product/2/1008505432114?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 4
+  
+  },
+  {
+    name: "GRAILZ MARINES  HOODIE",
+    category: "Hoodies",
+    price: "$29.30",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2201204187410/O1CN019cbovH24bpvivIIMI_!!2201204187410.jpg",
+    linkKakobuy: "https://ikako.vip/7hdhp",
+    linkUsfans: "https://usfans.com/product/2/963949247487?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "NEW BALANCE 1906",
+    category: "Shoes",
+    price: "$36",
+    image: "https://si.geilicdn.com/pcitem901870080011-588f00000198a566d6d80a239646_1440_1440.jpg",
+    linkKakobuy: "https://ikako.vip/tgpcc",
+    linkUsfans: "https://usfans.com/product/3/7611429333?ref=TX9V9N",
+    tag: "M",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE HOODIE",
+    category: "Hoodies",
+    price: "$45",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01DGYwMU1CUymk76PsQ_!!2025450085.jpg",
+    linkKakobuy: "https://ikako.vip/95je3",
+    linkUsfans: "https://usfans.com/product/2/1015301702523?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 4
+  
+  },
+  {
+    name: "AIME LEON DORE HOODIE",
+    category: "Hoodies",
+    price: "$33.40",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2331597012/O1CN018M7wHr21fXw2nj6k3_!!2331597012.jpg",
+    linkKakobuy: "https://ikako.vip/qn8cw",
+    linkUsfans: "https://usfans.com/product/2/661195309016?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "ANONYMOUS CLUB SWEATPANTS",
+    category: "Shorts",
+    price: "$45",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2210299185015/O1CN01fXkrdQ1muvITGPzeE_!!2210299185015.png",
+    linkKakobuy: "https://ikako.vip/uhdza",
+    linkUsfans: "https://usfans.com/product/2/828582071498?ref=TX9V9N",
+    tag: "VOGUE",
+    rating: 4
+  
+  },
+  
   
 
 
