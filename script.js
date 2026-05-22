@@ -5419,6 +5419,39 @@ let products = [
     rating: 4
   
   },
+  {
+    name: "ALICE HOLLYWOOD TEE",
+    category: "Tshirts",
+    price: "$16.5",
+    image: "https://img.alicdn.com/imgextra/i3/2214656006513/O1CN01D8rdMg1xz0eRN4DC8_!!2214656006513.jpg",
+    linkKakobuy: "https://ikako.vip/mm8se",
+    linkUsfans: "https://usfans.com/product/2/973396863614?ref=TX9V9N",
+    tag: "K8",
+    rating: 4
+  
+  },
+  {
+    name: "VIVIENNE WESTWOOD TEE",
+    category: "Tshirts",
+    price: "$31.40",
+    image: "https://img.alicdn.com/bao/uploaded/i3/1114566/O1CN01Sthit71jbHUqqB8Je_!!1114566.jpg",
+    linkKakobuy: "https://ikako.vip/2hppg",
+    linkUsfans: "https://usfans.com/product/2/935459089993?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "ERD TEE",
+    category: "Tshirts",
+    price: "$26.68",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2215800851954/O1CN013RGc5P1QIys5jpc6g_!!2215800851954.jpg",
+    linkKakobuy: "https://ikako.vip/ehz5z",
+    linkUsfans: "https://usfans.com/product/2/776129033574?ref=TX9V9N",
+    tag: "暗号made",
+    rating: 5
+  
+  },
   
   
 
