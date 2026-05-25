@@ -5452,6 +5452,61 @@ let products = [
     rating: 5
   
   },
+  {
+    name: "POLIZEI TEE",
+    category: "Tshirts",
+    price: "$26.68",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2909580396/O1CN01CcCY2i1EnPhFzbBaX_!!2909580396.jpg",
+    linkKakobuy: "https://ikako.vip/43cjf",
+    linkUsfans: "https://usfans.com/product/2/727596126149?ref=TX9V9N",
+    tag: "BOUND2",
+    rating: 5
+  
+  },
+  {
+    name: "NETTSPEND HOODIE",
+    category: "Hoodies",
+    price: "$39.80",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01AGOZZK1gquAThWfPH_!!2215791284194.png",
+    linkKakobuy: "https://ikako.vip/2xrf5",
+    linkUsfans: "https://usfans.com/product/2/944909218387?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 3
+  
+  },
+  {
+    name: "I WANNA BE FAMOUS HOODIE",
+    category: "Hoodies",
+    price: "$15",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2143400835/O1CN01beGPqa1I2TnO0gceR~crop,0,180,1440,1440~_!!2143400835.jpg",
+    linkKakobuy: "https://ikako.vip/753yw",
+    linkUsfans: "https://usfans.com/product/2/961940659964?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 3
+  
+  },
+  {
+    name: "HYSTERIC GLAMOUR BEAR TEE",
+    category: "Tshirts",
+    price: "$23",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01kyNpZL1RR3eC5PGdI_!!2126072107.heic",
+    linkKakobuy: "https://ikako.vip/dg9jq",
+    linkUsfans: "https://usfans.com/product/2/1046418982983?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  
+  },
+  {
+    name: "CSONLINE TEE",
+    category: "Tshirts",
+    price: "$31.50",
+    image: "https://img.alicdn.com/bao/uploaded/i3/728515915/O1CN01MnuhUH1tZ7mOR2vfv_!!728515915.jpg",
+    linkKakobuy: "https://ikako.vip/swerj",
+    linkUsfans: "https://usfans.com/product/2/916849772452?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
   
   
 
