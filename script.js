@@ -5507,6 +5507,116 @@ let products = [
     rating: 5
   
   },
+   {
+    name: "CB SHORTS",
+    category: "Shorts",
+    price: "$25.3",
+    image: "https://media.usfans.com/2026/05/23/142933/b6d48b2d-de94-404f-a609-acc5b198c793.jpg",
+    linkKakobuy: "https://ikako.vip/pzu29",
+    linkUsfans: "https://usfans.com/product/2/916849772452?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "EPISODES SHORTS",
+    category: "Shorts",
+    price: "$27.13",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3379237928/O1CN01GoYcX028R58zrO4H6_!!3379237928.jpg",
+    linkKakobuy: "https://ikako.vip/v3tabj",
+    linkUsfans: "https://usfans.com/product/2/1044510549433?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "GARMS SHORTS",
+    category: "Shorts",
+    price: "$27",
+    image: "https://media.usfans.com/2026/05/28/140344/a39cd1f4-9137-4d93-be2a-6dc1bc4e89fd.jpg",
+    linkKakobuy: "https://ikako.vip/squp3",
+    linkUsfans: "https://usfans.com/product/2/997189996899?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+   {
+    name: "NIKE TECH SHORTS (BUDGET)",
+    category: "Shorts",
+    price: "$10.6",
+    image: "https://kk-oss-wh-hk.kakobuy.com/whg/202605/29/911872b95df894af5101bebb58d994bb.jpg",
+    linkKakobuy: "https://ikako.vip/6z86s",
+    linkUsfans: "https://usfans.com/product/1/798929144098?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 3
+  
+  },
+  {
+    name: "MUAY THAI SHORTS",
+    category: "Shorts",
+    price: "$9.56",
+    image: "https://media.usfans.com/2026/05/26/110339/9151d7b7-0ff3-47bd-98f7-6f5d9f2284eb.jpg",
+    linkKakobuy: "https://ikako.vip/x7bnh",
+    linkUsfans: "https://usfans.com/product/2/603053819761?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  
+  },
+  {
+    name: "MERTRA SHORTS",
+    category: "Shorts",
+    price: "$22.01",
+    image: "https://media.usfans.com/2026/05/29/170442/f3b051b5-ec0c-4cd3-91ab-a89dab3499f9.jpg",
+    linkKakobuy: "https://ikako.vip/rghrs",
+    linkUsfans: "https://usfans.com/product/3/7757011512?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+   {
+    name: "MERTRA SHORTS",
+    category: "Shorts",
+    price: "$22.01",
+    image: "https://media.usfans.com/2026/05/26/111355/d3f7ea55-e960-40a9-9f27-35c4bf22c674.jpg",
+    linkKakobuy: "https://ikako.vip/gjvqt",
+    linkUsfans: "https://usfans.com/product/3/7542377914?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "MERTRA SHORTS",
+    category: "Shorts",
+    price: "$24.50",
+    image: "https://media.usfans.com/2026/05/21/143548/7dda9e05-7d59-42b4-b741-7be9d8854528.jpg",
+    linkKakobuy: "https://ikako.vip/xqgrw",
+    linkUsfans: "https://usfans.com/product/3/7542377914?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "MERTRA SHORTS",
+    category: "Shorts",
+    price: "$22.01",
+    image: "https://media.usfans.com/2026/05/24/201343/865e80a3-7c53-400e-82d0-abbedf37093e.jpg",
+    linkKakobuy: "https://ikako.vip/qhjx7",
+    linkUsfans: "https://usfans.com/product/3/7477715896?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "MERTRA SHORTS",
+    category: "Shorts",
+    price: "$22.01",
+    image: "https://media.usfans.com/2026/05/26/133532/b5a294f4-c28c-42f6-9e3a-0c64aa2c262a.jpg",
+    linkKakobuy: "https://ikako.vip/6kdev",
+    linkUsfans: "https://usfans.com/product/3/7436855327?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
   
   
 
