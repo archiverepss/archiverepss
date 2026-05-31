@@ -5617,6 +5617,73 @@ let products = [
     rating: 5
   
   },
+  {
+    name: "PEACEINWAR CHAOS HOODIE",
+    category: "Hoodies",
+    price: "$33.91",
+    image: "https://si.geilicdn.com/wdseller1995625455-0a2c0000019d4e14672d0a239839_2560_3413.jpg",
+    linkKakobuy: "https://ikako.vip/3p6ccu",
+    linkUsfans: "https://usfans.com/product/3/7724592269?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+   {
+    name: "PEACEINWAR EU HOODIE",
+    category: "Hoodies",
+    price: "$34.10",
+    image: "https://si.geilicdn.com/wdseller1995625455-69720000019e301bed8a0a23b4f4_3025_3026.jpg",
+    linkKakobuy: "https://ikako.vip/pnzu3",
+    linkUsfans: "https://usfans.com/product/3/7768749330?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+   {
+    name: "PEACEINWAR AIRBONE ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$45.48",
+    image: "https://si.geilicdn.com/wdseller1995625455-7eec0000019dd830c1ff0a23c191_3025_3026.jpg",
+    linkKakobuy: "https://ikako.vip/x9axd",
+    linkUsfans: "https://usfans.com/product/3/7752775014?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+   {
+    name: "PEACEINWAR RED STAR EMBRO HOODIE",
+    category: "Hoodies",
+    price: "$37.40",
+    image: "https://si.geilicdn.com/wdseller1995625455-525c0000019daa24ef4d0a210247_1320_1760.jpg",
+    linkKakobuy: "https://ikako.vip/qtkuf",
+    linkUsfans: "https://usfans.com/product/3/7740280121?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "420 GSM SHORTS",
+    category: "Shorts",
+    price: "$18.17",
+    image: "https://img.alicdn.com/imgextra/i4/808386976/O1CN01a1OAnh21P42TPyWAS_!!808386976.jpg",
+    linkKakobuy: "https://ikako.vip/utghb",
+    linkUsfans: "https://usfans.com/product/2/935328729962?ref=TX9V9N",
+    tag: "UNIONKINGDOM",
+    rating: 5
+  
+  },
+  {
+    name: "360 GSM SHORTS",
+    category: "Shorts",
+    price: "$16.80",
+    image: "https://img.alicdn.com/bao/uploaded/i1/808386976/O1CN01J2lQZG21P3zB4jXlI_!!808386976.jpg",
+    linkKakobuy: "https://ikako.vip/jrpkn",
+    linkUsfans: "https://usfans.com/product/2/846045056077?ref=TX9V9N",
+    tag: "UNIONKINGDOM",
+    rating: 5
+  
+  },
+  
   
   
 
