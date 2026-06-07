@@ -363,8 +363,8 @@ let products = [
     category: "Shoes",
     price: "$33",
     image: "https://drop-up.pl/cdn/shop/files/air-force-1-low-07-triple-white-drop-up.webp?v=1721894137",
-    linkKakobuy: "https://ikako.vip/ssh8w",
-    linkUsfans: "https://www.usfans.com/product/3/7565952748?ref=TX9V9N",
+    linkKakobuy: "https://ikako.vip/mug7s",
+    linkUsfans: "https://www.usfans.com/product/3/7783109456?ref=TX9V9N",
     tag: "GX",
     rating: 5
   },
@@ -763,8 +763,8 @@ let products = [
     category: "Shoes",
     price: "$63",
     image: "https://si.geilicdn.com/wdseller1553163813-27780000018f2301c4040a2303ee_1290_1290.jpg",
-    linkKakobuy: "https://ikako.vip/7w3ym",
-    linkUsfans: "https://usfans.com/product/3/4480389146?ref=TX9V9N",
+    linkKakobuy: "https://ikako.vip/gjsvt",
+    linkUsfans: "https://usfans.com/product/3/7436863807?ref=TX9V9N",
     tag: "LW/OG",
     rating: 5
   },
@@ -3921,38 +3921,7 @@ let products = [
   
   },
   
-  {
-    name: "CP COMPANY GOGGLE HOODIE",
-    category: "Hoodies",
-    price: "$46.84",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/23/23278811efe0b2969fe481bf0e3fe675.jpg",
-    linkKakobuy: "https://ikako.vip/ep73a",
-    linkUsfans: "https://ikako.vip/ep73a",
-    tag: "CPREPSCN",
-    rating: 5
-  
-  },
-  {
-    name: "CP COMPANY GREY ZIPPER HOODIE",
-    category: "Hoodies",
-    price: "$45.5",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/5/8de0efcaae81f8e25272328226518ea6.jpg",
-    linkKakobuy: "https://ikako.vip/94jpb",
-    linkUsfans: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D981146467993&affcode=archivee",
-    tag: "CPREPSCN",
-    rating: 5
-  
-  },
-  {
-    name: "CP COMPANY NAVY HOODIE",
-    category: "Hoodies",
-    price: "$40.45",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/28/2122f6d3e742885e37f085223b460f59.jpg",
-    link: "https://ikako.vip/686d8",
-    tag: "CPREPSCN / BEST",
-    rating: 5
-  
-  },
+
   {
     name: "PAIKI FUR ZIP UP HOODIE",
     category: "Hoodies",
@@ -4861,8 +4830,8 @@ let products = [
     category: "Shoes",
     price: "$60.39",
     image: "https://si.geilicdn.com/wdseller1745861162-202a0000019ad93b99780a20e672_1179_884.jpg",
-    linkKakobuy: "https://ikako.vip/raddj",
-    linkUsfans: "https://usfans.com/product/3/7621101817?ref=TX9V9N",
+    linkKakobuy: "https://ikako.vip/8m2uur",
+    linkUsfans: "https://usfans.com/product/3/7783042962?ref=TX9V9N",
     tag: "GX (BEST)",
     rating: 5
   
@@ -5680,6 +5649,50 @@ let products = [
     linkKakobuy: "https://ikako.vip/jrpkn",
     linkUsfans: "https://usfans.com/product/2/846045056077?ref=TX9V9N",
     tag: "UNIONKINGDOM",
+    rating: 5
+  
+  },
+  {
+    name: "UNDERCOVER 03 TEE",
+    category: "Tshirts",
+    price: "$24",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01VND1991FEtVykLiFZ_!!2943390456.jpg",
+    linkKakobuy: "https://ikako.vip/g2869",
+    linkUsfans: "https://usfans.com/product/2/721238181845?ref=TX9V9N",
+    tag: "LMYER",
+    rating: 5
+  
+  },
+  {
+    name: "PEACEINWAR SHORTS",
+    category: "Shorts",
+    price: "$15.90",
+    image: "https://si.geilicdn.com/wdseller1995625455-5f070000019d19f23cb90a240147_1320_1760.jpg",
+    linkKakobuy: "https://ikako.vip/f5vz5q",
+    linkUsfans: "https://usfans.com/product/3/7715097759?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+   {
+    name: "BULLETPROOF TEE",
+    category: "Tshirts",
+    price: "$15.90",
+    image: "https://si.geilicdn.com/wdseller1995625455-66390000019d6c1d93a90a230449_3025_3026.jpg",
+    linkKakobuy: "https://ikako.vip/e8uv8",
+    linkUsfans: "https://usfans.com/product/3/7731863590?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "HYSTERIC GLAMOUR TEE",
+    category: "Tshirts",
+    price: "$23.01",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01dsprjO1RR3dkOld5A_!!2126072107.jpg",
+    linkKakobuy: "https://ikako.vip/wh22d",
+    linkUsfans: "https://usfans.com/product/2/1034814361803?ref=TX9V9N",
+    tag: "BDSS",
     rating: 5
   
   },
