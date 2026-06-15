@@ -1982,72 +1982,8 @@ let products = [
     rating: 5
   
   },
-  {
-    name: "CORTEIZ HEAVYWEIGHT TEE",
-    category: "Tshirts",
-    price: "$17.27",
-    image: "https://img.alicdn.com/bao/uploaded/i4/3105353542/O1CN01f52U491c2Hv6O2aCe_!!3105353542.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D921974523491%26pisk%3Dg&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/921974523491?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
+ 
   
-  },
-  {
-    name: "CORTEIZ CAN'T RUSH TEE",
-    category: "Tshirts",
-    price: "$12.58",
-    image: "https://img.alicdn.com/bao/uploaded/i1/3105353542/O1CN01WQKHfq1c2HuCZedyJ_!!3105353542.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D899613948225%26sku_properties%3D1627207%253A37183560801&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/899613948225?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  
-  },
-  {
-    name: "CORTEIZ ITALIA TEE",
-    category: "Tshirts",
-    price: "$12.23",
-    image: "https://si.geilicdn.com/wdseller1936187346-08d8000001988d7354380a23111a_1288_1288.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1833725707.v.weidian.com%2Fitem.html%3FitemID%3D7653791465&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7653791465?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  
-  },
-  {
-    name: "CORTEIZ BBK TEE",
-    category: "Tshirts",
-    price: "$13.32",
-    image: "https://si.geilicdn.com/wdseller1936187346-574f000001991dcde8250a23037f_1290_1290.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1833725707.v.weidian.com%2Fitem.html%3FitemID%3D7656820910&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7656820910?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  
-  },
-  {
-    name: "CORTEIZ SANTAN ALCATRAZ TEE",
-    category: "Tshirts",
-    price: "$13.32",
-    image: "https://si.geilicdn.com/wdseller1936187346-0edc0000019aaa7bfd990a231177_1320_1320.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1833725707.v.weidian.com%2Fitem.html%3FitemID%3D7653884243&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7653884243?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  
-  },
-  {
-    name: "CORTEIZ RSLM TEE",
-    category: "Tshirts",
-    price: "$12.23",
-    image: "https://si.geilicdn.com/wdseller1936187346-44ad0000019ace2f775f0a210139_1320_1320.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1833725707.v.weidian.com%2Fitem.html%3FitemID%3D7656862294&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7656862294?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  
-  },
   
   {
     name: "CDG TEE",
@@ -5694,6 +5630,40 @@ let products = [
     linkUsfans: "https://usfans.com/product/2/1034814361803?ref=TX9V9N",
     tag: "BDSS",
     rating: 5
+  
+  },
+
+  {
+    name: "IDLT BLANK TEE",
+    category: "Tshirts",
+    price: "$4.80",
+    image: "https://img.alicdn.com/bao/uploaded/i4/1566784/O1CN01LvFB0m1zz7ylH08Jw_!!1566784.jpg",
+    linkKakobuy: "https://ikako.vip/5ggft",
+    linkUsfans: "https://usfans.com/product/2/615825547877?ref=TX9V9N",
+    tag: "IDLT",
+    rating: 5
+  
+  },
+  {
+    name: "NUMBERNINE MIRROR TEE",
+    category: "Tshirts",
+    price: "$27.28",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01LZz4BU1CUyiTEb4FT_!!2025450085.jpg",
+    linkKakobuy: "https://ikako.vip/yrp7d",
+    linkUsfans: "https://usfans.com/product/2/903641315128?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 4
+  
+  },
+  {
+    name: "RYE PORNSTAR TEE",
+    category: "Tshirts",
+    price: "$23",
+    image: "https://img.alicdn.com/bao/uploaded/i3/1955315533/O1CN01zDFQhD1qkATW1vkjR_!!1955315533.jpg",
+    linkKakobuy: "https://ikako.vip/j25mc",
+    linkUsfans: "https://usfans.com/product/2/901716134277?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
   
   },
   
