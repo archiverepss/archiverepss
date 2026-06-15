@@ -5666,7 +5666,204 @@ let products = [
     rating: 4
   
   },
+  {
+    name: "NETTSPEND T-SHIRT",
+    category: "Tshirts",
+    price: "$22.5",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01tqWTPp1gquAIKTwWo_!!2215791284194.png",
+    linkKakobuy: "https://ikako.vip/ae52z",
+    linkUsfans: "https://usfans.com/product/2/939963519142?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
   
+  },
+  {
+    name: "RANDOM CAMO SHORTS",
+    category: "Shorts",
+    price: "$9.03",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2730747287/O1CN01ctcimt23hV6YwB1Qo_!!2730747287.jpg",
+    linkKakobuy: "https://ikako.vip/ngnws",
+    linkUsfans: "https://www.usfans.com/product/2/816787838126?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "BAPE X CHROME HEARTS TEE",
+    category: "Tshirts",
+    price: "$9.3",
+    image: "https://si.geilicdn.com/open1831483949-1831483949-25ea0000019c1339d3670a231226_800_800.jpg",
+    linkKakobuy: "https://ikako.vip/7ssk9",
+    linkUsfans: "https://usfans.com/product/3/7684853494?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE T-SHIRT",
+    category: "Tshirts",
+    price: "$14.67",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01Ouqaas1FEtbvGWPN4_!!2943390456.jpg",
+    linkKakobuy: "https://ikako.vip/c3bk6",
+    linkUsfans: "https://usfans.com/product/2/850743820998?ref=TX9V9N",
+    tag: "LMYER",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE SHIELD T-SHIRT",
+    category: "Tshirts",
+    price: "$21.01",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01NOrj7B1FEtck373Gt_!!2943390456.jpg",
+    linkKakobuy: "https://ikako.vip/gvwbh",
+    linkUsfans: "https://usfans.com/product/2/860700361266?ref=TX9V9N",
+    tag: "LMYER",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE ROLLING STONES T-SHIRT",
+    category: "Tshirts",
+    price: "$21.26",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2943390456/O1CN0177SLaG1FEtg0TnRuv_!!2943390456.jpg",
+    linkKakobuy: "https://ikako.vip/h58xb",
+    linkUsfans: "https://usfans.com/product/2/948661526096?ref=TX9V9N",
+    tag: "LMYER",
+    rating: 4
+  
+  },
+  {
+    name: "PHILIP PLEIN T-SHIRTS",
+    category: "Tshirts",
+    price: "$11.23",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01dxCF9q1vhU18gBSD8_!!4089116204-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/puaj3",
+    linkUsfans: "https://usfans.com/product/1/709550858740?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "SUPREME T-SHIRT",
+    category: "Tshirts",
+    price: "$16.47",
+    image: "https://media.usfans.com/PDA/b64881bb-ba2c-4aa2-a3d2-20f6e8d89dda.jpg",
+    linkKakobuy: "https://ikako.vip/n2gsv",
+    linkUsfans: "https://usfans.com/product/2/655850367120?ref=TX9V9N",
+    tag: "BEST/TEENAGECLUB",
+    rating: 4
+  
+  },
+  {
+    name: "REVENGE T-SHIRTS",
+    category: "Tshirts",
+    price: "$11",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2196894558/O1CN01w1NYPY1jXbzpSi1vv_!!2196894558.jpg",
+    linkKakobuy: "https://ikako.vip/u27xb",
+    linkUsfans: "https://usfans.com/product/2/638679698108?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "BAPE T-SHIRTS",
+    category: "Tshirts",
+    price: "$8",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01KSTgYG24yjjaG6mlO_!!2220333237460-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/cvutw",
+    linkUsfans: "https://usfans.com/product/1/965138963696?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "MAŁPIAK (200% POLIESTER)",
+    category: "Tshirts",
+    price: "$4.59",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2212086830833/O1CN01Ptn7YB1I1Yy1YFI9R_!!2212086830833.jpg",
+    linkKakobuy: "https://ikako.vip/jck6y",
+    linkUsfans: "https://usfans.com/product/2/903016743862?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 2
+  
+  },
+  {
+    name: "MARLBORO T-SHIRT",
+    category: "Tshirts",
+    price: "$7.90",
+    image: "https://si.geilicdn.com/open1624782517-1624782517-5bf8000001976e158b7a0aa043be_800_800.jpg",
+    linkKakobuy: "https://ikako.vip/9uqhq",
+    linkUsfans: "https://usfans.com/product/3/7491104385?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 2
+  
+  },
+  {
+    name: "CDG BULLETPROOF T-SHIRT",
+    category: "Tshirts",
+    price: "$16.80",
+    image: "https://media.usfans.com/2026/06/13/172007/088688ff-0ac1-4efb-8fbb-c23145d995b6.jpg",
+    linkKakobuy: "https://ikako.vip/r9kfx",
+    linkUsfans: "https://usfans.com/product/2/1052836115010?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "MERTRA T-SHIRT",
+    category: "Tshirts",
+    price: "$15.23",
+    image: "https://si.geilicdn.com/wdseller1940384309-67330000019d6c41065a0a230449_2560_2560.jpg",
+    linkKakobuy: "https://ikako.vip/rdsvm",
+    linkUsfans: "https://usfans.com/product/3/7731952360?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "MERTRA SCORPION T-SHIRT",
+    category: "Tshirts",
+    price: "$15.23",
+    image: "https://si.geilicdn.com/wdseller1940384309-77ea0000019dc7168c660a20e273_1320_1320.jpg",
+    linkKakobuy: "https://ikako.vip/jg4df",
+    linkUsfans: "https://usfans.com/product/3/7748825466?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "MERTRA T-SHIRT",
+    category: "Tshirts",
+    price: "$17.40",
+    image: "https://si.geilicdn.com/wdseller1940384309-332d0000019d951f63080a239846_1320_1320.jpg",
+    linkKakobuy: "https://ikako.vip/2expg",
+    linkUsfans: "https://usfans.com/product/3/7740052070?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "MERTRA X UMBRO T-SHIRT",
+    category: "Tshirts",
+    price: "$15.71",
+    image: "https://media.usfans.com/2026/06/11/145439/30ce2dd2-c77a-491a-abbc-1568a73490d7.jpg",
+    linkKakobuy: "https://ikako.vip/2jquc",
+    linkUsfans: "https://usfans.com/product/3/7626287656?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "MERTRA T-SHIRT",
+    category: "Tshirts",
+    price: "$12.67",
+    image: "https://media.usfans.com/2026/06/15/221937/73845d10-aa7d-4898-a799-d95d0152022e.jpg",
+    linkKakobuy: "https://ikako.vip/qztgh6",
+    linkUsfans: "https://usfans.com/product/3/7450387265?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
   
   
 
