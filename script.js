@@ -373,8 +373,8 @@ let products = [
     category: "Shoes",
     price: "$44",
     image: "https://si.geilicdn.com/wdseller1745861162-27f50000019ac1319b630a207569_1179_1180.jpg",
-    linkKakobuy: "https://ikako.vip/ssh8w",
-    linkUsfans: "https://www.usfans.com/product/3/7565952748?ref=TX9V9N",
+    linkKakobuy: "https://ikako.vip/mug7s",
+    linkUsfans: "https://usfans.com/product/3/7783109456?ref=TX9V9N",
     tag: "GX",
     rating: 5
   },
@@ -383,8 +383,8 @@ let products = [
     category: "Shoes",
     price: "$57",
     image: "https://si.geilicdn.com/open1733523732-1234478995-01f900000193832a70b50a8133b5_1179_884.jpg",
-    linkKakobuy: "https://ikako.vip/e2amc",
-    linkUsfans: "https://www.usfans.com/product/3/7565944808?ref=TX9V9N",
+    linkKakobuy: "https://ikako.vip/33vjb",
+    linkUsfans: "https://usfans.com/product/3/7780116095?ref=TX9V9N",
     tag: "WWT",
     rating: 5
   },
@@ -393,8 +393,8 @@ let products = [
     category: "Shoes",
     price: "$41",
     image: "https://si.geilicdn.com/open1733523732-1234478995-7a39000001937dd368d70aa08290_1166_874.jpg?w=640&h=640",
-    linkKakobuy: "https://ikako.vip/3nrke",
-    linkUsfans: "https://www.usfans.com/product/3/7565928908?ref=TX9V9N",
+    linkKakobuy: "https://ikako.vip/wntsf",
+    linkUsfans: "https://usfans.com/product/3/7783614004?ref=TX9V9N",
     tag: "X",
     rating: 5
   },
@@ -5418,7 +5418,7 @@ let products = [
     price: "$25.3",
     image: "https://media.usfans.com/2026/05/23/142933/b6d48b2d-de94-404f-a609-acc5b198c793.jpg",
     linkKakobuy: "https://ikako.vip/pzu29",
-    linkUsfans: "https://usfans.com/product/2/916849772452?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/7Fb7e5Qcbcv3EUsrkyScL7pUChNG657L0lVe9EHx1RObrvx8EQrezco?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   
@@ -5861,6 +5861,116 @@ let products = [
     linkKakobuy: "https://ikako.vip/qztgh6",
     linkUsfans: "https://usfans.com/product/3/7450387265?ref=TX9V9N",
     tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "SUPREME X MM6 MONEY T-SHIRT",
+    category: "Tshirts",
+    price: "$14.3",
+    image: "https://cdn.doppel.fit/JTwGxTuF9plYmjYwFoMCQutFGmR2vYa1nETDr2bgeBg/rs:fill:1920/q:85/f:webp/VEFPQkFPLzEwNTQ5NzQzNDY1NTAva2Frb2J1eV8xNDRmbGJ5cHkwZWtwc3J5NmduYzVvL3dhdGVybWFya2VkL2E5YzY2MDA5MzE2MmRlNDkxNmQ2ZTg0OWUzNWIzOWEzLndlYnA",
+    linkKakobuy: "https://ikako.vip/6dazr",
+    linkUsfans: "https://usfans.com/product/2/YjOzYTCDKMMp9G0G8BSTPgj9vnsqRPQ6dUgdzMe4bNAi-rcxCha7RZ0?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "NETTSPEND EARLY LIFE CRISIS T-SHIRT",
+    category: "Tshirts",
+    price: "$11.80",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01MNIfUF2IpULm5h0tt_!!2212643669335.jpg",
+    linkKakobuy: "https://ikako.vip/fwbxx",
+    linkUsfans: "https://usfans.com/product/2/1Za8eutEfgroYoFzGm-PVgR4MT3otBMlB8kjtPsdvsHNqVoge6DxWQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  
+  },
+  {
+    name: "PESO SLIM FIT T-SHIRT",
+    category: "Tshirts",
+    price: "$13",
+    image: "https://media.usfans.com/PDA/2cb79b7f-41a1-4b62-a29f-cd43a6c16f4d.jpg",
+    linkKakobuy: "https://ikako.vip/thduq",
+    linkUsfans: "https://usfans.com/product/2/GzYrCW3B9V7vunZY_MK33djt88FtLS8aCp5z0t62T6CH5FFYK-C5sA?ref=TX9V9N",
+    tag: "ANGELKING",
+    rating: 4
+  
+  },
+  {
+    name: "GALLERY DEPT T-SHIRTS",
+    category: "Tshirts",
+    price: "$16.45",
+    image: "https://img.alicdn.com/bao/uploaded/i3/727551888/O1CN012c6ogw1PokrA7yscq_!!727551888.png",
+    linkKakobuy: "https://ikako.vip/tdnha",
+    linkUsfans: "https://usfans.com/product/2/wSj982vN99_iC65ZkbuxiczGvpwMOtRFjHpMw0MyhSBcTx3HsO-iyg?ref=TX9V9N",
+    tag: "ANGELKING",
+    rating: 4
+  
+  },
+  {
+    name: "BILLIONAIRE STUDIOS T-SHIRTS",
+    category: "Tshirts",
+    price: "$12.85",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2217868191481/O1CN01IoUrmD1MoLZro24mz_!!2217868191481.jpg",
+    linkKakobuy: "https://ikako.vip/8ubbd",
+    linkUsfans: "https://usfans.com/product/2/q5kqpnwGOvUcAE7EGbR0DTDi84710NVDA8UG7iAJFAoXmmEmWuiZPg?ref=TX9V9N",
+    tag: "ANGELKING",
+    rating: 4
+  
+  },
+  {
+    name: "ESSENTIALS NBA T-SHIRTS",
+    category: "Tshirts",
+    price: "$13.15",
+    image: "https://media.usfans.com/2026/06/08/094450/67846d31-f0f9-45c3-afa2-377a09854dc5.jpg",
+    linkKakobuy: "https://ikako.vip/9dp3d",
+    linkUsfans: "https://usfans.com/product/1/983510390062?ref=TX9V9N",
+    tag: "YISHAN",
+    rating: 4
+  
+  },
+  {
+    name: "WARREN LOTAS T-SHIRTS",
+    category: "Tshirts",
+    price: "$12.95",
+    image: "https://media.usfans.com/PDA/4117ce5c-7e2a-4e38-8738-6c5f2023b551.jpg",
+    linkKakobuy: "https://ikako.vip/6suem",
+    linkUsfans: "https://usfans.com/product/2/xpAZ20RZnP-MsvdPcMDDY_lGDajfGdPstPpQoE6w0GFzm7YZdtmKgA?ref=TX9V9N",
+    tag: "ANGELKING",
+    rating: 4
+  
+  },
+  {
+    name: "JADED LONDON JORTS",
+    category: "Shorts",
+    price: "$27.70",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3482427204/O1CN010PlDE7235UJl6dmGB_!!3482427204.jpg",
+    linkKakobuy: "https://ikako.vip/zf5mv",
+    linkUsfans: "https://usfans.com/product/2/nZsLXHsHwm0uMBjAgJ2q_HQcZL5Jo7ITxuIRm6SZHw5w0L99ozNzZg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "WARREN LOTAS CARD SHORTS",
+    category: "Shorts",
+    price: "$32.80",
+    image: "https://media.usfans.com/PDA/d6ca78ea-753c-4dff-ab45-fcf8db5bfc81.jpg",
+    linkKakobuy: "https://ikako.vip/zwgu9",
+    linkUsfans: "https://usfans.com/product/2/vNxnSmtAtIymfaUIvTyWS5oEGJURhdF8UKy89Y_syrp9ekh7a6sOBw?ref=TX9V9N",
+    tag: "ANGELKING",
+    rating: 4
+  
+  },
+  {
+    name: "PEACEINWAR BURGUNDY HOODIE",
+    category: "Hoodies",
+    price: "$31.74",
+    image: "https://si.geilicdn.com/wdseller1995625455-41c60000019e982431ef0a23138d_3025_3025.jpg",
+    linkKakobuy: "https://ikako.vip/58nuwv",
+    linkUsfans: "https://usfans.com/product/3/7783542378?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
     rating: 5
   
   },
