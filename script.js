@@ -56,7 +56,7 @@ const translations = {
     refCode: "Kod referencyjny:",
     copy: "Kopiuj",
     shippingDiscount: "Otrzymujesz <strong>-15$</strong> na shipping!",
-    specialDiscount: "Otrzymujesz <strong>specjalne zniżki</strong> na shipping!",
+    specialDiscount: "Otrzymujesz <strong>specjalne zniżki oraz KUPON -30%</strong> na shipping!",
     register: "Zarejestruj się →",
     codeValid: "Kod obowiązuje przy pierwszym zamówieniu",
     // Agent popup
@@ -117,7 +117,7 @@ const translations = {
     refCode: "Referral code:",
     copy: "Copy",
     shippingDiscount: "Get <strong>-15$</strong> on shipping!",
-    specialDiscount: "Get <strong>special discounts</strong> on shipping!",
+    specialDiscount: "Get <strong>special discounts -30%</strong> on shipping!",
     register: "Register →",
     codeValid: "Code valid for first order",
     // Agent popup
@@ -5972,6 +5972,116 @@ let products = [
     linkUsfans: "https://usfans.com/product/3/7783542378?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 5
+  
+  },
+  {
+    name: "UPINFLAMES ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$32",
+    image: "https://media.usfans.com/2026/05/03/202854/4daa39ab-89bf-4028-8112-156f913716bc.jpg",
+    linkKakobuy: "https://ikako.vip/bk6p6",
+    linkUsfans: "https://usfans.com/product/3/7618089240?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "DERSCHUTZE CREWNECK",
+    category: "Hoodies",
+    price: "$26.5",
+    image: "https://si.geilicdn.com/wdseller1940384309-4ecb0000019b0944df710a23c191_1320_1320.jpg",
+    linkKakobuy: "https://ikako.vip/7r6mf",
+    linkUsfans: "https://usfans.com/product/3/7632920062?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  
+  },
+  {
+    name: "GENESIS HOODIE",
+    category: "Hoodies",
+    price: "$37.7",
+    image: "https://si.geilicdn.com/wdseller1995625455-0ab20000019bd51822e60a23b4f4_1290_1720.jpg",
+    linkKakobuy: "https://ikako.vip/r74qz5",
+    linkUsfans: "https://usfans.com/product/3/7668640086?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "DERSCHUTZE BLOSSOM HOODIE",
+    category: "Hoodies",
+    price: "$32",
+    image: "https://si.geilicdn.com/wdseller1940384309-0b7a0000019b4fabdf8b0a23c191_1320_1320.jpg",
+    linkKakobuy: "https://ikako.vip/m67qn",
+    linkUsfans: "https://usfans.com/product/3/7644873700?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  
+  },
+  {
+    name: "NUMBER NINE HOODIE",
+    category: "Hoodies",
+    price: "$41.16",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01QzFRW91CUyld1P1FC_!!2025450085.jpg",
+    linkKakobuy: "https://ikako.vip/r3esd",
+    linkUsfans: "https://usfans.com/product/2/9r-4ifn_oLET5l6zKE2muucVHAqEk2ChwrgLdN_sHuiu69tbND-cig?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 4
+  
+  },
+  {
+    name: "PROTOCOL + HOODIE",
+    category: "Hoodies",
+    price: "$26.4",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN017L6AM61TjUoJ603HB_!!2208944992418-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/r8wjw",
+    linkUsfans: "https://usfans.com/product/1/1020996583796?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "HOMIXIDE GANG TEE",
+    category: "Tshirts",
+    price: "$11.6",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01rkgduE2IpUJ7EjSu2_!!2212643669335.png",
+    linkKakobuy: "https://ikako.vip/arq76",
+    linkUsfans: "https://usfans.com/product/2/c-hNpPBxfolGMXU87HdMkOGhU5gDEnZW4OMaHNLbCurD-LX7mNIvUQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE  TEE",
+    category: "Tshirts",
+    price: "$25.88",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01t7k9DU1CUyjEInDlP_!!2025450085.jpg",
+    linkKakobuy: "https://ikako.vip/rjfxr",
+    linkUsfans: "https://usfans.com/product/2/5xNC9MsxSNmCon5VMhaLKvEMPCqT8FqP2IqpUPhWNDeNACzSZU6QYA?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE NECKLACE TEE",
+    category: "Tshirts",
+    price: "$25.84",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01EEQEuf1CUyhur8OOy_!!2025450085.jpg",
+    linkKakobuy: "https://ikako.vip/gg24d",
+    linkUsfans: "https://usfans.com/product/2/Z0QVFrrB_6qzYozUkeXyEHztJSxtBajs6ieBaQmnEZtKaylN44CVCQ?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 4
+  
+  },
+  {
+    name: "UNDERCOVER DRACULA TEE",
+    category: "Tshirts",
+    price: "$31",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2210534265651/O1CN01OeElo41rcDE6LbnZ5_!!2210534265651.jpg",
+    linkKakobuy: "https://ikako.vip/hqngg",
+    linkUsfans: "https://usfans.com/product/2/UtQFmuvdtgIzBpc9GEioN1Xp3u30Do6yYT06E70LNy7jjasRXlV7tA?ref=TX9V9N",
+    tag: "SLEEPBOY",
+    rating: 4
   
   },
   
