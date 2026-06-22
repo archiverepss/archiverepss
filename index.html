@@ -3,224 +3,263 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>ArchiveRepss</title>
+  <title>ArchiveRepss - Spreadsheet</title>
   <meta name="description" content="Najlepszy spreadsheet z produktami - ArchiveRepss">
-  <meta name="theme-color" content="#050505">
+  <meta name="theme-color" content="#0b0b0c">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <!-- FAVICONA -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 15 L62 38 L88 42 L68 60 L73 86 L50 73 L27 86 L32 60 L12 42 L38 38 L50 15Z' fill='%23a855f7' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- POPUP WYBORU JĘZYKA -->
-<div class="language-popup-overlay" id="languagePopupOverlay">
-  <div class="language-popup-container">
-    <div class="language-popup-icon">🌐</div>
-    <h3>Wybierz język</h3>
-    <div class="language-buttons">
-      <button class="language-btn" data-lang="pl" id="langPl">
-        <img src="https://flagcdn.com/w40/pl.png" alt="Polska" class="flag-img">
-        <span>Polski</span>
-      </button>
-      <button class="language-btn" data-lang="en" id="langEn">
-        <img src="https://flagcdn.com/w40/gb.png" alt="UK" class="flag-img">
-        <span>English</span>
-      </button>
-    </div>
-    <button id="confirmLangBtn" class="language-confirm-btn">Kontynuuj</button>
-    <p class="language-footer">Możesz zmienić wybór później w ustawieniach</p>
-  </div>
-</div>
-
-<!-- POPUP REJESTRACYJNY -->
-<div class="popup-overlay" id="popupOverlay">
-  <div class="popup-container">
-    <button class="popup-close" id="popupClose">×</button>
-    <div class="popup-icon">🎁</div>
-    <h3>Dołącz do Kakobuy!</h3>
-    <p>Zarejestruj się przez nasz link i otrzymaj <strong>bonus powitalny</strong> na pierwsze zakupy!</p>
-    <div class="popup-code">
-      <span class="code-label">Kod rabatowy:</span>
-      <span class="code-value">archiverepss</span>
-      <button class="copy-code" onclick="copyCode()">📋 Kopiuj</button>
-    </div>
-    <p class="popup-discount">🎉 Otrzymujesz <strong>-15$</strong> na shipping!</p>
-    <a href="https://www.kakobuy.com/register/?affcode=archivee" target="_blank" rel="noopener" class="popup-btn" id="registerBtn">Zarejestruj się →</a>
-    <p class="popup-footer">Kod obowiązuje przy pierwszym zamówieniu</p>
-  </div>
-</div>
-
-<!-- POPUP WYBORU AGENTA -->
-<div class="agent-popup-overlay" id="agentPopupOverlay">
-  <div class="agent-popup-container">
-    <div class="agent-popup-icon">🛒</div>
-    <h3>Wybierz agenta zakupowego</h3>
-    <p>Linki do produktów będą automatycznie konwertowane dla wybranego agenta.<br>Możesz to zmienić w dowolnym momencie.</p>
-    <div class="agent-buttons">
-      <button class="agent-btn" data-agent="kakobuy" id="agentKakobuy">
-        <img src="https://kakobuy.com/favicon.ico" alt="Kakobuy">
-        <span>Kakobuy</span>
-      </button>
-      <button class="agent-btn" data-agent="usfans" id="agentUsfans">
-        <img src="https://usfans.com/favicon.ico" alt="USFans">
-        <span>USFans</span>
-      </button>
-    </div>
-    <button id="confirmAgentBtn" class="agent-confirm-btn">Kontynuuj z <span id="selectedAgentName">Kakobuy</span></button>
-  </div>
-</div>
-
-<div class="app">
-  <aside class="sidebar">
-    <div class="logo">
-      <span class="logo-icon">✦</span>
-      <h1>ArchiveRepss</h1>
-    </div>
-    
-    <!-- PRZYCISKI PRZEŁĄCZANIA -->
-    <div class="view-toggle">
-      <button onclick="switchView('products')" id="viewProductsBtn" class="view-btn active">🛍️ Spreadsheet</button>
-      <button onclick="switchView('sellers')" id="viewSellersBtn" class="view-btn">🏪 Sprzedawcy</button>
-    </div>
-    
-    <!-- PRZYCISK DO ZMIANY AGENTA -->
-    <button id="changeAgentBtn" class="change-agent-btn">🔄 Zmień agenta</button>
-    <!-- PRZYCISK DO ZMIANY JĘZYKA -->
-<button id="changeLanguageBtn" class="change-language-btn">🌐 Zmień język</button>
-    
-    <div id="categoriesSection" class="categories">
-      <h3>Kategorie</h3>
-      <button onclick="setCategory('All')" class="cat-btn active">
-        <span class="btn-icon">📦</span>
-        <span>Wszystko</span>
-      </button>
-      <button onclick="setCategory('Shoes')" class="cat-btn">
-        <span class="btn-icon">👟</span>
-        <span>Buty</span>
-      </button>
-      <button onclick="setCategory('Tshirts')" class="cat-btn">
-        <span class="btn-icon">👕</span>
-        <span>Koszulki</span>
-      </button>
-      <button onclick="setCategory('Hoodies')" class="cat-btn">
-        <span class="btn-icon">🧥</span>
-        <span>Bluzy</span>
-      </button>
-      <button onclick="setCategory('Shorts')" class="cat-btn">
-        <span class="btn-icon">🩳</span>
-        <span>Spodenki / Spodnie</span>
-      </button>
-      <button onclick="setCategory('Jackets')" class="cat-btn">
-        <span class="btn-icon">🧥</span>
-        <span>Kurtki</span>
-      </button>
-      <button onclick="setCategory('Underwear')" class="cat-btn">
-        <span class="btn-icon">🩲</span>
-        <span>Bielizna</span>
-      </button>
-      <button onclick="setCategory('Belts')" class="cat-btn">
-        <span class="btn-icon">⛓️</span>
-        <span>Paski</span>
-      </button>
-    </div>
-    
-    <div id="sellersCategories" class="sellers-categories" style="display: none;">
-      <h3>Sprzedawcy</h3>
-      <button onclick="filterSellers('all')" class="seller-cat-btn active" id="sellerCatAll">
-        <span class="btn-icon">📦</span>
-        <span>Wszystko</span>
-      </button>
-      <button onclick="filterSellers('clothing')" class="seller-cat-btn">
-        <span class="btn-icon">👕</span>
-        <span>Odzież</span>
-      </button>
-      <button onclick="filterSellers('shoes')" class="seller-cat-btn">
-        <span class="btn-icon">👟</span>
-        <span>Buty</span>
-      </button>
-      <button onclick="filterSellers('luxury')" class="seller-cat-btn">
-        <span class="btn-icon">💎</span>
-        <span>Luxury</span>
-      </button>
-    </div>
-    
-    <div class="filter-section" id="filterSection">
-      <h3>Sortowanie</h3>
-      <select id="sortSelect" onchange="applyFiltersAndSort()" class="filter-select">
-        <option value="default">Domyślne</option>
-        <option value="price_asc">Cena: od najniższej</option>
-        <option value="price_desc">Cena: od najwyższej</option>
-      </select>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-left">
+        <div class="brand-logo" id="logoText">
+          <span class="logo-archive">Archive</span><span class="logo-repss">Repss</span>
+        </div>
+        <div class="nav-search-box">
+          <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input type="text" id="globalSearch" placeholder="Szukaj...  ⌘ K" oninput="handleSearch()" />
+        </div>
+      </div>
       
-      <h3>Filtr cenowy (PLN)</h3>
-      <div class="price-filter">
-        <input type="number" id="minPrice" placeholder="Min" oninput="applyFiltersAndSort()" class="price-input">
-        <span>-</span>
-        <input type="number" id="maxPrice" placeholder="Max" oninput="applyFiltersAndSort()" class="price-input">
+      <div class="nav-links">
+        <a href="#" class="nav-link active" id="navSpreadsheet">
+          <span>📄 Spreadsheet</span>
+        </a>
+        <a href="#" class="nav-link" id="navSellers">
+          <span>🏪 Sprzedawcy</span>
+        </a>
+        <a href="#" class="nav-link" id="changeAgentBtn">
+          <span>🛒 Zmień agenta</span>
+        </a>
       </div>
-      <button onclick="clearPriceFilter()" class="clear-filter-btn">Wyczyść filtr</button>
+
+      <div class="nav-right-icons">
+        <button class="icon-btn" id="changeLangBtn">🌐</button>
+        <button class="icon-btn">❤️</button>
+        <button class="icon-btn">⚙️</button>
+      </div>
     </div>
+  </nav>
+
+  <main class="main-content">
     
-    <div class="stats">
-      <div class="stat-item">
-        <span class="stat-value" id="productCount">0</span>
-        <span class="stat-label">itemów</span>
-      </div>
-    </div>
-  </aside>
-
-  <main class="main">
-    <div class="topbar">
-      <div class="title-section">
-        <h2>Archive <span class="gradient-text">Repss</span></h2>
-        <p id="subtitle">Najlepszy Spreadsheet</p>
-      </div>
-      <div class="search-box">
-        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="11" cy="11" r="8"/>
-          <path d="m21 21-4.35-4.35"/>
+    <header class="hero-section">
+      <div class="hero-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M8 13h8"/><path d="M8 17h8"/><path d="M8 9h2"/>
         </svg>
-        <input type="text" id="search" placeholder="Szukaj..." oninput="handleSearch()" />
       </div>
+      <h1 id="heroTitle">Spreadsheet</h1>
+      <p id="heroSubtitle">Przeglądaj naszą kolekcję najlepszych linków.</p>
+    </header>
+
+    <!-- Kategorie dla produktów -->
+    <div id="productsView">
+      <section class="filter-controls-section">
+        <div class="search-filter-wrapper">
+          <div class="product-search-input">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input type="text" id="search" placeholder="Szukaj produktów..." oninput="handleSearch()" />
+          </div>
+          <button class="filter-toggle-btn" id="filterToggleBtn">
+            <span>🎛️ Filtry</span>
+          </button>
+        </div>
+
+        <div class="advanced-filters-panel" id="advancedFilters">
+          <div class="filter-group">
+            <label id="lblSorting">Sortowanie</label>
+            <select id="sortSelect" onchange="applyFiltersAndSort()">
+              <option value="default" id="optDefault">Domyślne</option>
+              <option value="asc" id="optAsc">Cena: od najniższej</option>
+              <option value="desc" id="optDesc">Cena: od najwyższej</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label id="lblPriceFilter">Filtr cenowy</label>
+            <div class="price-inputs">
+              <input type="number" id="priceMin" placeholder="Min" oninput="applyFiltersAndSort()" />
+              <input type="number" id="priceMax" placeholder="Max" oninput="applyFiltersAndSort()" />
+            </div>
+          </div>
+          <button class="clear-filters-btn" id="clearFilterBtn" onclick="clearPriceFilters()">Wyczyść filtr</button>
+        </div>
+
+        <div class="categories-chips-container" id="categoriesContainer">
+        </div>
+      </section>
+
+      <section class="products-grid-section">
+        <div id="grid" class="products-grid"></div>
+      </section>
     </div>
 
-    <div id="grid" class="grid"></div>
+    <!-- Widok sprzedawców - ukryty domyślnie -->
+    <div id="sellersView" style="display: none;">
+      <section class="filter-controls-section">
+        <div class="search-filter-wrapper">
+          <div class="product-search-input">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input type="text" id="sellerSearch" placeholder="Szukaj sprzedawców..." oninput="filterSellers()" />
+          </div>
+        </div>
+
+        <div class="categories-chips-container" id="sellerCategoriesContainer">
+          <button class="category-chip active" data-cat="all" onclick="filterSellersByCategory('all')">Wszyscy</button>
+          <button class="category-chip" data-cat="clothing" onclick="filterSellersByCategory('clothing')">Odzież</button>
+          <button class="category-chip" data-cat="shoes" onclick="filterSellersByCategory('shoes')">Buty</button>
+          <button class="category-chip" data-cat="luxury" onclick="filterSellersByCategory('luxury')">Luxury</button>
+        </div>
+      </section>
+
+      <section class="products-grid-section">
+        <div id="sellersGrid" class="products-grid"></div>
+      </section>
+    </div>
+
   </main>
-</div>
 
-<div class="floating-circle">
-  <div class="circle-trigger" id="circleTrigger">
-    <div class="plus-icon">+</div>
+  <!-- ====== POPUP WYBORU JĘZYKA ====== -->
+  <div class="popup-overlay" id="languagePopupOverlay">
+    <div class="language-modal-card">
+      <div class="language-modal-header">
+        <div class="language-icon">🌐</div>
+        <h2 id="langPopupTitle">Wybierz język</h2>
+        <p id="langPopupDesc">Select your preferred language</p>
+      </div>
+      
+      <div class="language-options">
+        <button class="language-btn" data-lang="pl" onclick="selectLanguage('pl')">
+          <span class="lang-flag">🇵🇱</span>
+          <span class="lang-name">Polski</span>
+        </button>
+        <button class="language-btn" data-lang="en" onclick="selectLanguage('en')">
+          <span class="lang-flag">🇬🇧</span>
+          <span class="lang-name">English</span>
+        </button>
+      </div>
+      
+      <button class="language-confirm-btn" id="confirmLangBtn" onclick="confirmLanguage()">
+        Kontynuuj →
+      </button>
+    </div>
   </div>
-  <div class="circle-links" id="circleLinks">
-    <a href="https://www.tiktok.com/@archiverepsss" target="_blank" rel="noopener" class="link-item tiktok">
-      <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" loading="lazy">
-    </a>
-    <a href="https://discord.com/invite/j6vubupYzE" target="_blank" rel="noopener" class="link-item discord">
-      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord" loading="lazy">
-    </a>
-    <a href="https://ikako.vip/r/archivee" target="_blank" rel="noopener" class="link-item kakobuy">
-      <img src="https://kakobuy.com/favicon.ico" alt="Kakobuy" loading="lazy">
-    </a>
+
+  <!-- ====== POPUP WYBORU AGENTA ====== -->
+  <div class="popup-overlay" id="agentPopupOverlay">
+    <div class="agent-modal-card">
+      <button class="modal-close-x" onclick="closeAgentPopup()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      
+      <div class="modal-header">
+        <h2 id="agentPopupTitle">Wybierz Agenta</h2>
+        <p id="agentPopupDesc">Wybierz preferowanego agenta do zakupów przedmiotów.</p>
+      </div>
+
+      <div class="agent-options-grid">
+        <button class="agent-select-btn" onclick="selectAgent('kakobuy')">
+          <div class="agent-btn-content">
+            <span class="agent-logo-dot kakobuy-dot"></span>
+            <span class="agent-name">Kakobuy</span>
+          </div>
+          <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+
+        <button class="agent-select-btn" onclick="selectAgent('usfans')">
+          <div class="agent-btn-content">
+            <span class="agent-logo-dot usfans-dot"></span>
+            <span class="agent-name">USFans</span>
+          </div>
+          <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== POPUP REJESTRACYJNY ====== -->
+  <div class="popup-overlay" id="popupOverlay">
+    <div class="popup-card">
+      <button class="popup-close" id="popupClose">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      
+      <div class="popup-agent-logo" id="popupAgentLogo">
+        <img src="https://kakobuy.com/favicon.ico" alt="Kakobuy" id="popupLogoImg">
+      </div>
+      
+      <h3 id="popupTitle">Dołącz do Kakobuy!</h3>
+      <p id="popupDesc">Zarejestruj się przez nasz link i otrzymaj <strong>bonus powitalny</strong> na pierwsze zakupy!</p>
+      
+      <div class="popup-code-section">
+        <div class="code-row">
+          <span class="code-label" id="popupCodeLabel">Kod rabatowy:</span>
+          <div class="code-value-wrapper">
+            <span class="code-value" id="popupCodeValue">archiverepss</span>
+            <button class="copy-code-btn" onclick="copyCode()">📋 Kopiuj</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="popup-discount" id="popupDiscount">🎉 Otrzymujesz <strong>-15$</strong> na shipping!</div>
+      
+      <a href="https://www.kakobuy.com/register/?affcode=archivee" target="_blank" rel="noopener noreferrer" class="popup-btn" id="popupRegisterBtn">
+        Zarejestruj się →
+      </a>
+      
+      <div class="popup-footer" id="popupFooter">Kod obowiązuje przy pierwszym zamówieniu</div>
+    </div>
+  </div>
+
+  <!-- ====== PRZYCISK SCROLL TO TOP ====== -->
+  <button class="scroll-to-top" id="scrollToTopBtn">↑</button>
+
+  <!-- ====== LIGHTBOX - POWIĘKSZANIE ZDJĘĆ ====== -->
+<div class="lightbox-overlay" id="lightboxOverlay">
+  <div class="lightbox-content">
+    <button class="lightbox-close" id="lightboxClose">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <img id="lightboxImg" src="" alt="Powiększone zdjęcie">
   </div>
 </div>
 
-<div class="lightbox" id="lightbox">
-  <span class="lightbox-close">&times;</span>
-  <img class="lightbox-img" id="lightboxImg" loading="lazy">
-</div>
-
-<script src="script.js" defer></script>
-
-<!-- PRZYCISK SCROLL TO TOP -->
-<button id="scrollToTopBtn" class="scroll-to-top" aria-label="Do góry">
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-    <path d="M12 19V5M5 12l7-7 7 7"/>
-  </svg>
-</button>
+  <script src="script.js"></script>
 </body>
 </html>
+
+
+<!-- W sekcji filter-controls-section, przed categories-chips-container -->
+<div class="categories-header">
+  <div class="categories-chips-container" id="categoriesContainer">
+  </div>
+  <span id="itemCount" style="font-size: 13px; color: #71717a; white-space: nowrap; padding-left: 12px;">0 itemów</span>
+</div>
+
