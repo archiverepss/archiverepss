@@ -18,7 +18,7 @@ const products = [
     price: "$73.65",
     image: "https://si.geilicdn.com/open1733523732-1234478995-573c000001937484b6860a8115b5_889_889.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7565902946&affcode=archivee",
-    linkUsfans: "https://www.usfans.com/product/3/7565902946?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7565902946?ref=TX9V9N",
     tag: "LJR",
     rating: 5
   },
@@ -28,7 +28,7 @@ const products = [
     price: "$30.75",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/19/181b5cf0ee0737cc3fce4a23f84a7eda.jpg",
     linkKakobuy: "https://ikako.vip/ct5va",
-    linkUsfans: "https://www.usfans.com/product/3/7491911039?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7491911039?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 4
   },
@@ -38,7 +38,7 @@ const products = [
     price: "$37",
     image: "https://img.alicdn.com/bao/uploaded/i3/2209401688377/O1CN01nzkhiG2BkixFHPEOI_!!2209401688377.jpg",
     linkKakobuy: "https://ikako.vip/2nz6h",
-    linkUsfans: "https://www.usfans.com/product/2/1003002370207?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/aVYpa0olpkWMteuHv2r5KLxbsJnyYGBL0-eQnqZ4t6aJoE1O7Ats0jg?ref=TX9V9N",
     tag: "BDSJ MADE",
     rating: 4
   },
@@ -48,7 +48,7 @@ const products = [
     price: "$67",
     image: "https://si.geilicdn.com/wdseller1800766149-03d500000199ce69b8010a23041a_1004_1004.jpg",
     linkKakobuy: "https://ikako.vip/cuhud",
-    linkUsfans: "https://www.usfans.com/product/3/7233181350?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7233181350?ref=TX9V9N",
     tag: "GX",
     rating: 5
   },
@@ -58,7 +58,7 @@ const products = [
     price: "$68-82",
     image: "https://si.geilicdn.com/wdseller1800766149-751d00000199be1057b40a21146b_1189_1189.jpg",
     linkKakobuy: "https://ikako.vip/88hdn",
-    linkUsfans: "https://www.usfans.com/product/3/6656410659?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/6656410659?ref=TX9V9N",
     tag: "GX",
     rating: 5
   },
@@ -68,7 +68,7 @@ const products = [
     price: "$33",
     image: "https://drop-up.pl/cdn/shop/files/air-force-1-low-07-triple-white-drop-up.webp?v=1721894137",
     linkKakobuy: "https://ikako.vip/mug7s",
-    linkUsfans: "https://www.usfans.com/product/3/7783109456?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7783109456?ref=TX9V9N",
     tag: "GX",
     rating: 5
   },
@@ -108,7 +108,7 @@ const products = [
     price: "$38",
     image: "https://si.geilicdn.com/pcitem1845163825-537600000190c026304e0a210349_1080_816.jpg",
     linkKakobuy: "https://ikako.vip/fszb3",
-    linkUsfans: "https://www.usfans.com/product/3/7611437475?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7611437475?ref=TX9V9N",
     tag: "OWF",
     rating: 5
   },
@@ -118,7 +118,7 @@ const products = [
     price: "$70",
     image: "https://si.geilicdn.com/wdseller1800766149-2794000001953e97c7b60a2305d8_2560_2560.jpg",
     linkKakobuy: "https://ikako.vip/9hmbf",
-    linkUsfans: "https://www.usfans.com/product/3/7080344125?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7080344125?ref=TX9V9N",
     tag: "GX",
     rating: 5
   },
@@ -138,7 +138,7 @@ const products = [
     price: "$49-53",
     image: "https://si.geilicdn.com/wdseller1800766149-690900000199c3e75fae0a8133cc_1280_1708.jpg",
     linkKakobuy: "https://ikako.vip/bvejm",
-    linkUsfans: "https://www.usfans.com/product/3/7228123603?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7228123603?ref=TX9V9N",
     tag: "GX",
     rating: 5
   },
@@ -148,7 +148,7 @@ const products = [
     price: "$34-71",
     image: "https://si.geilicdn.com/pcitem1854263096-5f2b00000195d8ec7db00a8133cc_1200_1200.jpg",
     linkKakobuy: "https://ikako.vip/zq4ez",
-    linkUsfans: "https://www.usfans.com/product/3/7436015958?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7436015958?ref=TX9V9N",
     tag: "G/OWF",
     rating: 5
   },
@@ -158,7 +158,7 @@ const products = [
     price: "$27",
     image: "https://si.geilicdn.com/pcitem901870080011-253b000001955d587db00a23038e_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/ptjfm",
-    linkUsfans: "https://www.usfans.com/product/3/7615088496?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7615088496?ref=TX9V9N",
     tag: "WM",
     rating: 5
   },
@@ -5788,7 +5788,83 @@ const products = [
     rating: 4
   
   },
+   {
+    name: "TRAVIS SCOTT TSHIRTS",
+    category: "Tshirts",
+    price: "$7.99",
+    image: "https://img.alicdn.com/bao/uploaded/i3/1034922469/O1CN01tTFbJQ1U6qi6Akw6Q_!!1034922469.jpg",
+    linkKakobuy: "https://ikako.vip/3hkhy",
+    linkUsfans: "https://usfans.com/product/2/0J7-pnT49WNX0_3-iDkfxXThiCi8VBnNwUk8rjqzk-dz1YpkajRiwA?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 4
   
+  },
+  {
+    name: "NIKE X NOCTA TSHIRTS",
+    category: "Tshirts",
+    price: "$7.99",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01ezewBU28s6R8EPv35_!!2219930187987-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/rbfng",
+    linkUsfans: "https://usfans.com/product/1/934169404988?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "CDG LONGSLEEVE",
+    category: "Tshirts",
+    price: "$9.30",
+    image: "https://cbu01.alicdn.com/img/ibank/20289271137_702400057.jpg",
+    linkKakobuy: "https://ikako.vip/scscx",
+    linkUsfans: "https://usfans.com/product/1/776834980271?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "NETTSPEND T-SHIRT",
+    category: "Tshirts",
+    price: "$11.38",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN016NFbEe2IpULGTpUtK_!!2212643669335.jpg",
+    linkKakobuy: "https://ikako.vip/htnuq",
+    linkUsfans: "https://usfans.com/product/2/pp-TUY48_sAbUtynVamp5i0W0rjUw4wfZzaXOQzDF8jY6VDmXnhkwA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+   {
+    name: "DESTROY LONELY TEE",
+    category: "Tshirts",
+    price: "$11.50",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2212643669335/O1CN01uT7Jr12IpUO0bx4W2_!!2212643669335.jpg",
+    linkKakobuy: "https://ikako.vip/e9fsu",
+    linkUsfans: "https://usfans.com/product/2/fOzNkv4-l038d623vKUaE863RRveHN-bd89x-tKQunL1LzeC0J-wItc?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "NETTSPEND SILENCE TEE",
+    category: "Tshirts",
+    price: "$20.85",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01JNRfFV1gquCVBXXv9_!!2215791284194.png",
+    linkKakobuy: "https://ikako.vip/5cuq6",
+    linkUsfans: "https://usfans.com/product/2/xxkFFuMKSYmufkf6Im9udb2AdYHHIGeGoJ20PCzwknBQECXSSyppIA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+   {
+    name: "YEAT 2ALIVE TEE",
+    category: "Tshirts",
+    price: "$11.4",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2212643669335/O1CN01CMlxDH2IpUPNyAZrJ_!!2212643669335.jpg",
+    linkKakobuy: "https://ikako.vip/nccsbv",
+    linkUsfans: "https://usfans.com/product/2/mOV2Hn_yyuGLvC3S9lTIWo-NeJdGuJ2dovpggpvO0JaZpsy7WhpcakY?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
   
 
 
@@ -6292,29 +6368,35 @@ function clearPriceFilters() {
   applyFiltersAndSort();
 }
 
+// GŁÓWNA LOGIKA FILTROWANIA I SORTOWANIA (w PLN)
 function applyFiltersAndSort() {
   var minPrice = parseFloat(document.getElementById("priceMin").value) || 0;
   var maxPrice = parseFloat(document.getElementById("priceMax").value) || Infinity;
   var sortValue = document.getElementById("sortSelect").value;
 
+  // Filtrowanie
   var filtered = products.filter(function(p) {
-    var numericPrice = parseFloat(p.price.replace(",", ".").replace(/[^0-9.]/g, ""));
+    // Pobierz cenę w PLN
+    var pricePLN = usdToPln(p.price);
+    
     var matchesCategory = (currentCategory === "All" || p.category === currentCategory);
     var matchesSearch = p.name.toLowerCase().includes(searchQuery);
-    var matchesPrice = numericPrice >= minPrice && numericPrice <= maxPrice;
+    var matchesPrice = pricePLN >= minPrice && pricePLN <= maxPrice;
+    
     return matchesCategory && matchesSearch && matchesPrice;
   });
 
+  // Sortowanie po PLN
   if (sortValue === "asc") {
     filtered.sort(function(a, b) {
-      var pA = parseFloat(a.price.replace(",", ".").replace(/[^0-9.]/g, ""));
-      var pB = parseFloat(b.price.replace(",", ".").replace(/[^0-9.]/g, ""));
+      var pA = usdToPln(a.price);
+      var pB = usdToPln(b.price);
       return pA - pB;
     });
   } else if (sortValue === "desc") {
     filtered.sort(function(a, b) {
-      var pA = parseFloat(a.price.replace(",", ".").replace(/[^0-9.]/g, ""));
-      var pB = parseFloat(b.price.replace(",", ".").replace(/[^0-9.]/g, ""));
+      var pA = usdToPln(a.price);
+      var pB = usdToPln(b.price);
       return pB - pA;
     });
   }
