@@ -6936,3 +6936,23 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+
+// ============================================
+// 🔍 ZAKŁADKA "SPRAWDŹ QC"
+// ============================================
+
+document.addEventListener('DOMContentLoaded', function() {
+  // ... istniejący kod ...
+  
+  // Obsługa kliknięcia w zakładkę QC
+  var qcLink = document.getElementById('navQC');
+  if (qcLink) {
+    qcLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      // Tutaj wpisz URL strony do której ma przekierować
+      window.open('https://qcitems.com/', '_blank');
+      // lub jeśli chcesz otworzyć w tej samej karcie:
+      // window.location.href = 'https://twoja-strona-do-qc.pl';
+    });
+  }
+});
