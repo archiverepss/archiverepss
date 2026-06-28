@@ -5925,6 +5925,8 @@ let searchQuery = "";
 let currentLanguage = localStorage.getItem('selectedLanguage') || 'pl';
 let preferredAgent = localStorage.getItem('preferredAgent') || null;
 let isFirstVisit = !localStorage.getItem('hasVisited');
+let currentSellerCategory = 'all';
+let currentView = 'products';
 
 // ============================================
 // 🌐 TŁUMACZENIA
@@ -5932,26 +5934,26 @@ let isFirstVisit = !localStorage.getItem('hasVisited');
 const translations = {
   pl: {
     spreadsheet: "📄 Spreadsheet",
-    sellers: "🔍 Sprzedawcy",
+    sellers: "🏪 Sprzedawcy",
     changeAgent: "🛒 Zmień agenta",
     heroTitle: "Spreadsheet",
     heroSubtitle: "Przeglądaj naszą kolekcję najlepszych linków.",
     searchPlaceholder: "Szukaj produktów...",
-    all: "All",
+    all: "Wszystko",
     shoes: "Buty",
     tshirts: "Koszulki",
     hoodies: "Bluzy",
     shorts: "Spodenki / Spodnie",
     jackets: "Kurtki",
     underwear: "Bielizna",
-    belts: "Akcesorie",
+    accesories: "accesories",
     sorting: "Sortowanie",
     defaultSort: "Domyślne",
     priceAsc: "Cena: od najniższej",
     priceDesc: "Cena: od najwyższej",
     priceFilter: "Filtr cenowy (PLN)",
-    min: "Min",
-    max: "Max",
+    min: "Min PLN",
+    max: "Max PLN",
     clearFilter: "Wyczyść filtr",
     agentPopupTitle: "Wybierz Agenta",
     agentPopupDesc: "Wybierz preferowanego agenta do zakupów przedmiotów.",
@@ -5959,11 +5961,13 @@ const translations = {
     langPopupDesc: "Select your preferred language",
     langConfirm: "Kontynuuj →",
     langPl: "Polski",
-    langEn: "English"
+    langEn: "English",
+    items: "itemów",
+    qc: "🔍 Sprawdź QC"
   },
   en: {
     spreadsheet: "📄 Spreadsheet",
-    sellers: "🔍 Best Sellers",
+    sellers: "🏪 Sellers",
     changeAgent: "🛒 Change Agent",
     heroTitle: "Spreadsheet",
     heroSubtitle: "Browse our collection of the best links.",
@@ -5974,15 +5978,15 @@ const translations = {
     hoodies: "Hoodies",
     shorts: "Shorts / Pants",
     jackets: "Jackets",
-    underwear: "Headwear",
-    belts: "Belts",
+    underwear: "Underwear",
+    accesories: "accesories",
     sorting: "Sorting",
     defaultSort: "Default",
     priceAsc: "Price: Low to High",
     priceDesc: "Price: High to Low",
     priceFilter: "Price Filter (PLN)",
-    min: "Min",
-    max: "Max",
+    min: "Min PLN",
+    max: "Max PLN",
     clearFilter: "Clear Filter",
     agentPopupTitle: "Select Agent",
     agentPopupDesc: "Choose your preferred shipping agent for items.",
@@ -5990,7 +5994,9 @@ const translations = {
     langPopupDesc: "Wybierz preferowany język",
     langConfirm: "Continue →",
     langPl: "Polish",
-    langEn: "English"
+    langEn: "English",
+    items: "items",
+    qc: "🔍 Check QC"
   }
 };
 
@@ -6005,7 +6011,7 @@ const categoryMapping = [
   { techName: "Tshirts", translationKey: "tshirts" },
   { techName: "Shorts", translationKey: "shorts" },
   { techName: "Jackets", translationKey: "jackets" },
-  { techName: "Belts", translationKey: "belts" }
+  { techName: "Belts", translationKey: "accesories" }
 ];
 
 // ============================================
@@ -6039,25 +6045,60 @@ const agentConfig = {
 };
 
 // ============================================
+// 💰 PRZELICZNIK USD → PLN
+// ============================================
+const USD_TO_PLN = 3.62;
+
+function parsePrice(priceStr) {
+  if (!priceStr) return 0;
+  var clean = priceStr.replace('$', '').trim();
+  if (clean.includes('-')) {
+    var parts = clean.split('-');
+    var min = parseFloat(parts[0]);
+    var max = parseFloat(parts[1]);
+    return (min + max) / 2;
+  }
+  return parseFloat(clean);
+}
+
+function usdToPln(priceStr) {
+  var usd = parsePrice(priceStr);
+  if (isNaN(usd)) return 0;
+  return Math.round(usd * USD_TO_PLN);
+}
+
+function formatPrice(priceStr) {
+  if (priceStr.includes('-')) {
+    var parts = priceStr.replace('$', '').split('-');
+    var minPln = Math.round(parseFloat(parts[0]) * USD_TO_PLN);
+    var maxPln = Math.round(parseFloat(parts[1]) * USD_TO_PLN);
+    return {
+      usd: priceStr,
+      pln: minPln + ' - ' + maxPln + ' PLN'
+    };
+  }
+  var pln = usdToPln(priceStr);
+  return {
+    usd: priceStr,
+    pln: '≈ ' + pln + ' PLN'
+  };
+}
+
+// ============================================
 // 🚀 INICJALIZACJA
 // ============================================
 document.addEventListener("DOMContentLoaded", function() {
   console.log("🚀 Strona załadowana");
-  console.log("isFirstVisit:", isFirstVisit);
-  console.log("preferredAgent:", preferredAgent);
   
   if (isFirstVisit) {
-    console.log("👋 Nowy użytkownik - pokazuję popup języka");
     showLanguagePopup();
   } else {
-    console.log("🔄 Powracający użytkownik");
     setupLanguage();
     setupEventListeners();
     renderCategories();
     applyFiltersAndSort();
     
     if (!preferredAgent) {
-      console.log("🤖 Brak agenta - pokazuję popup");
       setTimeout(function() { showAgentPopup(); }, 500);
     } else {
       updateRegisterPopup();
@@ -6216,7 +6257,7 @@ function fallbackCopy(text) {
 }
 
 // ============================================
-// 🎨 RESZTA FUNKCJI
+// 🎨 USTAWIENIA JĘZYKA
 // ============================================
 function setupLanguage() {
   var lang = translations[currentLanguage];
@@ -6278,6 +6319,13 @@ function setupLanguage() {
   var confirmLangBtn = document.getElementById("confirmLangBtn");
   if (confirmLangBtn) confirmLangBtn.textContent = lang.langConfirm;
   
+  // QC link
+  var qcLink = document.getElementById('navQC');
+  if (qcLink) {
+    var span = qcLink.querySelector('span');
+    if (span) span.textContent = lang.qc;
+  }
+  
   document.querySelectorAll('.language-btn').forEach(function(btn) {
     var langKey = btn.dataset.lang;
     var nameSpan = btn.querySelector('.lang-name');
@@ -6287,7 +6335,11 @@ function setupLanguage() {
   });
 }
 
+// ============================================
+// 🎯 EVENT LISTENERS
+// ============================================
 function setupEventListeners() {
+  // Przełącznik filtrów
   var filterToggleBtn = document.getElementById("filterToggleBtn");
   var advancedFilters = document.getElementById("advancedFilters");
   if (filterToggleBtn && advancedFilters) {
@@ -6296,6 +6348,7 @@ function setupEventListeners() {
     });
   }
 
+  // Przycisk zmiany języka
   var changeLangBtn = document.getElementById("changeLangBtn");
   if (changeLangBtn) {
     changeLangBtn.addEventListener("click", function() {
@@ -6303,6 +6356,7 @@ function setupEventListeners() {
     });
   }
 
+  // Przycisk zmiany agenta
   var changeAgentBtn = document.getElementById("changeAgentBtn");
   if (changeAgentBtn) {
     changeAgentBtn.addEventListener("click", function() {
@@ -6310,18 +6364,34 @@ function setupEventListeners() {
     });
   }
 
-  var closeBtn = document.getElementById('popupClose');
-  if (closeBtn) {
-    closeBtn.addEventListener('click', hideRegisterPopup);
+  // Przełączanie na Sprzedawców
+  var sellersLink = document.getElementById('navSellers');
+  if (sellersLink) {
+    sellersLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      switchView('sellers');
+    });
   }
   
-  var popup = document.getElementById('popupOverlay');
-  if (popup) {
-    popup.addEventListener('click', function(e) {
-      if (e.target === this) hideRegisterPopup();
+  // Przełączanie na Spreadsheet
+  var spreadsheetLink = document.getElementById('navSpreadsheet');
+  if (spreadsheetLink) {
+    spreadsheetLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      switchView('products');
     });
   }
 
+  // Zakładka QC
+  var qcLink = document.getElementById('navQC');
+  if (qcLink) {
+    qcLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      window.open('https://qcitems.com/', '_blank');
+    });
+  }
+
+  // Scroll to top
   var scrollToTopBtn = document.getElementById("scrollToTopBtn");
   if (scrollToTopBtn) {
     window.addEventListener("scroll", function() {
@@ -6335,8 +6405,24 @@ function setupEventListeners() {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
+
+  // Zamknij popup rejestracyjny
+  var closeBtn = document.getElementById('popupClose');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', hideRegisterPopup);
+  }
+  
+  var popup = document.getElementById('popupOverlay');
+  if (popup) {
+    popup.addEventListener('click', function(e) {
+      if (e.target === this) hideRegisterPopup();
+    });
+  }
 }
 
+// ============================================
+// 📊 RENDEROWANIE KATEGORII
+// ============================================
 function renderCategories() {
   var container = document.getElementById("categoriesContainer");
   if (!container) return;
@@ -6355,6 +6441,9 @@ function renderCategories() {
   });
 }
 
+// ============================================
+// 🔍 WYSZUKIWANIE
+// ============================================
 function handleSearch() {
   var mainSearch = document.getElementById("search").value;
   var globalSearch = document.getElementById("globalSearch").value;
@@ -6368,445 +6457,37 @@ function clearPriceFilters() {
   applyFiltersAndSort();
 }
 
-// GŁÓWNA LOGIKA FILTROWANIA I SORTOWANIA (w PLN)
+// ============================================
+// 📊 FILTROWANIE I SORTOWANIE (PLN)
+// ============================================
 function applyFiltersAndSort() {
   var minPrice = parseFloat(document.getElementById("priceMin").value) || 0;
   var maxPrice = parseFloat(document.getElementById("priceMax").value) || Infinity;
   var sortValue = document.getElementById("sortSelect").value;
 
-  // Filtrowanie
   var filtered = products.filter(function(p) {
-    // Pobierz cenę w PLN
     var pricePLN = usdToPln(p.price);
-    
     var matchesCategory = (currentCategory === "All" || p.category === currentCategory);
     var matchesSearch = p.name.toLowerCase().includes(searchQuery);
     var matchesPrice = pricePLN >= minPrice && pricePLN <= maxPrice;
-    
     return matchesCategory && matchesSearch && matchesPrice;
   });
 
-  // Sortowanie po PLN
   if (sortValue === "asc") {
     filtered.sort(function(a, b) {
-      var pA = usdToPln(a.price);
-      var pB = usdToPln(b.price);
-      return pA - pB;
+      return usdToPln(a.price) - usdToPln(b.price);
     });
   } else if (sortValue === "desc") {
     filtered.sort(function(a, b) {
-      var pA = usdToPln(a.price);
-      var pB = usdToPln(b.price);
-      return pB - pA;
+      return usdToPln(b.price) - usdToPln(a.price);
     });
   }
 
   renderGrid(filtered);
 }
 
-function renderGrid(items) {
-  var grid = document.getElementById("grid");
-  if (!grid) return;
-  grid.innerHTML = "";
-
-  var itemCount = document.getElementById("itemCount");
-  if (itemCount) {
-    var lang = translations[currentLanguage];
-    itemCount.textContent = items.length + ' ' + (lang.items || 'itemów');
-  }
-
-  if (items.length === 0) {
-    grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #71717a;">Brak produktów spełniających kryteria.</div>';
-    return;
-  }
-
-  items.forEach(function(p) {
-    var finalLink = preferredAgent === "kakobuy" ? p.linkKakobuy : p.linkUsfans;
-    var catMap = categoryMapping.find(function(c) { return c.techName === p.category; });
-    var localizedCat = catMap ? translations[currentLanguage][catMap.translationKey] : p.category;
-
-    var priceData = formatPrice(p.price);
-
-    var tagClass = 'product-tag';
-    if (p.tag && p.tag.toUpperCase().includes('BEST')) {
-      tagClass += ' best';
-    } else if (p.tag && p.tag.toUpperCase().includes('BUDGET')) {
-      tagClass += ' budget';
-    } else if (p.tag && p.tag.toUpperCase().includes('NEW')) {
-      tagClass += ' new';
-    }
-
-    var card = document.createElement("div");
-    card.className = "product-card";
-
-    // Kliknięcie w kartę otwiera link (chyba że kliknięto w lupę)
-    card.addEventListener("click", function(e) {
-      if (e.target.closest('.zoom-icon')) return;
-      window.open(finalLink, "_blank");
-    });
-
-    card.innerHTML = 
-      '<img src="' + p.image + '" alt="' + p.name + '" class="product-image" loading="lazy">' +
-      // Ikonka lupy
-      '<div class="zoom-icon" onclick="event.stopPropagation(); openLightbox(\'' + p.image + '\')">' +
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-          '<circle cx="11" cy="11" r="8"/>' +
-          '<path d="m21 21-4.35-4.35"/>' +
-          '<path d="M11 8v6M8 11h6"/>' +
-        '</svg>' +
-      '</div>' +
-      (p.tag ? '<div class="' + tagClass + '">' + p.tag + '</div>' : '') +
-      '<div class="product-overlay">' +
-        '<div class="product-info-bottom">' +
-          '<div class="product-meta-left">' +
-            '<div class="product-title">' + p.name + '</div>' +
-            '<div class="product-category-label">' + localizedCat + '</div>' +
-          '</div>' +
-          '<div class="product-price-wrapper">' +
-            '<span class="product-price-usd">' + priceData.usd + '</span>' +
-            '<span class="product-price-pln">' + priceData.pln + '</span>' +
-          '</div>' +
-        '</div>' +
-      '</div>';
-
-    grid.appendChild(card);
-  });
-}
-
-console.log("✅ script.js załadowany poprawnie!");
-
-
 // ============================================
-// 🏪 LISTA SPRZEDAWCÓW
-// ============================================
-const sellers = [
-  {
-    name: "Tophotfashion",
-    category: "clothing",
-    rating: 9.0,
-    description: "Chrome hearts, Gallery dept, Essentials, luxury items",
-    link: "https://tophotfashion.x.yupoo.com/albums",
-    image: "https://cdn-icons-png.freepik.com/512/168/168814.png",
-    tag: "BEST"
-  },
-  {
-    name: "UMKAO",
-    category: "shoes",
-    rating: 7.0,
-    description: "OK and cheap seller for Nike TN and similar shoes",
-    link: "https://umkao.x.yupoo.com/albums",
-    image: "https://m.media-amazon.com/images/I/615d34h0UiL._AC_UY900_.jpg",
-    tag: "OK"
-  },
-  {
-    name: "REPBROS",
-    category: "clothing",
-    rating: 9.0,
-    description: "BEST SELLER FOR CDG, AMI",
-    link: "https://repbros.x.yupoo.com/albums",
-    image: "https://img.alicdn.com/bao/uploaded/i4/2221369795952/O1CN01TiMfk61tq4UrKL0kC_!!2221369795952.jpg",
-    tag: "BEST"
-  },
-  {
-    name: "SHARKBREEDER",
-    category: "clothing",
-    rating: 9.0,
-    description: "BEST SELLER FOR TNF JACKET [TOP BATCH]",
-    link: "https://shark-breeder.x.yupoo.com/collections/4994709",
-    image: "https://si.geilicdn.com/pcitem1425026222-3ec000000199e4a07d640a20e2c5_1440_1440.jpg",
-    tag: "BEST FOR TNF"
-  },
-  {
-    name: "WWTOP",
-    category: "shoes",
-    rating: 9.0,
-    description: "BEST SELLER FOR SHOES (CHECK WHICH IS BEST BATCH BEFORE BUY)",
-    link: "https://wwfake100.x.yupoo.com/albums?tab=gallery",
-    image: "https://si.geilicdn.com/wdseller1745861162-7b0d0000019d4d329a530a8132bd_250_250.jpg?w=250&h=250&cp=1",
-    tag: "BEST"
-  },
-  {
-    name: "THETHUNDER",
-    category: "clothing",
-    rating: 10,
-    description: "BEST SELLER FOR BURBERRY, BALENCIAGA (LUXURY ITEMS)",
-    link: "https://thethunder.x.yupoo.com/albums",
-    image: "https://si.geilicdn.com/pcitem2020241165-3ae60000019b4130bfc40a23041a-unadjust_731_728.png?w=400&h=400",
-    tag: "BEST"
-  },
-  {
-    name: "PIKA",
-    category: "clothing",
-    rating: 10,
-    description: "BEST HELLSTAR, SP5DER, EE, COUGH SYRUP",
-    link: "https://pikachushop.x.yupoo.com/albums",
-    image: "https://img.alicdn.com/bao/uploaded/i2/2212425898654/O1CN0156kV3P2DnagLfMXmL_!!2212425898654.jpg",
-    tag: "BEST"
-  },
-  {
-    name: "BAYMAXSOCKS",
-    category: "clothing",
-    rating: 10,
-    description: "GOOD QUALITY SELLER FOR UNDERWEAR/SOCKS ETC.",
-    link: "https://baymaxsocks.x.yupoo.com",
-    image: "https://si.geilicdn.com/open1847561709-1234478995-571d000001978909a5ee0a22d249_2560_1920.jpg.webp?w=750&h=750&cp=1",
-    tag: "UNDERWEAR / SOCKS ETC."
-  },
-  {
-    name: "GOAT222",
-    category: "clothing",
-    rating: 10,
-    description: "BEST BATCH FOR SYNA, BROKEN PLANET",
-    link: "https://goat-official222.x.yupoo.com/categories/4215138",
-    image: "https://si.geilicdn.com/wdseller1936187346-365c00000198ef2e82950a2301b4_1373_1373.jpg",
-    tag: "BEST"
-  },
-  {
-    name: "GOAT",
-    category: "clothing",
-    rating: 10,
-    description: "BEST BATCH FOR CORTEIZ",
-    link: "https://goat-official.x.yupoo.com/",
-    image: "https://si.geilicdn.com/wdseller1781632402-291f00000189b9c04af50a2102d0_750_750.jpg",
-    tag: "BEST"
-  },
-  {
-    name: "HOTDOG",
-    category: "clothing",
-    rating: 10,
-    description: "BEST BATCH FOR Broken Planet & Akimbo",
-    link: "https://hotdog-official.x.yupoo.com/categories/4098105",
-    image: "https://si.geilicdn.com/wdseller1746487736-2220000001956987605d0a23041a_1170_1170.jpg",
-    tag: "BEST"
-  },
-  {
-    name: "PENGREPS",
-    category: "clothing",
-    rating: 10,
-    description: "BEST BATCH FOR DERSCHUTZE, MERTRA",
-    link: "https://pengreps.x.yupoo.com/albums",
-    image: "https://img.alicdn.com/bao/uploaded/i4/1854157063/O1CN01hOdpUV222uVxtFpJC~hdr~_!!1854157063.heic",
-    tag: "BEST"
-  },
-  {
-    name: "OGWAVE",
-    category: "clothing",
-    rating: 10,
-    description: "BEST SELLER FOR BEANIE/HATS",
-    link: "https://ogwave.x.yupoo.com/",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/25/45a977f803b950c4ad385b797e5d4dde.jpg",
-    tag: "BEST"
-  },
-  {
-    name: "GODMALL (BUDGET)",
-    category: "luxury",
-    rating: 9,
-    description: "BAGS (BUDGET) WE RECOMMEND TAKE ITEMS WITH LETTER A E.G P580A",
-    link: "https://godmall.x.yupoo.com/",
-    image: "https://si.geilicdn.com/pcitem902006663336-62d80000019ca80262160a20e284_529_686.jpg",
-    tag: "BEST BUDGET"
-  },
-  {
-    name: "SCARLETTLUXURY",
-    category: "luxury",
-    rating: 10,
-    description: "(BEST BATCH) FOR LUXURY BAGS ETC.",
-    link: "https://scarlettluxury.x.yupoo.com/",
-    image: "https://si.geilicdn.com/pcitem902006663336-62d80000019ca80262160a20e284_529_686.jpg",
-    tag: "BEST"
-  },
-  {
-    name: "YOLO66",
-    category: "shoes",
-    rating: 10,
-    description: "BEST SELLER FOR SHOES (CHECK WHICH IS BEST BATCH BEFORE BUY)",
-    link: "https://yolo66.x.yupoo.com/categories",
-    image: "https://i.redd.it/yolo66-p6000s-v0-j0acjk5ivaig1.jpg?width=3024&format=pjpg&auto=webp&s=3eac553c523ab217429321abbd15c5d5bb0c6faa",
-    tag: "BEST"
-  },
-  {
-    name: "EVGA",
-    category: "shoes",
-    rating: 10,
-    description: "BEST SELLER FOR SHOES (BALENCIAGA) (CHECK WHICH IS BEST BATCH BEFORE BUY)",
-    link: "https://shop1268847658.v.weidian.com/?userid=1268847658&wfr=c&source=home_shop&ifr=itemdetail&sfr=app",
-    image: "https://si.geilicdn.com/pcdecorate1268847658-671200000187cb5ba81f0a2313c4-unadjust_750_750.gif?w=250&h=250&cp=1",
-    tag: "BEST"
-  }
-];
-
-// ============================================
-// 🏪 LOGIKA SPRZEDAWCÓW
-// ============================================
-let currentSellerCategory = 'all';
-let currentView = 'products';
-
-function switchView(view) {
-  currentView = view;
-  var productsView = document.getElementById('productsView');
-  var sellersView = document.getElementById('sellersView');
-  var spreadsheetLink = document.getElementById('navSpreadsheet');
-  var sellersLink = document.getElementById('navSellers');
-  var heroTitle = document.getElementById('heroTitle');
-  var heroSubtitle = document.getElementById('heroSubtitle');
-  
-  if (view === 'products') {
-    productsView.style.display = 'block';
-    sellersView.style.display = 'none';
-    spreadsheetLink.classList.add('active');
-    sellersLink.classList.remove('active');
-    heroTitle.textContent = translations[currentLanguage].heroTitle;
-    heroSubtitle.textContent = translations[currentLanguage].heroSubtitle;
-    document.getElementById('search').placeholder = translations[currentLanguage].searchPlaceholder;
-    applyFiltersAndSort();
-  } else {
-    productsView.style.display = 'none';
-    sellersView.style.display = 'block';
-    spreadsheetLink.classList.remove('active');
-    sellersLink.classList.add('active');
-    heroTitle.textContent = '🏪 Sprzedawcy';
-    heroSubtitle.textContent = 'Przeglądaj naszą kolekcję najlepszych sprzedawców.';
-    renderSellers();
-  }
-}
-
-function filterSellers() {
-  renderSellers();
-}
-
-function filterSellersByCategory(cat) {
-  currentSellerCategory = cat;
-  
-  document.querySelectorAll('#sellerCategoriesContainer .category-chip').forEach(function(btn) {
-    btn.classList.toggle('active', btn.dataset.cat === cat);
-  });
-  
-  renderSellers();
-}
-
-function renderSellers() {
-  var grid = document.getElementById('sellersGrid');
-  if (!grid) return;
-  
-  var searchValue = document.getElementById('sellerSearch')?.value.toLowerCase() || '';
-  
-  var filtered = sellers.filter(function(s) {
-    var matchesCategory = (currentSellerCategory === 'all' || s.category === currentSellerCategory);
-    var matchesSearch = s.name.toLowerCase().includes(searchValue) || s.description.toLowerCase().includes(searchValue);
-    return matchesCategory && matchesSearch;
-  });
-  
-  if (filtered.length === 0) {
-    grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #71717a;">Brak sprzedawców spełniających kryteria.</div>';
-    return;
-  }
-  
-  grid.innerHTML = '';
-  
-  filtered.forEach(function(s) {
-    var stars = '';
-    var fullStars = Math.floor(s.rating / 2);
-    var emptyStars = 5 - fullStars;
-    for (var i = 0; i < fullStars; i++) stars += '★';
-    for (var i = 0; i < emptyStars; i++) stars += '☆';
-    
-    var card = document.createElement('div');
-    card.className = 'seller-card product-card';
-    card.innerHTML = 
-      '<img src="' + s.image + '" alt="' + s.name + '" class="product-image" loading="lazy" onerror="this.src=\'https://via.placeholder.com/300x200?text=No+Image\'">' +
-      '<div class="product-overlay">' +
-        '<div class="product-info-bottom">' +
-          '<div class="product-meta-left">' +
-            '<div class="product-title" style="font-size:14px;">' + s.name + '</div>' +
-            '<div class="product-category-label">' + s.description + '</div>' +
-            '<div style="font-size:12px; color: #f5c518; margin-top:4px;">' + stars + ' ' + s.rating + '/10</div>' +
-          '</div>' +
-          '<div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">' +
-            '<span style="font-size:10px; background:' + (s.tag.includes('BEST') ? '#ff6b00' : '#2f2f33') + '; padding:2px 10px; border-radius:10px; color:#fff;">' + s.tag + '</span>' +
-            '<a href="' + s.link + '" target="_blank" rel="noopener noreferrer" style="color:#fff; text-decoration:none; font-size:13px; background:rgba(255,255,255,0.1); padding:4px 12px; border-radius:8px;">Zobacz →</a>' +
-          '</div>' +
-        '</div>' +
-      '</div>';
-    
-    card.addEventListener('click', function(e) {
-      if (!e.target.closest('a')) {
-        window.open(s.link, '_blank');
-      }
-    });
-    
-    grid.appendChild(card);
-  });
-}
-
-// ============================================
-// 🎯 OBSŁUGA PRZYCISKÓW W NAVBARZE
-// ============================================
-// Dodaj do setupEventListeners:
-document.addEventListener('DOMContentLoaded', function() {
-  // ... istniejący kod ...
-  
-  var spreadsheetLink = document.getElementById('navSpreadsheet');
-  var sellersLink = document.getElementById('navSellers');
-  
-  if (spreadsheetLink) {
-    spreadsheetLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      switchView('products');
-    });
-  }
-  
-  if (sellersLink) {
-    sellersLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      switchView('sellers');
-    });
-  }
-});
-
-
-
-// ============================================
-// 💰 PRZELICZNIK USD → PLN
-// ============================================
-const USD_TO_PLN = 3.62;
-
-function parsePrice(priceStr) {
-  if (!priceStr) return 0;
-  var clean = priceStr.replace('$', '').trim();
-  if (clean.includes('-')) {
-    var parts = clean.split('-');
-    var min = parseFloat(parts[0]);
-    var max = parseFloat(parts[1]);
-    return (min + max) / 2;
-  }
-  return parseFloat(clean);
-}
-
-function usdToPln(priceStr) {
-  var usd = parsePrice(priceStr);
-  if (isNaN(usd)) return 0;
-  return Math.round(usd * USD_TO_PLN);
-}
-
-function formatPrice(priceStr) {
-  if (priceStr.includes('-')) {
-    var parts = priceStr.replace('$', '').split('-');
-    var minPln = Math.round(parseFloat(parts[0]) * USD_TO_PLN);
-    var maxPln = Math.round(parseFloat(parts[1]) * USD_TO_PLN);
-    return {
-      usd: priceStr,
-      pln: minPln + ' - ' + maxPln + ' PLN'
-    };
-  }
-  var pln = usdToPln(priceStr);
-  return {
-    usd: priceStr,
-    pln: '≈ ' + pln + ' PLN'
-  };
-}
-
-// ============================================
-// 📊 RENDEROWANIE KART PRODUKTÓW (Z TAGAMI, PRZELICZNIKIEM I LICZNIKIEM)
+// 📊 RENDEROWANIE PRODUKTÓW
 // ============================================
 function renderGrid(items) {
   var grid = document.getElementById("grid");
@@ -6828,7 +6509,6 @@ function renderGrid(items) {
     var finalLink = preferredAgent === "kakobuy" ? p.linkKakobuy : p.linkUsfans;
     var catMap = categoryMapping.find(function(c) { return c.techName === p.category; });
     var localizedCat = catMap ? translations[currentLanguage][catMap.translationKey] : p.category;
-
     var priceData = formatPrice(p.price);
 
     var tagClass = 'product-tag';
@@ -6840,15 +6520,12 @@ function renderGrid(items) {
       tagClass += ' new';
     }
 
-    // Zabezpieczenie przed błędami w linkach
     var safeImage = p.image || 'https://via.placeholder.com/300x200?text=No+Image';
     var safeName = p.name || 'Produkt';
-    var safePrice = p.price || '0 zł';
 
     var card = document.createElement("div");
     card.className = "product-card";
 
-    // Kliknięcie w kartę otwiera link
     card.addEventListener("click", function(e) {
       if (e.target.closest('.zoom-icon')) return;
       if (finalLink && finalLink !== '#') {
@@ -6858,7 +6535,6 @@ function renderGrid(items) {
 
     card.innerHTML = 
       '<img src="' + safeImage + '" alt="' + safeName + '" class="product-image" loading="lazy" onerror="this.src=\'https://via.placeholder.com/300x200?text=No+Image\'">' +
-      // Lupa - zawsze widoczna w prawym górnym rogu
       '<div class="zoom-icon" onclick="event.stopPropagation(); openLightbox(\'' + safeImage + '\')">' +
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#0b0b0c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
           '<circle cx="11" cy="11" r="8"/>' +
@@ -6884,17 +6560,13 @@ function renderGrid(items) {
   });
 }
 
-
 // ============================================
-// 🔍 LIGHTBOX - POWIĘKSZANIE ZDJĘĆ
+// 🔍 LIGHTBOX
 // ============================================
-
 function openLightbox(imgSrc) {
   var overlay = document.getElementById('lightboxOverlay');
   var img = document.getElementById('lightboxImg');
-  
   if (!overlay || !img) return;
-  
   img.src = imgSrc;
   overlay.classList.add('active');
   document.body.style.overflow = 'hidden';
@@ -6903,56 +6575,472 @@ function openLightbox(imgSrc) {
 function closeLightbox() {
   var overlay = document.getElementById('lightboxOverlay');
   if (!overlay) return;
-  
   overlay.classList.remove('active');
   document.body.style.overflow = '';
 }
 
-// ============================================
-// 🚀 INICJALIZACJA LIGHTBOXA
-// ============================================
-
 document.addEventListener('DOMContentLoaded', function() {
-  // Zamknij lightbox po kliknięciu X
   var closeBtn = document.getElementById('lightboxClose');
   if (closeBtn) {
     closeBtn.addEventListener('click', closeLightbox);
   }
-  
-  // Zamknij lightbox po kliknięciu w tło
   var overlay = document.getElementById('lightboxOverlay');
   if (overlay) {
     overlay.addEventListener('click', function(e) {
-      if (e.target === this) {
-        closeLightbox();
-      }
+      if (e.target === this) closeLightbox();
     });
   }
-  
-  // Zamknij lightbox po wciśnięciu ESC
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      closeLightbox();
-    }
+    if (e.key === 'Escape') closeLightbox();
   });
 });
 
 // ============================================
-// 🔍 ZAKŁADKA "SPRAWDŹ QC"
+// 🏪 SPRZEDAWCY - DANE
 // ============================================
-
-document.addEventListener('DOMContentLoaded', function() {
-  // ... istniejący kod ...
+const sellers = [
+  {
+    name: "HotDog",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na broken planet",
+    link: "https://hotdog-official.x.yupoo.com/",
+    rating: 9.5,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "GOAT666",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy seller na trapstara",
+    link: "https://goat-official666.x.yupoo.com/",
+    rating: 9.2,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "Pengreps",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na Dershutze i Mertra",
+    link: "http://pengreps.x.yupoo.com/",
+    rating: 9.2,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "Goat",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na Corteiz",
+    link: "https://goat-official.x.yupoo.com/",
+    rating: 9.8,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "ScarlettLuxury",
+    category: "luxury",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na luksusowe Torebki,Portfele,Plecaki",
+    link: "https://scarlettluxury.x.yupoo.com/",
+    rating: 8.5,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "TopHot",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na Casablanca , Chrome Hearts",
+    link: "https://tophotfashion.x.yupoo.com/categories/4639789",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "Pika",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na Sp5der, Hellstar, Eric Emmanuel",
+    link: "https://pikachushop.x.yupoo.com/categories/4695853",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "Husky",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na Tech Fleece",
+    link: "https://huskyreps.x.yupoo.com/categories/5071768",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "AlienStudio",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na PeaceInWar",
+    link: "https://alienstudio.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "SharkBreeder",
+    category: "shoes",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na obuwie Off-White, oraz kurtki TNF (TOP BATCH)",
+    link: "https://shark-breeder.x.yupoo.com/categories/4510356",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "MVT",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na Acne Studios, Balenciaga Strike Boots oraz Margiela Gats",
+    link: "https://mvt-shop01.x.yupoo.com/search/album?uid=1&sort=&q=acne",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+   {
+    name: "NeonRG",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na obuwie Loubutin",
+    link: "https://weidian.com/?userid=927881720&p=iphone&wfr=BuyercopyURL&share_relation=abed070e2cc9bf60_927881720_1",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "Thunder",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca odzieży high fashion oraz na marki typu: BURBERRY, BALENCIAGA",
+    link: "https://thethunder.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+   {
+    name: "CVW",
+    category: "shoes",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na sneakersy Travis",
+    link: "https://weidian.com/?userid=1801401190",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "Elepant",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na Syna World",
+    link: "https://elephant-factory.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "1to1",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Jeden z lepszych sprzedawców na itemy CELINE",
+    link: "https://1to1.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "Kevin",
+    category: "shoes",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na buty DIOR B23",
+    link: "https://13160805690.x.yupoo.com/categories/734649?isSubCate=true",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "SurvivalSource",
+    category: "Luxury",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na bransoletki wykonane z naprawde trwałych materiałów.",
+    link: "hhttps://www.survivalworld1.top/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "OGWave",
+    category: "All",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na czapki oraz szaliki",
+    link: "https://ogwave.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "BackStudio",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na Givenchy",
+    link: "https://backstudio.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "BaymaxSocks",
+    category: "All",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na bielizne",
+    link: "https://baymaxsocks.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "Naisan",
+    category: "shoes",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na obuwie Lanvin, Hasło: Hinaisan , żeby zakupic przedmiot trzeba napisac do niego na whatsappie",
+    link: "https://naisan23.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+   {
+    name: "HengyuClub",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na spodnie Purple Brand",
+    link: "https://hengyuclub.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+   {
+    name: "BigD",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na ciuchy Ksubi",
+    link: "https://shop315027087.world.taobao.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "Jieyi",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na kurtki MONCLER",
+    link: "https://jieyi168.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "AngelKing",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na Denim Tears",
+    link: "https://angelking47.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "Koala",
+    category: "shoes",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na buty DIOR B22",
+    link: "https://item.taobao.com/item.htm?id=765005637664",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "DreamRemake",
+    category: "shoes",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na kurtki Arcteryx",
+    link: "https://west42.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "K8",
+    category: "Luxury",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na paski/belty",
+    link: "https://weidian.com/?userid=1621840505",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "Judx",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na Stone Island",
+    link: "https://shop1735775997.v.weidian.com/?userid=1735775997&wfr=BuyercopyURL&share_relation=fac77d2b317052fe_1202650183_1&spider_token=8893&tabType=new",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "UnionKingdom",
+    category: "Luxury",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na blank ubrania",
+    link: "https://unionkingdom.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "KOG",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na kurtki Canada Goose",
+    link: "https://kog001.x.yupoo.com/",
+    rating: 10,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+   {
+    name: "REPBROS",
+    category: "clothing",
+    badge: "Najwyżej oceniany",
+    description: "Najlepszy sprzedawca na CDG,AMI",
+    link: "https://repbros.x.yupoo.com/albums",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "YOLO",
+    category: "shoes",
+    badge: "Najwyżej oceniany",
+    description: "Jeden z lepszych sprzedawców na obuwie. Przed zakupem polecam sprawdzic jaki batch na dany item",
+    link: "https://yolo66.x.yupoo.com/categories",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "WWTOP",
+    category: "shoes",
+    badge: "Najwyżej oceniany",
+    description: "Jeden z lepszych sprzedawców na obuwie. Przed zakupem polecam sprawdzic jaki batch na dany item",
+    link: "https://wwfake100.x.yupoo.com/albums?tab=gallery",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "EVGA",
+    category: "shoes",
+    badge: "Najwyżej oceniany",
+    description: "Jeden z lepszych sprzedawców na obuwie (BALENCIAGA) Przed zakupem polecam sprawdzic jaki batch na dany item",
+    link: "https://evga.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
+  {
+    name: "GODMALL",
+    category: "Luxury",
+    badge: "Najwyżej oceniany",
+    description: "BEST BUDGET NA TORBKI, WE RECOMMEND TAKE ITEMS WITH LETTER A E.G P580A",
+    link: "https://godmall.x.yupoo.com/",
+    rating: 9.0,
+    image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
+  },
   
-  // Obsługa kliknięcia w zakładkę QC
-  var qcLink = document.getElementById('navQC');
-  if (qcLink) {
-    qcLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      // Tutaj wpisz URL strony do której ma przekierować
-      window.open('https://qcitems.com/', '_blank');
-      // lub jeśli chcesz otworzyć w tej samej karcie:
-      // window.location.href = 'https://twoja-strona-do-qc.pl';
-    });
+  
+
+
+
+
+];
+
+// ============================================
+// 🏪 SPRZEDAWCY - FUNKCJE
+// ============================================
+function filterSellers() {
+  var searchInput = document.getElementById('sellerSearch');
+  if (searchInput) {
+    currentSellerSearch = searchInput.value.toLowerCase().trim();
   }
-});
+  renderSellers();
+}
+
+function filterSellersByCategory(cat) {
+  currentSellerCategory = cat;
+  document.querySelectorAll('.seller-filter-chip').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.cat === cat);
+  });
+  renderSellers();
+}
+
+function renderSellers() {
+  var grid = document.getElementById('sellersGrid');
+  if (!grid) return;
+  
+  var searchValue = document.getElementById('sellerSearch')?.value.toLowerCase() || '';
+  
+  var filtered = sellers.filter(function(s) {
+    var matchesCategory = (currentSellerCategory === 'all' || s.category === currentSellerCategory);
+    var matchesSearch = s.name.toLowerCase().includes(searchValue) || s.description.toLowerCase().includes(searchValue);
+    return matchesCategory && matchesSearch;
+  });
+  
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #71717a;">Brak sprzedawców spełniających kryteria.</div>';
+    return;
+  }
+  
+  grid.innerHTML = '';
+  
+  filtered.forEach(function(s) {
+    var fullStars = Math.floor(s.rating / 2);
+    var stars = '';
+    for (var i = 0; i < fullStars; i++) stars += '★';
+    for (var i = fullStars; i < 5; i++) stars += '☆';
+    
+    var card = document.createElement('div');
+    card.className = 'seller-card';
+    
+    card.innerHTML = 
+      '<div class="seller-card-header">' +
+        '<span class="seller-card-name">' + s.name + '</span>' +
+        '<span class="seller-card-badge best">⭐ ' + s.badge + '</span>' +
+      '</div>' +
+      '<p class="seller-card-desc">' + s.description + '</p>' +
+      '<div class="seller-card-footer">' +
+        '<div class="seller-card-rating">' +
+          '<span class="stars">' + stars + '</span>' +
+          '<span>' + s.rating + '/10</span>' +
+        '</div>' +
+        '<a href="' + s.link + '" target="_blank" rel="noopener noreferrer" class="seller-card-btn">Zobacz produkty →</a>' +
+      '</div>';
+    
+    grid.appendChild(card);
+  });
+}
+
+// ============================================
+// 🔄 PRZEŁĄCZANIE WIDOKU
+// ============================================
+function switchView(view) {
+  currentView = view;
+  var productsView = document.getElementById('productsView');
+  var sellersView = document.getElementById('sellersView');
+  var spreadsheetLink = document.getElementById('navSpreadsheet');
+  var sellersLink = document.getElementById('navSellers');
+  var heroTitle = document.getElementById('heroTitle');
+  var heroSubtitle = document.getElementById('heroSubtitle');
+  var searchInput = document.getElementById('search');
+  var globalSearch = document.getElementById('globalSearch');
+  
+  if (view === 'products') {
+    if (productsView) productsView.style.display = 'block';
+    if (sellersView) sellersView.style.display = 'none';
+    if (spreadsheetLink) spreadsheetLink.classList.add('active');
+    if (sellersLink) sellersLink.classList.remove('active');
+    if (heroTitle) heroTitle.textContent = translations[currentLanguage].heroTitle;
+    if (heroSubtitle) heroSubtitle.textContent = translations[currentLanguage].heroSubtitle;
+    if (searchInput) searchInput.placeholder = translations[currentLanguage].searchPlaceholder;
+    if (globalSearch) globalSearch.placeholder = 'Szukaj...  ⌘ K';
+    applyFiltersAndSort();
+  } else {
+    if (productsView) productsView.style.display = 'none';
+    if (sellersView) sellersView.style.display = 'block';
+    if (spreadsheetLink) spreadsheetLink.classList.remove('active');
+    if (sellersLink) sellersLink.classList.add('active');
+    if (heroTitle) heroTitle.textContent = '🏪 Najlepsi sprzedawcy';
+    if (heroSubtitle) heroSubtitle.textContent = 'Przeglądaj najlepszych sprzedawców Weidian i Taobao.';
+    renderSellers();
+  }
+}
+
+// ============================================
+// ✅ KONIEC
+// ============================================
+console.log("✅ script.js załadowany poprawnie!");

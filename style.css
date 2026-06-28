@@ -1266,3 +1266,215 @@ body {
     height: 12px;
   }
 }
+
+/* ============================================
+   SPRZEDAWCY - STYLE
+   ============================================ */
+
+/* Hero sekcja sprzedawców */
+.sellers-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sellers-hero h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 8px;
+  letter-spacing: -1px;
+}
+
+.sellers-hero p {
+  font-size: 16px;
+  color: #71717a;
+}
+
+/* Pasek filtrowania sprzedawców */
+.sellers-filter-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.sellers-search-input {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.sellers-search-input input {
+  width: 100%;
+  background-color: #141416;
+  border: 1px solid #19191b;
+  border-radius: 12px;
+  padding: 14px 16px 14px 44px;
+  color: #ffffff;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.sellers-search-input input:focus {
+  outline: none;
+  border-color: #2f2f33;
+}
+
+.sellers-search-input .search-icon-inner {
+  position: absolute;
+  left: 16px;
+  width: 18px;
+  height: 18px;
+  color: #52525b;
+}
+
+.sellers-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.seller-filter-chip {
+  background-color: #141416;
+  border: 1px solid #19191b;
+  color: #a1a1aa;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.seller-filter-chip:hover {
+  background-color: #19191b;
+  color: #ffffff;
+}
+
+.seller-filter-chip.active {
+  background-color: #c9a84c;
+  color: #0b0b0c;
+  border-color: #c9a84c;
+}
+
+/* Siatka sprzedawców */
+.sellers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+/* Karta sprzedawcy */
+.seller-card {
+  background-color: #141416;
+  border: 1px solid #19191b;
+  border-radius: 16px;
+  padding: 24px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.seller-card:hover {
+  border-color: #c9a84c;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(201, 168, 76, 0.1);
+}
+
+.seller-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.seller-card-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.seller-card-badge {
+  font-size: 11px;
+  font-weight: 600;
+  background: rgba(201, 168, 76, 0.15);
+  color: #c9a84c;
+  padding: 4px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(201, 168, 76, 0.2);
+}
+
+.seller-card-badge.best {
+  background: rgba(201, 168, 76, 0.2);
+  color: #c9a84c;
+}
+
+.seller-card-desc {
+  font-size: 14px;
+  color: #a1a1aa;
+  line-height: 1.5;
+  margin: 8px 0 16px 0;
+}
+
+.seller-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.seller-card-rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #a1a1aa;
+}
+
+.seller-card-rating .stars {
+  color: #c9a84c;
+  letter-spacing: 1px;
+}
+
+.seller-card-btn {
+  background: none;
+  border: 1px solid #c9a84c;
+  color: #c9a84c;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.seller-card-btn:hover {
+  background: #c9a84c;
+  color: #0b0b0c;
+}
+
+/* Responsywność sprzedawców */
+@media (max-width: 768px) {
+  .sellers-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  
+  .sellers-hero h2 {
+    font-size: 28px;
+  }
+  
+  .seller-card-name {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sellers-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .seller-card {
+    padding: 18px;
+  }
+}
