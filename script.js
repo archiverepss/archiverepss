@@ -1780,7 +1780,7 @@ const products = [
   },
   {
     name: "BALENCIAGA PULL UP PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$69.07",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/54ed7f4ebe9c6436bf64b82e1a493b6b.jpg",
     linkKakobuy: "https://ikako.vip/yg962",
@@ -1791,7 +1791,7 @@ const products = [
   },
   {
     name: "BALENCIAGA BLUE FLARED LOST TAPES",
-    category: "Shorts",
+    category: "Pants",
     price: "$62.96",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/2e1e9a448e834633f20451e8996d735a.jpg",
     linkKakobuy: "https://ikako.vip/7zk79",
@@ -1802,7 +1802,7 @@ const products = [
   },
   {
     name: "BALENCIAGA FITTED GEORGE V LOW WAIST PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$65.76",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/53fd709cf6ccc48d1922844fd88800dd.jpg",
     linkKakobuy: "https://ikako.vip/u2csv",
@@ -1813,7 +1813,7 @@ const products = [
   },
   {
     name: "BUDGET BALENCIAGA BAGGY JEANS",
-    category: "Shorts",
+    category: "Pants",
     price: "$21.42",
     image: "https://img.alicdn.com/bao/uploaded/i4/402758480/O1CN010zXoKN2CVtV2JeZT1_!!402758480.jpg",
     linkKakobuy: "https://ikako.vip/an9zs",
@@ -1824,7 +1824,7 @@ const products = [
   },
   {
     name: "BALENCIAGA DOUBLE WAIST SWEATPANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$56.14",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/a34e2928fe9e5b409c2cd43551fb0d14.jpg",
     linkKakobuy: "https://ikako.vip/zc3nz",
@@ -1835,7 +1835,7 @@ const products = [
   },
   {
     name: "BALENCIAGA FLARED JEANS (BUDGET)",
-    category: "Shorts",
+    category: "Pants",
     price: "$25",
     image: "https://img.alicdn.com/bao/uploaded/i1/2214514093/O1CN01iiHQSF1g6dzXIV2Gj_!!2214514093.jpg",
     linkKakobuy: "https://ikako.vip/z6naf",
@@ -1846,7 +1846,7 @@ const products = [
   },
   {
     name: "BALENCIAGA CUT UP JEANS",
-    category: "Shorts",
+    category: "Pants",
     price: "$82",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/26/0fb129ef5dc14a4f903db78713952641.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fe.tb.cn%2Fh.SJOZrGOcmZOEBIX%3Ftk%3Dwi7xf7YnCzH&affcode=archivee",
@@ -1857,7 +1857,7 @@ const products = [
   },
   {
     name: "PURPLE BRAND JEANS (WM179)",
-    category: "Shorts",
+    category: "Pants",
     price: "$40.75",
     image: "https://si.geilicdn.com/pcitem453299265-22dd0000019afa3b95f30a23111a_500_500.jpg",
     linkKakobuy: "https://ikako.vip/2cb9f",
@@ -1868,7 +1868,7 @@ const products = [
   },
   {
     name: "PURPLE BRAND JEANS (WM178)",
-    category: "Shorts",
+    category: "Pants",
     price: "$41",
     image: "https://si.geilicdn.com/pcitem453299265-20050000019afa3b80360a2303ee_500_500.jpg",
     linkKakobuy: "https://ikako.vip/2cb9f",
@@ -1879,7 +1879,7 @@ const products = [
   },
   {
     name: "PURPLE BRAND JEANS(PB141)",
-    category: "Shorts",
+    category: "Pants",
     price: "$41",
     image: "https://si.geilicdn.com/pcitem453299265-417500000198053f14a20a23111a_1200_1200.jpg",
     linkKakobuy: "https://ikako.vip/7dh9b",
@@ -1890,7 +1890,7 @@ const products = [
   },
   {
     name: "PURPLE BRAND JEANS (WM131)",
-    category: "Shorts",
+    category: "Pants",
     price: "$41",
     image: "https://si.geilicdn.com/pcitem453299265-4c9d000001996672c29e0a2303ee_4168_4168.jpg",
     linkKakobuy: "https://ikako.vip/2cb9f",
@@ -1901,7 +1901,7 @@ const products = [
   },
   {
     name: "MIJKO PATCH JEANS",
-    category: "Shorts",
+    category: "Pants",
     price: "$22",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/15/140d728f36b7fa7716cc73b1bfdecf47.jpg",
     linkKakobuy: "https://ikako.vip/pdyhvd",
@@ -1912,7 +1912,7 @@ const products = [
   },
   {
     name: "ACNE 1981M VINTAGE BLACK",
-    category: "Shorts",
+    category: "Pants",
     price: "$53",
     image: "https://preview.redd.it/rep-topacney-vs-retail-comparison-acne-studios-1981m-v0-2e3k8p3tz1de1.jpg?width=640&crop=smart&auto=webp&s=0aa242d0926cb170c02200f94939f8e03fa789f4",
     linkKakobuy: "https://ikako.vip/byp9n",
@@ -1923,7 +1923,7 @@ const products = [
   },
   {
     name: "ACNE 2010M BLACK",
-    category: "Shorts",
+    category: "Pants",
     price: "$53",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/18/ef2e323b80ef60a1376681f3da89032e.jpg",
     linkKakobuy: "https://ikako.vip/bp8nd",
@@ -1935,7 +1935,7 @@ const products = [
   ,
   {
     name: "ACNE 1981 PAINT SPLATTER",
-    category: "Shorts",
+    category: "Pants",
     price: "$53",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/13/39dbf5ea52bed1b15138a5bd0a7d6359.jpg",
     linkKakobuy: "https://ikako.vip/sguec",
@@ -1946,7 +1946,7 @@ const products = [
   },
   {
     name: "ACNE STUDIOS 1989 ASH BLACK",
-    category: "Shorts",
+    category: "Pants",
     price: "$49.35",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/c2bd75caab75d5b830465224b0d69bda.jpg",
     linkKakobuy: "https://ikako.vip/2qjzzy",
@@ -1957,7 +1957,7 @@ const products = [
   },
   {
     name: "ESSENTIALS PANTS (BUDGET)",
-    category: "Shorts",
+    category: "Pants",
     price: "$18.81",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/3ff28cfd0ce1bdc77444552311e3ed6d.jpg",
     linkKakobuy: "https://ikako.vip/gqh67",
@@ -1968,7 +1968,7 @@ const products = [
   },
   {
     name: "ESSENTIALS FOG PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$28.38",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/6/125c4d37e99863a1509cd2ea48d04914.jpg",
     linkKakobuy: "https://ikako.vip/gud2k",
@@ -1979,7 +1979,7 @@ const products = [
   },
   {
     name: "ESSENTIALS FOG PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$32",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/24/c14bfc2bee51c3135cc38d019d83d4dd.jpg",
     linkKakobuy: "https://ikako.vip/j5fy8",
@@ -1990,7 +1990,7 @@ const products = [
   },
   {
     name: "ESSENTIALS FOG SWEATPANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$34",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/8/ad612033899daad33e1289c3ba8f933a.jpg",
     linkKakobuy: "https://ikako.vip/3xyzy",
@@ -2001,7 +2001,7 @@ const products = [
   },
   {
     name: "ESSENTIALS X NBA SWEATPANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$31.66",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/11/20260c12685cf9313b18d60cce827bd5.jpg",
     linkKakobuy: "https://ikako.vip/n77sp",
@@ -2012,7 +2012,7 @@ const products = [
   },
   {
     name: "RICK OWENS SUBHUMAN WAXED PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$34.17",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/8/28b72f710ddd559c7f062da4aae71937.jpg",
     linkKakobuy: "https://ikako.vip/8rb6r",
@@ -2023,7 +2023,7 @@ const products = [
   },
   {
     name: "RICK OWENS DRKSHDW JEANS",
-    category: "Shorts",
+    category: "Pants",
     price: "$28",
     image: "https://img.alicdn.com/bao/uploaded/i4/2214514093/O1CN01Mw6ugI1g6e9yzqzbr_!!2214514093.jpg",
     linkKakobuy: "https://ikako.vip/xrfzt",
@@ -2034,7 +2034,7 @@ const products = [
   },
   {
     name: "RICK OWENS PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$34.48",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/6/ae41f484f522f921f4f6434444778709.jpg",
     linkKakobuy: "https://ikako.vip/8qyny",
@@ -2045,7 +2045,7 @@ const products = [
   },
   {
     name: "RICK OWENS PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$49.99",
     image: "https://si.geilicdn.com/pcitem1487039158-331200000196a90ffc680a20e7c7_800_800.jpg",
     linkKakobuy: "https://ikako.vip/4vm26",
@@ -2056,7 +2056,7 @@ const products = [
   },
   {
     name: "RICK OWENS PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$58",
     image: "https://img.alicdn.com/bao/uploaded/i1/62314016/O1CN01nLKBFG1fXNMak3ugp_!!62314016.jpg",
     linkKakobuy: "https://ikako.vip/5fgu4",
@@ -2067,7 +2067,7 @@ const products = [
   },
   {
     name: "GUCCI DEMNA BLACK JEANS",
-    category: "Shorts",
+    category: "Pants",
     price: "$63.5",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/26/ab1bd2aea8baab67c337ea8110c87103.jpg",
     linkKakobuy: "https://ikako.vip/4na4r",
@@ -2078,7 +2078,7 @@ const products = [
   },
   {
     name: "GUCCI DEMNA JEANS",
-    category: "Shorts",
+    category: "Pants",
     price: "$63.5",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/41d1bb469c2875b723dd64d5839b48ff.jpg",
     linkKakobuy: "https://ikako.vip/4na4r",
@@ -2089,7 +2089,7 @@ const products = [
   },
   {
     name: "GALLERY DEPT SWEATPANTS (BUDGET)",
-    category: "Shorts",
+    category: "Pants",
     price: "$30.78",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/20/3897ba39e80549745b2d931aad7e38a8.jpg",
     linkKakobuy: "https://ikako.vip/w6nrz",
@@ -2100,7 +2100,7 @@ const products = [
   },
   {
     name: "GALLERY DEPT PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$48.07",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/19/4ea0ec8e7e5f2b07e8255ca310236cc5.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D821375995617&affcode=archivee",
@@ -2111,7 +2111,7 @@ const products = [
   },
   {
     name: "HELLSTAR UNIFORM PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$55",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202507/27/697b7b347c5aa8789840344516f33bd5.jpg",
     linkKakobuy: "https://ikako.vip/sjqrn",
@@ -2122,7 +2122,7 @@ const products = [
   },
   {
     name: "HELLSTAR PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$28.06",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/13/2c6efc36b1fc6bbab51bfddf9ccc3c67.jpg",
     linkKakobuy: "https://ikako.vip/zb326",
@@ -2133,7 +2133,7 @@ const products = [
   },
   {
     name: "TRUE RELIGION JEANS",
-    category: "Shorts",
+    category: "Pants",
     price: "$27",
     image: "https://img.alicdn.com/bao/uploaded/i4/2404365569/O1CN01Dd5upM1r0egErRCpf_!!2404365569.jpg",
     linkKakobuy: "https://ikako.vip/yn4wj",
@@ -2144,7 +2144,7 @@ const products = [
   },
   {
     name: "NIKE X STUSSY SWEATPANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$23.55",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/16/0236cfe2a833020b9233c5441ae5f14c.jpg",
     linkKakobuy: "https://ikako.vip/7czwr",
@@ -2155,7 +2155,7 @@ const products = [
   },
   {
     name: "NIKE X NOCTA",
-    category: "Shorts",
+    category: "Pants",
     price: "$25.08",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/11/4465525b6a49c60f138d8bee4cfbbfd6.jpg",
     linkKakobuy: "https://ikako.vip/h3w3s",
@@ -2164,86 +2164,11 @@ const products = [
     rating: 4
   
   },
-  {
-    name: "CORTEIZ GUERILLAZ CARGO PANTS",
-    category: "Shorts",
-    price: "$43.88",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/9/05dda5b8928b791df52bc298fa7b1840.jpg",
-    linkKakobuy: "https://ikako.vip/b4s9d",
-    linkUsfans: "https://usfans.com/product/3/7656781400?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
   
-  },
-  {
-    name: "CORTEIZ EMBOSED C-STAR DENIM",
-    category: "Shorts",
-    price: "$35.89",
-    image: "https://si.geilicdn.com/wdseller1936187346-12330000019a674967b40a239846_1320_1320.jpg",
-    linkKakobuy: "https://ikako.vip/2y6u86",
-    linkUsfans: "https://usfans.com/product/3/7656858326?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  
-  },
-  {
-    name: "CORTEIZ ROAYLE CREST OPEN SWEATPANTS",
-    category: "Shorts",
-    price: "$27.43",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/22/6795ee0c3d44f905fd543e42ca9cf564.jpg",
-    linkKakobuy: "https://ikako.vip/jw4vs",
-    linkUsfans: "https://usfans.com/product/3/7653903977?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  
-  },
-  {
-    name: "CORTEIZ DENIM JEANS DARK WASH",
-    category: "Shorts",
-    price: "$35.89",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/1fec263c6b4af69f3a3401f541eb7f10.jpg",
-    linkKakobuy: "https://ikako.vip/njcur",
-    linkUsfans: "https://usfans.com/product/3/7656848442?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  
-  },
-  {
-    name: "CORTEIZ ISLAND BAGGY JEANS",
-    category: "Shorts",
-    price: "$33.75",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/13/3d5cdcb2effe9b1c5d235e1285f8d37a.jpg",
-    linkKakobuy: "https://ikako.vip/wu8sf",
-    linkUsfans: "https://usfans.com/product/3/7656903616?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  
-  },
-  {
-    name: "CORTEIZ ALCATRAZ SWEATPANTS",
-    category: "Shorts",
-    price: "$27.74",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/15/2eea76dbabf0b1eca9dbdadb941dd325.jpg",
-    linkKakobuy: "https://ikako.vip/zejc3",
-    linkUsfans: "https://usfans.com/product/2/811879541348?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  
-  },
-  {
-    name: "CORTEIZ 4 STAR CARGOS",
-    category: "Shorts",
-    price: "44.37",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202508/15/70a0e74fa8004d6c3c3676b910eb7f95.jpg",
-    linkKakobuy: "https://ikako.vip/avxp6",
-    linkUsfans: "https://usfans.com/product/2/811602863567?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  
-  },
+
   {
     name: "PALM ANGELS PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "20.6",
     image: "https://img.alicdn.com/bao/uploaded/i1/574102188/O1CN010s0FJx1S29g8lHaPK_!!574102188.jpg",
     linkKakobuy: "https://ikako.vip/r57j9",
@@ -2287,7 +2212,7 @@ const products = [
   },
   {
     name: "Derschutze Denim Pants",
-    category: "Shorts",
+    category: "Pants",
     price: "$32.91",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/99f0e3e1b3574f6ed874f6cba2305bcc.jpg",
     linkKakobuy: "https://ikako.vip/8j95q8",
@@ -2298,7 +2223,7 @@ const products = [
   },
   {
     name: "Derschutze blue Denim Pants",
-    category: "Shorts",
+    category: "Pants",
     price: "$32.91",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/31/6d865564526a5a676882dd6cd609facb.jpg",
     linkKakobuy: "https://ikako.vip/fpsdy",
@@ -2309,7 +2234,7 @@ const products = [
   },
   {
     name: "Derschutze Western Jogger",
-    category: "Shorts",
+    category: "Pants",
     price: "$32.91",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/ad5cf687195083e02bf18eecb6740cb2.jpg",
     linkKakobuy: "https://ikako.vip/z3g2x",
@@ -2320,7 +2245,7 @@ const products = [
   },
   {
     name: "Derschutze Denim Pants",
-    category: "Shorts",
+    category: "Pants",
     price: "$32.91",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/14e6f3fb99a8b11cf8dcf951f7c96f39.jpg",
     linkKakobuy: "https://ikako.vip/f5hec",
@@ -2331,7 +2256,7 @@ const products = [
   },
   {
     name: "Ralph Lauren Suit Pants",
-    category: "Shorts",
+    category: "Pants",
     price: "$24.51",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/559e31f4b72c116d181bfd30ef77e851.jpg",
     linkKakobuy: "https://ikako.vip/vxpf4u",
@@ -2342,7 +2267,7 @@ const products = [
   },
   {
     name: "Ralph Lauren FLeece Pants",
-    category: "Shorts",
+    category: "Pants",
     price: "$21.79",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/24/adafb0606dea315046027c9d39baeaea.jpg",
     linkKakobuy: "https://ikako.vip/ep3p5",
@@ -2353,7 +2278,7 @@ const products = [
   },
   {
     name: "Ralph Lauren Pants",
-    category: "Shorts",
+    category: "Pants",
     price: "$21.79",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/b3b5c401937392c718e40bbd14b5971c.jpg",
     linkKakobuy: "https://ikako.vip/j7dpx",
@@ -2364,7 +2289,7 @@ const products = [
   },
   {
     name: "BPM RENT'S DUE PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$28.99",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/2/cd56a7fa0e73e86b596b5e69de6d6dc9.jpg",
     linkKakobuy: "https://ikako.vip/f5yw8",
@@ -2375,7 +2300,7 @@ const products = [
   },
   {
     name: "BPM PANTS ALL THE STARS",
-    category: "Shorts",
+    category: "Pants",
     price: "$31.19",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/30/c2ce72f87d12679b12048bb059796047.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1621342910.v.weidian.com%2Fitem.html%3FitemID%3D7499784900&affcode=archivee",
@@ -2386,7 +2311,7 @@ const products = [
   },
   {
     name: "HYSTERIC GLAMOUR HAGI JEANS",
-    category: "Shorts",
+    category: "Pants",
     price: "$64.18",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/6611d64c5141dd3bae6bdfb05b5c2c91.jpg",
     linkKakobuy: "https://ikako.vip/zqt64",
@@ -3817,7 +3742,7 @@ const products = [
   },
   {
     name: "PEACEINWAR SKULL SWEATPANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$34.52",
     image: "https://si.geilicdn.com/wdseller1995625455-5ccb0000019b21edc7d70a23b5fa_1290_1720.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7635947538&affcode=archivee",
@@ -3828,7 +3753,7 @@ const products = [
   },
   {
     name: "PEACEINWAR SKULL SWEATPANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$36.1",
     image: "https://si.geilicdn.com/wdseller1995625455-7f440000019b0db144a60a2304a0_1290_1720.jpg",
     linkKakobuy: "https://ikako.vip/vukad",
@@ -3839,7 +3764,7 @@ const products = [
   },
   {
     name: "PEACEINWAR EU SWEATPANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$34",
     image: "https://si.geilicdn.com/wdseller1995625455-1ad70000019b8d082bd60a230417_1290_1720.jpg",
     linkKakobuy: "https://ikako.vip/f6s9w",
@@ -4092,7 +4017,7 @@ const products = [
   },
   {
     name: "BASIC NIKE PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$13.37",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/10/fd5cfb59281b8cb55b947a6c9f9b2568.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7535370671&affcode=archivee",
@@ -4103,7 +4028,7 @@ const products = [
   },
   {
     name: "Survet Flared joggers",
-    category: "Shorts",
+    category: "Pants",
     price: "$12",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/9/f11639e00eb8d5d83b77f538a66b85c9.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7536809461&affcode=archivee",
@@ -4114,7 +4039,7 @@ const products = [
   },
   {
     name: "(BUDGET) ACNE STUDIOS JEANS",
-    category: "Shorts",
+    category: "Pants",
     price: "$28.16",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/31/37b4f42c2cfe7c74c4ae63dd565aa82c.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D896534806883&affcode=archivee",
@@ -4125,7 +4050,7 @@ const products = [
   },
   {
     name: "NO FAITH STUDIOS JEANS",
-    category: "Shorts",
+    category: "Pants",
     price: "$40.15",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/26/bf6a07eeb00ca9b39ddceb49721aa468.jpg",
     linkKakobuy: "https://ikako.vip/fj85r",
@@ -4136,7 +4061,7 @@ const products = [
   },
   {
     name: "(BUDGET) GALLERY DEPT JEANS",
-    category: "Shorts",
+    category: "Pants",
     price: "$20.01",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202604/1/6bf9a3c39e99d20e8624b1d2f4ecafeb.jpg",
     linkKakobuy: "https://ikako.vip/uhsqa",
@@ -4191,7 +4116,7 @@ const products = [
   },
   {
     name: "(BUDGET) CORTEIZ SWEATPANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$17.32",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202604/21/a52d9de13daf7a79c3828861412c86de.jpg",
     linkKakobuy: "https://ikako.vip/h9m3h",
@@ -4324,7 +4249,7 @@ const products = [
   },
   {
     name: "(BUDGET) RANDOM FLARED PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$24.13",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/5/db25d86d05522290e161b280a055f232.jpg",
     linkKakobuy: "https://ikako.vip/et2g3",
@@ -4490,7 +4415,7 @@ const products = [
 
   {
     name: "RICK OWENS FLARED PANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$28.39",
     image: "https://img.alicdn.com/bao/uploaded/i3/2214514093/O1CN01Q8Rq121g6e8wZQQMe_!!2214514093.jpg",
     linkKakobuy: "https://ikako.vip/v9kge",
@@ -5019,7 +4944,7 @@ const products = [
   },
   {
     name: "ANONYMOUS CLUB SWEATPANTS",
-    category: "Shorts",
+    category: "Pants",
     price: "$45",
     image: "https://img.alicdn.com/bao/uploaded/i4/2210299185015/O1CN01fXkrdQ1muvITGPzeE_!!2210299185015.png",
     linkKakobuy: "https://ikako.vip/uhdza",
@@ -5737,7 +5662,7 @@ const products = [
     name: "PROTOCOL + HOODIE",
     category: "Hoodies",
     price: "$26.4",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN017L6AM61TjUoJ603HB_!!2208944992418-0-cib.jpg",
+    image: "https://media.usfans.com/2026/06/26/160438/4b8ddc94-a9ac-43d7-b1d2-b6ddf73149be.jpg",
     linkKakobuy: "https://ikako.vip/r8wjw",
     linkUsfans: "https://usfans.com/product/1/1020996583796?ref=TX9V9N",
     tag: "RANDOM",
@@ -5865,6 +5790,117 @@ const products = [
     rating: 4
   
   },
+  {
+    name: "VETEMENTS BRO TEE",
+    category: "Tshirts",
+    price: "$27.59",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN01GUSaPu26cs3NWG2De~crop,714,0,4284,4284~_!!3822597683.jpg",
+    linkKakobuy: "https://ikako.vip/37yfu",
+    linkUsfans: "https://usfans.com/product/2/mikkp-wl4B1jvOEHOsJkyrq99a7ZN0aOy-McWpy_lq2Q10Kgi6KmFQ?ref=TX9V9N",
+    tag: "KJMADE",
+    rating: 5
+  
+  },
+  {
+    name: "VETEMENTS RAMMSTEIN TEE",
+    category: "Tshirts",
+    price: "$27.42",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3822597683/O1CN01PmKBRn26cs1VH2VRe_!!3822597683.jpg",
+    linkKakobuy: "https://ikako.vip/4vmvm",
+    linkUsfans: "https://usfans.com/product/2/vNuQAvMYV902O3rFn4ZPWgPJ7EaT-hasBJKZD4vb3dKq2tdW_PZVhg?ref=TX9V9N",
+    tag: "KJMADE",
+    rating: 5
+  
+  },
+  {
+    name: "NUMBER NINE WINGS HOODIE",
+    category: "Hoodies",
+    price: "$46.14",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01SKlsef1CUyn2WjGIx_!!2025450085.jpg",
+    linkKakobuy: "https://ikako.vip/tdv4r",
+    linkUsfans: "https://usfans.com/product/2/GTv2rVoXrzAH1l9TOiiygVS8PvLG1plR5TDCZJmEJu6Yd1b0sKtgK6A?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE HOODIE",
+    category: "Hoodies",
+    price: "$40.83",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01k7uYHE1CUymOrdtsb_!!2025450085.jpg",
+    linkKakobuy: "https://ikako.vip/bpu4z",
+    linkUsfans: "https://usfans.com/product/2/1008505432114?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 4
+  
+  },
+  {
+    name: "NUMBER NINE LAMBRETTA TEE",
+    category: "Tshirts",
+    price: "$21.1",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01Y5EDWB1CUynEf18Yz_!!2025450085.jpg",
+    linkKakobuy: "https://ikako.vip/zuch6",
+    linkUsfans: "https://usfans.com/product/2/Iib9a-aAxjgfp13CfOMRjGEbdE2xarhaaVwfpUKufp8bE_Cux3bV1fc?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 4
+  
+  },
+  {
+    name: "RAF SIMONS TEE",
+    category: "Tshirts",
+    price: "$25.75",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01QtjxvW1CUyoAHgBf9_!!2025450085.jpg",
+    linkKakobuy: "https://ikako.vip/439nn",
+    linkUsfans: "https://usfans.com/product/2/caPocD4BZVjTCRqY776OLsv6R7q3KUYBe4Z-7BKU1qC4MEXt6HDtY9I?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 4
+  
+  },
+  {
+    name: "BALENCIAGA SWEATPANTS",
+    category: "Pants",
+    price: "$31.75",
+    image: "https://si.geilicdn.com/wdseller1258568610-519000000199d30822420a210139_1170_1462.jpg",
+    linkKakobuy: "https://ikako.vip/sdrfan",
+    linkUsfans: "https://usfans.com/product/3/7571419818?ref=TX9V9N",
+    tag: "SATANMADE",
+    rating: 4
+  
+  },
+  {
+    name: "SUPREME X MARTIN ROSE HOODIE",
+    category: "Hoodies",
+    price: "$42.78",
+    image: "https://media.usfans.com/2026/06/26/173550/8319b899-4f16-4249-b16c-52b4fc83cc9c.jpg",
+    linkKakobuy: "https://ikako.vip/xj6zj",
+    linkUsfans: "https://usfans.com/product/2/tGPRwrnJqwHp_21sNtO6GL09HP8C-ndZqDLqG09RuGFHx37409VBDg?ref=TX9V9N",
+    tag: "MADMAN",
+    rating: 4
+  
+  },
+  {
+    name: "GIVENCHY TANK TOP",
+    category: "Tshirts",
+    price: "$15.65",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2220863143615/O1CN01gd5ZZR1cZiuW2dAMz_!!2220863143615.jpg",
+    linkKakobuy: "https://ikako.vip/aw8vj",
+    linkUsfans: "https://usfans.com/product/2/HiTEwtUXTUw6x7bERiIsrU-JhClXx7bLC5uVQook1Io7_dcSbwRXplQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "HYSTERIC GLAMOUR LONGSLEEVE",
+    category: "Tshirts",
+    price: "$23.65",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01wE1go41FEtiXfq8dK_!!2943390456.jpg",
+    linkKakobuy: "https://ikako.vip/d94uc",
+    linkUsfans: "https://usfans.com/product/2/dD5d_xrSIiERRhOU5chdASP5ktVFu_3y5rjGI7zt7KiJ6vScuIJYaZc?ref=TX9V9N",
+    tag: "LMYER",
+    rating: 4
+  
+  },
+  
   
 
 
@@ -5943,7 +5979,8 @@ const translations = {
     shoes: "Buty",
     tshirts: "Koszulki",
     hoodies: "Bluzy",
-    shorts: "Spodenki / Spodnie",
+    shorts: "Spodenki",
+    pants: "Spodnie",
     jackets: "Kurtki",
     underwear: "Bielizna",
     accesories: "accesories",
@@ -5976,7 +6013,8 @@ const translations = {
     shoes: "Shoes",
     tshirts: "T-shirts",
     hoodies: "Hoodies",
-    shorts: "Shorts / Pants",
+    shorts: "Shorts",
+    pants: "Pants",
     jackets: "Jackets",
     underwear: "Underwear",
     accesories: "accesories",
@@ -6010,6 +6048,7 @@ const categoryMapping = [
   { techName: "Underwear", translationKey: "underwear" },
   { techName: "Tshirts", translationKey: "tshirts" },
   { techName: "Shorts", translationKey: "shorts" },
+  { techName: "Pants", translationKey: "pants" },
   { techName: "Jackets", translationKey: "jackets" },
   { techName: "Belts", translationKey: "accesories" }
 ];
