@@ -5900,6 +5900,347 @@ const products = [
     rating: 4
   
   },
+   {
+    name: "AF1",
+    category: "Shoes",
+    price: "$22.32",
+    image: "https://si.geilicdn.com/wdseller1745861162-40b50000019ac0376d200a239846_1280_1296.jpg",
+    linkKakobuy: "https://ikako.vip/2xndf",
+    linkUsfans: "https://usfans.com/product/3/7780635847?ref=TX9V9N",
+    tag: "G",
+    rating: 4
+  
+  },
+  {
+    name: "BALENCIAGA DEFENDER",
+    category: "Shoes",
+    price: "$68.55",
+    image: "https://si.geilicdn.com/wdseller1268847658-5b6c00000187c5cc353f0a231447-unadjust_1170_1170.gif",
+    linkKakobuy: "https://ikako.vip/j8fr4",
+    linkUsfans: "https://usfans.com/product/3/6229942918?ref=TX9V9N",
+    tag: "XA",
+    rating: 5
+  
+  },
+   {
+    name: "HELLSTAR T-SHIRTS",
+    category: "Tshirts",
+    price: "$15.63",
+    image: "https://img.alicdn.com/bao/uploaded/i1/574102188/O1CN01rUCVnI1S29fWfzLM0_!!574102188.jpg",
+    linkKakobuy: "https://ikako.vip/ngp9z",
+    linkUsfans: "https://usfans.com/product/2/gBxLHeWXolaDISMCpt68DYbchnfn37VbEfpZK5d_D_nmDOU0p8STYA?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "HELLSTAR T-SHIRTS",
+    category: "Tshirts",
+    price: "$14.19",
+    image: "https://img.alicdn.com/imgextra/i1/2911353512/O1CN01qMfRsp1boXvg7dHy1_!!2911353512.jpg",
+    linkKakobuy: "https://ikako.vip/td56d",
+    linkUsfans: "https://usfans.com/product/2/MuRTihOTUxCSOQH7ihSPkPDDWqJHaoFUnSKQjPvPdoXtGo6pFkKd_g?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "YVL POLO SHIRT",
+    category: "Tshirts",
+    price: "$14.17",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2212643669335/O1CN01bKkLin2IpUJnpXyYL_!!2212643669335.jpg",
+    linkKakobuy: "https://ikako.vip/qpu9av",
+    linkUsfans: "https://usfans.com/product/2/cpddZLJ_Q5gzpn8G5TRITypJ_9xt0JP_FZU7TwjPSuisySH2E8IG4g?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 3
+  
+  },
+  {
+    name: "ADIDAS SUPERSTAR",
+    category: "Shoes",
+    price: "$25.51",
+    image: "https://si.geilicdn.com/open1733523732-1234478995-7a130000019374833ccb0a232357_1080_818.jpg",
+    linkKakobuy: "https://ikako.vip/p4grs",
+    linkUsfans: "https://usfans.com/product/3/7780551213?ref=TX9V9N",
+    tag: "WWTOP",
+    rating: 5
+  
+  },
+  {
+    name: "NIKE MIND 001",
+    category: "Shoes",
+    price: "$33.48",
+    image: "https://si.geilicdn.com/wdseller1745861162-185a0000019cd46b18290a2315ef_1206_1608.jpg",
+    linkKakobuy: "https://ikako.vip/8r9r78",
+    linkUsfans: "https://usfans.com/product/3/7783613742?ref=TX9V9N",
+    tag: "GX",
+    rating: 5
+  
+  },
+  {
+    name: "RANDOM PLAID SHORTS",
+    category: "Shorts",
+    price: "$15.79",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2687803572/O1CN01OR3uLL1cG1ssuR0cX_!!2687803572.jpg",
+    linkKakobuy: "https://ikako.vip/35qdm",
+    linkUsfans: "https://usfans.com/product/2/x5z5ZfHodxJu37TeWjRxlBFe3xOAe52qWl84aYyMrLA1oSTnh_Yl3W8?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "IHS LOGO TEE",
+    category: "Tshirts",
+    price: "$11.96",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2687803572/O1CN01XVY45Y1cG1t1qGXQf_!!2687803572.jpg",
+    linkKakobuy: "https://ikako.vip/hg2d5u",
+    linkUsfans: "https://usfans.com/product/2/7lJO5AOE5lehiTf0Z6R-1I_YLPXcQGj5ZZTN3NEAbUlMxZNCvi2quvk?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 4
+  
+  },
+  {
+    name: "TORN STARS TEE",
+    category: "Tshirts",
+    price: "$13.55",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2687803572/O1CN01I66eNJ1cG1tdyvwU7_!!2687803572.jpg",
+    linkKakobuy: "https://ikako.vip/5cgmu",
+    linkUsfans: "https://usfans.com/product/2/SlCHu3y4EIRKlGH-DB0pkyU_5Z0thV8evhoApkLqQBb9S2gRdNIgkI0?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 4
+  
+  },
+  {
+    name: "ONE CHANCE TEE",
+    category: "Tshirts",
+    price: "$17.40",
+    image: "https://si.geilicdn.com/wdseller1995625455-3e010000019ef3e29db80a23b54f_3025_3026.jpg",
+    linkKakobuy: "https://ikako.vip/u79ud",
+    linkUsfans: "https://usfans.com/product/3/7790607003?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 4
+  
+  },
+  {
+    name: "IHS JEANS",
+    category: "Pants",
+    price: "$36.60",
+    image: "https://si.geilicdn.com/wdseller1995625455-36930000019daa2bbe990a230246_3019_3021.jpg",
+    linkKakobuy: "https://ikako.vip/esazz",
+    linkUsfans: "https://usfans.com/product/3/7743253230?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 4
+  
+  },
+  {
+    name: "DRAMA SHORTS",
+    category: "Shorts",
+    price: "$14.21",
+    image: "https://media.usfans.com/2026/06/25/111344/1bc574e4-6556-4128-bd5d-4862c98d3015.jpg",
+    linkKakobuy: "https://ikako.vip/u67cg",
+    linkUsfans: "https://usfans.com/product/3/7475785394?ref=TX9V9N",
+    tag: "HOTDOG",
+    rating: 4
+  
+  },
+  {
+    name: "HYSTERIC GLAMOUR LONGSLEEVE",
+    category: "Tshirts",
+    price: "$23.63",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01wpCRZ71FEti7cu5DQ_!!2943390456.jpg",
+    linkKakobuy: "https://ikako.vip/83ra9",
+    linkUsfans: "https://usfans.com/product/2/N_H0mymUKEHGZPyvH5gXNTJzTs47FFaQ1OInr5pYEf6s05s1ReGefQ?ref=TX9V9N",
+    tag: "LMYER",
+    rating: 4
+  
+  },
+  {
+    name: "CHROME HEARTS TEE",
+    category: "Tshirts",
+    price: "$6.71",
+    image: "https://si.geilicdn.com/wdseller343709482-78920000016ae2bd57b80a20b7b9_1124_1124.jpg",
+    linkKakobuy: "https://ikako.vip/7m9du",
+    linkUsfans: "https://usfans.com/product/3/2786979731?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 3
+  
+  },
+  {
+    name: "AF1 CH X NOCTA",
+    category: "Shoes",
+    price: "$44.69",
+    image: "https://si.geilicdn.com/wdseller2075148751-39780000019eacd96add0a23b6ac_3025_3029.jpg",
+    linkKakobuy: "https://ikako.vip/mug7s",
+    linkUsfans: "https://usfans.com/product/3/7783109456?ref=TX9V9N",
+    tag: "GX",
+    rating: 5
+  
+  },
+  {
+    name: "AJ1 X TRAVIS",
+    category: "Shoes",
+    price: "$63",
+    image: "https://si.geilicdn.com/wdseller1924290571-2cc30000019eacb42f850a2301af_3025_3029.jpg",
+    linkKakobuy: "https://ikako.vip/g6ex5",
+    linkUsfans: "https://usfans.com/product/3/7783519222?ref=TX9V9N",
+    tag: "GX",
+    rating: 5
+  
+  },
+  {
+    name: "BAPE SOCKS",
+    category: "Underwear",
+    price: "$3.04",
+    image: "https://si.geilicdn.com/pcitem1944479080-5e680000019df2475e080a20e2c5_640_640.jpg",
+    linkKakobuy: "https://ikako.vip/ray2b",
+    linkUsfans: "https://usfans.com/product/3/7757117686?ref=TX9V9N",
+    tag: "BAYMAXSOCKS",
+    rating: 5
+  
+  },
+  {
+    name: "STUSSY SOCKS",
+    category: "Underwear",
+    price: "$2.88",
+    image: "https://si.geilicdn.com/open1847561709-1234478995-5eee0000019639653c5d0a8133b0_1276_1276.jpg",
+    linkKakobuy: "https://ikako.vip/zeunj",
+    linkUsfans: "https://usfans.com/product/3/7594584360?ref=TX9V9N",
+    tag: "BAYMAXSOCKS",
+    rating: 5
+  
+  },
+  {
+    name: "NIKE BALACLAVA MASK",
+    category: "Accesories",
+    price: "$5.91",
+    image: "https://si.geilicdn.com/pcitem1234071531-67a900000196ce8609650a2303ee_3024_4032.jpg",
+    linkKakobuy: "https://ikako.vip/kphat",
+    linkUsfans: "https://usfans.com/product/3/7469216286?ref=TX9V9N",
+    tag: "BAYMAXSOCKS",
+    rating: 5
+  
+  },
+  {
+    name: "CH BOXERS",
+    category: "Underwear",
+    price: "$8.78",
+    image: "https://si.geilicdn.com/pcitem1234071531-2fc50000019abb2cd8460a23057e-unadjust_1183_1090.png",
+    linkKakobuy: "https://ikako.vip/yjccvj",
+    linkUsfans: "https://usfans.com/product/3/7619095180?ref=TX9V9N",
+    tag: "BAYMAXSOCKS",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS BASIC TEE",
+    category: "Tshirts",
+    price: "$8.78",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01vFcN1H1qHJXs5FkhP_!!2219381645470-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/jsxej",
+    linkUsfans: "https://usfans.com/product/1/941480275348?ref=TX9V9N",
+    tag: "YISHAN",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS 1977 TEE",
+    category: "Tshirts",
+    price: "$10.39",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01PY2J1h1qHJYzyqmiZ_!!2219381645470-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/p8v3f",
+    linkUsfans: "https://usfans.com/product/1/942421158058?ref=TX9V9N",
+    tag: "YISHAN",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS 1977 SHORTS",
+    category: "Shorts",
+    price: "$11.98",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01Uk9yM71qHJZ0zAuee_!!2219381645470-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/3au5g",
+    linkUsfans: "https://usfans.com/product/1/945359112630?ref=TX9V9N",
+    tag: "YISHAN",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS METALIC SHORTS",
+    category: "Shorts",
+    price: "$12.78",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01z3vkCG1qHJbEVe8BL_!!2219381645470-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/7k4pqp",
+    linkUsfans: "https://usfans.com/product/1/979674685920?ref=TX9V9N",
+    tag: "YISHAN",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS 22SS SHORTS",
+    category: "Shorts",
+    price: "$11.66",
+    image: "https://si.geilicdn.com/pcitem2077227601-113a0000019ea6ce7d670a22d1a4_800_800.jpg",
+    linkKakobuy: "https://ikako.vip/97u7w",
+    linkUsfans: "https://usfans.com/product/3/7784932792?ref=TX9V9N",
+    tag: "YISHAN",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS FW23 SHORTS",
+    category: "Shorts",
+    price: "$12.78",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01VZLlum1qHJXzTVaPC_!!2219381645470-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/2t9sb",
+    linkUsfans: "https://usfans.com/product/1/944187286551?ref=TX9V9N",
+    tag: "YISHAN",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS 1977 HOODIE",
+    category: "Hoodies",
+    price: "$20.77",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01h6khbf1qHJY0gTJYt_!!2219381645470-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/bpdqj",
+    linkUsfans: "https://usfans.com/product/1/945366056278?ref=TX9V9N",
+    tag: "YISHAN",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS 25AS HOODIE",
+    category: "Hoodies",
+    price: "$23.16",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01KMVyJc1qHJXnitImg_!!2219381645470-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/ut9d3e",
+    linkUsfans: "https://usfans.com/product/1/941905898535?ref=TX9V9N",
+    tag: "YISHAN",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS 25SP PANTS",
+    category: "Pants",
+    price: "$21.60",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01HU4DxL1qHJa3An3WW_!!2219381645470-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/gez8d",
+    linkUsfans: "https://usfans.com/product/1/989878322094?ref=TX9V9N",
+    tag: "YISHAN",
+    rating: 5
+  
+  },
+  {
+    name: "ESSENTIALS 22SS PANTS",
+    category: "Pants",
+    price: "$17.10",
+    image: "https://si.geilicdn.com/pcitem2077227601-4d510000019ea6ce83120a210256-unadjust_800_800.png",
+    linkKakobuy: "https://ikako.vip/23mfufd",
+    linkUsfans: "https://usfans.com/product/3/7784894562?ref=TX9V9N",
+    tag: "YISHAN",
+    rating: 5
+  
+  },
   
   
 
