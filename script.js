@@ -3150,7 +3150,7 @@ const products = [
     image: "https://si.geilicdn.com/pcitem902012511577-61820000019bd02b3acc0a207569_1179_1070.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1789988531.v.weidian.com%2Fitem.html%3FitemID%3D7665676161&affcode=archivee",
     linkUsfans: "https://usfans.com/product/3/7665676161?ref=TX9V9N",
-    tag: "S2 / BEST",
+    tag: "S2",
     rating: 5
   
   },
@@ -4197,7 +4197,7 @@ const products = [
     price: "$63 - 72",
     image: "https://si.geilicdn.com/wdseller1505219366-0c5a00000198343b658f0a2396f4_960_961.jpg",
     linkKakobuy: "https://ikako.vip/zn5kr",
-    linkUsfans: "https://usfans.com/product/3/7564030719?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7780606117?ref=TX9V9N",
     tag: "PK 4.0/LJR",
     rating: 5
   
@@ -5728,7 +5728,7 @@ const products = [
     name: "NIKE X NOCTA TSHIRTS",
     category: "Tshirts",
     price: "$7.99",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01ezewBU28s6R8EPv35_!!2219930187987-0-cib.jpg",
+    image: "https://media.usfans.com/2026/07/04/131643/8d6319c3-e7de-4536-8b04-774a9868f8de.jpg",
     linkKakobuy: "https://ikako.vip/rbfng",
     linkUsfans: "https://usfans.com/product/1/934169404988?ref=TX9V9N",
     tag: "BUDGET",
@@ -5739,7 +5739,7 @@ const products = [
     name: "CDG LONGSLEEVE",
     category: "Tshirts",
     price: "$9.30",
-    image: "https://cbu01.alicdn.com/img/ibank/20289271137_702400057.jpg",
+    image: "https://media.usfans.com/2026/06/27/135011/4e43d2dd-4d2b-4b64-8dac-c07abe28bbb4.jpg",
     linkKakobuy: "https://ikako.vip/scscx",
     linkUsfans: "https://usfans.com/product/1/776834980271?ref=TX9V9N",
     tag: "BUDGET",
@@ -5973,7 +5973,7 @@ const products = [
     image: "https://si.geilicdn.com/wdseller1745861162-185a0000019cd46b18290a2315ef_1206_1608.jpg",
     linkKakobuy: "https://ikako.vip/8r9r78",
     linkUsfans: "https://usfans.com/product/3/7783613742?ref=TX9V9N",
-    tag: "GX",
+    tag: "GX / BEST",
     rating: 5
   
   },
@@ -6135,7 +6135,7 @@ const products = [
     name: "ESSENTIALS BASIC TEE",
     category: "Tshirts",
     price: "$8.78",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01vFcN1H1qHJXs5FkhP_!!2219381645470-0-cib.jpg",
+    image: "https://media.usfans.com/2026/06/08/113932/c24fb5e5-502b-4aac-8dee-4e9e7e894c46.jpg",
     linkKakobuy: "https://ikako.vip/jsxej",
     linkUsfans: "https://usfans.com/product/1/941480275348?ref=TX9V9N",
     tag: "YISHAN",
@@ -6146,7 +6146,7 @@ const products = [
     name: "ESSENTIALS 1977 TEE",
     category: "Tshirts",
     price: "$10.39",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01PY2J1h1qHJYzyqmiZ_!!2219381645470-0-cib.jpg",
+    image: "https://media.usfans.com/2026/06/10/205255/d4ce280d-1fc4-4270-a8a7-b4353e2ffb52.jpg",
     linkKakobuy: "https://ikako.vip/p8v3f",
     linkUsfans: "https://usfans.com/product/1/942421158058?ref=TX9V9N",
     tag: "YISHAN",
@@ -6157,7 +6157,7 @@ const products = [
     name: "ESSENTIALS 1977 SHORTS",
     category: "Shorts",
     price: "$11.98",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01Uk9yM71qHJZ0zAuee_!!2219381645470-0-cib.jpg",
+    image: "https://media.usfans.com/2026/06/26/140012/b3c435c8-5790-435e-8a82-7fa3f925a0ea.jpg",
     linkKakobuy: "https://ikako.vip/3au5g",
     linkUsfans: "https://usfans.com/product/1/945359112630?ref=TX9V9N",
     tag: "YISHAN",
@@ -6168,7 +6168,7 @@ const products = [
     name: "ESSENTIALS METALIC SHORTS",
     category: "Shorts",
     price: "$12.78",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01z3vkCG1qHJbEVe8BL_!!2219381645470-0-cib.jpg",
+    image: "https://media.usfans.com/2026/07/04/175234/e613655d-544c-4342-99b3-7f0319823fcf.jpg",
     linkKakobuy: "https://ikako.vip/7k4pqp",
     linkUsfans: "https://usfans.com/product/1/979674685920?ref=TX9V9N",
     tag: "YISHAN",
@@ -6190,7 +6190,7 @@ const products = [
     name: "ESSENTIALS FW23 SHORTS",
     category: "Shorts",
     price: "$12.78",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01VZLlum1qHJXzTVaPC_!!2219381645470-0-cib.jpg",
+    image: "https://media.usfans.com/2026/05/30/095138/f2a5e65d-c0c1-4cd6-8a49-5281c271982f.jpg",
     linkKakobuy: "https://ikako.vip/2t9sb",
     linkUsfans: "https://usfans.com/product/1/944187286551?ref=TX9V9N",
     tag: "YISHAN",
@@ -6201,7 +6201,7 @@ const products = [
     name: "ESSENTIALS 1977 HOODIE",
     category: "Hoodies",
     price: "$20.77",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01h6khbf1qHJY0gTJYt_!!2219381645470-0-cib.jpg",
+    image: "https://media.usfans.com/2026/06/26/093736/0ada5b27-ea68-4cb3-94d0-f1cd4854bddc.jpg",
     linkKakobuy: "https://ikako.vip/bpdqj",
     linkUsfans: "https://usfans.com/product/1/945366056278?ref=TX9V9N",
     tag: "YISHAN",
@@ -6212,7 +6212,7 @@ const products = [
     name: "ESSENTIALS 25AS HOODIE",
     category: "Hoodies",
     price: "$23.16",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01KMVyJc1qHJXnitImg_!!2219381645470-0-cib.jpg",
+    image: "https://media.usfans.com/2026/06/14/134839/a7cb298a-2232-4cf0-bc8f-977dc44af396.jpg",
     linkKakobuy: "https://ikako.vip/ut9d3e",
     linkUsfans: "https://usfans.com/product/1/941905898535?ref=TX9V9N",
     tag: "YISHAN",
@@ -6223,7 +6223,7 @@ const products = [
     name: "ESSENTIALS 25SP PANTS",
     category: "Pants",
     price: "$21.60",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01HU4DxL1qHJa3An3WW_!!2219381645470-0-cib.jpg",
+    image: "https://media.usfans.com/2026/06/17/205733/d944fc74-1309-4b9d-9c1a-ee40d680aa3a.jpg",
     linkKakobuy: "https://ikako.vip/gez8d",
     linkUsfans: "https://usfans.com/product/1/989878322094?ref=TX9V9N",
     tag: "YISHAN",
@@ -6241,6 +6241,293 @@ const products = [
     rating: 5
   
   },
+  {
+    name: "UNDERCOVER 13AW BACKPACK",
+    category: "accesories",
+    price: "$63.77",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2702114446/O1CN01mrcgiR1iiJwfboOsB_!!2702114446.jpg",
+    linkKakobuy: "https://ikako.vip/9zhag",
+    linkUsfans: "https://usfans.com/product/2/rc-ZM3IvF86JpqxNJjr27A18EDCjDNksqv_YQ4r-_lExO1AT_PyUBw?ref=TX9V9N",
+    tag: "LUFU",
+    rating: 5
+  
+  },
+  {
+    name: "SUPREME LEOPARD BACKPACK",
+    category: "accesories",
+    price: "$27.01",
+    image: "https://media.usfans.com/2026/06/21/095541/20458839-19d8-4fb7-991a-77d6fa37dbdf.jpg",
+    linkKakobuy: "https://ikako.vip/pecmm",
+    linkUsfans: "https://usfans.com/product/2/HFOTg0uzbd-H9mtSSofdwKyxrStX2BymygYJe4JqEKOVbp1U7KE1Tg?ref=TX9V9N",
+    tag: "LUFU",
+    rating: 5
+  
+  },
+  {
+    name: "PRADA CUPS",
+    category: "Shoes",
+    price: "$55.93",
+    image: "https://si.geilicdn.com/wdseller1845163825-7af30000019608ea51530a20e284_1080_1082.jpg",
+    linkKakobuy: "https://ikako.vip/g35tw",
+    linkUsfans: "https://usfans.com/product/3/7610013503?ref=TX9V9N",
+    tag: "GZ / BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "BOTTEGA VENETTA",
+    category: "Shoes",
+    price: "$49.60",
+    image: "https://si.geilicdn.com/pcitem1845163825-2e780000019263f44a4b0a22d172_1080_1080.jpg",
+    linkKakobuy: "https://ikako.vip/vebg3",
+    linkUsfans: "https://usfans.com/product/3/7611429397?ref=TX9V9N",
+    tag: "M",
+    rating: 4
+  
+  },
+  {
+    name: "BIRKENSTOCK",
+    category: "Shoes",
+    price: "$27.20",
+    image: "https://si.geilicdn.com/pcitem902046947791-725e0000019d54b43c0f0a231177_1440_1440.jpg",
+    linkKakobuy: "https://ikako.vip/ra82v",
+    linkUsfans: "https://usfans.com/product/3/7611437571?ref=TX9V9N",
+    tag: "GX 2.0",
+    rating: 4
+  
+  },
+  {
+    name: "SAUCONY PROGRID",
+    category: "Shoes",
+    price: "$35.16",
+    image: "https://si.geilicdn.com/wdseller2074610362-4cb00000019ed1e2a5510a231177_1440_1440.jpg",
+    linkKakobuy: "https://ikako.vip/syadc",
+    linkUsfans: "https://usfans.com/product/3/7789738584?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "DIOR B30",
+    category: "Shoes",
+    price: "$49.60",
+    image: "https://si.geilicdn.com/wdseller1845163825-62fa0000019479242a090a22d58f_1440_1440.jpg",
+    linkKakobuy: "https://ikako.vip/9qunq",
+    linkUsfans: "https://usfans.com/product/3/7617091609?ref=TX9V9N",
+    tag: "ZC / BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "DIOR B30",
+    category: "Shoes",
+    price: "$100.70",
+    image: "https://media.usfans.com/2026/06/27/175147/ad20ad7b-39bb-42e7-8db3-2c039f240899.jpg",
+    linkKakobuy: "https://ikako.vip/kc7js",
+    linkUsfans: "https://usfans.com/product/2/86Q4FF6PICS0EAfeyqkSqboSNCCmN5wt9YtrdfLyOgciJ2A0k8WW9A?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  
+  },
+  {
+    name: "DIOR B22",
+    category: "Shoes",
+    price: "$136",
+    image: "https://media.usfans.com/2026/06/15/193711/9971b099-1117-4ebb-8661-34e2994ad577.jpg",
+    linkKakobuy: "https://ikako.vip/xnudu",
+    linkUsfans: "https://usfans.com/product/2/HY8KDuRfsTs1W0SnMpa_OTDR5ubGas90uqrAet_fdwEHEf9h1aQWEg?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  
+  },
+  {
+    name: "DIOR B9",
+    category: "Shoes",
+    price: "$95.60",
+    image: "https://si.geilicdn.com/wdseller1747999085-779c0000019939c820930a23010f_3024_3029.jpg",
+    linkKakobuy: "https://ikako.vip/gn99n",
+    linkUsfans: "https://usfans.com/product/3/7263529034?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  
+  },
+  {
+    name: "DIOR B23",
+    category: "Shoes",
+    price: "$84.7",
+    image: "https://si.geilicdn.com/wdseller500815599-4a4c0000019da9ec089d0a21146b_1170_1172.jpg",
+    linkKakobuy: "https://ikako.vip/y7jk6",
+    linkUsfans: "https://usfans.com/product/3/7743262410?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  
+  },
+  {
+    name: "SALOMON XT6",
+    category: "Shoes",
+    price: "$43.15",
+    image: "https://media.usfans.com/2026/07/02/144946/2381d797-b80f-4e1f-919c-018ce9442624.jpg",
+    linkKakobuy: "https://ikako.vip/2n9kwh",
+    linkUsfans: "https://usfans.com/product/3/7613212605?ref=TX9V9N",
+    tag: "GX",
+    rating: 5
+  
+  },
+  {
+    name: "RALPH LAUREN SHORTS",
+    category: "Shorts",
+    price: "$19.02",
+    image: "https://media.usfans.com/2026/07/02/132200/9f0d4c6f-aa90-4177-b543-1263c48b8a8c.jpg",
+    linkKakobuy: "https://ikako.vip/cbaq4",
+    linkUsfans: "https://usfans.com/product/3/7717354619?ref=TX9V9N",
+    tag: "NEWDP",
+    rating: 4
+  
+  },
+  {
+    name: "RALPH LAUREN BEACH SHORTS",
+    category: "Shorts",
+    price: "$15.90",
+    image: "https://media.usfans.com/2026/06/26/171829/00da2c2d-5aa0-4ae7-902a-7ab05e9efcb7.jpg",
+    linkKakobuy: "https://ikako.vip/ft5gx",
+    linkUsfans: "https://usfans.com/product/3/7684066645?ref=TX9V9N",
+    tag: "NEWDP",
+    rating: 4
+  
+  },
+  {
+    name: "RALPH LAUREN SHORTS",
+    category: "Shorts",
+    price: "$19.02",
+    image: "https://media.usfans.com/2026/07/03/143715/0d69b9da-8377-43e8-9538-3409e8ab4453.jpg",
+    linkKakobuy: "https://ikako.vip/fy4b4",
+    linkUsfans: "https://usfans.com/product/3/7595172109?ref=TX9V9N",
+    tag: "NEWDP",
+    rating: 4
+  
+  },
+   {
+    name: "STUSSY SHORTS",
+    category: "Shorts",
+    price: "$12.63",
+    image: "https://media.usfans.com/2026/06/13/115251/ca8e8f9c-1b76-4c1b-b4c6-84e5ffc17846.jpg",
+    linkKakobuy: "https://ikako.vip/rpabw",
+    linkUsfans: "https://usfans.com/product/3/7595162349?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "STUSSY HOODIE",
+    category: "Hoodies",
+    price: "$27.01",
+    image: "https://media.usfans.com/2026/05/17/104231/a1c884a2-597d-473a-9d76-b58759716a53.jpg",
+    linkKakobuy: "https://ikako.vip/qm6jw",
+    linkUsfans: "https://usfans.com/product/3/7291972127?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "NEW BALANCE 2002",
+    category: "Shoes",
+    price: "$41.55",
+    image: "https://si.geilicdn.com/pcitem1845163825-09610000019726e207370a8133cc_1440_1440.jpg",
+    linkKakobuy: "https://ikako.vip/rzqp6",
+    linkUsfans: "https://usfans.com/product/3/7614433356?ref=TX9V9N",
+    tag: "ZC / BEST",
+    rating: 4
+  
+  },
+  {
+    name: "NB 2002 LINK 1",
+    category: "Shoes",
+    price: "$35.16",
+    image: "https://si.geilicdn.com/pcitem901870080011-1d01000001984d7ed7b50a231316_1440_1440.jpg",
+    linkKakobuy: "https://ikako.vip/m64kg",
+    linkUsfans: "https://usfans.com/product/3/7611477107?ref=TX9V9N",
+    tag: "M",
+    rating: 5
+  
+  },
+  {
+    name: "NB 2002 LINK 2",
+    category: "Shoes",
+    price: "$35.16",
+    image: "https://si.geilicdn.com/pcitem901870080011-5b85000001923f5858ec0a23038e_1074_1074.jpg",
+    linkKakobuy: "https://ikako.vip/4t8w5",
+    linkUsfans: "https://usfans.com/product/3/7614453194?ref=TX9V9N",
+    tag: "M",
+    rating: 5
+  
+  },
+  {
+    name: "VETEMENTS BOMBER",
+    category: "Jackets",
+    price: "$109.95",
+    image: "https://img.alicdn.com/bao/uploaded/i3/3822597683/O1CN01EC7ZOA26cs5MXT5CG_!!3822597683.jpg",
+    linkKakobuy: "https://ikako.vip/yxq2t",
+    linkUsfans: "https://usfans.com/product/2/LZ8aGhI-z9vpfl-f884WiLAeP6FGGYbcna7m-F7FtAELDFLb3Xu56Q?ref=TX9V9N",
+    tag: "KJMADE",
+    rating: 5
+  
+  },
+   {
+    name: "VETEMENTS COKE HOODIE",
+    category: "Hoodies",
+    price: "$54.18",
+    image: "https://img.alicdn.com/bao/uploaded/i3/3822597683/O1CN01YPkVdh26cs41QfXZV_!!3822597683.jpg",
+    linkKakobuy: "https://ikako.vip/ftdk3",
+    linkUsfans: "https://usfans.com/product/2/yyqjGR8H1gGTCEsdnaMZIGzKJXR9KSseyD4cY_JeZ8Vl_8vZY7kUig?ref=TX9V9N",
+    tag: "KJMADE",
+    rating: 5
+  
+  },
+  {
+    name: "VETEMENTS VITKAC HOODIE",
+    category: "Hoodies",
+    price: "$58.65",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3822597683/O1CN010hjbvg26cs419JjXR_!!3822597683.jpg",
+    linkKakobuy: "https://ikako.vip/c5dbe",
+    linkUsfans: "https://usfans.com/product/2/WVs586X9Y58CYGBM_55MoFSrt8ilor1_DQzD0EzuGSjGVh236V-OAg?ref=TX9V9N",
+    tag: "KJMADE",
+    rating: 5
+  
+  },
+  {
+    name: "VETEMENTS RAMMSTEIN HOODIE",
+    category: "Hoodies",
+    price: "$61.85",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3822597683/O1CN01nYyq1r26crzwyLtmP_!!3822597683.jpg",
+    linkKakobuy: "https://ikako.vip/c4j4q",
+    linkUsfans: "https://usfans.com/product/2/D6d9smEXBvDVO-Vjh8DaHPLCgmEKrrQGtVO_SIA08zKw909ZwBv4lQ?ref=TX9V9N",
+    tag: "KJMADE",
+    rating: 5
+  
+  },
+  {
+    name: "VETEMENTS POLIZEI HOODIE",
+    category: "Hoodies",
+    price: "$54.18",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3822597683/O1CN01cUn2Qh26cs40qaXnm_!!3822597683.jpg",
+    linkKakobuy: "https://ikako.vip/x3p9p",
+    linkUsfans: "https://usfans.com/product/2/CtKNJZPTn-nmxd2SLQ_K9evv3C7FX7kd32XljWBadivrcf7wCNiT0g?ref=TX9V9N",
+    tag: "KJMADE",
+    rating: 5
+  
+  },
+   {
+    name: "VETEMENTS HOODIE HOODIE",
+    category: "Hoodies",
+    price: "$63.77",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN01AJ6x5U26crzeZubBw_!!3822597683.jpg",
+    linkKakobuy: "https://ikako.vip/52de8",
+    linkUsfans: "https://usfans.com/product/2/dYoRa62aOEQInlPwtHQWvhO1a27EIZbifVwREIz_nVLLhNSORIiHzA?ref=TX9V9N",
+    tag: "KJMADE",
+    rating: 5
+  
+  },
+  
   
   
 
