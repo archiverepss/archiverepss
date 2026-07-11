@@ -7,10 +7,9 @@
   <meta name="description" content="Najlepszy spreadsheet z produktami - ArchiveRepss">
   <meta name="theme-color" content="#0b0b0c">
 
-   <!-- Favicon -->
+  <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b0b0c'/%3E%3Ctext x='50' y='68' font-family='Inter, sans-serif' font-size='52' font-weight='800' text-anchor='middle' fill='%23c9a84c'%3EAR%3C/text%3E%3C/svg%3E">
   <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b0b0c'/%3E%3Ctext x='50' y='68' font-family='Inter, sans-serif' font-size='52' font-weight='800' text-anchor='middle' fill='%23c9a84c'%3EAR%3C/text%3E%3C/svg%3E">
-  
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,8 +37,11 @@
         <a href="#" class="nav-link active" id="navSpreadsheet">
           <span>📄 Spreadsheet</span>
         </a>
+        <a href="#" class="nav-link" id="navLastFinds">
+          <span>🔥 Last Finds</span>
+        </a>
         <a href="#" class="nav-link" id="navSellers">
-          <span>🏪 Sprzedawcy</span>
+          <span>🔍 Sprzedawcy</span>
         </a>
         <a href="#" class="nav-link" id="navQC">
           <span>🔍 Sprawdź QC</span>
@@ -69,7 +71,7 @@
       <p id="heroSubtitle">Przeglądaj naszą kolekcję najlepszych linków.</p>
     </header>
 
-    <!-- ====== WIDOK PRODUKTÓW ====== -->
+    <!-- ====== WIDOK SPREADSHEET ====== -->
     <div id="productsView">
       <section class="filter-controls-section">
         <div class="search-filter-wrapper">
@@ -96,8 +98,8 @@
           <div class="filter-group">
             <label id="lblPriceFilter">Filtr cenowy (PLN)</label>
             <div class="price-inputs">
-              <input type="number" id="priceMin" placeholder="Min PLN" oninput="applyFiltersAndSort()" />
-              <input type="number" id="priceMax" placeholder="Max PLN" oninput="applyFiltersAndSort()" />
+              <input type="number" id="priceMin" placeholder="Min" oninput="applyFiltersAndSort()" />
+              <input type="number" id="priceMax" placeholder="Max" oninput="applyFiltersAndSort()" />
             </div>
           </div>
           <button class="clear-filters-btn" id="clearFilterBtn" onclick="clearPriceFilters()">Wyczyść filtr</button>
@@ -115,31 +117,43 @@
       </section>
     </div>
 
-    <!-- ====== WIDOK SPRZEDAWCÓW ====== -->
-    <div id="sellersView" style="display: none;">
-      <section class="sellers-hero">
-      </section>
-
-      <section class="sellers-grid-section">
-        <div class="sellers-filter-bar">
-          <div class="sellers-search-input">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner">
-              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-            </svg>
-            <input type="text" id="sellerSearch" placeholder="Szukaj sprzedawców..." oninput="filterSellers()" />
-          </div>
-          <div class="sellers-filter-chips">
-            <button class="seller-filter-chip active" data-cat="all" onclick="filterSellersByCategory('all')">Wszyscy</button>
-            <button class="seller-filter-chip" data-cat="clothing" onclick="filterSellersByCategory('clothing')">Odzież</button>
-            <button class="seller-filter-chip" data-cat="shoes" onclick="filterSellersByCategory('shoes')">Buty</button>
-            <button class="seller-filter-chip" data-cat="luxury" onclick="filterSellersByCategory('luxury')">Luxury</button>
-          </div>
+  <!-- ====== WIDOK LAST FINDS (SLIDER) ====== -->
+<div id="lastFindsView" style="display: none;">
+  <section class="lastfinds-slider-section">
+    <div class="slider-container">
+      <button class="slider-arrow slider-arrow-left" id="sliderPrev">‹</button>
+      <div class="slider-wrapper">
+        <div class="slider-track" id="sliderTrack">
+          <!-- Produkty będą generowane przez JavaScript -->
         </div>
+      </div>
+      <button class="slider-arrow slider-arrow-right" id="sliderNext">›</button>
+    </div>
+    <div class="slider-dots" id="sliderDots"></div>
+  </section>
+</div>
 
-        <div id="sellersGrid" class="sellers-grid"></div>
-      </section>
+    <!-- ====== WIDOK SPRZEDAWCÓW ====== -->
+<div id="sellersView" style="display: none;">
+  <section class="sellers-grid-section">
+    <div class="sellers-filter-bar">
+      <div class="sellers-search-input">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input type="text" id="sellerSearch" placeholder="Szukaj sprzedawców..." oninput="filterSellers()" />
+      </div>
+      <div class="sellers-filter-chips">
+        <button class="seller-filter-chip active" data-cat="all" onclick="filterSellersByCategory('all')">Wszyscy</button>
+        <button class="seller-filter-chip" data-cat="clothing" onclick="filterSellersByCategory('clothing')">Odzież</button>
+        <button class="seller-filter-chip" data-cat="shoes" onclick="filterSellersByCategory('shoes')">Buty</button>
+        <button class="seller-filter-chip" data-cat="luxury" onclick="filterSellersByCategory('luxury')">Luxury</button>
+      </div>
     </div>
 
+    <div id="sellersGrid" class="sellers-grid"></div>
+  </section>
+</div>
   </main>
 
   <!-- ====== POPUP WYBORU JĘZYKA ====== -->
