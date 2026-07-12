@@ -6834,6 +6834,16 @@ const products = [
     tag: "RANDOM / BUDGET",
     rating: 5
   },
+  {
+    name: "KAPITEL SURF HOODIES",
+    category: "Hoodies",
+    price: "$48.75",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01AmRE3y1CUylvX2gwT_!!2025450085.jpg",
+    linkKakobuy: "https://ikako.vip/nrzc5",
+    linkUsfans: "https://usfans.com/product/2/3wB5k1nr8DDenvB_ewwpdw_TyKF5ies4kVL1wdLWBgshuOkumz3NVA?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
 ];
 
 // ============================================
