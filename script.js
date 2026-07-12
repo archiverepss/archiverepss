@@ -6854,6 +6854,16 @@ const products = [
     tag: "HONGSHENG",
     rating: 5
   },
+  {
+    name: "NE NET HOODIE",
+    category: "Hoodies",
+    price: "$20",
+    image: "https://img.alicdn.com/bao/uploaded/i2/787254007/O1CN01RkRP2Y1fTFuWHMK2I_!!787254007.png",
+    linkKakobuy: "https://ikako.vip/742mk",
+    linkUsfans: "https://usfans.com/product/2/g5QimVpAX5nwPbUdTkj_JNkyLytYjQE4S6GxShjmACnzAiz3nNy6CA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
