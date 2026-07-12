@@ -6844,6 +6844,16 @@ const products = [
     tag: "HONGSHENG",
     rating: 5
   },
+  {
+    name: "NUMBER NINE MICKEY HOODIE",
+    category: "Hoodies",
+    price: "$40.43",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01R6ASXf1CUykxlROaZ_!!2025450085.jpg",
+    linkKakobuy: "https://ikako.vip/cpkex",
+    linkUsfans: "https://usfans.com/product/2/iYcyMLG3POCMBidyqugVMtJAdKo-eHqbAWYGrPrtWuJBu-qfRk1u0A?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
 ];
 
 // ============================================
