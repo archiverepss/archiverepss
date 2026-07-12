@@ -6794,6 +6794,16 @@ const products = [
     tag: "SQUIRTLE",
     rating: 5
   },
+  {
+    name: "BALENCIAGA SHORTS",
+    category: "Shorts",
+    price: "$22.50",
+    image: "https://si.geilicdn.com/wdseller1405292126-77ba00000193c4d808390a23047e_1290_1219.jpg",
+    linkKakobuy: "https://ikako.vip/9nkuj",
+    linkUsfans: "https://usfans.com/product/3/7786255704?ref=TX9V9N",
+    tag: "SQUIRTLE",
+    rating: 5
+  },
 ];
 
 // ============================================
