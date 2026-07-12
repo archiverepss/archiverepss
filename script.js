@@ -6774,6 +6774,16 @@ const products = [
     tag: "SQUIRTLE",
     rating: 5
   },
+  {
+    name: "CHROME HEARTS LONGSLEEVE",
+    category: "Tshirts",
+    price: "$25.76",
+    image: "https://si.geilicdn.com/wdseller1405292126-4b3c000001985f8089250a23c286_2560_1934.jpg",
+    linkKakobuy: "https://ikako.vip/v25g7",
+    linkUsfans: "https://usfans.com/product/3/7786208490?ref=TX9V9N",
+    tag: "SQUIRTLE",
+    rating: 5
+  },
 ];
 
 // ============================================
