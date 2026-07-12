@@ -6764,6 +6764,16 @@ const products = [
   
  
   
+  {
+    name: "BALENCIAGA X UA SHORTS",
+    category: "Shorts",
+    price: "$24.13",
+    image: "https://si.geilicdn.com/wdseller1405292126-3a04000001978dce998a0a2102b1_1290_1197.jpg",
+    linkKakobuy: "",
+    linkUsfans: "https://usfans.com/product/3/7786198628?ref=TX9V9N",
+    tag: "SQUIRTLE",
+    rating: 5
+  },
 ];
 
 // ============================================
