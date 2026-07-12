@@ -6814,6 +6814,16 @@ const products = [
     tag: "SQUIRTLE",
     rating: 5
   },
+  {
+    name: "VINTAGE CH HOODIE",
+    category: "Hoodies",
+    price: "$51",
+    image: "https://si.geilicdn.com/pcitem2008188646-21c00000019b738810f80a23057e_1200_1600.jpg",
+    linkKakobuy: "https://ikako.vip/eqd7r",
+    linkUsfans: "https://usfans.com/product/3/7629374909?ref=TX9V9N",
+    tag: "ARCHIVED",
+    rating: 5
+  },
 ];
 
 // ============================================
