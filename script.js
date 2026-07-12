@@ -6599,11 +6599,165 @@ const products = [
   {
     name: "LOVELAST TEE",
     category: "Tshirts",
-    price: "11.39",
+    price: "$11.39",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01GqdGYY2IpUH9AlK85_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/sud3k",
     linkUsfans: "https://usfans.com/product/2/Myp3_7QAJc2c-C6y-DGXwQHtXu2ez20QhWy4DIZurl4GK3yAEe-y0A?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "MAYBACH SUNGLASSES",
+    category: "Accesories",
+    price: "$5.29",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01CnSQRZ1vHq2QHlEB8_!!2218760966148-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/frk2vk",
+    linkUsfans: "https://usfans.com/product/1/870678623599?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 4
+  
+  },
+  {
+    name: "ALEXANDER WANG TEE",
+    category: "Tshirts",
+    price: "$25.76",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2380236052/O1CN01Q49LVu1uZs7R0ALE7_!!2380236052.jpg",
+    linkKakobuy: "https://usfans.com/product/2/Tgijc9ANSfG1SRs7Tp0Wy4t6bKUepdTXVXxhpA1r9klwmICEtcpBN_Q?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/Tgijc9ANSfG1SRs7Tp0Wy4t6bKUepdTXVXxhpA1r9klwmICEtcpBN_Q?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "ALEXANDER WANG TEE",
+    category: "Tshirts",
+    price: "$25.76",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2380236052/O1CN01oxQh9y1uZs7lvtjDh_!!2380236052.jpg",
+    linkKakobuy: "https://usfans.com/product/2/RvxSNVjCqoBRrBFE66ZZwx-dIRoLF3tnVU4tOBQcXKQCoEJVdhp0_pE?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/RvxSNVjCqoBRrBFE66ZZwx-dIRoLF3tnVU4tOBQcXKQCoEJVdhp0_pE?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "BALENCIAGA BEBE TEE",
+    category: "Tshirts",
+    price: "$21.03",
+    image: "https://media.usfans.com/2026/07/03/135632/09afc5c2-031d-4b96-a9f8-f07ec9765447.jpg",
+    linkKakobuy: "https://ikako.vip/vxzdb",
+    linkUsfans: "https://usfans.com/product/3/7404452915?ref=TX9V9N",
+    tag: "ASHMADE / BEST",
+    rating: 4
+  
+  },
+  {
+    name: "RICK OWENS SHORTS",
+    category: "Shorts",
+    price: "$29.18",
+    image: "https://si.geilicdn.com/wdseller1846720803-4641000001900536e4be0a23959c_640_640.jpg",
+    linkKakobuy: "https://ikako.vip/smdud",
+    linkUsfans: "https://usfans.com/product/3/7243654306?ref=TX9V9N",
+    tag: "ASHMADE / BEST",
+    rating: 4
+  
+  },
+  {
+    name: "VETEMENTS POLIZEI ZIP UP",
+    category: "Hoodies",
+    price: "$48.74",
+    image: "https://si.geilicdn.com/wdseller1846720803-114100000198a3cb0dfe0a81347d_1179_1959.jpg",
+    linkKakobuy: "https://ikako.vip/6td55",
+    linkUsfans: "https://usfans.com/product/3/7524607361?ref=TX9V9N",
+    tag: "ASHMADE",
+    rating: 4
+  
+  },
+  {
+    name: "RL SOCKS (3 PAIR)",
+    category: "Underwear",
+    price: "$5.71",
+    image: "https://si.geilicdn.com/open1847561709-1234478995-63430000019639937a5e0a23b491_1280_1280.jpg",
+    linkKakobuy: "https://ikako.vip/fyrwk",
+    linkUsfans: "https://usfans.com/product/3/7449109988?ref=TX9V9N",
+    tag: "BAYMAXSOCKS",
+    rating: 4
+  
+  },
+  {
+    name: "PALACE SOCKS",
+    category: "Underwear",
+    price: "$1.96",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3548429741/O1CN018P1etH2LpQxQff7DG_!!3548429741.jpg",
+    linkKakobuy: "https://usfans.com/product/2/d17SSF0QRHb2uNdiUFrNa9pB8nJ36_iCdkXbpamA9bj_IV5DvW9sWg?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/d17SSF0QRHb2uNdiUFrNa9pB8nJ36_iCdkXbpamA9bj_IV5DvW9sWg?ref=TX9V9N",
+    tag: "BAYMAXSOCKS",
+    rating: 4
+  
+  },
+  {
+    name: "HELLSTAR SOCKS",
+    category: "Underwear",
+    price: "$3.25",
+    image: "https://img.alicdn.com/bao/uploaded/i3/65389438/O1CN013E0TrA2Jaf95kM4G5_!!65389438.jpg",
+    linkKakobuy: "",
+    linkUsfans: "https://usfans.com/product/2/PyFZ8q0-Nlr2izvuoYcBtYmS6B1B0ageQebsIZ8jdO-qm1N6eZmEZA?ref=TX9V9N",
+    tag: "BAYMAXSOCKS",
+    rating: 4
+  
+  },
+  {
+    name: "CHROME HEARTS SOCKS",
+    category: "Underwear",
+    price: "$4.88",
+    image: "https://si.geilicdn.com/pcitem901541691039-6a5300000178cf24fbcd0a21c2a7_800_800.jpg",
+    linkKakobuy: "",
+    linkUsfans: "https://usfans.com/product/3/7615886986?ref=TX9V9N",
+    tag: "BAYMAXSOCKS",
+    rating: 4
+  
+  },
+  {
+    name: "RICK OWENS ABSTRACT",
+    category: "Shoes",
+    price: "$79.11",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2073165527/O1CN01A4XoJT1qhPxIMyFEf_!!2073165527.jpg",
+    linkKakobuy: "",
+    linkUsfans: "https://usfans.com/product/2/J4r9uqkNrr2TwK1YkrIBU1dkA_PyeeES4F_spiQB2fNwDQwapGisTw?ref=TX9V9N",
+    tag: "ROK / BEST",
+    rating: 4
+  
+  },
+  {
+    name: "RICK OWENS VANS",
+    category: "Shoes",
+    price: "$56.89",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2073165527/O1CN01tc3z221qhPwJH7aLk_!!2073165527.jpg",
+    linkKakobuy: "",
+    linkUsfans: "https://usfans.com/product/2/vyak_E-glKVaGmgCQySUZ79bs49WDuu8waSHlbm2pfXGkUi3bjIOVA?ref=TX9V9N",
+    tag: "ROK / BEST",
+    rating: 4
+  
+  },
+  {
+    name: "UNDERCOVER TEE",
+    category: "Tshirts",
+    price: "$11.25",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2652892586/O1CN017MSIGW1UyRMjfjrDX_!!2652892586.jpg",
+    linkKakobuy: "",
+    linkUsfans: "https://usfans.com/product/2/UShfJHH7oAK2rEIE41jM71Ts7Un9k8vwGBK9osv7cjlyWrY8HPYVPQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 4
+  
+  },
+  {
+    name: "HYSTERIC GLAMOUR TEE",
+    category: "Tshirts",
+    price: "$26",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01lIZ3qs1RR3d7Me3XK~crop,160,0,960,1280~_!!2126072107.jpg",
+    linkKakobuy: "",
+    linkUsfans: "https://usfans.com/product/2/xpCHkdkav8FLvjubSasmezmROnuH30y3v62h6qGmizMfgQJfWQJZzvY?ref=TX9V9N",
+    tag: "BDSS",
     rating: 4
   
   },
