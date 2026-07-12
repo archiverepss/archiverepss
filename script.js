@@ -6824,6 +6824,16 @@ const products = [
     tag: "ARCHIVED",
     rating: 5
   },
+  {
+    name: "VALLEY DREAMS HOODIES",
+    category: "Hoodies",
+    price: "$24.13",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2075710764/O1CN01eqUFCc1HVxgw5RfJz_!!2075710764.jpg",
+    linkKakobuy: "https://ikako.vip/5nqwp",
+    linkUsfans: "https://usfans.com/product/2/RWGhW_ulBR2_HEOTu7Mhh1bCA4dtODLZ61BiqBdLTvuLzNsBlPByuQ?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
