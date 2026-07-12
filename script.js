@@ -6784,6 +6784,16 @@ const products = [
     tag: "SQUIRTLE",
     rating: 5
   },
+  {
+    name: "CHROME HEARTS SHORTS",
+    category: "Shorts",
+    price: "$30.65",
+    image: "https://si.geilicdn.com/wdseller1405292126-4219000001992e33a1290a20e273_1290_1223.jpg",
+    linkKakobuy: "https://ikako.vip/9paad",
+    linkUsfans: "https://usfans.com/product/3/7786239962?ref=TX9V9N",
+    tag: "SQUIRTLE",
+    rating: 5
+  },
 ];
 
 // ============================================
