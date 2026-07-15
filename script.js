@@ -298,7 +298,7 @@ const products = [
     price: "$72",
     image: "https://img.alicdn.com/bao/uploaded/i3/2200736549757/O1CN01ZZcv0c2LwlVdmMKRt_!!2200736549757.jpg",
     linkKakobuy: "https://ikako.vip/hpcxu",
-    linkUsfans: "https://usfans.com/product/2/983029238996?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/aQhZNudnPCiAP4mXjNe791wyS-XILy3Ub5nDudCfagEmypmUSOoHAA?ref=TX9V9N",
     tag: "MADEBYSWAG",
     rating: 5
   },
