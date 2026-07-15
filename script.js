@@ -208,9 +208,9 @@ const products = [
     price: "$39",
     image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01tC9CQu1FEteE2U0KP_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/auvew",
-    linkUsfans: "https://usfans.com/product/2/900434795081?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/rprJgsbJC4teCLl0JKq3fO0VLpCdlqtRhR9rC72n8xtMXy5QpU12hg?ref=TX9V9N",
     tag: "LMYER",
-    rating: 4.5
+    rating: 5
   },
   {
     name: "RICK OWENS SHOES",
