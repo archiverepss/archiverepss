@@ -268,7 +268,7 @@ const products = [
     price: "$40",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01aWiY7m1FEthKJs5lq~crop,0,125,768,768~_!!2943390456.jpg_400x400q85.jpg_.webp",
     linkKakobuy: "https://ikako.vip/8qtac",
-    linkUsfans: "https://usfans.com/product/2/978531290245?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/h0KemRfLLFhQ0gZfL5r49XRTbSBPuVVtJd6e0vEfUNm1oeNG8qZALg?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
   },
