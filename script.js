@@ -798,7 +798,7 @@ const products = [
     price: "$69",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01rwzcst1RR3bu8hZy7_!!2126072107.png",
     linkKakobuy: "https://ikako.vip/zjvkm",
-    linkUsfans: "https://usfans.com/product/2/989002046259?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/otzCJrdrhucaA0CYRTY-GIBtsGq006LbIWdiUy8p--3cC21C_a-ZLw?ref=TX9V9N",
     tag: "BDSS",
     rating: 5
   },
