@@ -1438,7 +1438,7 @@ const products = [
     price: "$15.87",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01bCYjdF1FEtVrAiEHL_!!2943390456.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D645671108769&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/645671108769?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/nsBFyYzhRuI2EGOv5U7rMoK-0YivXjIlSSqUm_LOwUTMZL7MrtPshA?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
   },
