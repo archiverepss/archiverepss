@@ -3558,7 +3558,7 @@ const products = [
     price: "$20.78",
     image: "https://img.alicdn.com/bao/uploaded/i1/2214916689299/O1CN014S01jV2IZ04zhEr6o_!!2214916689299.jpg",
     linkKakobuy: "https://ikako.vip/tt8hz",
-    linkUsfans: "https://usfans.com/product/2/941166330233?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/AoIMW08rMDQaQLDC2O7LpIEVDyjRw7WolMoZBOpyTJJI8u14J8DMiA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
