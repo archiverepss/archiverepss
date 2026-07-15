@@ -918,7 +918,7 @@ const products = [
     price: "$41",
     image: "https://img.alicdn.com/bao/uploaded/i4/62314016/O1CN01acQlrm1fXNTge4elY_!!62314016.jpg",
     linkKakobuy: "https://ikako.vip/7a3v6",
-    linkUsfans: "https://usfans.com/product/2/575200851719?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/JeG1kP8TjnRhYASM6S7qJ_38h03289uo1_AHO7dvTwMwFYjXYSqEkw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
