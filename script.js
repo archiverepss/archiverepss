@@ -2,10 +2,7 @@
 // 🛍️ BAZA DANYCH PRODUKTÓW - DODAWAJ TUTAJ NOWE PRODUKTY!
 // ============================================
 const products = [
-  // ==========================================
-  // 📦 KATEGORIE: "Shoes", "Tshirts", "Hoodies", "Shorts", "Pants", "Jackets", "Underwear", "Belts"
-  // ==========================================
-   {
+  {
     name: "Jordan 4 Frozen Moments / Black Canvas",
     category: "Shoes",
     price: "$63",
@@ -191,7 +188,7 @@ const products = [
     price: "$14",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN019apdfS1FEtZ2Pj4qE_!!2943390456.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D798219996153&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/798219996153?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/JLEwRqOs3BNxirWEiThc2T8Ii_VHFO2nSO7nm-GN1xBerKB4Zi3OGw?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
   },
@@ -373,7 +370,7 @@ const products = [
     linkKakobuy: "https://ikako.vip/zb326",
     linkUsfans: "https://usfans.com/product/2/770997590604?ref=TX9V9N",
     tag: "RANDOM BATCH",
-
+    rating: 5
   },
   {
     name: "JORDAN 11 (A LOT OF CW)",
@@ -570,7 +567,8 @@ const products = [
     category: "Shoes",
     price: "$52",
     image: "https://img.alicdn.com/bao/uploaded/i4/905145255/O1CN01UfZoda1ogq2kKnMwc_!!905145255.jpg",
-    link: "https://ikako.vip/b285w",
+    linkKakobuy: "",
+    linkUsfans: "",
     tag: "BEST",
     rating: 5
   },
@@ -639,7 +637,7 @@ const products = [
     category: "Shoes",
     price: "$41",
     image: "https://si.geilicdn.com/pcitem901870080011-39bf00000197227e34340a23047e_1440_1440.jpg",
-    link: "https://ikako.vip/r2d6r",
+    linkKakobuy: "",
     linkUsfans: "https://usfans.com/product/3/7611411555?ref=TX9V9N",
     tag: "ZC",
     rating: 5
@@ -912,7 +910,7 @@ const products = [
     linkKakobuy: "https://ikako.vip/9nekn",
     linkUsfans: "https://usfans.com/product/2/719090541518?ref=TX9V9N",
     tag: "RANDOM",
-  
+    rating: 5
   },
   {
     name: "RICK OWENS WIZARD HOODIE",
@@ -922,7 +920,7 @@ const products = [
     linkKakobuy: "https://ikako.vip/7a3v6",
     linkUsfans: "https://usfans.com/product/2/575200851719?ref=TX9V9N",
     tag: "RANDOM",
-  
+    rating: 5
   },
   {
     name: "RICK OWENS SUBHUMAN HOODIE",
@@ -932,9 +930,8 @@ const products = [
     linkKakobuy: "https://ikako.vip/ghbm5",
     linkUsfans: "https://usfans.com/product/2/622741344038?ref=TX9V9N",
     tag: "RANDOM",
-  
+    rating: 5
   },
-
   {
     name: "DIOR HOMME SS07 BRUCE LEE HOODIE",
     category: "Hoodies",
@@ -943,7 +940,7 @@ const products = [
     linkKakobuy: "https://ikako.vip/k9crx",
     linkUsfans: "https://usfans.com/product/2/1005968004844?ref=TX9V9N",
     tag: "RANDOM",
-  
+    rating: 5
   },
   {
     name: "VETEMENTS SEXUAL FANTASIES",
@@ -954,7 +951,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/757296152278?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
   {
     name: "VETEMENTS MTB HOODIE",
@@ -965,7 +961,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/851411609247?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
   {
     name: "VETEMENTS ELEVEN INCH GUN CLUB GRAY",
@@ -976,7 +971,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/757458682100?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
   {
     name: "VETEMENTS ELEVEN INCH GUN CLUB BLACK",
@@ -987,7 +981,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/847058966068?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
   {
     name: "VETEMENTS FREE HUGS",
@@ -998,7 +991,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/975859231733?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
   {
     name: "VETEMENTS ECTASY HOODIE",
@@ -1009,7 +1001,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/818847955308?ref=TX9V9N",
     tag: "MVT",
     rating: 5
-  
   },
   {
     name: "HELLSTAR TOUR HOODIE",
@@ -1020,7 +1011,6 @@ const products = [
     linkUsfans: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D805788377027&affcode=archivee",
     tag: "PIKA",
     rating: 5
-  
   },
   {
     name: "HELLSTAR BRAINWASHED PINK HOODIE",
@@ -1031,7 +1021,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/848047282943?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
-  
   },
   {
     name: "1000GSM DOUBLE LAYER BLANK HOODIE",
@@ -1042,7 +1031,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/873123071835?ref=TX9V9N",
     tag: "UNIONKINGDOM",
     rating: 5
-  
   },
   {
     name: "360GSM BLANK HOODIE",
@@ -1053,7 +1041,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1004825376861?ref=TX9V9N",
     tag: "UNIONKINGDOM",
     rating: 5
-  
   },
   {
     name: "480GSM BLANK HOODIE",
@@ -1064,7 +1051,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1010660774172?ref=TX9V9N",
     tag: "UNIONKINGDOM",
     rating: 5
-  
   },
   {
     name: "630GSM BLANK HOODIE",
@@ -1075,7 +1061,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/852400435273?ref=TX9V9N",
     tag: "UNIONKINGDOM",
     rating: 5
-  
   },
   {
     name: "AKIMBO WHITE HOODIE",
@@ -1086,7 +1071,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7573186226?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
-  
   },
   {
     name: "AKIMBO BLACK HOODIE",
@@ -1097,7 +1081,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/989184075287?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
-  
   },
   {
     name: "RAF SIMONS NEW ORDER HOODIE",
@@ -1108,7 +1091,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1013935249594?ref=TX9V9N",
     tag: "MADEBYSWAG",
     rating: 5
-  
   },
   {
     name: "RAF SIMONS ROOTS HOODIE",
@@ -1119,7 +1101,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1016842344982?ref=TX9V9N",
     tag: "MADEBYSWAG",
     rating: 5
-  
   },
   {
     name: "RAF SIMONS VIRGINIA CREEPER CREWNECK",
@@ -1130,7 +1111,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/994217483421?ref=TX9V9N",
     tag: "MADEBYSWAG",
     rating: 5
-  
   },
   {
     name: "PEACE IN WAR CHERRY BLOSSOM HOODIE",
@@ -1141,7 +1121,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7630589589?ref=TX9V9N",
     tag: "ALIEN",
     rating: 5
-  
   },
   {
     name: "PEACE IN WAR FUCK THE INDUSTRY HOODIE",
@@ -1152,7 +1131,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7633602044?ref=TX9V9N",
     tag: "ALIEN",
     rating: 5
-  
   },
   {
     name: "PEACE IN WAR WINTER WAR HOODIE",
@@ -1163,7 +1141,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7644491945?ref=TX9V9N",
     tag: "ALIEN",
     rating: 5
-  
   },
   {
     name: "PEACE IN WAR SWEDEN HOODIE",
@@ -1174,7 +1151,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7567731360?ref=TX9V9N",
     tag: "ALIEN",
     rating: 5
-  
   },
   {
     name: "BURBERRY BLACK HOODIE",
@@ -1185,7 +1161,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7524095139?ref=TX9V9N",
     tag: "THUNDER",
     rating: 5
-  
   },
   {
     name: "BURBERRY GREY HOODIE",
@@ -1196,9 +1171,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7638068345?ref=TX9V9N",
     tag: "THUNDER",
     rating: 5
-  
   },
-
   {
     name: "SUPREME X BURBERRY",
     category: "Hoodies",
@@ -1208,7 +1181,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7638048551?ref=TX9V9N",
     tag: "THUNDER",
     rating: 5
-  
   },
   {
     name: "BURBERRY ZIP UP HOODIE",
@@ -1219,9 +1191,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7578098348?ref=TX9V9N",
     tag: "THUNDER",
     rating: 5
-  
   },
-
   {
     name: "ESSENTIALS X NBA HOODIE",
     category: "Hoodies",
@@ -1231,7 +1201,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/983505698307?ref=TX9V9N",
     tag: "YISHAN",
     rating: 3
-  
   },
   {
     name: "ESSENTIALS FOG",
@@ -1242,7 +1211,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/997580740112?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 4
-  
   },
   {
     name: "ESSENTIALS FOG",
@@ -1253,7 +1221,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/978371331776?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 4
-  
   },
   {
     name: "ESSENTIALS FOG",
@@ -1264,7 +1231,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/962642256864?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 4
-  
   },
   {
     name: "RALPH LAUREN ZIPPER HOODIE",
@@ -1275,7 +1241,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7597038790?ref=TX9V9N",
     tag: "NEWDP",
     rating: 4
-  
   },
   {
     name: "RALPH LAUREN FLEECE HOODIE",
@@ -1286,7 +1251,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7567964285?ref=TX9V9N",
     tag: "NEWDP",
     rating: 4
-  
   },
   {
     name: "BROKEN PLANET NOT FROM HERE ",
@@ -1297,7 +1261,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7627920146?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
-  
   },
   {
     name: "BROKEN PLANET MOON PHASE",
@@ -1308,7 +1271,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7409966155?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
-  
   },
   {
     name: "BROKEN PLANET ZIP UP HOODIE",
@@ -1319,7 +1281,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7342492758?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
-  
   },
   {
     name: "SYNA HOODIE",
@@ -1330,7 +1291,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7261685985?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
-  
   },
   {
     name: "I LOVE SYNA HOODIE",
@@ -1341,7 +1301,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7491890348?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
-  
   },
   {
     name: "SYNA X NEM RENTS DUE HOODIE",
@@ -1352,7 +1311,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7656816950?ref=TX9V9N",
     tag: "GOAT",
     rating: 5
-  
   },
   {
     name: "SUPREME X MM6",
@@ -1363,7 +1321,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/992804497721?ref=TX9V9N",
     tag: "MVT",
     rating: 5
-  
   },
   {
     name: "MERTRA HOODIE",
@@ -1374,7 +1331,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7569423015?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "MERTRA X UMBRO HOODIE",
@@ -1385,11 +1341,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7626932092?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
-  
-  //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE //NIKE//NIKE
-
   {
     name: "ERD MULHOLLAND T-SHIRT",
     category: "Tshirts",
@@ -1399,7 +1351,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/933818787049?ref=TX9V9N",
     tag: "APEXMADE",
     rating: 5
-  
   },
   {
     name: "ERD T-SHIRT",
@@ -1410,18 +1361,16 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7491984689?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 4
-  
   },
   {
     name: "ERD CHRISTINA T-SHIRT",
     category: "Tshirts",
     price: "$19.12",
     image: "https://img.alicdn.com/bao/uploaded/i2/2214656006513/O1CN011G8Otv1xz0blTvUkr_!!2214656006513.jpg",
-    link: "https://ikako.vip/xapqq",
+    linkKakobuy: "",
     linkUsfans: "https://usfans.com/product/2/887414307607?ref=TX9V9N",
     tag: "K8",
     rating: 5
-  
   },
   {
     name: "CHROME HEARTS T-SHIRT",
@@ -1432,7 +1381,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7506477680?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "CHROME HEARTS T-SHIRT",
@@ -1443,7 +1391,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7504593741?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "CHROME HEARTS T-SHIRT",
@@ -1454,10 +1401,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7505571487?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
-
-
   {
     name: "NUMBER NINE SOVC TEE",
     category: "Tshirts",
@@ -1467,7 +1411,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/850232694076?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
-  
   },
   {
     name: "UNDERCOVER TEE",
@@ -1478,7 +1421,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/895661620416?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "UNDERCOVER KLAUS TEE",
@@ -1489,7 +1431,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/675214000065?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
-  
   },
   {
     name: "UNDERCOVER GURUGURU",
@@ -1500,7 +1441,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/645671108769?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
-  
   },
   {
     name: "GOTHAM TEE",
@@ -1511,7 +1451,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/850109331994?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
-  
   },
   {
     name: "NUMBER NINE KURT TEE",
@@ -1522,7 +1461,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/834164734264?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
-  
   },
   {
     name: "GIVENCHY T-SHIRT",
@@ -1533,7 +1471,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7400847823?ref=TX9V9N",
     tag: "BACKSTUDIO",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS T-SHIRTS",
@@ -1544,7 +1481,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/962636024464?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS T-SHIRTS",
@@ -1555,7 +1491,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/962039057752?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS T-SHIRTS (BUDGET BATCH)",
@@ -1566,7 +1501,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/668913880734?ref=TX9V9N",
     tag: "BUDGET",
     rating: 3
-  
   },
   {
     name: "RALPH LAUREN T-SHIRTS",
@@ -1577,7 +1511,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7596975464?ref=TX9V9N",
     tag: "NEWDP",
     rating: 5
-  
   },
   {
     name: "RALPH LAUREN POLO",
@@ -1588,7 +1521,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7595170179?ref=TX9V9N",
     tag: "NEWDP",
     rating: 5
-  
   },
   {
     name: "VETEMENTS INTERPOL TEE",
@@ -1599,7 +1531,6 @@ const products = [
     linkUsfans: "",
     tag: "MVT",
     rating: 5
-  
   },
   {
     name: "SYNA WORLD PLAYBOY T-SHIRT",
@@ -1610,7 +1541,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/819278430583?ref=TX9V9N",
     tag: "BEST",
     rating: 5
-  
   },
   {
     name: "SYNA X PSG T-SHIRT",
@@ -1621,7 +1551,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7443980484?ref=TX9V9N",
     tag: "BEST",
     rating: 5
-  
   },
   {
     name: "SYNA BLACK T-SHIRT",
@@ -1632,7 +1561,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7298162199?ref=TX9V9N",
     tag: "BEST",
     rating: 5
-  
   },
   {
     name: "NIKE X STUSSY T-SHIRT",
@@ -1643,7 +1571,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7243919380?ref=TX9V9N",
     tag: "RANDOM BATCH",
     rating: 4
-  
   },
   {
     name: "STUSSY T-SHIRTS",
@@ -1654,7 +1581,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7614423490?ref=TX9V9N",
     tag: "YOLO",
     rating: 4
-  
   },
   {
     name: "SP5DER OG WEB V2 GRAY TEE",
@@ -1665,7 +1591,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/931241172963?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
-  
   },
   {
     name: "SP5DER X TRAVIS CACTUS JACK",
@@ -1676,7 +1601,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/930374774167?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
-  
   },
   {
     name: "SP5DER TEE",
@@ -1687,11 +1611,7 @@ const products = [
     linkUsfans: "",
     tag: "PIKA",
     rating: 5
-  
   },
- 
-  
-  
   {
     name: "CDG TEE",
     category: "Tshirts",
@@ -1701,7 +1621,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/706505282193?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
-  
   },
   {
     name: "CDG PLAY TEE",
@@ -1712,7 +1631,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/974955606875?ref=TX9V9N",
     tag: "REPBROS",
     rating: 5
-  
   },
   {
     name: "CDG DOUBLE HEARTS",
@@ -1723,7 +1641,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/976288568920?ref=TX9V9N",
     tag: "REPBROS",
     rating: 5
-  
   },
   {
     name: "CDG PLAY TEES",
@@ -1734,7 +1651,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/974427059839?ref=TX9V9N",
     tag: "REPBROS",
     rating: 5
-  
   },
   {
     name: "CDG PLAY TEE",
@@ -1745,7 +1661,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/976313608209?ref=TX9V9N",
     tag: "REPBROS",
     rating: 5
-  
   },
   {
     name: "GALLERY DEPT TSHIRTS (BUDGET)",
@@ -1756,7 +1671,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/771007293616?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "PALM ANGELS TSHIRTS (BUDGET)",
@@ -1767,9 +1681,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/770939300665?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
-  
   {
     name: "FORTNITE X BALENCIAGA (RANDOM/BUDGET)",
     category: "Tshirts",
@@ -1779,7 +1691,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/4980473884?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "BALENCIAGA PULL UP PANTS",
@@ -1790,7 +1701,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/929721448972?ref=TX9V9N",
     tag: "MVT",
     rating: 5
-  
   },
   {
     name: "BALENCIAGA BLUE FLARED LOST TAPES",
@@ -1801,7 +1711,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/992032162249?ref=TX9V9N",
     tag: "MVT",
     rating: 5
-  
   },
   {
     name: "BALENCIAGA FITTED GEORGE V LOW WAIST PANTS",
@@ -1812,7 +1721,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/982782878822?ref=TX9V9N",
     tag: "MVT",
     rating: 5
-  
   },
   {
     name: "BUDGET BALENCIAGA BAGGY JEANS",
@@ -1823,7 +1731,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/731719229196?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "BALENCIAGA DOUBLE WAIST SWEATPANTS",
@@ -1834,7 +1741,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1009307628825?ref=TX9V9N",
     tag: "MVT",
     rating: 5
-  
   },
   {
     name: "BALENCIAGA FLARED JEANS (BUDGET)",
@@ -1845,7 +1751,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/746738710664?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "BALENCIAGA CUT UP JEANS",
@@ -1856,7 +1761,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/991471795146?ref=TX9V9N",
     tag: "MVT",
     rating: 5
-  
   },
   {
     name: "PURPLE BRAND JEANS (WM179)",
@@ -1867,7 +1771,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7553919705?ref=TX9V9N",
     tag: "HENGYU",
     rating: 5
-  
   },
   {
     name: "PURPLE BRAND JEANS (WM178)",
@@ -1878,7 +1781,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7553919705?ref=TX9V9N",
     tag: "HENGYU",
     rating: 5
-  
   },
   {
     name: "PURPLE BRAND JEANS(PB141)",
@@ -1889,7 +1791,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7491274425?ref=TX9V9N",
     tag: "HENGYU",
     rating: 5
-  
   },
   {
     name: "PURPLE BRAND JEANS (WM131)",
@@ -1900,7 +1801,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7553919705?ref=TX9V9N",
     tag: "HENGYU",
     rating: 5
-  
   },
   {
     name: "MIJKO PATCH JEANS",
@@ -1911,7 +1811,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/948138886155?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "ACNE 1981M VINTAGE BLACK",
@@ -1922,7 +1821,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/992822993831?ref=TX9V9N",
     tag: "MVT",
     rating: 5
-  
   },
   {
     name: "ACNE 2010M BLACK",
@@ -1933,9 +1831,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/990470996019?ref=TX9V9N",
     tag: "MVT",
     rating: 5
-  
   },
-  ,
   {
     name: "ACNE 1981 PAINT SPLATTER",
     category: "Pants",
@@ -1945,7 +1841,6 @@ const products = [
     linkUsfans: "",
     tag: "MVT",
     rating: 5
-  
   },
   {
     name: "ACNE STUDIOS 1989 ASH BLACK",
@@ -1956,7 +1851,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/988425102964?ref=TX9V9N",
     tag: "MVT",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS PANTS (BUDGET)",
@@ -1967,7 +1861,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/863899956013?ref=TX9V9N",
     tag: "BUDGET",
     rating: 3
-  
   },
   {
     name: "ESSENTIALS FOG PANTS",
@@ -1978,7 +1871,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/982345933138?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS FOG PANTS",
@@ -1989,7 +1881,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/961424550932?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS FOG SWEATPANTS",
@@ -2000,7 +1891,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/997582040779?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS X NBA SWEATPANTS",
@@ -2011,7 +1901,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/934691849861?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "RICK OWENS SUBHUMAN WAXED PANTS",
@@ -2022,7 +1911,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/582710282139?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "RICK OWENS DRKSHDW JEANS",
@@ -2033,7 +1921,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/936846585403?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "RICK OWENS PANTS",
@@ -2044,7 +1931,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/736006892046?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "RICK OWENS PANTS",
@@ -2055,7 +1941,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/6602507923?ref=TX9V9N",
     tag: "PINK ELEPHANT",
     rating: 4
-  
   },
   {
     name: "RICK OWENS PANTS",
@@ -2066,7 +1951,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/613071908927?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "GUCCI DEMNA BLACK JEANS",
@@ -2077,7 +1961,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1000766846017?ref=TX9V9N",
     tag: "MVT",
     rating: 5
-  
   },
   {
     name: "GUCCI DEMNA JEANS",
@@ -2088,7 +1971,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1000766846017?ref=TX9V9N",
     tag: "MVT",
     rating: 5
-  
   },
   {
     name: "GALLERY DEPT SWEATPANTS (BUDGET)",
@@ -2099,7 +1981,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/756275697322?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "GALLERY DEPT PANTS",
@@ -2110,7 +1991,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/821375995617?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "HELLSTAR UNIFORM PANTS",
@@ -2121,7 +2001,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/835085163698?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
-  
   },
   {
     name: "HELLSTAR PANTS",
@@ -2132,7 +2011,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/770997590604?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "TRUE RELIGION JEANS",
@@ -2143,7 +2021,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/593013405795?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "NIKE X STUSSY SWEATPANTS",
@@ -2154,7 +2031,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7595061507?ref=TX9V9N",
     tag: "NEWDP",
     rating: 4
-  
   },
   {
     name: "NIKE X NOCTA",
@@ -2165,10 +2041,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/837019488337?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
-  
-
   {
     name: "PALM ANGELS PANTS",
     category: "Pants",
@@ -2178,7 +2051,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/773739418622?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "THE NORTH FACE 1996 VEST",
@@ -2189,7 +2061,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7614207799?ref=TX9V9N",
     tag: "TOP",
     rating: 5
-  
   },
   {
     name: "TNF 1996 RETRO NUPTSE 700",
@@ -2200,7 +2071,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7617186136?ref=TX9V9N",
     tag: "TOP",
     rating: 5
-  
   },
   {
     name: "ARCTERYX BLACK SL",
@@ -2211,7 +2081,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7639314314?ref=TX9V9N",
     tag: "DREAMREMAKE",
     rating: 5
-  
   },
   {
     name: "Derschutze Denim Pants",
@@ -2222,7 +2091,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7627220799?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "Derschutze blue Denim Pants",
@@ -2233,7 +2101,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7619232142?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "Derschutze Western Jogger",
@@ -2244,7 +2111,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7428893156?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "Derschutze Denim Pants",
@@ -2255,7 +2121,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7526934664?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "Ralph Lauren Suit Pants",
@@ -2266,7 +2131,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7595166141?ref=TX9V9N",
     tag: "NEWDP",
     rating: 5
-  
   },
   {
     name: "Ralph Lauren FLeece Pants",
@@ -2277,7 +2141,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7570327918?ref=TX9V9N",
     tag: "NEWDP",
     rating: 5
-  
   },
   {
     name: "Ralph Lauren Pants",
@@ -2288,7 +2151,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7558813458?ref=TX9V9N",
     tag: "NEWDP",
     rating: 5
-  
   },
   {
     name: "BPM RENT'S DUE PANTS",
@@ -2299,7 +2161,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7409905283?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
-  
   },
   {
     name: "BPM PANTS ALL THE STARS",
@@ -2310,7 +2171,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7499784900?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
-  
   },
   {
     name: "HYSTERIC GLAMOUR HAGI JEANS",
@@ -2321,7 +2181,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/988104391140?ref=TX9V9N",
     tag: "BDSS",
     rating: 5
-  
   },
   {
     name: "BALENCIAGA SHORTS",
@@ -2332,7 +2191,6 @@ const products = [
     linkUsfans: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7242666854&affcode=archivee",
     tag: "SATANMADE",
     rating: 5
-  
   },
   {
     name: "BALENCIAGA SHORTS",
@@ -2343,7 +2201,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7519004840?ref=TX9V9N",
     tag: "THUNDER",
     rating: 5
-  
   },
   {
     name: "BALENCIAGA SHORTS",
@@ -2354,7 +2211,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7499057490?ref=TX9V9N",
     tag: "THUNDER",
     rating: 5
-  
   },
   {
     name: "BALENCIAGA SHORTS",
@@ -2365,7 +2221,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7497106511?ref=TX9V9N",
     tag: "THUNDER",
     rating: 5
-  
   },
   {
     name: "BALENCIAGA SHORTS",
@@ -2376,7 +2231,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7618065701?ref=TX9V9N",
     tag: "THUNDER",
     rating: 5
-  
   },
   {
     name: "BALENCIAGA SHORTS",
@@ -2387,7 +2241,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7604006524?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "BALENCIAGA DOUBLE WAIST SHORTS",
@@ -2398,7 +2251,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7510584472?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 4
-  
   },
   {
     name: "ESSENTIALS NBA SHORTS",
@@ -2409,7 +2261,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/983502446561?ref=TX9V9N",
     tag: "YISHAN",
     rating: 4
-  
   },
   {
     name: "ESSENTIALS FOG SHORTS",
@@ -2420,7 +2271,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/962037909233?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS FOG SHORTS",
@@ -2431,7 +2281,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/934124406348?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS FOG SHORTS",
@@ -2442,7 +2291,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7254715223?ref=TX9V9N",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "GALLERY DEPT SHORTS",
@@ -2453,7 +2301,6 @@ const products = [
     linkUsfans: "",
     tag: "TOPHOT",
     rating: 5
-  
   },
   {
     name: "BPM WASHED SHORTS",
@@ -2464,7 +2311,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7342141752?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
-  
   },
   {
     name: "BPM SUN LOGO SHORTS",
@@ -2475,7 +2321,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7490154691?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
-  
   },
   {
     name: "BPM BLACK DENIM SHORTS",
@@ -2486,7 +2331,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7342496656?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
-  
   },
   {
     name: "BPM GRAY SHORTS",
@@ -2497,7 +2341,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7341453361?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
-  
   },
   {
     name: "DERSCHUTZE SHORTS",
@@ -2508,7 +2351,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7632918134?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "DERSCHUTZE SHORTS",
@@ -2519,7 +2361,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7618310132?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "DERSCHUTZE SHORTS",
@@ -2530,7 +2371,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7576666451?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "ISLAND PUFF PRINT SHORTS",
@@ -2541,7 +2381,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7656862298?ref=TX9V9N",
     tag: "GOAT",
     rating: 5
-  
   },
   {
     name: "CORTEIZ BLACK MESH SHORTS",
@@ -2552,7 +2391,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7653850723?ref=TX9V9N",
     tag: "GOAT",
     rating: 5
-  
   },
   {
     name: "CORTEIZ ISLAND BAGGY SHORTS",
@@ -2563,7 +2401,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7656868300?ref=TX9V9N",
     tag: "GOAT",
     rating: 5
-  
   },
   {
     name: "CORTEIZ BLACK DENIM SHORTS",
@@ -2574,7 +2411,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7656885992?ref=TX9V9N",
     tag: "GOAT",
     rating: 5
-  
   },
   {
     name: "EE X WARREN LOTAS",
@@ -2585,7 +2421,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/931510237309?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
-  
   },
   {
     name: "EE SHORTS",
@@ -2596,7 +2431,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/923285722493?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
-  
   },
   {
     name: "EE SHORTS",
@@ -2607,7 +2441,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/938607895496?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
-  
   },
   {
     name: "EE SHORTS",
@@ -2618,7 +2451,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/923145544750?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
-  
   },
   {
     name: "STUSSY DENIM SHORTS",
@@ -2629,27 +2461,26 @@ const products = [
     linkUsfans: "",
     tag: "DRAGONREP",
     rating: 4
-  
   },
   {
     name: "STUSSY SHORTS",
     category: "Shorts",
     price: "$11.34",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/9/f71877c8f60fce590a421f242c63e769.jpg",
-    link: "https://ikako.vip/hps4z",
+    linkKakobuy: "",
+    linkUsfans: "",
     tag: "DRAGONREP",
     rating: 4
-  
   },
   {
     name: "STUSSY SHORTS",
     category: "Shorts",
     price: "$17.72",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/24/e64c87aecf04d00955f26da2d09cfa76.jpg",
-    link: "https://ikako.vip/chst3",
+    linkKakobuy: "",
+    linkUsfans: "",
     tag: "DRAGONREP",
     rating: 4
-  
   },
   {
     name: "NIKE/JORDAN SHORTS",
@@ -2660,7 +2491,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/2738528543?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "JORDAN SHORTS",
@@ -2671,7 +2501,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/774249365947?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "CARHARTT SHORTS",
@@ -2682,7 +2511,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1003338779710?ref=TX9V9N",
     tag: "HUSKY",
     rating: 4
-  
   },
   {
     name: "ARCTERYX MACAI REMOVABLE HOOD",
@@ -2693,7 +2521,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7636254967?ref=TX9V9N",
     tag: "DREAMREMAKE / BEST",
     rating: 5
-  
   },
   {
     name: "ARCTERYX MACAI",
@@ -2704,7 +2531,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7636378281?ref=TX9V9N",
     tag: "DREAMREMAKE / BEST",
     rating: 5
-  
   },
   {
     name: "MONCLER VEST BUDGET",
@@ -2715,7 +2541,6 @@ const products = [
     linkUsfans: "",
     tag: "BUDGET BATCH",
     rating: 5
-  
   },
   {
     name: "MONCLER MAYA BEST BATCH",
@@ -2726,7 +2551,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/903368724429?ref=TX9V9N",
     tag: "JIEYI / BEST",
     rating: 5
-  
   },
   {
     name: "MONCLER TBELIARD BEST BATCH",
@@ -2734,10 +2558,9 @@ const products = [
     price: "$221.73",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/26/ff8f17f63ff47b9585f44fc60e5228f4.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D699573998420%26spm%3Da213gs.v2success.result.1.61584831mOrh1a&affcode=archivee",
-    linkUsfans:"https://usfans.com/product/2/699573998420?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/699573998420?ref=TX9V9N",
     tag: "JIEYI / BEST",
     rating: 5
-  
   },
   {
     name: "RICK OWENS SECRET PARKA JACKET",
@@ -2748,7 +2571,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1018167906778?ref=TX9V9N",
     tag: "APEXMADE / BEST",
     rating: 5
-  
   },
   {
     name: "JORDAN SOCKS 2 PAIR (42-46)",
@@ -2759,7 +2581,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7619706700?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 5
-  
   },
   {
     name: "NIKE SOCKS 6 PAIR (42-46)",
@@ -2770,7 +2591,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7448825972?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 5
-  
   },
   {
     name: "NIKE SOCKS 3 PAIR",
@@ -2781,7 +2601,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7495699974?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 5
-  
   },
   {
     name: "VETEMENTS SOCKS (36-42)",
@@ -2792,7 +2611,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7598191449?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 5
-  
   },
   {
     name: "ERIC EMANUEL SOCKS (3 PACK)",
@@ -2803,7 +2621,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7602105957?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 5
-  
   },
   {
     name: "CALVIN KLEIN BOXERS (5 PACK)",
@@ -2814,7 +2631,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7516896626?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 5
-  
   },
   {
     name: "FOG BOXERS (2 PACK)",
@@ -2825,7 +2641,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7449086190?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 5
-  
   },
   {
     name: "BALENCIAGA HAMPTONS",
@@ -2836,7 +2651,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7509083332?ref=TX9V9N",
     tag: "XA/VG",
     rating: 4
-  
   },
   {
     name: "BALENCIAGA 3XL",
@@ -2847,7 +2661,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/6531422617?ref=TX9V9N",
     tag: "VG",
     rating: 4
-  
   },
   {
     name: "BALENCIAGA X-PANDER",
@@ -2858,7 +2671,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7613676745?ref=TX9V9N",
     tag: "OK",
     rating: 4
-  
   },
   {
     name: "CP COMPANY BEANIE",
@@ -2869,7 +2681,6 @@ const products = [
     linkUsfans: "",
     tag: "CPREPS / BEST",
     rating: 5
-  
   },
   {
     name: "ARCTERYX BEANIE",
@@ -2880,7 +2691,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7549993727?ref=TX9V9N",
     tag: "OGWAVE / BEST",
     rating: 5
-  
   },
   {
     name: "MONCLER BEANIE",
@@ -2891,7 +2701,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7549993727?ref=TX9V9N",
     tag: "OGWAVE / BEST",
     rating: 5
-  
   },
   {
     name: "SUPREME BEANIE",
@@ -2902,7 +2711,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7617676948?ref=TX9V9N",
     tag: "OGWAVE / BEST",
     rating: 5
-  
   },
   {
     name: "CORTEIZ BEANIE",
@@ -2913,7 +2721,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/694456604440?ref=TX9V9N",
     tag: "OGWAVE / BEST",
     rating: 5
-  
   },
   {
     name: "LV BELT",
@@ -2924,7 +2731,6 @@ const products = [
     linkUsfans: "",
     tag: "K8 / BEST",
     rating: 5
-  
   },
   {
     name: "LV BELTS",
@@ -2935,7 +2741,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7564619134?ref=TX9V9N",
     tag: "K8 / BEST",
     rating: 5
-  
   },
   {
     name: "YSL BELTS",
@@ -2946,7 +2751,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7238620088?ref=TX9V9N",
     tag: "K8 / BEST",
     rating: 5
-  
   },
   {
     name: "YSL BELTS",
@@ -2957,7 +2761,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7491976825?ref=TX9V9N",
     tag: "K8 / BEST",
     rating: 5
-  
   },
   {
     name: "HERMES BELTS",
@@ -2968,7 +2771,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7540305005?ref=TX9V9N",
     tag: "K8 / BEST",
     rating: 5
-  
   },
   {
     name: "GUCCI BELTS",
@@ -2979,7 +2781,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7595122173?ref=TX9V9N",
     tag: "K8 / BEST",
     rating: 5
-  
   },
   {
     name: "GUCCI BELTS",
@@ -2990,7 +2791,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7237657869?ref=TX9V9N",
     tag: "K8 / BEST",
     rating: 5
-  
   },
   {
     name: "FERRAGAMO BELTS",
@@ -3001,7 +2801,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7551041964?ref=TX9V9N",
     tag: "K8 / BEST",
     rating: 5
-  
   },
   {
     name: "FERRAGAMO BELTS",
@@ -3012,7 +2811,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7521850089?ref=TX9V9N",
     tag: "K8 / BEST",
     rating: 5
-  
   },
   {
     name: "FERRAGAMO BELTS",
@@ -3023,7 +2821,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7237693869?ref=TX9V9N",
     tag: "K8 / BEST",
     rating: 5
-  
   },
   {
     name: "CHROME HEARTS BELT",
@@ -3034,7 +2831,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7496597430?ref=TX9V9N",
     tag: "K8 / BEST",
     rating: 5
-  
   },
   {
     name: "CHROME HEARTS BELT",
@@ -3045,7 +2841,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7494781775?ref=TX9V9N",
     tag: "K8 / BEST",
     rating: 5
-  
   },
   {
     name: "SLP T-SHIRTS (100 CW)",
@@ -3056,7 +2851,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/975385164276?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "KETAMINE T-SHIRT",
@@ -3067,7 +2861,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/991905213307?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "NETTSPEND INVERT T-SHIRT",
@@ -3078,7 +2871,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/924627845937?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "NETTSPEND EARLY LIFE CRISIS T-SHIRT",
@@ -3089,7 +2881,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/929461367636?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "NETTSPEND REHAB T-SHIRT",
@@ -3100,7 +2891,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/959891279366?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "HYSTERIC GLAMOUR STRAWBERRY T-SHIRT",
@@ -3111,7 +2901,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/980533061035?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "HYSTERIC GLAMOUR T-SHIRT",
@@ -3122,7 +2911,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/914645926529?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "Jordan 4 (LJR BATCH)",
@@ -3133,7 +2921,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7436802531?ref=TX9V9N",
     tag: "LJR",
     rating: 5
-  
   },
   {
     name: "Jordan 5 (Y3/LJR)",
@@ -3144,7 +2931,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7779704177?ref=TX9V9N",
     tag: "Y3/LJR",
     rating: 5
-  
   },
   {
     name: "Nike Mind 001",
@@ -3155,7 +2941,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7665676161?ref=TX9V9N",
     tag: "S2",
     rating: 5
-  
   },
   {
     name: "HYSTERIC GLAMOUR MEDICINE T-SHIRT",
@@ -3166,7 +2951,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/979272611838?ref=TX9V9N",
     tag: "BDSS / BEST",
     rating: 5
-  
   },
   {
     name: "HYSTERIC GLAMOUR T-SHIRT",
@@ -3177,7 +2961,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/972904238090?ref=TX9V9N",
     tag: "BDSS",
     rating: 5
-  
   },
   {
     name: "RANDOM T-SHIRT",
@@ -3188,7 +2971,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/963251434104?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "SHIBU T-SHIRT",
@@ -3199,7 +2981,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/909739019073?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "ANN D LOCTUS T-SHIRT",
@@ -3210,7 +2991,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/926436516645?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "CARTI WLR T-SHIRT",
@@ -3221,7 +3001,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/809731021003?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "AKIRA T-SHIRT",
@@ -3232,7 +3011,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/848614907682?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "UNDERCOVER 10SS T-SHIRT",
@@ -3243,7 +3021,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7500755236?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "VUJADE T-SHIRT",
@@ -3254,7 +3031,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/694918332693?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "KANYE X GOSHA T-SHIRT",
@@ -3265,7 +3041,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7238881155?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "I'M FINE BLOOD STAIN SHIRT",
@@ -3276,9 +3051,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/867615196966?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
-  
   {
     name: "SUPREME ARABIC SHIRT",
     category: "Tshirts",
@@ -3288,7 +3061,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7570371276?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "APHEX TWIN TEE",
@@ -3299,7 +3071,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/809631048361?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "2HOLLIS TEE",
@@ -3310,7 +3081,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/921199812955?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "2HOLLIS TEE",
@@ -3321,7 +3091,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/981183457748?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "NUMBER NINE MICKEY TEE",
@@ -3332,7 +3101,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/916936678572?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "RANDOM OPIUM TEE",
@@ -3343,7 +3111,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/808924265747?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "SUPREME THIRTS",
@@ -3354,7 +3121,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7484527107?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "NIKE X NOCTA HOODIES",
@@ -3365,7 +3131,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7633774866?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "Derschutze Ariza Hoodie",
@@ -3376,7 +3141,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/992257028851?ref=TX9V9N",
     tag: "PENGREPS / BEST",
     rating: 5
-  
   },
   {
     name: "Derschutze Gallery Hoodie",
@@ -3387,7 +3151,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/981337313553?ref=TX9V9N",
     tag: "PENGREPS / BEST",
     rating: 5
-  
   },
   {
     name: "Derschutze Hoodie",
@@ -3398,7 +3161,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/920680193778?ref=TX9V9N",
     tag: "PENGREPS / BEST",
     rating: 5
-  
   },
   {
     name: "Derschutze awakening V2 BLOSSOM Hoodie",
@@ -3409,7 +3171,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/915474343233?ref=TX9V9N",
     tag: "PENGREPS / BEST",
     rating: 5
-  
   },
   {
     name: "CDG HOODIE BIG HEART",
@@ -3420,7 +3181,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/975518273866?ref=TX9V9N",
     tag: "REPBROS / BEST",
     rating: 5
-  
   },
   {
     name: "CDG HOODIE",
@@ -3431,7 +3191,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/974299403094?ref=TX9V9N",
     tag: "REPBROS / BEST",
     rating: 5
-  
   },
   {
     name: "CDG ZIP UP HOODIE",
@@ -3442,7 +3201,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/975522325315?ref=TX9V9N",
     tag: "REPBROS / BEST",
     rating: 5
-  
   },
   {
     name: "CDG PLAY ZIP UP HOODIE",
@@ -3453,7 +3211,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/974788342665?ref=TX9V9N",
     tag: "REPBROS / BEST",
     rating: 5
-  
   },
   {
     name: "CORTEIZ X BBK ROYALE ZIP UP HOODIE",
@@ -3464,7 +3221,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7653809265?ref=TX9V9N",
     tag: "GOAT / BEST",
     rating: 5
-  
   },
   {
     name: "CORTEIZ ALCATRAZ YELLOW HOODIE",
@@ -3475,7 +3231,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7656856394?ref=TX9V9N",
     tag: "GOAT / BEST",
     rating: 5
-  
   },
   {
     name: " CORTEIZ BLACK ALCATRAZ HOODIE",
@@ -3486,10 +3241,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7653811325?ref=TX9V9N",
     tag: "GOAT / BEST",
     rating: 5
-  
   },
-  
-
   {
     name: "PAIKI FUR ZIP UP HOODIE",
     category: "Hoodies",
@@ -3499,7 +3251,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/841606251822?ref=TX9V9N",
     tag: "PAIKI",
     rating: 5
-  
   },
   {
     name: "PLAYBOI CARTI CAT HOODIE",
@@ -3510,7 +3261,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/817686026285?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "808VISION HOODIE",
@@ -3521,7 +3271,6 @@ const products = [
     linkUsfans: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1006072606020&affcode=archivee",
     tag: "DRAGONREP",
     rating: 5
-  
   },
   {
     name: "ARTIEMASTER BLANK HOODIE'S (A LOT OF CW)",
@@ -3532,7 +3281,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/724736914040?ref=TX9V9N",
     tag: "ARTIEMASTER",
     rating: 5
-  
   },
   {
     name: "YEEZY X GOSHA RUBCHINSKIYE",
@@ -3543,7 +3291,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7258395815?ref=TX9V9N",
     tag: "CCHAOS",
     rating: 4
-  
   },
   {
     name: "UNDERCOVER 06SS HOODIE",
@@ -3554,7 +3301,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/865858886069?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "SAINT ALEXANDER HOODIE",
@@ -3565,7 +3311,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/862852791296?ref=TX9V9N",
     tag: "RANDOM (BUDGET)",
     rating: 3
-  
   },
   {
     name: "PLAYBOI CARTI WLR HOODIE",
@@ -3576,7 +3321,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/818702710082?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "6PM X TRUE RELIGION HOODIE",
@@ -3587,7 +3331,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7342451364?ref=TX9V9N",
     tag: "HOTDOG / BEST",
     rating: 5
-  
   },
   {
     name: "LOEWE ZIP UP HOODIE",
@@ -3598,7 +3341,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/744492467426?ref=TX9V9N",
     tag: "RANDOM",
     rating: 3
-  
   },
   {
     name: "6PM HOODIE",
@@ -3609,7 +3351,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7341580621?ref=TX9V9N",
     tag: "HOTDOG / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR PATRIOT HOODIE",
@@ -3620,7 +3361,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1031594048572?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR YIN YANG HOODIE",
@@ -3631,7 +3371,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7621923643?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR HOODIE",
@@ -3642,7 +3381,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7633091801?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR SOLIDER HOODIE",
@@ -3653,7 +3391,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1030780349209?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR EU T-SHIRT",
@@ -3664,7 +3401,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7717974314?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR NATIONAL FLAG T-SHIRT",
@@ -3675,7 +3411,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7718010924?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR ANTI-WAR SKULL TSHIRT",
@@ -3686,7 +3421,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7715026173?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR COLLABORATION SKULL",
@@ -3697,7 +3431,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7717371961?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR BATTLEFIELD PHOTO",
@@ -3708,7 +3441,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7716979189?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR CAMOUFLAGE SKULL ",
@@ -3719,7 +3451,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7717224681?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR BRAIDED NATIONAL FLAG",
@@ -3727,10 +3458,9 @@ const products = [
     price: "$13.4",
     image: "https://si.geilicdn.com/wdseller1995625455-07260000019d244eb7920a2305d8_1320_1760.jpg",
     linkKakobuy: "https://ikako.vip/u3tp2",
-    linkUsfans : "https://usfans.com/product/3/7717242349?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7717242349?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR FEDERAL POLO",
@@ -3741,7 +3471,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7717228491?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR SKULL SWEATPANTS",
@@ -3752,7 +3481,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7635947538?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR SKULL SWEATPANTS",
@@ -3763,7 +3491,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7630649741?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR EU SWEATPANTS",
@@ -3774,7 +3501,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7653929908?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
-  
   },
   {
     name: "CHROME HEARTS MORO LONGSLEEVE",
@@ -3785,7 +3511,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7507441990?ref=TX9V9N",
     tag: "TOPHOT / BEST",
     rating: 5
-  
   },
   {
     name: "CHROME HEARTS LONGSLEEVE",
@@ -3796,7 +3521,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7570120561?ref=TX9V9N",
     tag: "TOPHOT / BEST",
     rating: 5
-  
   },
   {
     name: "CDG LONGSLEEVE",
@@ -3807,7 +3531,6 @@ const products = [
     linkUsfans: "",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "HYSTERIC GLAMOUR SUE RYNSKI LONGSLEEVE",
@@ -3818,7 +3541,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/962213368084?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "HYSTERIC GLAMOUR LONGSLEEVE",
@@ -3829,7 +3551,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/735147769437?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "UNDERCOVER LONGSLEEVE",
@@ -3840,7 +3561,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/941166330233?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "ERD LONGSLEEVE",
@@ -3851,7 +3571,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/943139379074?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "ERD CREWNECK",
@@ -3862,7 +3581,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/906486784153?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "ERD CREWNECK",
@@ -3873,7 +3591,6 @@ const products = [
     linkUsfans: "https://ikako.vip/x6fpu",
     tag: "BDSJ / BEST",
     rating: 5
-  
   },
   {
     name: "MM KNIT ZIP UP",
@@ -3884,7 +3601,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/752666734936?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "MM KNIT",
@@ -3895,7 +3611,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/746801458197?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "UNDERCOVER CREWNECK",
@@ -3906,7 +3621,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/868149506390?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "UNDERCOVER GIZ SAWTOOTH CREWNECK",
@@ -3917,7 +3631,6 @@ const products = [
     linkUsfans: "https://ikako.vip/65v9v",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE BYE BYE GOOD NIGHT",
@@ -3928,7 +3641,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/910677881280?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
-  
   },
   {
     name: "SUPREME X HYSTERIC GLAMOUR TEE",
@@ -3939,7 +3651,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/871616414168?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE KICK YOUR ASS TEE",
@@ -3950,7 +3661,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/793393698046?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
-  
   },
   {
     name: "MASTERMIND RHINESTONE TEE",
@@ -3961,7 +3671,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/752233274681?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "AKIMBO CLUB HOODIE",
@@ -3972,7 +3681,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/902000743084?ref=TX9V9N",
     tag: "MadMan",
     rating: 4
-  
   },
   {
     name: "WLNEXT ZIP UP HOODIE",
@@ -3983,7 +3691,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/749224137219?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "UVU TOSCANA HOODIE",
@@ -3994,7 +3701,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7508712321?ref=TX9V9N",
     tag: "PENGREPS / BEST",
     rating: 5
-  
   },
   {
     name: "UVU INSIGNA ZIP UP HOODIE",
@@ -4005,7 +3711,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7513593962?ref=TX9V9N",
     tag: "PENGREPS / BEST",
     rating: 5
-  
   },
   {
     name: "ARTE HOODIE",
@@ -4016,7 +3721,6 @@ const products = [
     linkUsfans: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D962640498751&affcode=archivee",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "BASIC NIKE PANTS",
@@ -4027,7 +3731,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7535370671?ref=TX9V9N",
     tag: "RANDOM",
     rating: 3
-  
   },
   {
     name: "Survet Flared joggers",
@@ -4038,7 +3741,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7536809461?ref=TX9V9N",
     tag: "RANDOM",
     rating: 3
-  
   },
   {
     name: "(BUDGET) ACNE STUDIOS JEANS",
@@ -4049,7 +3751,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/896534806883?ref=TX9V9N",
     tag: "BUDGET",
     rating: 3
-  
   },
   {
     name: "NO FAITH STUDIOS JEANS",
@@ -4060,7 +3761,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/863520488114?ref=TX9V9N",
     tag: "INFINITE / BEST",
     rating: 5
-  
   },
   {
     name: "(BUDGET) GALLERY DEPT JEANS",
@@ -4071,7 +3771,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/700551477968?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "GOLDEN GOOSE SUPER STAR",
@@ -4082,7 +3781,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7564078351?ref=TX9V9N",
     tag: "WWTOP / BEST",
     rating: 5
-  
   },
   {
     name: "(BUDGET) HELLSTAR SHORTS",
@@ -4093,7 +3791,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1019327460761?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "HYSTERIC GLAMOUR LONGSLEEVE",
@@ -4104,7 +3801,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/995510864704?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
-  
   },
   {
     name: "(BUDGET) CORTEIZ HOODIE",
@@ -4115,7 +3811,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/849048451034?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "(BUDGET) CORTEIZ SWEATPANTS",
@@ -4126,7 +3821,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/849048451034?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "MOWALOLA TEE",
@@ -4137,9 +3831,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/937854635977?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
-   {
+  {
     name: "DERSCHUTZE SHORTS",
     category: "Shorts",
     price: "$18.89",
@@ -4148,7 +3841,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/1031401531331?ref=TX9V9N",
     tag: "RANDOM BATCH",
     rating: 5
-  
   },
   {
     name: "DROLAND MILLER MISA TEE",
@@ -4159,9 +3851,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/867979068621?ref=TX9V9N",
     tag: "RANDOM BATCH",
     rating: 4
-  
   },
-   {
+  {
     name: "RANDOM WASHED TEE",
     category: "Tshirts",
     price: "$11.18",
@@ -4170,7 +3861,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/699698744900?ref=TX9V9N",
     tag: "RANDOM BATCH",
     rating: 4
-  
   },
   {
     name: "UNDERCOVER EVANGELION CREWNECK",
@@ -4181,7 +3871,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1037334046765?ref=TX9V9N",
     tag: "RANDOM BATCH",
     rating: 4
-  
   },
   {
     name: "BALENCIAGA BRITNEY T-SHIRT",
@@ -4192,7 +3881,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/939227571473?ref=TX9V9N",
     tag: "RANDOM BATCH",
     rating: 4
-  
   },
   {
     name: "AJ1 X TRAVIS",
@@ -4203,9 +3891,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7780606117?ref=TX9V9N",
     tag: "PK 4.0/LJR",
     rating: 5
-  
   },
-
   {
     name: "VETEMENTS ZURICH",
     category: "Hoodies",
@@ -4215,7 +3901,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/809389387349?ref=TX9V9N",
     tag: "VOGUE / BEST",
     rating: 5
-  
   },
   {
     name: "HOMIXIDE GANG TOUR TEE",
@@ -4226,7 +3911,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/811257266296?ref=TX9V9N",
     tag: "RANDOM",
     rating: 3
-  
   },
   {
     name: "NO E MOSEN LONGSLEEVE",
@@ -4237,7 +3921,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/764799778569?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "Air Max Plus Tn",
@@ -4248,7 +3931,6 @@ const products = [
     linkUsfans: "https://www.usfans.com/product/3/6565730165?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 3
-  
   },
   {
     name: "(BUDGET) RANDOM FLARED PANTS",
@@ -4259,9 +3941,8 @@ const products = [
     linkUsfans: "https://www.usfans.com/product/2/945274664699?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 3
-  
   },
-   {
+  {
     name: "BUDGET MAISON MARGIELA T-SHIRT",
     category: "Tshirts",
     price: "$15.31",
@@ -4270,7 +3951,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1003882569724?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "CARHARTT JACKETS [A LOT OF CW]",
@@ -4281,7 +3961,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/743062544600?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "WEST COAST CHOPPERS HOODIE",
@@ -4292,7 +3971,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7542163380?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "WEST COAST CHOPPERS T-SHIRTS",
@@ -4303,7 +3981,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/885178756710?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "RICK OWENS BIAS BOOTCUT JEANS",
@@ -4314,7 +3991,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/909290620880?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "UNDERCOVER 03 TEE",
@@ -4325,7 +4001,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/927709845234?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "UNDERCOVER 10SS TEE",
@@ -4336,7 +4011,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/907865244699?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "UNDERCOVER 10SS TEE",
@@ -4347,9 +4021,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/915690722743?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
-   {
+  {
     name: "UNDERCOVER 18SS TEE",
     category: "Tshirts",
     price: "$16.25",
@@ -4358,7 +4031,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/946392353863?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE GUITAR TEE",
@@ -4369,7 +4041,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/713152360154?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE TEE",
@@ -4380,7 +4051,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/811258955442?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE SOVC TEE",
@@ -4391,7 +4061,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/811533361881?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
   {
     name: "NOCTA HOTSTEP 2",
@@ -4402,7 +4071,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7783042962?ref=TX9V9N",
     tag: "GX (BEST)",
     rating: 5
-  
   },
   {
     name: "UNDERCOVER 10AW LONGSLEEVE",
@@ -4413,9 +4081,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/745757648215?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
-
   {
     name: "RICK OWENS FLARED PANTS",
     category: "Pants",
@@ -4425,7 +4091,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/908704092173?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "RANDOM SUPREME T-SHIRTS",
@@ -4436,7 +4101,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/944517412239?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "HYSTERIC GLAMOUR BOB DYLAN TSHIRT",
@@ -4447,7 +4111,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/922348545861?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "XAVIERSOBASED ANIME T-SHIRT",
@@ -4458,7 +4121,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1032859742347?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "GOTH MONEY RECORD TEE",
@@ -4469,7 +4131,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/934889424661?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "SALEM X BLADEE SILKROAD T-SHIRT",
@@ -4480,7 +4141,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/864034495080?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "HAUNTED MOUND T-SHIRT",
@@ -4491,9 +4151,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/949940321064?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
-   {
+  {
     name: "I LOVE HAUNTED MOUND T-SHIRT",
     category: "Tshirts",
     price: "$15.51",
@@ -4502,7 +4161,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/810238559904?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "CPFFM X SAINT MICHAEL T-SHIRT",
@@ -4513,7 +4171,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/774276403487?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "RICK OWENS SHORTS",
@@ -4524,7 +4181,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/789887980434?ref=TX9V9N",
     tag: "BUDGET",
     rating: 3
-  
   },
   {
     name: "RICK OWENS GRADIENT SHORTS",
@@ -4535,7 +4191,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/875908964217?ref=TX9V9N",
     tag: "BUDGET",
     rating: 3
-  
   },
   {
     name: "RICK OWENS SHORTS",
@@ -4546,7 +4201,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/912713355313?ref=TX9V9N",
     tag: "BUDGET",
     rating: 3
-  
   },
   {
     name: "RANDOM DENIM SHORTS (BUDGET)",
@@ -4557,7 +4211,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/891767354081?ref=TX9V9N",
     tag: "BUDGET",
     rating: 3
-  
   },
   {
     name: "DERSCHUTZE TEE JAZZ V2",
@@ -4568,7 +4221,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/903043737002?ref=TX9V9N",
     tag: "PENGREPS / BEST",
     rating: 5
-  
   },
   {
     name: "DERSCHUTZE AWAKENING V2 TEE",
@@ -4579,7 +4231,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/902289867277?ref=TX9V9N",
     tag: "PENGREPS / BEST",
     rating: 5
-  
   },
   {
     name: "THAT'S AWFUL COUGH SYRUP HOODIE",
@@ -4590,7 +4241,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/854094671445?ref=TX9V9N",
     tag: "PIKA / BEST",
     rating: 5
-  
   },
   {
     name: "THAT'S AWFUL COUGH SYRUP HOODIE",
@@ -4601,7 +4251,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/854720277160?ref=TX9V9N",
     tag: "PIKA / BEST",
     rating: 5
-  
   },
   {
     name: "VETE BRO ZIP UP HOODIE",
@@ -4612,7 +4261,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/844916341750?ref=TX9V9N",
     tag: "VOGUE",
     rating: 5
-  
   },
   {
     name: "NUMBER NINE SHIELD CREWNECK",
@@ -4623,7 +4271,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/968237571225?ref=TX9V9N",
     tag: "(RANDOM) HONGSHENG",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE SOLOIST TEE",
@@ -4634,7 +4281,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/713153724831?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE I LOVE GOTHAM TEE",
@@ -4645,7 +4291,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/850109331994?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
   {
     name: "UNDERCOVER EVA ELYSION TEE",
@@ -4656,7 +4301,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/lYlJeNxdg6_yIxRBmsjhbWGEHf-D6i4_JY8-JUEsleRGEC2yeUFPBg?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
   {
     name: "BALENCIAGA 3XL (BEST)",
@@ -4667,7 +4311,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/6229036205?ref=TX9V9N",
     tag: "ZC / BEST",
     rating: 5
-  
   },
   {
     name: "DERSCHUTZE DENIM SHORTS",
@@ -4678,7 +4321,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/1031401531331?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "SMOKING BOY HOODIE",
@@ -4689,7 +4331,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7717334619?ref=TX9V9N",
     tag: "ALIEN",
     rating: 5
-  
   },
   {
     name: "BALENCIAGA TAPE T-SHIRT",
@@ -4700,7 +4341,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/6149020617?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "BALENCIAGA STRIKE BOOTS",
@@ -4711,7 +4351,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7435510687?ref=TX9V9N",
     tag: "GZ / EVGA",
     rating: 4
-  
   },
   {
     name: "BALENCIAGA MICKEY SHOES",
@@ -4722,9 +4361,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7435510687?ref=TX9V9N",
     tag: "GZ / EVGA",
     rating: 4
-  
   },
-
   {
     name: "BALENCIAGA LAMBORGHINI LONGSLEEVE",
     category: "Tshirts",
@@ -4734,7 +4371,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/938199594257?ref=TX9V9N",
     tag: "APEXMADE",
     rating: 5
-  
   },
   {
     name: "MOWALOLA TANK TOP",
@@ -4745,7 +4381,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/920048929139?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "COINBASE LARP T-SHIRT",
@@ -4756,7 +4391,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7659907941?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "KEN CARSON GREAT CHAOS TEE",
@@ -4767,7 +4401,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/826961978094?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "VETEMENTS INTERPOL TEE",
@@ -4778,7 +4411,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/936089180003?ref=TX9V9N",
     tag: "ANGELKING",
     rating: 4
-  
   },
   {
     name: "STUSSY X RICK OWENS T-SHIRT",
@@ -4789,7 +4421,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/647326458771?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "BUDGET CORTEIZ SHORTS",
@@ -4800,7 +4431,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/735102637544?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "BUDGET RHUDE SHORTS",
@@ -4811,7 +4441,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/811924496322?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "UP IN FLAMES SHORTS",
@@ -4822,7 +4451,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1037669402414?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "NEBRASKA LICENSE ZIP UP HOODIE",
@@ -4833,9 +4461,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/939189723127?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
-   {
+  {
     name: "NUMBER NINE ZIP UP HOODIE",
     category: "Hoodies",
     price: "$40",
@@ -4844,7 +4471,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/811387802141?ref=TX9V9N",
     tag: "LMYER (BUDGET)",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE SHIELD HOODIE",
@@ -4855,7 +4481,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1003542169569?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE SHIELD CREWNECK",
@@ -4866,7 +4491,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/992561433919?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
   {
     name: "UNDERCOVER LUNAR T-SHIRT",
@@ -4877,9 +4501,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/645671704610?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
-   {
+  {
     name: "UNDERCOVER CANDLE T-SHIRT",
     category: "Tshirts",
     price: "$10",
@@ -4888,7 +4511,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1030419356013?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "NUMBERNINE HOODIE",
@@ -4899,7 +4521,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1008505432114?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
-  
   },
   {
     name: "GRAILZ MARINES  HOODIE",
@@ -4910,7 +4531,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/963949247487?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "NEW BALANCE 1906",
@@ -4921,7 +4541,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7611429333?ref=TX9V9N",
     tag: "M",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE HOODIE",
@@ -4932,7 +4551,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1015301702523?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
-  
   },
   {
     name: "AIME LEON DORE HOODIE",
@@ -4943,7 +4561,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/661195309016?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "ANONYMOUS CLUB SWEATPANTS",
@@ -4954,7 +4571,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/828582071498?ref=TX9V9N",
     tag: "VOGUE",
     rating: 4
-  
   },
   {
     name: "ALICE HOLLYWOOD TEE",
@@ -4965,7 +4581,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/973396863614?ref=TX9V9N",
     tag: "K8",
     rating: 4
-  
   },
   {
     name: "VIVIENNE WESTWOOD TEE",
@@ -4976,7 +4591,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/935459089993?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "ERD TEE",
@@ -4987,7 +4601,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/776129033574?ref=TX9V9N",
     tag: "暗号made",
     rating: 5
-  
   },
   {
     name: "POLIZEI TEE",
@@ -4998,7 +4611,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/727596126149?ref=TX9V9N",
     tag: "BOUND2",
     rating: 5
-  
   },
   {
     name: "NETTSPEND HOODIE",
@@ -5009,7 +4621,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/944909218387?ref=TX9V9N",
     tag: "RANDOM",
     rating: 3
-  
   },
   {
     name: "I WANNA BE FAMOUS HOODIE",
@@ -5020,7 +4631,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/961940659964?ref=TX9V9N",
     tag: "RANDOM",
     rating: 3
-  
   },
   {
     name: "HYSTERIC GLAMOUR BEAR TEE",
@@ -5031,7 +4641,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1046418982983?ref=TX9V9N",
     tag: "BDSS",
     rating: 5
-  
   },
   {
     name: "CSONLINE TEE",
@@ -5042,9 +4651,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/916849772452?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
-   {
+  {
     name: "CB SHORTS",
     category: "Shorts",
     price: "$25.3",
@@ -5053,7 +4661,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/7Fb7e5Qcbcv3EUsrkyScL7pUChNG657L0lVe9EHx1RObrvx8EQrezco?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "EPISODES SHORTS",
@@ -5064,7 +4671,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1044510549433?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "GARMS SHORTS",
@@ -5075,9 +4681,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/997189996899?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
-   {
+  {
     name: "NIKE TECH SHORTS (BUDGET)",
     category: "Shorts",
     price: "$10.6",
@@ -5086,7 +4691,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/798929144098?ref=TX9V9N",
     tag: "BUDGET",
     rating: 3
-  
   },
   {
     name: "MUAY THAI SHORTS",
@@ -5097,7 +4701,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/603053819761?ref=TX9V9N",
     tag: "BUDGET",
     rating: 5
-  
   },
   {
     name: "MERTRA SHORTS",
@@ -5108,9 +4711,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7757011512?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
-   {
+  {
     name: "MERTRA SHORTS",
     category: "Shorts",
     price: "$22.01",
@@ -5119,7 +4721,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7542377914?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "MERTRA SHORTS",
@@ -5130,7 +4731,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7542377914?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "MERTRA SHORTS",
@@ -5141,7 +4741,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7477715896?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "MERTRA SHORTS",
@@ -5152,7 +4751,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7436855327?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR CHAOS HOODIE",
@@ -5163,9 +4761,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7724592269?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 5
-  
   },
-   {
+  {
     name: "PEACEINWAR EU HOODIE",
     category: "Hoodies",
     price: "$34.10",
@@ -5174,9 +4771,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7768749330?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 5
-  
   },
-   {
+  {
     name: "PEACEINWAR AIRBONE ZIP UP HOODIE",
     category: "Hoodies",
     price: "$45.48",
@@ -5185,9 +4781,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7752775014?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 5
-  
   },
-   {
+  {
     name: "PEACEINWAR RED STAR EMBRO HOODIE",
     category: "Hoodies",
     price: "$37.40",
@@ -5196,7 +4791,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7740280121?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 5
-  
   },
   {
     name: "420 GSM SHORTS",
@@ -5207,7 +4801,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/935328729962?ref=TX9V9N",
     tag: "UNIONKINGDOM",
     rating: 5
-  
   },
   {
     name: "360 GSM SHORTS",
@@ -5218,7 +4811,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/846045056077?ref=TX9V9N",
     tag: "UNIONKINGDOM",
     rating: 5
-  
   },
   {
     name: "UNDERCOVER 03 TEE",
@@ -5229,7 +4821,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/721238181845?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
-  
   },
   {
     name: "PEACEINWAR SHORTS",
@@ -5240,9 +4831,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7715097759?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 5
-  
   },
-   {
+  {
     name: "BULLETPROOF TEE",
     category: "Tshirts",
     price: "$15.90",
@@ -5251,7 +4841,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7731863590?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 5
-  
   },
   {
     name: "HYSTERIC GLAMOUR TEE",
@@ -5262,9 +4851,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1034814361803?ref=TX9V9N",
     tag: "BDSS",
     rating: 5
-  
   },
-
   {
     name: "IDLT BLANK TEE",
     category: "Tshirts",
@@ -5274,7 +4861,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/615825547877?ref=TX9V9N",
     tag: "IDLT",
     rating: 5
-  
   },
   {
     name: "NUMBERNINE MIRROR TEE",
@@ -5285,7 +4871,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/903641315128?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
-  
   },
   {
     name: "RYE PORNSTAR TEE",
@@ -5296,7 +4881,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/901716134277?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "NETTSPEND T-SHIRT",
@@ -5307,7 +4891,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/939963519142?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "RANDOM CAMO SHORTS",
@@ -5318,7 +4901,6 @@ const products = [
     linkUsfans: "https://www.usfans.com/product/2/816787838126?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "BAPE X CHROME HEARTS TEE",
@@ -5329,7 +4911,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7684853494?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE T-SHIRT",
@@ -5340,7 +4921,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/850743820998?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE SHIELD T-SHIRT",
@@ -5351,7 +4931,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/860700361266?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE ROLLING STONES T-SHIRT",
@@ -5362,7 +4941,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/948661526096?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
   {
     name: "PHILIP PLEIN T-SHIRTS",
@@ -5373,7 +4951,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/709550858740?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "SUPREME T-SHIRT",
@@ -5384,7 +4961,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/655850367120?ref=TX9V9N",
     tag: "BEST/TEENAGECLUB",
     rating: 4
-  
   },
   {
     name: "REVENGE T-SHIRTS",
@@ -5395,7 +4971,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/638679698108?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "BAPE T-SHIRTS",
@@ -5406,7 +4981,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/965138963696?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "MAŁPIAK (200% POLIESTER)",
@@ -5417,7 +4991,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/903016743862?ref=TX9V9N",
     tag: "BUDGET",
     rating: 2
-  
   },
   {
     name: "MARLBORO T-SHIRT",
@@ -5428,7 +5001,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7491104385?ref=TX9V9N",
     tag: "BUDGET",
     rating: 2
-  
   },
   {
     name: "CDG BULLETPROOF T-SHIRT",
@@ -5439,7 +5011,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1052836115010?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "MERTRA T-SHIRT",
@@ -5450,7 +5021,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7731952360?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "MERTRA SCORPION T-SHIRT",
@@ -5461,7 +5031,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7748825466?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "MERTRA T-SHIRT",
@@ -5472,7 +5041,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7740052070?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "MERTRA X UMBRO T-SHIRT",
@@ -5483,7 +5051,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7626287656?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "MERTRA T-SHIRT",
@@ -5494,7 +5061,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7450387265?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "SUPREME X MM6 MONEY T-SHIRT",
@@ -5505,7 +5071,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/YjOzYTCDKMMp9G0G8BSTPgj9vnsqRPQ6dUgdzMe4bNAi-rcxCha7RZ0?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "NETTSPEND EARLY LIFE CRISIS T-SHIRT",
@@ -5516,7 +5081,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1Za8eutEfgroYoFzGm-PVgR4MT3otBMlB8kjtPsdvsHNqVoge6DxWQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
-  
   },
   {
     name: "PESO SLIM FIT T-SHIRT",
@@ -5527,7 +5091,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/GzYrCW3B9V7vunZY_MK33djt88FtLS8aCp5z0t62T6CH5FFYK-C5sA?ref=TX9V9N",
     tag: "ANGELKING",
     rating: 4
-  
   },
   {
     name: "GALLERY DEPT T-SHIRTS",
@@ -5538,7 +5101,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/wSj982vN99_iC65ZkbuxiczGvpwMOtRFjHpMw0MyhSBcTx3HsO-iyg?ref=TX9V9N",
     tag: "ANGELKING",
     rating: 4
-  
   },
   {
     name: "BILLIONAIRE STUDIOS T-SHIRTS",
@@ -5549,7 +5111,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/q5kqpnwGOvUcAE7EGbR0DTDi84710NVDA8UG7iAJFAoXmmEmWuiZPg?ref=TX9V9N",
     tag: "ANGELKING",
     rating: 4
-  
   },
   {
     name: "ESSENTIALS NBA T-SHIRTS",
@@ -5560,7 +5121,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/983510390062?ref=TX9V9N",
     tag: "YISHAN",
     rating: 4
-  
   },
   {
     name: "WARREN LOTAS T-SHIRTS",
@@ -5571,7 +5131,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/xpAZ20RZnP-MsvdPcMDDY_lGDajfGdPstPpQoE6w0GFzm7YZdtmKgA?ref=TX9V9N",
     tag: "ANGELKING",
     rating: 4
-  
   },
   {
     name: "JADED LONDON JORTS",
@@ -5582,7 +5141,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/nZsLXHsHwm0uMBjAgJ2q_HQcZL5Jo7ITxuIRm6SZHw5w0L99ozNzZg?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "WARREN LOTAS CARD SHORTS",
@@ -5593,7 +5151,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/vNxnSmtAtIymfaUIvTyWS5oEGJURhdF8UKy89Y_syrp9ekh7a6sOBw?ref=TX9V9N",
     tag: "ANGELKING",
     rating: 4
-  
   },
   {
     name: "PEACEINWAR BURGUNDY HOODIE",
@@ -5604,7 +5161,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7783542378?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 5
-  
   },
   {
     name: "UPINFLAMES ZIP UP HOODIE",
@@ -5615,7 +5171,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7618089240?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "DERSCHUTZE CREWNECK",
@@ -5626,7 +5181,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7632920062?ref=TX9V9N",
     tag: "PENGREPS",
     rating: 5
-  
   },
   {
     name: "GENESIS HOODIE",
@@ -5637,7 +5191,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7668640086?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 5
-  
   },
   {
     name: "DERSCHUTZE BLOSSOM HOODIE",
@@ -5648,7 +5201,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7644873700?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 5
-  
   },
   {
     name: "NUMBER NINE HOODIE",
@@ -5659,7 +5211,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/9r-4ifn_oLET5l6zKE2muucVHAqEk2ChwrgLdN_sHuiu69tbND-cig?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
-  
   },
   {
     name: "PROTOCOL + HOODIE",
@@ -5670,7 +5221,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/1020996583796?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "HOMIXIDE GANG TEE",
@@ -5681,7 +5231,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/c-hNpPBxfolGMXU87HdMkOGhU5gDEnZW4OMaHNLbCurD-LX7mNIvUQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE  TEE",
@@ -5692,7 +5241,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/5xNC9MsxSNmCon5VMhaLKvEMPCqT8FqP2IqpUPhWNDeNACzSZU6QYA?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE NECKLACE TEE",
@@ -5703,7 +5251,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/Z0QVFrrB_6qzYozUkeXyEHztJSxtBajs6ieBaQmnEZtKaylN44CVCQ?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
-  
   },
   {
     name: "UNDERCOVER DRACULA TEE",
@@ -5714,9 +5261,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/UtQFmuvdtgIzBpc9GEioN1Xp3u30Do6yYT06E70LNy7jjasRXlV7tA?ref=TX9V9N",
     tag: "SLEEPBOY",
     rating: 4
-  
   },
-   {
+  {
     name: "TRAVIS SCOTT TSHIRTS",
     category: "Tshirts",
     price: "$7.99",
@@ -5725,7 +5271,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/0J7-pnT49WNX0_3-iDkfxXThiCi8VBnNwUk8rjqzk-dz1YpkajRiwA?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "NIKE X NOCTA TSHIRTS",
@@ -5736,7 +5281,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/934169404988?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "CDG LONGSLEEVE",
@@ -5747,7 +5291,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/776834980271?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "NETTSPEND T-SHIRT",
@@ -5758,9 +5301,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/pp-TUY48_sAbUtynVamp5i0W0rjUw4wfZzaXOQzDF8jY6VDmXnhkwA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
-   {
+  {
     name: "DESTROY LONELY TEE",
     category: "Tshirts",
     price: "$11.50",
@@ -5769,7 +5311,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/fOzNkv4-l038d623vKUaE863RRveHN-bd89x-tKQunL1LzeC0J-wItc?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "NETTSPEND SILENCE TEE",
@@ -5780,9 +5321,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/xxkFFuMKSYmufkf6Im9udb2AdYHHIGeGoJ20PCzwknBQECXSSyppIA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
-   {
+  {
     name: "YEAT 2ALIVE TEE",
     category: "Tshirts",
     price: "$11.4",
@@ -5791,7 +5331,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/mOV2Hn_yyuGLvC3S9lTIWo-NeJdGuJ2dovpggpvO0JaZpsy7WhpcakY?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "VETEMENTS BRO TEE",
@@ -5802,7 +5341,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/mikkp-wl4B1jvOEHOsJkyrq99a7ZN0aOy-McWpy_lq2Q10Kgi6KmFQ?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
   {
     name: "VETEMENTS RAMMSTEIN TEE",
@@ -5813,7 +5351,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/vNuQAvMYV902O3rFn4ZPWgPJ7EaT-hasBJKZD4vb3dKq2tdW_PZVhg?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
   {
     name: "NUMBER NINE WINGS HOODIE",
@@ -5824,7 +5361,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/GTv2rVoXrzAH1l9TOiiygVS8PvLG1plR5TDCZJmEJu6Yd1b0sKtgK6A?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE HOODIE",
@@ -5835,7 +5371,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/1008505432114?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
-  
   },
   {
     name: "NUMBER NINE LAMBRETTA TEE",
@@ -5846,7 +5381,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/Iib9a-aAxjgfp13CfOMRjGEbdE2xarhaaVwfpUKufp8bE_Cux3bV1fc?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
-  
   },
   {
     name: "RAF SIMONS TEE",
@@ -5857,7 +5391,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/caPocD4BZVjTCRqY776OLsv6R7q3KUYBe4Z-7BKU1qC4MEXt6HDtY9I?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
-  
   },
   {
     name: "BALENCIAGA SWEATPANTS",
@@ -5868,7 +5401,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7571419818?ref=TX9V9N",
     tag: "SATANMADE",
     rating: 4
-  
   },
   {
     name: "SUPREME X MARTIN ROSE HOODIE",
@@ -5879,7 +5411,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/tGPRwrnJqwHp_21sNtO6GL09HP8C-ndZqDLqG09RuGFHx37409VBDg?ref=TX9V9N",
     tag: "MADMAN",
     rating: 4
-  
   },
   {
     name: "GIVENCHY TANK TOP",
@@ -5890,7 +5421,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/HiTEwtUXTUw6x7bERiIsrU-JhClXx7bLC5uVQook1Io7_dcSbwRXplQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "HYSTERIC GLAMOUR LONGSLEEVE",
@@ -5901,9 +5431,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/dD5d_xrSIiERRhOU5chdASP5ktVFu_3y5rjGI7zt7KiJ6vScuIJYaZc?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
-   {
+  {
     name: "AF1",
     category: "Shoes",
     price: "$22.32",
@@ -5912,7 +5441,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7780635847?ref=TX9V9N",
     tag: "G",
     rating: 4
-  
   },
   {
     name: "BALENCIAGA DEFENDER",
@@ -5923,9 +5451,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/6229942918?ref=TX9V9N",
     tag: "XA",
     rating: 5
-  
   },
-   {
+  {
     name: "HELLSTAR T-SHIRTS",
     category: "Tshirts",
     price: "$15.63",
@@ -5934,7 +5461,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/gBxLHeWXolaDISMCpt68DYbchnfn37VbEfpZK5d_D_nmDOU0p8STYA?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "HELLSTAR T-SHIRTS",
@@ -5945,7 +5471,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/MuRTihOTUxCSOQH7ihSPkPDDWqJHaoFUnSKQjPvPdoXtGo6pFkKd_g?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "YVL POLO SHIRT",
@@ -5956,7 +5481,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/cpddZLJ_Q5gzpn8G5TRITypJ_9xt0JP_FZU7TwjPSuisySH2E8IG4g?ref=TX9V9N",
     tag: "BUDGET",
     rating: 3
-  
   },
   {
     name: "ADIDAS SUPERSTAR",
@@ -5967,7 +5491,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7780551213?ref=TX9V9N",
     tag: "WWTOP",
     rating: 5
-  
   },
   {
     name: "NIKE MIND 001",
@@ -5978,7 +5501,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7783613742?ref=TX9V9N",
     tag: "GX / BEST",
     rating: 5
-  
   },
   {
     name: "RANDOM PLAID SHORTS",
@@ -5989,7 +5511,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/x5z5ZfHodxJu37TeWjRxlBFe3xOAe52qWl84aYyMrLA1oSTnh_Yl3W8?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "IHS LOGO TEE",
@@ -6000,7 +5521,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/7lJO5AOE5lehiTf0Z6R-1I_YLPXcQGj5ZZTN3NEAbUlMxZNCvi2quvk?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 4
-  
   },
   {
     name: "TORN STARS TEE",
@@ -6011,7 +5531,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/SlCHu3y4EIRKlGH-DB0pkyU_5Z0thV8evhoApkLqQBb9S2gRdNIgkI0?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 4
-  
   },
   {
     name: "ONE CHANCE TEE",
@@ -6022,7 +5541,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7790607003?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 4
-  
   },
   {
     name: "IHS JEANS",
@@ -6033,7 +5551,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7743253230?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 4
-  
   },
   {
     name: "DRAMA SHORTS",
@@ -6044,7 +5561,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7475785394?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 4
-  
   },
   {
     name: "HYSTERIC GLAMOUR LONGSLEEVE",
@@ -6055,7 +5571,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/N_H0mymUKEHGZPyvH5gXNTJzTs47FFaQ1OInr5pYEf6s05s1ReGefQ?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
-  
   },
   {
     name: "CHROME HEARTS TEE",
@@ -6066,7 +5581,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/2786979731?ref=TX9V9N",
     tag: "BUDGET",
     rating: 3
-  
   },
   {
     name: "AF1 CH X NOCTA",
@@ -6077,7 +5591,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7783109456?ref=TX9V9N",
     tag: "GX",
     rating: 5
-  
   },
   {
     name: "AJ1 X TRAVIS",
@@ -6088,7 +5601,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7783519222?ref=TX9V9N",
     tag: "GX",
     rating: 5
-  
   },
   {
     name: "BAPE SOCKS",
@@ -6099,7 +5611,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7757117686?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 5
-  
   },
   {
     name: "STUSSY SOCKS",
@@ -6110,7 +5621,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7594584360?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 5
-  
   },
   {
     name: "NIKE BALACLAVA MASK",
@@ -6121,7 +5631,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7469216286?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 5
-  
   },
   {
     name: "CH BOXERS",
@@ -6132,7 +5641,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7619095180?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS BASIC TEE",
@@ -6143,7 +5651,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/941480275348?ref=TX9V9N",
     tag: "YISHAN",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS 1977 TEE",
@@ -6154,7 +5661,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/942421158058?ref=TX9V9N",
     tag: "YISHAN",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS 1977 SHORTS",
@@ -6165,7 +5671,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/945359112630?ref=TX9V9N",
     tag: "YISHAN",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS METALIC SHORTS",
@@ -6176,7 +5681,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/979674685920?ref=TX9V9N",
     tag: "YISHAN",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS 22SS SHORTS",
@@ -6187,7 +5691,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7784932792?ref=TX9V9N",
     tag: "YISHAN",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS FW23 SHORTS",
@@ -6198,7 +5701,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/944187286551?ref=TX9V9N",
     tag: "YISHAN",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS 1977 HOODIE",
@@ -6209,7 +5711,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/945366056278?ref=TX9V9N",
     tag: "YISHAN",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS 25AS HOODIE",
@@ -6220,7 +5721,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/941905898535?ref=TX9V9N",
     tag: "YISHAN",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS 25SP PANTS",
@@ -6231,7 +5731,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/989878322094?ref=TX9V9N",
     tag: "YISHAN",
     rating: 5
-  
   },
   {
     name: "ESSENTIALS 22SS PANTS",
@@ -6242,7 +5741,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7784894562?ref=TX9V9N",
     tag: "YISHAN",
     rating: 5
-  
   },
   {
     name: "UNDERCOVER 13AW BACKPACK",
@@ -6253,7 +5751,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/rc-ZM3IvF86JpqxNJjr27A18EDCjDNksqv_YQ4r-_lExO1AT_PyUBw?ref=TX9V9N",
     tag: "LUFU",
     rating: 5
-  
   },
   {
     name: "SUPREME LEOPARD BACKPACK",
@@ -6264,7 +5761,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/HFOTg0uzbd-H9mtSSofdwKyxrStX2BymygYJe4JqEKOVbp1U7KE1Tg?ref=TX9V9N",
     tag: "LUFU",
     rating: 5
-  
   },
   {
     name: "PRADA CUPS",
@@ -6275,7 +5771,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7610013503?ref=TX9V9N",
     tag: "GZ / BUDGET",
     rating: 4
-  
   },
   {
     name: "BOTTEGA VENETTA",
@@ -6286,7 +5781,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7611429397?ref=TX9V9N",
     tag: "M",
     rating: 4
-  
   },
   {
     name: "BIRKENSTOCK",
@@ -6297,7 +5791,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7611437571?ref=TX9V9N",
     tag: "GX 2.0",
     rating: 4
-  
   },
   {
     name: "SAUCONY PROGRID",
@@ -6308,7 +5801,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7789738584?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "DIOR B30",
@@ -6319,7 +5811,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7617091609?ref=TX9V9N",
     tag: "ZC / BUDGET",
     rating: 4
-  
   },
   {
     name: "DIOR B30",
@@ -6330,7 +5821,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/86Q4FF6PICS0EAfeyqkSqboSNCCmN5wt9YtrdfLyOgciJ2A0k8WW9A?ref=TX9V9N",
     tag: "BEST",
     rating: 5
-  
   },
   {
     name: "DIOR B22",
@@ -6341,7 +5831,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/HY8KDuRfsTs1W0SnMpa_OTDR5ubGas90uqrAet_fdwEHEf9h1aQWEg?ref=TX9V9N",
     tag: "BEST",
     rating: 5
-  
   },
   {
     name: "DIOR B9",
@@ -6352,7 +5841,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7263529034?ref=TX9V9N",
     tag: "BEST",
     rating: 5
-  
   },
   {
     name: "DIOR B23",
@@ -6363,7 +5851,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7743262410?ref=TX9V9N",
     tag: "BEST",
     rating: 5
-  
   },
   {
     name: "SALOMON XT6",
@@ -6374,7 +5861,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7613212605?ref=TX9V9N",
     tag: "GX",
     rating: 5
-  
   },
   {
     name: "RALPH LAUREN SHORTS",
@@ -6385,7 +5871,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7717354619?ref=TX9V9N",
     tag: "NEWDP",
     rating: 4
-  
   },
   {
     name: "RALPH LAUREN BEACH SHORTS",
@@ -6396,7 +5881,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7684066645?ref=TX9V9N",
     tag: "NEWDP",
     rating: 4
-  
   },
   {
     name: "RALPH LAUREN SHORTS",
@@ -6407,9 +5891,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7595172109?ref=TX9V9N",
     tag: "NEWDP",
     rating: 4
-  
   },
-   {
+  {
     name: "STUSSY SHORTS",
     category: "Shorts",
     price: "$12.63",
@@ -6418,7 +5901,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7595162349?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "STUSSY HOODIE",
@@ -6429,7 +5911,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7291972127?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "NEW BALANCE 2002",
@@ -6440,7 +5921,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7614433356?ref=TX9V9N",
     tag: "ZC / BEST",
     rating: 4
-  
   },
   {
     name: "NB 2002 LINK 1",
@@ -6451,7 +5931,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7611477107?ref=TX9V9N",
     tag: "M",
     rating: 5
-  
   },
   {
     name: "NB 2002 LINK 2",
@@ -6462,7 +5941,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7614453194?ref=TX9V9N",
     tag: "M",
     rating: 5
-  
   },
   {
     name: "VETEMENTS BOMBER",
@@ -6473,9 +5951,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/LZ8aGhI-z9vpfl-f884WiLAeP6FGGYbcna7m-F7FtAELDFLb3Xu56Q?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
-   {
+  {
     name: "VETEMENTS COKE HOODIE",
     category: "Hoodies",
     price: "$54.18",
@@ -6484,7 +5961,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/yyqjGR8H1gGTCEsdnaMZIGzKJXR9KSseyD4cY_JeZ8Vl_8vZY7kUig?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
   {
     name: "VETEMENTS VITKAC HOODIE",
@@ -6495,7 +5971,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/WVs586X9Y58CYGBM_55MoFSrt8ilor1_DQzD0EzuGSjGVh236V-OAg?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
   {
     name: "VETEMENTS RAMMSTEIN HOODIE",
@@ -6506,7 +5981,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/D6d9smEXBvDVO-Vjh8DaHPLCgmEKrrQGtVO_SIA08zKw909ZwBv4lQ?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
   {
     name: "VETEMENTS POLIZEI HOODIE",
@@ -6517,9 +5991,8 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/CtKNJZPTn-nmxd2SLQ_K9evv3C7FX7kd32XljWBadivrcf7wCNiT0g?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
-   {
+  {
     name: "VETEMENTS HOODIE HOODIE",
     category: "Hoodies",
     price: "$63.77",
@@ -6528,7 +6001,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/dYoRa62aOEQInlPwtHQWvhO1a27EIZbifVwREIz_nVLLhNSORIiHzA?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
   {
     name: "VETEMENTS TARGET TEE",
@@ -6539,7 +6011,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/ONWb4XAsnqF1WPAfjTTvRfNPLnOcVAa0jCtfABmVibXxKCO-00mxnQ?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
-  
   },
   {
     name: "AMIRI T-SHIRTS",
@@ -6550,7 +6021,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/JAXIWiGHxFyHHSmOV-TCPitflMRJYyJHX_CtZOaGjTR_P0JvlMbaAQ?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "NUMBERNINE SKULL TEE",
@@ -6561,7 +6031,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/9uts_WYbPjKBWIhFQq7N8YOxEQi0a6C_CLVPH1Aiw9DJHyUZaL-GLw?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "NB 9060 LINK2",
@@ -6572,7 +6041,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7611465313?ref=TX9V9N",
     tag: "M",
     rating: 4
-  
   },
   {
     name: "NEW BALANCE 240",
@@ -6583,7 +6051,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7614589634?ref=TX9V9N",
     tag: "M",
     rating: 4
-  
   },
   {
     name: "STUSSY T-SHIRTS",
@@ -6594,7 +6061,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/928703611496?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "LOVELAST TEE",
@@ -6605,7 +6071,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/Myp3_7QAJc2c-C6y-DGXwQHtXu2ez20QhWy4DIZurl4GK3yAEe-y0A?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
-  
   },
   {
     name: "MAYBACH SUNGLASSES",
@@ -6616,7 +6081,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/870678623599?ref=TX9V9N",
     tag: "BUDGET",
     rating: 4
-  
   },
   {
     name: "ALEXANDER WANG TEE",
@@ -6627,7 +6091,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/Tgijc9ANSfG1SRs7Tp0Wy4t6bKUepdTXVXxhpA1r9klwmICEtcpBN_Q?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "ALEXANDER WANG TEE",
@@ -6638,7 +6101,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/RvxSNVjCqoBRrBFE66ZZwx-dIRoLF3tnVU4tOBQcXKQCoEJVdhp0_pE?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "BALENCIAGA BEBE TEE",
@@ -6649,7 +6111,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7404452915?ref=TX9V9N",
     tag: "ASHMADE / BEST",
     rating: 4
-  
   },
   {
     name: "RICK OWENS SHORTS",
@@ -6660,7 +6121,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7243654306?ref=TX9V9N",
     tag: "ASHMADE / BEST",
     rating: 4
-  
   },
   {
     name: "VETEMENTS POLIZEI ZIP UP",
@@ -6671,7 +6131,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7524607361?ref=TX9V9N",
     tag: "ASHMADE",
     rating: 4
-  
   },
   {
     name: "RL SOCKS (3 PAIR)",
@@ -6682,7 +6141,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7449109988?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 4
-  
   },
   {
     name: "PALACE SOCKS",
@@ -6693,7 +6151,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/d17SSF0QRHb2uNdiUFrNa9pB8nJ36_iCdkXbpamA9bj_IV5DvW9sWg?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 4
-  
   },
   {
     name: "HELLSTAR SOCKS",
@@ -6704,7 +6161,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/PyFZ8q0-Nlr2izvuoYcBtYmS6B1B0ageQebsIZ8jdO-qm1N6eZmEZA?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 4
-  
   },
   {
     name: "CHROME HEARTS SOCKS",
@@ -6715,7 +6171,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7615886986?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 4
-  
   },
   {
     name: "RICK OWENS ABSTRACT",
@@ -6726,7 +6181,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/J4r9uqkNrr2TwK1YkrIBU1dkA_PyeeES4F_spiQB2fNwDQwapGisTw?ref=TX9V9N",
     tag: "ROK / BEST",
     rating: 4
-  
   },
   {
     name: "RICK OWENS VANS",
@@ -6737,7 +6191,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/vyak_E-glKVaGmgCQySUZ79bs49WDuu8waSHlbm2pfXGkUi3bjIOVA?ref=TX9V9N",
     tag: "ROK / BEST",
     rating: 4
-  
   },
   {
     name: "UNDERCOVER TEE",
@@ -6748,7 +6201,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/UShfJHH7oAK2rEIE41jM71Ts7Un9k8vwGBK9osv7cjlyWrY8HPYVPQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  
   },
   {
     name: "HYSTERIC GLAMOUR TEE",
@@ -6759,11 +6211,7 @@ const products = [
     linkUsfans: "https://usfans.com/product/2/xpCHkdkav8FLvjubSasmezmROnuH30y3v62h6qGmizMfgQJfWQJZzvY?ref=TX9V9N",
     tag: "BDSS",
     rating: 4
-  
   },
-  
- 
-  
   {
     name: "BALENCIAGA X UA SHORTS",
     category: "Shorts",
