@@ -838,7 +838,7 @@ const products = [
     price: "$45",
     image: "https://img.alicdn.com/bao/uploaded/i1/2219813327674/O1CN01azRhoa26YkVqZGFgm_!!2219813327674.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D992372979833&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/992372979833?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/e953fpsJiJAyUNHIBHgpWkanrFYg-pFRewkt_FqoAjNnl6V-iO1AsA?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
   },
