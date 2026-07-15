@@ -938,7 +938,7 @@ const products = [
     price: "$34",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/987caa4325a3033d07db37d9cdca1547.jpg",
     linkKakobuy: "https://ikako.vip/k9crx",
-    linkUsfans: "https://usfans.com/product/2/1005968004844?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/qnb-XXW4cK3El4BuCLwzKvJ-l59UBJNu45efToR-GxxA1G_c0cMU_a8?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -948,7 +948,7 @@ const products = [
     price: "$58",
     image: "https://img.alicdn.com/bao/uploaded/i4/3822597683/O1CN014fPBij26cs22QmStU_!!3822597683.jpg",
     linkKakobuy: "https://ikako.vip/8c7vs",
-    linkUsfans: "https://usfans.com/product/2/757296152278?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/iG4WsrA86V3C53gym-OjKjuzItHnpyWxKc805Q-gpLUWKHoOupWGFA?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
   },
@@ -958,7 +958,7 @@ const products = [
     price: "$59",
     image: "https://img.alicdn.com/bao/uploaded/i4/3822597683/O1CN01Yhu5J226cs1sovJJR_!!3822597683.jpg",
     linkKakobuy: "https://ikako.vip/xkucr",
-    linkUsfans: "https://usfans.com/product/2/851411609247?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/FXvESTvpGm9IMNmcsRoypaOPzSjUot6EoIa7rsBP2xJ3BFm1CTjG7A?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
   },
@@ -968,7 +968,7 @@ const products = [
     price: "$59",
     image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN01UPBPBu26crxz53r1G_!!3822597683.jpg",
     linkKakobuy: "https://ikako.vip/nsudt",
-    linkUsfans: "https://usfans.com/product/2/757458682100?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/2Gp7vnFOQqc8Ej4m71cYkEAB_UiSTOgxQELYQZ7WPRpDeUmr6q__ng?ref=TX9V9N",
     tag: "KJMADE",
     rating: 5
   },
@@ -1018,7 +1018,7 @@ const products = [
     price: "$66",
     image: "https://images.stockx.com/images/Hellstar-Brainwashed-With-Brain-Hoodie-Pink.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&q=60&dpr=1&trim=color&updated_at=1692432898",
     linkKakobuy: "https://ikako.vip/26z7v",
-    linkUsfans: "https://usfans.com/product/2/848047282943?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/uTkMno85btBviEHpdAKEu1Jfn4gKB8Ysg3r7lNs568oiyhs8vczk8A?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
   },
