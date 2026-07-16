@@ -1368,7 +1368,7 @@ const products = [
     price: "$20.57",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01FxjFJU1FEtW2R4hRn_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/rwawv",
-    linkUsfans: "https://usfans.com/product/2/675214000065?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/AkG283hve_CA7SYXcoWjUq1oXj5XPO5sMTfQNdvnmqHTg_dN-hsttw?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
   },
@@ -2688,7 +2688,7 @@ const products = [
     price: "$15.5",
     image: "https://img.alicdn.com/bao/uploaded/i4/2214183518581/O1CN01zvzBmf2DG9jbN9HCS_!!2214183518581.png",
     linkKakobuy: "https://ikako.vip/sv2y8",
-    linkUsfans: "https://usfans.com/product/2/975385164276?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/gw2AaywBp-5eNwqFtvrLfD0zrsDyWWfjzJ-_K32HMpJBgbvLv_WuLA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2698,7 +2698,7 @@ const products = [
     price: "$26.6",
     image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01sjBPY41gquCafTLof_!!2215791284194.png",
     linkKakobuy: "https://ikako.vip/ecqqy",
-    linkUsfans: "https://usfans.com/product/2/991905213307?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/IJ33uD6icBmlws5M6kVmKVJDQ2802SOh9yoQeB_QO6FDl0kWL42Hcw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2708,7 +2708,7 @@ const products = [
     price: "$11.25",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01xWayyE2IpUKYRcAgu_!!2212643669335.png",
     linkKakobuy: "https://ikako.vip/3ne6e",
-    linkUsfans: "https://usfans.com/product/2/924627845937?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/z-aYQFM6LABJddLOqF8RtlN1p1NYNM9XAr0Gkg7gr_vcEiQUItoscA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2718,7 +2718,7 @@ const products = [
     price: "$20.59",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01WNOvQf1gqu9vhs1qX_!!2215791284194.png",
     linkKakobuy: "https://ikako.vip/jsy98",
-    linkUsfans: "https://usfans.com/product/2/929461367636?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/9NovoUFpiOs98SJdmWKFPnh4B04YDXXbmA3qE32djzpSaHWblBvp8A?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2728,7 +2728,7 @@ const products = [
     price: "$20.59",
     image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN01CBZsge1gquBBxFzdl_!!2215791284194.png",
     linkKakobuy: "https://ikako.vip/jjvrj",
-    linkUsfans: "https://usfans.com/product/2/959891279366?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/TDhxe2S621PlrvR6zx66u-hy0Peu76w8ODsHM9vTaOx9CqrKRhWCBw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2738,7 +2738,7 @@ const products = [
     price: "$22.13",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/16/4699cea934b2176cbbf843445a475a75.jpg",
     linkKakobuy: "https://ikako.vip/p34fw",
-    linkUsfans: "https://usfans.com/product/2/980533061035?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/kUZ08XrE_cspZOpjhikzV4c1YdpHiGSlKYrearO8dXvKelD3efzCQw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2748,7 +2748,7 @@ const products = [
     price: "$19.04",
     image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01jJ8hET1RR3ZKEXxxg_!!2126072107.png",
     linkKakobuy: "https://ikako.vip/8z3nm",
-    linkUsfans: "https://usfans.com/product/2/914645926529?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/gOJqzOGiy1McKxZ3HqIz5H1lKzBppg8cMv0NlgZ6kOMlCM1APUSiMA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2788,7 +2788,7 @@ const products = [
     price: "$22.23",
     image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01St4jiG1RR3bSE8ugM~crop,156,0,858,1144~_!!2126072107.jpg",
     linkKakobuy: "https://ikako.vip/a6r8y",
-    linkUsfans: "https://usfans.com/product/2/979272611838?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/RPbUPCTcOuPsfUkktxVWv_QS1TNh49C_4F6BXthKcVz81qeXaNsBOw?ref=TX9V9N",
     tag: "BDSS / BEST",
     rating: 5
   },
@@ -2798,7 +2798,7 @@ const products = [
     price: "$15.83",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN018ydGoN1RR3bBHQ0VV_!!2126072107.jpg",
     linkKakobuy: "https://ikako.vip/wvszt",
-    linkUsfans: "https://usfans.com/product/2/972904238090?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/584MWNGhRnpSx9VpxFX1JBARHE7yP8y5IEmWVEFvW1gTAFpyFbzR0g?ref=TX9V9N",
     tag: "BDSS",
     rating: 5
   },
@@ -2808,7 +2808,7 @@ const products = [
     price: "$8",
     image: "https://img.alicdn.com/bao/uploaded/i4/3043413681/O1CN014K74s61d3x01hzmT4_!!3043413681.jpg",
     linkKakobuy: "https://ikako.vip/rzmpc",
-    linkUsfans: "https://usfans.com/product/2/963251434104?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/1rd0tqWy3-Rp7qjF_48KjrxkgrSPwjlnYM4YTQlLiU-1JU2irjYphA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2818,7 +2818,7 @@ const products = [
     price: "$11.08",
     image: "https://img.alicdn.com/bao/uploaded/i2/2217023441945/O1CN01jwviZQ1QErOaZ7YP8_!!2217023441945.jpg",
     linkKakobuy: "https://ikako.vip/ykfau",
-    linkUsfans: "https://usfans.com/product/2/909739019073?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/tRlPlzsftHHxIfVZBZOSNkuFago_cieVmdud5K46qeo-VumAfl0B1w?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2828,7 +2828,7 @@ const products = [
     price: "$20.89",
     image: "https://img.alicdn.com/bao/uploaded/i3/4169169639/O1CN01EB8QXG2L4ik5ZHuQp_!!4169169639.jpg",
     linkKakobuy: "https://ikako.vip/8j6ap",
-    linkUsfans: "https://usfans.com/product/2/926436516645?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/jeRFkJjzvz1crpH4WgKiLrka7dUig52d2vT1D-XwiKc0l9ltt4QzIQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2838,7 +2838,7 @@ const products = [
     price: "$11.33",
     image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01Ps8PHy2IpUEzjtIYL_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/x3sbe",
-    linkUsfans: "https://usfans.com/product/2/809731021003?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/UuLBPmgosrTQCNcuRCrgIg7fmViLS7XADaAhehE2ur2rq6hDTbk8GQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2848,7 +2848,7 @@ const products = [
     price: "$11.4",
     image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01QnSHXd2IpUHMH8zZ9_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/k8bhm",
-    linkUsfans: "https://usfans.com/product/2/848614907682?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/tOgXEwSO8fnUz6rWutjjXQHqHlVNiFZKVG5kHLg8HpwfzKQkdKnluQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2868,17 +2868,7 @@ const products = [
     price: "$15.78",
     image: "https://img.alicdn.com/bao/uploaded/i4/3954478424/O1CN01UiQ4y52C6FGCRraDv_!!3954478424.jpg",
     linkKakobuy: "https://ikako.vip/bf8de",
-    linkUsfans: "https://usfans.com/product/2/694918332693?ref=TX9V9N",
-    tag: "RANDOM",
-    rating: 5
-  },
-  {
-    name: "KANYE X GOSHA T-SHIRT",
-    category: "Tshirts",
-    price: "$16.93",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/21/2bf41571d198c15fa1cf1017c6e0ec77.jpg",
-    linkKakobuy: "https://ikako.vip/q7gsm",
-    linkUsfans: "https://usfans.com/product/3/7238881155?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/LLc5MpG-qvhy2q4Nvhmu1fdEHQhuiYtxMlR52pdSPy2VfBxF6LHeDw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2888,7 +2878,7 @@ const products = [
     price: "$11.26",
     image: "https://img.alicdn.com/bao/uploaded/i1/2218252751209/O1CN019PGXtm1KnlrjXlurh_!!2218252751209.jpg",
     linkKakobuy: "https://ikako.vip/n2rha",
-    linkUsfans: "https://usfans.com/product/2/867615196966?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/Ljo-CirNy3uJRvuTfCZxB3EV-HY-hZHo9X2umfyInRPihXK4MoKZCg?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2908,7 +2898,7 @@ const products = [
     price: "$11.36",
     image: "https://img.alicdn.com/bao/uploaded/i3/2212643669335/O1CN01DD6m0g2IpUExmmB9h_!!2212643669335.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D809631048361&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/809631048361?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/bEkqNyRBeBZ0kq14VlzdHP1rbxmPnPf24AxyKBqmlHwqbx_Vx1mhcw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2918,7 +2908,7 @@ const products = [
     price: "$11.23",
     image: "https://img.alicdn.com/bao/uploaded/i2/2212643669335/O1CN01fOFFsO2IpUKN3AGJI_!!2212643669335.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D921199812955&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/921199812955?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/etYSUSajmGUGE67bwWtO3Tw9mTNEQw2rj3NNxyaFRNT-VjWQ78rK-g?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2928,7 +2918,7 @@ const products = [
     price: "$11.39",
     image: "https://img.alicdn.com/bao/uploaded/i2/2212643669335/O1CN01REr0ZU2IpUMpVaF3f_!!2212643669335.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D981183457748&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/981183457748?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/me8LtoySNlVNPSE6swkLSdVp9gL82ojiQHWHBnOjPjBa9aN4Pp73QA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2938,7 +2928,7 @@ const products = [
     price: "$11.18",
     image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01fRcB0T2IpUKCsPfL2_!!2212643669335.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D916936678572&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/916936678572?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/bBRYszF2wLDd2DpQfm0f5j0YGd1uiHkvl9scDvAi742Sfgl66hqpSA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -2948,7 +2938,7 @@ const products = [
     price: "$12.88",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01FMzCwD2IpUHgIwuUr_!!2212643669335.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D808924265747&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/808924265747?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/e64q9n86XY8WhTcMMIGD7q_ToYr5hqwM5o3KBzIHR_QQJQo5afJQbA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -3478,7 +3468,7 @@ const products = [
     price: "$14.23",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/7/0e851edaa511445340d2cc680634c12d.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D910677881280&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/910677881280?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/dLwS_zV1ZxfPlKap5umsoJi6uDaRp1vK2iXRObAgUKtzNrdTAz6gNQ?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
   },
@@ -3488,7 +3478,7 @@ const products = [
     price: "$14.27",
     image: "https://img.alicdn.com/bao/uploaded/i1/3421444534/O1CN01CRPV8S1jMcmmySngs_!!3421444534.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D871616414168&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/871616414168?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/rvfYSM3LYbbO3al2Nzoy1CmxL1I_PYHRW0m7HC_RNrlX69U1n-WQig?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -3498,7 +3488,7 @@ const products = [
     price: "$14.31",
     image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01SSGrRX1FEtYp8DuZk_!!2943390456.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D793393698046&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/793393698046?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/yPSQhzoHbrAUI4LjjqKh3J2H8jJXPWEefSP-Y_juk1BSDmt9yGwFdw?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
   },
@@ -3508,7 +3498,7 @@ const products = [
     price: "$16",
     image: "https://img.alicdn.com/bao/uploaded/i4/3483485472/O1CN01YJgxSZ1qIEAuPPmwl_!!3483485472.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D752233274681&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/752233274681?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/tmrkLKCK0Tqr4QD3sYbOsko9iU-70dRutBVb7QWVrYIS7SkEI_2pZQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -3663,16 +3653,6 @@ const products = [
     rating: 5
   },
   {
-    name: "MOWALOLA TEE",
-    category: "Tshirts",
-    price: "$12.69",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/fa33bb85cfccf1a1301c1f1dcfba1fc5.jpg",
-    linkKakobuy: "https://ikako.vip/j88ww",
-    linkUsfans: "https://usfans.com/product/2/937854635977?ref=TX9V9N",
-    tag: "RANDOM",
-    rating: 5
-  },
-  {
     name: "DERSCHUTZE SHORTS",
     category: "Shorts",
     price: "$18.89",
@@ -3688,7 +3668,7 @@ const products = [
     price: "$11.33",
     image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01y9hoP42IpUIVFF2Tl_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/zsztp",
-    linkUsfans: "https://usfans.com/product/2/867979068621?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/o6BFskSG7IOPT0gFYcVc-YAnZYYxRRu0EFVVoMVG_ohj1FstorFKXg?ref=TX9V9N",
     tag: "RANDOM BATCH",
     rating: 4
   },
@@ -3698,7 +3678,7 @@ const products = [
     price: "$11.18",
     image: "https://img.alicdn.com/bao/uploaded/i1/1857205236/O1CN01Vd2GjE1oY8bwXxAzq_!!1857205236.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D699698744900&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/699698744900?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/6o2hByqGppZoGc6MtoknvTGFO35RHY1kBQMQQ2zFABkdHW-7o_0rOA?ref=TX9V9N",
     tag: "RANDOM BATCH",
     rating: 4
   },
@@ -3748,7 +3728,7 @@ const products = [
     price: "$11.52",
     image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01JsaxDn2IpUF05WMXl_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/ed8kr",
-    linkUsfans: "https://usfans.com/product/2/811257266296?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/X4fMpGEB30RTq1PI7lqU2vbgQoLmWT8DKOpZBpsxtcOYcnrwjhZTAw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 3
   },
@@ -3758,7 +3738,7 @@ const products = [
     price: "$32.19",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/30/58fb6d15c4033af0b330e43ab210efb8.jpg",
     linkKakobuy: "https://ikako.vip/xdmpq",
-    linkUsfans: "https://usfans.com/product/2/764799778569?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/-vY8TGwE5N-EU-xfcj2MUkaCLn7a0G0bMEnPFugP6VnPAprYYwXjsg?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -3788,7 +3768,7 @@ const products = [
     price: "$15.31",
     image: "https://media.usfans.com/PDA/674b546c-8c5e-43ba-8205-cb1503335d57.jpg",
     linkKakobuy: "https://ikako.vip/yxnu2",
-    linkUsfans: "https://usfans.com/product/2/1003882569724?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/XCaXbPFXlXSRYxw_x-lHzrkcQ_7_vIz4Vj6lGnlb9PvfY59aPnLpiO4?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
   },
@@ -3838,7 +3818,7 @@ const products = [
     price: "$16.24",
     image: "https://img.alicdn.com/bao/uploaded/i4/2652892586/O1CN01laq0eg1UyRHYWO6Ib_!!2652892586.jpg",
     linkKakobuy: "https://ikako.vip/p52x4",
-    linkUsfans: "https://usfans.com/product/2/927709845234?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/VrZxbGQeYynVYYV_zBQXLXFWMZWv_kbzIp4v2gqkO1-0fD31C-rg1w?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -3848,7 +3828,7 @@ const products = [
     price: "$11.16",
     image: "https://img.alicdn.com/bao/uploaded/i4/2652892586/O1CN016H5Gte1UyRGxJlwq7_!!2652892586.jpg",
     linkKakobuy: "https://ikako.vip/uar5d",
-    linkUsfans: "https://usfans.com/product/2/907865244699?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/iA68jUa7R9WOBT6oQS6PALvWBkp32_0wbsH6LVNqef68VS7741QQFg?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -3858,7 +3838,7 @@ const products = [
     price: "$12.91",
     image: "https://img.alicdn.com/bao/uploaded/i1/2652892586/O1CN01u9yYnP1UyRHDoVhtW_!!2652892586.jpg",
     linkKakobuy: "https://ikako.vip/8knn9",
-    linkUsfans: "https://usfans.com/product/2/915690722743?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/Ul9eCvIXVWhhN6e6BmIbwsb_LvOzuhpUcGeJNhxIYIBfnfn02CGhNw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -3868,7 +3848,7 @@ const products = [
     price: "$16.25",
     image: "https://img.alicdn.com/bao/uploaded/i1/2652892586/O1CN01k4BIlw1UyRIKCmCx1_!!2652892586.jpg",
     linkKakobuy: "https://ikako.vip/ujp77",
-    linkUsfans: "https://usfans.com/product/2/946392353863?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/2uZ1Crd--DhaoIx9Iw678UvvbxFrCRPLcLHVYWNBio88xCDJiTB1qA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
