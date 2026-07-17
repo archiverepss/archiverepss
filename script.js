@@ -2213,42 +2213,12 @@ const products = [
     rating: 5
   },
   {
-    name: "CORTEIZ BLACK MESH SHORTS",
-    category: "Shorts",
-    price: "$22.73",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/4c64ce089170c4d5a9c82d5cafa70ad4.jpg",
-    linkKakobuy: "https://ikako.vip/aaeeg",
-    linkUsfans: "https://usfans.com/product/3/7653850723?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  },
-  {
-    name: "CORTEIZ ISLAND BAGGY SHORTS",
-    category: "Shorts",
-    price: "$33.7",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/9/5d082decb4d5409a4e4b8a4a34d3462c.jpg",
-    linkKakobuy: "https://ikako.vip/aewkm",
-    linkUsfans: "https://usfans.com/product/3/7656868300?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  },
-  {
-    name: "CORTEIZ BLACK DENIM SHORTS",
-    category: "Shorts",
-    price: "$33.7",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/24/6509876c3cb9a058f071e50435beebbf.jpg",
-    linkKakobuy: "https://ikako.vip/szbk5",
-    linkUsfans: "https://usfans.com/product/3/7656885992?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  },
-  {
     name: "EE X WARREN LOTAS",
     category: "Shorts",
     price: "$13.11",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/9/28e8ba7b6df49759ebc80caedd80d1db.jpg",
     linkKakobuy: "https://ikako.vip/43fhs",
-    linkUsfans: "https://usfans.com/product/2/931510237309?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/rJRV_4sIjIRRZcMDKUmOPbYpuCIyZ6UJVTFQ_Fyh-diZStnhtEVOWQ?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
   },
@@ -2258,7 +2228,7 @@ const products = [
     price: "$12.96",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/01bdce96a23355117620332f72a225e2.jpg",
     linkKakobuy: "https://ikako.vip/a2vks",
-    linkUsfans: "https://usfans.com/product/2/923285722493?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/sMhfJDxuZ2WaIh5-fAmhkUmzd2iemm5qN2sPexl0PNlc6fZpTCxicA?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
   },
@@ -2268,7 +2238,7 @@ const products = [
     price: "$12.96",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/14/97ba7964e94d9e242c4e365d16c1953a.jpg",
     linkKakobuy: "https://ikako.vip/numeb",
-    linkUsfans: "https://usfans.com/product/2/938607895496?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/JlAxUQMzDBDJ5T-zWqSil4htWqBWl-OKyB0lHFqdI97Anq8L7wEhhg?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
   },
@@ -2278,39 +2248,9 @@ const products = [
     price: "$13.1",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/18/f1ba1d316fa6addab797657d25137b6d.jpg",
     linkKakobuy: "https://ikako.vip/tfdjm",
-    linkUsfans: "https://usfans.com/product/2/923145544750?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/OJxpAwxhKPPof77Ijs8s_aWZdh3HLfJqqi0zMv0U2f8TeSqhdrCL5Q?ref=TX9V9N",
     tag: "PIKA",
     rating: 5
-  },
-  {
-    name: "STUSSY DENIM SHORTS",
-    category: "Shorts",
-    price: "$26.08",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/13/bcbbb1ec06131880610df327ef2b5e0e.jpg",
-    linkKakobuy: "https://ikako.vip/k3smqt",
-    linkUsfans: "",
-    tag: "DRAGONREP",
-    rating: 4
-  },
-  {
-    name: "STUSSY SHORTS",
-    category: "Shorts",
-    price: "$11.34",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/9/f71877c8f60fce590a421f242c63e769.jpg",
-    linkKakobuy: "",
-    linkUsfans: "",
-    tag: "DRAGONREP",
-    rating: 4
-  },
-  {
-    name: "STUSSY SHORTS",
-    category: "Shorts",
-    price: "$17.72",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/24/e64c87aecf04d00955f26da2d09cfa76.jpg",
-    linkKakobuy: "",
-    linkUsfans: "",
-    tag: "DRAGONREP",
-    rating: 4
   },
   {
     name: "NIKE/JORDAN SHORTS",
@@ -2338,7 +2278,7 @@ const products = [
     price: "$26.63",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/15/e7881787353d393c62d2d66edc425982.jpg",
     linkKakobuy: "https://ikako.vip/fh3yp",
-    linkUsfans: "https://usfans.com/product/2/1003338779710?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/F2AFc2K7jRjudHcdlR1obZGPO83A_9SOpDqSvoT-rtg4ubgPLSVeDDU?ref=TX9V9N",
     tag: "HUSKY",
     rating: 4
   },
@@ -3538,7 +3478,7 @@ const products = [
     price: "$20.58",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/8/169e9be0be6b46be346a0746b27c7dd2.jpg",
     linkKakobuy: "https://ikako.vip/qka4w",
-    linkUsfans: "https://usfans.com/product/2/1019327460761?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/TunyDTZvdDb1Jb4HjXpUDPSfv7izcTAfZmdzrFTyFHljoTKEJf9YyT8",
     tag: "RANDOM/BUDGET",
     rating: 4
   },
@@ -3718,7 +3658,7 @@ const products = [
     price: "$27.89",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/29/99a5dfd17759aea546184e92b8b1fdf7.jpg",
     linkKakobuy: "https://ikako.vip/u94wn",
-    linkUsfans: "https://usfans.com/product/2/909290620880?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/jwTrkt58SdhQJq7pshNJNAJTfW5LyQEYAZ8N-hkT5S7PijCNN8-Jqg?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
   },
@@ -3908,37 +3848,7 @@ const products = [
     price: "$23.33",
     image: "https://img.alicdn.com/bao/uploaded/i1/2214514093/O1CN01WRTJl81g6e36HloDN_!!2214514093.jpg",
     linkKakobuy: "https://ikako.vip/wvhkv",
-    linkUsfans: "https://usfans.com/product/2/789887980434?ref=TX9V9N",
-    tag: "BUDGET",
-    rating: 3
-  },
-  {
-    name: "RICK OWENS GRADIENT SHORTS",
-    category: "Shorts",
-    price: "$26.99",
-    image: "https://img.alicdn.com/bao/uploaded/i2/2214514093/O1CN01iEDJZC1g6e7kkpdjk_!!2214514093.jpg",
-    linkKakobuy: "https://ikako.vip/yxrn9",
-    linkUsfans: "https://usfans.com/product/2/875908964217?ref=TX9V9N",
-    tag: "BUDGET",
-    rating: 3
-  },
-  {
-    name: "RICK OWENS SHORTS",
-    category: "Shorts",
-    price: "$21",
-    image: "https://img.alicdn.com/bao/uploaded/i1/2214514093/O1CN01epPMmB1g6e9ALeda3_!!2214514093.jpg",
-    linkKakobuy: "https://ikako.vip/fac4p",
-    linkUsfans: "https://usfans.com/product/2/912713355313?ref=TX9V9N",
-    tag: "BUDGET",
-    rating: 3
-  },
-  {
-    name: "RANDOM DENIM SHORTS (BUDGET)",
-    category: "Shorts",
-    price: "$7.62",
-    image: "https://media.usfans.com/2026/05/07/173333/5a408536-aa5e-4b39-88fa-7c50fef0ad29.jpg",
-    linkKakobuy: "https://ikako.vip/udz3k",
-    linkUsfans: "https://usfans.com/product/1/891767354081?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/dnav2SN_CO_xpS8RhwkI04a-nZYzFFtaaxktpGa1qnv3vxEFhEtR-g?ref=TX9V9N",
     tag: "BUDGET",
     rating: 3
   },
@@ -4168,7 +4078,7 @@ const products = [
     price: "$17.93",
     image: "https://img.alicdn.com/bao/uploaded/i3/2215032114223/O1CN01pQuK1h1h4BYVhoPD4_!!2215032114223.jpg",
     linkKakobuy: "https://ikako.vip/ktb6p",
-    linkUsfans: "https://usfans.com/product/2/811924496322?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/Zxtft2A94OjX2RjL1MhglF1JTahTBRGJAmviQkK0H7cl2wjGgYp70A?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
   },
@@ -4178,7 +4088,7 @@ const products = [
     price: "$14.53",
     image: "https://kk-oss-wh-sz.oss-cn-shenzhen.aliyuncs.com/whg/202605/12/3945f2d3ab1de19f8baf9cc439ceab15.jpg",
     linkKakobuy: "https://ikako.vip/gh5b9",
-    linkUsfans: "https://usfans.com/product/2/1037669402414?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/PcSS78OIM6cReuXcMwsH4u2fPbt_AxmbFCArKl79JMQE9dclhkWeAGU?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
   },
@@ -4388,17 +4298,7 @@ const products = [
     price: "$25.3",
     image: "https://media.usfans.com/2026/05/23/142933/b6d48b2d-de94-404f-a609-acc5b198c793.jpg",
     linkKakobuy: "https://ikako.vip/pzu29",
-    linkUsfans: "https://usfans.com/product/2/7Fb7e5Qcbcv3EUsrkyScL7pUChNG657L0lVe9EHx1RObrvx8EQrezco?ref=TX9V9N",
-    tag: "RANDOM",
-    rating: 5
-  },
-  {
-    name: "EPISODES SHORTS",
-    category: "Shorts",
-    price: "$27.13",
-    image: "https://img.alicdn.com/bao/uploaded/i2/3379237928/O1CN01GoYcX028R58zrO4H6_!!3379237928.jpg",
-    linkKakobuy: "https://ikako.vip/v3tabj",
-    linkUsfans: "https://usfans.com/product/2/1044510549433?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/PM6tiDfbG87SJAwG8ep260ftZsUfuPGU-oh2dp5CdlSE4GHW00L38mE?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -4408,7 +4308,7 @@ const products = [
     price: "$27",
     image: "https://media.usfans.com/2026/05/28/140344/a39cd1f4-9137-4d93-be2a-6dc1bc4e89fd.jpg",
     linkKakobuy: "https://ikako.vip/squp3",
-    linkUsfans: "https://usfans.com/product/2/997189996899?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/HbJnHVw4KIKSd9lNuiSox5_9IWnjSFeYodkPzjBqTCniJdgh-AuwFQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -4528,7 +4428,7 @@ const products = [
     price: "$18.17",
     image: "https://img.alicdn.com/imgextra/i4/808386976/O1CN01a1OAnh21P42TPyWAS_!!808386976.jpg",
     linkKakobuy: "https://ikako.vip/utghb",
-    linkUsfans: "https://usfans.com/product/2/935328729962?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/95Gr89py7T-zbc1gCOqeqf2P7M1IflH-jzDEmw9dOtGlfhCBaxwZhQ?ref=TX9V9N",
     tag: "UNIONKINGDOM",
     rating: 5
   },
@@ -4538,7 +4438,7 @@ const products = [
     price: "$16.80",
     image: "https://img.alicdn.com/bao/uploaded/i1/808386976/O1CN01J2lQZG21P3zB4jXlI_!!808386976.jpg",
     linkKakobuy: "https://ikako.vip/jrpkn",
-    linkUsfans: "https://usfans.com/product/2/846045056077?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/-7bVm2zG9qqtas2gP5SYtEoOc5n4Ua0dtAUDvEAlKMqoYE-l4btvUQ?ref=TX9V9N",
     tag: "UNIONKINGDOM",
     rating: 5
   },
@@ -4628,7 +4528,7 @@ const products = [
     price: "$9.03",
     image: "https://img.alicdn.com/bao/uploaded/i4/2730747287/O1CN01ctcimt23hV6YwB1Qo_!!2730747287.jpg",
     linkKakobuy: "https://ikako.vip/ngnws",
-    linkUsfans: "https://www.usfans.com/product/2/816787838126?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/Fp-ZLYIPTAh8mdX5ezq9cgx2SW-6WWiGsQJeF3rZfAgsdMlmCo_Avw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
