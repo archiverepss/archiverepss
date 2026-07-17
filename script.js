@@ -5932,6 +5932,46 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "NIKE ELITE BACKPACK",
+    category: "Accesories",
+    price: "$8.31",
+    image: "https://media.usfans.com/2026/07/17/172004/8419dbbf-4dd6-4b18-a9c9-4d524c5e8350.jpg",
+    linkKakobuy: "https://ikako.vip/e9bwm",
+    linkUsfans: "https://usfans.com/product/1/773949589656?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "UNDERCOVER 13AW BACKPACK",
+    category: "Accesories",
+    price: "$65",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2702114446/O1CN01mrcgiR1iiJwfboOsB_!!2702114446.jpg",
+    linkKakobuy: "",
+    linkUsfans: "https://usfans.com/product/2/rc-ZM3IvF86JpqxNJjr27A18EDCjDNksqv_YQ4r-_lExO1AT_PyUBw?ref=TX9V9N",
+    tag: "LUFU",
+    rating: 5
+  },
+  {
+    name: "SUPREME LEOPARD BACKPACK",
+    category: "Accesories",
+    price: "$27.60",
+    image: "https://media.usfans.com/2026/07/12/174444/c061b271-e2f4-4a38-af4a-77a6c736cbd6.jpg",
+    linkKakobuy: "",
+    linkUsfans: "https://usfans.com/product/2/HFOTg0uzbd-H9mtSSofdwKyxrStX2BymygYJe4JqEKOVbp1U7KE1Tg?ref=TX9V9N",
+    tag: "LUFU",
+    rating: 5
+  },
+  {
+    name: "MAYBACK SUNGLASSES",
+    category: "Accesories",
+    price: "$5.40",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01CnSQRZ1vHq2QHlEB8_!!2218760966148-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/frk2v",
+    linkUsfans: "https://usfans.com/product/1/870678623599?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
