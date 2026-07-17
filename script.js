@@ -5696,7 +5696,7 @@ const products = [
     name: "MAYBACH SUNGLASSES",
     category: "Belts",
     price: "$5.29",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01CnSQRZ1vHq2QHlEB8_!!2218760966148-0-cib.jpg",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01Wq9jFx1vHq2LPp1Ei_!!2218760966148-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/frk2vk",
     linkUsfans: "https://usfans.com/product/1/870678623599?ref=TX9V9N",
     tag: "BUDGET",
