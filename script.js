@@ -5244,7 +5244,7 @@ const products = [
   },
   {
     name: "NIKE BALACLAVA MASK",
-    category: "Accesories",
+    category: "Belts",
     price: "$5.91",
     image: "https://si.geilicdn.com/pcitem1234071531-67a900000196ce8609650a2303ee_3024_4032.jpg",
     linkKakobuy: "https://ikako.vip/kphat",
@@ -5364,7 +5364,7 @@ const products = [
   },
   {
     name: "UNDERCOVER 13AW BACKPACK",
-    category: "accesories",
+    category: "Belts",
     price: "$63.77",
     image: "https://img.alicdn.com/bao/uploaded/i1/2702114446/O1CN01mrcgiR1iiJwfboOsB_!!2702114446.jpg",
     linkKakobuy: "https://ikako.vip/9zhag",
@@ -5374,7 +5374,7 @@ const products = [
   },
   {
     name: "SUPREME LEOPARD BACKPACK",
-    category: "accesories",
+    category: "Accesories",
     price: "$27.01",
     image: "https://media.usfans.com/2026/06/21/095541/20458839-19d8-4fb7-991a-77d6fa37dbdf.jpg",
     linkKakobuy: "https://ikako.vip/pecmm",
@@ -5694,7 +5694,7 @@ const products = [
   },
   {
     name: "MAYBACH SUNGLASSES",
-    category: "Accesories",
+    category: "Belts",
     price: "$5.29",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01CnSQRZ1vHq2QHlEB8_!!2218760966148-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/frk2vk",
@@ -5934,7 +5934,7 @@ const products = [
   },
   {
     name: "NIKE ELITE BACKPACK",
-    category: "Accesories",
+    category: "Belts",
     price: "$8.31",
     image: "https://media.usfans.com/2026/07/17/172004/8419dbbf-4dd6-4b18-a9c9-4d524c5e8350.jpg",
     linkKakobuy: "https://ikako.vip/e9bwm",
