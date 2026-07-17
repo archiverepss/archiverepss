@@ -2978,7 +2978,7 @@ const products = [
     price: "$36",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/27/877099cfac8f23bb9f89f10d4a7561a9.jpg",
     linkKakobuy: "https://ikako.vip/jfr3x",
-    linkUsfans: "https://usfans.com/product/2/920680193778?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/EO_6d43RfJIq4eYBcC0T1zXWj8aGxTodImx_ALnYI5bOh70C913RZw?ref=TX9V9N",
     tag: "PENGREPS / BEST",
     rating: 5
   },
@@ -2988,7 +2988,7 @@ const products = [
     price: "$33",
     image: "https://img.alicdn.com/bao/uploaded/i1/1854157063/O1CN01w8zgPc222uSmzxiKS_!!1854157063.jpg",
     linkKakobuy: "https://ikako.vip/jadt8",
-    linkUsfans: "https://usfans.com/product/2/915474343233?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/gm4AtS-qEmEOaYrLYfS4dgB3hD7f1fvL1GZN0mjwZm1liwfkM-wYOw?ref=TX9V9N",
     tag: "PENGREPS / BEST",
     rating: 5
   },
@@ -2998,7 +2998,7 @@ const products = [
     price: "$42",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/28/01c50d2925f56d4836c9bd496afc6501.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D975518273866&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/975518273866?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/HvDljn5Plh7veC9zjz7Oo1lTiFO7wz0iKhZjwnShdrZqcGCOvZv6Bg?ref=TX9V9N",
     tag: "REPBROS / BEST",
     rating: 5
   },
@@ -3008,7 +3008,7 @@ const products = [
     price: "$39",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/28/35262d6361a5fdfd130146e16d92089f.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D974299403094&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/974299403094?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/82NJkHxSAoUB1AW-IUE4Xm4p6865LdgwfrhhxGhmJ3w54lDqQhk2jQ?ref=TX9V9N",
     tag: "REPBROS / BEST",
     rating: 5
   },
@@ -3018,7 +3018,7 @@ const products = [
     price: "$40",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/20/08e16a9401ebe00c2643f5d1e4150eff.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D975522325315&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/975522325315?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/zYwZrcxEswIX0bUjy0YyraFg_axOXgfHt362IHequhyaOWBC4FzpPQ?ref=TX9V9N",
     tag: "REPBROS / BEST",
     rating: 5
   },
@@ -3028,7 +3028,7 @@ const products = [
     price: "$42",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/8f30df14c597686ba901499db9dc7cce.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D974788342665&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/974788342665?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/c5ZfooOLwKlPlGXfS4EAEzG2UgsMqOaeKbIsAVGEtmpmmzF9af1xBg?ref=TX9V9N",
     tag: "REPBROS / BEST",
     rating: 5
   },
@@ -3039,16 +3039,6 @@ const products = [
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/29/9ba1aab474da34577ab50582277951da.jpg",
     linkKakobuy: "https://ikako.vip/3hu3p",
     linkUsfans: "https://usfans.com/product/3/7653809265?ref=TX9V9N",
-    tag: "GOAT / BEST",
-    rating: 5
-  },
-  {
-    name: "CORTEIZ ALCATRAZ YELLOW HOODIE",
-    category: "Hoodies",
-    price: "$33",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/12/06ef6f109e7297a40f61ff3bb510d442.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1833725707.v.weidian.com%2Fitem.html%3FitemID%3D7656856394&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7656856394?ref=TX9V9N",
     tag: "GOAT / BEST",
     rating: 5
   },
@@ -3068,7 +3058,7 @@ const products = [
     price: "$41",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/26/336f42209aa9b110214507fcadaef5bc.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D841606251822&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/841606251822?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/Lgx9uX5UtnRZQYoI_5L0n_GHbrwRtSKILMpA9JFeX_ZT5tTWf1SXNA?ref=TX9V9N",
     tag: "PAIKI",
     rating: 5
   },
@@ -3078,19 +3068,9 @@ const products = [
     price: "$25.19",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01VhYQHf2IpUFI208vJ_!!2212643669335.png",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D817686026285&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/817686026285?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/CfPA3nokWYMWSH1uL2cpwXzZAXxgss-fVnfBg9AFbOCr_CoHTwGpFA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  },
-  {
-    name: "808VISION HOODIE",
-    category: "Hoodies",
-    price: "$38.65",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/29/c5508179bbb9b4dbd5f652cb78666e98.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1006072606020&affcode=archivee",
-    linkUsfans: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1006072606020&affcode=archivee",
-    tag: "DRAGONREP",
-    rating: 5
   },
   {
     name: "ARTIEMASTER BLANK HOODIE'S (A LOT OF CW)",
@@ -3118,7 +3098,7 @@ const products = [
     price: "$16",
     image: "https://img.alicdn.com/bao/uploaded/i1/2217964616975/O1CN01c4f4jN21ObaS8Vpwo_!!2217964616975.jpg",
     linkKakobuy: "https://ikako.vip/dng5f3",
-    linkUsfans: "https://usfans.com/product/2/865858886069?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/jMC77I5VnhoqXy_QLTa0arfZsC5610QghIQoccdl2eh0GsSZLjrgVQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -3138,19 +3118,9 @@ const products = [
     price: "$25.50",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01X2kFIu2IpUFUNdM2m_!!2212643669335.png",
     linkKakobuy: "https://ikako.vip/gweh5",
-    linkUsfans: "https://usfans.com/product/2/818702710082?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/FnCIceteL_94AZb6pzuTQchFZZ5cZyfkKF44Ys-ugqSE0xLPHHMx2A?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  },
-  {
-    name: "6PM X TRUE RELIGION HOODIE",
-    category: "Hoodies",
-    price: "$34.5",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/16/224a509609ddef3f69f4bceadbb48eb6.jpg",
-    linkKakobuy: "https://ikako.vip/dwk5g",
-    linkUsfans: "https://usfans.com/product/3/7342451364?ref=TX9V9N",
-    tag: "HOTDOG / BEST",
-    rating: 5
   },
   {
     name: "LOEWE ZIP UP HOODIE",
@@ -3178,7 +3148,7 @@ const products = [
     price: "$32.17",
     image: "https://img.alicdn.com/bao/uploaded/i4/2687803572/O1CN01FhgslU1cG1sGFeTNn_!!2687803572.jpg",
     linkKakobuy: "https://ikako.vip/s5ej2",
-    linkUsfans: "https://usfans.com/product/2/1031594048572?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/El6e0PriPjBkdgw7tCUnpnkoH6yrEKjBhcfQ3P9eJMMpMjtez-QUzPs?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
   },
@@ -3208,7 +3178,7 @@ const products = [
     price: "$33.5",
     image: "https://img.alicdn.com/bao/uploaded/i2/2687803572/O1CN014myot71cG1sFmRZBR_!!2687803572.jpg",
     linkKakobuy: "https://ikako.vip/cawfg",
-    linkUsfans: "https://usfans.com/product/2/1030780349209?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/ydBljn5cvxKYWdJLI9fa38tYIBNpv7Jzm9TlbVCe6yTxcCdMIlvAUo8?ref=TX9V9N",
     tag: "ALIENSTUDIO / BEST",
     rating: 5
   },
@@ -3358,7 +3328,7 @@ const products = [
     price: "$25",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01gWT2HW1RR3afrvxpb_!!2126072107.jpg",
     linkKakobuy: "https://ikako.vip/65udt",
-    linkUsfans: "https://usfans.com/product/2/962213368084?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/eaqwjm9odEgyNErC4q7e7KSae58JG9gHIkZGvu8f6gMGMdkpbF-woA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -3368,7 +3338,7 @@ const products = [
     price: "$17.5",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/25/4d3ff2a9c2d42750e25ac0869365b6af.jpg",
     linkKakobuy: "https://ikako.vip/typeg",
-    linkUsfans: "https://usfans.com/product/2/735147769437?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/XCzUrhovyP869Z8vtr25pPBiZckHRWd05uLFVe632vq63QmzB6CQDw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -3388,7 +3358,7 @@ const products = [
     price: "$40",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202510/12/020e3d1b4f980b0bc2087f8e2292af57.jpg",
     linkKakobuy: "https://ikako.vip/yjb6t",
-    linkUsfans: "https://usfans.com/product/2/943139379074?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/Fr4389oSLSIT1BL7wKWG3jXAuSEOoPygQLZORo4-h3QnuYF686l8EA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
   },
@@ -3398,19 +3368,9 @@ const products = [
     price: "$17.42",
     image: "https://img.alicdn.com/bao/uploaded/i2/2075710764/O1CN01J9qQW51HVxdjUi5Yc_!!2075710764.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D906486784153&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/906486784153?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/zQNcXnycjDueGvUlpgsP2JvOyx1d5Cs4yofcw1vZZz5OBqNXWV85ug?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  },
-  {
-    name: "ERD CREWNECK",
-    category: "Hoodies",
-    price: "$45",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/11/dcc2f9e77b00e9509c66c55e770f7d33.jpg",
-    linkKakobuy: "https://ikako.vip/x6fpu",
-    linkUsfans: "https://ikako.vip/x6fpu",
-    tag: "BDSJ / BEST",
-    rating: 5
   },
   {
     name: "MM KNIT ZIP UP",
@@ -3418,7 +3378,7 @@ const products = [
     price: "$22.38",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/11/dd80e2246adf1ccbb16ea8dadd758a26.jpg",
     linkKakobuy: "https://ikako.vip/42939",
-    linkUsfans: "https://usfans.com/product/2/752666734936?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/Z0SuCSaweQeALLAFEkuTtXIL4ngh8xaMSZGxV-IJ954f17knHRoLmg?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -3438,7 +3398,7 @@ const products = [
     price: "$22.24",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/2/d198911674bc2f0414fd477145dc6a54.jpg",
     linkKakobuy: "https://ikako.vip/mzute",
-    linkUsfans: "https://usfans.com/product/2/868149506390?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/_Pc1NfEjyCOzZkA3crr18WDrvo1k_rcOIjPTB8zxFVIcrXd3weaANg?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -3448,7 +3408,7 @@ const products = [
     price: "$18.76",
     image: "http://img.alicdn.com/imgextra/i4/2217964616975/O1CN01KzYlGH21ObetuoSGL_!!2217964616975.jpg",
     linkKakobuy: "https://ikako.vip/65v9v",
-    linkUsfans: "https://ikako.vip/65v9v",
+    linkUsfans: "https://usfans.com/product/2/pYh4LVSUD2DITEoQBL1pajaFDfI6Lrw8_as2JrxWxy64Dmi8BrWSPw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -3493,34 +3453,14 @@ const products = [
     rating: 4
   },
   {
-    name: "AKIMBO CLUB HOODIE",
-    category: "Hoodies",
-    price: "$22.53",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/30/96f7605dd9e294245bb0b2dc6e89acd9.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D902000743084&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/902000743084?ref=TX9V9N",
-    tag: "MadMan",
-    rating: 4
-  },
-  {
     name: "WLNEXT ZIP UP HOODIE",
     category: "Hoodies",
     price: "$32.38",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/16/f559eea0e0c0d63617688c5672e4b297.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D749224137219&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/749224137219?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/UbQ5GUd4d5rbhoKmKiQWXDm9SSwkZkjox6SxFO6nU0rFLvy4x0MNYg?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
-  },
-  {
-    name: "UVU TOSCANA HOODIE",
-    category: "Hoodies",
-    price: "$31.44",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/10/ba00e9190330410d93402aad33c67de1.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7508712321&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7508712321?ref=TX9V9N",
-    tag: "PENGREPS / BEST",
-    rating: 5
   },
   {
     name: "UVU INSIGNA ZIP UP HOODIE",
@@ -3530,16 +3470,6 @@ const products = [
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7513593962&affcode=archivee",
     linkUsfans: "https://usfans.com/product/3/7513593962?ref=TX9V9N",
     tag: "PENGREPS / BEST",
-    rating: 5
-  },
-  {
-    name: "ARTE HOODIE",
-    category: "Hoodies",
-    price: "$25.16",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202510/23/5c3d05cf5d2238ca7afc52233acc681a.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D962640498751&affcode=archivee",
-    linkUsfans: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D962640498751&affcode=archivee",
-    tag: "RANDOM",
     rating: 5
   },
   {
@@ -3618,7 +3548,7 @@ const products = [
     price: "$23.9",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01CfgW5P1FEtiXMb5Wz~crop,0,128,768,768~_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/dh5zs",
-    linkUsfans: "https://usfans.com/product/2/995510864704?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/4xA_HlpywrEHAif4zXPBTQkWCBDvDwoWxzo_NigDbUXjGW0a0I2PQQ?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
   },
@@ -3673,16 +3603,6 @@ const products = [
     rating: 4
   },
   {
-    name: "UNDERCOVER EVANGELION CREWNECK",
-    category: "Hoodies",
-    price: "$21.73",
-    image: "https://img.alicdn.com/imgextra/i2/2219806430381/O1CN01bP0Cfh1EgXznL0xTI_!!2219806430381.jpg",
-    linkKakobuy: "https://ikako.vip/b6p3y",
-    linkUsfans: "https://usfans.com/product/2/1037334046765?ref=TX9V9N",
-    tag: "RANDOM BATCH",
-    rating: 4
-  },
-  {
     name: "BALENCIAGA BRITNEY T-SHIRT",
     category: "Tshirts",
     price: "$14.17",
@@ -3708,7 +3628,7 @@ const products = [
     price: "$56.83",
     image: "https://img.alicdn.com/bao/uploaded/i4/2210299185015/O1CN01ZfxYcp1muvO3pGJrk_!!2210299185015.jpg",
     linkKakobuy: "https://ikako.vip/vuqaj",
-    linkUsfans: "https://usfans.com/product/2/809389387349?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/8D_kkGCsLwOWp0TwDBSStVS0pWEyCN_RPkERsuihbCNDLUNoq0VIHg?ref=TX9V9N",
     tag: "VOGUE / BEST",
     rating: 5
   },
@@ -4048,7 +3968,7 @@ const products = [
     price: "$41.79",
     image: "https://img.alicdn.com/bao/uploaded/i1/2214138141153/O1CN01Zd7aLN1KO7frE6Zq6_!!2214138141153.jpg",
     linkKakobuy: "https://ikako.vip/k8b78",
-    linkUsfans: "https://usfans.com/product/2/854094671445?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/YgBKIVtgE0USTIgTN0BP6Ep7p8boPhZvSvUK7vMmn6fpgEGS6SwFdA?ref=TX9V9N",
     tag: "PIKA / BEST",
     rating: 5
   },
@@ -4058,7 +3978,7 @@ const products = [
     price: "$41.64",
     image: "https://img.alicdn.com/bao/uploaded/i3/2214138141153/O1CN01dZSjyu1KO7ftRrtq2_!!2214138141153.jpg",
     linkKakobuy: "https://ikako.vip/wsk2y",
-    linkUsfans: "https://usfans.com/product/2/854720277160?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/KahhwWWZ_Hpg3KYRujpWnefv6ft09WEfAJBSyunEoXmTzLJT8JPwZw?ref=TX9V9N",
     tag: "PIKA / BEST",
     rating: 5
   },
@@ -4068,7 +3988,7 @@ const products = [
     price: "$47.25",
     image: "https://img.alicdn.com/bao/uploaded/i2/2210299185015/O1CN01BGpy2z1muvO3peHpG~crop,62,0,1875,2500~_!!2210299185015.jpg",
     linkKakobuy: "https://ikako.vip/mja3n",
-    linkUsfans: "https://usfans.com/product/2/844916341750?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/Fd1c8ugdUYJdOqfVJKrDbTpXnCA_WHR7Odv5BjmYJ06sl9NJQL2LEw?ref=TX9V9N",
     tag: "VOGUE",
     rating: 5
   },
@@ -4078,7 +3998,7 @@ const products = [
     price: "$40.24",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/10/a9a1d806eab5088cb01d8e8955a6bbfa.jpg",
     linkKakobuy: "https://ikako.vip/t5b3z",
-    linkUsfans: "https://usfans.com/product/2/968237571225?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/y17tXzUKK2pGEr587rgLfpNNLumgGW_JaF1JzVqA6OUkEZpl_uha1A?ref=TX9V9N",
     tag: "(RANDOM) HONGSHENG",
     rating: 4
   },
@@ -4268,7 +4188,7 @@ const products = [
     price: "$28.20",
     image: "https://media.usfans.com/PDA/933b891c-df44-4061-8435-77dab1696a7b.jpg",
     linkKakobuy: "https://ikako.vip/hmwac",
-    linkUsfans: "https://usfans.com/product/2/939189723127?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/UBsDSdT1TpBQTHdBylOGrSe96lq4qkJKy9s2jkEl4_6sQUtJad427A?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
   },
@@ -4278,7 +4198,7 @@ const products = [
     price: "$40",
     image: "https://media.usfans.com/images/qc/20250806/2138c20a30e8452f9412aff29b1e7840.png",
     linkKakobuy: "https://ikako.vip/uxf3j",
-    linkUsfans: "https://usfans.com/product/2/811387802141?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/4AjtRshm9Vl-Y7G77a1FpSDEJeU9DTbLLtkpic65gGNqOgHSMWLYvQ?ref=TX9V9N",
     tag: "LMYER (BUDGET)",
     rating: 4
   },
@@ -4288,7 +4208,7 @@ const products = [
     price: "$41.3",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN013eXWen1FEtiXWjEzR_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/t9by3",
-    linkUsfans: "https://usfans.com/product/2/1003542169569?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/M68_j82DYoMBAJcKMH1EnSqvgQ27ZM_tz4qRz33XczL3qcurkYaLcJA?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
   },
@@ -4298,7 +4218,7 @@ const products = [
     price: "$39.70",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01lljFWz1FEti0CWjky_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/d7esy",
-    linkUsfans: "https://usfans.com/product/2/992561433919?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/ZpzCLwY9lEKc80JohcSnF9QK4JNPdvYbUu8ONJ_Mr2Ck1LfdkyPdSw?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
   },
@@ -4328,7 +4248,7 @@ const products = [
     price: "$42",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01k7uYHE1CUymOrdtsb_!!2025450085.jpg",
     linkKakobuy: "https://ikako.vip/bpu4z",
-    linkUsfans: "https://usfans.com/product/2/1008505432114?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/XV7z5iKwlW5i42pTr3sHMV0SA960DnCHWd0U-SEVPqh5WE933KlVeQU?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
   },
@@ -4338,7 +4258,7 @@ const products = [
     price: "$29.30",
     image: "https://img.alicdn.com/bao/uploaded/i1/2201204187410/O1CN019cbovH24bpvivIIMI_!!2201204187410.jpg",
     linkKakobuy: "https://ikako.vip/7hdhp",
-    linkUsfans: "https://usfans.com/product/2/963949247487?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/_LLqQ6XcSbS_83eCssBmoHf-rd682uSpdtK1t-JJMvfimjd4bKWjvg?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -4358,7 +4278,7 @@ const products = [
     price: "$45",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01DGYwMU1CUymk76PsQ_!!2025450085.jpg",
     linkKakobuy: "https://ikako.vip/95je3",
-    linkUsfans: "https://usfans.com/product/2/1015301702523?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/H3iMnCejHNJBnfllgoL4tLBdDeO8M6FnwcyTF7_RT4_3O8_1NquWu7Q?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
   },
@@ -4368,7 +4288,7 @@ const products = [
     price: "$33.40",
     image: "https://img.alicdn.com/bao/uploaded/i2/2331597012/O1CN018M7wHr21fXw2nj6k3_!!2331597012.jpg",
     linkKakobuy: "https://ikako.vip/qn8cw",
-    linkUsfans: "https://usfans.com/product/2/661195309016?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/oyIFJ3FKG7wUuEWiXAZg-qDJ7XL0SsOYBUHXvifHr3JeMR7sBmdVKg?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -4428,7 +4348,7 @@ const products = [
     price: "$39.80",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01AGOZZK1gquAThWfPH_!!2215791284194.png",
     linkKakobuy: "https://ikako.vip/2xrf5",
-    linkUsfans: "https://usfans.com/product/2/944909218387?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/XKrSQqMgK60C3IAyzs9M-mXhDJuywRGQhy-mGphkzq9woem9cSf9zA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 3
   },
@@ -4438,7 +4358,7 @@ const products = [
     price: "$15",
     image: "https://img.alicdn.com/bao/uploaded/i3/2143400835/O1CN01beGPqa1I2TnO0gceR~crop,0,180,1440,1440~_!!2143400835.jpg",
     linkKakobuy: "https://ikako.vip/753yw",
-    linkUsfans: "https://usfans.com/product/2/961940659964?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/QJ1Iy4YEzVd2LF-mEbd0-EXqa_JjXl8KfwM69h5tf53HHvNDbeU1uA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 3
   },
@@ -5168,7 +5088,7 @@ const products = [
     price: "$40.83",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01k7uYHE1CUymOrdtsb_!!2025450085.jpg",
     linkKakobuy: "https://ikako.vip/bpu4z",
-    linkUsfans: "https://usfans.com/product/2/1008505432114?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/1NbxIIwe1wxHmQY_a7X6sKELO2i_WPHAhplPonLz049YSHBT9C8z1jg?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
   },
