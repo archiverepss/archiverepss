@@ -5374,7 +5374,7 @@ const products = [
   },
   {
     name: "SUPREME LEOPARD BACKPACK",
-    category: "Accesories",
+    category: "Belts",
     price: "$27.01",
     image: "https://media.usfans.com/2026/06/21/095541/20458839-19d8-4fb7-991a-77d6fa37dbdf.jpg",
     linkKakobuy: "https://ikako.vip/pecmm",
