@@ -5972,6 +5972,26 @@ const products = [
     tag: "RANDOM/BUDGET",
     rating: 5
   },
+  {
+    name: "COUGH SYRUP TEE",
+    category: "Tshirts",
+    price: "$15.50",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2214138141153/O1CN01yHxiLt1KO7f5Wgt3B_!!2214138141153.jpg",
+    linkKakobuy: "https://usfans.com/product/2/T_dLPYyWf6bP4dNUDseZrRaqFr2wuPZZHYVwQ97XIOUowiehu4s0gg?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/T_dLPYyWf6bP4dNUDseZrRaqFr2wuPZZHYVwQ97XIOUowiehu4s0gg?ref=TX9V9N",
+    tag: "PIKA",
+    rating: 5
+  },
+  {
+    name: "SATOSHI NAKAMOTO T-SHIRTS",
+    category: "Tshirts",
+    price: "$13",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01fXhiwm2DYw1mEkKOt_!!2210892998622-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/zctn7",
+    linkUsfans: "https://usfans.com/product/1/1049179417188?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
