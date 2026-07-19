@@ -5992,6 +5992,106 @@ const products = [
     tag: "RANDOM/BUDGET",
     rating: 5
   },
+  {
+    name: "BLEOOD MERCH TEE",
+    category: "Tshirts",
+    price: "$11.91",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01DrxRvd2IpUQDbpEUV_!!2212643669335.jpg",
+    linkKakobuy: "https://usfans.com/product/2/KhZHCpXUN9d7Qq2T71fbGEy2D4GqvgjjlvslKjyrkEE7auNcTgKQNIo?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/KhZHCpXUN9d7Qq2T71fbGEy2D4GqvgjjlvslKjyrkEE7auNcTgKQNIo?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NE NE CAT TEE",
+    category: "Tshirts",
+    price: "$9.48",
+    image: "https://img.alicdn.com/bao/uploaded/i3/3965754257/O1CN01ZhzNMn1hJkjaj2ias_!!3965754257.jpg",
+    linkKakobuy: "https://usfans.com/product/2/4f6Cyc9fxtucAMssp9H849AO-X25qcn89SY7zwvOn44vDXDQI-1OSQ?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/4f6Cyc9fxtucAMssp9H849AO-X25qcn89SY7zwvOn44vDXDQI-1OSQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "PROJECT GR TEE",
+    category: "Tshirts",
+    price: "$8.70",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01evpew61nsSt3if6G3_!!2215853495145-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/uqkzuz",
+    linkUsfans: "https://usfans.com/product/1/950112519813?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "130 BACKPACK",
+    category: "Belts",
+    price: "$35.75",
+    image: "https://media.usfans.com/2026/07/18/170304/010e5364-9a2b-4f8b-bea2-38673d7ad2f9.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7737174343?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7737174343?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "RANDOM DENIM SHORTS",
+    category: "Shorts",
+    price: "$14.36",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2212336833369/O1CN01A220WO1al3Jl7BKA9_!!2212336833369.jpg",
+    linkKakobuy: "https://usfans.com/product/2/MIS25rkHkrMuoFc6tBU9MM3C1e5IIH_wQ249k0lPYU_zK9Nsm-DCpA?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/MIS25rkHkrMuoFc6tBU9MM3C1e5IIH_wQ249k0lPYU_zK9Nsm-DCpA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RANDOM FLARED JEANS",
+    category: "Pants",
+    price: "$19.58",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2212336833369/O1CN018q00CO1al3R2ZbvbO_!!2212336833369.jpg",
+    linkKakobuy: "https://usfans.com/product/2/UimTYS-yTE7Fekqmxhj-lef-EJw_flpb-9wBw2yLPGE1Gn9iTg0vHQ?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/UimTYS-yTE7Fekqmxhj-lef-EJw_flpb-9wBw2yLPGE1Gn9iTg0vHQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RANDOM LOOSE FIT PANTS",
+    category: "Pants",
+    price: "$17.13",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2212336833369/O1CN01mhltm71al3RCj1l2I_!!2212336833369.jpg",
+    linkKakobuy: "https://usfans.com/product/2/91NPilR7T6VYFcRLEkzCvT8Hitl8vW6wUWHLcZ1T53BOF68Ceatl5Q?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/91NPilR7T6VYFcRLEkzCvT8Hitl8vW6wUWHLcZ1T53BOF68Ceatl5Q?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SAINT HOODIE",
+    category: "Hoodies",
+    price: "$30.20",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2247438892/O1CN01oJw7LL2FYabKfGBk0_!!2247438892.jpg",
+    linkKakobuy: "https://usfans.com/product/2/Ymoql3RXWc5_GfdEy5e4oxHxOD6jufaBT2dIoEvFTHejKF12oxKlAg?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/Ymoql3RXWc5_GfdEy5e4oxHxOD6jufaBT2dIoEvFTHejKF12oxKlAg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NEW ERA HATS",
+    category: "Belts",
+    price: "$3.23",
+    image: "https://kk-oss-wh-hk.kakobuy.com/whg/202607/19/053ce9c5101c6443970ee536a41642b3.jpg",
+    linkKakobuy: "https://ikako.vip/6bfmy",
+    linkUsfans: "https://usfans.com/product/1/810086892559?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "CHROME HEARTS HAT",
+    category: "Belts",
+    price: "$6.40 - $9",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN0168M0uD29eeK5sedyq_!!2217633678093-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/84m6k",
+    linkUsfans: "https://usfans.com/product/1/805053010175?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
