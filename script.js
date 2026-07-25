@@ -6092,6 +6092,36 @@ const products = [
     tag: "RANDOM / BUDGET",
     rating: 5
   },
+  {
+    name: "YUNG LEAN HOODIE",
+    category: "Hoodies",
+    price: "$16",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2218252751209/O1CN0158hGvr1KnlpwDc2wd_!!2218252751209.jpg",
+    linkKakobuy: "https://ikako.vip/qjbsu",
+    linkUsfans: "https://usfans.com/product/2/DYJvw2Rke75lEuUHlDhzrBbuSiLq6hUgaQZKmU5HdTRb9NvObxUgSw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BEAUTY BEAST HOODIE",
+    category: "Hoodies",
+    price: "$55",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01BKn7T21CUylkAXTqU_!!2025450085.jpg",
+    linkKakobuy: "https://ikako.vip/4m4qw",
+    linkUsfans: "https://usfans.com/product/2/G1mD5h0P7rDCRoJDxmxP8CfF8QAil_4WfwFYlw9hwqI2eV5J_1E4dA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "AF1",
+    category: "Shoes",
+    price: "$16.32",
+    image: "https://si.geilicdn.com/pcitem1994488306-15000000019ac0f88fb60a23057e_1440_1440.jpg",
+    linkKakobuy: "https://ikako.vip/y6dtn",
+    linkUsfans: "https://usfans.com/product/3/7617089695?ref=TX9V9N",
+    tag: "G / YOLO",
+    rating: 5
+  },
 ];
 
 // ============================================
