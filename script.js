@@ -6122,6 +6122,56 @@ const products = [
     tag: "G / YOLO",
     rating: 5
   },
+  {
+    name: "CRYSTAL CASTLES TEE",
+    category: "Tshirts",
+    price: "$21",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01m8fqdg1gquDjljkZ0_!!2215791284194.png",
+    linkKakobuy: "https://ikako.vip/ynbfd2",
+    linkUsfans: "https://usfans.com/product/2/rLYWTHifi4N8pop1uzRSKUXIUR-vGHnZ1tH55q_UwKtoRmwCUokyikM?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "VIVIENE WESTWOOD TEE",
+    category: "Tshirts",
+    price: "$24.20",
+    image: "https://si.geilicdn.com/wdseller2075092115-75cc0000019f54d4c1060a231177_1170_1560.jpg",
+    linkKakobuy: "https://ikako.vip/kv4pz",
+    linkUsfans: "https://usfans.com/product/3/7805590739?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "LGB HOODIE",
+    category: "Hoodies",
+    price: "$44",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2221168735348/O1CN01wl0cxc1pNRGX3Q372_!!2221168735348.jpg",
+    linkKakobuy: "https://ikako.vip/8wtqc",
+    linkUsfans: "https://usfans.com/product/2/6Ln7NHibuqZ2oARzQjX97C--id9ed9qxPT49G8sgjMS77eQGc3w7JQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "UNDERCOVER HOODIE",
+    category: "Hoodies",
+    price: "$27.50 - $29.10",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2215133707687/O1CN01PPUhWh26eheZJS7Zo_!!2215133707687.jpg",
+    linkKakobuy: "https://ikako.vip/4avsj",
+    linkUsfans: "https://usfans.com/product/2/UIDxbD1Sw-3uNaa8kWz9f0NcW_7RPadHj4yWmnzVljx-2W_Abj8vEw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SLP SHOES",
+    category: "Shoes",
+    price: "$91.40",
+    image: "https://si.geilicdn.com/wdseller901910887734-25820000019c19f5d6b20a23111a_1290_968.jpg",
+    linkKakobuy: "https://ikako.vip/ptxkc",
+    linkUsfans: "https://usfans.com/product/3/7685299198?ref=TX9V9N",
+    tag: "ANON",
+    rating: 5
+  },
 ];
 
 // ============================================
