@@ -6172,6 +6172,66 @@ const products = [
     tag: "ANON",
     rating: 5
   },
+  {
+    name: "NUMBER NINE HOODIE",
+    category: "Hoodies",
+    price: "$43.80",
+    image: "https://media.usfans.com/2026/07/13/135145/880b6063-31c3-45da-b086-356502eb4832.jpg",
+    linkKakobuy: "https://ikako.vip/x88my6",
+    linkUsfans: "https://usfans.com/product/2/R_F0hXbDFWbSjyc_ANITTOKFXsnzsMXVqAknHj4Lgi2uWy7dobOnXQ?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "IG BRAND HOODIE",
+    category: "Hoodies",
+    price: "$32.50",
+    image: "https://si.geilicdn.com/wdseller1995625455-77e80000019c27af1c190a2301f1_1320_1760.jpg",
+    linkKakobuy: "https://ikako.vip/sfz6m",
+    linkUsfans: "https://usfans.com/product/3/7688902000?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "LGB ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$47.20",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2221168735348/O1CN01QiyT1C1pNRGgGGrCZ_!!2221168735348.jpg",
+    linkKakobuy: "https://ikako.vip/6gtep",
+    linkUsfans: "https://usfans.com/product/2/ELqSXv1GhVZ5x-IfSWtG1wOwuM2loJtSxkQuc2aNjOIb4chZrjgANg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "UNDERCOVER PARROT LONGSLEEVE",
+    category: "Tshirts",
+    price: "$21.10",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2214916689299/O1CN01EXmj9X2IZ071Dg622_!!2214916689299.jpg",
+    linkKakobuy: "https://ikako.vip/vbt8p",
+    linkUsfans: "https://usfans.com/product/2/arQL8pVpThQWOulTZeP_QS2pQkZJu9P5wQBgpbVXs3K9gnHBoS-Z1Q?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
+  {
+    name: "CHERRY BLOSSOM TEE",
+    category: "Tshirts",
+    price: "$14.55",
+    image: "https://si.geilicdn.com/wdseller1995625455-6d170000019f744b27960a23c1e0_4284_4287.jpg",
+    linkKakobuy: "https://ikako.vip/6djzr",
+    linkUsfans: "https://usfans.com/product/3/7808566625?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "CYBERDOG TEE",
+    category: "Tshirts",
+    price: "$25.60",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2220014592646/O1CN01imuU6l1VPv8W8WYl4_!!2220014592646.jpg",
+    linkKakobuy: "https://ikako.vip/gmeuf",
+    linkUsfans: "https://usfans.com/product/2/ICc-HFkCeEhNU3j7Umbwg1bfNs4Fd4J_ReWcDSq1Kxvr_Wgd5JDWshc?ref=TX9V9N",
+    tag: "SABER",
+    rating: 5
+  },
 ];
 
 // ============================================
