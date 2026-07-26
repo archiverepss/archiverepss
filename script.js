@@ -6232,6 +6232,26 @@ const products = [
     tag: "SABER",
     rating: 5
   },
+  {
+    name: "HAUNTED MOUND POLO",
+    category: "Tshirts",
+    price: "$27.50",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01FFlqNf1gquCAQnv11_!!2215791284194.png",
+    linkKakobuy: "https://usfans.com/product/2/EZP_bHghNJB0N_iuN2UBFWQXJKMNLUA6hAEH-Uc2L2-qZRES504RcQ?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/EZP_bHghNJB0N_iuN2UBFWQXJKMNLUA6hAEH-Uc2L2-qZRES504RcQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NO E MOSEN POLO",
+    category: "Tshirts",
+    price: "$30.70",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2214662668840/O1CN014hS3Wh2FAmLKLdXLH_!!2214662668840.png",
+    linkKakobuy: "https://usfans.com/product/2/bjGi1FXYctEc9R5Ho129WYlWBdIPHquCr9FvQkIRhW5_mPuCi84nEPM?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/bjGi1FXYctEc9R5Ho129WYlWBdIPHquCr9FvQkIRhW5_mPuCi84nEPM?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
