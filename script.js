@@ -57,8 +57,8 @@ const products = [
     category: "Shoes",
     price: "$68-82",
     image: "https://si.geilicdn.com/wdseller1800766149-751d00000199be1057b40a21146b_1189_1189.jpg",
-    linkKakobuy: "https://ikako.vip/88hdn",
-    linkUsfans: "https://usfans.com/product/3/6656410659?ref=TX9V9N",
+    linkKakobuy: "https://ikako.vip/9s8kv",
+    linkUsfans: "https://usfans.com/product/3/7783113392?ref=TX9V9N",
     tag: "GX",
     rating: 5
   },
