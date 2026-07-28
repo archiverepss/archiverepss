@@ -238,7 +238,7 @@ const products = [
     price: "$40",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01eh7nHv1CUymor3p8e_!!2025450085.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1017388726264&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/1017388726264?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/0xtDuBdNETLE1fDmbGhnWvx97G-R3OiwgoRKvugCOqUxM8sic2uB7VziKt1ybRU1RgMgw67kSp3DONxFZ1b2PtsqMXBGKOG1IC3l?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
   },
