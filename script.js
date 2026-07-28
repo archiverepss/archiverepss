@@ -6252,6 +6252,56 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "SUPERSTAR POLO",
+    category: "Tshirts",
+    price: "$29.24",
+    image: "https://img.alicdn.com/bao/uploaded/i3/3791109895/O1CN0160jRXD2MxyCipdaNh_!!3791109895.png",
+    linkKakobuy: "https://ikako.vip/phubr",
+    linkUsfans: "https://usfans.com/product/2/A1BO080-5R6z-X4PKtRbqSPx6DJmuD1tFeBqsJIllTh3jY56yqH-U8M?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "HYDROGEN POLO",
+    category: "Tshirts",
+    price: "$15.52",
+    image: "https://img.alicdn.com/bao/uploaded/i1/99635133/O1CN01uOlPU31nmy9BhhzwW_!!99635133.jpg",
+    linkKakobuy: "https://ikako.vip/y6zrp",
+    linkUsfans: "https://usfans.com/product/2/_L1zHBSseF4r48POsSTmNjhUWz--y_KS2K0mlSBPjrBZSxCF-MulmX0?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SPIDER WEB PANTS",
+    category: "Pants",
+    price: "$46.60",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2209619269329/O1CN01ElxQR82Imk11mTIp7_!!2209619269329.jpg",
+    linkKakobuy: "https://ikako.vip/mvxra",
+    linkUsfans: "https://usfans.com/product/2/w12Hm06xWsHSmvLu_3fYonVxHfug6Ow_My8STRZIOKu33DM0-OResA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "GIVENCHY TYSON",
+    category: "Shoes",
+    price: "$147",
+    image: "https://si.geilicdn.com/wdseller902014648568-1c780000019deb3cfb5e0a20e7c7_1290_1290.jpg",
+    linkKakobuy: "https://ikako.vip/43p5m",
+    linkUsfans: "https://usfans.com/product/3/7752975699?ref=TX9V9N",
+    tag: "ANON",
+    rating: 5
+  },
+  {
+    name: "CHROME HEARTS X CONVERSE",
+    category: "Shoes",
+    price: "$106",
+    image: "https://si.geilicdn.com/wdseller1748043198-76d40000019def57435f0a22d1a4_1206_1608.jpg",
+    linkKakobuy: "https://ikako.vip/mfdvv",
+    linkUsfans: "https://usfans.com/product/3/7714837385?ref=TX9V9N",
+    tag: "537CUTE",
+    rating: 5
+  },
 ];
 
 // ============================================
