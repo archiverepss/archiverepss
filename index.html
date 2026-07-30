@@ -3,26 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>ArchiveRepss - Spreadsheet</title>
-  <meta name="description" content="Najlepszy spreadsheet z produktami - ArchiveRepss">
-  <meta name="theme-color" content="#0b0b0c">
-
+  <title>ArchiveReps - Spreadsheet</title>
+  
   <!-- SEO Meta -->
   <meta name="description" content="Najlepszy spreadsheet w Polsce. Sprawdź najlepsze batche, Codziennie nowe produkty!">
   <meta name="keywords" content="archivereps.pl, archivereps, spreadsheet">
   <meta name="robots" content="index, follow">
   
   <!-- Open Graph -->
-  <meta property="og:title" content="ArchiveRepss - Najlepszy Spreadsheet">
+  <meta property="og:title" content="ArchiveReps - Najlepszy Spreadsheet">
   <meta property="og:description" content="The best rep spreadsheet">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://archivereps.pl">
   
   <meta name="theme-color" content="#0b0b0c">
   
-  <!-- reszta twojego kodu -->
-</head>
-
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b0b0c'/%3E%3Ctext x='50' y='68' font-family='Inter, sans-serif' font-size='52' font-weight='800' text-anchor='middle' fill='%23c9a84c'%3EAR%3C/text%3E%3C/svg%3E">
   <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b0b0c'/%3E%3Ctext x='50' y='68' font-family='Inter, sans-serif' font-size='52' font-weight='800' text-anchor='middle' fill='%23c9a84c'%3EAR%3C/text%3E%3C/svg%3E">
@@ -33,7 +28,7 @@
   
   <link rel="stylesheet" href="style.css">
 
-  <!-- GoatCounter — prywatna analityka odwiedzin, widoczna tylko w panelu goatcounter.com, nic nie pokazuje się na stronie -->
+  <!-- GoatCounter -->
   <script data-goatcounter="https://archiverepss.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
 </head>
@@ -137,43 +132,42 @@
       </section>
     </div>
 
-  <!-- ====== WIDOK LAST FINDS (SLIDER) ====== -->
-<div id="lastFindsView" style="display: none;">
-  <section class="lastfinds-slider-section">
-    <div class="slider-container">
-      <button class="slider-arrow slider-arrow-left" id="sliderPrev">‹</button>
-      <div class="slider-wrapper">
-        <div class="slider-track" id="sliderTrack">
-          <!-- Produkty będą generowane przez JavaScript -->
+    <!-- ====== WIDOK LAST FINDS (SLIDER) ====== -->
+    <div id="lastFindsView" style="display: none;">
+      <section class="lastfinds-slider-section">
+        <div class="slider-container">
+          <button class="slider-arrow slider-arrow-left" id="sliderPrev">‹</button>
+          <div class="slider-wrapper">
+            <div class="slider-track" id="sliderTrack">
+            </div>
+          </div>
+          <button class="slider-arrow slider-arrow-right" id="sliderNext">›</button>
         </div>
-      </div>
-      <button class="slider-arrow slider-arrow-right" id="sliderNext">›</button>
+        <div class="slider-dots" id="sliderDots"></div>
+      </section>
     </div>
-    <div class="slider-dots" id="sliderDots"></div>
-  </section>
-</div>
 
     <!-- ====== WIDOK SPRZEDAWCÓW ====== -->
-<div id="sellersView" style="display: none;">
-  <section class="sellers-grid-section">
-    <div class="sellers-filter-bar">
-      <div class="sellers-search-input">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner">
-          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-        </svg>
-        <input type="text" id="sellerSearch" placeholder="Szukaj sprzedawców..." oninput="filterSellers()" />
-      </div>
-      <div class="sellers-filter-chips">
-        <button class="seller-filter-chip active" data-cat="all" onclick="filterSellersByCategory('all')">Wszyscy</button>
-        <button class="seller-filter-chip" data-cat="clothing" onclick="filterSellersByCategory('clothing')">Odzież</button>
-        <button class="seller-filter-chip" data-cat="shoes" onclick="filterSellersByCategory('shoes')">Buty</button>
-        <button class="seller-filter-chip" data-cat="luxury" onclick="filterSellersByCategory('luxury')">Luxury</button>
-      </div>
-    </div>
+    <div id="sellersView" style="display: none;">
+      <section class="sellers-grid-section">
+        <div class="sellers-filter-bar">
+          <div class="sellers-search-input">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input type="text" id="sellerSearch" placeholder="Szukaj sprzedawców..." oninput="filterSellers()" />
+          </div>
+          <div class="sellers-filter-chips">
+            <button class="seller-filter-chip active" data-cat="all" onclick="filterSellersByCategory('all')">Wszyscy</button>
+            <button class="seller-filter-chip" data-cat="clothing" onclick="filterSellersByCategory('clothing')">Odzież</button>
+            <button class="seller-filter-chip" data-cat="shoes" onclick="filterSellersByCategory('shoes')">Buty</button>
+            <button class="seller-filter-chip" data-cat="luxury" onclick="filterSellersByCategory('luxury')">Luxury</button>
+          </div>
+        </div>
 
-    <div id="sellersGrid" class="sellers-grid"></div>
-  </section>
-</div>
+        <div id="sellersGrid" class="sellers-grid"></div>
+      </section>
+    </div>
   </main>
 
   <!-- ====== POPUP WYBORU JĘZYKA ====== -->
@@ -283,7 +277,7 @@
   <!-- ====== PRZYCISK SCROLL TO TOP ====== -->
   <button class="scroll-to-top" id="scrollToTopBtn">↑</button>
 
-  <!-- ====== LIGHTBOX - POWIĘKSZANIE ZDJĘĆ ====== -->
+  <!-- ====== LIGHTBOX ====== -->
   <div class="lightbox-overlay" id="lightboxOverlay">
     <div class="lightbox-content">
       <button class="lightbox-close" id="lightboxClose">
