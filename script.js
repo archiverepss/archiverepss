@@ -6302,6 +6302,46 @@ const products = [
     tag: "537CUTE",
     rating: 5
   },
+  {
+    name: "CHROME HEARTS SOCKS",
+    category: "Underwear",
+    price: "$2.05",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01h6CT7m1RHRGUwgDrr_!!2220176752086-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/m9cngd",
+    linkUsfans: "https://usfans.com/product/1/949765566632?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MCQUEEN SOCKS",
+    category: "Underwear",
+    price: "$2.29",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01yEB5eQ1RHRIAoI1R2_!!2220176752086-0-cib.jpg_400x400.jpg",
+    linkKakobuy: "https://ikako.vip/7zhxg",
+    linkUsfans: "https://usfans.com/product/1/989238068606?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RANDOM JEANS",
+    category: "Pants",
+    price: "$18.81",
+    image: "https://img.alicdn.com/bao/uploaded/i4/474977443/O1CN01MZI3mF24qwy0rF6Kx_!!474977443.jpg",
+    linkKakobuy: "https://ikako.vip/68fsc",
+    linkUsfans: "https://usfans.com/product/2/P3RTC6WpEVcxOLKaNExYjARtqmsGCPGmXnfl4SPXrrCvbQgCB8Ak2A?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "GLOGANG TSHIRTS",
+    category: "Tshirts",
+    price: "$14",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01d87wdE2BsxvgME8tg_!!2217591168395-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/fbx53c",
+    linkUsfans: "https://usfans.com/product/1/774801852263?ref=TX9V9N",
+    tag: "RANDOM/BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
