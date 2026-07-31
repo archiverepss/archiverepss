@@ -6342,6 +6342,86 @@ const products = [
     tag: "RANDOM/BUDGET",
     rating: 5
   },
+  {
+    name: "SAINT MICHAEL ITEMS",
+    category: "Hoodies",
+    price: "$19.15",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01xE2A8R2A5DQRIO3wp_!!2218164908151-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/p6xcd",
+    linkUsfans: "https://usfans.com/product/1/816849221980?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "YEEZY GAP HOODIE",
+    category: "Hoodies",
+    price: "$21.61",
+    image: "https://media.usfans.com/2026/07/30/185507/7f926ffa-afe2-4997-887f-868a60132f3b.jpg",
+    linkKakobuy: "https://ikako.vip/de5tf",
+    linkUsfans: "https://usfans.com/product/3/5357460006?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CB SHORTS",
+    category: "Shorts",
+    price: "$18.82",
+    image: "https://kk-oss-wh-hk.kakobuy.com/whg/202607/29/efa94021006d9871720b1bd65699d7bd.jpg",
+    linkKakobuy: "https://ikako.vip/8tbs5",
+    linkUsfans: "https://usfans.com/product/1/903683288896?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "KAPPA TEE",
+    category: "Tshirts",
+    price: "$9.82",
+    image: "https://media.usfans.com/2026/07/28/170044/8f909d66-f126-4b36-8111-6d35e7c0ab2a.jpg",
+    linkKakobuy: "https://ikako.vip/kxkss",
+    linkUsfans: "https://usfans.com/product/3/7500715484?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RHUDE SHORTS",
+    category: "Shorts",
+    price: "$10.15",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN017loQVg1iE5aaZ4g8o_!!2210990334380-0-cib.jpg",
+    linkKakobuy: "https://ikako.vip/zd9nd",
+    linkUsfans: "https://usfans.com/product/1/672114067770?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "GODSPEED TSHIRTS",
+    category: "Tshirts",
+    price: "$8.68",
+    image: "https://media.usfans.com/2026/07/26/164422/11cd93cb-a705-44a9-83c2-879da20eda5a.jpg",
+    linkKakobuy: "https://ikako.vip/x2qb9",
+    linkUsfans: "https://usfans.com/product/1/980415866781?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "FLEXX FANTASIES HOODIE",
+    category: "Hoodies",
+    price: "$29.29",
+    image: "https://media.usfans.com/2026/07/28/171005/151ad641-3c8b-4263-a267-68c9bab01efd.jpg",
+    linkKakobuy: "https://ikako.vip/xghnk",
+    linkUsfans: "https://usfans.com/product/2/YXjy0Ho2Kro7Qc64OBD94dqzSipYvlKomJmHq99Gb58iU6BB6mcfJQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MARGIELA T-SHIRTS",
+    category: "Tshirts",
+    price: "$10.64",
+    image: "https://media.usfans.com/2026/07/30/143721/a0f6c912-4fa9-477d-9c28-c9b081a289d6.jpg",
+    linkKakobuy: "https://ikako.vip/an2k3",
+    linkUsfans: "https://usfans.com/product/1/729458250237?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
