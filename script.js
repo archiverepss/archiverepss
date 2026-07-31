@@ -6386,7 +6386,7 @@ const products = [
     name: "RHUDE SHORTS",
     category: "Shorts",
     price: "$10.15",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN017loQVg1iE5aaZ4g8o_!!2210990334380-0-cib.jpg",
+    image: "https://media.usfans.com/2026/07/28/170044/213431d6-f7cf-4270-8c76-5fea266e4514.jpg",
     linkKakobuy: "https://ikako.vip/zd9nd",
     linkUsfans: "https://usfans.com/product/1/672114067770?ref=TX9V9N",
     tag: "BUDGET",
