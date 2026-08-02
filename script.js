@@ -6422,6 +6422,46 @@ const products = [
     tag: "BUDGET",
     rating: 5
   },
+  {
+    name: "Margiela Future",
+    category: "Shoes",
+    price: "$103",
+    image: "https://si.geilicdn.com/wdseller901910887734-2df00000019b65296bde0a23041a_1536_1536.jpg",
+    linkKakobuy: "https://ikako.vip/fkxmb",
+    linkUsfans: "https://usfans.com/product/3/7337653369?ref=TX9V9N",
+    tag: "ANON / BEST",
+    rating: 5
+  },
+  {
+    name: "ARMANI TSHIRTS",
+    category: "Tshirts",
+    price: "$7.37",
+    image: "https://media.usfans.com/2026/08/01/183736/c23a1f4b-46c6-49d9-a8a6-7f18e2970e07.jpg",
+    linkKakobuy: "https://ikako.vip/rmgg5",
+    linkUsfans: "https://usfans.com/product/1/918881654433?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "DAVIS TEE",
+    category: "Tshirts",
+    price: "$15.65",
+    image: "https://media.usfans.com/2026/07/21/143648/5dd05e29-d294-4a45-ad1e-6c62118e56a3.jpg",
+    linkKakobuy: "https://ikako.vip/xvj77y",
+    linkUsfans: "https://usfans.com/product/3/7615274469?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "CELINE LEOPARD HOODIE",
+    category: "Hoodies",
+    price: "$43.48",
+    image: "https://media.usfans.com/2026/07/06/142521/1a99fe46-a4b4-4026-ada1-3a29513278ee.jpg",
+    linkKakobuy: "https://ikako.vip/tar4e",
+    linkUsfans: "https://usfans.com/product/2/yjh42VjFmuVsK8Ir_GLiryqqd6G_B_ir5MTnPck43OkDvMEfW1EvjA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
