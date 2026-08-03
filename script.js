@@ -138,7 +138,7 @@ const products = [
     price: "$49-53",
     image: "https://si.geilicdn.com/wdseller1800766149-690900000199c3e75fae0a8133cc_1280_1708.jpg",
     linkKakobuy: "https://ikako.vip/bvejm",
-    linkUsfans: "https://usfans.com/product/3/7228123603?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7780120319?ref=TX9V9N",
     tag: "GX",
     rating: 5
   },
