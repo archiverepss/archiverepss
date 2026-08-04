@@ -6462,6 +6462,116 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "NIKE TEE",
+    category: "Tshirts",
+    price: "$7.22",
+    image: "https://si.geilicdn.com/pcitem706980371-0ffd00000178631d9f650a21c2a8-unadjust_653_651.png",
+    linkKakobuy: "https://usfans.com/product/3/4330697574?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/4330697574?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NIKE SWEATPANTS",
+    category: "Pants",
+    price: "$12.03",
+    image: "https://si.geilicdn.com/pcitem706980371-20f40000016c374af6f30a217205_662_659.jpg",
+    linkKakobuy: "https://usfans.com/product/3/2897688465?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/2897688465?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NIKE SHORTS",
+    category: "Shorts",
+    price: "$12.83",
+    image: "https://media.usfans.com/2026/07/08/115818/59059c2a-adef-40ae-b60e-6685b217c26e.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7460410141?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7460410141?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ADIDAS LONGSLEEVE",
+    category: "Tshirts",
+    price: "$11.23",
+    image: "https://si.geilicdn.com/pcitem706980371-0af8000001955a7093e20a239646_831_814.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7406850255?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7406850255?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NIKE HOODIE",
+    category: "Hoodies",
+    price: "$15.24",
+    image: "https://si.geilicdn.com/pcitem706980371-111d0000017bb49873530a20e273-unadjust_764_752.png",
+    linkKakobuy: "https://usfans.com/product/3/4416194209?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/4416194209?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NIKE PANTS",
+    category: "Pants",
+    price: "$13.63",
+    image: "https://si.geilicdn.com/pcitem706980371-222900000175c4fb8f0b0a20b7b9-unadjust_677_708.png",
+    linkKakobuy: "https://usfans.com/product/3/4155451033?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/4155451033?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "JORDAN TEE",
+    category: "Tshirts",
+    price: "$9.62",
+    image: "https://si.geilicdn.com/pcitem706980371-5626000001805a104b080a22d3fa-unadjust_595_572.png",
+    linkKakobuy: "https://usfans.com/product/3/4732348767?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/4732348767?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ALO SHORTS",
+    category: "Shorts",
+    price: "$15.08",
+    image: "https://si.geilicdn.com/wdseller1489596767-5bd600000193dd2462910a20e2c5_1024_1024.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7326662149?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7326662149?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ALO TEE",
+    category: "Tshirts",
+    price: "$15.55",
+    image: "https://media.usfans.com/2026/07/29/165539/164caaa4-6b78-435e-8a45-bd9b75c6c41c.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7433632753?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7433632753?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ALO HOODIE",
+    category: "Hoodies",
+    price: "$26.14",
+    image: "https://media.usfans.com/2026/07/16/184953/742697b4-d253-4345-be3f-ba628da0c5e1.jpg",
+    linkKakobuy: "https://usfans.com/product/3/3649172715?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/3649172715?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "YEEZY 350",
+    category: "Shoes",
+    price: "$21.11",
+    image: "https://media.usfans.com/2026/07/27/193326/341eb397-7888-44eb-9519-9b2d5c2b7e1f.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7614226321?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7614226321?ref=TX9V9N",
+    tag: "LJR / BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
