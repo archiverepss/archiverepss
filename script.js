@@ -6572,6 +6572,136 @@ const products = [
     tag: "LJR / BUDGET",
     rating: 5
   },
+  {
+    name: "NUMBER NINE LONGSLEEVE",
+    category: "Tshirts",
+    price: "$27.51",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01RjeXuo1CUylGS6ccY_!!2025450085.jpg",
+    linkKakobuy: "https://usfans.com/product/2/7y-Sp87o1tdBBmkkiu2v_2ubkX5X5StMgQX8gPx-SsYFjMe5_r3iEA?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/7y-Sp87o1tdBBmkkiu2v_2ubkX5X5StMgQX8gPx-SsYFjMe5_r3iEA?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "NUMBER NINE HOODIE",
+    category: "Hoodies",
+    price: "$40.60",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01A4YzBk1CUylGL6DKt_!!2025450085.jpg",
+    linkKakobuy: "https://usfans.com/product/2/fTgiDZ1X8w8_zwX76t_0NEa_wV5s3Tkng5AbvCQqLE7-rgH7nD0f1A?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/fTgiDZ1X8w8_zwX76t_0NEa_wV5s3Tkng5AbvCQqLE7-rgH7nD0f1A?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "NUMBER NINE LAMBRETTA GREY",
+    category: "Hoodies",
+    price: "$40.60",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01esCYiy1CUyl9tyjkg_!!2025450085.jpg",
+    linkKakobuy: "https://usfans.com/product/2/DsT4ao3BdRNzftmx4SSwrbCDYYQJcxbE-tpdqjisepJBzL9Uj4QKiw?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/DsT4ao3BdRNzftmx4SSwrbCDYYQJcxbE-tpdqjisepJBzL9Uj4QKiw?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "NUMBER NINE SHORTS",
+    category: "Shorts",
+    price: "$30.78",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01em97yL1CUynydaJ1y_!!2025450085.png",
+    linkKakobuy: "https://usfans.com/product/2/wXii5y3AOfojQPMwVflVKOk34yrBwQU2s0QWXM8bvZwVWVwJG2VtmE0?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/wXii5y3AOfojQPMwVflVKOk34yrBwQU2s0QWXM8bvZwVWVwJG2VtmE0?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "NN SOVC CREWNECK",
+    category: "Hoodies",
+    price: "$37.33",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN010lq0kW1CUylrmdHmP_!!2025450085.jpg",
+    linkKakobuy: "https://usfans.com/product/2/6odiEZAO7N9yBPIBf4P_hgwDMKsa32oRsNfCZxZMom94Tm3vQ9rLdw?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/6odiEZAO7N9yBPIBf4P_hgwDMKsa32oRsNfCZxZMom94Tm3vQ9rLdw?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "NUMBER NINE TEE",
+    category: "Tshirts",
+    price: "$24.23",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01lKBSmK1CUyo0Hcptf_!!2025450085.jpg",
+    linkKakobuy: "https://usfans.com/product/2/_ATc4r1hvnT1speU5_AjWHjipU7thGBhhQYYbO3GgMVwwhJ45HTrIGE?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/_ATc4r1hvnT1speU5_AjWHjipU7thGBhhQYYbO3GgMVwwhJ45HTrIGE?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "NUMBER NINE TEE",
+    category: "Tshirts",
+    price: "$20.96",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01qbCWc01CUyo0L5lXU~crop,39,0,1172,1563~_!!2025450085.jpg",
+    linkKakobuy: "https://usfans.com/product/2/0X5h3i45DBkP78_NHcxWBcwAYI52AKWamth0lThOdNlZedmX1PdbdVI?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/0X5h3i45DBkP78_NHcxWBcwAYI52AKWamth0lThOdNlZedmX1PdbdVI?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "NUMBER NINE TSHIRT",
+    category: "Tshirts",
+    price: "$25.87",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01IMI6GB1CUynZXDDBt~crop,19,0,1131,1131~_!!2025450085.jpg",
+    linkKakobuy: "https://usfans.com/product/2/4QoTZmb2zg_ESLCEUiW8dNcz0U0pRnfLWrfqL0CX-wUbUsEPU6tN0Z0?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/4QoTZmb2zg_ESLCEUiW8dNcz0U0pRnfLWrfqL0CX-wUbUsEPU6tN0Z0?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "NN SHIELD SWEATPANTS",
+    category: "Pants",
+    price: "$43.88",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01qQdARU1CUylKkkEJW_!!2025450085.jpg",
+    linkKakobuy: "https://usfans.com/product/2/o8fyXRsMal-9i6jM0FaLmrhSXulcwTQbdLmZS_D-6c-09Q6puHjdaQ?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/o8fyXRsMal-9i6jM0FaLmrhSXulcwTQbdLmZS_D-6c-09Q6puHjdaQ?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "NUMBER NINE ROLLING STONES",
+    category: "Tshirts",
+    price: "$24.33",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN013BbJcN1CUyoBk6hvI~crop,128,86,953,1270~_!!2025450085.jpg",
+    linkKakobuy: "https://usfans.com/product/2/yzI3t55i1qRrISAilEpT1c-rfF7B2f5gEM-_W_5Zcu_c8lcEkbe7THo?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/yzI3t55i1qRrISAilEpT1c-rfF7B2f5gEM-_W_5Zcu_c8lcEkbe7THo?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "BEAUTY BEAST TINK HOODIE",
+    category: "Hoodies",
+    price: "$55.34",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01Tnf4LF1CUymooE5UP_!!2025450085.jpg",
+    linkKakobuy: "https://usfans.com/product/2/bF6fgoRa_OmAPgVgt8FIa26NqvWGU5YAIwW5Gkciee4yyup6Zwc6HA?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/bF6fgoRa_OmAPgVgt8FIa26NqvWGU5YAIwW5Gkciee4yyup6Zwc6HA?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "NUMBER NINE GOTHAM CITY",
+    category: "Tshirts",
+    price: "$22.60",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01OAH7OR1CUyo0TSIIZ_!!2025450085.jpg",
+    linkKakobuy: "https://usfans.com/product/2/RY7ahVDmszWuMF5o5AjkwfAAn0fyAvHOvI-KS85Nblj0Rcp7y3dCyBw?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/RY7ahVDmszWuMF5o5AjkwfAAn0fyAvHOvI-KS85Nblj0Rcp7y3dCyBw?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "NUMBER NINE VANDALISM TEE",
+    category: "Tshirts",
+    price: "$25.89",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01brCDkx1CUynZE9dsJ~crop,0,15,1163,1550~_!!2025450085.jpg",
+    linkKakobuy: "https://usfans.com/product/2/M096odBzS0TvjIdV3bnn4bbFRnMT4AMIJiXrslJQhhYuUy4eHmc35eI?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/M096odBzS0TvjIdV3bnn4bbFRnMT4AMIJiXrslJQhhYuUy4eHmc35eI?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
 ];
 
 // ============================================
