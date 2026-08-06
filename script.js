@@ -6702,7 +6702,89 @@ const products = [
     tag: "HONGSHENG",
     rating: 5
   },
+
 ];
+
+
+// ============================================
+// 🏷️ BAZA DANYCH PROMOCJI - DODAWAJ TUTAJ NOWE PROMOCJE!
+// ============================================
+const promotions = [
+  {
+    name: "CORTEIZ",
+    price: "CHEAP",
+    pricePLN: "CHEAP zł",
+    batch: "BEST",
+    expiry: "-",
+    rating: 10,
+    image: "https://si.geilicdn.com/wdseller1936187346-574f000001991dcde8250a23037f_1290_1290.jpg",
+    link: "https://goat-official.x.yupoo.com/categories/4970429",
+    tag: "GOAT",
+    category: "All"
+  },
+  {
+    name: "BROKEN PLANET",
+    price: "CHEAP",
+    pricePLN: "CHEAP zł",
+    batch: "BEST",
+    expiry: "-",
+    rating: 10,
+    image: "https://si.geilicdn.com/wdseller1508878052-70510000018f05f36e320a2393d9_1288_1288.jpg",
+    link: "https://goat-official.x.yupoo.com/categories/5259795",
+    tag: "GOAT",
+    category: "All"
+  },
+  {
+    name: "SYNA WORLD",
+    price: "CHEAP",
+    pricePLN: "CHEAP zł",
+    batch: "BEST",
+    expiry: "-",
+    rating: 10,
+    image: "https://media.usfans.com/2026/07/20/173451/3630ea57-f46e-4ffd-b445-99c01b057dc6.jpg",
+    link: "https://goat-official.x.yupoo.com/categories/5259778",
+    tag: "GOAT",
+    category: "All"
+  },
+   {
+    name: "BALENCIAGA DEFENDER",
+    price: "$31.11",
+    pricePLN: "≈ 116 zł",
+    batch: "GOOD",
+    expiry: "-",
+    rating: 9,
+    image: "https://si.geilicdn.com/pcitem902084712424-298a0000019f38f33cec0a20e2c5_1440_1440.jpg",
+    link: "https://yolo66.x.yupoo.com/categories/930332?isSubCate=true",
+    tag: "YOLO",
+    category: "Shoes"
+  },
+  {
+    name: "DERSCHUTZE & OTHER",
+    price: "$18.83",
+    pricePLN: "≈ 71 zł",
+    batch: "BEST",
+    expiry: "-",
+    rating: 9,
+    image: "https://si.geilicdn.com/wdseller1940384309-16070000019a4b06df420a230417_2560_2560.jpg",
+    link: "https://pengreps.x.yupoo.com/categories/5074803",
+    tag: "PENGREPS",
+    category: "All"
+  },
+  {
+    name: "RANDOM YEEZY SLIDES / NO BOX",
+    price: "$6.55",
+    pricePLN: "≈ 25 zł",
+    batch: "LW",
+    expiry: "-",
+    rating: 9,
+    image: "https://si.geilicdn.com/wdseller1994488306-23fb0000019e34c61cc90a23b54f_2560_2560.jpg",
+    link: "https://usfans.com/product/3/7654491297?ref=TX9V9N",
+    tag: "YOLO",
+    category: "shoes"
+  },
+  
+];
+
 
 // ============================================
 // 🏪 SPRZEDAWCY - DODAWAJ TUTAJ NOWYCH SPRZEDAWCÓW!
@@ -7567,6 +7649,13 @@ function setupEventListeners() {
       if (e.target === this) hideRegisterPopup();
     });
   }
+  var promoLink = document.getElementById('navPromo');
+if (promoLink) {
+  promoLink.addEventListener('click', function(e) {
+    e.preventDefault();
+    switchView('promo');
+  });
+}
 }
 
 // ============================================
@@ -8186,6 +8275,151 @@ function switchView(view) {
       updateSlider();
       updateDots();
     }, 100);
+  } else {
+    if (sellersView) sellersView.style.display = 'block';
+    if (sellersLink) sellersLink.classList.add('active');
+    if (heroTitle) heroTitle.textContent = '🏪 Najlepsi sprzedawcy';
+    if (heroSubtitle) heroSubtitle.textContent = 'Przeglądaj najlepszych sprzedawców Weidian i Taobao.';
+    renderSellers();
+  }
+}
+
+// ============================================
+// 🏷️ PROMO FINDS - FUNKCJE
+// ============================================
+
+// ============================================
+// 🏷️ PROMO FINDS - FUNKCJE
+// ============================================
+
+function renderPromotions() {
+  var grid = document.getElementById('promoGrid');
+  if (!grid) return;
+  
+  if (promotions.length === 0) {
+    grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #71717a;">Brak aktualnych promocji.</div>';
+    return;
+  }
+  
+  grid.innerHTML = '';
+  
+  promotions.forEach(function(p) {
+    var stars = '';
+    var fullStars = Math.floor(p.rating / 2);
+    for (var i = 0; i < fullStars; i++) stars += '⭐';
+    if (p.rating % 2 === 1) stars += '⭐';
+    for (var i = fullStars; i < 5; i++) stars += '☆';
+    
+    var tagClass = 'promo-tag';
+    if (p.tag && p.tag.toUpperCase().includes('BEST')) {
+      tagClass += ' best';
+    } else if (p.tag && p.tag.toUpperCase().includes('PROMO')) {
+      tagClass += ' promo';
+    }
+    
+    var safeImage = p.image || 'https://via.placeholder.com/300x200?text=No+Image';
+    var safeName = p.name || 'Produkt';
+    
+    var card = document.createElement('div');
+    card.className = 'promo-card';
+    
+    card.addEventListener('click', function(e) {
+      if (e.target.closest('.promo-btn')) return;
+      if (p.link && p.link !== '#') {
+        window.open(p.link, '_blank');
+      }
+    });
+    
+    card.innerHTML = 
+      '<div class="promo-card-image-wrapper">' +
+        '<img src="' + safeImage + '" alt="' + safeName + '" class="promo-card-image" loading="lazy" onerror="this.src=\'https://via.placeholder.com/300x300?text=No+Image\'">' +
+        '<div class="promo-tag-wrapper">' +
+          '<span class="' + tagClass + '">' + p.tag + '</span>' +
+          '<span class="promo-batch">' + p.batch + '</span>' +
+        '</div>' +
+      '</div>' +
+      '<div class="promo-card-body">' +
+        '<h3 class="promo-card-title">' + safeName + '</h3>' +
+        '<div class="promo-card-meta">' +
+          '<span class="promo-card-price">' + p.price + '</span>' +
+          '<span class="promo-card-price-pln">' + p.pricePLN + '</span>' +
+        '</div>' +
+        '<div class="promo-card-details">' +
+          '<div class="promo-card-row">' +
+            '<span class="promo-label">Batch:</span>' +
+            '<span class="promo-value">' + p.batch + '</span>' +
+          '</div>' +
+          '<div class="promo-card-row">' +
+            '<span class="promo-label">Ważne do:</span>' +
+            '<span class="promo-value promo-expiry">' + p.expiry + '</span>' +
+          '</div>' +
+        '</div>' +
+        '<div class="promo-card-footer">' +
+          '<div class="promo-card-stats">' +
+            '<span class="promo-stat">' + stars + ' ' + p.rating + '</span>' +
+          '</div>' +
+          '<a href="' + p.link + '" target="_blank" rel="noopener noreferrer" class="promo-btn">📧 Szczegóły</a>' +
+        '</div>' +
+      '</div>';
+    
+    grid.appendChild(card);
+  });
+}
+
+// ============================================
+// 🔄 PRZEŁĄCZANIE WIDOKU (zaktualizowane o Promo)
+// ============================================
+function switchView(view) {
+  currentView = view;
+  var productsView = document.getElementById('productsView');
+  var sellersView = document.getElementById('sellersView');
+  var lastFindsView = document.getElementById('lastFindsView');
+  var promoView = document.getElementById('promoView');
+  var spreadsheetLink = document.getElementById('navSpreadsheet');
+  var sellersLink = document.getElementById('navSellers');
+  var lastFindsLink = document.getElementById('navLastFinds');
+  var promoLink = document.getElementById('navPromo');
+  var heroTitle = document.getElementById('heroTitle');
+  var heroSubtitle = document.getElementById('heroSubtitle');
+  var searchInput = document.getElementById('search');
+  var globalSearch = document.getElementById('globalSearch');
+  
+  // Ukryj wszystko
+  if (productsView) productsView.style.display = 'none';
+  if (sellersView) sellersView.style.display = 'none';
+  if (lastFindsView) lastFindsView.style.display = 'none';
+  if (promoView) promoView.style.display = 'none';
+  
+  if (spreadsheetLink) spreadsheetLink.classList.remove('active');
+  if (sellersLink) sellersLink.classList.remove('active');
+  if (lastFindsLink) lastFindsLink.classList.remove('active');
+  if (promoLink) promoLink.classList.remove('active');
+  
+  if (view === 'products') {
+    if (productsView) productsView.style.display = 'block';
+    if (spreadsheetLink) spreadsheetLink.classList.add('active');
+    if (heroTitle) heroTitle.textContent = translations[currentLanguage].heroTitle;
+    if (heroSubtitle) heroSubtitle.textContent = translations[currentLanguage].heroSubtitle;
+    if (searchInput) searchInput.placeholder = translations[currentLanguage].searchPlaceholder;
+    if (globalSearch) globalSearch.placeholder = 'Szukaj...  ⌘ K';
+    applyFiltersAndSort();
+  } else if (view === 'lastfinds') {
+    if (lastFindsView) lastFindsView.style.display = 'block';
+    if (lastFindsLink) lastFindsLink.classList.add('active');
+    if (heroTitle) heroTitle.textContent = '🔥 Last Finds';
+    if (heroSubtitle) heroSubtitle.textContent = 'Ostatnio dodane produkty.';
+    renderSlider();
+    setTimeout(function() {
+      updateSlidesPerView();
+      updateSlider();
+      updateDots();
+    }, 100);
+  } else if (view === 'promo') {
+    if (promoView) promoView.style.display = 'block';
+    if (promoLink) promoLink.classList.add('active');
+    if (heroTitle) heroTitle.textContent = '🏷️ Promo Finds';
+    if (heroSubtitle) heroSubtitle.textContent = 'Najlepsze promocje i okazje.';
+    renderPromotions();
   } else {
     if (sellersView) sellersView.style.display = 'block';
     if (sellersLink) sellersLink.classList.add('active');

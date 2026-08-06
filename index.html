@@ -59,6 +59,9 @@
         <a href="#" class="nav-link" id="navLastFinds">
           <span>🔥 Last Finds</span>
         </a>
+        <a href="#" class="nav-link" id="navPromo">
+  <span>🏷️ Promo Finds</span>
+</a>
         <a href="#" class="nav-link" id="navSellers">
           <span>🔍 Sprzedawcy</span>
         </a>
@@ -172,6 +175,20 @@
         <div id="sellersGrid" class="sellers-grid"></div>
       </section>
     </div>
+    <!-- ====== WIDOK PROMO FINDS ====== -->
+<div id="promoView" style="display: none;">
+  <section class="promo-grid-section">
+    <div class="promo-header">
+      <div class="promo-header-left">
+        <span class="promo-header-icon">🏷️</span>
+        <h2 class="promo-header-title">Promo Finds</h2>
+      </div>
+      <span class="promo-header-count">Aktualne promocje</span>
+    </div>
+
+    <div id="promoGrid" class="promo-grid"></div>
+  </section>
+</div>
   </main>
 
   <!-- ====== POPUP WYBORU JĘZYKA ====== -->
@@ -197,6 +214,8 @@
       <button class="language-confirm-btn" id="confirmLangBtn" onclick="confirmLanguage()">
         Kontynuuj →
       </button>
+
+
     </div>
   </div>
 
