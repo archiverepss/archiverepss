@@ -6702,7 +6702,286 @@ const products = [
     tag: "HONGSHENG",
     rating: 5
   },
-
+  {
+    name: "RANDOM BAGGY JEANS",
+    category: "Pants",
+    price: "$10.16",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01txU5YF1zQm36on9k6_!!2201202046709-0-cib.jpg",
+    linkKakobuy: "https://usfans.com/product/1/721399386912?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/1/721399386912?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "BUDGET SHORT JEANS",
+    category: "Shorts",
+    price: "$9.60",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01VUbCKZ1zQm2X4ZpYd_!!2201202046709-0-cib.jpg",
+    linkKakobuy: "https://usfans.com/product/1/715119132747?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/1/715119132747?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "FLARED JEANS",
+    category: "Pants",
+    price: "$11.80",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01ooZoV61zQm5s3Iajm_!!2201202046709-0-cib.jpg",
+    linkKakobuy: "https://usfans.com/product/1/743752498961?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/1/743752498961?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "FORGET ME HOODIE",
+    category: "Hoodies",
+    price: "$29.33",
+    image: "https://media.usfans.com/2026/08/07/151502/d8c84cc0-909c-4afb-af68-dcff53642b2d.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7790508049?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7790508049?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CH MATTYBOY LONGSLEEVE",
+    category: "Tshirts",
+    price: "$30.80",
+    image: "https://si.geilicdn.com/wdseller1405292126-72c30000019a0c1c230f0a2395e9_1290_1223.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7786135548?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7786135548?ref=TX9V9N",
+    tag: "SQUIRTLE",
+    rating: 5
+  },
+  {
+    name: "RALPH LAUREN SAKURA POLO",
+    category: "Tshirts",
+    price: "$17.70",
+    image: "https://media.usfans.com/2026/08/07/132416/ad4e9e14-5339-41c3-aef3-a3e0477107f4.jpg",
+    linkKakobuy: "https://usfans.com/product/1/1039921176688?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/1/1039921176688?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "RALPH LAUREN POLO",
+    category: "Tshirts",
+    price: "$9.90",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN017et2PP1Rh5VhHzYHa_!!2220868832142-0-cib.jpg",
+    linkKakobuy: "https://usfans.com/product/1/987017902603?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/1/987017902603?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "RALPH LAUREN BASIC POLO",
+    category: "Tshirts",
+    price: "$14",
+    image: "https://media.usfans.com/2026/08/05/154342/8cc559e4-6905-44ae-b088-ee36276c3234.jpg",
+    linkKakobuy: "https://usfans.com/product/2/2Bjm5IXEmgI8ygP2JViloBQKEGZWx6rLSgWaJ5ezPrQyyZEs6eQJMA?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/2Bjm5IXEmgI8ygP2JViloBQKEGZWx6rLSgWaJ5ezPrQyyZEs6eQJMA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RALPH LAUREN STRIPED POLO",
+    category: "Tshirts",
+    price: "$11.14",
+    image: "https://media.usfans.com/2026/08/05/131242/20dfa4a8-8d14-460e-913c-7017cae161aa.jpg",
+    linkKakobuy: "https://usfans.com/product/1/925942857409?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/1/925942857409?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "STARS POLO",
+    category: "Tshirts",
+    price: "$16.04",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3072186629/O1CN019kqXbr1yq8UAigWoE_!!3072186629.jpg",
+    linkKakobuy: "https://usfans.com/product/2/jWf9QiDRFXeANBN3-g_2qBDmnnec2ZxtDHmveman4DmkGi8re52ChQ?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/jWf9QiDRFXeANBN3-g_2qBDmnnec2ZxtDHmveman4DmkGi8re52ChQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC GLAMOUR NOTE JEANS",
+    category: "Pants",
+    price: "$55.53",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01m8a4581RR3bghFoFu_!!2126072107.jpg",
+    linkKakobuy: "https://usfans.com/product/2/zKtNSLKGNsqqomkhRmNkSXCgJFsV9oc-aVEqxJanhBz4u8gkxJv3Hw?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/zKtNSLKGNsqqomkhRmNkSXCgJFsV9oc-aVEqxJanhBz4u8gkxJv3Hw?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC SMOKING GIRL TEE",
+    category: "Tshirts",
+    price: "$26.05",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01L8NaLW1RR3dYUTkP1_!!2126072107.jpg",
+    linkKakobuy: "https://usfans.com/product/2/sknP-zfxkpyErd30lBHhbZpBplFdRrtsH_vOJxA0pmu9rrP6PSA_sJQ?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/sknP-zfxkpyErd30lBHhbZpBplFdRrtsH_vOJxA0pmu9rrP6PSA_sJQ?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC GLAMOUR ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$57.20",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01cMsB1B1RR3f5rwhTl_!!2126072107.heic",
+    linkKakobuy: "https://usfans.com/product/2/m1v7yaiYMOPggWb0JqLw7NI4eyJ5YXOaaM2Efk1cbBBmu2RZFfexgFM?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/m1v7yaiYMOPggWb0JqLw7NI4eyJ5YXOaaM2Efk1cbBBmu2RZFfexgFM?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC GLAMOUR POLO",
+    category: "Tshirts",
+    price: "$37.53",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN017wc35K1RR3eIrliTm_!!2126072107.heic",
+    linkKakobuy: "https://usfans.com/product/2/SWfhOim9z-BzxbkYtNnkjMU9skWfGxPi3jqdE6Hi4Eh-CPmyNeUyCiE?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/SWfhOim9z-BzxbkYtNnkjMU9skWfGxPi3jqdE6Hi4Eh-CPmyNeUyCiE?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC GLAMOUR FLAG BEAR",
+    category: "Tshirts",
+    price: "$24.42",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01Hx6B8y1RR3eyZOUxR_!!2126072107.jpg",
+    linkKakobuy: "https://usfans.com/product/2/9ykMfXTpOcsw3nr9MRCzZGJSYu1dddvqsl_67T5gZz2U2ESsDJRUwSI?ref=TX9V9Nhttps://usfans.com/product/2/9ykMfXTpOcsw3nr9MRCzZGJSYu1dddvqsl_67T5gZz2U2ESsDJRUwSI?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/9ykMfXTpOcsw3nr9MRCzZGJSYu1dddvqsl_67T5gZz2U2ESsDJRUwSI?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC TEE",
+    category: "Tshirts",
+    price: "$37.53",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01si59D01RR3fJi9fIy_!!2126072107.jpg",
+    linkKakobuy: "https://usfans.com/product/2/S6dw_9vH76xBUUL8sN43Bsi2i4O43Xm_Da1IC1ad6NAOJwbpORJ6BhQ?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/S6dw_9vH76xBUUL8sN43Bsi2i4O43Xm_Da1IC1ad6NAOJwbpORJ6BhQ?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC GLAMOUR HOODIE",
+    category: "Hoodies",
+    price: "$47.40",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01bNnfGe1RR3cXqqcXW~crop,152,0,865,1154~_!!2126072107.jpg",
+    linkKakobuy: "https://usfans.com/product/2/EqWavkIqQwNfiWXI_n8DIElEEKzPjFBPbJ2dqzW4fHzwG3X5EdfSuQ?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/EqWavkIqQwNfiWXI_n8DIElEEKzPjFBPbJ2dqzW4fHzwG3X5EdfSuQ?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "BEAUTY BEAST SAILOR MOON TEE",
+    category: "Tshirts",
+    price: "$35.90",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01x2gDaw1RR3eraQtwa_!!2126072107.jpg",
+    linkKakobuy: "https://usfans.com/product/2/VEI_cMve69R3N1D-ureRQNU6XYDpnGbc-VRYEzfZvFxPLrhzqZXcl40?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/VEI_cMve69R3N1D-ureRQNU6XYDpnGbc-VRYEzfZvFxPLrhzqZXcl40?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "BEAUTY BEAST TINK TEE",
+    category: "Tshirts",
+    price: "$44.07",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01CoYuQh1RR3dIdbSdz_!!2126072107.heic",
+    linkKakobuy: "https://usfans.com/product/2/-RGsau8vrLa85IvlOiAvcLLw7J-fbNkqY8KupOyeNJnhQEpF0bsT5Ag?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/-RGsau8vrLa85IvlOiAvcLLw7J-fbNkqY8KupOyeNJnhQEpF0bsT5Ag?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "VIVIENNE WESTWOOD POLO",
+    category: "Tshirts",
+    price: "$37.53",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01CrlRFr1RR3f30EW1U_!!2126072107.heic",
+    linkKakobuy: "https://usfans.com/product/2/_wqw4aCVFgIDXCd5NSLgpvuXglgEJTKDfsLQM7Z02jkvHA-c4c_VKT0?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/_wqw4aCVFgIDXCd5NSLgpvuXglgEJTKDfsLQM7Z02jkvHA-c4c_VKT0?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC CALL ME HOODIE",
+    category: "Hoodies",
+    price: "$49",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01SMmCpa1RR3cuntiry~hdr~livephoto~_!!2126072107.heic",
+    linkKakobuy: "https://usfans.com/product/2/qH46QiLCnko1kRhz0TAOAJYKZ9Dj2HQJlTA-6yUsj_-A1RqDdXwkOA?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/qH46QiLCnko1kRhz0TAOAJYKZ9Dj2HQJlTA-6yUsj_-A1RqDdXwkOA?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC TEE",
+    category: "Tshirts",
+    price: "$21.14",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01GDZj981RR3dfW3LwB_!!2126072107.heic",
+    linkKakobuy: "https://usfans.com/product/2/afwJw4h5ssxawR1uxxtE-5ehM670F9z75FB2TcUiod73IuW9tCWDJ0E?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/afwJw4h5ssxawR1uxxtE-5ehM670F9z75FB2TcUiod73IuW9tCWDJ0E?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "NUMBER NINE PAIN TEE",
+    category: "Tshirts",
+    price: "$26.05",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN016bo8T11RR3eSW7iY5_!!2126072107.jpg",
+    linkKakobuy: "https://usfans.com/product/2/e6ND4_illNNgcp3jqIv3iHx9GAhdaNxEOGFjUz0O0lnn-CdEYwJpfcc?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/e6ND4_illNNgcp3jqIv3iHx9GAhdaNxEOGFjUz0O0lnn-CdEYwJpfcc?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "NN YOU KNOW YOU RIGHT",
+    category: "Tshirts",
+    price: "$26.05",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01AdmAyU1RR3ef14VkY_!!2126072107.jpg",
+    linkKakobuy: "https://usfans.com/product/2/4fjdKPcBN0pXeRym5K-QfP9E6tzbphZi8C28EFst6u_WUfvyFIFfheE?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/4fjdKPcBN0pXeRym5K-QfP9E6tzbphZi8C28EFst6u_WUfvyFIFfheE?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC GLAMOUR BLITZKRIEG",
+    category: "Tshirts",
+    price: "$22.79",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN011zjAcG1RR3e4aqAV9_!!2126072107.heic",
+    linkKakobuy: "https://usfans.com/product/2/CrVW1W2B9KDNu_kmNPYUmtNwiLaoVzPPLw4975tsQX1AprJQVMmNosI?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/CrVW1W2B9KDNu_kmNPYUmtNwiLaoVzPPLw4975tsQX1AprJQVMmNosI?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC GLAMOUR LONGSLEEVE",
+    category: "Tshirts",
+    price: "$29.35",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01mEHOj91RR3ejCTYZP_!!2126072107.heic",
+    linkKakobuy: "https://usfans.com/product/2/jphYOSlUxHn3tt2o2hHCk9lxn0NhI2pSGcwVF6blHuhMDibEDDlMGgg?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/jphYOSlUxHn3tt2o2hHCk9lxn0NhI2pSGcwVF6blHuhMDibEDDlMGgg?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC GLAMOUR OASIS TEE",
+    category: "Tshirts",
+    price: "$26.05",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01zuYKkg1RR3eSkCjFW_!!2126072107.jpg",
+    linkKakobuy: "https://usfans.com/product/2/2byUKztzyid8yZuzOiTk9A36AC37iQNQB76C_I2MgUZkGtwMUmDNYIE?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/2byUKztzyid8yZuzOiTk9A36AC37iQNQB76C_I2MgUZkGtwMUmDNYIE?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC BEAR HOODIE",
+    category: "Hoodies",
+    price: "$47.36",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01Txm31Y1RR3cSnEPWs_!!2126072107.jpg",
+    linkKakobuy: "https://usfans.com/product/2/6mJCee9fzgv3JKMLxvq8FCqyTbmCUfPpbrSByjCIWGkuylZtkDACQQ",
+    linkUsfans: "https://usfans.com/product/2/6mJCee9fzgv3JKMLxvq8FCqyTbmCUfPpbrSByjCIWGkuylZtkDACQQ",
+    tag: "BDSS",
+    rating: 5
+  },
 ];
 
 
