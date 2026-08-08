@@ -6766,7 +6766,7 @@ const products = [
     name: "RALPH LAUREN POLO",
     category: "Tshirts",
     price: "$9.90",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN017et2PP1Rh5VhHzYHa_!!2220868832142-0-cib.jpg",
+    image: "https://media.usfans.com/2026/08/07/180330/e62b581b-dcb6-458d-9cd5-2abc470bc038.jpg",
     linkKakobuy: "https://usfans.com/product/1/987017902603?ref=TX9V9N",
     linkUsfans: "https://usfans.com/product/1/987017902603?ref=TX9V9N",
     tag: "BUDGET",
