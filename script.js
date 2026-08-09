@@ -6982,6 +6982,26 @@ const products = [
     tag: "BDSS",
     rating: 5
   },
+  {
+    name: "HYOMA CREWNECK",
+    category: "Hoodies",
+    price: "$65.36",
+    image: "https://si.geilicdn.com/wdseller1977061622-19940000019f4702a0770a2304aa_765_1024.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7804251369?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7804251369?ref=TX9V9N",
+    tag: "DAGGER / BEST",
+    rating: 5
+  },
+  {
+    name: "RICK OWENS VANS",
+    category: "Shoes",
+    price: "$125.90",
+    image: "https://si.geilicdn.com/pcitem1727599812-52cd0000018c25d6edf10a231179_1279_1486.jpg",
+    linkKakobuy: "https://usfans.com/product/3/6561387515?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/6561387515?ref=TX9V9N",
+    tag: "2PAC / BEST",
+    rating: 5
+  },
 ];
 
 
