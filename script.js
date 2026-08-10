@@ -7002,6 +7002,16 @@ const products = [
     tag: "2PAC / BEST",
     rating: 5
   },
+  {
+    name: "CALVIN KLEIN BOXERS",
+    category: "Underwear",
+    price: "$5.50",
+    image: "https://media.usfans.com/2026/08/10/132818/2a053a17-ca1d-48ed-872c-c7ae335dcf7d.jpg",
+    linkKakobuy: "https://usfans.com/product/1/996598139208?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/1/996598139208?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
 ];
 
 
