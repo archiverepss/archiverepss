@@ -8778,6 +8778,48 @@ function switchView(view) {
   }
 }
 
+
+// ============================================
+// SIDEBAR TOGGLE
+// ============================================
+document.addEventListener('DOMContentLoaded', function() {
+  var sidebarToggle = document.getElementById('sidebarToggle');
+  var sidebarContent = document.querySelector('.sidebar-content');
+
+  if (sidebarToggle && sidebarContent) {
+    function updateToggleVisibility() {
+      if (window.innerWidth <= 768) {
+        sidebarToggle.style.display = 'flex';
+      } else {
+        sidebarToggle.style.display = 'none';
+        sidebarContent.style.display = 'flex';
+      }
+    }
+
+    updateToggleVisibility();
+    window.addEventListener('resize', updateToggleVisibility);
+
+    sidebarToggle.addEventListener('click', function() {
+      if (sidebarContent.style.display === 'none' || sidebarContent.style.display === '') {
+        sidebarContent.style.display = 'flex';
+        sidebarToggle.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        `;
+      } else {
+        sidebarContent.style.display = 'none';
+        sidebarToggle.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        `;
+      }
+    });
+  }
+});
+
 // ============================================
 // ✅ KONIEC
 // ============================================
