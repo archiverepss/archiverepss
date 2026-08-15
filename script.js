@@ -7012,6 +7012,46 @@ const products = [
     tag: "RANDOM / BUDGET",
     rating: 5
   },
+  {
+    name: "ED HARDY JEANS",
+    category: "Pants",
+    price: "$34.10",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2479034848/O1CN01tPFgT21lgRC1K3Vq1_!!2479034848.jpg",
+    linkKakobuy: "https://usfans.com/product/2/eHTh_3rHnt53lX8Db48estsNNq3jFxUyaUcB9vVp_sz0IjnTJoQiaQ?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/eHTh_3rHnt53lX8Db48estsNNq3jFxUyaUcB9vVp_sz0IjnTJoQiaQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "UNDERCOVER JEANS",
+    category: "Pants",
+    price: "$39.18",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3926619803/O1CN01rY2odV2MHpmHOAoPQ_!!3926619803.jpg",
+    linkKakobuy: "https://usfans.com/product/2/mPQQLI01LJ_YqIvIhcj3tnOnKcbW3XK_ETz-ypJqV1orwG8bSP1MY5U?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/mPQQLI01LJ_YqIvIhcj3tnOnKcbW3XK_ETz-ypJqV1orwG8bSP1MY5U?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "VETEMENTS ZURICH ANTWERPEN TEE",
+    category: "Tshirts",
+    price: "$27.54",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN01VSwsi126cs7vgm1B6_!!3822597683.webp",
+    linkKakobuy: "https://usfans.com/product/2/vXnufMRY36yz4CWGSe23Ul2-UhCIPZx3os_43vuzZ-Std7AOnqAxAHI?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/vXnufMRY36yz4CWGSe23Ul2-UhCIPZx3os_43vuzZ-Std7AOnqAxAHI?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "JUNYA WATANNABE TEE",
+    category: "Tshirts",
+    price: "$24.43",
+    image: "https://si.geilicdn.com/wdseller2087598183-3db90000019f603f93de0a20e284_768_960.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7809371138?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7809371138?ref=TX9V9N",
+    tag: "DAGGER",
+    rating: 5
+  },
 ];
 
 
