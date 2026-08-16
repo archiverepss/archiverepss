@@ -7052,6 +7052,96 @@ const products = [
     tag: "DAGGER",
     rating: 5
   },
+  {
+    name: "MARGIELA GATS",
+    category: "Shoes",
+    price: "$59.01",
+    image: "https://si.geilicdn.com/wdseller1505219366-1a0100000199075dd9d20a2303ee_1184_1184.jpg",
+    linkKakobuy: "https://ikako.vip/yvvktz",
+    linkUsfans: "https://usfans.com/product/3/7779545401?ref=TX9V9N",
+    tag: "WWTOP",
+    rating: 5
+  },
+  {
+    name: "BAPE CROCS",
+    category: "Shoes",
+    price: "$21.31",
+    image: "https://si.geilicdn.com/wdseller1505219366-0bb0000001976628c2810a2395a3_1179_1179.jpg",
+    linkKakobuy: "https://ikako.vip/renvcj",
+    linkUsfans: "https://usfans.com/product/3/7783613998?ref=TX9V9N",
+    tag: "WWTOP",
+    rating: 5
+  },
+  {
+    name: "KOBE 6,8,9",
+    category: "Shoes",
+    price: "$63.93",
+    image: "https://si.geilicdn.com/open1733523732-1234478995-5f31000001937e800af50a210559_1179_884.jpg",
+    linkKakobuy: "https://ikako.vip/ykdwts",
+    linkUsfans: "https://usfans.com/product/3/7783092788?ref=TX9V9N",
+    tag: "GX",
+    rating: 5
+  },
+  {
+    name: "NIKE VOMERO 5",
+    category: "Shoes",
+    price: "$36.06",
+    image: "https://si.geilicdn.com/wdseller1745861162-08a30000019d204531790a8132bd_1206_1207.jpg",
+    linkKakobuy: "https://ikako.vip/z6yfs",
+    linkUsfans: "https://usfans.com/product/3/7783623906?ref=TX9V9N",
+    tag: "WWTOP",
+    rating: 5
+  },
+  {
+    name: "NIKE ZOOM FLY 6",
+    category: "Shoes",
+    price: "$40.89",
+    image: "https://si.geilicdn.com/wdseller1505219366-3fa6000001955e3244720a230215_1080_1080.jpg",
+    linkKakobuy: "https://ikako.vip/fccrs",
+    linkUsfans: "https://usfans.com/product/3/7780614251?ref=TX9V9N",
+    tag: "WWTOP",
+    rating: 5
+  },
+  {
+    name: "NIKE P6000",
+    category: "Shoes",
+    price: "$36.06",
+    image: "https://si.geilicdn.com/wdseller1745861162-71d80000019ac0a1dbf60a207569_1179_1180.jpg",
+    linkKakobuy: "https://ikako.vip/7ry92",
+    linkUsfans: "https://usfans.com/product/3/7780621997?ref=TX9V9N",
+    tag: "WWTOP",
+    rating: 5
+  },
+  {
+    name: "BURBERRY SLIPPERS",
+    category: "Shoes",
+    price: "$32.63",
+    image: "https://si.geilicdn.com/wdseller1505219366-489f00000197945220570a23b4f4_2560_2560.jpg",
+    linkKakobuy: "https://ikako.vip/wb5fd",
+    linkUsfans: "https://usfans.com/product/3/7780596355?ref=TX9V9N",
+    tag: "WWTOP",
+    rating: 5
+  },
+  {
+    name: "YSL TEE",
+    category: "Tshirts",
+    price: "$13.94",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2222264012868/O1CN01C5JnBJ1X3b3ldKNdT_!!2222264012868.jpg",
+    linkKakobuy: "https://usfans.com/product/2/SPrQntyUkYPt-3KgqqtT6N6tvS-rTmNYm8xL6JQHYfkNesptOtYR4Gc?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/SPrQntyUkYPt-3KgqqtT6N6tvS-rTmNYm8xL6JQHYfkNesptOtYR4Gc?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "HBA LONGSLEEVE",
+    category: "Tshirts",
+    price: "$37.37",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2210299185015/O1CN013FemWB1muvHOAGsLb_!!2210299185015.jpg",
+    linkKakobuy: "https://usfans.com/product/2/MkDeEUAku-hohmhMgGqub09LheiF66tO9bgKlfFLb8MNhr0XyBOdjg?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/MkDeEUAku-hohmhMgGqub09LheiF66tO9bgKlfFLb8MNhr0XyBOdjg?ref=TX9V9N",
+    tag: "VOGUE",
+    rating: 5
+  },
 ];
 
 
