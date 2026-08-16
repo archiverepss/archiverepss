@@ -7443,13 +7443,15 @@ const products = [
     rating: 5
   },
 ];
+  // ... reszta produktów (pozostawiam oryginalną zawartość)
 
 
 // ============================================
 // 🏷️ BAZA DANYCH PROMOCJI - DODAWAJ TUTAJ NOWE PROMOCJE!
 // ============================================
 const promotions = [
-  {
+  // ... oryginalna zawartość
+   {
     name: "CORTEIZ",
     price: "CHEAP",
     pricePLN: "CHEAP zł",
@@ -7521,16 +7523,13 @@ const promotions = [
     tag: "YOLO",
     category: "shoes"
   },
-  
 ];
-
 
 // ============================================
 // 🏪 SPRZEDAWCY - DODAWAJ TUTAJ NOWYCH SPRZEDAWCÓW!
 // ============================================
 const sellers = [
-  // PRZYKŁADOWY SPRZEDAWCA:
-  // {
+  // ... orygina{
   //   name: "Nazwa",
   //   category: "clothing", // clothing, shoes, luxury
  {
@@ -7866,22 +7865,15 @@ const sellers = [
     rating: 9.0,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
-  
 ];
 
 // ============================================
 // 🔥 PRODUKTY KTÓRE CHCESZ WIDZIEĆ W "POPULARNE"
 // ============================================
-// Jeśli chcesz ręcznie wybrać produkty - wpisz ich nazwy poniżej
-// Jeśli zostawisz puste [], to pokaże ostatnio dodane produkty
-const featuredProducts = [
-  // "Jordan 4 Frozen Moments / Black Canvas",
-  // "ERD BLACK HOODIE",
-  // "AF1",
-];
+const featuredProducts = [];
 
 // ============================================
-// 🌐 ZMIENNE STANU (NIE RUSZAJ!)
+// 🌐 ZMIENNE STANU
 // ============================================
 let currentCategory = "All";
 let searchQuery = "";
@@ -7893,7 +7885,23 @@ let currentView = 'products';
 let currentSellerSearch = '';
 
 // ============================================
-// 🌐 TŁUMACZENIA - TU MOŻESZ ZMIENIAĆ NAZWY KATEGORII
+// 🏷️ SORTOWANIE Z PROMOTED NA GÓRZE
+// ============================================
+function sortWithPromoted(items) {
+  return items.sort(function(a, b) {
+    var aPromoted = a.tag && a.tag.toUpperCase().includes('PROMOTED');
+    var bPromoted = b.tag && b.tag.toUpperCase().includes('PROMOTED');
+    
+    if (aPromoted === bPromoted) {
+      return a.name.localeCompare(b.name);
+    }
+    
+    return aPromoted ? -1 : 1;
+  });
+}
+
+// ============================================
+// 🌐 TŁUMACZENIA
 // ============================================
 const translations = {
   pl: {
@@ -7967,7 +7975,7 @@ const translations = {
 };
 
 // ============================================
-// 📋 MAPOWANIE KATEGORII - TU MOŻESZ DODAWAĆ NOWE KATEGORIE
+// 📋 MAPOWANIE KATEGORII
 // ============================================
 const categoryMapping = [
   { techName: "All", translationKey: "all" },
@@ -7979,12 +7987,10 @@ const categoryMapping = [
   { techName: "Pants", translationKey: "pants" },
   { techName: "Jackets", translationKey: "jackets" },
   { techName: "Belts", translationKey: "belts" }
-  // DODAJ NOWĄ KATEGORIĘ:
-  // { techName: "TwojaNowaKategoria", translationKey: "twoja_nowa" }
 ];
 
 // ============================================
-// 📋 KONFIGURACJA AGENTÓW (NIE RUSZAJ!)
+// 📋 KONFIGURACJA AGENTÓW
 // ============================================
 const agentConfig = {
   kakobuy: {
@@ -8014,7 +8020,7 @@ const agentConfig = {
 };
 
 // ============================================
-// 💰 PRZELICZNIK USD → PLN (NIE RUSZAJ!)
+// 💰 PRZELICZNIK USD → PLN
 // ============================================
 const USD_TO_PLN = 3.62;
 
@@ -8054,7 +8060,7 @@ function formatPrice(priceStr) {
 }
 
 // ============================================
-// 🚀 INICJALIZACJA (NIE RUSZAJ!)
+// 🚀 INICJALIZACJA
 // ============================================
 document.addEventListener("DOMContentLoaded", function() {
   console.log("🚀 Strona załadowana");
@@ -8078,7 +8084,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // ============================================
-// 🌐 POPUP JĘZYKA (NIE RUSZAJ!)
+// 🌐 POPUP JĘZYKA
 // ============================================
 function showLanguagePopup() {
   var popup = document.getElementById('languagePopupOverlay');
@@ -8114,7 +8120,7 @@ function confirmLanguage() {
 }
 
 // ============================================
-// 🤖 POPUP AGENTA (NIE RUSZAJ!)
+// 🤖 POPUP AGENTA
 // ============================================
 function showAgentPopup() {
   var popup = document.getElementById('agentPopupOverlay');
@@ -8139,7 +8145,7 @@ function selectAgent(agentName) {
 }
 
 // ============================================
-// 📋 POPUP REJESTRACYJNY (NIE RUSZAJ!)
+// 📋 POPUP REJESTRACYJNY
 // ============================================
 function showRegisterPopup() {
   var popup = document.getElementById('popupOverlay');
@@ -8186,7 +8192,7 @@ function updateRegisterPopup() {
 }
 
 // ============================================
-// 📋 KOPIOWANIE KODU (NIE RUSZAJ!)
+// 📋 KOPIOWANIE KODU
 // ============================================
 function copyCode() {
   var codeElement = document.getElementById('popupCodeValue');
@@ -8229,7 +8235,7 @@ function fallbackCopy(text) {
 }
 
 // ============================================
-// 🎨 USTAWIENIA JĘZYKA (NIE RUSZAJ!)
+// 🎨 USTAWIENIA JĘZYKA
 // ============================================
 function setupLanguage() {
   var lang = translations[currentLanguage];
@@ -8307,7 +8313,7 @@ function setupLanguage() {
 }
 
 // ============================================
-// 🎯 EVENT LISTENERS (NIE RUSZAJ!)
+// 🎯 EVENT LISTENERS
 // ============================================
 function setupEventListeners() {
   var lastFindsLink = document.getElementById('navLastFinds');
@@ -8317,6 +8323,15 @@ function setupEventListeners() {
       switchView('lastfinds');
     });
   }
+  
+  var promoLink = document.getElementById('navPromo');
+  if (promoLink) {
+    promoLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      switchView('promo');
+    });
+  }
+  
   var filterToggleBtn = document.getElementById("filterToggleBtn");
   var advancedFilters = document.getElementById("advancedFilters");
   if (filterToggleBtn && advancedFilters) {
@@ -8388,17 +8403,10 @@ function setupEventListeners() {
       if (e.target === this) hideRegisterPopup();
     });
   }
-  var promoLink = document.getElementById('navPromo');
-if (promoLink) {
-  promoLink.addEventListener('click', function(e) {
-    e.preventDefault();
-    switchView('promo');
-  });
-}
 }
 
 // ============================================
-// 📊 RENDEROWANIE KATEGORII (NIE RUSZAJ!)
+// 📊 RENDEROWANIE KATEGORII
 // ============================================
 function renderCategories() {
   var container = document.getElementById("categoriesContainer");
@@ -8419,7 +8427,7 @@ function renderCategories() {
 }
 
 // ============================================
-// 🔥 RENDEROWANIE POPULARNE (NIE RUSZAJ!)
+// 🔥 RENDEROWANIE POPULARNE
 // ============================================
 function renderFeatured() {
   var grid = document.getElementById('featuredGrid');
@@ -8427,18 +8435,18 @@ function renderFeatured() {
   
   var featuredItems = [];
   
-  // Jeśli masz zdefiniowane konkretne produkty w featuredProducts
   if (featuredProducts.length > 0) {
     featuredItems = products.filter(function(p) {
       return featuredProducts.includes(p.name);
     });
   } 
   
-  // Jeśli nie ma zdefiniowanych, weź ostatnie 6 dodanych produktów
   if (featuredItems.length === 0) {
     var reversed = products.slice().reverse();
     featuredItems = reversed.slice(0, Math.min(6, products.length));
   }
+  
+  featuredItems = sortWithPromoted(featuredItems);
   
   if (featuredItems.length === 0) {
     grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 20px; color: #71717a;">Brak produktów do wyświetlenia.</div>';
@@ -8454,7 +8462,9 @@ function renderFeatured() {
     var priceData = formatPrice(p.price);
     
     var tagClass = 'product-tag';
-    if (p.tag && p.tag.toUpperCase().includes('BEST')) {
+    if (p.tag && p.tag.toUpperCase().includes('PROMOTED')) {
+      tagClass += ' promoted';
+    } else if (p.tag && p.tag.toUpperCase().includes('BEST')) {
       tagClass += ' best';
     } else if (p.tag && p.tag.toUpperCase().includes('BUDGET')) {
       tagClass += ' budget';
@@ -8509,7 +8519,7 @@ function renderFeatured() {
 }
 
 // ============================================
-// 🔍 WYSZUKIWANIE (NIE RUSZAJ!)
+// 🔍 WYSZUKIWANIE
 // ============================================
 function handleSearch() {
   var mainSearch = document.getElementById("search").value;
@@ -8525,7 +8535,7 @@ function clearPriceFilters() {
 }
 
 // ============================================
-// 📊 FILTROWANIE I SORTOWANIE (NIE RUSZAJ!)
+// 📊 FILTROWANIE I SORTOWANIE
 // ============================================
 function applyFiltersAndSort() {
   var minPrice = parseFloat(document.getElementById("priceMin").value) || 0;
@@ -8539,6 +8549,8 @@ function applyFiltersAndSort() {
     var matchesPrice = pricePLN >= minPrice && pricePLN <= maxPrice;
     return matchesCategory && matchesSearch && matchesPrice;
   });
+
+  filtered = sortWithPromoted(filtered);
 
   if (sortValue === "asc") {
     filtered.sort(function(a, b) {
@@ -8554,7 +8566,7 @@ function applyFiltersAndSort() {
 }
 
 // ============================================
-// 📊 RENDEROWANIE PRODUKTÓW (NIE RUSZAJ!)
+// 📊 RENDEROWANIE PRODUKTÓW
 // ============================================
 function renderGrid(items) {
   var grid = document.getElementById("grid");
@@ -8579,7 +8591,9 @@ function renderGrid(items) {
     var priceData = formatPrice(p.price);
 
     var tagClass = 'product-tag';
-    if (p.tag && p.tag.toUpperCase().includes('BEST')) {
+    if (p.tag && p.tag.toUpperCase().includes('PROMOTED')) {
+      tagClass += ' promoted';
+    } else if (p.tag && p.tag.toUpperCase().includes('BEST')) {
       tagClass += ' best';
     } else if (p.tag && p.tag.toUpperCase().includes('BUDGET')) {
       tagClass += ' budget';
@@ -8628,7 +8642,7 @@ function renderGrid(items) {
 }
 
 // ============================================
-// 🔍 LIGHTBOX (NIE RUSZAJ!)
+// 🔍 LIGHTBOX
 // ============================================
 function openLightbox(imgSrc) {
   var overlay = document.getElementById('lightboxOverlay');
@@ -8663,7 +8677,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ============================================
-// 🏪 SPRZEDAWCY - FUNKCJE (NIE RUSZAJ!)
+// 🏪 SPRZEDAWCY - FUNKCJE
 // ============================================
 function filterSellers() {
   var searchInput = document.getElementById('sellerSearch');
@@ -8728,29 +8742,32 @@ function renderSellers() {
 }
 
 // ============================================
-// 🔄 PRZEŁĄCZANIE WIDOKU (NIE RUSZAJ!)
+// 🔄 PRZEŁĄCZANIE WIDOKU
 // ============================================
 function switchView(view) {
   currentView = view;
   var productsView = document.getElementById('productsView');
   var sellersView = document.getElementById('sellersView');
   var lastFindsView = document.getElementById('lastFindsView');
+  var promoView = document.getElementById('promoView');
   var spreadsheetLink = document.getElementById('navSpreadsheet');
   var sellersLink = document.getElementById('navSellers');
   var lastFindsLink = document.getElementById('navLastFinds');
+  var promoLink = document.getElementById('navPromo');
   var heroTitle = document.getElementById('heroTitle');
   var heroSubtitle = document.getElementById('heroSubtitle');
   var searchInput = document.getElementById('search');
   var globalSearch = document.getElementById('globalSearch');
   
-  // Ukryj wszystko
   if (productsView) productsView.style.display = 'none';
   if (sellersView) sellersView.style.display = 'none';
   if (lastFindsView) lastFindsView.style.display = 'none';
+  if (promoView) promoView.style.display = 'none';
   
   if (spreadsheetLink) spreadsheetLink.classList.remove('active');
   if (sellersLink) sellersLink.classList.remove('active');
   if (lastFindsLink) lastFindsLink.classList.remove('active');
+  if (promoLink) promoLink.classList.remove('active');
   
   if (view === 'products') {
     if (productsView) productsView.style.display = 'block';
@@ -8765,18 +8782,23 @@ function switchView(view) {
     if (lastFindsLink) lastFindsLink.classList.add('active');
     if (heroTitle) heroTitle.textContent = '🔥 Last Finds';
     if (heroSubtitle) heroSubtitle.textContent = 'Ostatnio dodane produkty.';
-    // Renderuj slider
     renderSlider();
     setTimeout(function() {
       updateSlidesPerView();
       updateSlider();
       updateDots();
     }, 100);
+  } else if (view === 'promo') {
+    if (promoView) promoView.style.display = 'block';
+    if (promoLink) promoLink.classList.add('active');
+    if (heroTitle) heroTitle.textContent = '🏷️ Promo Finds';
+    if (heroSubtitle) heroSubtitle.textContent = 'Najlepsze promocje i okazje.';
+    renderPromotions();
   } else {
     if (sellersView) sellersView.style.display = 'block';
     if (sellersLink) sellersLink.classList.add('active');
-    if (heroTitle) heroTitle.textContent = '🔍 Sprzedawcy';
-    if (heroSubtitle) heroSubtitle.textContent = 'Przeglądaj naszą kolekcję najlepszych sprzedawców.';
+    if (heroTitle) heroTitle.textContent = '🏪 Najlepsi sprzedawcy';
+    if (heroSubtitle) heroSubtitle.textContent = 'Przeglądaj najlepszych sprzedawców Weidian i Taobao.';
     renderSellers();
   }
 }
@@ -8792,7 +8814,6 @@ function renderSlider() {
   var track = document.getElementById('sliderTrack');
   if (!track) return;
   
-  // Weź ostatnie 12 produktów (lub mniej jeśli jest mniej)
   var reversed = products.slice().reverse();
   var sliderItems = reversed.slice(0, Math.min(30, products.length));
   
@@ -8810,7 +8831,9 @@ function renderSlider() {
     var priceData = formatPrice(p.price);
     
     var tagClass = 'product-tag';
-    if (p.tag && p.tag.toUpperCase().includes('BEST')) {
+    if (p.tag && p.tag.toUpperCase().includes('PROMOTED')) {
+      tagClass += ' promoted';
+    } else if (p.tag && p.tag.toUpperCase().includes('BEST')) {
       tagClass += ' best';
     } else if (p.tag && p.tag.toUpperCase().includes('BUDGET')) {
       tagClass += ' budget';
@@ -8863,7 +8886,6 @@ function renderSlider() {
     track.appendChild(item);
   });
   
-  // Aktualizuj liczbę widocznych slajdów
   updateSlidesPerView();
   updateSlider();
   updateDots();
@@ -8902,7 +8924,6 @@ function updateSlider() {
     track.style.transform = 'translateX(-' + offset + 'px)';
   }
   
-  // Aktualizuj przyciski
   var prevBtn = document.getElementById('sliderPrev');
   var nextBtn = document.getElementById('sliderNext');
   
@@ -8953,7 +8974,6 @@ function slideNext() {
   }
 }
 
-// Obsługa strzałek
 document.addEventListener('DOMContentLoaded', function() {
   var prevBtn = document.getElementById('sliderPrev');
   var nextBtn = document.getElementById('sliderNext');
@@ -8961,71 +8981,12 @@ document.addEventListener('DOMContentLoaded', function() {
   if (prevBtn) prevBtn.addEventListener('click', slidePrev);
   if (nextBtn) nextBtn.addEventListener('click', slideNext);
   
-  // Obsługa resize
   window.addEventListener('resize', function() {
     updateSlidesPerView();
     updateSlider();
     updateDots();
   });
 });
-
-// ============================================
-// 🔄 PRZEŁĄCZANIE WIDOKU (zaktualizowane)
-// ============================================
-function switchView(view) {
-  currentView = view;
-  var productsView = document.getElementById('productsView');
-  var sellersView = document.getElementById('sellersView');
-  var lastFindsView = document.getElementById('lastFindsView');
-  var spreadsheetLink = document.getElementById('navSpreadsheet');
-  var sellersLink = document.getElementById('navSellers');
-  var lastFindsLink = document.getElementById('navLastFinds');
-  var heroTitle = document.getElementById('heroTitle');
-  var heroSubtitle = document.getElementById('heroSubtitle');
-  var searchInput = document.getElementById('search');
-  var globalSearch = document.getElementById('globalSearch');
-  
-  // Ukryj wszystko
-  if (productsView) productsView.style.display = 'none';
-  if (sellersView) sellersView.style.display = 'none';
-  if (lastFindsView) lastFindsView.style.display = 'none';
-  
-  if (spreadsheetLink) spreadsheetLink.classList.remove('active');
-  if (sellersLink) sellersLink.classList.remove('active');
-  if (lastFindsLink) lastFindsLink.classList.remove('active');
-  
-  if (view === 'products') {
-    if (productsView) productsView.style.display = 'block';
-    if (spreadsheetLink) spreadsheetLink.classList.add('active');
-    if (heroTitle) heroTitle.textContent = translations[currentLanguage].heroTitle;
-    if (heroSubtitle) heroSubtitle.textContent = translations[currentLanguage].heroSubtitle;
-    if (searchInput) searchInput.placeholder = translations[currentLanguage].searchPlaceholder;
-    if (globalSearch) globalSearch.placeholder = 'Szukaj...  ⌘ K';
-    applyFiltersAndSort();
-  } else if (view === 'lastfinds') {
-    if (lastFindsView) lastFindsView.style.display = 'block';
-    if (lastFindsLink) lastFindsLink.classList.add('active');
-    if (heroTitle) heroTitle.textContent = '🔥 Last Finds';
-    if (heroSubtitle) heroSubtitle.textContent = 'Ostatnio dodane produkty.';
-    // Renderuj slider
-    renderSlider();
-    setTimeout(function() {
-      updateSlidesPerView();
-      updateSlider();
-      updateDots();
-    }, 100);
-  } else {
-    if (sellersView) sellersView.style.display = 'block';
-    if (sellersLink) sellersLink.classList.add('active');
-    if (heroTitle) heroTitle.textContent = '🏪 Najlepsi sprzedawcy';
-    if (heroSubtitle) heroSubtitle.textContent = 'Przeglądaj najlepszych sprzedawców Weidian i Taobao.';
-    renderSellers();
-  }
-}
-
-// ============================================
-// 🏷️ PROMO FINDS - FUNKCJE
-// ============================================
 
 // ============================================
 // 🏷️ PROMO FINDS - FUNKCJE
@@ -9104,70 +9065,6 @@ function renderPromotions() {
     grid.appendChild(card);
   });
 }
-
-// ============================================
-// 🔄 PRZEŁĄCZANIE WIDOKU (zaktualizowane o Promo)
-// ============================================
-function switchView(view) {
-  currentView = view;
-  var productsView = document.getElementById('productsView');
-  var sellersView = document.getElementById('sellersView');
-  var lastFindsView = document.getElementById('lastFindsView');
-  var promoView = document.getElementById('promoView');
-  var spreadsheetLink = document.getElementById('navSpreadsheet');
-  var sellersLink = document.getElementById('navSellers');
-  var lastFindsLink = document.getElementById('navLastFinds');
-  var promoLink = document.getElementById('navPromo');
-  var heroTitle = document.getElementById('heroTitle');
-  var heroSubtitle = document.getElementById('heroSubtitle');
-  var searchInput = document.getElementById('search');
-  var globalSearch = document.getElementById('globalSearch');
-  
-  // Ukryj wszystko
-  if (productsView) productsView.style.display = 'none';
-  if (sellersView) sellersView.style.display = 'none';
-  if (lastFindsView) lastFindsView.style.display = 'none';
-  if (promoView) promoView.style.display = 'none';
-  
-  if (spreadsheetLink) spreadsheetLink.classList.remove('active');
-  if (sellersLink) sellersLink.classList.remove('active');
-  if (lastFindsLink) lastFindsLink.classList.remove('active');
-  if (promoLink) promoLink.classList.remove('active');
-  
-  if (view === 'products') {
-    if (productsView) productsView.style.display = 'block';
-    if (spreadsheetLink) spreadsheetLink.classList.add('active');
-    if (heroTitle) heroTitle.textContent = translations[currentLanguage].heroTitle;
-    if (heroSubtitle) heroSubtitle.textContent = translations[currentLanguage].heroSubtitle;
-    if (searchInput) searchInput.placeholder = translations[currentLanguage].searchPlaceholder;
-    if (globalSearch) globalSearch.placeholder = 'Szukaj...  ⌘ K';
-    applyFiltersAndSort();
-  } else if (view === 'lastfinds') {
-    if (lastFindsView) lastFindsView.style.display = 'block';
-    if (lastFindsLink) lastFindsLink.classList.add('active');
-    if (heroTitle) heroTitle.textContent = '🔥 Last Finds';
-    if (heroSubtitle) heroSubtitle.textContent = 'Ostatnio dodane produkty.';
-    renderSlider();
-    setTimeout(function() {
-      updateSlidesPerView();
-      updateSlider();
-      updateDots();
-    }, 100);
-  } else if (view === 'promo') {
-    if (promoView) promoView.style.display = 'block';
-    if (promoLink) promoLink.classList.add('active');
-    if (heroTitle) heroTitle.textContent = '🏷️ Promo Finds';
-    if (heroSubtitle) heroSubtitle.textContent = 'Najlepsze promocje i okazje.';
-    renderPromotions();
-  } else {
-    if (sellersView) sellersView.style.display = 'block';
-    if (sellersLink) sellersLink.classList.add('active');
-    if (heroTitle) heroTitle.textContent = '🏪 Najlepsi sprzedawcy';
-    if (heroSubtitle) heroSubtitle.textContent = 'Przeglądaj najlepszych sprzedawców Weidian i Taobao.';
-    renderSellers();
-  }
-}
-
 
 // ============================================
 // SIDEBAR TOGGLE
