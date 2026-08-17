@@ -2,7 +2,7 @@
 // 🛍️ BAZA DANYCH PRODUKTÓW - DODAWAJ TUTAJ NOWE PRODUKTY!
 // ============================================
 const products = [
-   {
+  {
     name: "Jordan 4 Frozen Moments / Black Canvas",
     category: "Shoes",
     price: "$63",
@@ -6977,7 +6977,7 @@ const products = [
     category: "Hoodies",
     price: "$47.36",
     image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01Txm31Y1RR3cSnEPWs_!!2126072107.jpg",
-    linkKakobuy: "https://usfans.com/product/2/6mJCee9fzgv3JKMLxvq8FCqyTbmCUfPpbrSByjCIWGkuylZtkDACQQ",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D998807955538",
     linkUsfans: "https://usfans.com/product/2/6mJCee9fzgv3JKMLxvq8FCqyTbmCUfPpbrSByjCIWGkuylZtkDACQQ",
     tag: "BDSS",
     rating: 5
@@ -7272,7 +7272,6 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
-  // ... (tu wklej swoją listę produktów)
 ];
 
 // ============================================
