@@ -2808,3 +2808,596 @@ body {
     height: 15px;
   }
 }
+/* ====== POPUP QC ====== */
+.qc-modal-card {
+  position: relative;
+  background-color: #121214;
+  border: 1px solid #1e1e22;
+  border-radius: 20px;
+  padding: 32px 28px 28px;
+  max-width: 650px;
+  width: 95%;
+  max-height: 90vh;
+  overflow-y: auto;
+  transform: scale(0.95);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.6);
+}
+
+.popup-overlay.active .qc-modal-card {
+  transform: scale(1);
+}
+
+.qc-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.qc-header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.qc-header-left h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.qc-badge {
+  font-size: 11px;
+  font-weight: 600;
+  background: rgba(201, 168, 76, 0.15);
+  color: #c9a84c;
+  padding: 4px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(201, 168, 76, 0.2);
+}
+
+.qc-subtitle {
+  font-size: 13px;
+  color: #71717a;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.qc-product-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  background-color: #0b0b0c;
+  border-radius: 12px;
+  border: 1px solid #19191b;
+  margin-bottom: 18px;
+}
+
+.qc-product-info img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: #141416;
+}
+
+.qc-product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+.qc-product-details h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.qc-product-details span {
+  font-size: 12px;
+  color: #a1a1aa;
+}
+
+.qc-gallery {
+  min-height: 120px;
+  margin-bottom: 16px;
+}
+
+.qc-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 30px 0;
+  color: #71717a;
+  font-size: 14px;
+}
+
+.qc-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #19191b;
+  border-top-color: #c9a84c;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.qc-images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.qc-image-item {
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #0b0b0c;
+  border: 1px solid #19191b;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.qc-image-item:hover {
+  border-color: #c9a84c;
+  transform: scale(1.03);
+}
+
+.qc-image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.qc-no-images {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 30px 20px;
+  color: #71717a;
+  font-size: 14px;
+  background: #0b0b0c;
+  border-radius: 12px;
+  border: 1px solid #19191b;
+}
+
+.qc-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid #19191b;
+}
+
+.qc-delivery {
+  font-size: 12px;
+  color: #71717a;
+}
+
+.qc-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #c9a84c;
+  color: #0b0b0c;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.qc-link-btn:hover {
+  background: #b8963a;
+  transform: translateY(-1px);
+}
+
+/* ====== IKONA QC (APARAT) - W PRAWYM GÓRNYM ROGU ====== */
+.product-card .qc-icon,
+.featured-card .qc-icon,
+.slider-item .qc-icon {
+  position: absolute;
+  top: 14px;
+  right: 62px;
+  width: 40px;
+  height: 40px;
+  background: rgba(46, 204, 113, 0.85);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 12px rgba(46, 204, 113, 0.3);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  transform: scale(0.6);
+}
+
+.product-card:hover .qc-icon,
+.featured-card:hover .qc-icon,
+.slider-item:hover .qc-icon {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.product-card .qc-icon:hover,
+.featured-card .qc-icon:hover,
+.slider-item .qc-icon:hover {
+  transform: scale(1.15);
+  background: rgba(46, 204, 113, 1);
+}
+
+.product-card .qc-icon svg,
+.featured-card .qc-icon svg,
+.slider-item .qc-icon svg {
+  width: 18px;
+  height: 18px;
+  color: #0b0b0c;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+  .qc-modal-card {
+    padding: 24px 16px 20px;
+  }
+  
+  .qc-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+  }
+  
+  .product-card .qc-icon,
+  .featured-card .qc-icon,
+  .slider-item .qc-icon {
+    width: 32px;
+    height: 32px;
+    right: 50px;
+    top: 10px;
+  }
+  
+  .product-card .qc-icon svg,
+  .featured-card .qc-icon svg,
+  .slider-item .qc-icon svg {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .qc-modal-card {
+    padding: 18px 12px 16px;
+  }
+  
+  .qc-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 6px;
+  }
+  
+  .product-card .qc-icon,
+  .featured-card .qc-icon,
+  .slider-item .qc-icon {
+    width: 28px;
+    height: 28px;
+    right: 40px;
+    top: 8px;
+  }
+  
+  .product-card .qc-icon svg,
+  .featured-card .qc-icon svg,
+  .slider-item .qc-icon svg {
+    width: 12px;
+    height: 12px;
+  }
+}
+/* ====== POPUP QC ====== */
+.qc-modal-card {
+  position: relative;
+  background-color: #121214;
+  border: 1px solid #1e1e22;
+  border-radius: 20px;
+  padding: 32px 28px 28px;
+  max-width: 650px;
+  width: 95%;
+  max-height: 90vh;
+  overflow-y: auto;
+  transform: scale(0.95);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.6);
+}
+
+.popup-overlay.active .qc-modal-card {
+  transform: scale(1);
+}
+
+.qc-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.qc-header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.qc-header-left h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.qc-badge {
+  font-size: 11px;
+  font-weight: 600;
+  background: rgba(201, 168, 76, 0.15);
+  color: #c9a84c;
+  padding: 4px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(201, 168, 76, 0.2);
+}
+
+.qc-subtitle {
+  font-size: 13px;
+  color: #71717a;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.qc-product-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  background-color: #0b0b0c;
+  border-radius: 12px;
+  border: 1px solid #19191b;
+  margin-bottom: 18px;
+}
+
+.qc-product-info img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: #141416;
+}
+
+.qc-product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+.qc-product-details h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.qc-product-details span {
+  font-size: 12px;
+  color: #a1a1aa;
+}
+
+.qc-gallery {
+  min-height: 120px;
+  margin-bottom: 16px;
+}
+
+.qc-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 30px 0;
+  color: #71717a;
+  font-size: 14px;
+}
+
+.qc-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #19191b;
+  border-top-color: #c9a84c;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.qc-images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.qc-image-item {
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #0b0b0c;
+  border: 1px solid #19191b;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.qc-image-item:hover {
+  border-color: #c9a84c;
+  transform: scale(1.03);
+}
+
+.qc-image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.qc-no-images {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 30px 20px;
+  color: #71717a;
+  font-size: 14px;
+  background: #0b0b0c;
+  border-radius: 12px;
+  border: 1px solid #19191b;
+}
+
+.qc-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid #19191b;
+}
+
+.qc-delivery {
+  font-size: 12px;
+  color: #71717a;
+}
+
+.qc-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #c9a84c;
+  color: #0b0b0c;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.qc-link-btn:hover {
+  background: #b8963a;
+  transform: translateY(-1px);
+}
+
+/* ====== IKONA QC (APARAT) ====== */
+.product-card .qc-icon,
+.featured-card .qc-icon,
+.slider-item .qc-icon {
+  position: absolute;
+  top: 14px;
+  right: 62px;
+  width: 40px;
+  height: 40px;
+  background: rgba(46, 204, 113, 0.85);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 12px rgba(46, 204, 113, 0.3);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  transform: scale(0.6);
+}
+
+.product-card:hover .qc-icon,
+.featured-card:hover .qc-icon,
+.slider-item:hover .qc-icon {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.product-card .qc-icon:hover,
+.featured-card .qc-icon:hover,
+.slider-item .qc-icon:hover {
+  transform: scale(1.15);
+  background: rgba(46, 204, 113, 1);
+}
+
+.product-card .qc-icon svg,
+.featured-card .qc-icon svg,
+.slider-item .qc-icon svg {
+  width: 18px;
+  height: 18px;
+  color: #0b0b0c;
+}
+
+@media (max-width: 768px) {
+  .qc-modal-card {
+    padding: 24px 16px 20px;
+  }
+  .qc-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+  }
+  .product-card .qc-icon,
+  .featured-card .qc-icon,
+  .slider-item .qc-icon {
+    width: 32px;
+    height: 32px;
+    right: 50px;
+    top: 10px;
+  }
+  .product-card .qc-icon svg,
+  .featured-card .qc-icon svg,
+  .slider-item .qc-icon svg {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .qc-modal-card {
+    padding: 18px 12px 16px;
+  }
+  .qc-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 6px;
+  }
+  .product-card .qc-icon,
+  .featured-card .qc-icon,
+  .slider-item .qc-icon {
+    width: 28px;
+    height: 28px;
+    right: 40px;
+    top: 8px;
+  }
+  .product-card .qc-icon svg,
+  .featured-card .qc-icon svg,
+  .slider-item .qc-icon svg {
+    width: 12px;
+    height: 12px;
+  }
+}

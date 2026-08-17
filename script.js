@@ -2,7 +2,7 @@
 // 🛍️ BAZA DANYCH PRODUKTÓW - DODAWAJ TUTAJ NOWE PRODUKTY!
 // ============================================
 const products = [
-  {
+   {
     name: "Jordan 4 Frozen Moments / Black Canvas",
     category: "Shoes",
     price: "$63",
@@ -7272,16 +7272,14 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  // ... (tu wklej swoją listę produktów)
 ];
-  // ... reszta produktów (pozostawiam oryginalną zawartość)
-
 
 // ============================================
 // 🏷️ BAZA DANYCH PROMOCJI - DODAWAJ TUTAJ NOWE PROMOCJE!
 // ============================================
 const promotions = [
-  // ... oryginalna zawartość
-   {
+{
     name: "CORTEIZ",
     price: "CHEAP",
     pricePLN: "CHEAP zł",
@@ -7353,16 +7351,15 @@ const promotions = [
     tag: "YOLO",
     category: "shoes"
   },
+
+  // ... (tu wklej swoją listę promocji)
 ];
 
 // ============================================
 // 🏪 SPRZEDAWCY - DODAWAJ TUTAJ NOWYCH SPRZEDAWCÓW!
 // ============================================
 const sellers = [
-  // ... orygina{
-  //   name: "Nazwa",
-  //   category: "clothing", // clothing, shoes, luxury
- {
+   {
     name: "HotDog",
     category: "clothing",
     badge: "Najwyżej oceniany",
@@ -7697,10 +7694,19 @@ const sellers = [
   },
 ];
 
+
+
 // ============================================
 // 🔥 PRODUKTY KTÓRE CHCESZ WIDZIEĆ W "POPULARNE"
 // ============================================
 const featuredProducts = [];
+
+// ============================================
+// 🔑 KONFIGURACJA API QC
+// ============================================
+const QC_API_KEY = 'qci_E6x0eygobDFO5enzVauWKJZkeyIh3vIr';
+const QC_API_URL = 'https://qcitems.com/api/v1/products';
+const QC_PROXY_URL = 'https://nameless-band-5b92.buzzbrief80.workers.dev/';
 
 // ============================================
 // 🌐 ZMIENNE STANU
@@ -7713,6 +7719,220 @@ let isFirstVisit = !localStorage.getItem('hasVisited');
 let currentSellerCategory = 'all';
 let currentView = 'products';
 let currentSellerSearch = '';
+
+// ============================================
+// 📷 QC - FUNKCJE
+// ============================================
+
+function openQCPopup(productUrl, productName, productImage, productPrice) {
+  var overlay = document.getElementById('qcPopupOverlay');
+  if (!overlay) return;
+  
+  var thumb = document.getElementById('qcProductThumb');
+  if (thumb) thumb.src = productImage || 'https://via.placeholder.com/100x100?text=No+Image';
+  
+  var title = document.getElementById('qcProductTitle');
+  if (title) title.textContent = productName || 'Produkt';
+  
+  var price = document.getElementById('qcProductPrice');
+  if (price) price.textContent = productPrice || '';
+  
+  var loading = document.getElementById('qcLoading');
+  var gallery = document.getElementById('qcImagesGrid');
+  var badge = document.getElementById('qcBadge');
+  var linkBtn = document.getElementById('qcLinkBtn');
+  
+  if (loading) loading.style.display = 'flex';
+  if (gallery) gallery.innerHTML = '';
+  if (badge) {
+    badge.textContent = '⏳ Ładowanie...';
+    badge.style.backgroundColor = 'rgba(255, 165, 0, 0.2)';
+    badge.style.color = '#ffa500';
+    badge.style.borderColor = 'rgba(255, 165, 0, 0.3)';
+  }
+  if (linkBtn) linkBtn.style.display = 'none';
+  
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+  
+  if (!productUrl) {
+    if (loading) loading.style.display = 'none';
+    if (gallery) {
+      gallery.innerHTML = '<div class="qc-no-images">❌ Brak linku do produktu</div>';
+    }
+    return;
+  }
+  
+  fetchQCImages(productUrl);
+}
+
+function closeQCPopup() {
+  var overlay = document.getElementById('qcPopupOverlay');
+  if (!overlay) return;
+  overlay.classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+async function fetchQCImages(productUrl) {
+  var loading = document.getElementById('qcLoading');
+  var gallery = document.getElementById('qcImagesGrid');
+  var linkBtn = document.getElementById('qcLinkBtn');
+  var badge = document.getElementById('qcBadge');
+  
+  try {
+    var fullUrl = QC_PROXY_URL + '?url=' + encodeURIComponent(productUrl);
+    
+    console.log('Pobieram QC przez proxy dla:', productUrl);
+    
+    var response = await fetch(fullUrl);
+    
+    if (!response.ok) {
+      throw new Error('HTTP ' + response.status);
+    }
+    
+    var result = await response.json();
+    console.log('Odpowiedź z Workera:', result);
+    
+    if (loading) loading.style.display = 'none';
+    
+    // Sprawdź czy success: true i czy są qcGroups
+    if (result.success === true && result.qcGroups) {
+      
+      // Zbierz wszystkie zdjęcia z qcGroups
+      var allImages = [];
+      
+      // qcGroups to obiekt z kluczami (usfans, kakobuy, oopbuy, acbuy)
+      for (var source in result.qcGroups) {
+        var groups = result.qcGroups[source];
+        if (Array.isArray(groups)) {
+          groups.forEach(function(group) {
+            if (group.photos && Array.isArray(group.photos)) {
+              group.photos.forEach(function(photo) {
+                if (photo.url) {
+                  allImages.push(photo.url);
+                }
+              });
+            }
+          });
+        }
+      }
+      
+      console.log('Znalezione zdjęcia:', allImages.length);
+      
+      if (allImages.length > 0) {
+        if (badge) {
+          badge.textContent = '✅ QC znalezione (' + allImages.length + ' zdjęć)';
+          badge.style.backgroundColor = 'rgba(46, 204, 113, 0.2)';
+          badge.style.color = '#2ecc71';
+          badge.style.borderColor = 'rgba(46, 204, 113, 0.3)';
+        }
+        
+        if (gallery) {
+          gallery.innerHTML = '';
+          
+          // Dodaj info o produkcie
+          if (result.info && result.info.title) {
+            var infoDiv = document.createElement('div');
+            infoDiv.className = 'qc-info-box';
+            infoDiv.style.cssText = 'display:flex;align-items:center;gap:12px;padding:12px 16px;background:#0b0b0c;border-radius:12px;border:1px solid #19191b;margin-bottom:12px;';
+            infoDiv.innerHTML = `
+              <span style="font-size:20px;">📸</span>
+              <div>
+                <div style="font-size:13px;color:#fff;font-weight:600;">${result.info.title || 'Produkt'}</div>
+                <div style="font-size:12px;color:#71717a;">Znaleziono ${allImages.length} zdjęć QC</div>
+              </div>
+            `;
+            gallery.appendChild(infoDiv);
+          }
+          
+          // Wyświetl wszystkie zdjęcia (max 20 żeby nie przeciążyć)
+          var displayImages = allImages.slice(0, 20);
+          displayImages.forEach(function(imgUrl, index) {
+            var imgContainer = document.createElement('div');
+            imgContainer.className = 'qc-image-item';
+            
+            var imgElement = document.createElement('img');
+            imgElement.src = imgUrl;
+            imgElement.alt = 'QC zdjęcie ' + (index + 1);
+            imgElement.loading = 'lazy';
+            
+            imgElement.onerror = function() {
+              this.src = 'https://via.placeholder.com/400x400/1a1a1e/c9a84c?text=QC+' + (index + 1);
+            };
+            
+            imgContainer.addEventListener('click', function() {
+              openLightbox(imgUrl);
+            });
+            
+            imgContainer.appendChild(imgElement);
+            gallery.appendChild(imgContainer);
+          });
+          
+          // Jeśli jest więcej niż 20 zdjęć
+          if (allImages.length > 20) {
+            var moreDiv = document.createElement('div');
+            moreDiv.className = 'qc-image-item';
+            moreDiv.style.cssText = 'display:flex;align-items:center;justify-content:center;background:#0b0b0c;color:#71717a;font-size:14px;font-weight:600;';
+            moreDiv.textContent = '+' + (allImages.length - 20) + ' więcej';
+            gallery.appendChild(moreDiv);
+          }
+        }
+        
+        if (linkBtn) {
+          linkBtn.style.display = 'none';
+        }
+        
+      } else {
+        if (badge) {
+          badge.textContent = '❌ Brak zdjęć QC';
+          badge.style.backgroundColor = 'rgba(255, 71, 87, 0.2)';
+          badge.style.color = '#ff4757';
+          badge.style.borderColor = 'rgba(255, 71, 87, 0.3)';
+        }
+        if (gallery) {
+          gallery.innerHTML = `<div class="qc-no-images">📷 Brak zdjęć QC dla tego produktu.</div>`;
+        }
+      }
+      
+    } else {
+      if (badge) {
+        badge.textContent = '❌ Brak QC w bazie';
+        badge.style.backgroundColor = 'rgba(255, 71, 87, 0.2)';
+        badge.style.color = '#ff4757';
+        badge.style.borderColor = 'rgba(255, 71, 87, 0.3)';
+      }
+      if (gallery) {
+        gallery.innerHTML = `
+          <div class="qc-no-images">
+            <div style="font-size:48px;margin-bottom:16px;">📷</div>
+            <div style="font-size:18px;font-weight:600;color:#ffffff;margin-bottom:8px;">Brak zdjęć QC</div>
+            <div style="font-size:14px;color:#71717a;">Ten produkt nie ma jeszcze zdjęć QC w bazie.</div>
+          </div>
+        `;
+      }
+      if (linkBtn) linkBtn.style.display = 'none';
+    }
+    
+  } catch (error) {
+    console.error('Błąd:', error);
+    if (loading) loading.style.display = 'none';
+    if (badge) {
+      badge.textContent = '⚠️ Błąd';
+      badge.style.backgroundColor = 'rgba(255, 71, 87, 0.2)';
+      badge.style.color = '#ff4757';
+      badge.style.borderColor = 'rgba(255, 71, 87, 0.3)';
+    }
+    if (gallery) {
+      gallery.innerHTML = `
+        <div class="qc-no-images">
+          <div style="font-size:48px;margin-bottom:16px;">⚠️</div>
+          <div style="font-size:18px;font-weight:600;color:#ffffff;margin-bottom:8px;">Błąd połączenia</div>
+          <div style="font-size:14px;color:#71717a;">${error.message}</div>
+        </div>
+      `;
+    }
+  }
+}
 
 // ============================================
 // 🏷️ SORTOWANIE Z PROMOTED NA GÓRZE
@@ -8233,6 +8453,18 @@ function setupEventListeners() {
       if (e.target === this) hideRegisterPopup();
     });
   }
+
+  // QC Popup close
+  var qcCloseBtn = document.getElementById('qcPopupClose');
+  if (qcCloseBtn) {
+    qcCloseBtn.addEventListener('click', closeQCPopup);
+  }
+  var qcPopup = document.getElementById('qcPopupOverlay');
+  if (qcPopup) {
+    qcPopup.addEventListener('click', function(e) {
+      if (e.target === this) closeQCPopup();
+    });
+  }
 }
 
 // ============================================
@@ -8290,6 +8522,7 @@ function renderFeatured() {
     var catMap = categoryMapping.find(function(c) { return c.techName === p.category; });
     var localizedCat = catMap ? translations[currentLanguage][catMap.translationKey] : p.category;
     var priceData = formatPrice(p.price);
+    var qcUrl = p.linkUsfans || p.linkKakobuy || '';
     
     var tagClass = 'product-tag';
     if (p.tag && p.tag.toUpperCase().includes('PROMOTED')) {
@@ -8308,6 +8541,7 @@ function renderFeatured() {
     card.className = 'featured-card';
     
     card.addEventListener('click', function(e) {
+      if (e.target.closest('.qc-icon')) return;
       if (e.target.closest('.zoom-icon')) return;
       if (finalLink && finalLink !== '#') {
         window.open(finalLink, '_blank');
@@ -8321,6 +8555,12 @@ function renderFeatured() {
           '<circle cx="11" cy="11" r="8"/>' +
           '<path d="m21 21-4.35-4.35"/>' +
           '<path d="M11 8v6M8 11h6"/>' +
+        '</svg>' +
+      '</div>' +
+      '<div class="qc-icon" onclick="event.stopPropagation(); openQCPopup(\'' + qcUrl + '\', \'' + safeName.replace(/'/g, "\\'") + '\', \'' + safeImage + '\', \'' + priceData.usd + '\')">' +
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#0b0b0c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+          '<path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>' +
+          '<circle cx="12" cy="13" r="4"/>' +
         '</svg>' +
       '</div>' +
       (p.tag ? '<div class="' + tagClass + '">' + p.tag + '</div>' : '') +
@@ -8419,6 +8659,7 @@ function renderGrid(items) {
     var catMap = categoryMapping.find(function(c) { return c.techName === p.category; });
     var localizedCat = catMap ? translations[currentLanguage][catMap.translationKey] : p.category;
     var priceData = formatPrice(p.price);
+    var qcUrl = p.linkUsfans || p.linkKakobuy || '';
 
     var tagClass = 'product-tag';
     if (p.tag && p.tag.toUpperCase().includes('PROMOTED')) {
@@ -8438,6 +8679,7 @@ function renderGrid(items) {
     card.className = "product-card";
 
     card.addEventListener("click", function(e) {
+      if (e.target.closest('.qc-icon')) return;
       if (e.target.closest('.zoom-icon')) return;
       if (finalLink && finalLink !== '#') {
         window.open(finalLink, "_blank");
@@ -8451,6 +8693,12 @@ function renderGrid(items) {
           '<circle cx="11" cy="11" r="8"/>' +
           '<path d="m21 21-4.35-4.35"/>' +
           '<path d="M11 8v6M8 11h6"/>' +
+        '</svg>' +
+      '</div>' +
+      '<div class="qc-icon" onclick="event.stopPropagation(); openQCPopup(\'' + qcUrl + '\', \'' + safeName.replace(/'/g, "\\'") + '\', \'' + safeImage + '\', \'' + priceData.usd + '\')">' +
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#0b0b0c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+          '<path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>' +
+          '<circle cx="12" cy="13" r="4"/>' +
         '</svg>' +
       '</div>' +
       (p.tag ? '<div class="' + tagClass + '">' + p.tag + '</div>' : '') +
@@ -8659,6 +8907,7 @@ function renderSlider() {
     var catMap = categoryMapping.find(function(c) { return c.techName === p.category; });
     var localizedCat = catMap ? translations[currentLanguage][catMap.translationKey] : p.category;
     var priceData = formatPrice(p.price);
+    var qcUrl = p.linkUsfans || p.linkKakobuy || '';
     
     var tagClass = 'product-tag';
     if (p.tag && p.tag.toUpperCase().includes('PROMOTED')) {
@@ -8677,6 +8926,7 @@ function renderSlider() {
     item.className = 'slider-item';
     
     item.addEventListener('click', function(e) {
+      if (e.target.closest('.qc-icon')) return;
       if (e.target.closest('.zoom-icon')) return;
       if (finalLink && finalLink !== '#') {
         window.open(finalLink, '_blank');
@@ -8690,6 +8940,12 @@ function renderSlider() {
           '<circle cx="11" cy="11" r="8"/>' +
           '<path d="m21 21-4.35-4.35"/>' +
           '<path d="M11 8v6M8 11h6"/>' +
+        '</svg>' +
+      '</div>' +
+      '<div class="qc-icon" onclick="event.stopPropagation(); openQCPopup(\'' + qcUrl + '\', \'' + safeName.replace(/'/g, "\\'") + '\', \'' + safeImage + '\', \'' + priceData.usd + '\')">' +
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#0b0b0c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+          '<path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>' +
+          '<circle cx="12" cy="13" r="4"/>' +
         '</svg>' +
       '</div>' +
       (p.tag ? '<div class="' + tagClass + '">' + p.tag + '</div>' : '') +
