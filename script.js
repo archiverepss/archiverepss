@@ -7142,6 +7142,136 @@ const products = [
     tag: "VOGUE",
     rating: 5
   },
+  {
+    name: "VESCARTES ONI HOODIE",
+    category: "Hoodies",
+    price: "$60.48",
+    image: "https://si.geilicdn.com/wdseller1995625455-6ec20000019f4195fb370a230417_3025_3026.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7803167673?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7803167673?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "VESCARTES CHURCH JACKET",
+    category: "Jackets",
+    price: "$47.37",
+    image: "https://si.geilicdn.com/wdseller1995625455-62730000019bd504712b0a23138d_1290_1720.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7665557479?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7665557479?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "NOTE TREE HOODIE",
+    category: "Hoodies",
+    price: "$30.89",
+    image: "https://si.geilicdn.com/wdseller1995625455-37130000019ecacd3e3f0a20e284_1280_1282.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7788996856?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7788996856?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "PEACEINWAR MULTIDIMENSIONAL HOODIE",
+    category: "Hoodies",
+    price: "$39.18",
+    image: "https://si.geilicdn.com/wdseller1995625455-4eff0000019f655494450a23138d_3025_3026.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7807096959?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7807096959?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "VERSCARTES CHERRY BLOSSOM HOODIE",
+    category: "Hoodies",
+    price: "$47.37",
+    image: "https://si.geilicdn.com/wdseller1995625455-14c70000019f93de20370a23b6ac_1320_1760.jpg",
+    linkKakobuy: "https://usfans.com/product/3/7815363956?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/3/7815363956?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "CARDIGAN ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$30.82",
+    image: "https://img.alicdn.com/bao/uploaded/i2/346392213/O1CN010npMdU1SDbaTaZneI_!!346392213.jpg",
+    linkKakobuy: "https://usfans.com/product/2/d2euXv7GyNtweonmsYeGJaP_iFZGx0LFA-7cvNAYmTTs8gtchmajqw?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/d2euXv7GyNtweonmsYeGJaP_iFZGx0LFA-7cvNAYmTTs8gtchmajqw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NOTE POLO",
+    category: "Tshirts",
+    price: "$14.43",
+    image: "https://img.alicdn.com/bao/uploaded/i3/346392213/O1CN01C1ZoNa1SDbcqsPBKt_!!346392213.jpg",
+    linkKakobuy: "https://usfans.com/product/2/bsshG_uncEs_HztnbZAr6qjFa1uQM4ygPQn9pFcp4yBZuuy8u56HwTc?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/bsshG_uncEs_HztnbZAr6qjFa1uQM4ygPQn9pFcp4yBZuuy8u56HwTc?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "PATCHWORK SLIM TEE",
+    category: "Tshirts",
+    price: "$14.43",
+    image: "https://img.alicdn.com/bao/uploaded/i3/346392213/O1CN014tcydU1SDbYtEjnq3_!!346392213.jpg",
+    linkKakobuy: "https://usfans.com/product/2/Ft37DqgAEoW76ialRznXC5avGAVw5eImT2SU_0gPa-b_4JjAB0dLXQ?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/Ft37DqgAEoW76ialRznXC5avGAVw5eImT2SU_0gPa-b_4JjAB0dLXQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MORO WAFFLE LONGSLEEVE",
+    category: "Tshirts",
+    price: "$19.35",
+    image: "https://img.alicdn.com/bao/uploaded/i1/346392213/O1CN01CADyKQ1SDbd2kH0Ep_!!346392213.jpg",
+    linkKakobuy: "https://usfans.com/product/2/XTPo78-GmiyFWZOyy4YPUSBpZT70KpETMFHIDxbTEbUzPsMMd8FpEdA?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/XTPo78-GmiyFWZOyy4YPUSBpZT70KpETMFHIDxbTEbUzPsMMd8FpEdA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "USA FLAG ZIP HOODIE",
+    category: "Hoodies",
+    price: "$25.90",
+    image: "https://img.alicdn.com/bao/uploaded/i3/346392213/O1CN01ecoNaB1SDba4QmjQ0_!!346392213.jpg",
+    linkKakobuy: "https://usfans.com/product/2/_pSpcyDjTVZemeOfBpYRK9jX_pkwEewbp3qtIJgDsXmYdCe7wx0kyw?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/_pSpcyDjTVZemeOfBpYRK9jX_pkwEewbp3qtIJgDsXmYdCe7wx0kyw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RANDOM WHITE TEE",
+    category: "Tshirts",
+    price: "$12.79",
+    image: "https://img.alicdn.com/bao/uploaded/i4/346392213/O1CN012AUdBZ1SDbYnZGm8O_!!346392213.jpg",
+    linkKakobuy: "https://usfans.com/product/2/K5MutcsOxnCQSa4sTSTihF3Pv_mUtSdrPIfRTLg9mf1k2lcGVNrR3A?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/K5MutcsOxnCQSa4sTSTihF3Pv_mUtSdrPIfRTLg9mf1k2lcGVNrR3A?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BOXY HOODED CARDIGAN",
+    category: "Hoodies",
+    price: "$25.90",
+    image: "https://img.alicdn.com/bao/uploaded/i4/346392213/O1CN01aPa01A1SDbaeFh31p_!!346392213.jpg",
+    linkKakobuy: "https://usfans.com/product/2/1bgO862q9BfzCdg7qfBzcX_XJ2GNOlM3yV3BAKAQ0CqvvT8ZJcCPGQ?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/1bgO862q9BfzCdg7qfBzcX_XJ2GNOlM3yV3BAKAQ0CqvvT8ZJcCPGQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "WAFFLE USA LONGSLEEVE",
+    category: "Tshirts",
+    price: "$19.35",
+    image: "https://img.alicdn.com/bao/uploaded/i4/346392213/O1CN01V1tryo1SDbZMmDLvh_!!346392213.jpg",
+    linkKakobuy: "https://usfans.com/product/2/tGiYT7gtxVPyFwWy8DiYP-eD45-TW5rGiqHxIYrh3jW9NJzvfJ1Scg?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/tGiYT7gtxVPyFwWy8DiYP-eD45-TW5rGiqHxIYrh3jW9NJzvfJ1Scg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
   // ... reszta produktów (pozostawiam oryginalną zawartość)
 
