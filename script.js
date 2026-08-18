@@ -2,7 +2,7 @@
 // 🛍️ BAZA DANYCH PRODUKTÓW - DODAWAJ TUTAJ NOWE PRODUKTY!
 // ============================================
 const products = [
-  {
+   {
     name: "Jordan 4 Frozen Moments / Black Canvas",
     category: "Shoes",
     price: "$63",
@@ -6107,7 +6107,7 @@ const products = [
     category: "Hoodies",
     price: "$55",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01BKn7T21CUylkAXTqU_!!2025450085.jpg",
-    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D993989036128",
+    linkKakobuy: "https://ikako.vip/4m4qw",
     linkUsfans: "https://usfans.com/product/2/G1mD5h0P7rDCRoJDxmxP8CfF8QAil_4WfwFYlw9hwqI2eV5J_1E4dA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
@@ -6407,7 +6407,7 @@ const products = [
     category: "Hoodies",
     price: "$29.29",
     image: "https://media.usfans.com/2026/07/28/171005/151ad641-3c8b-4263-a267-68c9bab01efd.jpg",
-    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D987503701705",
+    linkKakobuy: "https://ikako.vip/xghnk",
     linkUsfans: "https://usfans.com/product/2/YXjy0Ho2Kro7Qc64OBD94dqzSipYvlKomJmHq99Gb58iU6BB6mcfJQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
@@ -7272,6 +7272,7 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  // ... (tu wklej swoją listę produktów)
 ];
 
 // ============================================
@@ -7778,124 +7779,157 @@ async function fetchQCImages(productUrl) {
   var linkBtn = document.getElementById('qcLinkBtn');
   var badge = document.getElementById('qcBadge');
   
+  // Pobierz oba linki z danych produktu (przekazane przez openQCPopup)
+  // Musimy zmienić openQCPopup żeby przekazywała oba linki
+  // Ale na razie użyjmy tego co mamy
+  
   try {
-    var fullUrl = QC_PROXY_URL + '?url=' + encodeURIComponent(productUrl);
-    
-    console.log('Pobieram QC przez proxy dla:', productUrl);
-    
-    var response = await fetch(fullUrl);
-    
-    if (!response.ok) {
-      throw new Error('HTTP ' + response.status);
+    if (loading) loading.style.display = 'flex';
+    if (badge) {
+      badge.textContent = '⏳ Szukam QC...';
+      badge.style.backgroundColor = 'rgba(255, 165, 0, 0.2)';
+      badge.style.color = '#ffa500';
+      badge.style.borderColor = 'rgba(255, 165, 0, 0.3)';
     }
     
-    var result = await response.json();
-    console.log('Odpowiedź z Workera:', result);
+    // TABLICA LINKÓW DO SPRAWDZENIA
+    // Najpierw USFans, potem Kakobuy
+    var urlsToTry = [];
+    
+    // Pobierz linki z globalnej zmiennej lub z atrybutów
+    // Szukamy produktu po nazwie (brzydkie ale działa)
+    var productName = document.getElementById('qcProductTitle')?.textContent || '';
+    var foundProduct = null;
+    
+    // Znajdź produkt w bazie
+    for (var i = 0; i < products.length; i++) {
+      if (products[i].name === productName) {
+        foundProduct = products[i];
+        break;
+      }
+    }
+    
+    if (foundProduct) {
+      if (foundProduct.linkUsfans && foundProduct.linkUsfans !== '') {
+        urlsToTry.push(foundProduct.linkUsfans);
+      }
+      if (foundProduct.linkKakobuy && foundProduct.linkKakobuy !== '') {
+        urlsToTry.push(foundProduct.linkKakobuy);
+      }
+    } else {
+      // Jeśli nie znaleziono produktu, użyj przekazanego URL
+      if (productUrl) urlsToTry.push(productUrl);
+    }
+    
+    console.log('Sprawdzam linki:', urlsToTry);
+    
+    var allImages = [];
+    var resultData = null;
+    
+    // Sprawdź każdy link po kolei
+    for (var u = 0; u < urlsToTry.length; u++) {
+      var url = urlsToTry[u];
+      if (!url || url === '') continue;
+      
+      try {
+        var fullUrl = QC_PROXY_URL + '?url=' + encodeURIComponent(url);
+        console.log('Próbuję:', url);
+        
+        var response = await fetch(fullUrl);
+        
+        if (response.ok) {
+          var result = await response.json();
+          console.log('Odpowiedź dla', url, ':', result);
+          
+          // Sprawdź czy są zdjęcia
+          var tempImages = [];
+          if (result.success === true && result.qcGroups) {
+            for (var source in result.qcGroups) {
+              var groups = result.qcGroups[source];
+              if (Array.isArray(groups)) {
+                groups.forEach(function(group) {
+                  if (group.photos && Array.isArray(group.photos)) {
+                    group.photos.forEach(function(photo) {
+                      if (photo.url) {
+                        tempImages.push(photo.url);
+                      }
+                    });
+                  }
+                });
+              }
+            }
+          }
+          
+          // Jeśli znaleziono zdjęcia, zapisz i przerwij
+          if (tempImages.length > 0) {
+            allImages = tempImages;
+            resultData = result;
+            console.log('✅ Znaleziono QC w linku:', url);
+            break;
+          } else {
+            console.log('❌ Brak QC w linku:', url);
+          }
+        }
+      } catch (e) {
+        console.log('Błąd dla linku', url, ':', e.message);
+      }
+    }
     
     if (loading) loading.style.display = 'none';
     
-    // Sprawdź czy success: true i czy są qcGroups
-    if (result.success === true && result.qcGroups) {
-      
-      // Zbierz wszystkie zdjęcia z qcGroups
-      var allImages = [];
-      
-      // qcGroups to obiekt z kluczami (usfans, kakobuy, oopbuy, acbuy)
-      for (var source in result.qcGroups) {
-        var groups = result.qcGroups[source];
-        if (Array.isArray(groups)) {
-          groups.forEach(function(group) {
-            if (group.photos && Array.isArray(group.photos)) {
-              group.photos.forEach(function(photo) {
-                if (photo.url) {
-                  allImages.push(photo.url);
-                }
-              });
-            }
-          });
-        }
+    if (allImages.length > 0) {
+      // Znaleziono QC!
+      if (badge) {
+        badge.textContent = '✅ ' + allImages.length + ' zdjęć QC';
+        badge.style.backgroundColor = 'rgba(46, 204, 113, 0.2)';
+        badge.style.color = '#2ecc71';
+        badge.style.borderColor = 'rgba(46, 204, 113, 0.3)';
       }
       
-      console.log('Znalezione zdjęcia:', allImages.length);
-      
-      if (allImages.length > 0) {
-        if (badge) {
-          badge.textContent = '✅ QC znalezione (' + allImages.length + ' zdjęć)';
-          badge.style.backgroundColor = 'rgba(46, 204, 113, 0.2)';
-          badge.style.color = '#2ecc71';
-          badge.style.borderColor = 'rgba(46, 204, 113, 0.3)';
+      if (gallery) {
+        gallery.innerHTML = '';
+        
+        if (resultData && resultData.info && resultData.info.title) {
+          var infoDiv = document.createElement('div');
+          infoDiv.style.cssText = 'display:flex;align-items:center;gap:12px;padding:12px 16px;background:#0b0b0c;border-radius:12px;border:1px solid #19191b;margin-bottom:12px;';
+          infoDiv.innerHTML = `
+            <span style="font-size:20px;">📸</span>
+            <div>
+              <div style="font-size:13px;color:#fff;font-weight:600;">${resultData.info.title || 'Produkt'}</div>
+              <div style="font-size:12px;color:#71717a;">Znaleziono ${allImages.length} zdjęć QC</div>
+            </div>
+          `;
+          gallery.appendChild(infoDiv);
         }
         
-        if (gallery) {
-          gallery.innerHTML = '';
+        allImages.slice(0, 20).forEach(function(imgUrl, index) {
+          var imgContainer = document.createElement('div');
+          imgContainer.className = 'qc-image-item';
           
-          // Dodaj info o produkcie
-          if (result.info && result.info.title) {
-            var infoDiv = document.createElement('div');
-            infoDiv.className = 'qc-info-box';
-            infoDiv.style.cssText = 'display:flex;align-items:center;gap:12px;padding:12px 16px;background:#0b0b0c;border-radius:12px;border:1px solid #19191b;margin-bottom:12px;';
-            infoDiv.innerHTML = `
-              <span style="font-size:20px;">📸</span>
-              <div>
-                <div style="font-size:13px;color:#fff;font-weight:600;">${result.info.title || 'Produkt'}</div>
-                <div style="font-size:12px;color:#71717a;">Znaleziono ${allImages.length} zdjęć QC</div>
-              </div>
-            `;
-            gallery.appendChild(infoDiv);
-          }
+          var img = document.createElement('img');
+          img.src = imgUrl;
+          img.alt = 'QC ' + (index + 1);
+          img.loading = 'lazy';
           
-          // Wyświetl wszystkie zdjęcia (max 20 żeby nie przeciążyć)
-          var displayImages = allImages.slice(0, 20);
-          displayImages.forEach(function(imgUrl, index) {
-            var imgContainer = document.createElement('div');
-            imgContainer.className = 'qc-image-item';
-            
-            var imgElement = document.createElement('img');
-            imgElement.src = imgUrl;
-            imgElement.alt = 'QC zdjęcie ' + (index + 1);
-            imgElement.loading = 'lazy';
-            
-            imgElement.onerror = function() {
-              this.src = 'https://via.placeholder.com/400x400/1a1a1e/c9a84c?text=QC+' + (index + 1);
-            };
-            
-            imgContainer.addEventListener('click', function() {
-              openLightbox(imgUrl);
-            });
-            
-            imgContainer.appendChild(imgElement);
-            gallery.appendChild(imgContainer);
+          img.onerror = function() {
+            this.src = 'https://via.placeholder.com/400x400/1a1a1e/c9a84c?text=QC+' + (index + 1);
+          };
+          
+          imgContainer.addEventListener('click', function() {
+            openLightbox(imgUrl);
           });
           
-          // Jeśli jest więcej niż 20 zdjęć
-          if (allImages.length > 20) {
-            var moreDiv = document.createElement('div');
-            moreDiv.className = 'qc-image-item';
-            moreDiv.style.cssText = 'display:flex;align-items:center;justify-content:center;background:#0b0b0c;color:#71717a;font-size:14px;font-weight:600;';
-            moreDiv.textContent = '+' + (allImages.length - 20) + ' więcej';
-            gallery.appendChild(moreDiv);
-          }
-        }
-        
-        if (linkBtn) {
-          linkBtn.style.display = 'none';
-        }
-        
-      } else {
-        if (badge) {
-          badge.textContent = '❌ Brak zdjęć QC';
-          badge.style.backgroundColor = 'rgba(255, 71, 87, 0.2)';
-          badge.style.color = '#ff4757';
-          badge.style.borderColor = 'rgba(255, 71, 87, 0.3)';
-        }
-        if (gallery) {
-          gallery.innerHTML = `<div class="qc-no-images">📷 Brak zdjęć QC dla tego produktu.</div>`;
-        }
+          imgContainer.appendChild(img);
+          gallery.appendChild(imgContainer);
+        });
       }
+      
+      if (linkBtn) linkBtn.style.display = 'none';
       
     } else {
+      // Brak QC
       if (badge) {
-        badge.textContent = '❌ Brak QC w bazie';
+        badge.textContent = '❌ Brak QC';
         badge.style.backgroundColor = 'rgba(255, 71, 87, 0.2)';
         badge.style.color = '#ff4757';
         badge.style.borderColor = 'rgba(255, 71, 87, 0.3)';
@@ -7904,8 +7938,9 @@ async function fetchQCImages(productUrl) {
         gallery.innerHTML = `
           <div class="qc-no-images">
             <div style="font-size:48px;margin-bottom:16px;">📷</div>
-            <div style="font-size:18px;font-weight:600;color:#ffffff;margin-bottom:8px;">Brak zdjęć QC</div>
-            <div style="font-size:14px;color:#71717a;">Ten produkt nie ma jeszcze zdjęć QC w bazie.</div>
+            <div style="font-size:18px;font-weight:600;color:#fff;margin-bottom:8px;">Brak zdjęć QC</div>
+            <div style="font-size:14px;color:#71717a;">Ten produkt nie ma QC w bazie.</div>
+            <div style="font-size:12px;color:#52525b;margin-top:8px;">Sprawdzone linki: ${urlsToTry.length}</div>
           </div>
         `;
       }
@@ -7925,7 +7960,7 @@ async function fetchQCImages(productUrl) {
       gallery.innerHTML = `
         <div class="qc-no-images">
           <div style="font-size:48px;margin-bottom:16px;">⚠️</div>
-          <div style="font-size:18px;font-weight:600;color:#ffffff;margin-bottom:8px;">Błąd połączenia</div>
+          <div style="font-size:18px;font-weight:600;color:#fff;margin-bottom:8px;">Błąd</div>
           <div style="font-size:14px;color:#71717a;">${error.message}</div>
         </div>
       `;
