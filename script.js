@@ -183,7 +183,7 @@ const products = [
     rating: 5
   },
   {
-    name: "NUMBER NINE NECKLACE TEE",
+    name: "NUMBER NINE NECKLACE TEE (LMYER)",
     category: "Tshirts",
     price: "$14",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN019apdfS1FEtZ2Pj4qE_!!2943390456.jpg",
@@ -233,7 +233,7 @@ const products = [
     rating: 4
   },
   {
-    name: "NUMBER NINE SOVC HOODIE",
+    name: "NUMBER NINE SOVC HOODIE (HONGSHENG)",
     category: "Hoodies",
     price: "$40",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01eh7nHv1CUymor3p8e_!!2025450085.jpg",
@@ -263,7 +263,7 @@ const products = [
     rating: 4
   },
   {
-    name: "NUMBER NINE SOVC HOODIE",
+    name: "NUMBER NINE SOVC BURGUNDY HOODIE",
     category: "Hoodies",
     price: "$38",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN018SyP5i1FEtZiTM8qt_!!2943390456.jpg",
@@ -273,7 +273,7 @@ const products = [
     rating: 4
   },
   {
-    name: "NUMBER NINE SKULL HODIE",
+    name: "NUMBER NINE SKULL  WHITE HODIE",
     category: "Hoodies",
     price: "$62",
     image: "https://img.alicdn.com/bao/uploaded/i1/2200736549757/O1CN01RuSeJ72LwlWUhFC7U_!!2200736549757.jpg",
@@ -1333,7 +1333,7 @@ const products = [
     rating: 5
   },
   {
-    name: "NUMBER NINE SOVC TEE",
+    name: "NUMBER NINE SOVC TEE (LMYER)",
     category: "Tshirts",
     price: "$20.79",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01B0RHgZ1FEtc0ZsHLP_!!2943390456.jpg",
@@ -3713,7 +3713,7 @@ const products = [
     rating: 4
   },
   {
-    name: "NUMBER NINE TEE",
+    name: "NUMBER NINE TEE (LETTERS)",
     category: "Tshirts",
     price: "$14.38",
     image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01aQostt1FEtZm3P9Gg_!!2943390456.jpg",
@@ -4103,7 +4103,7 @@ const products = [
     rating: 4
   },
   {
-    name: "NUMBER NINE ZIP UP HOODIE",
+    name: "NUMBER NINE ZIP UP HOODIE (LMYER)",
     category: "Hoodies",
     price: "$40",
     image: "https://media.usfans.com/images/qc/20250806/2138c20a30e8452f9412aff29b1e7840.png",
@@ -4113,7 +4113,7 @@ const products = [
     rating: 4
   },
   {
-    name: "NUMBER NINE SHIELD HOODIE",
+    name: "NUMBER NINE SHIELD HOODIE (BLUE)",
     category: "Hoodies",
     price: "$41.3",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN013eXWen1FEtiXWjEzR_!!2943390456.jpg",
@@ -4123,7 +4123,7 @@ const products = [
     rating: 4
   },
   {
-    name: "NUMBER NINE SHIELD CREWNECK",
+    name: "NUMBER NINE SHIELD GREEN CREWNECK",
     category: "Hoodies",
     price: "$39.70",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01lljFWz1FEti0CWjky_!!2943390456.jpg",
@@ -4183,7 +4183,7 @@ const products = [
     rating: 4
   },
   {
-    name: "NUMBER NINE HOODIE",
+    name: "NUMBER NINE HOODIE WHITE",
     category: "Hoodies",
     price: "$45",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01DGYwMU1CUymk76PsQ_!!2025450085.jpg",
@@ -4823,7 +4823,7 @@ const products = [
     rating: 5
   },
   {
-    name: "NUMBER NINE HOODIE",
+    name: "NUMBER NINE HOODIE (WHITE BLACK)",
     category: "Hoodies",
     price: "$41.16",
     image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01QzFRW91CUyld1P1FC_!!2025450085.jpg",
@@ -4983,7 +4983,7 @@ const products = [
     rating: 4
   },
   {
-    name: "NUMBER NINE HOODIE",
+    name: "NUMBER NINE HOODIE RED",
     category: "Hoodies",
     price: "$40.83",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01k7uYHE1CUymOrdtsb_!!2025450085.jpg",
@@ -6173,7 +6173,7 @@ const products = [
     rating: 5
   },
   {
-    name: "NUMBER NINE HOODIE",
+    name: "NUMBER NINE HOODIE (DOUBLE SKULL)",
     category: "Hoodies",
     price: "$43.80",
     image: "https://media.usfans.com/2026/07/13/135145/880b6063-31c3-45da-b086-356502eb4832.jpg",
@@ -6583,7 +6583,7 @@ const products = [
     rating: 5
   },
   {
-    name: "NUMBER NINE HOODIE",
+    name: "NUMBER NINE HOODIE (HONGSHENG)",
     category: "Hoodies",
     price: "$40.60",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01A4YzBk1CUylGL6DKt_!!2025450085.jpg",
@@ -6623,7 +6623,7 @@ const products = [
     rating: 5
   },
   {
-    name: "NUMBER NINE TEE",
+    name: "NUMBER NINE TEE #1",
     category: "Tshirts",
     price: "$24.23",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01lKBSmK1CUyo0Hcptf_!!2025450085.jpg",
@@ -6633,7 +6633,7 @@ const products = [
     rating: 5
   },
   {
-    name: "NUMBER NINE TEE",
+    name: "NUMBER NINE TEE #2",
     category: "Tshirts",
     price: "$20.96",
     image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01qbCWc01CUyo0L5lXU~crop,39,0,1172,1563~_!!2025450085.jpg",
