@@ -2,7 +2,7 @@
 // 🛍️ BAZA DANYCH PRODUKTÓW - DODAWAJ TUTAJ NOWE PRODUKTY!
 // ============================================
 const products = [
-   {
+  {
     name: "Jordan 4 Frozen Moments / Black Canvas",
     category: "Shoes",
     price: "$63",
@@ -247,7 +247,7 @@ const products = [
     category: "Hoodies",
     price: "$40",
     image: "https://img.alicdn.com/bao/uploaded/i4/2943390456/O1CN01GsdOc11FEteLPRn3Z_!!2943390456.jpg",
-    linkKakobuy: "https://ikako.vip/jt96u",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D903317040153",
     linkUsfans: "https://usfans.com/product/2/1-HSm_zvI49-6k3Cy9MOI41qKD3tSQ7An0KwzdI5xE-zWLmQBFi1Tg?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
@@ -777,7 +777,7 @@ const products = [
     category: "Hoodies",
     price: "$58",
     image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01fFyu291RR3c2VDKOd~hdr~_!!2126072107.heic",
-    linkKakobuy: "https://ikako.vip/24jdd",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D962214060243",
     linkUsfans: "https://usfans.com/product/2/Ibb3iXqTkOjNghc0fpeSPfsFA569ipONBDz2h4zcqadkUyHMYnKK9w?ref=TX9V9N",
     tag: "BDSS",
     rating: 5
@@ -797,7 +797,7 @@ const products = [
     category: "Hoodies",
     price: "$40",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01z6bJYX1FEti8NG0Fq_!!2943390456.jpg",
-    linkKakobuy: "https://ikako.vip/x52n4",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D994038198668",
     linkUsfans: "https://usfans.com/product/2/DHA_kAYvmBQ0v9MpFko_G7Ze5Mz6LdFN4SbTB3XQnZnM0IkHdrBOEA?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
@@ -3907,7 +3907,7 @@ const products = [
     category: "Hoodies",
     price: "$40.24",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/10/a9a1d806eab5088cb01d8e8955a6bbfa.jpg",
-    linkKakobuy: "https://ikako.vip/t5b3z",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D968237571225",
     linkUsfans: "https://usfans.com/product/2/y17tXzUKK2pGEr587rgLfpNNLumgGW_JaF1JzVqA6OUkEZpl_uha1A?ref=TX9V9N",
     tag: "(RANDOM) HONGSHENG",
     rating: 4
@@ -4187,7 +4187,7 @@ const products = [
     category: "Hoodies",
     price: "$45",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01DGYwMU1CUymk76PsQ_!!2025450085.jpg",
-    linkKakobuy: "https://ikako.vip/95je3",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1015301702523",
     linkUsfans: "https://usfans.com/product/2/H3iMnCejHNJBnfllgoL4tLBdDeO8M6FnwcyTF7_RT4_3O8_1NquWu7Q?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
@@ -4827,7 +4827,7 @@ const products = [
     category: "Hoodies",
     price: "$41.16",
     image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01QzFRW91CUyld1P1FC_!!2025450085.jpg",
-    linkKakobuy: "https://ikako.vip/r3esd",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D990513962818",
     linkUsfans: "https://usfans.com/product/2/9r-4ifn_oLET5l6zKE2muucVHAqEk2ChwrgLdN_sHuiu69tbND-cig?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
@@ -4987,7 +4987,7 @@ const products = [
     category: "Hoodies",
     price: "$40.83",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01k7uYHE1CUymOrdtsb_!!2025450085.jpg",
-    linkKakobuy: "https://ikako.vip/bpu4z",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1008505432114",
     linkUsfans: "https://usfans.com/product/2/1NbxIIwe1wxHmQY_a7X6sKELO2i_WPHAhplPonLz049YSHBT9C8z1jg?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
@@ -5907,7 +5907,7 @@ const products = [
     category: "Hoodies",
     price: "$48.75",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01AmRE3y1CUylvX2gwT_!!2025450085.jpg",
-    linkKakobuy: "https://ikako.vip/nrzc5",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D997841588094",
     linkUsfans: "https://usfans.com/product/2/3wB5k1nr8DDenvB_ewwpdw_TyKF5ies4kVL1wdLWBgshuOkumz3NVA?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 5
@@ -6177,7 +6177,7 @@ const products = [
     category: "Hoodies",
     price: "$43.80",
     image: "https://media.usfans.com/2026/07/13/135145/880b6063-31c3-45da-b086-356502eb4832.jpg",
-    linkKakobuy: "https://ikako.vip/x88my6",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D977377534654",
     linkUsfans: "https://usfans.com/product/2/R_F0hXbDFWbSjyc_ANITTOKFXsnzsMXVqAknHj4Lgi2uWy7dobOnXQ?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 5
@@ -6587,7 +6587,7 @@ const products = [
     category: "Hoodies",
     price: "$40.60",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01A4YzBk1CUylGL6DKt_!!2025450085.jpg",
-    linkKakobuy: "https://usfans.com/product/2/fTgiDZ1X8w8_zwX76t_0NEa_wV5s3Tkng5AbvCQqLE7-rgH7nD0f1A?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984697380403",
     linkUsfans: "https://usfans.com/product/2/fTgiDZ1X8w8_zwX76t_0NEa_wV5s3Tkng5AbvCQqLE7-rgH7nD0f1A?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 5
@@ -6597,7 +6597,7 @@ const products = [
     category: "Hoodies",
     price: "$40.60",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01esCYiy1CUyl9tyjkg_!!2025450085.jpg",
-    linkKakobuy: "https://usfans.com/product/2/DsT4ao3BdRNzftmx4SSwrbCDYYQJcxbE-tpdqjisepJBzL9Uj4QKiw?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984708856733",
     linkUsfans: "https://usfans.com/product/2/DsT4ao3BdRNzftmx4SSwrbCDYYQJcxbE-tpdqjisepJBzL9Uj4QKiw?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 5
@@ -6617,7 +6617,7 @@ const products = [
     category: "Hoodies",
     price: "$37.33",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN010lq0kW1CUylrmdHmP_!!2025450085.jpg",
-    linkKakobuy: "https://usfans.com/product/2/6odiEZAO7N9yBPIBf4P_hgwDMKsa32oRsNfCZxZMom94Tm3vQ9rLdw?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D994414671611",
     linkUsfans: "https://usfans.com/product/2/6odiEZAO7N9yBPIBf4P_hgwDMKsa32oRsNfCZxZMom94Tm3vQ9rLdw?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 5
@@ -6827,7 +6827,7 @@ const products = [
     category: "Hoodies",
     price: "$57.20",
     image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01cMsB1B1RR3f5rwhTl_!!2126072107.heic",
-    linkKakobuy: "https://usfans.com/product/2/m1v7yaiYMOPggWb0JqLw7NI4eyJ5YXOaaM2Efk1cbBBmu2RZFfexgFM?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1014829368956",
     linkUsfans: "https://usfans.com/product/2/m1v7yaiYMOPggWb0JqLw7NI4eyJ5YXOaaM2Efk1cbBBmu2RZFfexgFM?ref=TX9V9N",
     tag: "BDSS",
     rating: 5
@@ -6867,7 +6867,7 @@ const products = [
     category: "Hoodies",
     price: "$47.40",
     image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01bNnfGe1RR3cXqqcXW~crop,152,0,865,1154~_!!2126072107.jpg",
-    linkKakobuy: "https://usfans.com/product/2/EqWavkIqQwNfiWXI_n8DIElEEKzPjFBPbJ2dqzW4fHzwG3X5EdfSuQ?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D969485946389",
     linkUsfans: "https://usfans.com/product/2/EqWavkIqQwNfiWXI_n8DIElEEKzPjFBPbJ2dqzW4fHzwG3X5EdfSuQ?ref=TX9V9N",
     tag: "BDSS",
     rating: 5
@@ -6907,7 +6907,7 @@ const products = [
     category: "Hoodies",
     price: "$49",
     image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01SMmCpa1RR3cuntiry~hdr~livephoto~_!!2126072107.heic",
-    linkKakobuy: "https://usfans.com/product/2/qH46QiLCnko1kRhz0TAOAJYKZ9Dj2HQJlTA-6yUsj_-A1RqDdXwkOA?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D986855670758",
     linkUsfans: "https://usfans.com/product/2/qH46QiLCnko1kRhz0TAOAJYKZ9Dj2HQJlTA-6yUsj_-A1RqDdXwkOA?ref=TX9V9N",
     tag: "BDSS",
     rating: 5
@@ -7272,7 +7272,6 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
-  // ... (tu wklej swoją listę produktów)
 ];
 
 // ============================================
