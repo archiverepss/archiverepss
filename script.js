@@ -327,7 +327,7 @@ const products = [
     category: "Hoodies",
     price: "$37",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/6/30c953eedcac829eb63ec806991c7705.jpg",
-    linkKakobuy: "https://ikako.vip/ejmmu",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D895618734663",
     linkUsfans: "https://usfans.com/product/2/98e7jDvByldnigDZWRifWCoNTU8zirmQHsLeeRNAJ_hyTRAKL7H1bQ?ref=TX9V9N",
     tag: "APEXMADE",
     rating: 5
@@ -1087,7 +1087,7 @@ const products = [
     category: "Hoodies",
     price: "$48.27",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/13/6be7311acca5546e85446e84396a055b.jpg",
-    linkKakobuy: "https://ikako.vip/9znptv",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7524095139%3Fref%3DTX9V9N",
     linkUsfans: "https://usfans.com/product/3/7524095139?ref=TX9V9N",
     tag: "THUNDER",
     rating: 5
@@ -2897,7 +2897,7 @@ const products = [
     category: "Hoodies",
     price: "$35.06",
     image: "https://img.alicdn.com/bao/uploaded/i4/1854157063/O1CN01hOdpUV222uVxtFpJC~hdr~_!!1854157063.heic",
-    linkKakobuy: "https://ikako.vip/c6c39",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D992257028851",
     linkUsfans: "https://usfans.com/product/2/sSkIuOcbglEU7CLNSnYnxJwF6LJhnh1iFYQ2Db-fRCWPc5nzZ-cx9g?ref=TX9V9N",
     tag: "PENGREPS / BEST",
     rating: 5
@@ -4167,7 +4167,7 @@ const products = [
     category: "Hoodies",
     price: "$29.30",
     image: "https://img.alicdn.com/bao/uploaded/i1/2201204187410/O1CN019cbovH24bpvivIIMI_!!2201204187410.jpg",
-    linkKakobuy: "https://ikako.vip/7hdhp",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D963949247487",
     linkUsfans: "https://usfans.com/product/2/_LLqQ6XcSbS_83eCssBmoHf-rd682uSpdtK1t-JJMvfimjd4bKWjvg?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
@@ -6107,7 +6107,7 @@ const products = [
     category: "Hoodies",
     price: "$55",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01BKn7T21CUylkAXTqU_!!2025450085.jpg",
-    linkKakobuy: "https://ikako.vip/4m4qw",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D993989036128",
     linkUsfans: "https://usfans.com/product/2/G1mD5h0P7rDCRoJDxmxP8CfF8QAil_4WfwFYlw9hwqI2eV5J_1E4dA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
@@ -6407,7 +6407,7 @@ const products = [
     category: "Hoodies",
     price: "$29.29",
     image: "https://media.usfans.com/2026/07/28/171005/151ad641-3c8b-4263-a267-68c9bab01efd.jpg",
-    linkKakobuy: "https://ikako.vip/xghnk",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D987503701705",
     linkUsfans: "https://usfans.com/product/2/YXjy0Ho2Kro7Qc64OBD94dqzSipYvlKomJmHq99Gb58iU6BB6mcfJQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
@@ -6677,7 +6677,7 @@ const products = [
     category: "Hoodies",
     price: "$55.34",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01Tnf4LF1CUymooE5UP_!!2025450085.jpg",
-    linkKakobuy: "https://usfans.com/product/2/bF6fgoRa_OmAPgVgt8FIa26NqvWGU5YAIwW5Gkciee4yyup6Zwc6HA?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D991296281095",
     linkUsfans: "https://usfans.com/product/2/bF6fgoRa_OmAPgVgt8FIa26NqvWGU5YAIwW5Gkciee4yyup6Zwc6HA?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 5
@@ -7197,7 +7197,7 @@ const products = [
     category: "Hoodies",
     price: "$30.82",
     image: "https://img.alicdn.com/bao/uploaded/i2/346392213/O1CN010npMdU1SDbaTaZneI_!!346392213.jpg",
-    linkKakobuy: "https://usfans.com/product/2/d2euXv7GyNtweonmsYeGJaP_iFZGx0LFA-7cvNAYmTTs8gtchmajqw?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D954349990038",
     linkUsfans: "https://usfans.com/product/2/d2euXv7GyNtweonmsYeGJaP_iFZGx0LFA-7cvNAYmTTs8gtchmajqw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
