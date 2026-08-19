@@ -2627,7 +2627,7 @@ const products = [
     category: "Tshirts",
     price: "$26.6",
     image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01sjBPY41gquCafTLof_!!2215791284194.png",
-    linkKakobuy: "https://ikako.vip/ecqqy",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D991905213307",
     linkUsfans: "https://usfans.com/product/2/IJ33uD6icBmlws5M6kVmKVJDQ2802SOh9yoQeB_QO6FDl0kWL42Hcw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
@@ -2637,7 +2637,7 @@ const products = [
     category: "Tshirts",
     price: "$11.25",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01xWayyE2IpUKYRcAgu_!!2212643669335.png",
-    linkKakobuy: "https://ikako.vip/3ne6e",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D924627845937",
     linkUsfans: "https://usfans.com/product/2/z-aYQFM6LABJddLOqF8RtlN1p1NYNM9XAr0Gkg7gr_vcEiQUItoscA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
@@ -2647,7 +2647,7 @@ const products = [
     category: "Tshirts",
     price: "$20.59",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01WNOvQf1gqu9vhs1qX_!!2215791284194.png",
-    linkKakobuy: "https://ikako.vip/jsy98",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D929461367636",
     linkUsfans: "https://usfans.com/product/2/9NovoUFpiOs98SJdmWKFPnh4B04YDXXbmA3qE32djzpSaHWblBvp8A?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
@@ -2657,7 +2657,7 @@ const products = [
     category: "Tshirts",
     price: "$20.59",
     image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN01CBZsge1gquBBxFzdl_!!2215791284194.png",
-    linkKakobuy: "https://ikako.vip/jjvrj",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D959891279366",
     linkUsfans: "https://usfans.com/product/2/TDhxe2S621PlrvR6zx66u-hy0Peu76w8ODsHM9vTaOx9CqrKRhWCBw?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
@@ -2807,7 +2807,7 @@ const products = [
     category: "Tshirts",
     price: "$11.26",
     image: "https://img.alicdn.com/bao/uploaded/i1/2218252751209/O1CN019PGXtm1KnlrjXlurh_!!2218252751209.jpg",
-    linkKakobuy: "https://ikako.vip/n2rha",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D867615196966",
     linkUsfans: "https://usfans.com/product/2/Ljo-CirNy3uJRvuTfCZxB3EV-HY-hZHo9X2umfyInRPihXK4MoKZCg?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
@@ -3707,7 +3707,7 @@ const products = [
     category: "Tshirts",
     price: "$23.93",
     image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01WijceZ1FEtRAGUuUY_!!2943390456.jpg",
-    linkKakobuy: "https://ikako.vip/2a4p9",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D713152360154",
     linkUsfans: "https://usfans.com/product/2/9EHiiq9bQl5VOku24dvkbnbCE32179PiTfJyUlk9s1qYenRKbbvTvA?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
@@ -3827,7 +3827,7 @@ const products = [
     category: "Tshirts",
     price: "$15.51",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01koPi4m1gqu4Hv35xv_!!2215791284194.png",
-    linkKakobuy: "https://ikako.vip/jbc6n",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D810238559904",
     linkUsfans: "https://usfans.com/product/2/uhu9k1sXwrfNYUpQOBPLikqdwzHb96BQUVx0-TU5Gzi_ea1GbwteCw?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
@@ -4007,7 +4007,7 @@ const products = [
     category: "Tshirts",
     price: "$27.45",
     image: "https://img.alicdn.com/bao/uploaded/i4/3550899246/O1CN01RRhMbA2IAj5VkWYgV_!!3550899246.jpg",
-    linkKakobuy: "https://ikako.vip/xpbke",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D938199594257",
     linkUsfans: "https://usfans.com/product/2/ZeYc0S4kMzBuI6L74ns2N2SPAvwyTEjyhFasQuWYZq2LrmoZjQlCMQ?ref=TX9V9N",
     tag: "APEXMADE",
     rating: 5
@@ -4487,7 +4487,7 @@ const products = [
     category: "Tshirts",
     price: "$4.80",
     image: "https://img.alicdn.com/bao/uploaded/i4/1566784/O1CN01LvFB0m1zz7ylH08Jw_!!1566784.jpg",
-    linkKakobuy: "https://ikako.vip/5ggft",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D615825547877",
     linkUsfans: "https://usfans.com/product/2/h2YWAucSNCtJarnPuRkRQ7LFBgADy1y5p4aDGx8ruwkXlMXuuDECQg?ref=TX9V9N",
     tag: "IDLT",
     rating: 5
@@ -4697,7 +4697,7 @@ const products = [
     category: "Tshirts",
     price: "$11.80",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01MNIfUF2IpULm5h0tt_!!2212643669335.jpg",
-    linkKakobuy: "https://ikako.vip/fwbxx",
+    linkKakobuy: "https://item.taobao.com/item.htm?id=956865408575",
     linkUsfans: "https://usfans.com/product/2/1Za8eutEfgroYoFzGm-PVgR4MT3otBMlB8kjtPsdvsHNqVoge6DxWQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
@@ -4853,21 +4853,21 @@ const products = [
     rating: 4
   },
   {
-    name: "NUMBER NINE  TEE",
+    name: "NUMBER NINE  CRYING SKULL TEE",
     category: "Tshirts",
     price: "$25.88",
     image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01t7k9DU1CUyjEInDlP_!!2025450085.jpg",
-    linkKakobuy: "https://ikako.vip/rjfxr",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D935965063489",
     linkUsfans: "https://usfans.com/product/2/5xNC9MsxSNmCon5VMhaLKvEMPCqT8FqP2IqpUPhWNDeNACzSZU6QYA?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
   },
   {
-    name: "NUMBER NINE NECKLACE TEE",
+    name: "NUMBER NINE NECKLACE TEE (HONGSHENG)",
     category: "Tshirts",
     price: "$25.84",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01EEQEuf1CUyhur8OOy_!!2025450085.jpg",
-    linkKakobuy: "https://ikako.vip/gg24d",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D900724060340",
     linkUsfans: "https://usfans.com/product/2/Z0QVFrrB_6qzYozUkeXyEHztJSxtBajs6ieBaQmnEZtKaylN44CVCQ?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 4
@@ -6127,7 +6127,7 @@ const products = [
     category: "Tshirts",
     price: "$21",
     image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01m8fqdg1gquDjljkZ0_!!2215791284194.png",
-    linkKakobuy: "https://ikako.vip/ynbfd2",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1017303562861",
     linkUsfans: "https://usfans.com/product/2/rLYWTHifi4N8pop1uzRSKUXIUR-vGHnZ1tH55q_UwKtoRmwCUokyikM?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
@@ -6227,7 +6227,7 @@ const products = [
     category: "Tshirts",
     price: "$25.60",
     image: "https://img.alicdn.com/bao/uploaded/i4/2220014592646/O1CN01imuU6l1VPv8W8WYl4_!!2220014592646.jpg",
-    linkKakobuy: "https://ikako.vip/gmeuf",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1059536456241",
     linkUsfans: "https://usfans.com/product/2/ICc-HFkCeEhNU3j7Umbwg1bfNs4Fd4J_ReWcDSq1Kxvr_Wgd5JDWshc?ref=TX9V9N",
     tag: "SABER",
     rating: 5
@@ -6237,7 +6237,7 @@ const products = [
     category: "Tshirts",
     price: "$27.50",
     image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01FFlqNf1gquCAQnv11_!!2215791284194.png",
-    linkKakobuy: "https://usfans.com/product/2/EZP_bHghNJB0N_iuN2UBFWQXJKMNLUA6hAEH-Uc2L2-qZRES504RcQ?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984646240081",
     linkUsfans: "https://usfans.com/product/2/EZP_bHghNJB0N_iuN2UBFWQXJKMNLUA6hAEH-Uc2L2-qZRES504RcQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
@@ -6577,7 +6577,7 @@ const products = [
     category: "Tshirts",
     price: "$27.51",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01RjeXuo1CUylGS6ccY_!!2025450085.jpg",
-    linkKakobuy: "https://usfans.com/product/2/7y-Sp87o1tdBBmkkiu2v_2ubkX5X5StMgQX8gPx-SsYFjMe5_r3iEA?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984045117545",
     linkUsfans: "https://usfans.com/product/2/7y-Sp87o1tdBBmkkiu2v_2ubkX5X5StMgQX8gPx-SsYFjMe5_r3iEA?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 5
@@ -6683,11 +6683,11 @@ const products = [
     rating: 5
   },
   {
-    name: "NUMBER NINE GOTHAM CITY",
+    name: "NUMBER NINE GOTHAM CITY (HONGSHENG)",
     category: "Tshirts",
     price: "$22.60",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01OAH7OR1CUyo0TSIIZ_!!2025450085.jpg",
-    linkKakobuy: "https://usfans.com/product/2/RY7ahVDmszWuMF5o5AjkwfAAn0fyAvHOvI-KS85Nblj0Rcp7y3dCyBw?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1049398623576",
     linkUsfans: "https://usfans.com/product/2/RY7ahVDmszWuMF5o5AjkwfAAn0fyAvHOvI-KS85Nblj0Rcp7y3dCyBw?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 5
@@ -6927,7 +6927,7 @@ const products = [
     category: "Tshirts",
     price: "$26.05",
     image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN016bo8T11RR3eSW7iY5_!!2126072107.jpg",
-    linkKakobuy: "https://usfans.com/product/2/e6ND4_illNNgcp3jqIv3iHx9GAhdaNxEOGFjUz0O0lnn-CdEYwJpfcc?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1051366086621",
     linkUsfans: "https://usfans.com/product/2/e6ND4_illNNgcp3jqIv3iHx9GAhdaNxEOGFjUz0O0lnn-CdEYwJpfcc?ref=TX9V9N",
     tag: "BDSS",
     rating: 5
@@ -6937,7 +6937,7 @@ const products = [
     category: "Tshirts",
     price: "$26.05",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01AdmAyU1RR3ef14VkY_!!2126072107.jpg",
-    linkKakobuy: "https://usfans.com/product/2/4fjdKPcBN0pXeRym5K-QfP9E6tzbphZi8C28EFst6u_WUfvyFIFfheE?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1054639494129",
     linkUsfans: "https://usfans.com/product/2/4fjdKPcBN0pXeRym5K-QfP9E6tzbphZi8C28EFst6u_WUfvyFIFfheE?ref=TX9V9N",
     tag: "BDSS",
     rating: 5
@@ -7227,7 +7227,7 @@ const products = [
     category: "Tshirts",
     price: "$19.35",
     image: "https://img.alicdn.com/bao/uploaded/i1/346392213/O1CN01CADyKQ1SDbd2kH0Ep_!!346392213.jpg",
-    linkKakobuy: "https://usfans.com/product/2/XTPo78-GmiyFWZOyy4YPUSBpZT70KpETMFHIDxbTEbUzPsMMd8FpEdA?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1003167239130",
     linkUsfans: "https://usfans.com/product/2/XTPo78-GmiyFWZOyy4YPUSBpZT70KpETMFHIDxbTEbUzPsMMd8FpEdA?ref=TX9V9N",
     tag: "RANDOM",
     rating: 5
