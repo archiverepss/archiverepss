@@ -1333,11 +1333,11 @@ const products = [
     rating: 5
   },
   {
-    name: "NUMBER NINE SOVC TEE (LMYER)",
+    name: "NUMBER NINE SOVC TEE WASHED (LMYER)",
     category: "Tshirts",
     price: "$20.79",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01B0RHgZ1FEtc0ZsHLP_!!2943390456.jpg",
-    linkKakobuy: "https://ikako.vip/gujga",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D850232694076",
     linkUsfans: "https://usfans.com/product/2/CA0Fv5F1bCHSG1vd_YrV_W5ABfwbevmPQNPHL85L4PdZqVpq3NzOMQ?ref=TX9V9N",
     tag: "LMYER",
     rating: 5
@@ -3727,7 +3727,7 @@ const products = [
     category: "Tshirts",
     price: "$14.64",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01QNMsQZ1FEtZfvbVku_!!2943390456.jpg",
-    linkKakobuy: "https://ikako.vip/p6br4",
+    linkKakobuy: "https://item.taobao.com/item.htm?id=811533361881",
     linkUsfans: "https://usfans.com/product/2/YyqY0y1p7ER1XVC0W2z640UcD4gcJjbxWH9UkjR7XywdH-hrB99wEA?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
@@ -3917,7 +3917,7 @@ const products = [
     category: "Tshirts",
     price: "$24",
     image: "https://img.alicdn.com/bao/uploaded/i4/2943390456/O1CN01ZhvM7O1FEtREVOl4E_!!2943390456.jpg",
-    linkKakobuy: "https://ikako.vip/4xjhm",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D713153724831",
     linkUsfans: "https://usfans.com/product/2/QRRrVE2-YPT52PmOMT0zCn0hhhMV2R3zx1H9jwVO3cKa0t-fXql5ew?ref=TX9V9N",
     tag: "LMYER",
     rating: 4
@@ -5137,7 +5137,7 @@ const products = [
     category: "Tshirts",
     price: "$11.96",
     image: "https://img.alicdn.com/bao/uploaded/i4/2687803572/O1CN01XVY45Y1cG1t1qGXQf_!!2687803572.jpg",
-    linkKakobuy: "https://ikako.vip/hg2d5u",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7763313954",
     linkUsfans: "https://usfans.com/product/2/7lJO5AOE5lehiTf0Z6R-1I_YLPXcQGj5ZZTN3NEAbUlMxZNCvi2quvk?ref=TX9V9N",
     tag: "ALIENSTUDIO",
     rating: 4
@@ -6623,11 +6623,11 @@ const products = [
     rating: 5
   },
   {
-    name: "NUMBER NINE TEE #1",
+    name: "NUMBER NINE 'FOREIGN MAN'",
     category: "Tshirts",
     price: "$24.23",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01lKBSmK1CUyo0Hcptf_!!2025450085.jpg",
-    linkKakobuy: "https://usfans.com/product/2/_ATc4r1hvnT1speU5_AjWHjipU7thGBhhQYYbO3GgMVwwhJ45HTrIGE?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1049432215554",
     linkUsfans: "https://usfans.com/product/2/_ATc4r1hvnT1speU5_AjWHjipU7thGBhhQYYbO3GgMVwwhJ45HTrIGE?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 5
@@ -6637,7 +6637,7 @@ const products = [
     category: "Tshirts",
     price: "$20.96",
     image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01qbCWc01CUyo0L5lXU~crop,39,0,1172,1563~_!!2025450085.jpg",
-    linkKakobuy: "https://usfans.com/product/2/0X5h3i45DBkP78_NHcxWBcwAYI52AKWamth0lThOdNlZedmX1PdbdVI?ref=TX9V9N",
+    linkKakobuy: "https://item.taobao.com/item.htm?id=1052037176142",
     linkUsfans: "https://usfans.com/product/2/0X5h3i45DBkP78_NHcxWBcwAYI52AKWamth0lThOdNlZedmX1PdbdVI?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 5
@@ -6667,7 +6667,7 @@ const products = [
     category: "Tshirts",
     price: "$24.33",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN013BbJcN1CUyoBk6hvI~crop,128,86,953,1270~_!!2025450085.jpg",
-    linkKakobuy: "https://usfans.com/product/2/yzI3t55i1qRrISAilEpT1c-rfF7B2f5gEM-_W_5Zcu_c8lcEkbe7THo?ref=TX9V9N",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1053340774823",
     linkUsfans: "https://usfans.com/product/2/yzI3t55i1qRrISAilEpT1c-rfF7B2f5gEM-_W_5Zcu_c8lcEkbe7THo?ref=TX9V9N",
     tag: "HONGSHENG",
     rating: 5
