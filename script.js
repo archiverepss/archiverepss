@@ -7362,6 +7362,66 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "ULTRALIGHT SHORTS",
+    category: "Shorts",
+    price: "$27.29",
+    image: "https://si.geilicdn.com/wdseller1940384309-35d10000019b138aaf980a2301f1_1320_1320.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7631408037",
+    linkUsfans: "https://usfans.com/product/3/7631408037?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "BROWN VINTAGE SHORTS",
+    category: "Shorts",
+    price: "$16.28",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2212509635566/O1CN01GvDLQP1qzHTAC5xme_!!2212509635566.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.html%3Fid%3D809804989823",
+    linkUsfans: "https://usfans.com/product/2/oxEjN3KpBx3jvLlS9NDQwsxbXxrM6uRw71PmHB4gy85UCqd7YQV8ow?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "VINTAGE WASHED SHORTS #2",
+    category: "Shorts",
+    price: "$15.62",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2212509635566/O1CN01NRgnPF1qzHLauODZS_!!2212509635566.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.html%3Fid%3D722239425551",
+    linkUsfans: "https://usfans.com/product/2/I0lSeJurYwgi5JyA_RGmer0E0vmS2dC4yXs1X0MbxGtUnoLwYOLbqQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "GYM SHARK SHORTS",
+    category: "Shorts",
+    price: "$16.44",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3704401267/O1CN01YoVu991LEKcrOoWbF_!!3704401267.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.html%3Fid%3D746491732438",
+    linkUsfans: "https://usfans.com/product/2/Vna1_ixJqwi5KqFAS_QpgySx8Ac8OZeULx2SmFNRF-EnnvHzpKybrQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RANDOM T-SHIRTS",
+    category: "Tshirts",
+    price: "$6.25",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01vIT3Cd1i6J4flkF7I_!!2214000174363-0-cib.jpg",
+    linkKakobuy: "https://usfans.com/product/1/896628437121?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/1/896628437121?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CALVIN KLEIN THONGS",
+    category: "Underwear",
+    price: "$11.51",
+    image: "https://si.geilicdn.com/pcitem1234071531-1d450000019f7e95325f0a8132bd-unadjust_918_926.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7809359271",
+    linkUsfans: "https://usfans.com/product/3/7809359271?ref=TX9V9N",
+    tag: "BAYMAXSOCKS",
+    rating: 5
+  },
 ];
 
 // ============================================
