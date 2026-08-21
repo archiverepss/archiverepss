@@ -7282,8 +7282,86 @@ const products = [
     tag: "LMYER",
     rating: 4
   },
-  // ... tutaj wklej resztę swoich produktów (nie zmieści się w całości, ale wiesz o co chodzi)
-  // Zachowaj całą swoją listę products
+  {
+    name: "COMPRESS GYMSHARK TEE",
+    category: "Tshirts",
+    price: "$5.76",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01P7xWGm2C8XUnj0kwn_!!2219361358429-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F1%2F927820001124",
+    linkUsfans: "https://usfans.com/product/1/927820001124?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MERCEDES BENZ TEE",
+    category: "Tshirts",
+    price: "$4.08",
+    image: "https://img.alicdn.com/bao/uploaded/i2/839766424/O1CN01Nqgltb1xKFAud7dL8_!!839766424.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D723821143736",
+    linkUsfans: "https://usfans.com/product/2/RhbACJ76z_DurxiJTkzFthWssidfjaegeTXwNJf7BRzbgfUGPp7UGw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MONCLER POLO",
+    category: "Tshirts",
+    price: "$6.41",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01IADLgi1Cti6dYLvjC_!!2219481280139-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F1%2F919803013702",
+    linkUsfans: "https://usfans.com/product/1/919803013702?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CASABLANCA T-SHIRTS",
+    category: "Tshirts",
+    price: "$11.08",
+    image: "https://si.geilicdn.com/open1624782517-1624782517-1c370000019574c4be9e0a22d249_900_900.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7684858750",
+    linkUsfans: "https://usfans.com/product/3/7684858750?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "WEST COAST CHOPPERS LONGSLEEVE",
+    category: "Tshirts",
+    price: "$16.44",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01biQE8N1yP78VKnvK0_!!1758116570.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F1%2F827994506682",
+    linkUsfans: "https://usfans.com/product/1/827994506682?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "WHO ATE ALL PUSSY TEE",
+    category: "Tshirts",
+    price: "$11.48",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2218252751209/O1CN013CWTCc1KnlrsZKpjO_!!2218252751209.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D869918350175",
+    linkUsfans: "https://usfans.com/product/2/wrNf0squjWVLE208bjJXyOwnyOtb7XquyBUikSBA0BheQOfDWqwfDw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "UNDERCOVER 06AW INSECT JEANS",
+    category: "Pants",
+    price: "$49.16",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2652892586/O1CN01z4tu7B1UyRKLUOvIu_!!2652892586.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D991666428473",
+    linkUsfans: "https://usfans.com/product/2/o6dMtvbqM7jQ6NRyQ3_Z11L1D7BI0pbKWrrTQaKfUmXYsmnd9LgDNQ?ref=TX9V9N",
+    tag: "眼泪club",
+    rating: 5
+  },
+  {
+    name: "BIG BOY SHORTS",
+    category: "Shorts",
+    price: "$14.47",
+    image: "https://img.alicdn.com/imgextra/i1/3447686649/O1CN01ly1fTp1yzIOyOpZ9i_!!3447686649.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.html%3Fid%3D759570060248",
+    linkUsfans: "https://usfans.com/product/2/KhMy40gdm1bZQIvmH0_Wo3lQlYffwq4OQ8UlKYdYQaCfiPK_hVkJ5w?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
