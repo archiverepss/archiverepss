@@ -7282,13 +7282,15 @@ const products = [
     tag: "LMYER",
     rating: 4
   },
+  // ... tutaj wklej resztę swoich produktów (nie zmieści się w całości, ale wiesz o co chodzi)
+  // Zachowaj całą swoją listę products
 ];
 
 // ============================================
-// 🏷️ BAZA DANYCH PROMOCJI - DODAWAJ TUTAJ NOWE PROMOCJE!
+// 🏷️ BAZA DANYCH PROMOCJI
 // ============================================
 const promotions = [
-{
+  {
     name: "CORTEIZ",
     price: "CHEAP",
     pricePLN: "CHEAP zł",
@@ -7360,12 +7362,11 @@ const promotions = [
     tag: "YOLO",
     category: "shoes"
   },
-
-  // ... (tu wklej swoją listę promocji)
+  // ... twoje promocje
 ];
 
 // ============================================
-// 🏪 SPRZEDAWCY - DODAWAJ TUTAJ NOWYCH SPRZEDAWCÓW!
+// 🏪 SPRZEDAWCY
 // ============================================
 const sellers = [
    {
@@ -7701,9 +7702,8 @@ const sellers = [
     rating: 9.0,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
+  // ... twoi sprzedawcy
 ];
-
-
 
 // ============================================
 // 🔥 PRODUKTY KTÓRE CHCESZ WIDZIEĆ W "POPULARNE"
@@ -7730,251 +7730,43 @@ let currentView = 'products';
 let currentSellerSearch = '';
 
 // ============================================
-// 📷 QC - FUNKCJE
+// 💰 PRZELICZNIK USD → PLN
 // ============================================
+const USD_TO_PLN = 3.62;
 
-function openQCPopup(productUrl, productName, productImage, productPrice) {
-  var overlay = document.getElementById('qcPopupOverlay');
-  if (!overlay) return;
-  
-  var thumb = document.getElementById('qcProductThumb');
-  if (thumb) thumb.src = productImage || 'https://via.placeholder.com/100x100?text=No+Image';
-  
-  var title = document.getElementById('qcProductTitle');
-  if (title) title.textContent = productName || 'Produkt';
-  
-  var price = document.getElementById('qcProductPrice');
-  if (price) price.textContent = productPrice || '';
-  
-  var loading = document.getElementById('qcLoading');
-  var gallery = document.getElementById('qcImagesGrid');
-  var badge = document.getElementById('qcBadge');
-  var linkBtn = document.getElementById('qcLinkBtn');
-  
-  if (loading) loading.style.display = 'flex';
-  if (gallery) gallery.innerHTML = '';
-  if (badge) {
-    badge.textContent = '⏳ Ładowanie...';
-    badge.style.backgroundColor = 'rgba(255, 165, 0, 0.2)';
-    badge.style.color = '#ffa500';
-    badge.style.borderColor = 'rgba(255, 165, 0, 0.3)';
+function parsePrice(priceStr) {
+  if (!priceStr) return 0;
+  var clean = priceStr.replace('$', '').trim();
+  if (clean.includes('-')) {
+    var parts = clean.split('-');
+    var min = parseFloat(parts[0]);
+    var max = parseFloat(parts[1]);
+    return (min + max) / 2;
   }
-  if (linkBtn) linkBtn.style.display = 'none';
-  
-  overlay.classList.add('active');
-  document.body.style.overflow = 'hidden';
-  
-  if (!productUrl) {
-    if (loading) loading.style.display = 'none';
-    if (gallery) {
-      gallery.innerHTML = '<div class="qc-no-images">❌ Brak linku do produktu</div>';
-    }
-    return;
-  }
-  
-  fetchQCImages(productUrl);
+  return parseFloat(clean);
 }
 
-function closeQCPopup() {
-  var overlay = document.getElementById('qcPopupOverlay');
-  if (!overlay) return;
-  overlay.classList.remove('active');
-  document.body.style.overflow = '';
+function usdToPln(priceStr) {
+  var usd = parsePrice(priceStr);
+  if (isNaN(usd)) return 0;
+  return Math.round(usd * USD_TO_PLN);
 }
 
-async function fetchQCImages(productUrl) {
-  var loading = document.getElementById('qcLoading');
-  var gallery = document.getElementById('qcImagesGrid');
-  var linkBtn = document.getElementById('qcLinkBtn');
-  var badge = document.getElementById('qcBadge');
-  
-  // Pobierz oba linki z danych produktu (przekazane przez openQCPopup)
-  // Musimy zmienić openQCPopup żeby przekazywała oba linki
-  // Ale na razie użyjmy tego co mamy
-  
-  try {
-    if (loading) loading.style.display = 'flex';
-    if (badge) {
-      badge.textContent = '⏳ Szukam QC...';
-      badge.style.backgroundColor = 'rgba(255, 165, 0, 0.2)';
-      badge.style.color = '#ffa500';
-      badge.style.borderColor = 'rgba(255, 165, 0, 0.3)';
-    }
-    
-    // TABLICA LINKÓW DO SPRAWDZENIA
-    // Najpierw USFans, potem Kakobuy
-    var urlsToTry = [];
-    
-    // Pobierz linki z globalnej zmiennej lub z atrybutów
-    // Szukamy produktu po nazwie (brzydkie ale działa)
-    var productName = document.getElementById('qcProductTitle')?.textContent || '';
-    var foundProduct = null;
-    
-    // Znajdź produkt w bazie
-    for (var i = 0; i < products.length; i++) {
-      if (products[i].name === productName) {
-        foundProduct = products[i];
-        break;
-      }
-    }
-    
-    if (foundProduct) {
-      if (foundProduct.linkUsfans && foundProduct.linkUsfans !== '') {
-        urlsToTry.push(foundProduct.linkUsfans);
-      }
-      if (foundProduct.linkKakobuy && foundProduct.linkKakobuy !== '') {
-        urlsToTry.push(foundProduct.linkKakobuy);
-      }
-    } else {
-      // Jeśli nie znaleziono produktu, użyj przekazanego URL
-      if (productUrl) urlsToTry.push(productUrl);
-    }
-    
-    console.log('Sprawdzam linki:', urlsToTry);
-    
-    var allImages = [];
-    var resultData = null;
-    
-    // Sprawdź każdy link po kolei
-    for (var u = 0; u < urlsToTry.length; u++) {
-      var url = urlsToTry[u];
-      if (!url || url === '') continue;
-      
-      try {
-        var fullUrl = QC_PROXY_URL + '?url=' + encodeURIComponent(url);
-        console.log('Próbuję:', url);
-        
-        var response = await fetch(fullUrl);
-        
-        if (response.ok) {
-          var result = await response.json();
-          console.log('Odpowiedź dla', url, ':', result);
-          
-          // Sprawdź czy są zdjęcia
-          var tempImages = [];
-          if (result.success === true && result.qcGroups) {
-            for (var source in result.qcGroups) {
-              var groups = result.qcGroups[source];
-              if (Array.isArray(groups)) {
-                groups.forEach(function(group) {
-                  if (group.photos && Array.isArray(group.photos)) {
-                    group.photos.forEach(function(photo) {
-                      if (photo.url) {
-                        tempImages.push(photo.url);
-                      }
-                    });
-                  }
-                });
-              }
-            }
-          }
-          
-          // Jeśli znaleziono zdjęcia, zapisz i przerwij
-          if (tempImages.length > 0) {
-            allImages = tempImages;
-            resultData = result;
-            console.log('✅ Znaleziono QC w linku:', url);
-            break;
-          } else {
-            console.log('❌ Brak QC w linku:', url);
-          }
-        }
-      } catch (e) {
-        console.log('Błąd dla linku', url, ':', e.message);
-      }
-    }
-    
-    if (loading) loading.style.display = 'none';
-    
-    if (allImages.length > 0) {
-      // Znaleziono QC!
-      if (badge) {
-        badge.textContent = '✅ ' + allImages.length + ' zdjęć QC';
-        badge.style.backgroundColor = 'rgba(46, 204, 113, 0.2)';
-        badge.style.color = '#2ecc71';
-        badge.style.borderColor = 'rgba(46, 204, 113, 0.3)';
-      }
-      
-      if (gallery) {
-        gallery.innerHTML = '';
-        
-        if (resultData && resultData.info && resultData.info.title) {
-          var infoDiv = document.createElement('div');
-          infoDiv.style.cssText = 'display:flex;align-items:center;gap:12px;padding:12px 16px;background:#0b0b0c;border-radius:12px;border:1px solid #19191b;margin-bottom:12px;';
-          infoDiv.innerHTML = `
-            <span style="font-size:20px;">📸</span>
-            <div>
-              <div style="font-size:13px;color:#fff;font-weight:600;">${resultData.info.title || 'Produkt'}</div>
-              <div style="font-size:12px;color:#71717a;">Znaleziono ${allImages.length} zdjęć QC</div>
-            </div>
-          `;
-          gallery.appendChild(infoDiv);
-        }
-        
-        allImages.slice(0, 20).forEach(function(imgUrl, index) {
-          var imgContainer = document.createElement('div');
-          imgContainer.className = 'qc-image-item';
-          
-          var img = document.createElement('img');
-          img.src = imgUrl;
-          img.alt = 'QC ' + (index + 1);
-          img.loading = 'lazy';
-          
-          img.onerror = function() {
-            this.src = 'https://via.placeholder.com/400x400/1a1a1e/c9a84c?text=QC+' + (index + 1);
-          };
-          
-          imgContainer.addEventListener('click', function() {
-            openLightbox(imgUrl);
-          });
-          
-          imgContainer.appendChild(img);
-          gallery.appendChild(imgContainer);
-        });
-      }
-      
-      if (linkBtn) linkBtn.style.display = 'none';
-      
-    } else {
-      // Brak QC
-      if (badge) {
-        badge.textContent = '❌ Brak QC';
-        badge.style.backgroundColor = 'rgba(255, 71, 87, 0.2)';
-        badge.style.color = '#ff4757';
-        badge.style.borderColor = 'rgba(255, 71, 87, 0.3)';
-      }
-      if (gallery) {
-        gallery.innerHTML = `
-          <div class="qc-no-images">
-            <div style="font-size:48px;margin-bottom:16px;">📷</div>
-            <div style="font-size:18px;font-weight:600;color:#fff;margin-bottom:8px;">Brak zdjęć QC</div>
-            <div style="font-size:14px;color:#71717a;">Ten produkt nie ma QC w bazie.</div>
-            <div style="font-size:12px;color:#52525b;margin-top:8px;">Sprawdzone linki: ${urlsToTry.length}</div>
-          </div>
-        `;
-      }
-      if (linkBtn) linkBtn.style.display = 'none';
-    }
-    
-  } catch (error) {
-    console.error('Błąd:', error);
-    if (loading) loading.style.display = 'none';
-    if (badge) {
-      badge.textContent = '⚠️ Błąd';
-      badge.style.backgroundColor = 'rgba(255, 71, 87, 0.2)';
-      badge.style.color = '#ff4757';
-      badge.style.borderColor = 'rgba(255, 71, 87, 0.3)';
-    }
-    if (gallery) {
-      gallery.innerHTML = `
-        <div class="qc-no-images">
-          <div style="font-size:48px;margin-bottom:16px;">⚠️</div>
-          <div style="font-size:18px;font-weight:600;color:#fff;margin-bottom:8px;">Błąd</div>
-          <div style="font-size:14px;color:#71717a;">${error.message}</div>
-        </div>
-      `;
-    }
+function formatPrice(priceStr) {
+  if (priceStr.includes('-')) {
+    var parts = priceStr.replace('$', '').split('-');
+    var minPln = Math.round(parseFloat(parts[0]) * USD_TO_PLN);
+    var maxPln = Math.round(parseFloat(parts[1]) * USD_TO_PLN);
+    return {
+      usd: priceStr,
+      pln: minPln + ' - ' + maxPln + ' PLN'
+    };
   }
+  var pln = usdToPln(priceStr);
+  return {
+    usd: priceStr,
+    pln: '≈ ' + pln + ' PLN'
+  };
 }
 
 // ============================================
@@ -8111,46 +7903,6 @@ const agentConfig = {
     footer: 'Kod obowiązuje przy pierwszym zamówieniu'
   }
 };
-
-// ============================================
-// 💰 PRZELICZNIK USD → PLN
-// ============================================
-const USD_TO_PLN = 3.62;
-
-function parsePrice(priceStr) {
-  if (!priceStr) return 0;
-  var clean = priceStr.replace('$', '').trim();
-  if (clean.includes('-')) {
-    var parts = clean.split('-');
-    var min = parseFloat(parts[0]);
-    var max = parseFloat(parts[1]);
-    return (min + max) / 2;
-  }
-  return parseFloat(clean);
-}
-
-function usdToPln(priceStr) {
-  var usd = parsePrice(priceStr);
-  if (isNaN(usd)) return 0;
-  return Math.round(usd * USD_TO_PLN);
-}
-
-function formatPrice(priceStr) {
-  if (priceStr.includes('-')) {
-    var parts = priceStr.replace('$', '').split('-');
-    var minPln = Math.round(parseFloat(parts[0]) * USD_TO_PLN);
-    var maxPln = Math.round(parseFloat(parts[1]) * USD_TO_PLN);
-    return {
-      usd: priceStr,
-      pln: minPln + ' - ' + maxPln + ' PLN'
-    };
-  }
-  var pln = usdToPln(priceStr);
-  return {
-    usd: priceStr,
-    pln: '≈ ' + pln + ' PLN'
-  };
-}
 
 // ============================================
 // 🚀 INICJALIZACJA
@@ -8390,7 +8142,7 @@ function setupLanguage() {
   var confirmLangBtn = document.getElementById("confirmLangBtn");
   if (confirmLangBtn) confirmLangBtn.textContent = lang.langConfirm;
   
-  var qcLink = document.getElementById('navQC');
+  var qcLink = document.getElementById('navQCSearch');
   if (qcLink) {
     var span = qcLink.querySelector('span');
     if (span) span.textContent = lang.qc;
@@ -8463,11 +8215,11 @@ function setupEventListeners() {
     });
   }
 
-  var qcLink = document.getElementById('navQC');
-  if (qcLink) {
-    qcLink.addEventListener('click', function(e) {
+  var qcSearchLink = document.getElementById('navQCSearch');
+  if (qcSearchLink) {
+    qcSearchLink.addEventListener('click', function(e) {
       e.preventDefault();
-      window.open('https://qcitems.com/', '_blank');
+      switchView('qcsearch');
     });
   }
 
@@ -8871,10 +8623,12 @@ function switchView(view) {
   var sellersView = document.getElementById('sellersView');
   var lastFindsView = document.getElementById('lastFindsView');
   var promoView = document.getElementById('promoView');
+  var qcSearchView = document.getElementById('qcSearchView');
   var spreadsheetLink = document.getElementById('navSpreadsheet');
   var sellersLink = document.getElementById('navSellers');
   var lastFindsLink = document.getElementById('navLastFinds');
   var promoLink = document.getElementById('navPromo');
+  var qcSearchLink = document.getElementById('navQCSearch');
   var heroTitle = document.getElementById('heroTitle');
   var heroSubtitle = document.getElementById('heroSubtitle');
   var searchInput = document.getElementById('search');
@@ -8884,11 +8638,13 @@ function switchView(view) {
   if (sellersView) sellersView.style.display = 'none';
   if (lastFindsView) lastFindsView.style.display = 'none';
   if (promoView) promoView.style.display = 'none';
+  if (qcSearchView) qcSearchView.style.display = 'none';
   
   if (spreadsheetLink) spreadsheetLink.classList.remove('active');
   if (sellersLink) sellersLink.classList.remove('active');
   if (lastFindsLink) lastFindsLink.classList.remove('active');
   if (promoLink) promoLink.classList.remove('active');
+  if (qcSearchLink) qcSearchLink.classList.remove('active');
   
   if (view === 'products') {
     if (productsView) productsView.style.display = 'block';
@@ -8915,6 +8671,11 @@ function switchView(view) {
     if (heroTitle) heroTitle.textContent = '🏷️ Promo Finds';
     if (heroSubtitle) heroSubtitle.textContent = 'Najlepsze promocje i okazje.';
     renderPromotions();
+  } else if (view === 'qcsearch') {
+    if (qcSearchView) qcSearchView.style.display = 'block';
+    if (qcSearchLink) qcSearchLink.classList.add('active');
+    if (heroTitle) heroTitle.textContent = '🔍 Sprawdź QC';
+    if (heroSubtitle) heroSubtitle.textContent = 'Wklej link produktu i zobacz zdjęcia QC.';
   } else {
     if (sellersView) sellersView.style.display = 'block';
     if (sellersLink) sellersLink.classList.add('active');
@@ -9236,6 +8997,409 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+// ============================================
+// 🔍 QC - STARA SIATKA + LIGHTBOX ZE STRZAŁKAMI
+// ============================================
+
+let qcImagesList = [];
+let qcCurrentIndex = 0;
+
+function openQCPopup(productUrl, productName, productImage, productPrice) {
+  var overlay = document.getElementById('qcPopupOverlay');
+  if (!overlay) return;
+  
+  var thumb = document.getElementById('qcProductThumb');
+  if (thumb) thumb.src = productImage || 'https://via.placeholder.com/100x100?text=No+Image';
+  
+  var title = document.getElementById('qcProductTitle');
+  if (title) title.textContent = productName || 'Produkt';
+  
+  var price = document.getElementById('qcProductPrice');
+  if (price) price.textContent = productPrice || '';
+  
+  var loading = document.getElementById('qcLoading');
+  var gallery = document.getElementById('qcImagesGrid');
+  var badge = document.getElementById('qcBadge');
+  var linkBtn = document.getElementById('qcLinkBtn');
+  
+  qcImagesList = [];
+  qcCurrentIndex = 0;
+  if (gallery) gallery.innerHTML = '';
+  
+  if (loading) loading.style.display = 'flex';
+  if (badge) {
+    badge.textContent = '⏳ Ładowanie...';
+    badge.style.backgroundColor = 'rgba(255, 165, 0, 0.2)';
+    badge.style.color = '#ffa500';
+    badge.style.borderColor = 'rgba(255, 165, 0, 0.3)';
+  }
+  if (linkBtn) linkBtn.style.display = 'none';
+  
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+  
+  if (!productUrl) {
+    if (loading) loading.style.display = 'none';
+    if (gallery) {
+      gallery.innerHTML = '<div class="qc-no-images">❌ Brak linku do produktu</div>';
+    }
+    return;
+  }
+  
+  fetchQCImages(productUrl);
+}
+
+function closeQCPopup() {
+  var overlay = document.getElementById('qcPopupOverlay');
+  if (!overlay) return;
+  overlay.classList.remove('active');
+  document.body.style.overflow = '';
+  qcImagesList = [];
+  qcCurrentIndex = 0;
+}
+
+function openQCLightbox(index) {
+  if (qcImagesList.length === 0 || index < 0 || index >= qcImagesList.length) return;
+  
+  qcCurrentIndex = index;
+  var overlay = document.getElementById('qcLightboxOverlay');
+  var img = document.getElementById('qcLightboxImg');
+  var counter = document.getElementById('qcLightboxCounter');
+  var prevBtn = document.getElementById('qcLightboxPrev');
+  var nextBtn = document.getElementById('qcLightboxNext');
+  
+  if (!overlay || !img) return;
+  
+  img.src = qcImagesList[index];
+  if (counter) counter.textContent = (index + 1) + ' / ' + qcImagesList.length;
+  if (prevBtn) prevBtn.style.display = index > 0 ? 'flex' : 'none';
+  if (nextBtn) nextBtn.style.display = index < qcImagesList.length - 1 ? 'flex' : 'none';
+  
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeQCLightbox() {
+  var overlay = document.getElementById('qcLightboxOverlay');
+  if (!overlay) return;
+  overlay.classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function showQCNextImage() {
+  if (qcCurrentIndex < qcImagesList.length - 1) {
+    openQCLightbox(qcCurrentIndex + 1);
+  }
+}
+
+function showQCPrevImage() {
+  if (qcCurrentIndex > 0) {
+    openQCLightbox(qcCurrentIndex - 1);
+  }
+}
+
+document.addEventListener('keydown', function(e) {
+  var overlay = document.getElementById('qcLightboxOverlay');
+  if (!overlay || !overlay.classList.contains('active')) return;
+  
+  if (e.key === 'ArrowLeft') {
+    e.preventDefault();
+    showQCPrevImage();
+  } else if (e.key === 'ArrowRight') {
+    e.preventDefault();
+    showQCNextImage();
+  } else if (e.key === 'Escape') {
+    closeQCLightbox();
+  }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  var closeBtn = document.getElementById('qcLightboxClose');
+  if (closeBtn) closeBtn.addEventListener('click', closeQCLightbox);
+  
+  var overlay = document.getElementById('qcLightboxOverlay');
+  if (overlay) {
+    overlay.addEventListener('click', function(e) {
+      if (e.target === this) closeQCLightbox();
+    });
+  }
+  
+  var prevBtn = document.getElementById('qcLightboxPrev');
+  if (prevBtn) prevBtn.addEventListener('click', showQCPrevImage);
+  
+  var nextBtn = document.getElementById('qcLightboxNext');
+  if (nextBtn) nextBtn.addEventListener('click', showQCNextImage);
+});
+
+async function fetchQCImages(productUrl) {
+  var loading = document.getElementById('qcLoading');
+  var gallery = document.getElementById('qcImagesGrid');
+  var linkBtn = document.getElementById('qcLinkBtn');
+  var badge = document.getElementById('qcBadge');
+  
+  var productName = document.getElementById('qcProductTitle')?.textContent || '';
+  var foundProduct = null;
+  
+  for (var i = 0; i < products.length; i++) {
+    if (products[i].name === productName) {
+      foundProduct = products[i];
+      break;
+    }
+  }
+  
+  var urlsToTry = [];
+  if (foundProduct) {
+    if (foundProduct.linkUsfans && foundProduct.linkUsfans !== '') urlsToTry.push(foundProduct.linkUsfans);
+    if (foundProduct.linkKakobuy && foundProduct.linkKakobuy !== '') urlsToTry.push(foundProduct.linkKakobuy);
+  } else {
+    if (productUrl) urlsToTry.push(productUrl);
+  }
+  
+  console.log('Sprawdzam linki:', urlsToTry);
+  
+  var allImages = [];
+  
+  for (var u = 0; u < urlsToTry.length; u++) {
+    var url = urlsToTry[u];
+    if (!url || url === '') continue;
+    
+    try {
+      var fullUrl = QC_PROXY_URL + '?url=' + encodeURIComponent(url);
+      console.log('Próbuję:', url);
+      
+      var response = await fetch(fullUrl);
+      
+      if (response.ok) {
+        var result = await response.json();
+        console.log('Odpowiedź dla', url, ':', result);
+        
+        var tempImages = [];
+        if (result.success === true && result.qcGroups) {
+          for (var source in result.qcGroups) {
+            var groups = result.qcGroups[source];
+            if (Array.isArray(groups)) {
+              groups.forEach(function(group) {
+                if (group.photos && Array.isArray(group.photos)) {
+                  group.photos.forEach(function(photo) {
+                    if (photo.url) {
+                      tempImages.push(photo.url);
+                    }
+                  });
+                }
+              });
+            }
+          }
+        }
+        
+        if (tempImages.length > 0) {
+          allImages = tempImages;
+          console.log('✅ Znaleziono QC w linku:', url);
+          break;
+        } else {
+          console.log('❌ Brak QC w linku:', url);
+        }
+      }
+    } catch (e) {
+      console.log('Błąd dla linku', url, ':', e.message);
+    }
+  }
+  
+  if (loading) loading.style.display = 'none';
+  
+  if (allImages.length > 0) {
+    qcImagesList = allImages;
+    
+    if (badge) {
+      badge.textContent = '✅ ' + allImages.length + ' zdjęć';
+      badge.style.backgroundColor = 'rgba(46, 204, 113, 0.2)';
+      badge.style.color = '#2ecc71';
+      badge.style.borderColor = 'rgba(46, 204, 113, 0.3)';
+    }
+    
+    if (gallery) {
+      gallery.innerHTML = '';
+      
+      allImages.forEach(function(imgUrl, index) {
+        var imgContainer = document.createElement('div');
+        imgContainer.className = 'qc-image-item';
+        
+        var img = document.createElement('img');
+        img.src = imgUrl;
+        img.alt = 'QC ' + (index + 1);
+        img.loading = 'lazy';
+        
+        img.onerror = function() {
+          this.src = 'https://via.placeholder.com/120x120/1a1a1e/c9a84c?text=QC+' + (index + 1);
+        };
+        
+        imgContainer.addEventListener('click', function() {
+          openQCLightbox(index);
+        });
+        
+        imgContainer.appendChild(img);
+        gallery.appendChild(imgContainer);
+      });
+    }
+    
+    if (linkBtn) linkBtn.style.display = 'none';
+    
+  } else {
+    if (badge) {
+      badge.textContent = '❌ Brak QC';
+      badge.style.backgroundColor = 'rgba(255, 71, 87, 0.2)';
+      badge.style.color = '#ff4757';
+      badge.style.borderColor = 'rgba(255, 71, 87, 0.3)';
+    }
+    
+    if (gallery) {
+      gallery.innerHTML = `
+        <div class="qc-no-images" style="grid-column:1/-1;text-align:center;padding:40px 20px;color:#71717a;font-size:14px;background:#0b0b0c;border-radius:12px;border:1px solid #19191b;">
+          <div style="font-size:48px;margin-bottom:16px;">📷</div>
+          <div style="font-size:18px;font-weight:600;color:#fff;margin-bottom:8px;">Brak zdjęć QC</div>
+          <div style="font-size:14px;color:#71717a;">Ten produkt nie ma QC w bazie.</div>
+          <div style="font-size:12px;color:#52525b;margin-top:8px;">Sprawdzone linki: ${urlsToTry.length}</div>
+        </div>
+      `;
+    }
+    if (linkBtn) linkBtn.style.display = 'none';
+  }
+}
+
+// ============================================
+// 🔍 QC SEARCH - WYSZUKIWANIE PO LINKU (NOWA WERSJA)
+// ============================================
+
+function searchQC() {
+  var input = document.getElementById('qcSearchInput');
+  var result = document.getElementById('qcSearchResult');
+  var loading = document.getElementById('qcSearchLoading');
+  var gallery = document.getElementById('qcSearchGallery');
+  
+  var url = input.value.trim();
+  
+  if (!url) {
+    alert('Wklej link produktu!');
+    return;
+  }
+  
+  result.style.display = 'block';
+  loading.style.display = 'flex';
+  gallery.innerHTML = '';
+  
+  fetchQCByUrl(url, loading, gallery);
+}
+
+async function fetchQCByUrl(productUrl, loading, gallery) {
+  try {
+    var fullUrl = QC_PROXY_URL + '?url=' + encodeURIComponent(productUrl);
+    console.log('Szukam QC dla:', productUrl);
+    
+    var response = await fetch(fullUrl);
+    
+    if (!response.ok) {
+      throw new Error('HTTP ' + response.status);
+    }
+    
+    var result = await response.json();
+    console.log('Odpowiedź:', result);
+    
+    if (loading) loading.style.display = 'none';
+    
+    var allImages = [];
+    
+    if (result.success === true && result.qcGroups) {
+      for (var source in result.qcGroups) {
+        var groups = result.qcGroups[source];
+        if (Array.isArray(groups)) {
+          groups.forEach(function(group) {
+            if (group.photos && Array.isArray(group.photos)) {
+              group.photos.forEach(function(photo) {
+                if (photo.url) {
+                  allImages.push(photo.url);
+                }
+              });
+            }
+          });
+        }
+      }
+    }
+    
+    console.log('Znalezione zdjęcia:', allImages.length);
+    
+    if (allImages.length > 0) {
+      gallery.innerHTML = '';
+      
+      // Informacja
+      var infoDiv = document.createElement('div');
+      infoDiv.className = 'qc-search-info';
+      infoDiv.innerHTML = `
+        <span class="info-icon">📸</span>
+        <div>
+          <div class="info-text">Znaleziono ${allImages.length} zdjęć QC</div>
+          <div class="info-sub">Kliknij w zdjęcie aby powiększyć i przeglądać strzałkami</div>
+        </div>
+      `;
+      gallery.appendChild(infoDiv);
+      
+      // Zdjęcia - taka sama siatka jak w popupie
+      allImages.slice(0, 50).forEach(function(imgUrl, index) {
+        var imgContainer = document.createElement('div');
+        imgContainer.className = 'qc-search-image-item';
+        
+        var img = document.createElement('img');
+        img.src = imgUrl;
+        img.alt = 'QC ' + (index + 1);
+        img.loading = 'lazy';
+        
+        img.onerror = function() {
+          this.src = 'https://via.placeholder.com/150x150/1a1a1e/c9a84c?text=QC';
+        };
+        
+        imgContainer.addEventListener('click', function() {
+          qcImagesList = allImages;
+          openQCLightbox(index);
+        });
+        
+        imgContainer.appendChild(img);
+        gallery.appendChild(imgContainer);
+      });
+      
+    } else {
+      gallery.innerHTML = `
+        <div class="qc-search-no-results">
+          <div class="no-results-icon">📷</div>
+          <div class="no-results-title">Brak zdjęć QC</div>
+          <div class="no-results-desc">Ten produkt nie ma jeszcze zdjęć QC w bazie.</div>
+          <div class="no-results-desc" style="margin-top:8px;font-size:13px;color:#52525b;">Sprawdź link lub spróbuj innego produktu.</div>
+        </div>
+      `;
+    }
+    
+  } catch (error) {
+    console.error('Błąd:', error);
+    if (loading) loading.style.display = 'none';
+    gallery.innerHTML = `
+      <div class="qc-search-no-results">
+        <div class="no-results-icon">⚠️</div>
+        <div class="no-results-title">Błąd połączenia</div>
+        <div class="no-results-desc">Nie udało się pobrać zdjęć QC.</div>
+        <div class="no-results-desc" style="margin-top:8px;font-size:13px;color:#52525b;">${error.message}</div>
+      </div>
+    `;
+  }
+}
+
+// Obsługa Enter w polu wyszukiwania
+document.addEventListener('DOMContentLoaded', function() {
+  var searchInput = document.getElementById('qcSearchInput');
+  if (searchInput) {
+    searchInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') {
+        searchQC();
+      }
+    });
+  }
+});
 // ============================================
 // ✅ KONIEC
 // ============================================
