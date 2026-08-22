@@ -1753,7 +1753,7 @@ const products = [
     rating: 4
   },
   {
-    name: "RICK OWENS PANTS",
+    name: "RICK OWENS PANTS (cargo)",
     category: "Pants",
     price: "$34.48",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/6/ae41f484f522f921f4f6434444778709.jpg",
@@ -1763,7 +1763,7 @@ const products = [
     rating: 4
   },
   {
-    name: "RICK OWENS PANTS",
+    name: "RO PANTS",
     category: "Pants",
     price: "$49.99",
     image: "https://si.geilicdn.com/pcitem1487039158-331200000196a90ffc680a20e7c7_800_800.jpg",
