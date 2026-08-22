@@ -6993,7 +6993,7 @@ const products = [
     rating: 5
   },
   {
-    name: "RICK OWENS VANS",
+    name: "RICK OWENS VANS (2PAC)",
     category: "Shoes",
     price: "$125.90",
     image: "https://si.geilicdn.com/pcitem1727599812-52cd0000018c25d6edf10a231179_1279_1486.jpg",
