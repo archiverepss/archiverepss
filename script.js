@@ -7422,6 +7422,76 @@ const products = [
     tag: "BAYMAXSOCKS",
     rating: 5
   },
+  {
+    name: "CERTIFIED FREAK HOODIE",
+    category: "Hoodies",
+    price: "$29.76",
+    image: "https://img.alicdn.com/bao/uploaded/i4/1801124778/O1CN01SPFkHO1lANRqLsFiB_!!1801124778.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D863480165301",
+    linkUsfans: "https://usfans.com/product/2/F9oTNQ6sQ7mnfqvzJsAiFBSeFIipd22-G7BSPYhRgWDx-eeGHuIrRQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "YE MUST BORN AGAIN HOODIE",
+    category: "Hoodies",
+    price: "$14.47",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2075710764/O1CN01OaAJHM1HVxRxTDbg1_!!2075710764.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D652795879259",
+    linkUsfans: "https://usfans.com/product/2/r_KLodHhtZGwyxL4q-nIeaWSnU8Gqx2iYFJu0tXHaHdoak_1Wt4R0A?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RICK OWENS DRKSHDW PANTSS",
+    category: "Pants",
+    price: "$26.80",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2214514093/O1CN01JCrXsO1g6e8tZktHn_!!2214514093.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D908386666823",
+    linkUsfans: "https://usfans.com/product/2/qcdfrHJvxZq2oY0JbsNFBPymyH5wh9AHcVZVKC7Fp1qO_LuOYxtoOQ?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "verscartes cherry blossom jeans",
+    category: "Pants",
+    price: "$17.76",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01MS84YC2AyAzpp1PeN_!!2222325418271-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1045220427999.html",
+    linkUsfans: "https://usfans.com/product/1/1045220427999?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "RANDOM FIVE BUTTONS JEANS",
+    category: "Pants",
+    price: "$30.91",
+    image: "https://img.alicdn.com/bao/uploaded/i2/346392213/O1CN01bWrhmd1SDbbgqyCxQ_!!346392213.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1007496500280",
+    linkUsfans: "https://usfans.com/product/2/yCNL_nKygI21n_KZMQsDF9VJZmQxvJg6Gbw5FYE7z1sTjJmoBgIaxuY?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CARHARTT JEANS",
+    category: "Pants",
+    price: "$12.23",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN013XxBOs1o6fC6DixM3_!!6000000005176-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F1%2F845225146226",
+    linkUsfans: "https://usfans.com/product/1/845225146226?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "WIDE LEG JEANS #1",
+    category: "Pants",
+    price: "$14.46",
+    image: "https://img.alicdn.com/bao/uploaded/i1/345828840/O1CN01vy98Li2FAm5w2O2CG_!!345828840.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D735968374544",
+    linkUsfans: "https://usfans.com/product/2/rRjdeK6wbEaAqEgn1-pltwiY9Z7N8MjBXIOzofrjvsUI_GPNw33j8g?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
