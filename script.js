@@ -7492,6 +7492,56 @@ const products = [
     tag: "RANDOM / BUDGET",
     rating: 5
   },
+  {
+    name: "BALENCIAGA WFP TEE",
+    category: "Tshirts",
+    price: "$16.28",
+    image: "https://si.geilicdn.com/wdseller1258568610-2b790000019e369f73ec0a23037f_1320_1321.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7766546617",
+    linkUsfans: "https://usfans.com/product/3/7766546617?ref=TX9V9N",
+    tag: "SATANMADE",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA LOOP SPORTS JACKET",
+    category: "Jackets",
+    price: "$65.44",
+    image: "https://kako-alosshk-pic.lucklybuy.com/whg/202603/14/a2f6eff7e7df69b1c3d5bbf37b28d863.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7664397603%26spider_token%3Db7c0",
+    linkUsfans: "https://usfans.com/product/3/7664397603?ref=TX9V9N",
+    tag: "THUNDER",
+    rating: 5
+  },
+  {
+    name: "GOYARD PHONE CASE",
+    category: "Accesories",
+    price: "$1.40",
+    image: "https://cbu01.alicdn.com/img/ibank/22777367284_436360510.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F631910643130.html",
+    linkUsfans: "https://usfans.com/product/1/631910643130?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "IPHONE MAGSAFE CASE",
+    category: "Accesories",
+    price: "$1.07",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01Qlole21zWGhw9cGqG_!!3953236721-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F1%2F667647980956",
+    linkUsfans: "https://usfans.com/product/1/667647980956?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "BURBERRY JACKET",
+    category: "Jackets",
+    price: "$147.80",
+    image: "https://media.usfans.com/2026/08/25/164943/0bb479d8-7ad5-4bfa-8307-70f65bf20504.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7774014334",
+    linkUsfans: "https://usfans.com/product/3/7774014334?ref=TX9V9N",
+    tag: "THUNDER",
+    rating: 5
+  },
 ];
 
 // ============================================
