@@ -5944,7 +5944,7 @@ const products = [
   },
   {
     name: "UNDERCOVER 13AW BACKPACK",
-    category: "Accesories",
+    category: "Belts",
     price: "$65",
     image: "https://img.alicdn.com/bao/uploaded/i1/2702114446/O1CN01mrcgiR1iiJwfboOsB_!!2702114446.jpg",
     linkKakobuy: "",
@@ -5954,7 +5954,7 @@ const products = [
   },
   {
     name: "SUPREME LEOPARD BACKPACK",
-    category: "Accesories",
+    category: "Belts",
     price: "$27.60",
     image: "https://media.usfans.com/2026/07/12/174444/c061b271-e2f4-4a38-af4a-77a6c736cbd6.jpg",
     linkKakobuy: "",
@@ -5964,7 +5964,7 @@ const products = [
   },
   {
     name: "MAYBACK SUNGLASSES",
-    category: "Accesories",
+    category: "Belts",
     price: "$5.40",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01CnSQRZ1vHq2QHlEB8_!!2218760966148-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/frk2v",
@@ -7514,7 +7514,7 @@ const products = [
   },
   {
     name: "GOYARD PHONE CASE",
-    category: "Accesories",
+    category: "Belts",
     price: "$1.40",
     image: "https://media.usfans.com/2026/08/24/133945/9b282f9b-9d53-47dc-94c2-31c7ae426dfb.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F631910643130.html",
@@ -7524,7 +7524,7 @@ const products = [
   },
   {
     name: "IPHONE MAGSAFE CASE",
-    category: "Accesories",
+    category: "Belts",
     price: "$1.07",
     image: "https://media.usfans.com/2026/08/17/173008/843998f5-82d6-4c7e-904f-4bd02bb85c51.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F1%2F667647980956",
@@ -7564,7 +7564,7 @@ const products = [
   },
   {
     name: "CHROME HEARTS SUNGLASSES",
-    category: "Accesories",
+    category: "Belts",
     price: "$2.14",
     image: "https://media.usfans.com/2026/08/26/181513/d344fbcb-82c1-4770-8e51-966fc038294f.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F936065068550.html",
@@ -7574,7 +7574,7 @@ const products = [
   },
   {
     name: "CARTIER SUNGLASSES BUDGET",
-    category: "Accesories",
+    category: "Belts",
     price: "$13.98",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/22/6fb5950d457a295cc3d0960f34d9acd2.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D669173517215",
