@@ -7546,7 +7546,7 @@ const products = [
     name: "RALPH LAUREN USA SWEATER",
     category: "Hoodies",
     price: "$25.65",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN01RSRrWE1sqEywQ86U0_!!2220058125817-0-cib.jpg",
+    image: "https://media.usfans.com/2026/08/27/220520/067f1572-bee0-4f1d-9c7f-ce63f6c7b568.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F943439407506.html",
     linkUsfans: "https://usfans.com/product/1/943439407506?ref=TX9V9N",
     tag: "RANDOM",
