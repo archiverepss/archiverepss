@@ -7542,6 +7542,46 @@ const products = [
     tag: "THUNDER",
     rating: 5
   },
+  {
+    name: "RALPH LAUREN USA SWEATER",
+    category: "Hoodies",
+    price: "$25.65",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01RSRrWE1sqEywQ86U0_!!2220058125817-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F943439407506.html",
+    linkUsfans: "https://usfans.com/product/1/943439407506?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "GREER STREET TEE",
+    category: "Tshirts",
+    price: "$13.98",
+    image: "https://si.geilicdn.com/wdseller1995625455-6f1e0000019f9351c2fc0a230449_4284_4287.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7812069589",
+    linkUsfans: "https://usfans.com/product/3/7812069589?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "CHROME HEARTS SUNGLASSES",
+    category: "Accesories",
+    price: "$2.14",
+    image: "https://media.usfans.com/2026/08/26/181513/d344fbcb-82c1-4770-8e51-966fc038294f.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F936065068550.html",
+    linkUsfans: "https://usfans.com/product/1/936065068550?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "CARTIER SUNGLASSES BUDGET",
+    category: "Accesories",
+    price: "$13.98",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/22/6fb5950d457a295cc3d0960f34d9acd2.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D669173517215",
+    linkUsfans: "https://usfans.com/product/2/Qgb1N88uivKRrCSWbCKssuGInWIoPB2-pG6yRerZJe3aJkwhEjOw_w?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
