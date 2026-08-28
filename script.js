@@ -3648,7 +3648,7 @@ const products = [
     price: "$10.31 - 12.27",
     image: "https://img.alicdn.com/bao/uploaded/i2/2210749411287/O1CN01QbLK5c1LNUqryJwck_!!2210749411287.jpg",
     linkKakobuy: "https://ikako.vip/m489a",
-    linkUsfans: "https://usfans.com/product/2/885178756710?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/2/N94RIgTVawwkl-gdVG51-s4XAu2PffRIvwfFf0N-_ZCZEYptif5b6g?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 4
   },
