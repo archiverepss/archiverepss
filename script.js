@@ -7582,6 +7582,66 @@ const products = [
     tag: "BUDGET",
     rating: 5
   },
+  {
+    name: "HYSTERIC GLAMOUR GUITAR TEE (WHITE)",
+    category: "Tshirts",
+    price: "$26.13",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01zPu6j01RR3exmaRzj_!!2126072107.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1059970527256",
+    linkUsfans: "https://usfans.com/product/2/kh8iCblw1CFG4x_HDyW563FNvNJqy6L7tVypFB2Yx2MQNwe96l0-2ks?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "NATIONAL GEOGRAPHIC TEE",
+    category: "Tshirts",
+    price: "$8.19",
+    image: "https://media.usfans.com/2026/08/27/153730/75172967-a89e-4ff0-a234-dd0812e53e82.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1012429810968",
+    linkUsfans: "https://usfans.com/product/2/7enlK_5pMpbxScJ-UA_vQ6Viv6rOGw3OoIbx_mFZAKO1lz8r4EeyPIU?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CR7 TEE",
+    category: "Tshirts",
+    price: "$7.71",
+    image: "https://media.usfans.com/2026/08/26/143932/aafdec55-3b1e-4b2c-8c56-db75fd012092.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F816615191785.html",
+    linkUsfans: "https://usfans.com/product/1/816615191785?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MAISON MARGIELA T-SHIRT",
+    category: "Tshirts",
+    price: "$9.53",
+    image: "https://media.usfans.com/2026/08/27/140751/7f34c239-796f-4033-af12-2d8f45985004.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F907117531177.html",
+    linkUsfans: "https://usfans.com/product/1/907117531177?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "GLOGANG HOODIE'S",
+    category: "Hoodies",
+    price: "$29.58 - $41.90",
+    image: "https://media.usfans.com/2026/08/26/112826/34d6838f-1f76-4252-b365-4d831f53984e.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F1%2F774801852263",
+    linkUsfans: "https://usfans.com/product/1/774801852263?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CELINE LOGNSLEEVE",
+    category: "Tshirts",
+    price: "$17.26",
+    image: "https://media.usfans.com/2026/08/23/202400/6cd8e173-b94f-48f5-a310-c03dcaa0bece.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F980126094840.html",
+    linkUsfans: "https://usfans.com/product/1/980126094840?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
