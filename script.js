@@ -7642,6 +7642,56 @@ const products = [
     tag: "RANDOM / BUDGET",
     rating: 5
   },
+  {
+    name: "LGB TEE",
+    category: "Tshirts",
+    price: "$14.62",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2208067697769/O1CN0114wcHw27GG9j1y0tx_!!2208067697769.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1017737154416",
+    linkUsfans: "https://usfans.com/product/2/yzYs-inK8ZXsv2jmfz9KHRo2icONTLBD1oQ-TDYOc80mR8PhMm4ASYs?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MINJI JINWENCHI TEE",
+    category: "Tshirts",
+    price: "$5.35",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2208782615098/O1CN01OL7VDT1nWwBHpA2Of_!!2208782615098.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D893729574019",
+    linkUsfans: "https://usfans.com/product/2/tqNib5Nus0IcNk--WmoQzH8wVr4jY4hXDGouliaK3UW0mxPOnUrUug?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DEPUTY TEE",
+    category: "Tshirts",
+    price: "$14.62",
+    image: "https://media.usfans.com/2026/08/16/110536/c47c185e-f9fd-4b91-908d-3e18fed257c2.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7567319841",
+    linkUsfans: "https://usfans.com/product/3/7567319841?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "JIL SANDRE TEE",
+    category: "Tshirts",
+    price: "$17.74",
+    image: "https://img.alicdn.com/bao/uploaded/i4/1588063656/O1CN01uAFv0r1csV5KrM0Bi_!!1588063656.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D944458054166",
+    linkUsfans: "https://usfans.com/product/2/I_es4-RaZvsp8v2GkU3sWhFPJ-X_YzcgckZjuouq4FdGliFEM9E0FQ?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "VAMP TEE",
+    category: "Tshirts",
+    price: "$10.95",
+    image: "https://media.usfans.com/2026/08/28/142757/29ef278f-258f-4a0d-9632-c42e366e73ad.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D809406858727",
+    linkUsfans: "https://usfans.com/product/2/8GEdAPS6l6FT2iw0C94YYcopK9D22X5iX1zOntK6xA79JyjUPkkRlg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
