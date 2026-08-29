@@ -7692,6 +7692,56 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "ERD HOODIE BEST",
+    category: "Hoodies",
+    price: "$48.44",
+    image: "https://media.usfans.com/2026/08/17/165510/7e3e472f-05f8-4fc7-8398-6e805580baa1.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7627149437",
+    linkUsfans: "https://usfans.com/product/3/7627149437?ref=TX9V9N",
+    tag: "暗号made / BEST",
+    rating: 5
+  },
+  {
+    name: "ERD LAKE BLUE HOODIE",
+    category: "Hoodies",
+    price: "$48.44",
+    image: "https://si.geilicdn.com/wdseller1399882362-106300000198668c8f3e0a2305d8_1206_1462.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7518681507",
+    linkUsfans: "https://usfans.com/product/3/7518681507?ref=TX9V9N",
+    tag: "暗号made / BEST",
+    rating: 5
+  },
+  {
+    name: "ERD HOODIE DISTRESSED HEM CREWNECK",
+    category: "Hoodies",
+    price: "$49.10",
+    image: "https://si.geilicdn.com/wdseller1399882362-0a7f00000198c209999a0a8133cc_1206_1184.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7528498255",
+    linkUsfans: "https://usfans.com/product/3/7528498255?ref=TX9V9N",
+    tag: "暗号made / BEST",
+    rating: 5
+  },
+  {
+    name: "ERD TEEN JUST WANTED LOVE LONGSLEEVE",
+    category: "Tshirts",
+    price: "$27.75",
+    image: "https://si.geilicdn.com/wdseller1399882362-13b400000193b6f37d6e0a23111a_1080_1080.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7321144671",
+    linkUsfans: "https://usfans.com/product/3/7321144671?ref=TX9V9N",
+    tag: "暗号made / BEST",
+    rating: 5
+  },
+  {
+    name: "ERD MUSSOLINI HOODIE",
+    category: "Hoodies",
+    price: "$53.21",
+    image: "https://si.geilicdn.com/wdseller1399882362-1db8000001993ce291320a811411_1206_1206.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7548909474",
+    linkUsfans: "https://usfans.com/product/3/7548909474?ref=TX9V9N",
+    tag: "暗号made / BEST",
+    rating: 5
+  },
 ];
 
 // ============================================
