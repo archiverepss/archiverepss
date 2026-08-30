@@ -7802,6 +7802,106 @@ const products = [
     tag: "BADMOODCLUB",
     rating: 5
   },
+  {
+    name: "UNDERCOVER LOSER TEE",
+    category: "Tshirts",
+    price: "$26.11",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3578229930/O1CN01FBwscJ2NE04yIx7BF_!!3578229930.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1050926714276",
+    linkUsfans: "https://usfans.com/product/2/sJu17kkMUOrhzKJoQYMsg0exNq83sX3SxQJMvt49PY8azm3VUFez44o?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA ARENA HIGH",
+    category: "Shoes",
+    price: "$98.36",
+    image: "https://media.usfans.com/2026/08/27/223534/41e8d6ae-21ab-4007-9702-1c5d71bc77d2.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1059064104086",
+    linkUsfans: "https://usfans.com/product/2/ybrYgmO7jzixgFt6tfWmhoTTW2W7WbVirINywpvnBnyGS1sRyASevqc?ref=TX9V9N",
+    tag: "MAKEMOOD / BEST",
+    rating: 5
+  },
+  {
+    name: "JORDAN 12",
+    category: "Shoes",
+    price: "$73.89",
+    image: "https://si.geilicdn.com/open1733523732-1234478995-62750000019379b0dd250a210298_2560_2560.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7780610171",
+    linkUsfans: "https://usfans.com/product/3/7780610171?ref=TX9V9N",
+    tag: "WWTOP",
+    rating: 5
+  },
+  {
+    name: "HELIOT EMIL HIKING BOOTS",
+    category: "Shoes",
+    price: "$206.40",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3065565146/O1CN01kxMuNu1nsvDv40Uka_!!3065565146.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D946095291364",
+    linkUsfans: "https://usfans.com/product/2/_eoL4-rSKxu_OAWkAa4CKWhfT0EUGh7VUjq2GpY9tyicmd1YljV-Kg?ref=TX9V9N",
+    tag: "NIE / BEST",
+    rating: 5
+  },
+  {
+    name: "BAZO BUNNY BOOTS",
+    category: "Shoes",
+    price: "$131.20",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2210299185015/O1CN01fBtDKF1muvQTYitDE_!!2210299185015.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1044974776406",
+    linkUsfans: "https://usfans.com/product/2/7Jk6rt4ZdcXSJV9Ea-lmTcId2DWjszXQB2hIFLBQlHhmLSKgZJiVERM?ref=TX9V9N",
+    tag: "VOGUE",
+    rating: 5
+  },
+  {
+    name: "RICK OWENS X MONCLER BOOTS",
+    category: "Shoes",
+    price: "$140.89",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2080185832/O1CN0135p2pS1sx6tw2p3XP_!!2080185832.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D915705546576",
+    linkUsfans: "https://usfans.com/product/2/4xZW-xk1szELfkh4z-iEdpqqnQRfOCrUBwOAf7TGGHgzsmclommNPw?ref=TX9V9N",
+    tag: "DUJIA STUDIO / RANDOM??",
+    rating: 5
+  },
+  {
+    name: "HBA AVALANCHE BOOTS",
+    category: "Shoes",
+    price: "$147.26",
+    image: "https://img.alicdn.com/imgextra/i1/2217802793950/O1CN01dzwyHo1f39cAjOxdz_!!2217802793950.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1062310399265",
+    linkUsfans: "https://usfans.com/product/2/aOD0wdmK423bVCdgyRhxUf5v7H2AgstKT-XoIT9i6aJCVi7PaxkFJ18?ref=TX9V9N",
+    tag: "NIE / BEST",
+    rating: 5
+  },
+  {
+    name: "NEWROCK X VETEMENTS",
+    category: "Shoes",
+    price: "$173.89",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/02/a1164df25a7b6c8699dd05099e8a1eb1.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1006417785627",
+    linkUsfans: "https://usfans.com/product/2/tPOtsNAGUiXwmNhdJqG6N5cFgxQ8aDvmCIs7Ekgd5rpALa8YCwNYuaU?ref=TX9V9N",
+    tag: "NIE / BEST",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA ARENA LOW",
+    category: "Shoes",
+    price: "$98.36",
+    image: "https://media.usfans.com/2026/08/23/181904/f2202b7b-3be5-4e16-b6ee-7265dc4c79ff.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1066942945466",
+    linkUsfans: "https://usfans.com/product/2/VW1tFfyWGxNn7tmxNzUW1wPCxyM-OUmhVNFU99C5dcWddscMPDplmlc?ref=TX9V9N",
+    tag: "MAKEMOOD / BEST",
+    rating: 5
+  },
+  {
+    name: "GUCCI HIGH TOPS",
+    category: "Shoes",
+    price: "$77.18",
+    image: "https://si.geilicdn.com/wdseller1437660918-66c80000019adb8c56bc0a20e273_1204_1204.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7622585971",
+    linkUsfans: "https://usfans.com/product/3/7622585971?ref=TX9V9N",
+    tag: "TOP DREAMER",
+    rating: 5
+  },
 ];
 
 // ============================================
