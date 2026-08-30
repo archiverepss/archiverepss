@@ -7902,6 +7902,196 @@ const products = [
     tag: "TOP DREAMER",
     rating: 5
   },
+  {
+    name: "SUPRA SKYTOP",
+    category: "Shoes",
+    price: "$63.71",
+    image: "https://img.alicdn.com/bao/uploaded/i4/901791614/O1CN01GkvfNhDh1LL1jNZR_!!901791614.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D544387649855",
+    linkUsfans: "https://usfans.com/product/2/3ZupPm8vHbXFWbzKi1MmkXYCCb9fiUz3p4LInfiVolINXB732His6A?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "PHILIP PLEIN SNEAKERS",
+    category: "Shoes",
+    price: "$53.86",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2854361675/O1CN01EDidYuSNLcK1chua_!!2854361675.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D635154229795",
+    linkUsfans: "https://usfans.com/product/2/2_SMkHRdQ2TNYT4gsmIJAkLPq6GMi-7-Ft74XsrHT9Ou-F-9WwLvsw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DC COURT GRAFFIK",
+    category: "Shoes",
+    price: "$26.28",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN014nHB1h29fZDl4smDi_!!2219411848095-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F946228500846.html",
+    linkUsfans: "https://usfans.com/product/1/946228500846?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA MONDAY",
+    category: "Shoes",
+    price: "$50.91",
+    image: "https://si.geilicdn.com/wdseller1845163825-461c0000019424c90d3e0a23038e_1080_1080.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7611473323",
+    linkUsfans: "https://usfans.com/product/3/7611473323?ref=TX9V9N",
+    tag: "XA",
+    rating: 5
+  },
+  {
+    name: "BAPE SLIDES",
+    category: "Shoes",
+    price: "$19.22",
+    image: "https://media.usfans.com/2026/08/23/153130/1fd1f553-c641-45b6-b830-b7502971f28f.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7780853435",
+    linkUsfans: "https://usfans.com/product/3/7780853435?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA FUR SLIDES",
+    category: "Shoes",
+    price: "$11.50",
+    image: "https://media.usfans.com/2026/08/28/221501/2cc6d35b-0e2c-40ec-ad3c-1053ef9ece89.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F801093394090.html",
+    linkUsfans: "https://usfans.com/product/1/801093394090?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "RYBAKI / FISH SLIDES",
+    category: "Shoes",
+    price: "$1.61",
+    image: "https://media.usfans.com/2026/08/28/150657/ecbd2279-3d27-4d1e-88d2-091f3d0eb833.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D697177016515",
+    linkUsfans: "https://usfans.com/product/2/7nqa8DFsWgJU6ZRoy0QlOFDlJk3Vg73wxDo6SWAZaxNZuvEuJVZdlw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "PEACEINWAR THERMAL LONGSLEEVE",
+    category: "Tshirts",
+    price: "$24.47",
+    image: "https://si.geilicdn.com/wdseller1995625455-50320000019d8b42d5210a2305d8_3025_3026.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7735264633",
+    linkUsfans: "https://usfans.com/product/3/7735264633?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "GREER STREETS SHORTS",
+    category: "Shorts",
+    price: "$21.19",
+    image: "https://si.geilicdn.com/wdseller1995625455-54230000019f88ddefaf0a2305d8_1320_1760.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7810610971",
+    linkUsfans: "https://usfans.com/product/3/7810610971?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "WACKS THERMAL LONGSLEEVE",
+    category: "Tshirts",
+    price: "$24.47",
+    image: "https://si.geilicdn.com/wdseller1995625455-4bd40000019f88dc9d5f0a2102b1_4284_4287.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7810595299",
+    linkUsfans: "https://usfans.com/product/3/7810595299?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "IHS SWEATPANTS",
+    category: "Pants",
+    price: "$37.61",
+    image: "https://si.geilicdn.com/wdseller1995625455-03de0000019f7eb0831b0a23c1e0_4284_4284.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7812089028",
+    linkUsfans: "https://usfans.com/product/3/7812089028?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "IDT SWEATPANTS",
+    category: "Pants",
+    price: "$37.61",
+    image: "https://si.geilicdn.com/wdseller1995625455-31e30000019fb251bd800a2102b1_4258_4261.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7815475769",
+    linkUsfans: "https://usfans.com/product/3/7815475769?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "IDT ARROGANT HOODIE",
+    category: "Hoodies",
+    price: "$34.32",
+    image: "https://si.geilicdn.com/wdseller1995625455-4c570000019fad0cc8180a23c191_4284_4287.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7817705818",
+    linkUsfans: "https://usfans.com/product/3/7817705818?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "PEACEINWAR BRAIN HOODIE",
+    category: "Hoodies",
+    price: "$35.31",
+    image: "https://si.geilicdn.com/wdseller1995625455-497f0000019f6551dfde0a23c1e0_3025_3026.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7810161744",
+    linkUsfans: "https://usfans.com/product/3/7810161744?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "PEACEINWAR ICELAND HOODIE",
+    category: "Hoodies",
+    price: "$34.16",
+    image: "https://si.geilicdn.com/wdseller1995625455-22340000019d24d7fdc00a210247_1320_1760.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7717389783",
+    linkUsfans: "https://usfans.com/product/3/7717389783?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "PROJECT CAPRI PANTS",
+    category: "Pants",
+    price: "$30.38",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/20/8f0b18e8fcc36d0b83c818a105134d85.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F850707276274.html",
+    linkUsfans: "https://usfans.com/product/1/850707276274?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "PROJECT CAPRI TSHIRTS",
+    category: "Tshirts",
+    price: "$14.78",
+    image: "https://media.usfans.com/2026/05/13/133215/8d43b8eb-7f7e-45e0-aaa9-b74c6660ac5e.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F815232196489.html",
+    linkUsfans: "https://usfans.com/product/1/815232196489?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "VERTABRAE TSHIRTS BUDGET",
+    category: "Tshirts",
+    price: "$12.32",
+    image: "https://media.usfans.com/2026/08/29/230102/26608f83-8077-4762-adb5-01a066166c80.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F823544923536.html",
+    linkUsfans: "https://usfans.com/product/1/823544923536?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "SAINT VANITY ITEMS",
+    category: "Pants",
+    price: "$32.02",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/28/5e34b980c3fd30736213e29ba057e339.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F899126915070.html",
+    linkUsfans: "https://usfans.com/product/1/899126915070?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
