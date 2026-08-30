@@ -7926,7 +7926,7 @@ const products = [
     name: "DC COURT GRAFFIK",
     category: "Shoes",
     price: "$26.28",
-    image: "https://cbu01.alicdn.com/img/ibank/O1CN014nHB1h29fZDl4smDi_!!2219411848095-0-cib.jpg",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/30/c3ec909d8c384cc57381e3f6170a91fa.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F946228500846.html",
     linkUsfans: "https://usfans.com/product/1/946228500846?ref=TX9V9N",
     tag: "RANDOM / BUDGET",
