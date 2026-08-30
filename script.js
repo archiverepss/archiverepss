@@ -7742,6 +7742,66 @@ const products = [
     tag: "暗号made / BEST",
     rating: 5
   },
+  {
+    name: "RAF SIMONS MORAL TEE",
+    category: "Tshirts",
+    price: "$9.69",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3926619803/O1CN01JtXLRP2MHplzvpF3K_!!3926619803.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1051398369817",
+    linkUsfans: "https://usfans.com/product/2/CrGXKzaHUD6_bwaTyb4E8o480bYvGoOWeqMubhq5Nn9Sy1hgxLxnw4s?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA BRITNEY HOODIE",
+    category: "Hoodies",
+    price: "$26.11",
+    image: "https://si.geilicdn.com/wdseller1951584266-29970000019bb24049390a23c1e0_1179_1544.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7665579001",
+    linkUsfans: "https://usfans.com/product/3/7665579001?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "CHROME HEARTS CARPENTERS",
+    category: "Pants",
+    price: "$49.10",
+    image: "https://si.geilicdn.com/wdseller1258568610-3f9c00000197e5c637200a2303ee_1170_1560.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7806954071",
+    linkUsfans: "https://usfans.com/product/3/7806954071?ref=TX9V9N",
+    tag: "SATANMADE",
+    rating: 5
+  },
+  {
+    name: "NOFAITH BLUE WASHED JEANS",
+    category: "Pants",
+    price: "$47.29",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2201254611318/O1CN01VP1hsG1Lbh6DWEM5e_!!2201254611318.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D967052135981",
+    linkUsfans: "https://usfans.com/product/2/7xHv6XTaBbQGNjUy_06-sxx6ijzOfqoWvZ08aKdk5fz4akC7NEh9kw?ref=TX9V9N",
+    tag: "BADMOODCLUB",
+    rating: 5
+  },
+  {
+    name: "NOFAITH BOOTCUT JEANS",
+    category: "Pants",
+    price: "$57.11",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2201254611318/O1CN01sut5uq1Lbh7hyHc1z_!!2201254611318.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1001089524068",
+    linkUsfans: "https://usfans.com/product/2/Mzw3hPjh9hm9kjiMj3MCThzfAnO6X9VWylqxO-0HcFrxVvspgzGlUN0?ref=TX9V9N",
+    tag: "BADMOONCLUB",
+    rating: 5
+  },
+  {
+    name: "NOFAITH PANTS",
+    category: "Pants",
+    price: "$55.67",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2201254611318/O1CN01v2ojd21Lbh8rgztNR_!!2201254611318.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1016323263904",
+    linkUsfans: "https://usfans.com/product/2/JTCyWsGMzPoITwZj-W1SrhT-m_4auMYevqA-gJBuzHrUdqjM0M24ZTg?ref=TX9V9N",
+    tag: "BADMOODCLUB",
+    rating: 5
+  },
 ];
 
 // ============================================
