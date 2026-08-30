@@ -8092,6 +8092,106 @@ const products = [
     tag: "RANDOM / BUDGET",
     rating: 5
   },
+  {
+    name: "SMOKEDOPE2016 PEAK TOUR HOODIE",
+    category: "Hoodies",
+    price: "$39.08",
+    image: "https://media.usfans.com/2026/06/05/094602/e06e43e0-3ca8-4f42-b494-123bd5063454.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1050652068209",
+    linkUsfans: "https://usfans.com/product/2/v9-advoVLVLzfMibS4pwXq6-MsAP7m0ONpbbQXBZZmNfU1zmLZrTaiY?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SMOKEDOPE2016 PEAK TOUR TEE",
+    category: "Tshirts",
+    price: "$21.02",
+    image: "https://media.usfans.com/2026/05/27/152723/d0952047-5b87-4596-ae26-9ddf60a52936.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1048047823925",
+    linkUsfans: "https://usfans.com/product/2/PG5UQazlyvAdWJxD7fQxLhHzYFAFa4ZsCTvHC1hQ7OLu-DTbtybtCjw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NOKIA ANGEL TEE",
+    category: "Tshirts",
+    price: "$21.02",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01UtOlQq1gquEyTY7HE_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1050614550782",
+    linkUsfans: "https://usfans.com/product/2/t4MubgORlJhuS3AFziM_6x5VgfRRAxsSoQzUsbd4N4FWKSxSBDEO18c?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ETNA VERA VELA TEE",
+    category: "Tshirts",
+    price: "$21.02",
+    image: "https://media.usfans.com/PDA/03a5255b-fab8-4d1e-bb48-707071b53612.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1000338243490",
+    linkUsfans: "https://usfans.com/product/2/TYpxSYjaf_oaDjlljOlMhhG4L4V_gLFO7o65kwnE8FRANI8xnka4PaY?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BRITISH TEEN TEE",
+    category: "Tshirts",
+    price: "$21.02",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01hz0Woi1gquD5h2q0w_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1002858668341",
+    linkUsfans: "https://usfans.com/product/2/k_W8FuX6TUW4eiDp3QAcC-bQGyE9cwxXGPRwDzLDx9EyxMWR_idV_eU?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DG TRIAL SENTENCE TEE",
+    category: "Tshirts",
+    price: "$21.02",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN015MFlvb1gqu9cQE00e_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D919623011875",
+    linkUsfans: "https://usfans.com/product/2/Rd4tyTbC_ni654uk2GynJVge8cMJ4Z5Jzy_ybY58sau1l2IHyQiv0g?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DG MARTYR TOUR HAT",
+    category: "Belts",
+    price: "$27.59",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01NAyqSP1gquDD3wI7L_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1004581085729",
+    linkUsfans: "https://usfans.com/product/2/J1ddZ9k3kGdlNvXnZHyD8i9QrS-jL8uw269wqXBM55fpn6B992PjFyE?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DG EVERSINCE HOODIE",
+    category: "Hoodies",
+    price: "$42.37",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN016fKbku1gquCPhyXRf_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D989374205237",
+    linkUsfans: "https://usfans.com/product/2/bx4RuTN9v_PnnU42gKTQjqf2la06yg3HnhhXLrAtORVndP-4qnsgJQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DG RED LIGHT HOODIE",
+    category: "Hoodies",
+    price: "$39.08",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN013D4G2D1gquA8SyMXM_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D848413782171",
+    linkUsfans: "https://usfans.com/product/2/ogJUwYLr8avMA2KcPXH5Vl1NGxGV80BK_Q-1x9dU5VQe_yoDs5lZOQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "YUNG LEAN UD TEE",
+    category: "Tshirts",
+    price: "$21.02",
+    image: "https://media.usfans.com/PDA/457dfc76-a123-4780-9019-d332c870dd0c.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D868775547400",
+    linkUsfans: "https://usfans.com/product/2/qB47UffB3eQ34XndI2N0vKMR5jZve0W4khNGVf5XJu1IfFdgJCFL2A?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
