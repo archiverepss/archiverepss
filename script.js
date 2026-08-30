@@ -8192,6 +8192,206 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "BLADEE VIRUS TEE",
+    category: "Tshirts",
+    price: "$19.38",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN01GiHZSc1gqu7SkTbJc_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D862949006239",
+    linkUsfans: "https://usfans.com/product/2/QWdWcd-O0sdhTpH3gH20vP6GkPo9VTl_2S2sIxKG4r6bQMHFpAvQeA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DG SWEDEN & POLAND TEE",
+    category: "Tshirts",
+    price: "$21.02",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01FDJ11M1gqu7RuvEIh_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D862549217332",
+    linkUsfans: "https://usfans.com/product/2/RxcohHcObsXsgGpW1xSzJVjFhAhO7aONz9eluHGlP4kLHyj91tVvoA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DG RED LIGHT TEE",
+    category: "Tshirts",
+    price: "$21.02",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01akKiLH1gqu8oJma1I_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D841249526824",
+    linkUsfans: "https://usfans.com/product/2/RjR_1mgc1xxRDpCECvyGuV8LC3Rdn1gJ1wabLwqwcLKX2AHotbfcFA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "YUNG LEAN TEE #2",
+    category: "Tshirts",
+    price: "$19.38",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN01iNWhUU1gqu94qyxnE_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D904894227280",
+    linkUsfans: "https://usfans.com/product/2/-CcD4JHeBMUawkKuNdWwFABBP2BXlPvrL5tvjok4XEWQ5sqgm-I7-A?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DG EVERSINCE POLO",
+    category: "Tshirts",
+    price: "$26",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01mjdsHm1gquC1rpmN8_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D981907392756",
+    linkUsfans: "https://usfans.com/product/2/8t2GXWH58Wyu9F0riGXs2-BWiPyKRDQqatcolrPVjkgee7d-24bT8A?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DG TRASH ISLAND TEE",
+    category: "Tshirts",
+    price: "$21.02",
+    image: "https://media.usfans.com/2026/06/29/161147/aa26a30c-e768-4249-82af-6baa27da7841.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D998385156444",
+    linkUsfans: "https://usfans.com/product/2/wXzoECtREFq1op7ZLu4d3-CmqfDUSwgw8jYDKGIaGHl4SDsG6LkqUQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DG SAINT MICHAEL TEE",
+    category: "Tshirts",
+    price: "$19.38",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01g1LtnS1gqu93nNWBl_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D909311332419",
+    linkUsfans: "https://usfans.com/product/2/nrgNSfAUw69AM9tj91tI-y_ULnKm_M89LqUJKV_ZGRpmKbAlyrdqMA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DRAIN TEE",
+    category: "Tshirts",
+    price: "$21.02",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01BDVBuH1gqu8W3bxvV_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D892219403341",
+    linkUsfans: "https://usfans.com/product/2/Q4IFSxaHg4peYD3RcRdq41KnutW4srsNW20Feibrz6bncDyto1MJNQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "COLD VISIONS LONGSLEEVE",
+    category: "Tshirts",
+    price: "$29.56",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN01criLCG1gqu6zK8vei_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D854770514865",
+    linkUsfans: "https://usfans.com/product/2/WVXIxaUcDREtDDJEqa_AuJeuW0adj-ur9olQcW0ZwU_wcAYXW9IxQQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DG STARDUST TOUR TEE",
+    category: "Tshirts",
+    price: "$19.38",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN019J1wex1gqu708Y2ji_!!2215791284194.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D856215166815",
+    linkUsfans: "https://usfans.com/product/2/upOqZgtxr7km5HmQ2si991eQXIh4ZPV5QF7s2UWK_kT5Vk9Et5QMzg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CDG TEE",
+    category: "Tshirts",
+    price: "$14.62",
+    image: "https://media.usfans.com/2026/08/30/194739/0bb90a76-cd6d-46d4-80aa-7077549db88e.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D884935784366",
+    linkUsfans: "https://usfans.com/product/2/dLvEupBaR0C4Yf0hishSvRDgp1fZ34LPf44MIdEyJjYKAjFbAka-wA?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "HBA APHEX TWIN TEE",
+    category: "Tshirts",
+    price: "$24.31",
+    image: "https://img.alicdn.com/bao/uploaded/i2/82460901/O1CN011Vrum51IWhyqvQZ9I~crop,0,295,1773,1773~_!!82460901.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1027031180710",
+    linkUsfans: "https://usfans.com/product/2/2C_NxozCERVcA07dL2RdXsvIaWECYIFcD2k_uM1jULIhT-F28rR1WhY?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NUMBASIA TEE",
+    category: "Tshirts",
+    price: "$22.66",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2221940821665/O1CN01JUR5iz1OAcaEEcCUM_!!2221940821665.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1041970641417",
+    linkUsfans: "https://usfans.com/product/2/WNigd94UA-eP7CURIz7_DCoVKp_A1lpGYATPZPx6Sk9hyR5B8X9QU8w?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "LUCKYWORLD TEE",
+    category: "Tshirts",
+    price: "$26.11",
+    image: "https://media.usfans.com/2026/08/14/140045/3512dc94-6ba7-4b1e-be1f-a3f496af1c4f.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D920493794025",
+    linkUsfans: "https://usfans.com/product/2/JfwMKMjY1evcGD2KrlXVLoDlor9gafwSoSzL8rCdYIm-gzpImCpZtg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "HUMAN REGISTER CODE TEE",
+    category: "Tshirts",
+    price: "$26.11",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2927174202/O1CN013U7zUK1guZ6ZaF2e7_!!2927174202.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D713198791453",
+    linkUsfans: "https://usfans.com/product/2/DfFlHLLM8EvsadlAp-bDiBfJfRnG0QitV7ZP44okzTCQJxN3javK9A?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CELINE WITCH TEE",
+    category: "Tshirts",
+    price: "$26.11",
+    image: "https://si.geilicdn.com/wdseller1623957871-13d90000019f03da5beb0a230449_1320_1737.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7798817828",
+    linkUsfans: "https://usfans.com/product/3/7798817828?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "EXTINCT HBA TEE",
+    category: "Tshirts",
+    price: "$24.31",
+    image: "https://img.alicdn.com/bao/uploaded/i1/82460901/O1CN01jXWzua1IWhz2qatgK_!!82460901.heic",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D922594097252",
+    linkUsfans: "https://usfans.com/product/2/YA7FIc9WAQTs36zrDAIOWFg4ZmnKvAf8jJmDE1UXmDYJgZeWF31jeg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "TYPOGRAPHY TEE",
+    category: "Tshirts",
+    price: "$13.11",
+    image: "https://media.usfans.com/2026/08/19/214107/4096fd7a-e538-49bd-9ee8-41e0de0e2da2.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1009176473934",
+    linkUsfans: "https://usfans.com/product/2/Vnu_p_aH8nne5qIubtocMy8AWOz-dnjzxPEK7aMaK9G6WWbw16LQZSI?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SKINS TEE",
+    category: "Tshirts",
+    price: "$22.83",
+    image: "https://media.usfans.com/2026/05/16/111632/846a4f72-6491-4c7f-bc42-803fa77b8c5b.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D963063638156",
+    linkUsfans: "https://usfans.com/product/2/y6wO1JE3bqbnJ-kgg4hyN_y7M9JIPhkaxFOsgGPewGk2zgQb8OxNcQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "AD RED LIGHT TEE",
+    category: "Tshirts",
+    price: "$22.83",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2215792313733/O1CN01KwtmgU1dRldBKnilW_!!2215792313733.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1018770789731",
+    linkUsfans: "https://usfans.com/product/2/o-KdKkyQvufhBAxu4vgTy1V8_UpnUL11HSND7lI9iMaziNhqdTXRFfk?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
