@@ -8392,6 +8392,76 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "DETW TEE",
+    category: "Tshirts",
+    price: "$31.04",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3791109895/O1CN014CBy9y2MxyCH5aASx~crop,0,240,1440,1440~_!!3791109895.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1029410028043",
+    linkUsfans: "https://usfans.com/product/2/9vcI0fthX3Km8p7cyJ7tdZrVnevlMYvJHO_ZjzT7HWBPX-otcmNh3do?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "INFRIGEMENTS HBA Tee",
+    category: "Tshirts",
+    price: "$22.83",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2975255440/O1CN01EICYnP1q3ZeO7DgRE_!!2975255440.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D919390897474",
+    linkUsfans: "https://usfans.com/product/2/fjCB0u2irG86uhBjSpWmtTUnmuYLw9IYOwG7yj-dx2YgnsIr1VWd7A?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "[BUDGET] VETEMENTS TSHIRTS",
+    category: "Tshirts",
+    price: "$10.86",
+    image: "https://media.usfans.com/2026/08/25/113705/ab0ee15d-ea7f-4ac6-8292-ed43bab5020c.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F889722162353.html",
+    linkUsfans: "https://usfans.com/product/1/889722162353?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA NICOLE TEE",
+    category: "Tshirts",
+    price: "$36.16",
+    image: "https://media.usfans.com/PDA/bd02dd32-b24b-4209-8d0b-92521f94add2.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7632270788",
+    linkUsfans: "https://usfans.com/product/3/7632270788?ref=TX9V9N",
+    tag: "LIGMA / BEST",
+    rating: 5
+  },
+  {
+    name: "SOLOIST TEE",
+    category: "Tshirts",
+    price: "$9.86",
+    image: "https://media.usfans.com/2026/05/06/164834/10d6924b-4b46-45b7-a092-aaa281903537.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D806232780363",
+    linkUsfans: "https://usfans.com/product/2/MXA74FNok5B-YRjhcY0E5nAj7bWvaPiiqmxgrV-9BOdNesdvjzEQeQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "VETEMENTS 11 GUN CLUB TEE",
+    category: "Tshirts",
+    price: "$30.87",
+    image: "https://img.alicdn.com/bao/uploaded/i3/3822597683/O1CN01SJmprs26cs2ignA8u_!!3822597683.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D946337003435",
+    linkUsfans: "https://usfans.com/product/2/0YSpUc4I0_3FAQqs1pYta0wCDRZvUk2uSONGgrTUQ5EhMvU5vMZk8A?ref=TX9V9N",
+    tag: "KJMADE / BEST",
+    rating: 5
+  },
+  {
+    name: "DEFTONES LONGSLEEVE",
+    category: "Tshirts",
+    price: "$9.69",
+    image: "https://img.alicdn.com/bao/uploaded/i2/179126450/O1CN017QKffS1xW9ix9wkKt_!!179126450.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D703670391171",
+    linkUsfans: "https://usfans.com/product/2/Xm2gXCBI4GuOfb4s2Yi37e5tYVwWicMP5jHeFHNXc6gWOEyRDAPvqA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
