@@ -8782,7 +8782,106 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
-  // ... TUTAJ WPISUJESZ SWOJE PRODUKTY ...
+  {
+    name: "RICK OWENS SWEATS",
+    category: "Pants",
+    price: "$22.84",
+    image: "https://img.alicdn.com/bao/uploaded/i3/672277232/O1CN01Acc2Bz23IJIfjw2Ku_!!672277232.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D559495506460",
+    linkUsfans: "https://usfans.com/product/2/U1RbWuavizWRR-W563vyS23uBb-8WHW8lY0jvlwMaAe5ypMO3O3NqQ?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "FYREWRLD PLAID SHORTS",
+    category: "Shorts",
+    price: "$32.86",
+    image: "https://media.usfans.com/2026/08/07/115957/f13da22b-f4f7-43af-9869-e40c49372722.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1072105696140",
+    linkUsfans: "https://usfans.com/product/2/OZccFJ7FTZzbxRvXJftiwrWdwoRTNWA58v1opEoa90lF0A4Bc6tlIc0?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA X NBA SHORTS",
+    category: "Shorts",
+    price: "$25.96",
+    image: "https://si.geilicdn.com/wdseller902062624543-0b010000019f03befeeb0a231316_1290_1134.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7783050034",
+    linkUsfans: "https://usfans.com/product/3/7783050034?ref=TX9V9N",
+    tag: "718",
+    rating: 5
+  },
+  {
+    name: "JOSHUA JAMAL SHORTS",
+    category: "Shorts",
+    price: "$29.41",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2210283781838/O1CN01uw7ykF1PRr6EDdNlF_!!2210283781838.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1037930369961",
+    linkUsfans: "https://usfans.com/product/2/5PL2oTIz5vFJwnAEhcmLs1-8chxRhyhXGkp4uKw9L7ZTYmPrGK6WVyc?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "LULULEMON SOCKS",
+    category: "Underwear",
+    price: "$1.56",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01Y08mHo2BXtqzxXUVj_!!2215386608349-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F990840917396.html",
+    linkUsfans: "https://usfans.com/product/1/990840917396?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CARHARTT SOCKS",
+    category: "Underwear",
+    price: "$1.48",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN0116fNE51RHRGcjHxNW_!!2220176752086-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F953212468946.html",
+    linkUsfans: "https://usfans.com/product/1/953212468946?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ACNE STUDIOS SOCKS",
+    category: "Underwear",
+    price: "$2.79",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01axjPQ81RHRHfGdWyO_!!2220176752086-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F977560773006.html",
+    linkUsfans: "https://usfans.com/product/1/977560773006?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "GALLERY DEPT SOCKS",
+    category: "Underwear",
+    price: "$2.96",
+    image: "https://si.geilicdn.com/pcitem1234071531-3a790000018775fab8fe0a22b3e4_1280_1280.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7589277587",
+    linkUsfans: "https://usfans.com/product/3/7589277587?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA SOCKS",
+    category: "Underwear",
+    price: "$4.92",
+    image: "https://si.geilicdn.com/open1847561709-1234478995-584100000196397f19440a231226_1276_1276.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7447271651",
+    linkUsfans: "https://usfans.com/product/3/7447271651?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SUPREME TOWEL SOCKS",
+    category: "Underwear",
+    price: "$1.79",
+    image: "https://media.usfans.com/2026/08/15/152207/589254c4-ae1b-4b23-815c-2681933a7848.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F966066140740.html",
+    linkUsfans: "https://usfans.com/product/1/966066140740?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
