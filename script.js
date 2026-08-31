@@ -8562,6 +8562,226 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "CHAI STRIPED POLO",
+    category: "Tshirts",
+    price: "$52.42",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3320370237/O1CN01jUgXIH1DcaqOUOa6Z_!!3320370237.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D821335305418",
+    linkUsfans: "https://usfans.com/product/2/rHapqGUhHd8UEa2csxQZPdM2qQfdpw5Pcxd_YkPBwAUFOquvcENvUA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "JADED POLO",
+    category: "Tshirts",
+    price: "$24.49",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2200548663844/O1CN01KrtpHp1eGba7xcWzK_!!2200548663844.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D993927534961",
+    linkUsfans: "https://usfans.com/product/2/VBzKAS5Kvz77H4qp3WoGdoPwokrahNGrcBIvpyNhu3w7VAZCYe9zgg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "JADED POLO",
+    category: "Tshirts",
+    price: "$25.96",
+    image: "https://si.geilicdn.com/wdseller1405292126-05d800000195c4a1da570a239646_1290_1690.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7783186981",
+    linkUsfans: "https://usfans.com/product/3/7783186981?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DRAGON POLO",
+    category: "Tshirts",
+    price: "$17.26",
+    image: "https://media.usfans.com/2026/07/25/151152/4c8f637d-f5bb-4fec-9c1a-cf249217baf0.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1053378923246",
+    linkUsfans: "https://usfans.com/product/2/mrG7gLHAxYd8OWvfUsJyxJtxFwxOvTUc1uxuQfBKWVqXH25FDOFQa3M?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA LOOP POLO",
+    category: "Tshirts",
+    price: "$22.84",
+    image: "https://media.usfans.com/2026/07/16/135340/e5e7df52-c981-4cd5-9039-e2bd86ee6346.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7697319588",
+    linkUsfans: "https://usfans.com/product/3/7697319588?ref=TX9V9N",
+    tag: "SATANMADE",
+    rating: 5
+  },
+  {
+    name: "ANOVAIR HELNEY",
+    category: "Tshirts",
+    price: "$34.51",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2221000788969/O1CN01mowouA2G7rSNa4viT_!!2221000788969.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1055245992185",
+    linkUsfans: "https://usfans.com/product/2/7PkQnHQkXKAdKVyMMMNM7Hp5hGN3kb-5ZhkB4qHx0QN_9Hv7u2MGNbY?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "545 HENLEY",
+    category: "Tshirts",
+    price: "$32.04",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2221000788969/O1CN01obqe1Y2G7rSNXLzJF_!!2221000788969.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1055252256020",
+    linkUsfans: "https://usfans.com/product/2/Qcser0Z9-o9LKqYP6GnI5MYFvRxxh8Pwy-tNDx46SfRfiFLsMPgfmDw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SLP FLANNEL",
+    category: "Tshirts",
+    price: "$28.43",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2214183518581/O1CN01uNQjKs2DG9joYmKyx_!!2214183518581.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D985364355778",
+    linkUsfans: "https://usfans.com/product/2/DK2kPHcuwg7XbSCpjvFU7lmHM4PbfgiHObVQeKhf15I5b2LjY3jG7g?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CHROME HEARTS FLANNEL",
+    category: "Tshirts",
+    price: "$32.70",
+    image: "https://media.usfans.com/2026/05/28/144113/c2ee3166-cc62-4a27-989a-d3b12b59688e.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F979422621108.html",
+    linkUsfans: "https://usfans.com/product/1/979422621108?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "SAINT ALEXANDER KNIT",
+    category: "Hoodies",
+    price: "$29.58",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/28/634a5b7f1b11b249f69b49f6b9490b99.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1010131652510",
+    linkUsfans: "https://usfans.com/product/2/0qIaAsHQOSjgJr_Z17hME1DGYyY9RmClO7WOfusbJSznU5pTf7_ZjbA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NOFAITH JEANS BLACK",
+    category: "Pants",
+    price: "$36.48",
+    image: "https://media.usfans.com/2026/08/23/110537/65a9bc0a-0fa4-4903-8d5d-e3976dfe91cd.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D848401729469",
+    linkUsfans: "https://usfans.com/product/2/WXrDCxnJPuOa8IytUCHVVPsA45E1bCeAWT-PkotmOILRBrQlgyI1ww?ref=TX9V9N",
+    tag: "BADMOODCLUB",
+    rating: 5
+  },
+  {
+    name: "EVISU JEANS [BUDGET]",
+    category: "Pants",
+    price: "$20.71",
+    image: "https://media.usfans.com/2026/08/17/203751/cc2e3021-23a2-4a7e-b2a9-aecafa80c60a.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D719193134814",
+    linkUsfans: "https://usfans.com/product/2/5TgsZbybhwxEv6uyWEeuHaO3x6OC_Fpm39BZjUF_aZZWe2LQHH6hVw?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "JUNO RINSE JEANS",
+    category: "Pants",
+    price: "$49.29",
+    image: "https://media.usfans.com/2026/08/23/144151/b02bd6a7-250c-4c8c-b119-6f330424ba23.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1041917371194",
+    linkUsfans: "https://usfans.com/product/2/gcP-gFnt3n9PbTvmXapXbZ_9l7NW9Trfx3ekAgR30v7EoGWVyXtGiaE?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ACNE 3D JEANS",
+    category: "Pants",
+    price: "$37.43",
+    image: "https://media.usfans.com/2026/07/04/173916/bf8eabc0-fcf7-415c-a969-2ea71ed186d4.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7381247260",
+    linkUsfans: "https://usfans.com/product/3/7381247260?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "COLDASIA JEANS",
+    category: "Pants",
+    price: "$57.18",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/18/4326212bc49ef820b5968dc18f82d096.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1008937084952",
+    linkUsfans: "https://usfans.com/product/2/E7eEdrRlFm5huHiv9IhEbENszqfV9dayakdFxIjRUqb2IQleCyvc_2o?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NO E MOSEN CAMO PANTS",
+    category: "Pants",
+    price: "$53.90",
+    image: "https://media.usfans.com/PDA/650abf8f-80f2-4d48-bbe4-0faa0dce758e.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D765728979961",
+    linkUsfans: "https://usfans.com/product/2/PbvfSr1_EpOsXvuUdEoFCu6B_G_k2EL8bAfq3Ab3mWgQX6B4q7Webg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "JADED LDN FLAG JEANS",
+    category: "Pants",
+    price: "$35.82",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2713525982/O1CN011xjEoT1u3o8IkWJIY_!!2713525982.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D732986821302",
+    linkUsfans: "https://usfans.com/product/2/aKAsGNJotL38ETKY6qAigGwBIOOWE8FAMsbRaxQW4K9repK0HKE7aA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "VETEMENTS EMBRO JEANS",
+    category: "Pants",
+    price: "$65.40",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/07/fc3fd55524d97e8ad228eac5229d3faa.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D809980001702",
+    linkUsfans: "https://usfans.com/product/2/CfniQqBHHrjgXqXPqqs9Q3AOzthHJySXfT1h61dLOt4SDhTm1erAgQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA PLAID JEANS",
+    category: "Pants",
+    price: "$34.18",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/27/7448a2522c51c832d0862dc647544543.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7783255839",
+    linkUsfans: "https://usfans.com/product/3/7783255839?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MOWALOLA CUFFED SWEATS",
+    category: "Pants",
+    price: "$28.43",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/23/6e4e97e5aa29d98fe9f6c39fe1bc83ab.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D970955320865",
+    linkUsfans: "https://usfans.com/product/2/JsrfiOP8BPvND90b-81ZWUZPzSRD3E2N7dQX5LdIBrLFvbauwM2NpA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "VETEMENTS HI-SPEED SWEATS",
+    category: "Pants",
+    price: "$57.35",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2201254611318/O1CN01eToFQR1LbgtVLMpPB_!!2201254611318.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D739795518212",
+    linkUsfans: "https://usfans.com/product/2/0bpI09NUEOiW8fHfilm38fBfq8bsy2USd7KMMDRvPTiWmO5QUplusA?ref=TX9V9N",
+    tag: "BADMOODCLUB",
+    rating: 5
+  },
+  {
+    name: "ARTIEMASTER 350GSM SWEATS",
+    category: "Pants",
+    price: "$10.36",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/31/c75b5e36eb8b892e903b8866a03f6a8e.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F727120435119.html",
+    linkUsfans: "https://usfans.com/product/1/727120435119?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
