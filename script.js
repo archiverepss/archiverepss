@@ -8462,6 +8462,106 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "NO E MOSEN LEATHER JACKET",
+    category: "Jackets",
+    price: "$62.11",
+    image: "https://media.usfans.com/2026/08/19/180608/62df4a02-f493-4e87-9df6-8b085ca0047a.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D817350360191",
+    linkUsfans: "https://usfans.com/product/2/_NcOfkjLCYCllZxqZp_0d4CmOJJDzmf0URtEBFJwj3VuX9mqKIkzlA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DETW WOOL JACKET",
+    category: "Jackets",
+    price: "$72.13",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3791109895/O1CN01xkrsna2MxyAegcuxk_!!3791109895.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D989882809705",
+    linkUsfans: "https://usfans.com/product/2/Huyu7UJtV7pJhqND72BeQ16lWFTwFqDXhquT3iI3BTwN9om6bWqiEg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SUPREME DENIM JACKET BLUE",
+    category: "Jackets",
+    price: "$85.44",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/29/396d5027245a56707c45114b41d67b22.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D998054961449",
+    linkUsfans: "https://usfans.com/product/2/oRIGtU22TZDs6Wzb9ZFlZUoxkbCeSG7Iif_W5M9yLIjQD8863rf2kw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SUPREME DENIM JACKET RED",
+    category: "Jackets",
+    price: "$80.51",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/12/2643bbd7daf88d9bfaa8cd2e3fa1cf93.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1005005884227",
+    linkUsfans: "https://usfans.com/product/2/vNJKavytavXlBV2p4mP_QxZdyJX6begiFR-Opw0_DJ0n8mQIiAXbfM4?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MONTBELL JACKET",
+    category: "Jackets",
+    price: "$72.30",
+    image: "https://media.usfans.com/2026/08/27/193829/29249792-f57f-4a23-9abe-1117b7e3ccb5.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1038430245047",
+    linkUsfans: "https://usfans.com/product/2/FtsEztb6-n-OIwKx_4WGGZwbPZsaOq2v1oFP4CNCutzEjf423WJjE30?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SUPREME X TNF WINDBREAKER",
+    category: "Jackets",
+    price: "$22.19",
+    image: "https://media.usfans.com/2026/08/29/135238/4f5af283-cafa-4bdc-b01f-4946d616bb64.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F824243867207.html",
+    linkUsfans: "https://usfans.com/product/1/824243867207?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "SUPREME X TNF JACKET",
+    category: "Jackets",
+    price: "$45.68",
+    image: "https://media.usfans.com/2026/08/13/135837/1145734d-8015-4108-ba7c-deb9a096bbe7.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D862527874499",
+    linkUsfans: "https://usfans.com/product/2/bM1zBq4R_ptUMXE7u8fxW5NlBdQmRXeaniosSkpHfDHPOnueUHjaQw?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "VAKA FUR PUFFER",
+    category: "Jackets",
+    price: "$80.35",
+    image: "https://kako-alosshk-pic.lucklybuy.com/whg/202601/8/8673b31b51a8f899a89255e71b619cfa.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D851374411476",
+    linkUsfans: "https://usfans.com/product/2/bSkl8Sfn60JCJ3XCVfKE693QszBItVa0Cy640mSth9l0q3NeF1_MnQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "UEKK FUR PUFFER",
+    category: "Jackets",
+    price: "$48.97",
+    image: "https://img.alicdn.com/bao/uploaded/i3/3329641338/O1CN01iZxdB71LkqxFqcLY5_!!3329641338.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D861627595826",
+    linkUsfans: "https://usfans.com/product/2/siwifIdvLc1sUSPSGaxechpN9C2QnL3B8iZrCFUrZJ2NnGpKUeCRgA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SUPREME DENIM FUR JACKET",
+    category: "Jackets",
+    price: "$106.80",
+    image: "https://kako-alosshk-pic.lucklybuy.com/whg/202603/20/5bf6d41dec83a0ca4a290d9ac34bf4e2.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D961767279417",
+    linkUsfans: "https://usfans.com/product/2/mpEEuPuiKmZStQw_lQZJXuITaXw1NnW8xVE8gFRgBY6zfkW2zxZ6GA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
