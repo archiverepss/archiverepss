@@ -172,31 +172,35 @@
     </div>
 
     <!-- ====== WIDOK QC SEARCH ====== -->
-<div id="qcSearchView" style="display: none;">
-  <section class="qc-search-section">
-    <div class="qc-search-container">
-      
-      <div class="qc-search-box">
-        <input type="text" id="qcSearchInput" placeholder="Wklej link produktu z USFans, Kakobuy, Weidian lub Taobao..." />
-        <button onclick="searchQC()">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
-            <circle cx="12" cy="13" r="4"/>
-          </svg>
-          Sprawdź QC
-        </button>
-      </div>
-      
-      <div id="qcSearchResult" style="display: none;">
-        <div id="qcSearchLoading" class="qc-loading">
-          <div class="qc-spinner"></div>
-          <span>Szukam zdjęć QC...</span>
+    <div id="qcSearchView" style="display: none;">
+      <section class="qc-search-section">
+        <div class="qc-search-container">
+          <div class="qc-search-box">
+            <div class="qc-search-input-wrapper">
+              <svg class="qc-search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+              </svg>
+              <input type="text" id="qcSearchInput" placeholder="Szukaj produktów po nazwie lub wklej link..." onkeydown="if(event.key==='Enter') searchQC()" />
+            </div>
+            <button class="qc-search-btn" onclick="searchQC()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                <circle cx="12" cy="13" r="4"/>
+              </svg>
+              Szukaj
+            </button>
+          </div>
+          <div id="qcSearchResult" style="display: none;">
+            <div id="qcSearchLoading" class="qc-loading">
+              <div class="qc-spinner"></div>
+              <span>Szukam zdjęć QC...</span>
+            </div>
+            <div id="qcSearchGallery" class="qc-search-gallery"></div>
+          </div>
+          <div class="qc-search-hint">💡 Wpisz nazwę produktu lub wklej link z USFans / Kakobuy</div>
         </div>
-        <div id="qcSearchGallery" class="qc-search-gallery"></div>
-      </div>
+      </section>
     </div>
-  </section>
-</div>
     
     <!-- ====== WIDOK PROMO FINDS ====== -->
     <div id="promoView" style="display: none;">
@@ -305,7 +309,7 @@
   <!-- ====== PRZYCISK SCROLL TO TOP ====== -->
   <button class="scroll-to-top" id="scrollToTopBtn">↑</button>
 
-  <!-- ====== LIGHTBOX (zwykły) ====== -->
+  <!-- ====== LIGHTBOX ZWYKŁY ====== -->
   <div class="lightbox-overlay" id="lightboxOverlay">
     <div class="lightbox-content">
       <button class="lightbox-close" id="lightboxClose">
@@ -318,7 +322,7 @@
     </div>
   </div>
 
-  <!-- ====== LIGHTBOX QC ZE STRZAŁKAMI ====== -->
+  <!-- ====== LIGHTBOX QC Z KONTROLKAMI ====== -->
   <div class="lightbox-overlay" id="qcLightboxOverlay">
     <div class="lightbox-content">
       <button class="lightbox-close" id="qcLightboxClose">
@@ -327,10 +331,49 @@
           <line x1="6" y1="6" x2="18" y2="18"></line>
         </svg>
       </button>
-      <button class="lightbox-arrow lightbox-prev" id="qcLightboxPrev">‹</button>
-      <img id="qcLightboxImg" src="" alt="QC">
-      <button class="lightbox-arrow lightbox-next" id="qcLightboxNext">›</button>
-      <span class="lightbox-counter" id="qcLightboxCounter">1 / 1</span>
+      
+      <div class="qc-lightbox-image-wrapper" id="qcLightboxWrapper">
+        <img id="qcLightboxImg" src="" alt="QC">
+      </div>
+      
+      <div class="qc-lightbox-controls">
+        <button class="qc-lightbox-btn" id="qcZoomIn" title="Przybliż">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/>
+          </svg>
+        </button>
+        <button class="qc-lightbox-btn" id="qcZoomOut" title="Oddal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M8 11h6"/>
+          </svg>
+        </button>
+        <button class="qc-lightbox-btn" id="qcRotate" title="Obróć">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9a9 9 0 0 1-9-9m9 9c1.66 0 3-4.03 3-9s-1.34-9-3-9m0 18c-1.66 0-3-4.03-3-9s1.34-9 3-9"/>
+          </svg>
+        </button>
+        <button class="qc-lightbox-btn" id="qcFullscreen" title="Pełny ekran">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+          </svg>
+        </button>
+        <button class="qc-lightbox-btn" id="qcResetView" title="Resetuj widok">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/>
+          </svg>
+        </button>
+        <span class="qc-lightbox-counter" id="qcLightboxCounter">1 / 1</span>
+        <button class="qc-lightbox-btn" id="qcPrevImage" title="Poprzednie zdjęcie">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"/>
+          </svg>
+        </button>
+        <button class="qc-lightbox-btn" id="qcNextImage" title="Następne zdjęcie">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </button>
+      </div>
     </div>
   </div>
 
@@ -392,7 +435,6 @@
         </div>
       </div>
       
-      <!-- STARA SIATKA ZDJĘĆ (kliknięcie w zdjęcie otwiera lightbox) -->
       <div class="qc-loading" id="qcLoading" style="display:flex;">
         <div class="qc-spinner"></div>
         <span>Ładowanie zdjęć QC...</span>
