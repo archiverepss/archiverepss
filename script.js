@@ -8894,7 +8894,7 @@ const products = [
   },
   {
     name: "BALENCIAGA PARIS CUP",
-    category: "roomDecor",
+    category: "RoomDecor",
     price: "$9",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/28/464dbddd00ed01c01b3acfe45b210785.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F901648491210.html",
