@@ -8882,13 +8882,14 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+
 ];
 
 // ============================================
 // 🏷️ BAZA DANYCH PROMOCJI
 // ============================================
 const promotions = [
-   {
+  {
     name: "CORTEIZ",
     price: "CHEAP",
     pricePLN: "CHEAP zł",
@@ -8959,15 +8960,16 @@ const promotions = [
     link: "https://usfans.com/product/3/7654491297?ref=TX9V9N",
     tag: "YOLO",
     category: "shoes"
-  },
-  // ... TWOJE PROMOCJE ...
+  },  
+
+  // ... reszta promocji ...
 ];
 
 // ============================================
 // 🏪 SPRZEDAWCY
 // ============================================
 const sellers = [
-    {
+     {
     name: "HotDog",
     category: "clothing",
     badge: "Najwyżej oceniany",
@@ -9300,7 +9302,7 @@ const sellers = [
     rating: 9.0,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
-  // ... TWOI SPRZEDAWCY ...
+  // ... reszta sprzedawców ...
 ];
 
 // ============================================
@@ -9422,6 +9424,8 @@ const translations = {
     jackets: "Kurtki",
     underwear: "Bielizna",
     belts: "Akcesoria",
+    roomDecor: "Dekoracje",
+    girls: "Girls",
     sorting: "Sortowanie",
     defaultSort: "Domyślne",
     priceAsc: "Cena: od najniższej",
@@ -9456,6 +9460,8 @@ const translations = {
     jackets: "Jackets",
     underwear: "Underwear",
     belts: "Belts",
+    roomDecor: "Room Decor",
+    girls: "Girls",
     sorting: "Sorting",
     defaultSort: "Default",
     priceAsc: "Price: Low to High",
@@ -9488,7 +9494,10 @@ const categoryMapping = [
   { techName: "Shorts", translationKey: "shorts" },
   { techName: "Pants", translationKey: "pants" },
   { techName: "Jackets", translationKey: "jackets" },
-  { techName: "Belts", translationKey: "belts" }
+  { techName: "Belts", translationKey: "belts" },
+  // NOWE KATEGORIE:
+  { techName: "RoomDecor", translationKey: "roomDecor" },
+  { techName: "Girls", translationKey: "girls" }
 ];
 
 // ============================================
@@ -9939,6 +9948,12 @@ function renderCategories() {
   categoryMapping.forEach(function(cat) {
     var btn = document.createElement("button");
     btn.className = "category-chip" + (currentCategory === cat.techName ? " active" : "");
+    
+    // DODAJEMY SPECJALNĄ KLASĘ DLA KATEGORII GIRLS
+    if (cat.techName === "Girls") {
+      btn.classList.add("category-girls");
+    }
+    
     btn.textContent = translations[currentLanguage][cat.translationKey] || cat.techName;
     btn.addEventListener("click", function() {
       currentCategory = cat.techName;
