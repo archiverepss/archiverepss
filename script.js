@@ -8882,7 +8882,26 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
-
+  {
+    name: "DETW TEE",
+    category: "Girls",
+    price: "$23.07",
+    image: "https://img.alicdn.com/bao/uploaded/i3/3791109895/O1CN01pMgLY22MxyCTVKtXB_!!3791109895.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1034061846140",
+    linkUsfans: "https://usfans.com/product/2/ydwUiMV4qZ1f47BFvNuaYY31ZH1aMtIL35H5xs1C9H1ZEm_yAqNMuUg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA PARIS CUP",
+    category: "RoomDecor",
+    price: "$9",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/28/464dbddd00ed01c01b3acfe45b210785.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F901648491210.html",
+    linkUsfans: "https://usfans.com/product/1/901648491210?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
