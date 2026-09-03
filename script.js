@@ -8902,6 +8902,86 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "STUSSY JACKET",
+    category: "Jackets",
+    price: "$41.48",
+    image: "https://media.usfans.com/2026/08/30/134848/e554a593-47f4-4974-83ef-8ed9ab3bf0ef.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6644923605",
+    linkUsfans: "https://usfans.com/product/3/6644923605?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CP COMPANY JACKET",
+    category: "Jackets",
+    price: "$99.54",
+    image: "https://media.usfans.com/2026/08/27/212736/8ffafc80-6b2e-4857-9aef-ecc2eacc33a2.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7719828849",
+    linkUsfans: "https://usfans.com/product/3/7719828849?ref=TX9V9N",
+    tag: "DRAGONREP",
+    rating: 5
+  },
+  {
+    name: "PALACE WHITE JACKET",
+    category: "Jackets",
+    price: "$63.05",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202609/03/47b08179415d08c9a5dba60788760322.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1037232174808",
+    linkUsfans: "https://usfans.com/product/2/uvu7tMs_d4evVPSON70a654xSG0tJ_KNDQ39YofeXj29RPxS1qF0Quo?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "GUCCI CHATEAU MARMONT SWEATER",
+    category: "Hoodies",
+    price: "$49.61",
+    image: "https://media.usfans.com/2026/08/31/141405/90987ca4-3e4f-43c9-b149-5fe654d84d26.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7821413291",
+    linkUsfans: "https://usfans.com/product/3/7821413291?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "NOFAITHSTUDIOS SWEATER",
+    category: "Hoodies",
+    price: "$44.63",
+    image: "https://kako-alosshk-pic.lucklybuy.com/whg/202512/4/5b95da03f01b2d56bc538078c51b6f1c.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984729772773",
+    linkUsfans: "https://usfans.com/product/2/Y3kHTGzpSNaemU8KzKTcZOX0S7A1mZRryN2YvZw3pr2p4WrUlnqFKA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "GIVENCHY SWEATER",
+    category: "Hoodies",
+    price: "$26.22",
+    image: "https://media.usfans.com/2026/09/03/111449/96d6c8b0-86f3-4fd8-8525-6e2da0cb8876.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D739760720141",
+    linkUsfans: "https://usfans.com/product/2/UL0F4H_xRle5FwHqQ66sbj_uZOdMNwwGwxi-Bg9ivAgaV-ZK6rFjCQ?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "ERD FACE SWEATER",
+    category: "Hoodies",
+    price: "$44.47",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/11/faac7f44c1df8a13f780f2294ee6a5ae.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D754726443757",
+    linkUsfans: "https://usfans.com/product/2/ZoHS1uTxgwsBqIeO2aheD-_0bAgqFv9cC3SJI_SqasYskUobDgJ07Q?ref=TX9V9N",
+    tag: "暗号made",
+    rating: 5
+  },
+  {
+    name: "OFFWHITE SLEEVE",
+    category: "Hoodies",
+    price: "$22.57",
+    image: "https://media.usfans.com/2026/08/25/161317/40778545-c292-431a-a925-f4b47dc739a2.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D813875485383",
+    linkUsfans: "https://usfans.com/product/2/kc5T4GGzw5WN6VtJr5nTBcVj1jgM-4rFhClrDeovF54EIfZ6Js2qJA?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
