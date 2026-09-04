@@ -9124,7 +9124,7 @@ const products = [
   },
   {
     name: "SUPREME SS26 BACKPACK",
-    category: "Accesories",
+    category: "Belts",
     price: "$51.33",
     image: "https://media.usfans.com/2026/08/31/105201/62a82fd4-600e-42f6-ba5f-0823587b0075.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1077271700366",
@@ -9134,7 +9134,7 @@ const products = [
   },
   {
     name: "SUPREME SS25 BACKPACK",
-    category: "Accesories",
+    category: "Belts",
     price: "$51.33",
     image: "https://media.usfans.com/2026/08/31/094009/75c6cb69-eb56-49dc-be5a-6146e3a1df0a.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D977775890145",
@@ -9144,7 +9144,7 @@ const products = [
   },
   {
     name: "[BUDGET] SUPREME BACKPACKS",
-    category: "Accesories",
+    category: "Belts",
     price: "$14.79",
     image: "https://media.usfans.com/2026/08/30/141310/84920786-5e16-4bfb-9d7f-d4161cc2db91.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D936162683683",
@@ -9154,7 +9154,7 @@ const products = [
   },
   {
     name: "ALYX BACKPACK",
-    category: "Accesories",
+    category: "Belts",
     price: "$32.89",
     image: "https://media.usfans.com/2026/09/02/173517/ed6a7520-3213-4a83-9b5d-ae3aaf6899d8.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F896645383136.html",
@@ -9164,7 +9164,7 @@ const products = [
   },
   {
     name: "NE-NET BACKPACK",
-    category: "Accesories",
+    category: "Belts",
     price: "$14.12",
     image: "https://media.usfans.com/2026/08/30/163601/78e90d9d-566c-4358-b955-9ce48e91dd8f.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D765744109854",
@@ -9174,7 +9174,7 @@ const products = [
   },
   {
     name: "ALYX BACKPACK #2",
-    category: "Accesories",
+    category: "Belts",
     price: "$30.43",
     image: "https://media.usfans.com/2026/09/03/171204/3405553c-5aaa-4b03-94a5-f0f608594b2d.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D666252752742",
