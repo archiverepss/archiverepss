@@ -9062,6 +9062,226 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "BAPE MOUSEPADS",
+    category: "RoomDecor",
+    price: "$2.78",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2200644958919/O1CN012Gea082FkxARJ5IkF_!!2200644958919.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D636239116793",
+    linkUsfans: "https://usfans.com/product/2/9rRdcJqjYrue_WfUvJMQgk_PknhgcYDmBofRsPW-k2zan_wfBdMMYw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CHROME HEARTS CRYSTAL DICE",
+    category: "RoomDecor",
+    price: "$10.80",
+    image: "https://media.usfans.com/2026/05/16/195438/c78b5d51-88e5-4eea-a57a-c64a022203d1.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F743890553486.html",
+    linkUsfans: "https://usfans.com/product/1/743890553486?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "TAKASHI MURAKAMI PILLOWS",
+    category: "RoomDecor",
+    price: "$10.30",
+    image: "https://media.usfans.com/2026/09/02/144126/b9574d0f-fd46-4f9c-99d8-2682916934da.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D565679177060",
+    linkUsfans: "https://usfans.com/product/2/cSzrulvDcKSx1mDNLl4G0KY9tvYen-e7n8-gQauTLCv6hDglgq3GRQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "FAZE X MURAKAMI MOUSEPAD",
+    category: "RoomDecor",
+    price: "$4.82",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/18/47537a58c9bc5caa062ed7ca295a2c91.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D680559937128",
+    linkUsfans: "https://usfans.com/product/2/5yiZJJJjDvqyTtPdxzwcYgIXdAh8bHA827YzQ2q5PIZYMmqY_O_9nQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ICE SPICE FLAG",
+    category: "RoomDecor",
+    price: "$4.30",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/12/6fb1449aefc12467a5cc55022be174fc.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D710557276827",
+    linkUsfans: "https://usfans.com/product/2/bwCROoO0wvOoXkdNjC429QQNoZ3e1cT94J3t0XWs-EAb2jjxh98glg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DESIGNER BOOKS",
+    category: "RoomDecor",
+    price: "$27.41",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/23/9f75ae51b198fd140f64712c6fcd81a1.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D642768295879",
+    linkUsfans: "https://usfans.com/product/2/nr0fQVvTv0v23Y0FaBWrwEFkAW7Z6AiXJ1RGZ4w3cien0FSE_vWD6A?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SUPREME SS26 BACKPACK",
+    category: "Accesories",
+    price: "$51.33",
+    image: "https://media.usfans.com/2026/08/31/105201/62a82fd4-600e-42f6-ba5f-0823587b0075.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1077271700366",
+    linkUsfans: "https://usfans.com/product/2/xwuq43prTwdoHu4Q0eLw4RCEMQOpOBQxYvrZIMhtD0u-GNzTj5oLqTY?ref=TX9V9N",
+    tag: "LUFU",
+    rating: 5
+  },
+  {
+    name: "SUPREME SS25 BACKPACK",
+    category: "Accesories",
+    price: "$51.33",
+    image: "https://media.usfans.com/2026/08/31/094009/75c6cb69-eb56-49dc-be5a-6146e3a1df0a.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D977775890145",
+    linkUsfans: "https://usfans.com/product/2/rC6qltHnWyQyuC0G-1PcOKUqyCENntf-hg4P0Ea4glOzmt5aSJGn5g?ref=TX9V9N",
+    tag: "LUFU",
+    rating: 5
+  },
+  {
+    name: "[BUDGET] SUPREME BACKPACKS",
+    category: "Accesories",
+    price: "$14.79",
+    image: "https://media.usfans.com/2026/08/30/141310/84920786-5e16-4bfb-9d7f-d4161cc2db91.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D936162683683",
+    linkUsfans: "https://usfans.com/product/2/FFtmbab3vTZ97QkONFoa8ZqqQxYVtJIyyVxvlSbmP33BSo5Enjwfhg?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "ALYX BACKPACK",
+    category: "Accesories",
+    price: "$32.89",
+    image: "https://media.usfans.com/2026/09/02/173517/ed6a7520-3213-4a83-9b5d-ae3aaf6899d8.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F896645383136.html",
+    linkUsfans: "https://usfans.com/product/1/896645383136?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NE-NET BACKPACK",
+    category: "Accesories",
+    price: "$14.12",
+    image: "https://media.usfans.com/2026/08/30/163601/78e90d9d-566c-4358-b955-9ce48e91dd8f.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D765744109854",
+    linkUsfans: "https://usfans.com/product/2/SgASfW4MKZ23TlgIqPgccppPoe85sg7BjgiDk_QPPo8KthmwZeV4oA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ALYX BACKPACK #2",
+    category: "Accesories",
+    price: "$30.43",
+    image: "https://media.usfans.com/2026/09/03/171204/3405553c-5aaa-4b03-94a5-f0f608594b2d.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D666252752742",
+    linkUsfans: "https://usfans.com/product/2/W1ix7do0JjwMXnmr4IqAKVywi52MH3TdYfT2GI9dD7BriEu_OKJziw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "PRAYING SET",
+    category: "Girls",
+    price: "$49.50",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/01/cca8a5de9bd5d73cb6d7d1645fe1fe9b.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1009308097810",
+    linkUsfans: "https://usfans.com/product/2/iKuCLEfRwy-i93yIzC_04XW3Uam48zvylm1mrGkwuRduyiA9BpyLud8?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DIA SHORTS",
+    category: "Girls",
+    price: "$31.40",
+    image: "https://media.usfans.com/2026/08/14/151600/102c1233-599d-4bdd-8252-59d8ef504016.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D937520717679",
+    linkUsfans: "https://usfans.com/product/2/_04F1iAVsvRTYysQ9oLtokPKLBGe3lRK9NEEw3vtAUhuUXXiNvZAow?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DETW SLEEVE",
+    category: "Girls",
+    price: "$28.08",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202607/21/25e33473129282685cef0978343b2376.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1033359955754",
+    linkUsfans: "https://usfans.com/product/2/odgoJSApHexIEATn0shuebFCpTC5vJTyhQLXHLmdV6ewTBqSEenJYio?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "JADED LONDON TOP",
+    category: "Girls",
+    price: "$16.28",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202605/18/c13a2aacd96909689d64bce8f8f6bd26.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D781662370509",
+    linkUsfans: "https://usfans.com/product/2/1dIQ8Se_njPSLoTRfCwvTgJs7h--px0E5atv0KI7h-aWoSPu6Aimcw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NY YANKES POLO",
+    category: "Girls",
+    price: "$19.27",
+    image: "https://media.usfans.com/2026/06/10/094500/03ec25c0-c858-4fff-975e-d8dafd355c91.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D893344989040",
+    linkUsfans: "https://usfans.com/product/2/W6ggN9czTJ5gfmeuwZAoCykTeH2TIQoi1-wXQf2_i6b1Nii8HTOUCw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "OMIGHTY SET",
+    category: "Girls",
+    price: "$22",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/03/3835c058a94ac0f46b171ace97224f5c.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D905774474753",
+    linkUsfans: "https://usfans.com/product/2/kHReMhSi3Pi6TvTNY-afxrhTH9wRjlj4DuLMLm97Vvq5XnnZLQGAjA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "JADED LDN DENIM SKIRT",
+    category: "Girls",
+    price: "$23.09",
+    image: "https://media.usfans.com/2026/08/05/143435/682fa84c-9432-44d9-ac03-31c42e58926e.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D796882846542",
+    linkUsfans: "https://usfans.com/product/2/q6FlOVyDGxAdeKHHa1sWF6CTbhWJBoQ-NrpjPSoRv45QdVx-_UoWfQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CHAI X KATE MOSS TOP",
+    category: "Girls",
+    price: "$28.08",
+    image: "https://media.usfans.com/2026/06/19/161657/0f388723-d41b-4674-b34e-8c540fac9fa2.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1041686147620",
+    linkUsfans: "https://usfans.com/product/2/MPriMVhVTaOM2uwYXPLJWw8sJBZxT6-m4mWRN1_dRM7Irofx-_87uKE?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CSONLINE TANK TOP",
+    category: "Girls",
+    price: "$26.41",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/07/2642e51fd64a05acc523eaf45117607f.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D909547603588",
+    linkUsfans: "https://usfans.com/product/2/M4V_LEdadk6G9DgjGn1xH4_gUU7W554aY5McHZOPaGTnPQmXIY60RA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "AF1 AMBUSH (LJR)",
+    category: "Shoes",
+    price: "$41.53",
+    image: "https://cdn.doppel.fit/dieZjcCH9tVhnyAiOAal14pdSgZmcwMXX0ZqK4UmDww/rs:fill:1920/q:85/f:webp/V0VJRElBTi81Nzk0ODk3MzAwL2FjYnV5Xzg4NDYxY2ZlMDM5M2Mvd2F0ZXJtYXJrZWQvcGRhXzE3NzMxMjM4NDk4NTg0RDg1RDg4Qi01MjA2LTQxRjAtODc1My02MTYyMDI2ODBFMUYud2VicA",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F5794897300",
+    linkUsfans: "https://usfans.com/product/3/5794897300?ref=TX9V9N",
+    tag: "LJR / BEST",
+    rating: 5
+  },
 ];
 
 // ============================================
