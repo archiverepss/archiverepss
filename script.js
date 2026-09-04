@@ -8982,6 +8982,86 @@ const products = [
     tag: "BUDGET",
     rating: 5
   },
+  {
+    name: "BALENCIAGA  SPEEDHUNTERS HOODIE",
+    category: "Hoodies",
+    price: "$76.03",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/24/36abcc5128b865d47dc87b20b72dd782.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D730474657101",
+    linkUsfans: "https://usfans.com/product/2/o_2l5bKaOx1tdhVe5rKXNendtfI0USV3nSs6ELMKpEUPD1lxhMtnXQ?ref=TX9V9N",
+    tag: "MADEBYSWAG",
+    rating: 5
+  },
+  {
+    name: "AD RED LIGHT DISTRICT HOODIE",
+    category: "Hoodies",
+    price: "$61.09",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2215792313733/O1CN01dX3E5V1dRldOnJKsn_!!2215792313733.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1012296414371",
+    linkUsfans: "https://usfans.com/product/2/80EWAkWnV-Qg_BWWHk5XZMOySqJe0LsTZLgpVIcJor79pRlIr21vhY8?ref=TX9V9N",
+    tag: "TABBER",
+    rating: 5
+  },
+  {
+    name: "GUCCI SILK TEE",
+    category: "Tshirts",
+    price: "$16.44",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/15/474e23be29857265dbe65cb997ff5e91.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1071980154888",
+    linkUsfans: "https://usfans.com/product/2/OQKgSYNdNqTzEOXWJ7U4A2-sCNLn8eTVuZwYvDtPee_U9yhhPUFl_fY?ref=TX9V9N",
+    tag: "PRODUCEBYDINI",
+    rating: 5
+  },
+  {
+    name: "GTA 6 BOX",
+    category: "RoomDecor",
+    price: "$6.40",
+    image: "https://media.usfans.com/2026/09/03/191810/7f90bee7-2c06-4a41-9ffa-bd437daf903b.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1061779742817",
+    linkUsfans: "https://usfans.com/product/2/AtMN1iKLSIvoPF2hUm77h7cQjK6kz9xT7kUH3eJcJBw5gFrpJI0JiHE?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "JELLYCAT TOYS",
+    category: "RoomDecor",
+    price: "$3 - $14",
+    image: "https://media.usfans.com/2026/08/30/191646/8388ab7e-8274-47b7-97a0-a6fe5c10360e.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F976578788327.html",
+    linkUsfans: "https://usfans.com/product/1/976578788327?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "YOUTUBE PLAY BUTTON",
+    category: "RoomDecor",
+    price: "$19.59",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202609/02/c8169eb44c76fb44c9839a74e9bdd540.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D673991675214",
+    linkUsfans: "https://usfans.com/product/2/iuFQAj69gE3Xk5agB-p_CzvLuUMdd3rVYOpVyp13I81df67_mJKYXw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CHROME HEARTS CARDS",
+    category: "RoomDecor",
+    price: "$1.65",
+    image: "https://media.usfans.com/2026/09/02/135119/79d44974-efbe-4a80-99a5-3f036e068212.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7503851819",
+    linkUsfans: "https://usfans.com/product/3/7503851819?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NETTSPEND REHAB FLAG",
+    category: "RoomDecor",
+    price: "$4.14",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/29/caf5315e09551078b19759628f364eb7.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D800435876931",
+    linkUsfans: "https://usfans.com/product/2/pxR5hA1kbhWRU9z4SkLd4YUPQkD3xoZroQPC-fktFL29wqYzTt-aQQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
