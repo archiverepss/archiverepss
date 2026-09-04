@@ -9282,6 +9282,76 @@ const products = [
     tag: "LJR / BEST",
     rating: 5
   },
+  {
+    name: "MERTRA HEAT ACTIVE JACKET",
+    category: "Jackets",
+    price: "$38.21",
+    image: "https://media.usfans.com/2026/09/04/104614/7948dd3e-f469-4188-a420-83e60b417d78.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7547344748",
+    linkUsfans: "https://usfans.com/product/3/7547344748?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "SUVENE HOODIE",
+    category: "Hoodies",
+    price: "$23.09",
+    image: "https://media.usfans.com/2026/09/02/105805/d9ae3e18-25f1-40fc-a1f1-7cdb526f4404.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7814238073",
+    linkUsfans: "https://usfans.com/product/3/7814238073?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "SUVENE ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$24.92",
+    image: "https://media.usfans.com/2026/09/03/104554/f109179a-de0b-418b-84b9-78500bf4670c.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7815126155",
+    linkUsfans: "https://usfans.com/product/3/7815126155?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "SUVENE SWEATPANTS",
+    category: "Pants",
+    price: "$22.43",
+    image: "https://media.usfans.com/2026/08/26/111310/cc3944e9-c3eb-4af2-a4ed-3464b394a6d9.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7817206562",
+    linkUsfans: "https://usfans.com/product/3/7817206562?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "SUVENE SWEATPANTS #2",
+    category: "Pants",
+    price: "$25.75",
+    image: "https://media.usfans.com/2026/09/03/103740/c04f28df-9d7b-401c-bd42-99e05b7f63c5.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7817212456",
+    linkUsfans: "https://usfans.com/product/3/7817212456?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "JORDAN 6",
+    category: "Shoes",
+    price: "$79.90-83",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/19/036e7861fa1fb62a5e8648f12510848d.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7563993189",
+    linkUsfans: "https://usfans.com/product/3/7563993189?ref=TX9V9N",
+    tag: "LJR = BEST",
+    rating: 5
+  },
+  {
+    name: "NIKE VOMERO 18",
+    category: "Shoes",
+    price: "$26.58",
+    image: "https://media.usfans.com/2026/09/01/174918/41505eeb-31e8-43ab-8115-416f6728300d.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7611429427",
+    linkUsfans: "https://usfans.com/product/3/7611429427?ref=TX9V9N",
+    tag: "GOD / YOLO",
+    rating: 5
+  },
 ];
 
 // ============================================
