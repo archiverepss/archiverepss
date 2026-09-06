@@ -9354,7 +9354,7 @@ const products = [
   },
   {
     name: "ERD CAP",
-    category: "Accesories",
+    category: "Belts",
     price: "$14.62",
     image: "https://si.geilicdn.com/wdseller1399882362-50d8000001990e37838c0a210139_1320_830.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7540211681",
@@ -9434,7 +9434,7 @@ const products = [
   },
   {
     name: "ERD PHONE CASE",
-    category: "Accesories",
+    category: "Belts",
     price: "$9.80",
     image: "https://img.alicdn.com/bao/uploaded/i1/3423162424/O1CN01Wggm231TmF8aZ3GjJ_!!3423162424.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D952624358286",
@@ -9454,7 +9454,7 @@ const products = [
   },
   {
     name: "SLP BELT",
-    category: "Accesories",
+    category: "Belts",
     price: "$6-17",
     image: "https://img.alicdn.com/bao/uploaded/i1/2214183518581/O1CN01tWE1tq2DG9kPrHGzc_!!2214183518581.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D988001679714",
@@ -9464,7 +9464,7 @@ const products = [
   },
   {
     name: "SLP SUNGLASSES",
-    category: "Accesories",
+    category: "Belts",
     price: "$11.47",
     image: "https://media.usfans.com/2026/05/21/185837/327fd54b-b8b3-4529-8eec-0fea5e93cd8e.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D810804635097",
@@ -9474,7 +9474,7 @@ const products = [
   },
   {
     name: "VIVIENNE WESTWOOD SCARF",
-    category: "Accesories",
+    category: "Belts",
     price: "$11.30",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202609/04/60387974bbc053927ccc040bfd9e8bf7.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7329545496",
@@ -9484,7 +9484,7 @@ const products = [
   },
   {
     name: "RICK OWENS PHONE CASE",
-    category: "Accesories",
+    category: "Belts",
     price: "$7.15",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/30/b1150906a6095506d714a4151c389e2e.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D852597407566",
