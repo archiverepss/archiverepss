@@ -9352,6 +9352,166 @@ const products = [
     tag: "GOD / YOLO",
     rating: 5
   },
+  {
+    name: "ERD CAP",
+    category: "Accesories",
+    price: "$14.62",
+    image: "https://si.geilicdn.com/wdseller1399882362-50d8000001990e37838c0a210139_1320_830.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7540211681",
+    linkUsfans: "https://usfans.com/product/3/7540211681?ref=TX9V9N",
+    tag: "暗号made",
+    rating: 5
+  },
+  {
+    name: "VIVIENNE WESTWOOD GLOVES",
+    category: "Belts",
+    price: "$6.48",
+    image: "https://media.usfans.com/2026/08/09/190222/2dd3bf9a-58b6-4cab-b7ef-053b83a435f1.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7449122986",
+    linkUsfans: "https://usfans.com/product/3/7449122986?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "LV WALLET",
+    category: "Belts",
+    price: "$3.83",
+    image: "https://media.usfans.com/2026/09/05/212818/1a7242c2-cf57-40e6-bcf7-ed9212a4be79.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6178665612",
+    linkUsfans: "https://usfans.com/product/3/6178665612?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "SAUER CIGARETTE WALLET",
+    category: "Belts",
+    price: "$4.31",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2218868826111/O1CN011UNwXu1v0tNJWo0mX_!!2218868826111.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D861934982129",
+    linkUsfans: "https://usfans.com/product/2/iw-j7w1vgymd2z3Y1ZYztQTQb4eZaxKXGmWoXkDZitEs-A9PJLgFiw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RANDOM SCARFS",
+    category: "Belts",
+    price: "$1.66",
+    image: "https://media.usfans.com/2026/09/05/171414/b35ef579-5ef5-4c96-b135-dac824014135.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D716263709864",
+    linkUsfans: "https://usfans.com/product/2/9-P9OLpkL6zFtizke2yx-Xn-vLEzfLRE2-Fw7E9scHwlUxDVakjJaA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SUPREME X YOHJI YAMAMOTO BEANIE",
+    category: "Belts",
+    price: "$6.32",
+    image: "https://media.usfans.com/2026/08/24/171816/966bc6d5-7565-47f6-96ef-bbd3a9d19873.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F977726022651.html",
+    linkUsfans: "https://usfans.com/product/1/977726022651?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SUPREME X YOHJI YAMAMOTO BEANIE",
+    category: "Belts",
+    price: "$6.32",
+    image: "https://media.usfans.com/2026/08/24/171816/966bc6d5-7565-47f6-96ef-bbd3a9d19873.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F977726022651.html",
+    linkUsfans: "https://usfans.com/product/1/977726022651?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "VIVIENNE WESTWOOD BEANIE",
+    category: "Belts",
+    price: "$6.62",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/28/82fe003b079aad3a914a7f6a14b1d2b5.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D663719295210",
+    linkUsfans: "https://usfans.com/product/2/kk605TZIzWMvR7JZ4oK2H2KytCMm-mU6HajAfx5uQXQZZqzVJnfvcQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ERD PHONE CASE",
+    category: "Accesories",
+    price: "$9.80",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3423162424/O1CN01Wggm231TmF8aZ3GjJ_!!3423162424.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D952624358286",
+    linkUsfans: "https://usfans.com/product/2/2QhHIoYkodT0s7O-UNSzUrZcUVvTurxcm7LAqFpsdChXcIs2-GKSXQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CHROME HEARTS BEANIE",
+    category: "Belts",
+    price: "$5.49",
+    image: "https://media.usfans.com/2026/08/29/182644/373c33fe-c80f-42b6-8e1a-f877ff48e8a0.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F841329427106.html",
+    linkUsfans: "https://usfans.com/product/1/841329427106?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SLP BELT",
+    category: "Accesories",
+    price: "$6-17",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2214183518581/O1CN01tWE1tq2DG9kPrHGzc_!!2214183518581.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D988001679714",
+    linkUsfans: "https://usfans.com/product/2/Kyi-xlqGvpVHmJhZMy2-8cbYNuNKrpaPNykH-ySIboMLqYEJOXUCfA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SLP SUNGLASSES",
+    category: "Accesories",
+    price: "$11.47",
+    image: "https://media.usfans.com/2026/05/21/185837/327fd54b-b8b3-4529-8eec-0fea5e93cd8e.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D810804635097",
+    linkUsfans: "https://usfans.com/product/2/WzfJVrZF4YSDxXLuke8Ae5MRLc3krO-ANf8TWVMEcWioMb5ZyQEuTQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "VIVIENNE WESTWOOD SCARF",
+    category: "Accesories",
+    price: "$11.30",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202609/04/60387974bbc053927ccc040bfd9e8bf7.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7329545496",
+    linkUsfans: "https://usfans.com/product/3/7329545496?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RICK OWENS PHONE CASE",
+    category: "Accesories",
+    price: "$7.15",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/30/b1150906a6095506d714a4151c389e2e.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D852597407566",
+    linkUsfans: "https://usfans.com/product/2/Iio3fqNHb4C0283CwF7Ke11ZeksPmDFKV6IAk76lcIlusU5IcmBCAw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA PHONE CASE",
+    category: "Belts",
+    price: "$2.63",
+    image: "https://media.usfans.com/2026/09/02/211940/dc82b87b-e21a-4cd9-86d3-cceebbe7d97c.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D794171203019",
+    linkUsfans: "https://usfans.com/product/2/-RwvgdK0JSyrZmwlmlZ_dRKTEuwOOeRgbv1ew7dvRaIKZ9SMYC_j1A?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NOCTA JACKET",
+    category: "Jackets",
+    price: "$63.12",
+    image: "https://media.usfans.com/2026/08/29/111443/9dc0a41c-86f4-46c6-a863-405310e6f0a3.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D4417493409",
+    linkUsfans: "https://usfans.com/product/3/4417493409?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
