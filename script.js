@@ -9512,6 +9512,86 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "AF1 OFF WHITE",
+    category: "Shoes",
+    price: "$61.50",
+    image: "https://si.geilicdn.com/open1850717273-1234478995-0d7600000190a94438a10a22d234_1170_808.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7611437475",
+    linkUsfans: "https://usfans.com/product/3/7611437475?ref=TX9V9N",
+    tag: "OWF / BEST",
+    rating: 5
+  },
+  {
+    name: "AF1 X SYNA WORLD",
+    category: "Shoes",
+    price: "$44.55",
+    image: "https://media.usfans.com/2026/08/25/153849/321828a2-a23b-4cff-b049-e3ffe479dca5.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7743227946",
+    linkUsfans: "https://usfans.com/product/3/7743227946?ref=TX9V9N",
+    tag: "DRAGON / RANDOM",
+    rating: 5
+  },
+  {
+    name: "VANS OLD SCHOOL SOUVENIR",
+    category: "Shoes",
+    price: "$16.62",
+    image: "https://si.geilicdn.com/pcitem902062392635-26ca0000019f4670e8630a231177_3024_3024.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7613472323",
+    linkUsfans: "https://usfans.com/product/3/7613472323?ref=TX9V9N",
+    tag: "HB / DOG",
+    rating: 5
+  },
+  {
+    name: "RAF SIMONS PHARASUX",
+    category: "Shoes",
+    price: "$39.89",
+    image: "https://si.geilicdn.com/pcitem902012418622-76130000019c34d1ff370a23913e_1440_1440.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7623083553",
+    linkUsfans: "https://usfans.com/product/3/7623083553?ref=TX9V9N",
+    tag: "WM / YOLO",
+    rating: 5
+  },
+  {
+    name: "PRADA JACKET",
+    category: "Jackets",
+    price: "$96.23",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/02/54559a6439e04a3fad38048388d80f91.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7550368327",
+    linkUsfans: "https://usfans.com/product/3/7550368327?ref=TX9V9N",
+    tag: "TOPHOT",
+    rating: 5
+  },
+  {
+    name: "shibuya girl tee",
+    category: "Tshirts",
+    price: "$9.81",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202609/04/3ffe0c42971b3196a6f2dcf3f56f15b7.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D903338954164",
+    linkUsfans: "https://usfans.com/product/2/zMdKl0t06NZOpLMbGL4ZojSWTuzcZyBCN9fkBVjkHOWWPb7aZKa5TQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "XAVIERSOBASED HOODIE",
+    category: "Hoodies",
+    price: "$28.07",
+    image: "https://media.usfans.com/2026/08/06/161426/87d659b2-205f-4f6a-ad39-70ddf84fd8c8.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1019987655598",
+    linkUsfans: "https://usfans.com/product/2/5ID421eXHVzmRQaLQxWruyD_8NXXXstrK_0vNVCDqd57_5obnr9Fodw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MONCLER TBELIARD",
+    category: "Jackets",
+    price: "$119.67",
+    image: "https://kako-alosshk-pic.lucklybuy.com/whg/202512/1/f5a61fd4d9a995e98fbe1e653de89165.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7281201276",
+    linkUsfans: "https://usfans.com/product/3/7281201276?ref=TX9V9N",
+    tag: "TOPHOT",
+    rating: 5
+  },
 ];
 
 // ============================================
