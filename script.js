@@ -9592,6 +9592,7 @@ const products = [
     tag: "TOPHOT",
     rating: 5
   },
+
 ];
 
 // ============================================
@@ -10058,6 +10059,769 @@ let qcMinZoom = 0.5;
 let qcMaxZoom = 3;
 
 // ============================================
+// 🚀 OPTYMALIZACJA QC - LAZY LOADING + MAX 35
+// ============================================
+
+const QC_MAX_IMAGES = 35;
+const QC_IMAGE_TIMEOUT = 5000;
+
+// ============================================
+// 1. CACHE
+// ============================================
+
+const qcCache = new Map();
+const QC_CACHE_TTL = 5 * 60 * 1000;
+
+function getCachedQC(url) {
+    const key = url;
+    if (qcCache.has(key)) {
+        const cached = qcCache.get(key);
+        if (Date.now() - cached.timestamp < QC_CACHE_TTL) {
+            return cached.data;
+        } else {
+            qcCache.delete(key);
+        }
+    }
+    return null;
+}
+
+function setCachedQC(url, data) {
+    if (qcCache.size >= 30) {
+        const firstKey = qcCache.keys().next().value;
+        qcCache.delete(firstKey);
+    }
+    qcCache.set(url, {
+        data: data,
+        timestamp: Date.now()
+    });
+}
+
+// ============================================
+// 2. KOLEJKA ZAPYTAŃ
+// ============================================
+
+const qcQueue = {
+    queue: [],
+    processing: false,
+    batchSize: 2,
+    delay: 500,
+    
+    add(url, callback) {
+        return new Promise((resolve) => {
+            const cached = getCachedQC(url);
+            if (cached) {
+                if (callback) callback(cached, true);
+                resolve(cached);
+                return;
+            }
+            
+            this.queue.push({ url, callback, resolve });
+            if (!this.processing) this.process();
+        });
+    },
+    
+    async process() {
+        if (this.processing || this.queue.length === 0) return;
+        this.processing = true;
+        
+        const batch = this.queue.splice(0, this.batchSize);
+        
+        const results = await Promise.all(
+            batch.map(async (item) => {
+                try {
+                    const data = await this.fetchWithTimeout(item.url);
+                    if (data) {
+                        setCachedQC(item.url, data);
+                    }
+                    return { ...item, data };
+                } catch (error) {
+                    return { ...item, data: null };
+                }
+            })
+        );
+        
+        results.forEach(result => {
+            if (result.callback) {
+                result.callback(result.data, false);
+            }
+            if (result.resolve) {
+                result.resolve(result.data);
+            }
+        });
+        
+        this.processing = false;
+        if (this.queue.length > 0) {
+            setTimeout(() => this.process(), this.delay);
+        }
+    },
+    
+    async fetchWithTimeout(url, timeout = 12000) {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), timeout);
+        
+        try {
+            const fullUrl = QC_PROXY_URL + '?url=' + encodeURIComponent(url);
+            const response = await fetch(fullUrl, {
+                signal: controller.signal,
+                headers: { 'Cache-Control': 'no-cache' }
+            });
+            
+            clearTimeout(timeoutId);
+            if (!response.ok) throw new Error('HTTP ' + response.status);
+            
+            const result = await response.json();
+            if (result && result.success === true && result.qcGroups) {
+                return result;
+            }
+            return null;
+        } catch (error) {
+            clearTimeout(timeoutId);
+            return null;
+        }
+    }
+};
+
+// ============================================
+// 3. LAZY LOADING - Intersection Observer
+// ============================================
+
+let qcObserver = null;
+
+function setupQCObserver() {
+    if (qcObserver) qcObserver.disconnect();
+    
+    qcObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                const src = img.dataset.src;
+                if (src && !img.src) {
+                    const tempImg = new Image();
+                    let loaded = false;
+                    
+                    const timeoutId = setTimeout(() => {
+                        if (!loaded) {
+                            const container = img.closest('.qc-image-item, .qc-search-image-item');
+                            if (container) container.style.display = 'none';
+                        }
+                    }, QC_IMAGE_TIMEOUT);
+                    
+                    tempImg.onload = () => {
+                        loaded = true;
+                        clearTimeout(timeoutId);
+                        img.src = src;
+                        img.style.opacity = '1';
+                        img.removeAttribute('data-src');
+                    };
+                    
+                    tempImg.onerror = () => {
+                        loaded = true;
+                        clearTimeout(timeoutId);
+                        const container = img.closest('.qc-image-item, .qc-search-image-item');
+                        if (container) container.style.display = 'none';
+                    };
+                    
+                    tempImg.src = src;
+                    img.style.opacity = '0.3';
+                    img.style.transition = 'opacity 0.3s ease';
+                }
+                qcObserver.unobserve(img);
+            }
+        });
+    }, {
+        rootMargin: '100px',
+        threshold: 0.01
+    });
+}
+
+// ============================================
+// 4. TWORZENIE ELEMENTU Z OBRAZEM
+// ============================================
+
+function createQCImageElement(imgUrl, className, alt) {
+    const container = document.createElement('div');
+    container.className = className || 'qc-image-item';
+    
+    const img = document.createElement('img');
+    img.alt = alt || 'QC';
+    img.loading = 'lazy';
+    img.dataset.src = imgUrl;
+    img.style.opacity = '0';
+    img.style.transition = 'opacity 0.3s ease';
+    img.style.width = '100%';
+    img.style.height = '100%';
+    img.style.objectFit = 'cover';
+    img.style.backgroundColor = '#0b0b0c';
+    
+    if (qcObserver) {
+        qcObserver.observe(img);
+    }
+    
+    setTimeout(() => {
+        if (!img.src && img.dataset.src) {
+            const container = img.closest('.qc-image-item, .qc-search-image-item');
+            if (container) {
+                container.style.display = 'none';
+            }
+        }
+    }, QC_IMAGE_TIMEOUT + 1000);
+    
+    container.appendChild(img);
+    
+    container.addEventListener('click', function(e) {
+        e.stopPropagation();
+        if (!img.src && img.dataset.src) {
+            const src = img.dataset.src;
+            const tempImg = new Image();
+            tempImg.onload = () => {
+                img.src = src;
+                img.style.opacity = '1';
+                img.removeAttribute('data-src');
+                openLightboxFromGallery(this);
+            };
+            tempImg.onerror = () => {
+                const container = this;
+                container.style.display = 'none';
+            };
+            tempImg.src = src;
+            return;
+        }
+        if (img.src) {
+            openLightboxFromGallery(this);
+        }
+    });
+    
+    return container;
+}
+
+function openLightboxFromGallery(element) {
+    const gallery = element.closest('.qc-images-grid') || element.closest('.qc-search-gallery');
+    if (!gallery) return;
+    
+    const items = gallery.querySelectorAll('.qc-image-item, .qc-search-image-item');
+    const visibleItems = [];
+    const urls = [];
+    
+    items.forEach(item => {
+        if (item.style.display !== 'none') {
+            const imgEl = item.querySelector('img');
+            if (imgEl) {
+                const src = imgEl.src || imgEl.dataset.src;
+                if (src && src !== '') {
+                    visibleItems.push(item);
+                    urls.push(src);
+                }
+            }
+        }
+    });
+    
+    if (urls.length === 0) return;
+    
+    let index = 0;
+    for (let i = 0; i < visibleItems.length; i++) {
+        if (visibleItems[i] === element) {
+            index = i;
+            break;
+        }
+    }
+    
+    qcImagesList = urls;
+    openQCLightbox(index);
+}
+
+// ============================================
+// 5. EKSTRAKCJA ZDJĘĆ (MAX 35)
+// ============================================
+
+function extractQCImages(result) {
+    const images = [];
+    
+    if (!result || !result.success || !result.qcGroups) {
+        return images;
+    }
+    
+    for (const source in result.qcGroups) {
+        if (images.length >= QC_MAX_IMAGES) break;
+        
+        const groups = result.qcGroups[source];
+        if (Array.isArray(groups)) {
+            for (const group of groups) {
+                if (images.length >= QC_MAX_IMAGES) break;
+                if (group.photos && Array.isArray(group.photos)) {
+                    for (const photo of group.photos) {
+                        if (images.length >= QC_MAX_IMAGES) break;
+                        if (photo.url) {
+                            images.push(photo.url);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    return images;
+}
+
+// ============================================
+// 6. GŁÓWNA FUNKCJA fetchQCImages
+// ============================================
+
+fetchQCImages = async function(productUrl) {
+    const loading = document.getElementById('qcLoading');
+    const gallery = document.getElementById('qcImagesGrid');
+    const badge = document.getElementById('qcBadge');
+    const linkBtn = document.getElementById('qcLinkBtn');
+    
+    const productName = document.getElementById('qcProductTitle')?.textContent || '';
+    
+    let foundProduct = products.find(p => p.name === productName);
+    
+    let urlsToTry = [];
+    if (foundProduct) {
+        if (foundProduct.linkUsfans && foundProduct.linkUsfans !== '') urlsToTry.push(foundProduct.linkUsfans);
+        if (foundProduct.linkKakobuy && foundProduct.linkKakobuy !== '') urlsToTry.push(foundProduct.linkKakobuy);
+    } else {
+        if (productUrl) urlsToTry.push(productUrl);
+    }
+    
+    urlsToTry = [...new Set(urlsToTry)];
+    
+    if (urlsToTry.length === 0) {
+        if (loading) loading.style.display = 'none';
+        if (gallery) {
+            gallery.innerHTML = '<div class="qc-no-images">❌ Brak linku do produktu</div>';
+        }
+        return;
+    }
+    
+    if (badge) {
+        badge.textContent = '⏳ Ładowanie...';
+        badge.style.backgroundColor = 'rgba(255, 165, 0, 0.2)';
+        badge.style.color = '#ffa500';
+        badge.style.borderColor = 'rgba(255, 165, 0, 0.3)';
+    }
+    
+    let allImages = [];
+    
+    for (const url of urlsToTry) {
+        if (!url || url === '') continue;
+        
+        try {
+            const result = await qcQueue.add(url);
+            if (result) {
+                const images = extractQCImages(result);
+                if (images.length > 0) {
+                    allImages = images;
+                    break;
+                }
+            }
+        } catch (e) {
+            console.log('Błąd dla linku', url, ':', e.message);
+        }
+    }
+    
+    if (loading) loading.style.display = 'none';
+    
+    if (allImages.length > 0) {
+        const displayImages = allImages.slice(0, QC_MAX_IMAGES);
+        qcImagesList = displayImages;
+        
+        if (badge) {
+            const total = displayImages.length >= QC_MAX_IMAGES ? QC_MAX_IMAGES + '+' : displayImages.length;
+            badge.textContent = `✅ ${total} zdjęć`;
+            badge.style.backgroundColor = 'rgba(46, 204, 113, 0.2)';
+            badge.style.color = '#2ecc71';
+            badge.style.borderColor = 'rgba(46, 204, 113, 0.3)';
+        }
+        
+        if (gallery) {
+            gallery.innerHTML = '';
+            const fragment = document.createDocumentFragment();
+            
+            displayImages.forEach((imgUrl, index) => {
+                const imgContainer = createQCImageElement(
+                    imgUrl,
+                    'qc-image-item',
+                    'QC ' + (index + 1)
+                );
+                fragment.appendChild(imgContainer);
+            });
+            
+            gallery.appendChild(fragment);
+        }
+        
+        if (linkBtn) linkBtn.style.display = 'none';
+        
+    } else {
+        if (badge) {
+            badge.textContent = '❌ Brak QC';
+            badge.style.backgroundColor = 'rgba(255, 71, 87, 0.2)';
+            badge.style.color = '#ff4757';
+            badge.style.borderColor = 'rgba(255, 71, 87, 0.3)';
+        }
+        if (gallery) {
+            gallery.innerHTML = `
+                <div class="qc-no-images" style="grid-column:1/-1;text-align:center;padding:40px 20px;color:#71717a;font-size:14px;background:#0b0b0c;border-radius:12px;border:1px solid #19191b;">
+                    <div style="font-size:48px;margin-bottom:16px;">📷</div>
+                    <div style="font-size:18px;font-weight:600;color:#fff;margin-bottom:8px;">Brak zdjęć QC</div>
+                    <div style="font-size:14px;color:#71717a;">Ten produkt nie ma QC w bazie.</div>
+                </div>
+            `;
+        }
+        if (linkBtn) linkBtn.style.display = 'none';
+    }
+};
+
+// ============================================
+// 7. displayQCResults
+// ============================================
+
+displayQCResults = function(images, gallery, productInfo) {
+    const displayImages = images.slice(0, QC_MAX_IMAGES);
+    
+    if (displayImages.length > 0) {
+        qcImagesList = displayImages;
+        
+        const infoDiv = document.createElement('div');
+        infoDiv.className = 'qc-search-info';
+        infoDiv.style.gridColumn = '1 / -1';
+        infoDiv.innerHTML = `
+            <span class="info-icon">📸</span>
+            <div>
+                <div class="info-text">Znaleziono ${displayImages.length} zdjęć QC ${displayImages.length >= QC_MAX_IMAGES ? '(max 35)' : ''}</div>
+                <div class="info-sub">${productInfo ? productInfo.name : ''} ${productInfo ? '• ' + productInfo.category : ''}</div>
+            </div>
+        `;
+        gallery.appendChild(infoDiv);
+        
+        const fragment = document.createDocumentFragment();
+        
+        displayImages.forEach((imgUrl, index) => {
+            const imgContainer = createQCImageElement(
+                imgUrl,
+                'qc-search-image-item',
+                'QC ' + (index + 1)
+            );
+            fragment.appendChild(imgContainer);
+        });
+        
+        gallery.appendChild(fragment);
+        
+    } else {
+        gallery.innerHTML = `
+            <div class="qc-search-no-results" style="grid-column:1/-1;">
+                <div class="no-results-icon">📷</div>
+                <div class="no-results-title">Brak zdjęć QC</div>
+                <div class="no-results-desc">Ten produkt nie ma jeszcze zdjęć QC w bazie.</div>
+            </div>
+        `;
+    }
+};
+
+// ============================================
+// 8. searchQC
+// ============================================
+
+searchQC = function() {
+    const input = document.getElementById('qcSearchInput');
+    const result = document.getElementById('qcSearchResult');
+    const loading = document.getElementById('qcSearchLoading');
+    const gallery = document.getElementById('qcSearchGallery');
+    
+    const query = input.value.trim();
+    
+    if (!query) {
+        alert('Wpisz nazwę produktu lub wklej link!');
+        return;
+    }
+    
+    result.style.display = 'block';
+    loading.style.display = 'flex';
+    gallery.innerHTML = '';
+    
+    const isUrl = query.includes('http') || query.includes('usfans.com') || query.includes('kakobuy.com') || query.includes('weidian.com') || query.includes('taobao.com');
+    
+    if (isUrl) {
+        fetchQCByUrl(query, loading, gallery);
+    } else {
+        searchProductByName(query, loading, gallery);
+    }
+};
+
+function fetchQCByUrl(productUrl, loading, gallery) {
+    qcQueue.add(productUrl, (result) => {
+        if (loading) loading.style.display = 'none';
+        const images = extractQCImages(result);
+        displayQCResults(images, gallery, null);
+    });
+}
+
+function searchProductByName(query, loading, gallery) {
+    const matchedProducts = products.filter(p => 
+        p.name.toLowerCase().includes(query.toLowerCase())
+    );
+    
+    if (matchedProducts.length === 0) {
+        loading.style.display = 'none';
+        gallery.innerHTML = `
+            <div class="qc-search-no-results" style="grid-column:1/-1;">
+                <div class="no-results-icon">🔍</div>
+                <div class="no-results-title">Nie znaleziono produktu</div>
+                <div class="no-results-desc">Nie znaleziono produktu o nazwie "<strong>${query}</strong>" w bazie.</div>
+            </div>
+        `;
+        return;
+    }
+    
+    const product = matchedProducts[0];
+    const urlsToTry = [];
+    
+    if (product.linkUsfans && product.linkUsfans !== '') urlsToTry.push(product.linkUsfans);
+    if (product.linkKakobuy && product.linkKakobuy !== '') urlsToTry.push(product.linkKakobuy);
+    
+    if (urlsToTry.length === 0) {
+        loading.style.display = 'none';
+        gallery.innerHTML = `
+            <div class="qc-search-no-results" style="grid-column:1/-1;">
+                <div class="no-results-icon">🔗</div>
+                <div class="no-results-title">Brak linków</div>
+                <div class="no-results-desc">Produkt "<strong>${query}</strong>" nie ma zapisanych linków.</div>
+            </div>
+        `;
+        return;
+    }
+    
+    let allImages = [];
+    let processed = 0;
+    
+    const checkCompletion = () => {
+        if (processed === urlsToTry.length) {
+            loading.style.display = 'none';
+            displayQCResults(allImages, gallery, product);
+        }
+    };
+    
+    urlsToTry.forEach(url => {
+        qcQueue.add(url, (result) => {
+            processed++;
+            if (result && allImages.length === 0) {
+                const images = extractQCImages(result);
+                if (images.length > 0) {
+                    allImages = images;
+                }
+            }
+            checkCompletion();
+        });
+    });
+    
+    setTimeout(() => {
+        if (loading.style.display !== 'none') {
+            loading.style.display = 'none';
+            if (allImages.length === 0) {
+                gallery.innerHTML = `
+                    <div class="qc-search-no-results" style="grid-column:1/-1;">
+                        <div class="no-results-icon">⏱️</div>
+                        <div class="no-results-title">Przekroczono czas oczekiwania</div>
+                        <div class="no-results-desc">Serwer QC nie odpowiada. Spróbuj ponownie później.</div>
+                    </div>
+                `;
+            }
+        }
+    }, 15000);
+};
+
+// ============================================
+// 9. LIGHTBOX - WSZYSTKIE FUNKCJE
+// ============================================
+
+function resetQCView() {
+    qcZoomLevel = 1;
+    qcRotation = 0;
+    qcPanX = 0;
+    qcPanY = 0;
+    qcLastPanX = 0;
+    qcLastPanY = 0;
+    
+    const img = document.getElementById('qcLightboxImg');
+    if (img) {
+        img.style.transform = 'scale(1) rotate(0deg)';
+        img.style.transition = 'transform 0.3s ease';
+        img.style.opacity = '1';
+    }
+    updateCursor();
+}
+
+function openQCLightbox(index) {
+    if (qcImagesList.length === 0 || index < 0 || index >= qcImagesList.length) return;
+    
+    qcCurrentIndex = index;
+    resetQCView();
+    
+    const overlay = document.getElementById('qcLightboxOverlay');
+    const img = document.getElementById('qcLightboxImg');
+    const counter = document.getElementById('qcLightboxCounter');
+    
+    if (!overlay || !img) return;
+    
+    const src = qcImagesList[index];
+    if (src) {
+        img.src = src;
+        img.style.opacity = '1';
+    }
+    
+    if (counter) counter.textContent = (index + 1) + ' / ' + qcImagesList.length;
+    
+    const prevBtn = document.getElementById('qcPrevImage');
+    const nextBtn = document.getElementById('qcNextImage');
+    if (prevBtn) prevBtn.style.display = index > 0 ? 'flex' : 'none';
+    if (nextBtn) nextBtn.style.display = index < qcImagesList.length - 1 ? 'flex' : 'none';
+    
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeQCLightbox() {
+    const overlay = document.getElementById('qcLightboxOverlay');
+    if (!overlay) return;
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+    resetQCView();
+}
+
+function qcZoomIn() {
+    if (qcZoomLevel < qcMaxZoom) {
+        qcZoomLevel = Math.min(qcZoomLevel + 0.15, qcMaxZoom);
+        applyQCTransform();
+        updateCursor();
+    }
+}
+
+function qcZoomOut() {
+    if (qcZoomLevel > qcMinZoom) {
+        qcZoomLevel = Math.max(qcZoomLevel - 0.15, qcMinZoom);
+        if (qcZoomLevel === 1) {
+            qcPanX = 0;
+            qcPanY = 0;
+            qcLastPanX = 0;
+            qcLastPanY = 0;
+        }
+        applyQCTransform();
+        updateCursor();
+    }
+}
+
+function qcRotate() {
+    qcRotation = (qcRotation + 90) % 360;
+    applyQCTransform();
+}
+
+function qcToggleFullscreen() {
+    const img = document.getElementById('qcLightboxImg');
+    if (!img) return;
+    
+    if (!document.fullscreenElement) {
+        if (img.requestFullscreen) {
+            img.requestFullscreen();
+        } else if (img.webkitRequestFullscreen) {
+            img.webkitRequestFullscreen();
+        }
+    } else {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        }
+    }
+}
+
+function qcResetView() {
+    resetQCView();
+}
+
+function applyQCTransform() {
+    const img = document.getElementById('qcLightboxImg');
+    if (!img) return;
+    
+    const wrapper = document.getElementById('qcLightboxWrapper');
+    if (wrapper && qcZoomLevel > 1) {
+        const containerRect = wrapper.getBoundingClientRect();
+        const imgRect = img.getBoundingClientRect();
+        
+        const maxPanX = Math.max(0, (imgRect.width * qcZoomLevel - containerRect.width) / 2);
+        const maxPanY = Math.max(0, (imgRect.height * qcZoomLevel - containerRect.height) / 2);
+        
+        qcPanX = Math.max(-maxPanX, Math.min(maxPanX, qcPanX));
+        qcPanY = Math.max(-maxPanY, Math.min(maxPanY, qcPanY));
+        qcLastPanX = qcPanX;
+        qcLastPanY = qcPanY;
+    }
+    
+    img.style.transform = 'translate(' + qcPanX + 'px, ' + qcPanY + 'px) scale(' + qcZoomLevel + ') rotate(' + qcRotation + 'deg)';
+    img.style.transition = 'transform 0.15s ease';
+}
+
+function updateCursor() {
+    const wrapper = document.getElementById('qcLightboxWrapper');
+    if (!wrapper) return;
+    wrapper.style.cursor = qcZoomLevel > 1 ? 'grab' : 'default';
+}
+
+function qcInitDrag(e) {
+    if (qcZoomLevel <= 1) return;
+    
+    qcIsDragging = true;
+    const wrapper = document.getElementById('qcLightboxWrapper');
+    if (wrapper) wrapper.style.cursor = 'grabbing';
+    
+    const clientX = e.clientX || e.touches[0].clientX;
+    const clientY = e.clientY || e.touches[0].clientY;
+    
+    qcStartX = clientX - qcLastPanX;
+    qcStartY = clientY - qcLastPanY;
+    
+    e.preventDefault();
+}
+
+function qcMoveDrag(e) {
+    if (!qcIsDragging) return;
+    
+    const clientX = e.clientX || e.touches[0].clientX;
+    const clientY = e.clientY || e.touches[0].clientY;
+    
+    let newPanX = clientX - qcStartX;
+    let newPanY = clientY - qcStartY;
+    
+    const img = document.getElementById('qcLightboxImg');
+    const wrapper = document.getElementById('qcLightboxWrapper');
+    if (img && wrapper && qcZoomLevel > 1) {
+        const containerRect = wrapper.getBoundingClientRect();
+        const imgRect = img.getBoundingClientRect();
+        
+        const maxPanX = Math.max(0, (imgRect.width * qcZoomLevel - containerRect.width) / 2);
+        const maxPanY = Math.max(0, (imgRect.height * qcZoomLevel - containerRect.height) / 2);
+        
+        newPanX = Math.max(-maxPanX, Math.min(maxPanX, newPanX));
+        newPanY = Math.max(-maxPanY, Math.min(maxPanY, newPanY));
+    }
+    
+    qcPanX = newPanX;
+    qcPanY = newPanY;
+    qcLastPanX = qcPanX;
+    qcLastPanY = qcPanY;
+    
+    applyQCTransform();
+    e.preventDefault();
+}
+
+function qcEndDrag(e) {
+    if (qcIsDragging) {
+        qcIsDragging = false;
+        const wrapper = document.getElementById('qcLightboxWrapper');
+        if (wrapper) wrapper.style.cursor = qcZoomLevel > 1 ? 'grab' : 'default';
+    }
+}
+
+// ============================================
 // 💰 PRZELICZNIK USD → PLN
 // ============================================
 const USD_TO_PLN = 3.62;
@@ -10204,7 +10968,6 @@ const categoryMapping = [
   { techName: "Pants", translationKey: "pants" },
   { techName: "Jackets", translationKey: "jackets" },
   { techName: "Belts", translationKey: "belts" },
-  // NOWE KATEGORIE:
   { techName: "RoomDecor", translationKey: "roomDecor" },
   { techName: "Girls", translationKey: "girls" }
 ];
@@ -10245,6 +11008,69 @@ const agentConfig = {
 document.addEventListener("DOMContentLoaded", function() {
   console.log("🚀 Strona załadowana");
   
+  // Inicjalizacja observera QC
+  setupQCObserver();
+  
+  // Inicjalizacja eventów lightboxa
+  const wrapper = document.getElementById('qcLightboxWrapper');
+  if (wrapper) {
+      wrapper.addEventListener('mousedown', qcInitDrag);
+      document.addEventListener('mousemove', qcMoveDrag);
+      document.addEventListener('mouseup', qcEndDrag);
+      
+      wrapper.addEventListener('touchstart', qcInitDrag, { passive: false });
+      document.addEventListener('touchmove', qcMoveDrag, { passive: false });
+      document.addEventListener('touchend', qcEndDrag);
+  }
+  
+  // Klawiatura dla lightboxa
+  document.addEventListener('keydown', function(e) {
+      const overlay = document.getElementById('qcLightboxOverlay');
+      if (!overlay || !overlay.classList.contains('active')) return;
+      
+      if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          if (qcCurrentIndex > 0) {
+              qcCurrentIndex--;
+              openQCLightbox(qcCurrentIndex);
+          }
+      } else if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          if (qcCurrentIndex < qcImagesList.length - 1) {
+              qcCurrentIndex++;
+              openQCLightbox(qcCurrentIndex);
+          }
+      } else if (e.key === 'Escape') {
+          closeQCLightbox();
+      } else if (e.key === '+' || e.key === '=') {
+          e.preventDefault();
+          qcZoomIn();
+      } else if (e.key === '-') {
+          e.preventDefault();
+          qcZoomOut();
+      } else if (e.key === 'r' || e.key === 'R') {
+          e.preventDefault();
+          qcRotate();
+      } else if (e.key === 'f' || e.key === 'F') {
+          e.preventDefault();
+          qcToggleFullscreen();
+      }
+  });
+  
+  // Scroll - zoom
+  document.addEventListener('wheel', function(e) {
+      const overlay = document.getElementById('qcLightboxOverlay');
+      if (!overlay || !overlay.classList.contains('active')) return;
+      if (e.target.closest('.qc-lightbox-controls')) return;
+      
+      e.preventDefault();
+      if (e.deltaY < 0) {
+          qcZoomIn();
+      } else {
+          qcZoomOut();
+      }
+  }, { passive: false });
+  
   if (isFirstVisit) {
     showLanguagePopup();
   } else {
@@ -10261,6 +11087,8 @@ document.addEventListener("DOMContentLoaded", function() {
       setTimeout(function() { showRegisterPopup(); }, 1500);
     }
   }
+  
+  console.log('✅ QC Optimized: max 35 images, lazy loading enabled');
 });
 
 // ============================================
@@ -10584,7 +11412,6 @@ function setupEventListeners() {
     });
   }
 
-  // QC Popup close
   var qcCloseBtn = document.getElementById('qcPopupClose');
   if (qcCloseBtn) {
     qcCloseBtn.addEventListener('click', closeQCPopup);
@@ -10596,7 +11423,6 @@ function setupEventListeners() {
     });
   }
   
-  // QC Lightbox close
   var qcLightboxClose = document.getElementById('qcLightboxClose');
   if (qcLightboxClose) {
     qcLightboxClose.addEventListener('click', closeQCLightbox);
@@ -10608,7 +11434,6 @@ function setupEventListeners() {
     });
   }
   
-  // QC Lightbox przyciski
   var zoomIn = document.getElementById('qcZoomIn');
   var zoomOut = document.getElementById('qcZoomOut');
   var rotateBtn = document.getElementById('qcRotate');
@@ -10635,7 +11460,6 @@ function setupEventListeners() {
     }
   });
   
-  // QC Search Enter
   var qcSearchInput = document.getElementById('qcSearchInput');
   if (qcSearchInput) {
     qcSearchInput.addEventListener('keydown', function(e) {
@@ -10658,7 +11482,6 @@ function renderCategories() {
     var btn = document.createElement("button");
     btn.className = "category-chip" + (currentCategory === cat.techName ? " active" : "");
     
-    // DODAJEMY SPECJALNĄ KLASĘ DLA KATEGORII GIRLS
     if (cat.techName === "Girls") {
       btn.classList.add("category-girls");
     }
@@ -10922,22 +11745,6 @@ function closeLightbox() {
   overlay.classList.remove('active');
   document.body.style.overflow = '';
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-  var closeBtn = document.getElementById('lightboxClose');
-  if (closeBtn) {
-    closeBtn.addEventListener('click', closeLightbox);
-  }
-  var overlay = document.getElementById('lightboxOverlay');
-  if (overlay) {
-    overlay.addEventListener('click', function(e) {
-      if (e.target === this) closeLightbox();
-    });
-  }
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') closeLightbox();
-  });
-});
 
 // ============================================
 // 🏪 SPRZEDAWCY - FUNKCJE
@@ -11254,20 +12061,6 @@ function slideNext() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  var prevBtn = document.getElementById('sliderPrev');
-  var nextBtn = document.getElementById('sliderNext');
-  
-  if (prevBtn) prevBtn.addEventListener('click', slidePrev);
-  if (nextBtn) nextBtn.addEventListener('click', slideNext);
-  
-  window.addEventListener('resize', function() {
-    updateSlidesPerView();
-    updateSlider();
-    updateDots();
-  });
-});
-
 // ============================================
 // 🏷️ PROMO FINDS - FUNKCJE
 // ============================================
@@ -11444,582 +12237,6 @@ function closeQCPopup() {
   qcImagesList = [];
   qcCurrentIndex = 0;
 }
-
-async function fetchQCImages(productUrl) {
-  var loading = document.getElementById('qcLoading');
-  var gallery = document.getElementById('qcImagesGrid');
-  var linkBtn = document.getElementById('qcLinkBtn');
-  var badge = document.getElementById('qcBadge');
-  
-  var productName = document.getElementById('qcProductTitle')?.textContent || '';
-  var foundProduct = null;
-  
-  for (var i = 0; i < products.length; i++) {
-    if (products[i].name === productName) {
-      foundProduct = products[i];
-      break;
-    }
-  }
-  
-  var urlsToTry = [];
-  if (foundProduct) {
-    if (foundProduct.linkUsfans && foundProduct.linkUsfans !== '') urlsToTry.push(foundProduct.linkUsfans);
-    if (foundProduct.linkKakobuy && foundProduct.linkKakobuy !== '') urlsToTry.push(foundProduct.linkKakobuy);
-  } else {
-    if (productUrl) urlsToTry.push(productUrl);
-  }
-  
-  var allImages = [];
-  
-  for (var u = 0; u < urlsToTry.length; u++) {
-    var url = urlsToTry[u];
-    if (!url || url === '') continue;
-    
-    try {
-      var fullUrl = QC_PROXY_URL + '?url=' + encodeURIComponent(url);
-      var response = await fetch(fullUrl);
-      
-      if (response.ok) {
-        var result = await response.json();
-        var tempImages = [];
-        if (result.success === true && result.qcGroups) {
-          for (var source in result.qcGroups) {
-            var groups = result.qcGroups[source];
-            if (Array.isArray(groups)) {
-              groups.forEach(function(group) {
-                if (group.photos && Array.isArray(group.photos)) {
-                  group.photos.forEach(function(photo) {
-                    if (photo.url) {
-                      tempImages.push(photo.url);
-                    }
-                  });
-                }
-              });
-            }
-          }
-        }
-        if (tempImages.length > 0) {
-          allImages = tempImages;
-          break;
-        }
-      }
-    } catch (e) {
-      console.log('Błąd dla linku', url, ':', e.message);
-    }
-  }
-  
-  if (loading) loading.style.display = 'none';
-  
-  if (allImages.length > 0) {
-    qcImagesList = allImages;
-    
-    if (badge) {
-      badge.textContent = '✅ ' + allImages.length + ' zdjęć';
-      badge.style.backgroundColor = 'rgba(46, 204, 113, 0.2)';
-      badge.style.color = '#2ecc71';
-      badge.style.borderColor = 'rgba(46, 204, 113, 0.3)';
-    }
-    
-    if (gallery) {
-      gallery.innerHTML = '';
-      allImages.forEach(function(imgUrl, index) {
-        var imgContainer = document.createElement('div');
-        imgContainer.className = 'qc-image-item';
-        var img = document.createElement('img');
-        img.src = imgUrl;
-        img.alt = 'QC ' + (index + 1);
-        img.loading = 'lazy';
-        img.onerror = function() {
-          this.src = 'https://via.placeholder.com/120x120/1a1a1e/c9a84c?text=QC+' + (index + 1);
-        };
-        imgContainer.addEventListener('click', function() {
-          openQCLightbox(index);
-        });
-        imgContainer.appendChild(img);
-        gallery.appendChild(imgContainer);
-      });
-    }
-    if (linkBtn) linkBtn.style.display = 'none';
-    
-  } else {
-    if (badge) {
-      badge.textContent = '❌ Brak QC';
-      badge.style.backgroundColor = 'rgba(255, 71, 87, 0.2)';
-      badge.style.color = '#ff4757';
-      badge.style.borderColor = 'rgba(255, 71, 87, 0.3)';
-    }
-    if (gallery) {
-      gallery.innerHTML = `
-        <div class="qc-no-images" style="grid-column:1/-1;text-align:center;padding:40px 20px;color:#71717a;font-size:14px;background:#0b0b0c;border-radius:12px;border:1px solid #19191b;">
-          <div style="font-size:48px;margin-bottom:16px;">📷</div>
-          <div style="font-size:18px;font-weight:600;color:#fff;margin-bottom:8px;">Brak zdjęć QC</div>
-          <div style="font-size:14px;color:#71717a;">Ten produkt nie ma QC w bazie.</div>
-        </div>
-      `;
-    }
-    if (linkBtn) linkBtn.style.display = 'none';
-  }
-}
-
-// ============================================
-// 🔍 QC SEARCH - FUNKCJE
-// ============================================
-
-function searchQC() {
-  var input = document.getElementById('qcSearchInput');
-  var result = document.getElementById('qcSearchResult');
-  var loading = document.getElementById('qcSearchLoading');
-  var gallery = document.getElementById('qcSearchGallery');
-  
-  var query = input.value.trim();
-  
-  if (!query) {
-    alert('Wpisz nazwę produktu lub wklej link!');
-    return;
-  }
-  
-  result.style.display = 'block';
-  loading.style.display = 'flex';
-  gallery.innerHTML = '';
-  
-  var isUrl = query.includes('http') || query.includes('usfans.com') || query.includes('kakobuy.com') || query.includes('weidian.com') || query.includes('taobao.com');
-  
-  if (isUrl) {
-    fetchQCByUrl(query, loading, gallery);
-  } else {
-    searchProductByName(query, loading, gallery);
-  }
-}
-
-function searchProductByName(query, loading, gallery) {
-  var matchedProducts = products.filter(function(p) {
-    return p.name.toLowerCase().includes(query.toLowerCase());
-  });
-  
-  if (matchedProducts.length === 0) {
-    loading.style.display = 'none';
-    gallery.innerHTML = `
-      <div class="qc-search-no-results" style="grid-column:1/-1;">
-        <div class="no-results-icon">🔍</div>
-        <div class="no-results-title">Nie znaleziono produktu</div>
-        <div class="no-results-desc">Nie znaleziono produktu o nazwie "<strong>${query}</strong>" w bazie.</div>
-        <div class="no-results-desc" style="margin-top:8px;font-size:13px;color:#52525b;">Spróbuj wpisać pełną nazwę lub wklej link.</div>
-      </div>
-    `;
-    return;
-  }
-  
-  var urlsToTry = [];
-  matchedProducts.forEach(function(p) {
-    if (p.linkUsfans && p.linkUsfans !== '') urlsToTry.push(p.linkUsfans);
-    if (p.linkKakobuy && p.linkKakobuy !== '') urlsToTry.push(p.linkKakobuy);
-  });
-  
-  if (urlsToTry.length === 0) {
-    loading.style.display = 'none';
-    gallery.innerHTML = `
-      <div class="qc-search-no-results" style="grid-column:1/-1;">
-        <div class="no-results-icon">🔗</div>
-        <div class="no-results-title">Brak linków</div>
-        <div class="no-results-desc">Produkt "<strong>${query}</strong>" nie ma zapisanych linków.</div>
-      </div>
-    `;
-    return;
-  }
-  
-  fetchQCByMultipleUrls(urlsToTry, loading, gallery, matchedProducts[0]);
-}
-
-async function fetchQCByUrl(productUrl, loading, gallery) {
-  try {
-    var fullUrl = QC_PROXY_URL + '?url=' + encodeURIComponent(productUrl);
-    var response = await fetch(fullUrl);
-    
-    if (!response.ok) throw new Error('HTTP ' + response.status);
-    
-    var result = await response.json();
-    
-    if (loading) loading.style.display = 'none';
-    
-    var allImages = [];
-    if (result.success === true && result.qcGroups) {
-      for (var source in result.qcGroups) {
-        var groups = result.qcGroups[source];
-        if (Array.isArray(groups)) {
-          groups.forEach(function(group) {
-            if (group.photos && Array.isArray(group.photos)) {
-              group.photos.forEach(function(photo) {
-                if (photo.url) allImages.push(photo.url);
-              });
-            }
-          });
-        }
-      }
-    }
-    
-    displayQCResults(allImages, gallery, null);
-    
-  } catch (error) {
-    console.error('Błąd:', error);
-    if (loading) loading.style.display = 'none';
-    gallery.innerHTML = `
-      <div class="qc-search-no-results" style="grid-column:1/-1;">
-        <div class="no-results-icon">⚠️</div>
-        <div class="no-results-title">Błąd połączenia</div>
-        <div class="no-results-desc">Nie udało się pobrać zdjęć QC.</div>
-        <div class="no-results-desc" style="margin-top:8px;font-size:13px;color:#52525b;">${error.message}</div>
-      </div>
-    `;
-  }
-}
-
-async function fetchQCByMultipleUrls(urls, loading, gallery, productInfo) {
-  var allImages = [];
-  var usedUrls = [];
-  
-  for (var u = 0; u < urls.length; u++) {
-    var url = urls[u];
-    if (!url || url === '') continue;
-    if (usedUrls.includes(url)) continue;
-    usedUrls.push(url);
-    
-    try {
-      var fullUrl = QC_PROXY_URL + '?url=' + encodeURIComponent(url);
-      var response = await fetch(fullUrl);
-      
-      if (response.ok) {
-        var result = await response.json();
-        if (result.success === true && result.qcGroups) {
-          var tempImages = [];
-          for (var source in result.qcGroups) {
-            var groups = result.qcGroups[source];
-            if (Array.isArray(groups)) {
-              groups.forEach(function(group) {
-                if (group.photos && Array.isArray(group.photos)) {
-                  group.photos.forEach(function(photo) {
-                    if (photo.url) tempImages.push(photo.url);
-                  });
-                }
-              });
-            }
-          }
-          if (tempImages.length > 0) {
-            allImages = tempImages;
-            break;
-          }
-        }
-      }
-    } catch (e) {
-      console.log('Błąd dla', url, ':', e.message);
-    }
-  }
-  
-  if (loading) loading.style.display = 'none';
-  displayQCResults(allImages, gallery, productInfo);
-}
-
-function displayQCResults(images, gallery, productInfo) {
-  if (images.length > 0) {
-    qcImagesList = images;
-    
-    var infoDiv = document.createElement('div');
-    infoDiv.className = 'qc-search-info';
-    infoDiv.style.gridColumn = '1 / -1';
-    infoDiv.innerHTML = `
-      <span class="info-icon">📸</span>
-      <div>
-        <div class="info-text">Znaleziono ${images.length} zdjęć QC</div>
-        <div class="info-sub">${productInfo ? productInfo.name : ''} ${productInfo ? '• ' + productInfo.category : ''}</div>
-      </div>
-    `;
-    gallery.appendChild(infoDiv);
-    
-    images.slice(0, 50).forEach(function(imgUrl, index) {
-      var imgContainer = document.createElement('div');
-      imgContainer.className = 'qc-search-image-item';
-      
-      var img = document.createElement('img');
-      img.src = imgUrl;
-      img.alt = 'QC ' + (index + 1);
-      img.loading = 'lazy';
-      
-      img.onerror = function() {
-        this.src = 'https://via.placeholder.com/150x150/1a1a1e/c9a84c?text=QC';
-      };
-      
-      imgContainer.addEventListener('click', function() {
-        qcImagesList = images;
-        openQCLightbox(index);
-      });
-      
-      imgContainer.appendChild(img);
-      gallery.appendChild(imgContainer);
-    });
-    
-  } else {
-    gallery.innerHTML = `
-      <div class="qc-search-no-results" style="grid-column:1/-1;">
-        <div class="no-results-icon">📷</div>
-        <div class="no-results-title">Brak zdjęć QC</div>
-        <div class="no-results-desc">Ten produkt nie ma jeszcze zdjęć QC w bazie.</div>
-        <div class="no-results-desc" style="margin-top:8px;font-size:13px;color:#52525b;">Sprawdź link lub spróbuj innego produktu.</div>
-      </div>
-    `;
-  }
-}
-
-// ============================================
-// 🔍 QC LIGHTBOX Z FUNKCJAMI (lupa, zoom, fullscreen, obracanie)
-// ============================================
-
-function openQCLightbox(index) {
-  if (qcImagesList.length === 0 || index < 0 || index >= qcImagesList.length) return;
-  
-  qcCurrentIndex = index;
-  resetQCView();
-  
-  var overlay = document.getElementById('qcLightboxOverlay');
-  var img = document.getElementById('qcLightboxImg');
-  var counter = document.getElementById('qcLightboxCounter');
-  
-  if (!overlay || !img) return;
-  
-  img.src = qcImagesList[index];
-  img.style.transform = 'scale(1) rotate(0deg)';
-  img.style.transition = 'transform 0.3s ease';
-  if (counter) counter.textContent = (index + 1) + ' / ' + qcImagesList.length;
-  
-  var prevBtn = document.getElementById('qcPrevImage');
-  var nextBtn = document.getElementById('qcNextImage');
-  if (prevBtn) prevBtn.style.display = index > 0 ? 'flex' : 'none';
-  if (nextBtn) nextBtn.style.display = index < qcImagesList.length - 1 ? 'flex' : 'none';
-  
-  overlay.classList.add('active');
-  document.body.style.overflow = 'hidden';
-}
-
-function closeQCLightbox() {
-  var overlay = document.getElementById('qcLightboxOverlay');
-  if (!overlay) return;
-  overlay.classList.remove('active');
-  document.body.style.overflow = '';
-  resetQCView();
-}
-
-function resetQCView() {
-  qcZoomLevel = 1;
-  qcRotation = 0;
-  qcPanX = 0;
-  qcPanY = 0;
-  qcLastPanX = 0;
-  qcLastPanY = 0;
-  
-  var img = document.getElementById('qcLightboxImg');
-  if (img) {
-    img.style.transform = 'scale(1) rotate(0deg)';
-    img.style.transition = 'transform 0.3s ease';
-  }
-  updateCursor();
-}
-
-function qcZoomIn() {
-  if (qcZoomLevel < qcMaxZoom) {
-    qcZoomLevel = Math.min(qcZoomLevel + 0.15, qcMaxZoom);
-    applyQCTransform();
-    updateCursor();
-  }
-}
-
-function qcZoomOut() {
-  if (qcZoomLevel > qcMinZoom) {
-    qcZoomLevel = Math.max(qcZoomLevel - 0.15, qcMinZoom);
-    if (qcZoomLevel === 1) {
-      qcPanX = 0;
-      qcPanY = 0;
-      qcLastPanX = 0;
-      qcLastPanY = 0;
-    }
-    applyQCTransform();
-    updateCursor();
-  }
-}
-
-function qcRotate() {
-  qcRotation = (qcRotation + 90) % 360;
-  applyQCTransform();
-}
-
-function qcToggleFullscreen() {
-  var img = document.getElementById('qcLightboxImg');
-  if (!img) return;
-  
-  if (!document.fullscreenElement) {
-    if (img.requestFullscreen) {
-      img.requestFullscreen();
-    } else if (img.webkitRequestFullscreen) {
-      img.webkitRequestFullscreen();
-    }
-  } else {
-    if (document.exitFullscreen) {
-      document.exitFullscreen();
-    } else if (document.webkitExitFullscreen) {
-      document.webkitExitFullscreen();
-    }
-  }
-}
-
-function qcResetView() {
-  resetQCView();
-}
-
-function applyQCTransform() {
-  var img = document.getElementById('qcLightboxImg');
-  if (!img) return;
-  
-  var wrapper = document.getElementById('qcLightboxWrapper');
-  if (wrapper && qcZoomLevel > 1) {
-    var containerRect = wrapper.getBoundingClientRect();
-    var imgRect = img.getBoundingClientRect();
-    
-    var maxPanX = Math.max(0, (imgRect.width * qcZoomLevel - containerRect.width) / 2);
-    var maxPanY = Math.max(0, (imgRect.height * qcZoomLevel - containerRect.height) / 2);
-    
-    qcPanX = Math.max(-maxPanX, Math.min(maxPanX, qcPanX));
-    qcPanY = Math.max(-maxPanY, Math.min(maxPanY, qcPanY));
-    qcLastPanX = qcPanX;
-    qcLastPanY = qcPanY;
-  }
-  
-  img.style.transform = 'translate(' + qcPanX + 'px, ' + qcPanY + 'px) scale(' + qcZoomLevel + ') rotate(' + qcRotation + 'deg)';
-  img.style.transition = 'transform 0.15s ease';
-}
-
-function updateCursor() {
-  var wrapper = document.getElementById('qcLightboxWrapper');
-  if (!wrapper) return;
-  wrapper.style.cursor = qcZoomLevel > 1 ? 'grab' : 'default';
-}
-
-// OBSŁUGA PRZESUWANIA MYSZKĄ
-function qcInitDrag(e) {
-  if (qcZoomLevel <= 1) return;
-  
-  qcIsDragging = true;
-  var wrapper = document.getElementById('qcLightboxWrapper');
-  if (wrapper) wrapper.style.cursor = 'grabbing';
-  
-  var clientX = e.clientX || e.touches[0].clientX;
-  var clientY = e.clientY || e.touches[0].clientY;
-  
-  qcStartX = clientX - qcLastPanX;
-  qcStartY = clientY - qcLastPanY;
-  
-  e.preventDefault();
-}
-
-function qcMoveDrag(e) {
-  if (!qcIsDragging) return;
-  
-  var clientX = e.clientX || e.touches[0].clientX;
-  var clientY = e.clientY || e.touches[0].clientY;
-  
-  var newPanX = clientX - qcStartX;
-  var newPanY = clientY - qcStartY;
-  
-  var img = document.getElementById('qcLightboxImg');
-  var wrapper = document.getElementById('qcLightboxWrapper');
-  if (img && wrapper && qcZoomLevel > 1) {
-    var containerRect = wrapper.getBoundingClientRect();
-    var imgRect = img.getBoundingClientRect();
-    
-    var maxPanX = Math.max(0, (imgRect.width * qcZoomLevel - containerRect.width) / 2);
-    var maxPanY = Math.max(0, (imgRect.height * qcZoomLevel - containerRect.height) / 2);
-    
-    newPanX = Math.max(-maxPanX, Math.min(maxPanX, newPanX));
-    newPanY = Math.max(-maxPanY, Math.min(maxPanY, newPanY));
-  }
-  
-  qcPanX = newPanX;
-  qcPanY = newPanY;
-  qcLastPanX = qcPanX;
-  qcLastPanY = qcPanY;
-  
-  applyQCTransform();
-  e.preventDefault();
-}
-
-function qcEndDrag(e) {
-  if (qcIsDragging) {
-    qcIsDragging = false;
-    var wrapper = document.getElementById('qcLightboxWrapper');
-    if (wrapper) {
-      wrapper.style.cursor = qcZoomLevel > 1 ? 'grab' : 'default';
-    }
-  }
-}
-
-// OBSŁUGA KLAWIATURY
-document.addEventListener('keydown', function(e) {
-  var overlay = document.getElementById('qcLightboxOverlay');
-  if (!overlay || !overlay.classList.contains('active')) return;
-  
-  if (e.key === 'ArrowLeft') {
-    e.preventDefault();
-    if (qcCurrentIndex > 0) {
-      qcCurrentIndex--;
-      openQCLightbox(qcCurrentIndex);
-    }
-  } else if (e.key === 'ArrowRight') {
-    e.preventDefault();
-    if (qcCurrentIndex < qcImagesList.length - 1) {
-      qcCurrentIndex++;
-      openQCLightbox(qcCurrentIndex);
-    }
-  } else if (e.key === 'Escape') {
-    closeQCLightbox();
-  } else if (e.key === '+' || e.key === '=') {
-    e.preventDefault();
-    qcZoomIn();
-  } else if (e.key === '-') {
-    e.preventDefault();
-    qcZoomOut();
-  } else if (e.key === 'r' || e.key === 'R') {
-    e.preventDefault();
-    qcRotate();
-  } else if (e.key === 'f' || e.key === 'F') {
-    e.preventDefault();
-    qcToggleFullscreen();
-  }
-});
-
-// OBSŁUGA SCROLLA
-document.addEventListener('wheel', function(e) {
-  var overlay = document.getElementById('qcLightboxOverlay');
-  if (!overlay || !overlay.classList.contains('active')) return;
-  if (e.target.closest('.qc-lightbox-controls')) return;
-  
-  e.preventDefault();
-  if (e.deltaY < 0) {
-    qcZoomIn();
-  } else {
-    qcZoomOut();
-  }
-}, { passive: false });
-
-// INICJALIZACJA EVENTÓW
-document.addEventListener('DOMContentLoaded', function() {
-  var wrapper = document.getElementById('qcLightboxWrapper');
-  
-  if (wrapper) {
-    wrapper.addEventListener('mousedown', qcInitDrag);
-    document.addEventListener('mousemove', qcMoveDrag);
-    document.addEventListener('mouseup', qcEndDrag);
-    
-    wrapper.addEventListener('touchstart', qcInitDrag, { passive: false });
-    document.addEventListener('touchmove', qcMoveDrag, { passive: false });
-    document.addEventListener('touchend', qcEndDrag);
-  }
-});
 
 // ============================================
 // ✅ KONIEC

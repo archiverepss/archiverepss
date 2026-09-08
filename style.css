@@ -377,10 +377,7 @@ body {
   padding-left: 12px;
 }
 
-/* ============================================
-   KATEGORIA GIRLS - RÓŻOWY AKCENT
-   ============================================ */
-
+/* KATEGORIA GIRLS - RÓŻOWY AKCENT */
 .category-chip.category-girls {
   background-color: rgba(255, 182, 193, 0.15);
   border-color: rgba(255, 105, 180, 0.3);
@@ -400,14 +397,14 @@ body {
   box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
 }
 
-/* ====== SIATKA PRODUKTÓW ====== */
+/* SIATKA PRODUKTÓW */
 .products-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 24px;
 }
 
-/* ====== KARTA PRODUKTU ====== */
+/* KARTA PRODUKTU */
 .product-card {
   position: relative;
   border-radius: 16px;
@@ -542,7 +539,7 @@ body {
   color: #a1a1aa;
 }
 
-/* ====== IKONA LUPY ====== */
+/* IKONA LUPY */
 .product-card .zoom-icon,
 .featured-card .zoom-icon,
 .slider-item .zoom-icon {
@@ -587,7 +584,7 @@ body {
   color: #0b0b0c;
 }
 
-/* ====== IKONA QC (APARAT) ====== */
+/* IKONA QC (APARAT) */
 .product-card .qc-icon,
 .featured-card .qc-icon,
 .slider-item .qc-icon {
@@ -632,7 +629,7 @@ body {
   color: #0b0b0c;
 }
 
-/* ====== LIGHTBOX QC Z KONTROLKAMI ====== */
+/* LIGHTBOX QC Z KONTROLKAMI */
 #qcLightboxOverlay .lightbox-content {
   position: relative;
   width: 100%;
@@ -724,7 +721,7 @@ body {
   text-align: center;
 }
 
-/* ====== LIGHTBOX ZWYKŁY ====== */
+/* LIGHTBOX ZWYKŁY */
 .lightbox-overlay {
   position: fixed;
   inset: 0;
@@ -783,7 +780,7 @@ body {
   transform: rotate(90deg);
 }
 
-/* ====== QC POPUP ====== */
+/* QC POPUP */
 .popup-overlay {
   position: fixed;
   inset: 0;
@@ -1021,7 +1018,7 @@ body {
   transform: translateY(-1px);
 }
 
-/* ====== QC SEARCH ====== */
+/* QC SEARCH */
 .qc-search-section {
   max-width: 900px;
   margin: 0 auto;
@@ -1185,7 +1182,7 @@ body {
   color: #71717a;
 }
 
-/* ====== SPRZEDAWCY ====== */
+/* SPRZEDAWCY */
 .sellers-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -1274,7 +1271,7 @@ body {
   color: #0b0b0c;
 }
 
-/* ====== SLIDER ====== */
+/* SLIDER */
 .slider-container {
   position: relative;
   display: flex;
@@ -1439,7 +1436,7 @@ body {
   border-radius: 5px;
 }
 
-/* ====== PROMO ====== */
+/* PROMO */
 .promo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -1531,7 +1528,7 @@ body {
   transform: translateY(-1px);
 }
 
-/* ====== SOCIAL SIDEBAR ====== */
+/* SOCIAL SIDEBAR */
 .social-sidebar {
   position: fixed;
   right: 24px;
@@ -1701,7 +1698,7 @@ body {
   background: rgba(255, 255, 255, 0.04);
 }
 
-/* ====== POPUPY (język, agent, rejestracja) ====== */
+/* POPUPY (język, agent, rejestracja) */
 .language-modal-card,
 .agent-modal-card,
 .popup-card {
@@ -2003,7 +2000,7 @@ body {
   color: #ffffff;
 }
 
-/* ====== SCROLL TO TOP ====== */
+/* SCROLL TO TOP */
 .scroll-to-top {
   position: fixed;
   bottom: 24px;
@@ -2033,7 +2030,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* ====== FOOTER ====== */
+/* FOOTER */
 .site-footer {
   margin-top: 60px;
   padding: 48px 24px 40px 24px;
@@ -2142,7 +2139,56 @@ body {
   max-width: 480px;
 }
 
-/* ====== RESPONSYWNOŚĆ ====== */
+/* ====== OPTYMALIZACJA QC - LAZY LOADING ====== */
+
+.qc-image-item img,
+.qc-search-image-item img {
+  transition: opacity 0.3s ease;
+  background: #0b0b0c;
+}
+
+.qc-image-item,
+.qc-search-image-item {
+  background: #0b0b0c;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+}
+
+/* Placeholder shimmer dla ładujących się obrazków */
+.qc-image-item::before,
+.qc-search-image-item::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(255,255,255,0.03) 50%, 
+    transparent 100%
+  );
+  animation: qcShimmer 1.5s infinite;
+  z-index: 0;
+  pointer-events: none;
+}
+
+@keyframes qcShimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.qc-image-item img,
+.qc-search-image-item img {
+  position: relative;
+  z-index: 1;
+}
+
+/* Ukrywanie niedziałających zdjęć */
+.qc-image-item.hidden,
+.qc-search-image-item.hidden {
+  display: none !important;
+}
+
+/* RESPONSYWNOŚĆ */
 @media (max-width: 1024px) {
   .products-grid {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -2407,7 +2453,8 @@ body {
     max-height: 60vh;
   }
 }
-/* ====== PROMO FINDS - POPRAWIONE STYLE ====== */
+
+/* PROMO FINDS - POPRAWIONE STYLE */
 .promo-grid-section {
   margin-top: 20px;
 }
@@ -2436,7 +2483,6 @@ body {
   font-weight: 700;
   color: #ffffff;
   letter-spacing: -0.5px;
-  font-family: 'Inter', sans-serif;
 }
 
 .promo-header-count {
@@ -2446,7 +2492,6 @@ body {
   padding: 6px 14px;
   border-radius: 20px;
   border: 1px solid #19191b;
-  font-family: 'Inter', sans-serif;
 }
 
 .promo-grid {
@@ -2506,7 +2551,6 @@ body {
   border-radius: 12px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  font-family: 'Inter', sans-serif;
 }
 
 .promo-tag.best {
@@ -2529,7 +2573,6 @@ body {
   backdrop-filter: blur(4px);
   color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  font-family: 'Inter', sans-serif;
 }
 
 .promo-card-body {
@@ -2542,7 +2585,6 @@ body {
   color: #ffffff;
   margin-bottom: 8px;
   line-height: 1.3;
-  font-family: 'Inter', sans-serif;
 }
 
 .promo-card-meta {
@@ -2556,14 +2598,12 @@ body {
   font-size: 20px;
   font-weight: 700;
   color: #c9a84c;
-  font-family: 'Inter', sans-serif;
 }
 
 .promo-card-price-pln {
   font-size: 14px;
   font-weight: 400;
   color: #71717a;
-  font-family: 'Inter', sans-serif;
 }
 
 .promo-card-details {
@@ -2581,19 +2621,16 @@ body {
   justify-content: space-between;
   align-items: center;
   font-size: 13px;
-  font-family: 'Inter', sans-serif;
 }
 
 .promo-label {
   color: #71717a;
   font-weight: 400;
-  font-family: 'Inter', sans-serif;
 }
 
 .promo-value {
   color: #efeff1;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
 }
 
 .promo-expiry {
@@ -2621,7 +2658,6 @@ body {
   font-size: 13px;
   font-weight: 500;
   color: #a1a1aa;
-  font-family: 'Inter', sans-serif;
 }
 
 .promo-stat:first-child {
@@ -2641,7 +2677,6 @@ body {
   text-decoration: none;
   transition: all 0.3s ease;
   border: none;
-  font-family: 'Inter', sans-serif;
   cursor: pointer;
 }
 
@@ -2650,53 +2685,7 @@ body {
   transform: translateY(-1px);
 }
 
-/* Responsywność */
-@media (max-width: 1024px) {
-  .promo-grid {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .promo-grid {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 16px;
-  }
-  .promo-header-title {
-    font-size: 18px;
-  }
-  .promo-card-title {
-    font-size: 14px;
-  }
-  .promo-card-price {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 480px) {
-  .promo-grid {
-    grid-template-columns: 1fr;
-    gap: 14px;
-  }
-  .promo-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-  .promo-header-count {
-    font-size: 12px;
-    padding: 4px 12px;
-  }
-  .promo-card-footer {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .promo-card-stats {
-    flex-wrap: wrap;
-  }
-}
-/* ====== SPRZEDAWCY - POPRAWIONE STYLE ====== */
+/* SPRZEDAWCY - POPRAWIONE STYLE */
 .sellers-hero {
   text-align: center;
   margin-bottom: 40px;
@@ -2708,13 +2697,11 @@ body {
   color: #ffffff;
   margin-bottom: 8px;
   letter-spacing: -1px;
-  font-family: 'Inter', sans-serif;
 }
 
 .sellers-hero p {
   font-size: 16px;
   color: #71717a;
-  font-family: 'Inter', sans-serif;
 }
 
 .sellers-filter-bar {
@@ -2740,7 +2727,6 @@ body {
   color: #ffffff;
   font-size: 14px;
   transition: border-color 0.2s;
-  font-family: 'Inter', sans-serif;
 }
 
 .sellers-search-input input:focus {
@@ -2772,7 +2758,6 @@ body {
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease;
-  font-family: 'Inter', sans-serif;
 }
 
 .seller-filter-chip:hover {
@@ -2818,7 +2803,6 @@ body {
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
-  font-family: 'Inter', sans-serif;
 }
 
 .seller-card-badge {
@@ -2829,7 +2813,6 @@ body {
   padding: 4px 12px;
   border-radius: 12px;
   border: 1px solid rgba(201, 168, 76, 0.2);
-  font-family: 'Inter', sans-serif;
 }
 
 .seller-card-badge.best {
@@ -2842,7 +2825,6 @@ body {
   color: #a1a1aa;
   line-height: 1.5;
   margin: 8px 0 16px 0;
-  font-family: 'Inter', sans-serif;
 }
 
 .seller-card-footer {
@@ -2857,7 +2839,6 @@ body {
   gap: 6px;
   font-size: 13px;
   color: #a1a1aa;
-  font-family: 'Inter', sans-serif;
 }
 
 .seller-card-rating .stars {
@@ -2876,7 +2857,6 @@ body {
   cursor: pointer;
   transition: all 0.2s ease;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
 }
 
 .seller-card-btn:hover {
@@ -2884,29 +2864,7 @@ body {
   color: #0b0b0c;
 }
 
-/* Responsywność sprzedawców */
-@media (max-width: 768px) {
-  .sellers-grid {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 16px;
-  }
-  .sellers-hero h2 {
-    font-size: 28px;
-  }
-  .seller-card-name {
-    font-size: 17px;
-  }
-}
-
-@media (max-width: 480px) {
-  .sellers-grid {
-    grid-template-columns: 1fr;
-  }
-  .seller-card {
-    padding: 18px;
-  }
-}
-/* ====== LIGHTBOX ZWYKŁY - POPRAWKA ====== */
+/* LIGHTBOX ZWYKŁY - POPRAWKA */
 #lightboxOverlay .lightbox-content {
   position: relative;
   width: 100%;
