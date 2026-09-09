@@ -9592,7 +9592,36 @@ const products = [
     tag: "TOPHOT",
     rating: 5
   },
-
+  {
+    name: "Corvidae Shiny Black V2 Puffer Jacket",
+    category: "Jackets",
+    price: "$97.73",
+    image: "https://media.usfans.com/2026/08/11/154551/1c070386-ccdc-458c-b31c-ca8536d59167.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D856300197629",
+    linkUsfans: "https://usfans.com/product/2/3jkti8cX_Kvhd9nKLqrwga99HO0Uh8Z8LshV02zt4lCCmyd_rOYY3w?ref=TX9V9N",
+    tag: "ANGELKING",
+    rating: 5
+  },
+  {
+    name: "Corvidae Puffer jacket",
+    category: "Jackets",
+    price: "$47.87",
+    image: "https://media.usfans.com/2026/09/03/134627/5cc06b62-3422-4c86-b6ee-80e1cf8133ba.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D800711464338",
+    linkUsfans: "https://usfans.com/product/2/G8CvERx1mkVjjb97WYwqyb6mxIWGy2DCoRTntykLHFZXIc8UvOh0Cw?ref=TX9V9N",
+    tag: "ANGELKING",
+    rating: 5
+  },
+  {
+    name: "SYNAWORLD DOWN JACKET BLACK",
+    category: "Jackets",
+    price: "$81.44",
+    image: "https://img.alicdn.com/bao/uploaded/i3/727551888/O1CN012YbbNv1Poko3jw96y_!!727551888.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D862036961394",
+    linkUsfans: "https://usfans.com/product/2/4EXkqlNoG2amuukVTIipmGBkGgQx4bE97ma_rTmz4jCbiigAowLhmA?ref=TX9V9N",
+    tag: "ANGELKING",
+    rating: 5
+  },
 ];
 
 // ============================================
