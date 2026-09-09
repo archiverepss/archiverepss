@@ -11497,6 +11497,32 @@ function setupEventListeners() {
       }
     });
   }
+
+  // ============================================
+  // 🔧 POPRAWKA DLA LIGHTBOXA ZWYKŁEGO - ESC I X
+  // ============================================
+  
+  var lightboxCloseBtn = document.getElementById('lightboxClose');
+  if (lightboxCloseBtn) {
+    lightboxCloseBtn.addEventListener('click', closeLightbox);
+  }
+  
+  var lightboxOverlay = document.getElementById('lightboxOverlay');
+  if (lightboxOverlay) {
+    lightboxOverlay.addEventListener('click', function(e) {
+      if (e.target === this) closeLightbox();
+    });
+  }
+  
+  // Klawisz Escape dla zwykłego lightboxa
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      const overlay = document.getElementById('lightboxOverlay');
+      if (overlay && overlay.classList.contains('active')) {
+        closeLightbox();
+      }
+    }
+  });
 }
 
 // ============================================
@@ -11757,7 +11783,7 @@ function renderGrid(items) {
 }
 
 // ============================================
-// 🔍 LIGHTBOX ZWYKŁY
+// 🔍 LIGHTBOX ZWYKŁY - POPRAWIONY
 // ============================================
 function openLightbox(imgSrc) {
   var overlay = document.getElementById('lightboxOverlay');
