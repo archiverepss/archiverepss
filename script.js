@@ -9622,6 +9622,86 @@ const products = [
     tag: "ANGELKING",
     rating: 5
   },
+  {
+    name: "PEACEINWAR PINK TEE",
+    category: "Tshirts",
+    price: "$14.13",
+    image: "https://si.geilicdn.com/wdseller1995625455-58d40000019f1d0b438b0a23c286_1320_1760.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7798589021",
+    linkUsfans: "https://usfans.com/product/3/7798589021?ref=TX9V9N",
+    tag: "ALIENSTUDIO / BEST",
+    rating: 5
+  },
+  {
+    name: "WLNEXT PUFFER JACKET",
+    category: "Jackets",
+    price: "$43.88",
+    image: "https://img.alicdn.com/bao/uploaded/i4/1124265575/O1CN01eHpJKh1r3PAAwlUau_!!1124265575.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984176563412",
+    linkUsfans: "https://usfans.com/product/2/-IPYFgMP6knBbkfeXxqF_Vs9QRYUYII4qZoJxMKv6rJroRHsYtM8Fg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "DIOR SS06 HOODIE",
+    category: "Hoodies",
+    price: "$42.88",
+    image: "https://si.geilicdn.com/wdseller1527017215-5ec9000001a0857d5eb50a2304a0_1180_1572.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7713781628",
+    linkUsfans: "https://usfans.com/product/3/7713781628?ref=TX9V9N",
+    tag: "15made",
+    rating: 5
+  },
+  {
+    name: "DIOR 06SS \"BOY ABOUT HOME\" HOODIE",
+    category: "Hoodies",
+    price: "$47.87",
+    image: "https://si.geilicdn.com/wdseller1527017215-24d7000001a0857dbaaf0a2394a4_1178_1570.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7539645059",
+    linkUsfans: "https://usfans.com/product/3/7539645059?ref=TX9V9N",
+    tag: "15made",
+    rating: 5
+  },
+  {
+    name: "UNDERCOVER BLUE YARN JEANS",
+    category: "Pants",
+    price: "$71.14",
+    image: "https://img.alicdn.com/imgextra/i4/275950640/O1CN018JWdRK1GbAYQIsU6Y_!!275950640.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D968509323403",
+    linkUsfans: "https://usfans.com/product/2/Ih9W5MWJQCDiIBfPMMuZO3TH9kQZIiL7L4-Uv9HCY13a1nHKGGsdWg?ref=TX9V9N",
+    tag: "SHTYJ",
+    rating: 5
+  },
+  {
+    name: "DIOR CUMMERBUND JEANS",
+    category: "Pants",
+    price: "$66.32",
+    image: "https://media.usfans.com/2026/09/02/142915/a3c440db-75cf-4e02-a29a-35101fb5efc7.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1062707614818",
+    linkUsfans: "https://usfans.com/product/2/U18mzwlCZh7u49g32Ncti6lm-sov_r9j1TAsRKtcP949yjJSdbhWJjk?ref=TX9V9N",
+    tag: "DINI",
+    rating: 5
+  },
+  {
+    name: "UNDERCOVER HEART JEANS",
+    category: "Pants",
+    price: "$57.84",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2220838465365/O1CN01NHGf1n1pVE1DvdrPR~crop,0,199,2268,3024~_!!2220838465365.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1028244309387",
+    linkUsfans: "https://usfans.com/product/2/HJHe7C7oGiBsd7sknIV2vTCSzhRsaMqTol-yVoEd6eg_VtSBnWGhkjU?ref=TX9V9N",
+    tag: "RANDOM / HYPEKID",
+    rating: 5
+  },
+  {
+    name: "MONCLER BATMAN JACKET",
+    category: "Jackets",
+    price: "$112.85",
+    image: "https://media.usfans.com/2026/09/05/205939/482d2d05-3e59-4656-8d35-a58080db7263.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D970007644708",
+    linkUsfans: "https://usfans.com/product/2/qCGvlyrRfKMGC9rDlcLPgMnU6A0VK5MYhHeDTcdlQSAcNUzArjNh7Q?ref=TX9V9N",
+    tag: "TOPHOT",
+    rating: 5
+  },
 ];
 
 // ============================================
