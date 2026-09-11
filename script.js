@@ -11088,26 +11088,34 @@ const agentConfig = {
   kakobuy: {
     name: 'Kakobuy',
     logo: 'https://kakobuy.com/favicon.ico',
-    title: 'Dołącz do Kakobuy!',
-    desc: 'Zarejestruj się przez nasz link i otrzymaj <strong>bonus powitalny</strong> na pierwsze zakupy!',
     codeLabel: 'Kod rabatowy:',
     code: 'archiverepss',
-    discount: '🎉 Otrzymujesz <strong>-15$</strong> na shipping!',
-    btnText: 'Zarejestruj się →',
+    headline: 'Zapłać mniej za wysyłkę w Kakobuy!',
+    desc: 'Zarejestruj się przez nasz link, a później w Kuponach wpisz kod <strong>archiverepss</strong> i odbierz bonusy powitalne.',
+    showLive: true,
+    benefit1Text: 'Darmowy kupon na shipping',
+    benefit1Tag: 'GRATIS',
+    benefit2Text: 'Odbierz bonus -15$ na shipping!',
+    benefit2Tag: '−15$',
+    btnText: 'Zarejestruj się i odbierz bonusy',
     btnUrl: 'https://www.kakobuy.com/register/?affcode=archivee',
-    footer: 'Kod obowiązuje przy pierwszym zamówieniu'
+    footer: 'Bez zobowiązań · Bonusy działają tylko przez ten link'
   },
   usfans: {
     name: 'USFans',
     logo: 'https://usfans.com/favicon.ico',
-    title: 'Dołącz do USFans!',
-    desc: 'Zarejestruj się przez nasz link i otrzymaj <strong>bonus powitalny</strong> na pierwsze zakupy!',
     codeLabel: 'Kod referencyjny:',
-    code: 'TX9V9N',
-    discount: '🎉 Otrzymujesz <strong>specjalne zniżki oraz KUPON -40%</strong> na shipping!',
-    btnText: 'Zarejestruj się →',
+    code: 'CARE40',
+    headline: 'Kup taniej w USFans — kod CARE40',
+    desc: 'Zarejestruj się przez nasz link, później w Kuponach wpisz kod <strong>CARE40</strong> i otrzymaj kupony, które możesz łączyć!',
+    showLive: true,
+    benefit1Text: 'Masa zajebistych kuponów',
+    benefit1Tag: 'GRATIS',
+    benefit2Text: 'Odbierz kupon -40% na USFans!',
+    benefit2Tag: '−40%',
+    btnText: 'Zarejestruj się i odbierz bonusy',
     btnUrl: 'https://usfans.com/register?ref=TX9V9N',
-    footer: 'Kod obowiązuje przy pierwszym zamówieniu'
+    footer: 'Bez zobowiązań · Bonusy działają tylko przez ten link'
   }
 };
 
@@ -11277,35 +11285,61 @@ function hideRegisterPopup() {
 function updateRegisterPopup() {
   var agent = preferredAgent || 'kakobuy';
   var config = agentConfig[agent];
-  
+
   if (!config) return;
-  
+
   var logoImg = document.getElementById('popupLogoImg');
   if (logoImg) logoImg.src = config.logo;
-  
-  var title = document.getElementById('popupTitle');
-  if (title) title.textContent = config.title;
-  
+
+  var headline = document.getElementById('popupHeadline');
+  if (headline) headline.textContent = config.headline || 'Zapłać za 10kg tylko 350zł!';
+
   var desc = document.getElementById('popupDesc');
   if (desc) desc.innerHTML = config.desc;
-  
+
+  var subtextCode = document.getElementById('popupSubtextCode');
+  if (subtextCode) subtextCode.textContent = config.code;
+
+  var live = document.getElementById('popupLive');
+  if (live) live.style.display = config.showLive ? 'inline-flex' : 'none';
+
+  var b1Text = document.getElementById('popupBenefit1Text');
+  var b1Tag = document.getElementById('popupBenefit1Tag');
+  if (b1Text) b1Text.textContent = config.benefit1Text || '';
+  if (b1Tag) b1Tag.textContent = config.benefit1Tag || '';
+
+  var b2Text = document.getElementById('popupBenefit2Text');
+  var b2Tag = document.getElementById('popupBenefit2Tag');
+  if (b2Text) b2Text.textContent = config.benefit2Text || '';
+  if (b2Tag) b2Tag.textContent = config.benefit2Tag || '';
+
   var codeLabel = document.getElementById('popupCodeLabel');
   if (codeLabel) codeLabel.textContent = config.codeLabel;
-  
+
   var codeValue = document.getElementById('popupCodeValue');
   if (codeValue) codeValue.textContent = config.code;
-  
-  var discount = document.getElementById('popupDiscount');
-  if (discount) discount.innerHTML = config.discount;
-  
+
   var registerBtn = document.getElementById('popupRegisterBtn');
-  if (registerBtn) {
-    registerBtn.href = config.btnUrl;
-    registerBtn.textContent = config.btnText;
-  }
-  
+  if (registerBtn) registerBtn.href = config.btnUrl;
+
+  var btnText = document.getElementById('popupBtnText');
+  if (btnText) btnText.textContent = config.btnText;
+
   var footer = document.getElementById('popupFooter');
   if (footer) footer.textContent = config.footer;
+}
+
+function randomizePopupLive() {
+  var countEl = document.getElementById('popupLiveCount');
+  if (!countEl) return;
+  var base = 60 + Math.floor(Math.random() * 40);
+  countEl.textContent = base;
+
+  setInterval(function() {
+    var delta = Math.random() > 0.5 ? 1 : -1;
+    base = Math.max(45, Math.min(120, base + delta));
+    countEl.textContent = base;
+  }, 4000);
 }
 
 // ============================================
@@ -11438,6 +11472,20 @@ function setupEventListeners() {
     lastFindsLink.addEventListener('click', function(e){
       e.preventDefault();
       switchView('lastfinds');
+        // Slider Last Finds — strzałki
+  var sliderPrev = document.getElementById('sliderPrev');
+  var sliderNext = document.getElementById('sliderNext');
+  if (sliderPrev) sliderPrev.addEventListener('click', slidePrev);
+  if (sliderNext) sliderNext.addEventListener('click', slideNext);
+
+  // Resize — przelicz ponownie
+  window.addEventListener('resize', function() {
+    if (currentView === 'lastfinds') {
+      updateSlidesPerView();
+      updateSlider();
+      updateDots();
+    }
+  });
     });
   }
   
@@ -12389,6 +12437,13 @@ document.addEventListener('DOMContentLoaded', function() {
     banner.classList.add('hidden');
     document.body.classList.add('no-banner');
   }
+});
+
+// ============================================
+// POPUP LIVE COUNTER (start)
+// ============================================
+document.addEventListener('DOMContentLoaded', function() {
+  randomizePopupLive();
 });
 
 // ============================================

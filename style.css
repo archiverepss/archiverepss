@@ -2971,3 +2971,351 @@ body.no-banner {
   body { padding-top: 118px; }
   body.no-banner { padding-top: 76px; }
 }
+/* ============================================
+   FIX: Slider strzałki — poprawione
+   ============================================ */
+.slider-arrow {
+  cursor: pointer !important;
+  user-select: none;
+  -webkit-user-select: none;
+  pointer-events: auto !important;
+  z-index: 20 !important;
+  position: relative;
+}
+
+.slider-arrow:active:not(:disabled) {
+  transform: scale(0.92);
+}
+
+.slider-arrow:not(:disabled):hover {
+  background: linear-gradient(135deg, rgba(124, 92, 255, 0.25), rgba(74, 212, 255, 0.15));
+  border-color: rgba(124, 92, 255, 0.6);
+  color: #ffffff;
+  box-shadow: 0 8px 24px rgba(124, 92, 255, 0.35);
+}
+
+.slider-arrow:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+
+/* ============================================
+   FIX: Tagi produktów — dopasowane do palety
+   ============================================ */
+
+/* RANDOM — neutralny fiolet */
+.product-tag {
+  background: linear-gradient(135deg, rgba(124, 92, 255, 0.95), rgba(167, 139, 250, 0.9)) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 4px 16px rgba(124, 92, 255, 0.45) !important;
+}
+
+/* BEST / TOPHOT — złoty */
+.product-tag.best {
+  background: linear-gradient(135deg, #d4af37, #f5d76e) !important;
+  color: #0a0a0a !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.5) !important;
+}
+
+/* BUDGET — cyan/teal */
+.product-tag.budget {
+  background: linear-gradient(135deg, rgba(74, 212, 255, 0.9), rgba(20, 184, 166, 0.85)) !important;
+  color: #0a0a0a !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 4px 16px rgba(74, 212, 255, 0.4) !important;
+}
+
+/* NEW — zielony sukces */
+.product-tag.new {
+  background: linear-gradient(135deg, #34d399, #6ee7b7) !important;
+  color: #0a0a0a !important;
+  box-shadow: 0 4px 16px rgba(52, 211, 153, 0.4) !important;
+}
+
+/* PROMOTED — złoty z glow */
+.product-tag.promoted {
+  background: linear-gradient(135deg, #d4af37, #f5d76e) !important;
+  color: #0a0a0a !important;
+  box-shadow: 0 0 24px rgba(212, 175, 55, 0.6) !important;
+  animation: glow-promoted 2s ease-in-out infinite !important;
+}
+
+/* ============================================
+   POPUP v2 — bogaty styl rejestracji
+   ============================================ */
+
+.popup-card-v2 {
+  max-width: 460px;
+  padding: 28px 24px 22px;
+  text-align: left;
+  background: rgba(16, 18, 36, 0.92);
+  border: 1px solid rgba(124, 92, 255, 0.22);
+  box-shadow:
+    0 32px 80px rgba(0, 0, 0, 0.75),
+    0 0 60px rgba(124, 92, 255, 0.15),
+    0 0 0 1px rgba(255, 255, 255, 0.03) inset;
+}
+
+.popup-header-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.popup-brand-v2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.popup-card-v2 .popup-agent-logo {
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.popup-card-v2 .popup-agent-logo img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
+.popup-brand-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.2px;
+}
+
+.popup-badges-v2 {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.popup-badge-v2 {
+  font-size: 10.5px;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 6px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.popup-badge-v2.partner {
+  background: rgba(124, 92, 255, 0.15);
+  color: #a78bfa;
+  border-color: rgba(124, 92, 255, 0.3);
+}
+
+.popup-badge-v2.limited {
+  background: rgba(255, 170, 60, 0.12);
+  color: #ffaa3c;
+  border-color: rgba(255, 170, 60, 0.3);
+}
+
+.popup-headline {
+  font-size: 26px;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.15;
+  letter-spacing: -0.6px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.popup-subtext {
+  font-size: 13.5px;
+  color: #b8bcd0;
+  line-height: 1.55;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.popup-subtext strong {
+  color: #ffffff;
+  background: rgba(124, 92, 255, 0.15);
+  padding: 1px 6px;
+  border-radius: 5px;
+  font-weight: 700;
+  border: 1px solid rgba(124, 92, 255, 0.25);
+  font-size: 12.5px;
+}
+
+.popup-live {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background: rgba(52, 211, 153, 0.08);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+  border-radius: 999px;
+  font-size: 12.5px;
+  color: #d4d4dc;
+  margin-bottom: 18px;
+}
+
+.popup-live strong {
+  color: #34d399;
+  font-weight: 700;
+}
+
+.popup-live-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #34d399;
+  animation: popupLivePulse 1.6s infinite;
+  flex-shrink: 0;
+}
+
+@keyframes popupLivePulse {
+  0%   { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.7); }
+  70%  { box-shadow: 0 0 0 8px rgba(52, 211, 153, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); }
+}
+
+.popup-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.popup-benefit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  transition: all 0.22s ease;
+}
+
+.popup-benefit:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.popup-benefit-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.popup-benefit-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 9px;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.popup-benefit-text {
+  font-size: 13.5px;
+  color: #e8e8ee;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.popup-benefit-tag {
+  font-size: 11px;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 7px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.popup-benefit-tag.gratis {
+  background: rgba(52, 211, 153, 0.15);
+  color: #34d399;
+  border: 1px solid rgba(52, 211, 153, 0.3);
+}
+
+.popup-benefit-tag.discount {
+  background: rgba(255, 110, 199, 0.15);
+  color: #ff6ec7;
+  border: 1px solid rgba(255, 110, 199, 0.3);
+}
+
+.popup-card-v2 .popup-code-section {
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+}
+
+.popup-card-v2 .code-label { font-size: 11px; }
+.popup-card-v2 .code-value { font-size: 14px; }
+
+.popup-btn-v2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #ff3d8f 0%, #d946ef 50%, #a78bfa 100%);
+  color: #ffffff;
+  font-size: 14.5px;
+  font-weight: 800;
+  border-radius: 14px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow:
+    0 10px 30px rgba(255, 61, 143, 0.35),
+    0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.popup-btn-v2:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 14px 40px rgba(255, 61, 143, 0.5),
+    0 0 0 1px rgba(255, 255, 255, 0.15) inset;
+}
+
+.popup-btn-icon { font-size: 16px; }
+.popup-btn-arrow { transition: transform 0.22s ease; font-weight: 700; }
+.popup-btn-v2:hover .popup-btn-arrow { transform: translateX(4px); }
+
+.popup-card-v2 .popup-footer {
+  font-size: 11px;
+  color: #565a72;
+  text-align: center;
+  margin-top: 0;
+}
+
+@media (max-width: 480px) {
+  .popup-headline { font-size: 22px; }
+  .popup-card-v2 { padding: 22px 18px 18px; }
+  .popup-benefit-text { font-size: 12.5px; }
+}

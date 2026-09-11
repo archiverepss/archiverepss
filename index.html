@@ -13,7 +13,7 @@
   <meta property="og:description" content="Najlepszy spreadsheet w Polsce. Sprawdź najlepsze batche, codziennie nowe produkty!">
   <meta property="og:image" content="https://archivereps.pl/banner2.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="theme-color" content="#D4AF37">
+  <meta name="theme-color" content="#7c5cff">
   <link rel="icon" href="https://archivereps.pl/favicon.png" type="image/png" sizes="144x144">
   <link rel="apple-touch-icon" href="https://archivereps.pl/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="style.css">
   <script data-goatcounter="https://archiverepss.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
+<body>
 
 <!-- BANNER PROMO -->
 <div class="promo-banner" id="promoBanner">
@@ -54,325 +55,366 @@
     </div>
   </div>
 </div>
-<body>
 
-  <nav class="navbar">
-    <div class="nav-container">
-      <div class="nav-left">
-        <div class="brand-logo" id="logoText">
-          <span class="logo-archive">Archive</span><span class="logo-repss">Repss</span>
-        </div>
-        <div class="nav-search-box">
-          <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-left">
+      <div class="brand-logo" id="logoText">
+        <span class="logo-archive">Archive</span><span class="logo-repss">Repss</span>
+      </div>
+      <div class="nav-search-box">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input type="text" id="globalSearch" placeholder="Szukaj...  ⌘ K" oninput="handleSearch()" />
+      </div>
+    </div>
+    <div class="nav-links">
+      <a href="#" class="nav-link active" id="navSpreadsheet"><span>Spreadsheet</span></a>
+      <a href="#" class="nav-link" id="navLastFinds"><span>Last Finds</span></a>
+      <a href="#" class="nav-link" id="navPromo"><span>Promo Finds</span></a>
+      <a href="#" class="nav-link" id="navSellers"><span>Sprzedawcy</span></a>
+      <a href="#" class="nav-link" id="navQCSearch"><span>Sprawdź QC</span></a>
+      <a href="#" class="nav-link" id="changeAgentBtn"><span>Zmiana agenta</span></a>
+    </div>
+    <div class="nav-right-icons">
+      <button class="icon-btn" id="changeLangBtn" title="Zmień język">PL</button>
+      <button class="icon-btn" title="Ulubione">♥</button>
+      <button class="icon-btn" title="Ustawienia">⚙</button>
+    </div>
+  </div>
+</nav>
+
+<main class="main-content">
+
+  <header class="hero-section">
+    <div class="hero-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M8 13h8"/><path d="M8 17h8"/><path d="M8 9h2"/>
+      </svg>
+    </div>
+    <h1 id="heroTitle">Spreadsheet</h1>
+    <p id="heroSubtitle">Przeglądaj naszą kolekcję najlepszych linków.</p>
+  </header>
+
+  <div id="productsView">
+    <section class="filter-controls-section">
+      <div class="search-filter-wrapper">
+        <div class="product-search-input">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner">
             <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
           </svg>
-          <input type="text" id="globalSearch" placeholder="Szukaj...  ⌘ K" oninput="handleSearch()" />
+          <input type="text" id="search" placeholder="Szukaj produktów..." oninput="handleSearch()" />
         </div>
+        <button class="filter-toggle-btn" id="filterToggleBtn"><span>Filtry</span></button>
       </div>
-      <div class="nav-links">
-        <a href="#" class="nav-link active" id="navSpreadsheet"><span>Spreadsheet</span></a>
-        <a href="#" class="nav-link" id="navLastFinds"><span>Last Finds</span></a>
-        <a href="#" class="nav-link" id="navPromo"><span>Promo Finds</span></a>
-        <a href="#" class="nav-link" id="navSellers"><span>Sprzedawcy</span></a>
-        <a href="#" class="nav-link" id="navQCSearch"><span>Sprawdź QC</span></a>
-        <a href="#" class="nav-link" id="changeAgentBtn"><span>Zmiana agenta</span></a>
+
+      <div class="advanced-filters-panel" id="advancedFilters">
+        <div class="filter-group">
+          <label id="lblSorting">Sortowanie</label>
+          <select id="sortSelect" onchange="applyFiltersAndSort()">
+            <option value="default" id="optDefault">Domyślne</option>
+            <option value="asc" id="optAsc">Cena: od najniższej</option>
+            <option value="desc" id="optDesc">Cena: od najwyższej</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label id="lblPriceFilter">Filtr cenowy (PLN)</label>
+          <div class="price-inputs">
+            <input type="number" id="priceMin" placeholder="Min" oninput="applyFiltersAndSort()" />
+            <input type="number" id="priceMax" placeholder="Max" oninput="applyFiltersAndSort()" />
+          </div>
+        </div>
+        <button class="clear-filters-btn" id="clearFilterBtn" onclick="clearPriceFilters()">Wyczyść filtr</button>
       </div>
-      <div class="nav-right-icons">
-        <button class="icon-btn" id="changeLangBtn" title="Zmień język">PL</button>
-        <button class="icon-btn" title="Ulubione">♥</button>
-        <button class="icon-btn" title="Ustawienia">⚙</button>
+
+      <div class="categories-header">
+        <div class="categories-chips-container" id="categoriesContainer"></div>
+        <span id="itemCount" style="font-size: 13px; color: #71717a; white-space: nowrap; padding-left: 12px;">0 itemów</span>
       </div>
-    </div>
-  </nav>
+    </section>
 
-  <main class="main-content">
-
-    <header class="hero-section">
-      <div class="hero-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M8 13h8"/><path d="M8 17h8"/><path d="M8 9h2"/>
-        </svg>
-      </div>
-      <h1 id="heroTitle">Spreadsheet</h1>
-      <p id="heroSubtitle">Przeglądaj naszą kolekcję najlepszych linków.</p>
-    </header>
-
-    <div id="productsView">
-      <section class="filter-controls-section">
-        <div class="search-filter-wrapper">
-          <div class="product-search-input">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner">
-              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-            </svg>
-            <input type="text" id="search" placeholder="Szukaj produktów..." oninput="handleSearch()" />
-          </div>
-          <button class="filter-toggle-btn" id="filterToggleBtn"><span>Filtry</span></button>
-        </div>
-
-        <div class="advanced-filters-panel" id="advancedFilters">
-          <div class="filter-group">
-            <label id="lblSorting">Sortowanie</label>
-            <select id="sortSelect" onchange="applyFiltersAndSort()">
-              <option value="default" id="optDefault">Domyślne</option>
-              <option value="asc" id="optAsc">Cena: od najniższej</option>
-              <option value="desc" id="optDesc">Cena: od najwyższej</option>
-            </select>
-          </div>
-          <div class="filter-group">
-            <label id="lblPriceFilter">Filtr cenowy (PLN)</label>
-            <div class="price-inputs">
-              <input type="number" id="priceMin" placeholder="Min" oninput="applyFiltersAndSort()" />
-              <input type="number" id="priceMax" placeholder="Max" oninput="applyFiltersAndSort()" />
-            </div>
-          </div>
-          <button class="clear-filters-btn" id="clearFilterBtn" onclick="clearPriceFilters()">Wyczyść filtr</button>
-        </div>
-
-        <div class="categories-header">
-          <div class="categories-chips-container" id="categoriesContainer"></div>
-          <span id="itemCount" style="font-size: 13px; color: #71717a; white-space: nowrap; padding-left: 12px;">0 itemów</span>
-        </div>
-      </section>
-
-      <section class="products-grid-section">
-        <div id="grid" class="products-grid"></div>
-      </section>
-    </div>
-
-    <div id="lastFindsView" style="display: none;">
-      <section class="lastfinds-slider-section">
-        <div class="slider-container">
-          <button class="slider-arrow slider-arrow-left" id="sliderPrev">‹</button>
-          <div class="slider-wrapper"><div class="slider-track" id="sliderTrack"></div></div>
-          <button class="slider-arrow slider-arrow-right" id="sliderNext">›</button>
-        </div>
-        <div class="slider-dots" id="sliderDots"></div>
-      </section>
-    </div>
-
-    <div id="sellersView" style="display: none;">
-      <section class="sellers-grid-section">
-        <div class="sellers-filter-bar">
-          <div class="sellers-search-input">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner">
-              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-            </svg>
-            <input type="text" id="sellerSearch" placeholder="Szukaj sprzedawców..." oninput="filterSellers()" />
-          </div>
-          <div class="sellers-filter-chips">
-            <button class="seller-filter-chip active" data-cat="all" onclick="filterSellersByCategory('all')">Wszyscy</button>
-            <button class="seller-filter-chip" data-cat="clothing" onclick="filterSellersByCategory('clothing')">Odzież</button>
-            <button class="seller-filter-chip" data-cat="shoes" onclick="filterSellersByCategory('shoes')">Buty</button>
-            <button class="seller-filter-chip" data-cat="luxury" onclick="filterSellersByCategory('luxury')">Luxury</button>
-          </div>
-        </div>
-        <div id="sellersGrid" class="sellers-grid"></div>
-      </section>
-    </div>
-
-    <div id="qcSearchView" style="display: none;">
-      <section class="qc-search-section">
-        <div class="qc-search-container">
-          <div class="qc-search-box">
-            <div class="qc-search-input-wrapper">
-              <svg class="qc-search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-              </svg>
-              <input type="text" id="qcSearchInput" placeholder="Szukaj produktów po nazwie lub wklej link..." onkeydown="if(event.key==='Enter') searchQC()" />
-            </div>
-            <button class="qc-search-btn" onclick="searchQC()">Szukaj</button>
-          </div>
-          <div id="qcSearchResult" style="display: none;">
-            <div id="qcSearchLoading" class="qc-loading">
-              <div class="qc-spinner"></div>
-              <span>Szukam zdjęć QC...</span>
-            </div>
-            <div id="qcSearchGallery" class="qc-search-gallery"></div>
-          </div>
-          <div class="qc-search-hint">Wpisz nazwę produktu lub wklej link z USFans / Kakobuy</div>
-        </div>
-      </section>
-    </div>
-
-    <div id="promoView" style="display: none;">
-      <section class="promo-grid-section">
-        <div class="promo-header">
-          <div class="promo-header-left">
-            <span class="promo-header-icon">PROMO</span>
-            <h2 class="promo-header-title">Promo Finds</h2>
-          </div>
-          <span class="promo-header-count">Aktualne promocje</span>
-        </div>
-        <div id="promoGrid" class="promo-grid"></div>
-      </section>
-    </div>
-  </main>
-
-  <div class="popup-overlay" id="languagePopupOverlay">
-    <div class="language-modal-card">
-      <div class="language-modal-header">
-        <div class="language-icon">🌐</div>
-        <h2 id="langPopupTitle">Wybierz język</h2>
-        <p id="langPopupDesc">Select your preferred language</p>
-      </div>
-      <div class="language-options">
-        <button class="language-btn" data-lang="pl" onclick="selectLanguage('pl')"><span class="lang-flag">🇵🇱</span><span class="lang-name">Polski</span></button>
-        <button class="language-btn" data-lang="en" onclick="selectLanguage('en')"><span class="lang-flag">🇬🇧</span><span class="lang-name">English</span></button>
-      </div>
-      <button class="language-confirm-btn" id="confirmLangBtn" onclick="confirmLanguage()">Kontynuuj →</button>
-    </div>
+    <section class="products-grid-section">
+      <div id="grid" class="products-grid"></div>
+    </section>
   </div>
 
-  <div class="popup-overlay" id="agentPopupOverlay">
-    <div class="agent-modal-card">
-      <button class="modal-close-x" onclick="closeAgentPopup()">×</button>
-      <div class="modal-header">
-        <h2 id="agentPopupTitle">Wybierz Agenta</h2>
-        <p id="agentPopupDesc">Wybierz preferowanego agenta do zakupów przedmiotów.</p>
+  <div id="lastFindsView" style="display: none;">
+    <section class="lastfinds-slider-section">
+      <div class="slider-container">
+        <button class="slider-arrow slider-arrow-left" id="sliderPrev" type="button">‹</button>
+        <div class="slider-wrapper"><div class="slider-track" id="sliderTrack"></div></div>
+        <button class="slider-arrow slider-arrow-right" id="sliderNext" type="button">›</button>
       </div>
-      <div class="agent-options-grid">
-        <button class="agent-select-btn" onclick="selectAgent('kakobuy')">
-          <div class="agent-btn-content"><span class="agent-logo-dot kakobuy-dot"></span><span class="agent-name">Kakobuy</span></div>
-          <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-        </button>
-        <button class="agent-select-btn" onclick="selectAgent('usfans')">
-          <div class="agent-btn-content"><span class="agent-logo-dot usfans-dot"></span><span class="agent-name">USFans</span></div>
-          <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-        </button>
-      </div>
-    </div>
+      <div class="slider-dots" id="sliderDots"></div>
+    </section>
   </div>
 
-  <div class="popup-overlay" id="popupOverlay">
-    <div class="popup-card">
-      <button class="popup-close" id="popupClose">×</button>
-      <div class="popup-agent-logo" id="popupAgentLogo">
-        <img src="https://kakobuy.com/favicon.ico" alt="Kakobuy" id="popupLogoImg">
-      </div>
-      <h3 id="popupTitle">Dołącz do Kakobuy!</h3>
-      <p id="popupDesc">Zarejestruj się przez nasz link i otrzymaj <strong>bonus powitalny</strong> na pierwsze zakupy!</p>
-      <div class="popup-code-section">
-        <div class="code-row">
-          <span class="code-label" id="popupCodeLabel">Kod rabatowy:</span>
-          <div class="code-value-wrapper">
-            <span class="code-value" id="popupCodeValue">archiverepss</span>
-            <button class="copy-code-btn" onclick="copyCode()">Kopiuj</button>
-          </div>
-        </div>
-      </div>
-      <div class="popup-discount" id="popupDiscount">Otrzymujesz <strong>-15$</strong> na shipping!</div>
-      <a href="https://www.kakobuy.com/register/?affcode=archivee" target="_blank" rel="noopener noreferrer" class="popup-btn" id="popupRegisterBtn">Zarejestruj się →</a>
-      <div class="popup-footer" id="popupFooter">Kod obowiązuje przy pierwszym zamówieniu</div>
-    </div>
-  </div>
-
-  <button class="scroll-to-top" id="scrollToTopBtn">↑</button>
-
-  <div class="lightbox-overlay" id="lightboxOverlay">
-    <div class="lightbox-content">
-      <button class="lightbox-close" id="lightboxClose">×</button>
-      <img id="lightboxImg" src="" alt="Powiększone zdjęcie">
-    </div>
-  </div>
-
-  <div class="lightbox-overlay" id="qcLightboxOverlay">
-    <div class="lightbox-content">
-      <button class="lightbox-close" id="qcLightboxClose">×</button>
-      <div class="qc-lightbox-image-wrapper" id="qcLightboxWrapper">
-        <img id="qcLightboxImg" src="" alt="QC">
-      </div>
-      <div class="qc-lightbox-controls">
-        <button class="qc-lightbox-btn" id="qcZoomIn" title="Przybliż">+</button>
-        <button class="qc-lightbox-btn" id="qcZoomOut" title="Oddal">−</button>
-        <button class="qc-lightbox-btn" id="qcRotate" title="Obróć">↻</button>
-        <button class="qc-lightbox-btn" id="qcFullscreen" title="Pełny ekran">⛶</button>
-        <button class="qc-lightbox-btn" id="qcResetView" title="Reset">↺</button>
-        <span class="qc-lightbox-counter" id="qcLightboxCounter">1 / 1</span>
-        <button class="qc-lightbox-btn" id="qcPrevImage" title="Poprzednie">‹</button>
-        <button class="qc-lightbox-btn" id="qcNextImage" title="Następne">›</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="social-sidebar" id="socialSidebar">
-    <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle social sidebar">≡</button>
-    <div class="sidebar-content">
-      <a href="https://discord.gg/ecY996uVNd" target="_blank" rel="noopener noreferrer" class="sidebar-icon discord" aria-label="Discord">
-        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord" class="sidebar-img">
-        <span class="icon-label">Discord</span>
-      </a>
-      <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="sidebar-icon usfans" aria-label="USFans">
-        <img src="https://swagworld.eu/assets/usfans-DTQr6n0M.webp" alt="USFans" class="sidebar-img usfans-logo">
-        <span class="icon-label">USFans</span>
-      </a>
-      <a href="https://linktr.ee/archiverepsss" target="_blank" rel="noopener noreferrer" class="sidebar-icon linktree" aria-label="Linktree">
-        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linktree.svg" alt="Linktree" class="sidebar-img">
-        <span class="icon-label">Linktree</span>
-      </a>
-      <a href="https://www.tiktok.com/@archiverepsss" target="_blank" rel="noopener noreferrer" class="sidebar-icon tiktok" aria-label="TikTok">
-        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok" class="sidebar-img">
-        <span class="icon-label">TikTok</span>
-      </a>
-    </div>
-  </div>
-
-  <div class="popup-overlay" id="qcPopupOverlay">
-    <div class="qc-modal-card">
-      <button class="modal-close-x" id="qcPopupClose">×</button>
-      <div class="qc-modal-header">
-        <div class="qc-header-left">
-          <span style="font-size:24px">QC</span>
-          <h2>ZDJĘCIA QC</h2>
-        </div>
-        <span class="qc-badge" id="qcBadge">Sprawdzanie...</span>
-      </div>
-      <p class="qc-subtitle">Zdjęcia poglądowe. Zawsze proś o własne zdjęcia QC przed wysyłką.</p>
-      <div class="qc-product-info">
-        <img id="qcProductThumb" src="" alt="Product thumbnail">
-        <div class="qc-product-details">
-          <h4 id="qcProductTitle">Nazwa produktu</h4>
-          <span id="qcProductPrice">Cena</span>
-        </div>
-      </div>
-      <div class="qc-loading" id="qcLoading" style="display:flex;">
-        <div class="qc-spinner"></div>
-        <span>Ładowanie zdjęć QC...</span>
-      </div>
-      <div class="qc-images-grid" id="qcImagesGrid"></div>
-      <div class="qc-footer">
-        <span class="qc-delivery">Śr. dostawa: 2-5d</span>
-        <a href="#" class="qc-link-btn" id="qcLinkBtn" style="display:none;">Zobacz na QCItems →</a>
-      </div>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-
-  <footer class="site-footer">
-    <div class="footer-container">
-      <div class="footer-col footer-col-community">
-        <div class="footer-community-title">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-            <circle cx="9" cy="7" r="4"/>
-            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+  <div id="sellersView" style="display: none;">
+    <section class="sellers-grid-section">
+      <div class="sellers-filter-bar">
+        <div class="sellers-search-input">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
           </svg>
-          SPOŁECZNOŚĆ
+          <input type="text" id="sellerSearch" placeholder="Szukaj sprzedawców..." oninput="filterSellers()" />
         </div>
-        <p class="footer-community-desc">Najlepsza wyszukiwarka produktów!<br>Dołącz do naszej społeczności i bądź na bieżąco.</p>
-        <div class="footer-social-links">
-          <a href="https://discord.gg/ecY996uVNd" class="footer-social-btn discord-btn">Discord</a>
-          <a href="https://www.tiktok.com/@archiverepsss" class="footer-social-btn tiktok-btn">TikTok</a>
-          <a href="https://linktr.ee/archiverepsss" class="footer-social-btn linktree-btn">Linktree</a>
+        <div class="sellers-filter-chips">
+          <button class="seller-filter-chip active" data-cat="all" onclick="filterSellersByCategory('all')">Wszyscy</button>
+          <button class="seller-filter-chip" data-cat="clothing" onclick="filterSellersByCategory('clothing')">Odzież</button>
+          <button class="seller-filter-chip" data-cat="shoes" onclick="filterSellersByCategory('shoes')">Buty</button>
+          <button class="seller-filter-chip" data-cat="luxury" onclick="filterSellersByCategory('luxury')">Luxury</button>
         </div>
       </div>
-      <div class="footer-col footer-col-info">
-        <p class="footer-copyright">© ArchiveReps. 2026</p>
-        <p class="footer-disclaimer">ArchiveReps nie sprzedaje żadnych fizycznych produktów. Ta strona ma charakter wyłącznie edukacyjny.<br>Nie popieramy sprzedaży podrabianych towarów.</p>
+      <div id="sellersGrid" class="sellers-grid"></div>
+    </section>
+  </div>
+
+  <div id="qcSearchView" style="display: none;">
+    <section class="qc-search-section">
+      <div class="qc-search-container">
+        <div class="qc-search-box">
+          <div class="qc-search-input-wrapper">
+            <svg class="qc-search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input type="text" id="qcSearchInput" placeholder="Szukaj produktów po nazwie lub wklej link..." onkeydown="if(event.key==='Enter') searchQC()" />
+          </div>
+          <button class="qc-search-btn" onclick="searchQC()">Szukaj</button>
+        </div>
+        <div id="qcSearchResult" style="display: none;">
+          <div id="qcSearchLoading" class="qc-loading">
+            <div class="qc-spinner"></div>
+            <span>Szukam zdjęć QC...</span>
+          </div>
+          <div id="qcSearchGallery" class="qc-search-gallery"></div>
+        </div>
+        <div class="qc-search-hint">Wpisz nazwę produktu lub wklej link z USFans / Kakobuy</div>
+      </div>
+    </section>
+  </div>
+
+  <div id="promoView" style="display: none;">
+    <section class="promo-grid-section">
+      <div class="promo-header">
+        <div class="promo-header-left">
+          <span class="promo-header-icon">PROMO</span>
+          <h2 class="promo-header-title">Promo Finds</h2>
+        </div>
+        <span class="promo-header-count">Aktualne promocje</span>
+      </div>
+      <div id="promoGrid" class="promo-grid"></div>
+    </section>
+  </div>
+</main>
+
+<!-- POPUP: LANGUAGE -->
+<div class="popup-overlay" id="languagePopupOverlay">
+  <div class="language-modal-card">
+    <div class="language-modal-header">
+      <div class="language-icon">🌐</div>
+      <h2 id="langPopupTitle">Wybierz język</h2>
+      <p id="langPopupDesc">Select your preferred language</p>
+    </div>
+    <div class="language-options">
+      <button class="language-btn" data-lang="pl" onclick="selectLanguage('pl')"><span class="lang-flag">🇵🇱</span><span class="lang-name">Polski</span></button>
+      <button class="language-btn" data-lang="en" onclick="selectLanguage('en')"><span class="lang-flag">🇬🇧</span><span class="lang-name">English</span></button>
+    </div>
+    <button class="language-confirm-btn" id="confirmLangBtn" onclick="confirmLanguage()">Kontynuuj →</button>
+  </div>
+</div>
+
+<!-- POPUP: AGENT -->
+<div class="popup-overlay" id="agentPopupOverlay">
+  <div class="agent-modal-card">
+    <button class="modal-close-x" onclick="closeAgentPopup()">×</button>
+    <div class="modal-header">
+      <h2 id="agentPopupTitle">Wybierz Agenta</h2>
+      <p id="agentPopupDesc">Wybierz preferowanego agenta do zakupów przedmiotów.</p>
+    </div>
+    <div class="agent-options-grid">
+      <button class="agent-select-btn" onclick="selectAgent('kakobuy')">
+        <div class="agent-btn-content"><span class="agent-logo-dot kakobuy-dot"></span><span class="agent-name">Kakobuy</span></div>
+        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </button>
+      <button class="agent-select-btn" onclick="selectAgent('usfans')">
+        <div class="agent-btn-content"><span class="agent-logo-dot usfans-dot"></span><span class="agent-name">USFans</span></div>
+        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- POPUP: REGISTER v2 -->
+<div class="popup-overlay" id="popupOverlay">
+  <div class="popup-card popup-card-v2">
+    <button class="popup-close" id="popupClose">×</button>
+
+    <div class="popup-header-v2">
+      <div class="popup-brand-v2">
+        <div class="popup-agent-logo" id="popupAgentLogo">
+          <img src="https://kakobuy.com/favicon.ico" alt="Kakobuy" id="popupLogoImg">
+        </div>
+        <span class="popup-brand-name">ArchiveReps</span>
+      </div>
+      <div class="popup-badges-v2">
+        <span class="popup-badge-v2 partner">★ PARTNER</span>
+        <span class="popup-badge-v2 limited">★ LIMITOWANA</span>
       </div>
     </div>
-  </footer>
+
+    <h3 class="popup-headline" id="popupHeadline">Zapłać za 10kg tylko 350zł!</h3>
+    <p class="popup-subtext" id="popupDesc">Zarejestruj się przez nasz link, później w Kuponach wpisz kod <strong id="popupSubtextCode">CARE40</strong> i otrzymaj kupony, które możesz łączyć!</p>
+
+    <div class="popup-live" id="popupLive">
+      <span class="popup-live-dot"></span>
+      <span><strong id="popupLiveCount">75</strong> osób ogląda teraz tę ofertę</span>
+    </div>
+
+    <div class="popup-benefits">
+      <div class="popup-benefit">
+        <div class="popup-benefit-left">
+          <div class="popup-benefit-icon">🏷️</div>
+          <span class="popup-benefit-text" id="popupBenefit1Text">Masa zajebistych kuponów</span>
+        </div>
+        <span class="popup-benefit-tag gratis" id="popupBenefit1Tag">GRATIS</span>
+      </div>
+      <div class="popup-benefit">
+        <div class="popup-benefit-left">
+          <div class="popup-benefit-icon">💧</div>
+          <span class="popup-benefit-text" id="popupBenefit2Text">Odbierz kupon -40% na USFans!</span>
+        </div>
+        <span class="popup-benefit-tag discount" id="popupBenefit2Tag">−40%</span>
+      </div>
+    </div>
+
+    <div class="popup-code-section">
+      <div class="code-row">
+        <span class="code-label" id="popupCodeLabel">Kod referencyjny:</span>
+        <div class="code-value-wrapper">
+          <span class="code-value" id="popupCodeValue">CARE40</span>
+          <button class="copy-code-btn" onclick="copyCode()">Kopiuj</button>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="popup-btn popup-btn-v2" id="popupRegisterBtn">
+      <span class="popup-btn-icon">❄️</span>
+      <span id="popupBtnText">Zarejestruj się i odbierz bonusy</span>
+      <span class="popup-btn-arrow">→</span>
+    </a>
+
+    <div class="popup-footer" id="popupFooter">Bez zobowiązań · Bonusy działają tylko przez ten link</div>
+  </div>
+</div>
+
+<button class="scroll-to-top" id="scrollToTopBtn">↑</button>
+
+<div class="lightbox-overlay" id="lightboxOverlay">
+  <div class="lightbox-content">
+    <button class="lightbox-close" id="lightboxClose">×</button>
+    <img id="lightboxImg" src="" alt="Powiększone zdjęcie">
+  </div>
+</div>
+
+<div class="lightbox-overlay" id="qcLightboxOverlay">
+  <div class="lightbox-content">
+    <button class="lightbox-close" id="qcLightboxClose">×</button>
+    <div class="qc-lightbox-image-wrapper" id="qcLightboxWrapper">
+      <img id="qcLightboxImg" src="" alt="QC">
+    </div>
+    <div class="qc-lightbox-controls">
+      <button class="qc-lightbox-btn" id="qcZoomIn" title="Przybliż">+</button>
+      <button class="qc-lightbox-btn" id="qcZoomOut" title="Oddal">−</button>
+      <button class="qc-lightbox-btn" id="qcRotate" title="Obróć">↻</button>
+      <button class="qc-lightbox-btn" id="qcFullscreen" title="Pełny ekran">⛶</button>
+      <button class="qc-lightbox-btn" id="qcResetView" title="Reset">↺</button>
+      <span class="qc-lightbox-counter" id="qcLightboxCounter">1 / 1</span>
+      <button class="qc-lightbox-btn" id="qcPrevImage" title="Poprzednie">‹</button>
+      <button class="qc-lightbox-btn" id="qcNextImage" title="Następne">›</button>
+    </div>
+  </div>
+</div>
+
+<div class="social-sidebar" id="socialSidebar">
+  <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle social sidebar">≡</button>
+  <div class="sidebar-content">
+    <a href="https://discord.gg/ecY996uVNd" target="_blank" rel="noopener noreferrer" class="sidebar-icon discord" aria-label="Discord">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord" class="sidebar-img">
+      <span class="icon-label">Discord</span>
+    </a>
+    <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="sidebar-icon usfans" aria-label="USFans">
+      <img src="https://swagworld.eu/assets/usfans-DTQr6n0M.webp" alt="USFans" class="sidebar-img usfans-logo">
+      <span class="icon-label">USFans</span>
+    </a>
+    <a href="https://linktr.ee/archiverepsss" target="_blank" rel="noopener noreferrer" class="sidebar-icon linktree" aria-label="Linktree">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linktree.svg" alt="Linktree" class="sidebar-img">
+      <span class="icon-label">Linktree</span>
+    </a>
+    <a href="https://www.tiktok.com/@archiverepsss" target="_blank" rel="noopener noreferrer" class="sidebar-icon tiktok" aria-label="TikTok">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok" class="sidebar-img">
+      <span class="icon-label">TikTok</span>
+    </a>
+  </div>
+</div>
+
+<div class="popup-overlay" id="qcPopupOverlay">
+  <div class="qc-modal-card">
+    <button class="modal-close-x" id="qcPopupClose">×</button>
+    <div class="qc-modal-header">
+      <div class="qc-header-left">
+        <span style="font-size:24px">QC</span>
+        <h2>ZDJĘCIA QC</h2>
+      </div>
+      <span class="qc-badge" id="qcBadge">Sprawdzanie...</span>
+    </div>
+    <p class="qc-subtitle">Zdjęcia poglądowe. Zawsze proś o własne zdjęcia QC przed wysyłką.</p>
+    <div class="qc-product-info">
+      <img id="qcProductThumb" src="" alt="Product thumbnail">
+      <div class="qc-product-details">
+        <h4 id="qcProductTitle">Nazwa produktu</h4>
+        <span id="qcProductPrice">Cena</span>
+      </div>
+    </div>
+    <div class="qc-loading" id="qcLoading" style="display:flex;">
+      <div class="qc-spinner"></div>
+      <span>Ładowanie zdjęć QC...</span>
+    </div>
+    <div class="qc-images-grid" id="qcImagesGrid"></div>
+    <div class="qc-footer">
+      <span class="qc-delivery">Śr. dostawa: 2-5d</span>
+      <a href="#" class="qc-link-btn" id="qcLinkBtn" style="display:none;">Zobacz na QCItems →</a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-col footer-col-community">
+      <div class="footer-community-title">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+        </svg>
+        SPOŁECZNOŚĆ
+      </div>
+      <p class="footer-community-desc">Najlepsza wyszukiwarka produktów!<br>Dołącz do naszej społeczności i bądź na bieżąco.</p>
+      <div class="footer-social-links">
+        <a href="https://discord.gg/ecY996uVNd" class="footer-social-btn discord-btn">Discord</a>
+        <a href="https://www.tiktok.com/@archiverepsss" class="footer-social-btn tiktok-btn">TikTok</a>
+        <a href="https://linktr.ee/archiverepsss" class="footer-social-btn linktree-btn">Linktree</a>
+      </div>
+    </div>
+    <div class="footer-col footer-col-info">
+      <p class="footer-copyright">© ArchiveReps. 2026</p>
+      <p class="footer-disclaimer">ArchiveReps nie sprzedaje żadnych fizycznych produktów. Ta strona ma charakter wyłącznie edukacyjny.<br>Nie popieramy sprzedaży podrabianych towarów.</p>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
