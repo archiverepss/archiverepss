@@ -10912,8 +10912,8 @@ function sortWithPromoted(items) {
 const translations = {
   pl: {
     spreadsheet: "📄 Spreadsheet",
-    sellers: "🔍 Sprzedawcy",
-    changeAgent: "🛒 Zmień agenta",
+    sellers: "Sprzedawcy",
+    changeAgent: "Zmień agenta",
     heroTitle: "Spreadsheet",
     heroSubtitle: "Przeglądaj naszą kolekcję najlepszych linków.",
     searchPlaceholder: "Szukaj produktów...",
@@ -10944,7 +10944,7 @@ const translations = {
     langPl: "Polski",
     langEn: "English",
     items: "itemów",
-    qc: "🔍 Sprawdź QC"
+    qc: "Sprawdź QC"
   },
   en: {
     spreadsheet: "📄 Spreadsheet",
@@ -12292,6 +12292,24 @@ function closeQCPopup() {
   qcImagesList = [];
   qcCurrentIndex = 0;
 }
+// ============================================
+// PROMO BANNER
+// ============================================
+function closePromoBanner() {
+  const banner = document.getElementById('promoBanner');
+  if (!banner) return;
+  banner.classList.add('hidden');
+  document.body.classList.add('no-banner');
+  localStorage.setItem('promoBannerClosed', 'true');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const banner = document.getElementById('promoBanner');
+  if (banner && localStorage.getItem('promoBannerClosed') === 'true') {
+    banner.classList.add('hidden');
+    document.body.classList.add('no-banner');
+  }
+});
 
 // ============================================
 // ✅ KONIEC
