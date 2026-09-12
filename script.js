@@ -9812,6 +9812,316 @@ const products = [
     tag: "ANGELKING",
     rating: 5
   },
+  {
+    name: "SCUFFERS EFORTLESS HOODIE",
+    category: "Hoodies",
+    price: "$44.88",
+    image: "https://media.usfans.com/2026/08/16/133733/141ebb94-5458-4824-9e8d-56e3440bd865.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1047650488238",
+    linkUsfans: "https://usfans.com/product/2/mDO_NYiqqI1Wvqgk1GjnMzp39rkEt13wI-u0MjoBHTr4OEZoFOtV7cQ?ref=TX9V9N",
+    tag: "TIGERREP",
+    rating: 5
+  },
+  {
+    name: "SCUFFERS SNAKE HOODED",
+    category: "Hoodies",
+    price: "$46.54",
+    image: "https://media.usfans.com/2026/09/09/172152/fa0ccc9e-38fa-4131-ae3c-45e0e669e205.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1061338873312",
+    linkUsfans: "https://usfans.com/product/2/6Hlc9AAnmXbMhKvBHnejU3-Te2iOvwwappab9IchFXZWk6Ds6AQSAqQ?ref=TX9V9N",
+    tag: "TIGERREP",
+    rating: 5
+  },
+  {
+    name: "Balenciaga cola wave t-shirt",
+    category: "Tshirts",
+    price: "$32.91",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/30/5b55067d5dc2560d0fca5c561e71204d.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7645197475",
+    linkUsfans: "https://usfans.com/product/3/7645197475?ref=TX9V9N",
+    tag: "THUNDER",
+    rating: 5
+  },
+  {
+    name: "LV MARQUE SWEATER",
+    category: "Hoodies",
+    price: "$42.88",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/07/41efc7b33ec23159a8466f9e3183516c.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7654457475",
+    linkUsfans: "https://usfans.com/product/3/7654457475?ref=TX9V9N",
+    tag: "THUNDER",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA BAT HOODIE",
+    category: "Hoodies",
+    price: "$47.87",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/14/67d0560f1ff51ca0c9f258b242203daa.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7638056715",
+    linkUsfans: "https://usfans.com/product/3/7638056715?ref=TX9V9N",
+    tag: "THUNDER",
+    rating: 5
+  },
+  {
+    name: "BURBERRY LINE WAR",
+    category: "Hoodies",
+    price: "$56.18",
+    image: "https://media.usfans.com/2026/09/09/093641/320b4a9a-abbb-45fe-a93e-f093ba2ec9e8.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7655548311",
+    linkUsfans: "https://usfans.com/product/3/7655548311?ref=TX9V9N",
+    tag: "THUNDER",
+    rating: 5
+  },
+  {
+    name: "PRADA SWEATER",
+    category: "Hoodies",
+    price: "$49.53",
+    image: "https://media.usfans.com/2026/08/20/134537/74ab0a8d-cb06-486f-8eb2-8fd13e687f5c.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7641078552",
+    linkUsfans: "https://usfans.com/product/3/7641078552?ref=TX9V9N",
+    tag: "THUNDER",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA X UNDER ARMOUR HOODIE",
+    category: "Hoodies",
+    price: "$64.49",
+    image: "https://media.usfans.com/2026/08/28/210915/821a01aa-2397-4340-af7b-32c5f3477717.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7637963257",
+    linkUsfans: "https://usfans.com/product/3/7637963257?ref=TX9V9N",
+    tag: "THUNDER",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA PARIS WASHED HOODIE",
+    category: "Hoodies",
+    price: "$56.18",
+    image: "https://media.usfans.com/2026/06/15/173455/fe3734de-aee5-45bc-8ee5-368bccd00f34.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7640943546",
+    linkUsfans: "https://usfans.com/product/3/7640943546?ref=TX9V9N",
+    tag: "THUNDER",
+    rating: 5
+  },
+  {
+    name: "DIOR CD HOODIE",
+    category: "Hoodies",
+    price: "$51.19",
+    image: "https://media.usfans.com/2026/05/07/154554/56f1f1c3-0d21-426c-a841-4d5603f6c17c.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7637963237",
+    linkUsfans: "https://usfans.com/product/3/7637963237?ref=TX9V9N",
+    tag: "THUNDER",
+    rating: 5
+  },
+  {
+    name: "20471120 HYOMA CAT TEE",
+    category: "Tshirts",
+    price: "$31.42",
+    image: "https://si.geilicdn.com/wdseller1623957871-54970000019fbc7430120a81347d_1200_1200.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7816959457",
+    linkUsfans: "https://usfans.com/product/3/7816959457?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "Beauty:Beast Killer Icon Japan Devilman Sirene",
+    category: "Hoodies",
+    price: "$61.33",
+    image: "https://si.geilicdn.com/wdseller1623957871-76940000019efa5d8e620a2102b1_1320_1508.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7797726472",
+    linkUsfans: "https://usfans.com/product/3/7797726472?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "HG WHITE SKULL TEE",
+    category: "Tshirts",
+    price: "$23.11",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01c9HZZo1RR3dw9kq0r_!!2126072107.heic",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1041692340552",
+    linkUsfans: "https://usfans.com/product/2/01VAvsoJQuJH6gmPDznEVx_e1UP5_A1V6aKnX491Zr8HrYWlv7Nrsu8?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "RICK OWENS VOMIT SWEATER",
+    category: "Hoodies",
+    price: "$51.36",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01GaGoNQmmnDL2gAYw~crop,10,0,1300,1734~_!!2126072107.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1073759341983",
+    linkUsfans: "https://usfans.com/product/2/_fmlIhXdHgx-zKSz0PgNOCIMgfQ1amMfeExbbxME6f-_2FUmo2WSJMg?ref=TX9V9N",
+    tag: "BDSS",
+    rating: 5
+  },
+  {
+    name: "Dior AW06 Duffel Bag",
+    category: "Belts",
+    price: "$122.83",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3926619803/O1CN01X5QUwz2MHpmqESbUG_!!3926619803.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1055775692868",
+    linkUsfans: "https://usfans.com/product/2/850hESULJlHgrG2MkRePgsBaxvV6xWk6xZHQf-ug3VHiVovltOCN65U?ref=TX9V9N",
+    tag: "ORIENTALDRAGON",
+    rating: 5
+  },
+  {
+    name: "DERSCHUTZE BAG",
+    category: "Belts",
+    price: "$132.80",
+    image: "https://si.geilicdn.com/wdseller1940384309-0fb90000019c9ed0bf790a2102c5_1320_1320.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7689859389",
+    linkUsfans: "https://usfans.com/product/3/7689859389?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "Goyard Coursier Messenger Bag",
+    category: "Belts",
+    price: "$194.44",
+    image: "https://si.geilicdn.com/pcitem1717663958-034600000196d4555aa20a23037f_1080_1080.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7468019875",
+    linkUsfans: "https://usfans.com/product/3/7468019875?ref=TX9V9N",
+    tag: "SCARLET / BEST",
+    rating: 5
+  },
+  {
+    name: "Balenciaga Le City Bag",
+    category: "Belts",
+    price: "$282.38",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202609/08/5d3f8d8886887a061ec99128adf38fea.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D995736417876",
+    linkUsfans: "https://usfans.com/product/2/SFFkTbKtXKmf2_r5U8GNLrkYheC3yPR7HnFVspgRyesPFbdpqVW8Pw?ref=TX9V9N",
+    tag: "MVT / BEST",
+    rating: 5
+  },
+  {
+    name: "Goyard Belvedere Messenger Bag",
+    category: "Belts",
+    price: "$172.02",
+    image: "https://si.geilicdn.com/pcitem1717663958-45420000018f104827720a2102c5_1080_1080.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6215999200",
+    linkUsfans: "https://usfans.com/product/3/6215999200?ref=TX9V9N",
+    tag: "SCARLET / BEST",
+    rating: 5
+  },
+  {
+    name: "Burberry Bag",
+    category: "Belts",
+    price: "$24.60",
+    image: "https://media.usfans.com/2026/07/11/162016/a9db3185-f042-4cb2-862e-fb9e758dc6b6.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D836343886503",
+    linkUsfans: "https://usfans.com/product/2/McuY9kotEaH36CtDJUbBcHzAaBiGnrKPf2O2PU9swiItXceRzUfqYQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BAPE BAG",
+    category: "Belts",
+    price: "$5.64",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2201547488158/O1CN01BNzgId2A8Q6VQRSHD_!!2201547488158.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D845320191221",
+    linkUsfans: "https://usfans.com/product/2/XvoIwOj8b9tgK2dvTM7Ylx7xIdKEC5aoFf3oT5yJ5Kev3Dr_HNVK0w?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "Night Lab Leather Bag",
+    category: "Belts",
+    price: "$77.95",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2310918540/O1CN01DcZZj02CxNSHsirGT_!!2310918540.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D846885393006",
+    linkUsfans: "https://usfans.com/product/2/IfvqzZ1-SMbhrmmsmOA092UQFw6wb4DGCiFZIJoJRzqR0leZ6rlsXA?ref=TX9V9N",
+    tag: "NIGHTLAB",
+    rating: 5
+  },
+  {
+    name: "Alexander 2011 Wang Bag",
+    category: "Belts",
+    price: "$265.76",
+    image: "https://media.usfans.com/2026/06/02/195845/fc080ef1-0d4c-4a02-817f-2d5b42608b8f.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984674478939",
+    linkUsfans: "https://usfans.com/product/2/uhx4KaI6mprd_cmThlnHFCQ0UolIfycTCjFAFAZG3CIca4sHmg6zIw?ref=TX9V9N",
+    tag: "EASYMADE",
+    rating: 5
+  },
+  {
+    name: "SLP BACKPACK",
+    category: "Belts",
+    price: "$124.65",
+    image: "https://media.usfans.com/PDA/1ce7fe67-f4c8-4f9f-980c-297b6946445a.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D862089813202",
+    linkUsfans: "https://usfans.com/product/2/SXd5A-YVyehuTy5-gkWQKE5UIICxVYpK7T49XiRG9hAmmjoNG6Bqcw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MASTERMIND BACKPACK",
+    category: "Belts",
+    price: "$11.47",
+    image: "https://img.alicdn.com/bao/uploaded/i4/1577726729/O1CN01SmIGIL1zZvx3IKkED_!!1577726729.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D709609130819",
+    linkUsfans: "https://usfans.com/product/2/Lj6dimwnLlOwrEOyfTxPzdGE1-vJtsZ_GxmiNZcytSIOH-O73pV8gQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA X ADIDAS BACKPACK",
+    category: "Belts",
+    price: "$22.61",
+    image: "https://media.usfans.com/2026/09/01/155935/960453b1-9357-4bb8-a9bf-85000f904b49.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D828260751059",
+    linkUsfans: "https://usfans.com/product/2/N4UVtMxrW-cIuIoyxMAeAZNXpN4sdD0Rw7sPAJTETAo4rVHNvY1-rA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MCM BACKPACK",
+    category: "Belts",
+    price: "$25.77",
+    image: "https://media.usfans.com/2026/09/09/221442/675a7358-5996-416e-a470-70e7b7a7b231.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F895935826282.html",
+    linkUsfans: "https://usfans.com/product/1/895935826282?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "FYRWRLD BELT",
+    category: "Belts",
+    price: "$29.92",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3324545123/O1CN01cWwbvn1niOBnu1QjS_!!3324545123.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1047144066043",
+    linkUsfans: "https://usfans.com/product/2/1JF9fgiC7tOcl07Zah28fRnQr9jXM5K7ytTe4dAGROK0k36hMBny6sk?ref=TX9V9N",
+    tag: "FYREWRLD",
+    rating: 5
+  },
+  {
+    name: "Gojoyjinni Jeans",
+    category: "Pants",
+    price: "$89.42",
+    image: "https://img.alicdn.com/bao/uploaded/i3/3511652204/O1CN01hEHqsl1S9U4SgmamD_!!3511652204.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1017792414798",
+    linkUsfans: "https://usfans.com/product/2/AHvwkNbe3XAO2YwhuDkQya2V31nUTs2iAelbXJSHTd9hsdDaabYB_o8?ref=TX9V9N",
+    tag: "GOJOYJINNI",
+    rating: 5
+  },
+  {
+    name: "CINDERVEIN WAXED JEANS",
+    category: "Pants",
+    price: "$77.79",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2221301785103/O1CN01U5NfmM1nZEFLXyRXM~crop,250,0,1500,2000~_!!2221301785103.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1020277927075",
+    linkUsfans: "https://usfans.com/product/2/WhWwFfZako-zv07QEeyACCdbL8P9QkMp9QQGLxZVvwTIexi0BR8o80o?ref=TX9V9N",
+    tag: "CINDERVEIN",
+    rating: 5
+  },
+  {
+    name: "PEACEINWAR T-SHIRTS",
+    category: "Tshirts",
+    price: "$9.51",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN019T27py2CebIYNv7Uj_!!2222057048499-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1044442158590.html",
+    linkUsfans: "https://usfans.com/product/1/1044442158590?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
