@@ -10122,6 +10122,216 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "PATCHWORK HOODIE",
+    category: "Hoodies",
+    price: "$36.24",
+    image: "https://img.alicdn.com/bao/uploaded/i4/346392213/O1CN01C8XFyx9czmC43lmS_!!346392213.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1073958340785",
+    linkUsfans: "https://usfans.com/product/2/zhJxoIF8LRkJfZl501KRynwF5uNkWKwFr0zFG3--s-XmxXTIE9tPuYQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RHSU HORNETS",
+    category: "Hoodies",
+    price: "$36.40",
+    image: "https://si.geilicdn.com/wdseller2018810290-2dd90000019f268f9d100a230417_1320_1760.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7799843995",
+    linkUsfans: "https://usfans.com/product/3/7799843995?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ERD WELL OF LONELINESS HOODIE",
+    category: "Hoodies",
+    price: "$47.54",
+    image: "https://si.geilicdn.com/wdseller1399882362-1e520000019bf01e21b60a2303ee_1440_1918.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7674713072",
+    linkUsfans: "https://usfans.com/product/3/7674713072?ref=TX9V9N",
+    tag: "暗号made",
+    rating: 5
+  },
+  {
+    name: "EMOTIONS NEVER DIE HOODIE",
+    category: "Hoodies",
+    price: "$21.11",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2075710764/O1CN016J6gU61HVxgn0sKjr_!!2075710764.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D981752419955",
+    linkUsfans: "https://usfans.com/product/2/w3Kc9N0PgIUlu1cTkwK51WNIy5V3lVbRXxGdDxGDtfO3MlFXF7qgxA?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "FYREWRLD JEANS",
+    category: "Pants",
+    price: "$55.65",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3324545123/O1CN01hjqEJ51niO9xeX8O0_!!3324545123.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1008420373040",
+    linkUsfans: "https://usfans.com/product/2/yZBr3e35NEEBRPjrZSxxV0LmROz4gPZLYZ8npYRynT8QziPcRsd4eYQ?ref=TX9V9N",
+    tag: "FYREWRLD",
+    rating: 5
+  },
+  {
+    name: "Fyredwrld Red-Ear Scimitar Jeans",
+    category: "Pants",
+    price: "$55.68",
+    image: "https://img.alicdn.com/bao/uploaded/i3/3324545123/O1CN01rLv1h2x1CrH2b8G8_!!3324545123.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1009171040654",
+    linkUsfans: "https://usfans.com/product/2/3a8HZL1ACxkzuQ_eXqAPmLWpYign1vCazMes1ysfc1JGu7ume82_KGw?ref=TX9V9N",
+    tag: "FYREWRLD",
+    rating: 5
+  },
+  {
+    name: "FYREWRLD MATCHA JEANS",
+    category: "Pants",
+    price: "$34.91",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3324545123/O1CN01VSP5291niOBqzlNPB_!!3324545123.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1057126369830",
+    linkUsfans: "https://usfans.com/product/2/WTJgIEVlyGCyAE-1C7L-mjlJjZRw6xhll3HIH1q7JtSBdJgCYG93CAI?ref=TX9V9N",
+    tag: "FYREWRLD",
+    rating: 5
+  },
+  {
+    name: "FYRWRLD WORK PANTS",
+    category: "Pants",
+    price: "$33.24",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3324545123/O1CN01YuIBEd1niOB68Nl1y_!!3324545123.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1044841444329",
+    linkUsfans: "https://usfans.com/product/2/eOev-BidC_r_XQOF39s3IBhBo9Cpt7XzYWHPS4ln8WbZZqKblhjAH6E?ref=TX9V9N",
+    tag: "FYREWRLD",
+    rating: 5
+  },
+  {
+    name: "FYREWRLD BLACK PLAID JEANS",
+    category: "Pants",
+    price: "$56.51",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3324545123/O1CN012x3ZUrSi1vI2b8G8_!!3324545123.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1055360375087",
+    linkUsfans: "https://usfans.com/product/2/8sklPp8wbZw-o6RzHlzBe9_BDbYFEkB-CkAK7GOHWS8RpMipOKZW3qo?ref=TX9V9N",
+    tag: "FYREWRLD",
+    rating: 5
+  },
+  {
+    name: "OUR LEGACY JEANS",
+    category: "Pants",
+    price: "$54.52",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2220317100262/O1CN01KErH2w1Do2uSKcBK0_!!2220317100262.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1050359868586",
+    linkUsfans: "https://usfans.com/product/2/rVi_Xz0YTJ_c-xwyzG6lTWlzrdETSc9AZmo7mlzPONovtMkQgfLD_IM?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NIGHT LAB JEANS",
+    category: "Pants",
+    price: "$49.70",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2310918540/O1CN016PZmLX2CxNXfnsaxo_!!2310918540.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1051972932555",
+    linkUsfans: "https://usfans.com/product/2/NdPIZR_GhisZiYvgKoqqk-SgYMYdJpZcxhe9wAkkcLZ6zqYn9AQxN0Y?ref=TX9V9N",
+    tag: "NIGHTLAB",
+    rating: 5
+  },
+  {
+    name: "VERSCARTES ARMOR JEANS",
+    category: "Pants",
+    price: "$38.06",
+    image: "https://si.geilicdn.com/wdseller1995625455-639b0000019b929030000a2305d8_1290_1720.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7653085807",
+    linkUsfans: "https://usfans.com/product/3/7653085807?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "DERSCHUTZE STATUE JEANS",
+    category: "Pants",
+    price: "$34.91",
+    image: "https://si.geilicdn.com/wdseller1940384309-07020000019f8aedd8ff0a20e2c5_1320_1320.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7528940993",
+    linkUsfans: "https://usfans.com/product/3/7528940993?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "FLARED SPLATTER JEANS",
+    category: "Pants",
+    price: "$24.93",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2131899552/O1CN011iBUII2KQsITwHyoe_!!2131899552.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D956353039009",
+    linkUsfans: "https://usfans.com/product/2/oXAjd3M8EOyZ3cfXbUzux64y2suc9z0gJgFtBppfCLeThQ0xSqY-Hg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "FIREMADE JEANS",
+    category: "Pants",
+    price: "$43.22",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3324545123/O1CN01ZYY0Er1niOANU9MEV_!!3324545123.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1019455317195",
+    linkUsfans: "https://usfans.com/product/2/cktGlJn0Yd80z2c_mHxEjP9hb0EiH02OI_tQ5gIQeDKKdX2dgJvuhEw?ref=TX9V9N",
+    tag: "FYREWRLD",
+    rating: 5
+  },
+  {
+    name: "RICK OWNES BOLAN JEANS",
+    category: "Pants",
+    price: "$35.74",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01T4mmma21EzLqktIXd_!!2213343996954-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1001108954386.html",
+    linkUsfans: "https://usfans.com/product/1/1001108954386?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "MIJKO FLARED",
+    category: "Pants",
+    price: "$21.28",
+    image: "https://media.usfans.com/2026/09/10/110325/8f805345-a053-48c9-a4f2-d7ce6a6f75d6.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D838557969354",
+    linkUsfans: "https://usfans.com/product/2/Hnd4UJomwoug8hTr-ZyScJC-Dje8wk5K72fg4G5m2srkdmWEOcJVdQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SUPREME JEANS",
+    category: "Pants",
+    price: "$33.24",
+    image: "https://media.usfans.com/2026/06/24/164216/3b895de4-16bb-41b9-b8b5-5c5b6574693b.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7723593666",
+    linkUsfans: "https://usfans.com/product/3/7723593666?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "HYDROGEN JEANS",
+    category: "Pants",
+    price: "$25.77",
+    image: "https://img.alicdn.com/bao/uploaded/i2/99635133/O1CN01kNqQzf1nmy8LbcCwa_!!99635133.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1030539535672",
+    linkUsfans: "https://usfans.com/product/2/CAt5MYYvzdFzbR-h5DxLMdoIL2MwWFwJikDWBBNdWM-nbwqhUHlBNm4?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "CARHART JEANS",
+    category: "Pants",
+    price: "$31.58",
+    image: "https://si.geilicdn.com/pcitem902071367408-2af20000019e79d22ca10a23041a-unadjust_1085_1097.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7778987860",
+    linkUsfans: "https://usfans.com/product/3/7778987860?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RICK OWNES GETH PANTS",
+    category: "Pants",
+    price: "$48.04",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2206361270119/O1CN01NHKZQ51CkYEtjaA8T_!!2206361270119.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D997819314155",
+    linkUsfans: "https://usfans.com/product/2/f_5izDpUeijvtcvKx0SoLm1T7IM7KskIGD48zgaTKGNueRfNJVY2BA?ref=TX9V9N",
+    tag: "PYCLAB",
+    rating: 5
+  },
 ];
 
 // ============================================
