@@ -2,7 +2,8 @@
 // 🛍️ BAZA DANYCH PRODUKTÓW - DODAWAJ TUTAJ NOWE PRODUKTY!
 // ============================================
 const products = [
-  {
+  // 👇 WKLEJ TUTAJ SWOJE PRODUKTY 👇
+   {
     name: "Jordan 4 Frozen Moments / Black Canvas",
     category: "Shoes",
     price: "$63",
@@ -10335,10 +10336,67 @@ const products = [
 ];
 
 // ============================================
+// 👕 BAZA OUTFITÓW - DODAWAJ TUTAJ NOWE OUTFITY!
+// ============================================
+// WZÓR:
+// {
+//   id: "unikalne-id",
+//   title: "Nazwa outfitu",
+//   image: "https://zdjecie-selfie.jpg",
+//   tags: ["tag1", "tag2"],
+//   items: [
+//     {
+//       name: "Nazwa produktu",
+//       price: "$78",
+//       image: "https://zdjecie-produktu.jpg",
+//       category: "Jackets",
+//       linkKakobuy: "https://ikako.vip/xxx",
+//       linkUsfans: "https://usfans.com/product/xxx?ref=TX9V9N"
+//     }
+//   ]
+// }
+const outfits = [
+  {
+    id: "ballhog-fit",
+    title: "BALLHOG FIR",
+    image: "https://cdn.doppel.fit/CxNnORhUFeDwaqetaYtJXfDTk7LIEyAFB-kiJObIybE/rs:fill:1920/q:85/f:webp/b3V0Zml0cy9mMzFmYzQzMy03YWYzLTQ3NzYtODExZS1iMDQzYjY4YmM2NWIvMC9pbWFnZS53ZWJw",
+    tags: ["Ballhog", "DRIP"],
+    items: [
+      {
+        name: "HYOMA SWEATER",
+        price: "$66.38",
+        image: "https://si.geilicdn.com/wdseller1977061622-19940000019f4702a0770a2304aa_765_1024.jpg",
+        category: "Hoodies",
+        linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7804251369%3Fref%3DTX9V9N",
+        linkUsfans: "https://usfans.com/product/3/7804251369?ref=TX9V9N"
+      },
+      {
+        name: "HYSTERIC GLAMOUR HAGI JEANS",
+        price: "$66.32",
+        image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01tERa2d1RR3btdMNtq~hdr~livephoto~_!!2126072107.heic",
+        category: "Pants",
+        linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D988104391140",
+        linkUsfans: "https://usfans.com/product/2/TF3ue6PPpeH978yy_IeVkuWVn4WKWJxlUSrgmhDrBcO3qe6qJjG9bQ?ref=TX9V9N"
+      },
+      {
+        name: "RICK OWENS VANS",
+        price: "$127.65",
+        image: "https://si.geilicdn.com/pcitem1727599812-52cd0000018c25d6edf10a231179_1279_1486.jpg",
+        category: "Shoes",
+        linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6561387515",
+        linkUsfans: "https://usfans.com/product/3/6561387515?ref=TX9V9N"
+      },
+
+    ]
+  }
+];
+
+// ============================================
 // 🏷️ BAZA DANYCH PROMOCJI
 // ============================================
 const promotions = [
-  {
+  // 👇 WKLEJ TUTAJ SWOJE PROMOCJE 👇
+   {
     name: "CORTEIZ",
     price: "CHEAP",
     pricePLN: "CHEAP zł",
@@ -10410,9 +10468,10 @@ const promotions = [
     tag: "YOLO",
     category: "shoes"
   },  
-
-  // ... reszta promocji ...
+  
 ];
+
+
 
 // ============================================
 // 🏪 SPRZEDAWCY
@@ -10751,7 +10810,7 @@ const sellers = [
     rating: 9.0,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
-  // ... reszta sprzedawców ...
+  
 ];
 
 // ============================================
@@ -10778,13 +10837,15 @@ let currentSellerCategory = 'all';
 let currentView = 'products';
 let currentSellerSearch = '';
 
+// OUTFITS
+let currentOutfit = { tshirt: null, pants: null, hoodie: null, shoes: null };
+let savedOutfits = JSON.parse(localStorage.getItem('savedOutfits') || '[]');
+
 // ============================================
 // 🔍 QC - ZMIENNE
 // ============================================
 let qcImagesList = [];
 let qcCurrentIndex = 0;
-
-// Zmienne dla zoomu i przesuwania w lightboxie
 let qcZoomLevel = 1;
 let qcRotation = 0;
 let qcPanX = 0;
@@ -10798,120 +10859,80 @@ let qcMinZoom = 0.5;
 let qcMaxZoom = 3;
 
 // ============================================
-// 🚀 OPTYMALIZACJA QC - LAZY LOADING + MAX 35
+// 🚀 QC - OPTYMALIZACJA v2
 // ============================================
-
 const QC_MAX_IMAGES = 35;
-const QC_IMAGE_TIMEOUT = 5000;
+const QC_IMAGE_TIMEOUT = 6000;
+const QC_MAX_CONCURRENT = 3;
 
-// ============================================
-// 1. CACHE
-// ============================================
+const qcSessionCache = new Map();
+const QC_SESSION_TTL = 5 * 60 * 1000;
 
-const qcCache = new Map();
-const QC_CACHE_TTL = 5 * 60 * 1000;
-
-function getCachedQC(url) {
-    const key = url;
-    if (qcCache.has(key)) {
-        const cached = qcCache.get(key);
-        if (Date.now() - cached.timestamp < QC_CACHE_TTL) {
-            return cached.data;
-        } else {
-            qcCache.delete(key);
-        }
+function getSessionCache(key) {
+    if (qcSessionCache.has(key)) {
+        const entry = qcSessionCache.get(key);
+        if (Date.now() - entry.timestamp < QC_SESSION_TTL) return entry.data;
+        qcSessionCache.delete(key);
     }
     return null;
 }
 
-function setCachedQC(url, data) {
-    if (qcCache.size >= 30) {
-        const firstKey = qcCache.keys().next().value;
-        qcCache.delete(firstKey);
+function setSessionCache(key, data) {
+    if (qcSessionCache.size >= 15) {
+        const first = qcSessionCache.keys().next().value;
+        qcSessionCache.delete(first);
     }
-    qcCache.set(url, {
-        data: data,
-        timestamp: Date.now()
-    });
+    qcSessionCache.set(key, { data, timestamp: Date.now() });
 }
-
-// ============================================
-// 2. KOLEJKA ZAPYTAŃ
-// ============================================
 
 const qcQueue = {
     queue: [],
-    processing: false,
-    batchSize: 2,
-    delay: 500,
+    active: 0,
+    maxConcurrent: QC_MAX_CONCURRENT,
     
-    add(url, callback) {
+    add(url) {
         return new Promise((resolve) => {
-            const cached = getCachedQC(url);
-            if (cached) {
-                if (callback) callback(cached, true);
-                resolve(cached);
-                return;
-            }
-            
-            this.queue.push({ url, callback, resolve });
-            if (!this.processing) this.process();
+            const cached = getSessionCache(url);
+            if (cached) { resolve(cached); return; }
+            this.queue.push({ url, resolve });
+            this.process();
         });
     },
     
-    async process() {
-        if (this.processing || this.queue.length === 0) return;
-        this.processing = true;
-        
-        const batch = this.queue.splice(0, this.batchSize);
-        
-        const results = await Promise.all(
-            batch.map(async (item) => {
-                try {
-                    const data = await this.fetchWithTimeout(item.url);
-                    if (data) {
-                        setCachedQC(item.url, data);
-                    }
-                    return { ...item, data };
-                } catch (error) {
-                    return { ...item, data: null };
-                }
-            })
-        );
-        
-        results.forEach(result => {
-            if (result.callback) {
-                result.callback(result.data, false);
-            }
-            if (result.resolve) {
-                result.resolve(result.data);
-            }
-        });
-        
-        this.processing = false;
-        if (this.queue.length > 0) {
-            setTimeout(() => this.process(), this.delay);
+    process() {
+        while (this.active < this.maxConcurrent && this.queue.length > 0) {
+            const item = this.queue.shift();
+            this.active++;
+            this.fetchWithTimeout(item.url)
+                .then(data => {
+                    if (data) setSessionCache(item.url, data);
+                    item.resolve(data);
+                })
+                .catch(() => item.resolve(null))
+                .finally(() => {
+                    this.active--;
+                    if (this.queue.length > 0) this.process();
+                });
         }
     },
     
     async fetchWithTimeout(url, timeout = 12000) {
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), timeout);
-        
         try {
-            const fullUrl = QC_PROXY_URL + '?url=' + encodeURIComponent(url);
+            const fullUrl = QC_PROXY_URL + '?url=' + encodeURIComponent(url) + '&_t=' + Date.now();
             const response = await fetch(fullUrl, {
                 signal: controller.signal,
-                headers: { 'Cache-Control': 'no-cache' }
+                cache: 'no-store',
+                headers: { 
+                    'Cache-Control': 'no-cache, no-store, must-revalidate',
+                    'Pragma': 'no-cache'
+                }
             });
-            
             clearTimeout(timeoutId);
             if (!response.ok) throw new Error('HTTP ' + response.status);
-            
             const result = await response.json();
-            if (result && result.success === true && result.qcGroups) {
-                return result;
-            }
+            if (result && result.success === true && result.qcGroups) return result;
             return null;
         } catch (error) {
             clearTimeout(timeoutId);
@@ -10920,15 +10941,10 @@ const qcQueue = {
     }
 };
 
-// ============================================
-// 3. LAZY LOADING - Intersection Observer
-// ============================================
-
 let qcObserver = null;
 
 function setupQCObserver() {
     if (qcObserver) qcObserver.disconnect();
-    
     qcObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -10937,14 +10953,12 @@ function setupQCObserver() {
                 if (src && !img.src) {
                     const tempImg = new Image();
                     let loaded = false;
-                    
                     const timeoutId = setTimeout(() => {
                         if (!loaded) {
                             const container = img.closest('.qc-image-item, .qc-search-image-item');
                             if (container) container.style.display = 'none';
                         }
                     }, QC_IMAGE_TIMEOUT);
-                    
                     tempImg.onload = () => {
                         loaded = true;
                         clearTimeout(timeoutId);
@@ -10952,61 +10966,41 @@ function setupQCObserver() {
                         img.style.opacity = '1';
                         img.removeAttribute('data-src');
                     };
-                    
                     tempImg.onerror = () => {
                         loaded = true;
                         clearTimeout(timeoutId);
                         const container = img.closest('.qc-image-item, .qc-search-image-item');
                         if (container) container.style.display = 'none';
                     };
-                    
                     tempImg.src = src;
-                    img.style.opacity = '0.3';
-                    img.style.transition = 'opacity 0.3s ease';
                 }
                 qcObserver.unobserve(img);
             }
         });
-    }, {
-        rootMargin: '100px',
-        threshold: 0.01
-    });
+    }, { rootMargin: '200px', threshold: 0.01 });
 }
-
-// ============================================
-// 4. TWORZENIE ELEMENTU Z OBRAZEM
-// ============================================
 
 function createQCImageElement(imgUrl, className, alt) {
     const container = document.createElement('div');
     container.className = className || 'qc-image-item';
-    
     const img = document.createElement('img');
     img.alt = alt || 'QC';
     img.loading = 'lazy';
     img.dataset.src = imgUrl;
     img.style.opacity = '0';
-    img.style.transition = 'opacity 0.3s ease';
+    img.style.transition = 'opacity 0.25s ease';
     img.style.width = '100%';
     img.style.height = '100%';
     img.style.objectFit = 'cover';
     img.style.backgroundColor = '#0b0b0c';
-    
-    if (qcObserver) {
-        qcObserver.observe(img);
-    }
-    
+    if (qcObserver) qcObserver.observe(img);
     setTimeout(() => {
         if (!img.src && img.dataset.src) {
-            const container = img.closest('.qc-image-item, .qc-search-image-item');
-            if (container) {
-                container.style.display = 'none';
-            }
+            const parent = img.closest('.qc-image-item, .qc-search-image-item');
+            if (parent) parent.style.display = 'none';
         }
     }, QC_IMAGE_TIMEOUT + 1000);
-    
     container.appendChild(img);
-    
     container.addEventListener('click', function(e) {
         e.stopPropagation();
         if (!img.src && img.dataset.src) {
@@ -11018,29 +11012,21 @@ function createQCImageElement(imgUrl, className, alt) {
                 img.removeAttribute('data-src');
                 openLightboxFromGallery(this);
             };
-            tempImg.onerror = () => {
-                const container = this;
-                container.style.display = 'none';
-            };
+            tempImg.onerror = () => { this.style.display = 'none'; };
             tempImg.src = src;
             return;
         }
-        if (img.src) {
-            openLightboxFromGallery(this);
-        }
+        if (img.src) openLightboxFromGallery(this);
     });
-    
     return container;
 }
 
 function openLightboxFromGallery(element) {
     const gallery = element.closest('.qc-images-grid') || element.closest('.qc-search-gallery');
     if (!gallery) return;
-    
     const items = gallery.querySelectorAll('.qc-image-item, .qc-search-image-item');
     const visibleItems = [];
     const urls = [];
-    
     items.forEach(item => {
         if (item.style.display !== 'none') {
             const imgEl = item.querySelector('img');
@@ -11053,35 +11039,20 @@ function openLightboxFromGallery(element) {
             }
         }
     });
-    
     if (urls.length === 0) return;
-    
     let index = 0;
     for (let i = 0; i < visibleItems.length; i++) {
-        if (visibleItems[i] === element) {
-            index = i;
-            break;
-        }
+        if (visibleItems[i] === element) { index = i; break; }
     }
-    
     qcImagesList = urls;
     openQCLightbox(index);
 }
 
-// ============================================
-// 5. EKSTRAKCJA ZDJĘĆ (MAX 35)
-// ============================================
-
 function extractQCImages(result) {
     const images = [];
-    
-    if (!result || !result.success || !result.qcGroups) {
-        return images;
-    }
-    
+    if (!result || !result.success || !result.qcGroups) return images;
     for (const source in result.qcGroups) {
         if (images.length >= QC_MAX_IMAGES) break;
-        
         const groups = result.qcGroups[source];
         if (Array.isArray(groups)) {
             for (const group of groups) {
@@ -11089,32 +11060,22 @@ function extractQCImages(result) {
                 if (group.photos && Array.isArray(group.photos)) {
                     for (const photo of group.photos) {
                         if (images.length >= QC_MAX_IMAGES) break;
-                        if (photo.url) {
-                            images.push(photo.url);
-                        }
+                        if (photo.url) images.push(photo.url);
                     }
                 }
             }
         }
     }
-    
     return images;
 }
-
-// ============================================
-// 6. GŁÓWNA FUNKCJA fetchQCImages
-// ============================================
 
 fetchQCImages = async function(productUrl) {
     const loading = document.getElementById('qcLoading');
     const gallery = document.getElementById('qcImagesGrid');
     const badge = document.getElementById('qcBadge');
     const linkBtn = document.getElementById('qcLinkBtn');
-    
     const productName = document.getElementById('qcProductTitle')?.textContent || '';
-    
     let foundProduct = products.find(p => p.name === productName);
-    
     let urlsToTry = [];
     if (foundProduct) {
         if (foundProduct.linkUsfans && foundProduct.linkUsfans !== '') urlsToTry.push(foundProduct.linkUsfans);
@@ -11122,49 +11083,35 @@ fetchQCImages = async function(productUrl) {
     } else {
         if (productUrl) urlsToTry.push(productUrl);
     }
-    
     urlsToTry = [...new Set(urlsToTry)];
-    
     if (urlsToTry.length === 0) {
         if (loading) loading.style.display = 'none';
-        if (gallery) {
-            gallery.innerHTML = '<div class="qc-no-images">❌ Brak linku do produktu</div>';
-        }
+        if (gallery) gallery.innerHTML = '<div class="qc-no-images">❌ Brak linku do produktu</div>';
         return;
     }
-    
     if (badge) {
         badge.textContent = '⏳ Ładowanie...';
         badge.style.backgroundColor = 'rgba(255, 165, 0, 0.2)';
         badge.style.color = '#ffa500';
         badge.style.borderColor = 'rgba(255, 165, 0, 0.3)';
     }
-    
     let allImages = [];
-    
     for (const url of urlsToTry) {
         if (!url || url === '') continue;
-        
         try {
             const result = await qcQueue.add(url);
             if (result) {
                 const images = extractQCImages(result);
-                if (images.length > 0) {
-                    allImages = images;
-                    break;
-                }
+                if (images.length > 0) { allImages = images; break; }
             }
         } catch (e) {
             console.log('Błąd dla linku', url, ':', e.message);
         }
     }
-    
     if (loading) loading.style.display = 'none';
-    
     if (allImages.length > 0) {
         const displayImages = allImages.slice(0, QC_MAX_IMAGES);
         qcImagesList = displayImages;
-        
         if (badge) {
             const total = displayImages.length >= QC_MAX_IMAGES ? QC_MAX_IMAGES + '+' : displayImages.length;
             badge.textContent = `✅ ${total} zdjęć`;
@@ -11172,25 +11119,15 @@ fetchQCImages = async function(productUrl) {
             badge.style.color = '#2ecc71';
             badge.style.borderColor = 'rgba(46, 204, 113, 0.3)';
         }
-        
         if (gallery) {
             gallery.innerHTML = '';
             const fragment = document.createDocumentFragment();
-            
             displayImages.forEach((imgUrl, index) => {
-                const imgContainer = createQCImageElement(
-                    imgUrl,
-                    'qc-image-item',
-                    'QC ' + (index + 1)
-                );
-                fragment.appendChild(imgContainer);
+                fragment.appendChild(createQCImageElement(imgUrl, 'qc-image-item', 'QC ' + (index + 1)));
             });
-            
             gallery.appendChild(fragment);
         }
-        
         if (linkBtn) linkBtn.style.display = 'none';
-        
     } else {
         if (badge) {
             badge.textContent = '❌ Brak QC';
@@ -11211,16 +11148,10 @@ fetchQCImages = async function(productUrl) {
     }
 };
 
-// ============================================
-// 7. displayQCResults
-// ============================================
-
 displayQCResults = function(images, gallery, productInfo) {
     const displayImages = images.slice(0, QC_MAX_IMAGES);
-    
     if (displayImages.length > 0) {
         qcImagesList = displayImages;
-        
         const infoDiv = document.createElement('div');
         infoDiv.className = 'qc-search-info';
         infoDiv.style.gridColumn = '1 / -1';
@@ -11232,20 +11163,11 @@ displayQCResults = function(images, gallery, productInfo) {
             </div>
         `;
         gallery.appendChild(infoDiv);
-        
         const fragment = document.createDocumentFragment();
-        
         displayImages.forEach((imgUrl, index) => {
-            const imgContainer = createQCImageElement(
-                imgUrl,
-                'qc-search-image-item',
-                'QC ' + (index + 1)
-            );
-            fragment.appendChild(imgContainer);
+            fragment.appendChild(createQCImageElement(imgUrl, 'qc-search-image-item', 'QC ' + (index + 1)));
         });
-        
         gallery.appendChild(fragment);
-        
     } else {
         gallery.innerHTML = `
             <div class="qc-search-no-results" style="grid-column:1/-1;">
@@ -11257,122 +11179,68 @@ displayQCResults = function(images, gallery, productInfo) {
     }
 };
 
-// ============================================
-// 8. searchQC
-// ============================================
-
 searchQC = function() {
     const input = document.getElementById('qcSearchInput');
     const result = document.getElementById('qcSearchResult');
     const loading = document.getElementById('qcSearchLoading');
     const gallery = document.getElementById('qcSearchGallery');
-    
     const query = input.value.trim();
-    
-    if (!query) {
-        alert('Wpisz nazwę produktu lub wklej link!');
-        return;
-    }
-    
+    if (!query) { alert('Wpisz nazwę produktu lub wklej link!'); return; }
     result.style.display = 'block';
     loading.style.display = 'flex';
     gallery.innerHTML = '';
-    
     const isUrl = query.includes('http') || query.includes('usfans.com') || query.includes('kakobuy.com') || query.includes('weidian.com') || query.includes('taobao.com');
-    
     if (isUrl) {
-        fetchQCByUrl(query, loading, gallery);
-    } else {
-        searchProductByName(query, loading, gallery);
-    }
-};
-
-function fetchQCByUrl(productUrl, loading, gallery) {
-    qcQueue.add(productUrl, (result) => {
-        if (loading) loading.style.display = 'none';
-        const images = extractQCImages(result);
-        displayQCResults(images, gallery, null);
-    });
-}
-
-function searchProductByName(query, loading, gallery) {
-    const matchedProducts = products.filter(p => 
-        p.name.toLowerCase().includes(query.toLowerCase())
-    );
-    
-    if (matchedProducts.length === 0) {
-        loading.style.display = 'none';
-        gallery.innerHTML = `
-            <div class="qc-search-no-results" style="grid-column:1/-1;">
-                <div class="no-results-icon">🔍</div>
-                <div class="no-results-title">Nie znaleziono produktu</div>
-                <div class="no-results-desc">Nie znaleziono produktu o nazwie "<strong>${query}</strong>" w bazie.</div>
-            </div>
-        `;
-        return;
-    }
-    
-    const product = matchedProducts[0];
-    const urlsToTry = [];
-    
-    if (product.linkUsfans && product.linkUsfans !== '') urlsToTry.push(product.linkUsfans);
-    if (product.linkKakobuy && product.linkKakobuy !== '') urlsToTry.push(product.linkKakobuy);
-    
-    if (urlsToTry.length === 0) {
-        loading.style.display = 'none';
-        gallery.innerHTML = `
-            <div class="qc-search-no-results" style="grid-column:1/-1;">
-                <div class="no-results-icon">🔗</div>
-                <div class="no-results-title">Brak linków</div>
-                <div class="no-results-desc">Produkt "<strong>${query}</strong>" nie ma zapisanych linków.</div>
-            </div>
-        `;
-        return;
-    }
-    
-    let allImages = [];
-    let processed = 0;
-    
-    const checkCompletion = () => {
-        if (processed === urlsToTry.length) {
+        qcQueue.add(query).then(result => {
             loading.style.display = 'none';
-            displayQCResults(allImages, gallery, product);
+            const images = extractQCImages(result);
+            displayQCResults(images, gallery, null);
+        });
+    } else {
+        const matchedProducts = products.filter(p => p.name.toLowerCase().includes(query.toLowerCase()));
+        if (matchedProducts.length === 0) {
+            loading.style.display = 'none';
+            gallery.innerHTML = `
+                <div class="qc-search-no-results" style="grid-column:1/-1;">
+                    <div class="no-results-icon">🔍</div>
+                    <div class="no-results-title">Nie znaleziono produktu</div>
+                    <div class="no-results-desc">Nie znaleziono produktu o nazwie "<strong>${query}</strong>" w bazie.</div>
+                </div>
+            `;
+            return;
         }
-    };
-    
-    urlsToTry.forEach(url => {
-        qcQueue.add(url, (result) => {
-            processed++;
-            if (result && allImages.length === 0) {
-                const images = extractQCImages(result);
-                if (images.length > 0) {
-                    allImages = images;
+        const product = matchedProducts[0];
+        const urlsToTry = [];
+        if (product.linkUsfans && product.linkUsfans !== '') urlsToTry.push(product.linkUsfans);
+        if (product.linkKakobuy && product.linkKakobuy !== '') urlsToTry.push(product.linkKakobuy);
+        if (urlsToTry.length === 0) {
+            loading.style.display = 'none';
+            gallery.innerHTML = `
+                <div class="qc-search-no-results" style="grid-column:1/-1;">
+                    <div class="no-results-icon">🔗</div>
+                    <div class="no-results-title">Brak linków</div>
+                    <div class="no-results-desc">Produkt "<strong>${query}</strong>" nie ma zapisanych linków.</div>
+                </div>
+            `;
+            return;
+        }
+        Promise.all(urlsToTry.map(url => qcQueue.add(url))).then(results => {
+            loading.style.display = 'none';
+            let allImages = [];
+            for (const result of results) {
+                if (result) {
+                    const imgs = extractQCImages(result);
+                    if (imgs.length > 0) { allImages = imgs; break; }
                 }
             }
-            checkCompletion();
+            displayQCResults(allImages, gallery, product);
         });
-    });
-    
-    setTimeout(() => {
-        if (loading.style.display !== 'none') {
-            loading.style.display = 'none';
-            if (allImages.length === 0) {
-                gallery.innerHTML = `
-                    <div class="qc-search-no-results" style="grid-column:1/-1;">
-                        <div class="no-results-icon">⏱️</div>
-                        <div class="no-results-title">Przekroczono czas oczekiwania</div>
-                        <div class="no-results-desc">Serwer QC nie odpowiada. Spróbuj ponownie później.</div>
-                    </div>
-                `;
-            }
-        }
-    }, 15000);
+    }
 };
 
 // ============================================
-// 9. LIGHTBOX - WSZYSTKIE FUNKCJE
+// LIGHTBOX QC
 // ============================================
-
 function resetQCView() {
     qcZoomLevel = 1;
     qcRotation = 0;
@@ -11380,7 +11248,6 @@ function resetQCView() {
     qcPanY = 0;
     qcLastPanX = 0;
     qcLastPanY = 0;
-    
     const img = document.getElementById('qcLightboxImg');
     if (img) {
         img.style.transform = 'scale(1) rotate(0deg)';
@@ -11392,29 +11259,19 @@ function resetQCView() {
 
 function openQCLightbox(index) {
     if (qcImagesList.length === 0 || index < 0 || index >= qcImagesList.length) return;
-    
     qcCurrentIndex = index;
     resetQCView();
-    
     const overlay = document.getElementById('qcLightboxOverlay');
     const img = document.getElementById('qcLightboxImg');
     const counter = document.getElementById('qcLightboxCounter');
-    
     if (!overlay || !img) return;
-    
     const src = qcImagesList[index];
-    if (src) {
-        img.src = src;
-        img.style.opacity = '1';
-    }
-    
+    if (src) { img.src = src; img.style.opacity = '1'; }
     if (counter) counter.textContent = (index + 1) + ' / ' + qcImagesList.length;
-    
     const prevBtn = document.getElementById('qcPrevImage');
     const nextBtn = document.getElementById('qcNextImage');
     if (prevBtn) prevBtn.style.display = index > 0 ? 'flex' : 'none';
     if (nextBtn) nextBtn.style.display = index < qcImagesList.length - 1 ? 'flex' : 'none';
-    
     overlay.classList.add('active');
     document.body.style.overflow = 'hidden';
 }
@@ -11438,12 +11295,7 @@ function qcZoomIn() {
 function qcZoomOut() {
     if (qcZoomLevel > qcMinZoom) {
         qcZoomLevel = Math.max(qcZoomLevel - 0.15, qcMinZoom);
-        if (qcZoomLevel === 1) {
-            qcPanX = 0;
-            qcPanY = 0;
-            qcLastPanX = 0;
-            qcLastPanY = 0;
-        }
+        if (qcZoomLevel === 1) { qcPanX = 0; qcPanY = 0; qcLastPanX = 0; qcLastPanY = 0; }
         applyQCTransform();
         updateCursor();
     }
@@ -11457,44 +11309,31 @@ function qcRotate() {
 function qcToggleFullscreen() {
     const img = document.getElementById('qcLightboxImg');
     if (!img) return;
-    
     if (!document.fullscreenElement) {
-        if (img.requestFullscreen) {
-            img.requestFullscreen();
-        } else if (img.webkitRequestFullscreen) {
-            img.webkitRequestFullscreen();
-        }
+        if (img.requestFullscreen) img.requestFullscreen();
+        else if (img.webkitRequestFullscreen) img.webkitRequestFullscreen();
     } else {
-        if (document.exitFullscreen) {
-            document.exitFullscreen();
-        } else if (document.webkitExitFullscreen) {
-            document.webkitExitFullscreen();
-        }
+        if (document.exitFullscreen) document.exitFullscreen();
+        else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
     }
 }
 
-function qcResetView() {
-    resetQCView();
-}
+function qcResetView() { resetQCView(); }
 
 function applyQCTransform() {
     const img = document.getElementById('qcLightboxImg');
     if (!img) return;
-    
     const wrapper = document.getElementById('qcLightboxWrapper');
     if (wrapper && qcZoomLevel > 1) {
         const containerRect = wrapper.getBoundingClientRect();
         const imgRect = img.getBoundingClientRect();
-        
         const maxPanX = Math.max(0, (imgRect.width * qcZoomLevel - containerRect.width) / 2);
         const maxPanY = Math.max(0, (imgRect.height * qcZoomLevel - containerRect.height) / 2);
-        
         qcPanX = Math.max(-maxPanX, Math.min(maxPanX, qcPanX));
         qcPanY = Math.max(-maxPanY, Math.min(maxPanY, qcPanY));
         qcLastPanX = qcPanX;
         qcLastPanY = qcPanY;
     }
-    
     img.style.transform = 'translate(' + qcPanX + 'px, ' + qcPanY + 'px) scale(' + qcZoomLevel + ') rotate(' + qcRotation + 'deg)';
     img.style.transition = 'transform 0.15s ease';
 }
@@ -11507,47 +11346,36 @@ function updateCursor() {
 
 function qcInitDrag(e) {
     if (qcZoomLevel <= 1) return;
-    
     qcIsDragging = true;
     const wrapper = document.getElementById('qcLightboxWrapper');
     if (wrapper) wrapper.style.cursor = 'grabbing';
-    
     const clientX = e.clientX || e.touches[0].clientX;
     const clientY = e.clientY || e.touches[0].clientY;
-    
     qcStartX = clientX - qcLastPanX;
     qcStartY = clientY - qcLastPanY;
-    
     e.preventDefault();
 }
 
 function qcMoveDrag(e) {
     if (!qcIsDragging) return;
-    
     const clientX = e.clientX || e.touches[0].clientX;
     const clientY = e.clientY || e.touches[0].clientY;
-    
     let newPanX = clientX - qcStartX;
     let newPanY = clientY - qcStartY;
-    
     const img = document.getElementById('qcLightboxImg');
     const wrapper = document.getElementById('qcLightboxWrapper');
     if (img && wrapper && qcZoomLevel > 1) {
         const containerRect = wrapper.getBoundingClientRect();
         const imgRect = img.getBoundingClientRect();
-        
         const maxPanX = Math.max(0, (imgRect.width * qcZoomLevel - containerRect.width) / 2);
         const maxPanY = Math.max(0, (imgRect.height * qcZoomLevel - containerRect.height) / 2);
-        
         newPanX = Math.max(-maxPanX, Math.min(maxPanX, newPanX));
         newPanY = Math.max(-maxPanY, Math.min(maxPanY, newPanY));
     }
-    
     qcPanX = newPanX;
     qcPanY = newPanY;
     qcLastPanX = qcPanX;
     qcLastPanY = qcPanY;
-    
     applyQCTransform();
     e.preventDefault();
 }
@@ -11567,14 +11395,14 @@ const USD_TO_PLN = 3.62;
 
 function parsePrice(priceStr) {
   if (!priceStr) return 0;
-  var clean = priceStr.replace('$', '').trim();
+  var clean = String(priceStr).replace('$', '').trim();
   if (clean.includes('-')) {
     var parts = clean.split('-');
     var min = parseFloat(parts[0]);
     var max = parseFloat(parts[1]);
     return (min + max) / 2;
   }
-  return parseFloat(clean);
+  return parseFloat(clean) || 0;
 }
 
 function usdToPln(priceStr) {
@@ -11584,20 +11412,14 @@ function usdToPln(priceStr) {
 }
 
 function formatPrice(priceStr) {
-  if (priceStr.includes('-')) {
-    var parts = priceStr.replace('$', '').split('-');
+  if (String(priceStr).includes('-')) {
+    var parts = String(priceStr).replace('$', '').split('-');
     var minPln = Math.round(parseFloat(parts[0]) * USD_TO_PLN);
     var maxPln = Math.round(parseFloat(parts[1]) * USD_TO_PLN);
-    return {
-      usd: priceStr,
-      pln: minPln + ' - ' + maxPln + ' PLN'
-    };
+    return { usd: priceStr, pln: minPln + ' - ' + maxPln + ' PLN' };
   }
   var pln = usdToPln(priceStr);
-  return {
-    usd: priceStr,
-    pln: '≈ ' + pln + ' PLN'
-  };
+  return { usd: priceStr, pln: '≈ ' + pln + ' PLN' };
 }
 
 // ============================================
@@ -11607,11 +11429,7 @@ function sortWithPromoted(items) {
   return items.sort(function(a, b) {
     var aPromoted = a.tag && a.tag.toUpperCase().includes('PROMOTED');
     var bPromoted = b.tag && b.tag.toUpperCase().includes('PROMOTED');
-    
-    if (aPromoted === bPromoted) {
-      return a.name.localeCompare(b.name);
-    }
-    
+    if (aPromoted === bPromoted) return a.name.localeCompare(b.name);
     return aPromoted ? -1 : 1;
   });
 }
@@ -11621,79 +11439,32 @@ function sortWithPromoted(items) {
 // ============================================
 const translations = {
   pl: {
-    spreadsheet: "📄 Spreadsheet",
-    sellers: "Sprzedawcy",
-    changeAgent: "Zmień agenta",
-    heroTitle: "Spreadsheet",
-    heroSubtitle: "Przeglądaj naszą kolekcję najlepszych linków.",
-    searchPlaceholder: "Szukaj produktów...",
-    all: "All",
-    shoes: "Buty",
-    tshirts: "Koszulki",
-    hoodies: "Bluzy",
-    shorts: "Spodenki",
-    pants: "Spodnie",
-    jackets: "Kurtki",
-    underwear: "Bielizna",
-    belts: "Akcesoria",
-    roomDecor: "Dekoracje",
-    girls: "Girls",
-    sorting: "Sortowanie",
-    defaultSort: "Domyślne",
-    priceAsc: "Cena: od najniższej",
-    priceDesc: "Cena: od najwyższej",
-    priceFilter: "Filtr cenowy (PLN)",
-    min: "Min",
-    max: "Max",
-    clearFilter: "Wyczyść filtr",
-    agentPopupTitle: "Wybierz Agenta",
+    spreadsheet: "📄 Spreadsheet", sellers: "Sprzedawcy", changeAgent: "Zmień agenta",
+    heroTitle: "Spreadsheet", heroSubtitle: "Przeglądaj naszą kolekcję najlepszych linków.",
+    searchPlaceholder: "Szukaj produktów...", all: "All", shoes: "Buty", tshirts: "Koszulki",
+    hoodies: "Bluzy", shorts: "Spodenki", pants: "Spodnie", jackets: "Kurtki",
+    underwear: "Bielizna", belts: "Akcesoria", roomDecor: "Dekoracje", girls: "Girls",
+    sorting: "Sortowanie", defaultSort: "Domyślne", priceAsc: "Cena: od najniższej",
+    priceDesc: "Cena: od najwyższej", priceFilter: "Filtr cenowy (PLN)", min: "Min", max: "Max",
+    clearFilter: "Wyczyść filtr", agentPopupTitle: "Wybierz Agenta",
     agentPopupDesc: "Wybierz preferowanego agenta do zakupów przedmiotów.",
-    langPopupTitle: "Wybierz język",
-    langPopupDesc: "Select your preferred language",
-    langConfirm: "Kontynuuj →",
-    langPl: "Polski",
-    langEn: "English",
-    items: "itemów",
-    qc: "Sprawdź QC"
+    langPopupTitle: "Wybierz język", langPopupDesc: "Select your preferred language",
+    langConfirm: "Kontynuuj →", langPl: "Polski", langEn: "English", items: "itemów", qc: "Sprawdź QC"
   },
   en: {
-    spreadsheet: "📄 Spreadsheet",
-    sellers: "🔍 Best Sellers",
-    changeAgent: "🛒 Change Agent",
-    heroTitle: "Spreadsheet",
-    heroSubtitle: "Browse our collection of the best links.",
-    searchPlaceholder: "Search products...",
-    all: "All",
-    shoes: "Shoes",
-    tshirts: "T-shirts",
-    hoodies: "Hoodies",
-    shorts: "Shorts / Pants",
-    pants: "Pants",
-    jackets: "Jackets",
-    underwear: "Underwear",
-    belts: "Belts",
-    roomDecor: "Room Decor",
-    girls: "Girls",
-    sorting: "Sorting",
-    defaultSort: "Default",
-    priceAsc: "Price: Low to High",
-    priceDesc: "Price: High to Low",
-    priceFilter: "Price Filter (PLN)",
-    min: "Min",
-    max: "Max",
-    clearFilter: "Clear Filter",
-    agentPopupTitle: "Select Agent",
+    spreadsheet: "📄 Spreadsheet", sellers: "🔍 Best Sellers", changeAgent: "🛒 Change Agent",
+    heroTitle: "Spreadsheet", heroSubtitle: "Browse our collection of the best links.",
+    searchPlaceholder: "Search products...", all: "All", shoes: "Shoes", tshirts: "T-shirts",
+    hoodies: "Hoodies", shorts: "Shorts / Pants", pants: "Pants", jackets: "Jackets",
+    underwear: "Underwear", belts: "Belts", roomDecor: "Room Decor", girls: "Girls",
+    sorting: "Sorting", defaultSort: "Default", priceAsc: "Price: Low to High",
+    priceDesc: "Price: High to Low", priceFilter: "Price Filter (PLN)", min: "Min", max: "Max",
+    clearFilter: "Clear Filter", agentPopupTitle: "Select Agent",
     agentPopupDesc: "Choose your preferred shipping agent for items.",
-    langPopupTitle: "Select Language",
-    langPopupDesc: "Wybierz preferowany język",
-    langConfirm: "Continue →",
-    langPl: "Polish",
-    langEn: "English",
-    items: "items",
-    qc: "🔍 Check QC"
+    langPopupTitle: "Select Language", langPopupDesc: "Wybierz preferowany język",
+    langConfirm: "Continue →", langPl: "Polish", langEn: "English", items: "items", qc: "🔍 Check QC"
   }
 };
-
 // ============================================
 // 📋 MAPOWANIE KATEGORII
 // ============================================
@@ -11754,68 +11525,40 @@ const agentConfig = {
 // ============================================
 document.addEventListener("DOMContentLoaded", function() {
   console.log("🚀 Strona załadowana");
-  
-  // Inicjalizacja observera QC
   setupQCObserver();
   
-  // Inicjalizacja eventów lightboxa
   const wrapper = document.getElementById('qcLightboxWrapper');
   if (wrapper) {
       wrapper.addEventListener('mousedown', qcInitDrag);
       document.addEventListener('mousemove', qcMoveDrag);
       document.addEventListener('mouseup', qcEndDrag);
-      
       wrapper.addEventListener('touchstart', qcInitDrag, { passive: false });
       document.addEventListener('touchmove', qcMoveDrag, { passive: false });
       document.addEventListener('touchend', qcEndDrag);
   }
   
-  // Klawiatura dla lightboxa
   document.addEventListener('keydown', function(e) {
       const overlay = document.getElementById('qcLightboxOverlay');
       if (!overlay || !overlay.classList.contains('active')) return;
-      
       if (e.key === 'ArrowLeft') {
           e.preventDefault();
-          if (qcCurrentIndex > 0) {
-              qcCurrentIndex--;
-              openQCLightbox(qcCurrentIndex);
-          }
+          if (qcCurrentIndex > 0) { qcCurrentIndex--; openQCLightbox(qcCurrentIndex); }
       } else if (e.key === 'ArrowRight') {
           e.preventDefault();
-          if (qcCurrentIndex < qcImagesList.length - 1) {
-              qcCurrentIndex++;
-              openQCLightbox(qcCurrentIndex);
-          }
-      } else if (e.key === 'Escape') {
-          closeQCLightbox();
-      } else if (e.key === '+' || e.key === '=') {
-          e.preventDefault();
-          qcZoomIn();
-      } else if (e.key === '-') {
-          e.preventDefault();
-          qcZoomOut();
-      } else if (e.key === 'r' || e.key === 'R') {
-          e.preventDefault();
-          qcRotate();
-      } else if (e.key === 'f' || e.key === 'F') {
-          e.preventDefault();
-          qcToggleFullscreen();
-      }
+          if (qcCurrentIndex < qcImagesList.length - 1) { qcCurrentIndex++; openQCLightbox(qcCurrentIndex); }
+      } else if (e.key === 'Escape') { closeQCLightbox(); }
+      else if (e.key === '+' || e.key === '=') { e.preventDefault(); qcZoomIn(); }
+      else if (e.key === '-') { e.preventDefault(); qcZoomOut(); }
+      else if (e.key === 'r' || e.key === 'R') { e.preventDefault(); qcRotate(); }
+      else if (e.key === 'f' || e.key === 'F') { e.preventDefault(); qcToggleFullscreen(); }
   });
   
-  // Scroll - zoom
   document.addEventListener('wheel', function(e) {
       const overlay = document.getElementById('qcLightboxOverlay');
       if (!overlay || !overlay.classList.contains('active')) return;
       if (e.target.closest('.qc-lightbox-controls')) return;
-      
       e.preventDefault();
-      if (e.deltaY < 0) {
-          qcZoomIn();
-      } else {
-          qcZoomOut();
-      }
+      if (e.deltaY < 0) qcZoomIn(); else qcZoomOut();
   }, { passive: false });
   
   if (isFirstVisit) {
@@ -11826,7 +11569,6 @@ document.addEventListener("DOMContentLoaded", function() {
     renderCategories();
     renderFeatured();
     applyFiltersAndSort();
-    
     if (!preferredAgent) {
       setTimeout(function() { showAgentPopup(); }, 500);
     } else {
@@ -11834,8 +11576,6 @@ document.addEventListener("DOMContentLoaded", function() {
       setTimeout(function() { showRegisterPopup(); }, 1500);
     }
   }
-  
-  console.log('✅ QC Optimized: max 35 images, lazy loading enabled');
 });
 
 // ============================================
@@ -11845,32 +11585,26 @@ function showLanguagePopup() {
   var popup = document.getElementById('languagePopupOverlay');
   if (popup) popup.classList.add('active');
 }
-
 function hideLanguagePopup() {
   var popup = document.getElementById('languagePopupOverlay');
   if (popup) popup.classList.remove('active');
 }
-
 function selectLanguage(langCode) {
   currentLanguage = langCode;
   localStorage.setItem('selectedLanguage', langCode);
-  
   document.querySelectorAll('.language-btn').forEach(function(btn) {
     btn.classList.toggle('active', btn.dataset.lang === langCode);
   });
 }
-
 function confirmLanguage() {
   hideLanguagePopup();
   localStorage.setItem('hasVisited', 'true');
   isFirstVisit = false;
-  
   setupLanguage();
   setupEventListeners();
   renderCategories();
   renderFeatured();
   applyFiltersAndSort();
-  
   setTimeout(function() { showAgentPopup(); }, 300);
 }
 
@@ -11881,21 +11615,17 @@ function showAgentPopup() {
   var popup = document.getElementById('agentPopupOverlay');
   if (popup) popup.classList.add('active');
 }
-
 function closeAgentPopup() {
   var popup = document.getElementById('agentPopupOverlay');
   if (popup) popup.classList.remove('active');
 }
-
 function selectAgent(agentName) {
   preferredAgent = agentName;
   localStorage.setItem('preferredAgent', agentName);
-  
   updateRegisterPopup();
   closeAgentPopup();
   renderFeatured();
   applyFiltersAndSort();
-  
   setTimeout(function() { showRegisterPopup(); }, 500);
 }
 
@@ -11906,65 +11636,48 @@ function showRegisterPopup() {
   var popup = document.getElementById('popupOverlay');
   if (popup) popup.classList.add('active');
 }
-
 function hideRegisterPopup() {
   var popup = document.getElementById('popupOverlay');
   if (popup) popup.classList.remove('active');
 }
-
 function updateRegisterPopup() {
   var agent = preferredAgent || 'kakobuy';
   var config = agentConfig[agent];
-
   if (!config) return;
-
   var logoImg = document.getElementById('popupLogoImg');
   if (logoImg) logoImg.src = config.logo;
-
   var headline = document.getElementById('popupHeadline');
   if (headline) headline.textContent = config.headline || 'Zapłać za 10kg tylko 350zł!';
-
   var desc = document.getElementById('popupDesc');
   if (desc) desc.innerHTML = config.desc;
-
   var subtextCode = document.getElementById('popupSubtextCode');
   if (subtextCode) subtextCode.textContent = config.code;
-
   var live = document.getElementById('popupLive');
   if (live) live.style.display = config.showLive ? 'inline-flex' : 'none';
-
   var b1Text = document.getElementById('popupBenefit1Text');
   var b1Tag = document.getElementById('popupBenefit1Tag');
   if (b1Text) b1Text.textContent = config.benefit1Text || '';
   if (b1Tag) b1Tag.textContent = config.benefit1Tag || '';
-
   var b2Text = document.getElementById('popupBenefit2Text');
   var b2Tag = document.getElementById('popupBenefit2Tag');
   if (b2Text) b2Text.textContent = config.benefit2Text || '';
   if (b2Tag) b2Tag.textContent = config.benefit2Tag || '';
-
   var codeLabel = document.getElementById('popupCodeLabel');
   if (codeLabel) codeLabel.textContent = config.codeLabel;
-
   var codeValue = document.getElementById('popupCodeValue');
   if (codeValue) codeValue.textContent = config.code;
-
   var registerBtn = document.getElementById('popupRegisterBtn');
   if (registerBtn) registerBtn.href = config.btnUrl;
-
   var btnText = document.getElementById('popupBtnText');
   if (btnText) btnText.textContent = config.btnText;
-
   var footer = document.getElementById('popupFooter');
   if (footer) footer.textContent = config.footer;
 }
-
 function randomizePopupLive() {
   var countEl = document.getElementById('popupLiveCount');
   if (!countEl) return;
   var base = 60 + Math.floor(Math.random() * 40);
   countEl.textContent = base;
-
   setInterval(function() {
     var delta = Math.random() > 0.5 ? 1 : -1;
     base = Math.max(45, Math.min(120, base + delta));
@@ -11978,31 +11691,21 @@ function randomizePopupLive() {
 function copyCode() {
   var codeElement = document.getElementById('popupCodeValue');
   if (!codeElement) return;
-  
   var code = codeElement.textContent;
-  
   if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(code).then(function() {
-      showCopyFeedback();
-    }).catch(function() {
-      fallbackCopy(code);
-    });
+    navigator.clipboard.writeText(code).then(showCopyFeedback).catch(function() { fallbackCopy(code); });
   } else {
     fallbackCopy(code);
   }
 }
-
 function showCopyFeedback() {
   var btn = document.querySelector('.copy-code-btn');
   if (btn) {
     var originalText = btn.innerHTML;
     btn.innerHTML = '✅ Skopiowano!';
-    setTimeout(function() {
-      btn.innerHTML = originalText;
-    }, 2000);
+    setTimeout(function() { btn.innerHTML = originalText; }, 2000);
   }
 }
-
 function fallbackCopy(text) {
   var textarea = document.createElement('textarea');
   textarea.value = text;
@@ -12020,76 +11723,53 @@ function fallbackCopy(text) {
 // ============================================
 function setupLanguage() {
   var lang = translations[currentLanguage];
-  
   var navSpreadsheet = document.getElementById("navSpreadsheet");
   if (navSpreadsheet) navSpreadsheet.querySelector("span").textContent = lang.spreadsheet;
-  
   var navSellers = document.getElementById("navSellers");
   if (navSellers) navSellers.querySelector("span").textContent = lang.sellers;
-  
   var changeAgentBtn = document.getElementById("changeAgentBtn");
   if (changeAgentBtn) changeAgentBtn.querySelector("span").textContent = lang.changeAgent;
-  
   var heroTitle = document.getElementById("heroTitle");
   if (heroTitle) heroTitle.textContent = lang.heroTitle;
-  
   var heroSubtitle = document.getElementById("heroSubtitle");
   if (heroSubtitle) heroSubtitle.textContent = lang.heroSubtitle;
-  
   var searchInput = document.getElementById("search");
   if (searchInput) searchInput.placeholder = lang.searchPlaceholder;
-  
   var lblSorting = document.getElementById("lblSorting");
   if (lblSorting) lblSorting.textContent = lang.sorting;
-  
   var optDefault = document.getElementById("optDefault");
   if (optDefault) optDefault.textContent = lang.defaultSort;
-  
   var optAsc = document.getElementById("optAsc");
   if (optAsc) optAsc.textContent = lang.priceAsc;
-  
   var optDesc = document.getElementById("optDesc");
   if (optDesc) optDesc.textContent = lang.priceDesc;
-  
   var lblPriceFilter = document.getElementById("lblPriceFilter");
   if (lblPriceFilter) lblPriceFilter.textContent = lang.priceFilter;
-  
   var priceMin = document.getElementById("priceMin");
   if (priceMin) priceMin.placeholder = lang.min;
-  
   var priceMax = document.getElementById("priceMax");
   if (priceMax) priceMax.placeholder = lang.max;
-  
   var clearFilterBtn = document.getElementById("clearFilterBtn");
   if (clearFilterBtn) clearFilterBtn.textContent = lang.clearFilter;
-  
   var agentPopupTitle = document.getElementById("agentPopupTitle");
   if (agentPopupTitle) agentPopupTitle.textContent = lang.agentPopupTitle;
-  
   var agentPopupDesc = document.getElementById("agentPopupDesc");
   if (agentPopupDesc) agentPopupDesc.textContent = lang.agentPopupDesc;
-  
   var langPopupTitle = document.getElementById("langPopupTitle");
   if (langPopupTitle) langPopupTitle.textContent = lang.langPopupTitle;
-  
   var langPopupDesc = document.getElementById("langPopupDesc");
   if (langPopupDesc) langPopupDesc.textContent = lang.langPopupDesc;
-  
   var confirmLangBtn = document.getElementById("confirmLangBtn");
   if (confirmLangBtn) confirmLangBtn.textContent = lang.langConfirm;
-  
   var qcLink = document.getElementById('navQCSearch');
   if (qcLink) {
     var span = qcLink.querySelector('span');
     if (span) span.textContent = lang.qc;
   }
-  
   document.querySelectorAll('.language-btn').forEach(function(btn) {
     var langKey = btn.dataset.lang;
     var nameSpan = btn.querySelector('.lang-name');
-    if (nameSpan) {
-      nameSpan.textContent = langKey === 'pl' ? lang.langPl : lang.langEn;
-    }
+    if (nameSpan) nameSpan.textContent = langKey === 'pl' ? lang.langPl : lang.langEn;
   });
 }
 
@@ -12102,125 +11782,81 @@ function setupEventListeners() {
     lastFindsLink.addEventListener('click', function(e){
       e.preventDefault();
       switchView('lastfinds');
-        // Slider Last Finds — strzałki
-  var sliderPrev = document.getElementById('sliderPrev');
-  var sliderNext = document.getElementById('sliderNext');
-  if (sliderPrev) sliderPrev.addEventListener('click', slidePrev);
-  if (sliderNext) sliderNext.addEventListener('click', slideNext);
-
-  // Resize — przelicz ponownie
-  window.addEventListener('resize', function() {
-    if (currentView === 'lastfinds') {
-      updateSlidesPerView();
-      updateSlider();
-      updateDots();
-    }
-  });
+      var sliderPrev = document.getElementById('sliderPrev');
+      var sliderNext = document.getElementById('sliderNext');
+      if (sliderPrev) sliderPrev.addEventListener('click', slidePrev);
+      if (sliderNext) sliderNext.addEventListener('click', slideNext);
+      window.addEventListener('resize', function() {
+        if (currentView === 'lastfinds') {
+          updateSlidesPerView();
+          updateSlider();
+          updateDots();
+        }
+      });
     });
   }
   
   var promoLink = document.getElementById('navPromo');
   if (promoLink) {
-    promoLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      switchView('promo');
-    });
+    promoLink.addEventListener('click', function(e) { e.preventDefault(); switchView('promo'); });
   }
-  
+  var outfitsLink = document.getElementById('navOutfits');
+  if (outfitsLink) {
+    outfitsLink.addEventListener('click', function(e) { e.preventDefault(); switchView('outfits'); });
+  }
   var filterToggleBtn = document.getElementById("filterToggleBtn");
   var advancedFilters = document.getElementById("advancedFilters");
   if (filterToggleBtn && advancedFilters) {
-    filterToggleBtn.addEventListener("click", function() {
-      advancedFilters.classList.toggle("active");
-    });
+    filterToggleBtn.addEventListener("click", function() { advancedFilters.classList.toggle("active"); });
   }
-
   var changeLangBtn = document.getElementById("changeLangBtn");
-  if (changeLangBtn) {
-    changeLangBtn.addEventListener("click", function() {
-      showLanguagePopup();
-    });
-  }
-
+  if (changeLangBtn) changeLangBtn.addEventListener("click", showLanguagePopup);
   var changeAgentBtn = document.getElementById("changeAgentBtn");
-  if (changeAgentBtn) {
-    changeAgentBtn.addEventListener("click", function() {
-      showAgentPopup();
-    });
-  }
-
+  if (changeAgentBtn) changeAgentBtn.addEventListener("click", showAgentPopup);
   var sellersLink = document.getElementById('navSellers');
   if (sellersLink) {
-    sellersLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      switchView('sellers');
-    });
+    sellersLink.addEventListener('click', function(e) { e.preventDefault(); switchView('sellers'); });
   }
-  
   var spreadsheetLink = document.getElementById('navSpreadsheet');
   if (spreadsheetLink) {
-    spreadsheetLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      switchView('products');
-    });
+    spreadsheetLink.addEventListener('click', function(e) { e.preventDefault(); switchView('products'); });
   }
-
   var qcSearchLink = document.getElementById('navQCSearch');
   if (qcSearchLink) {
-    qcSearchLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      switchView('qcsearch');
-    });
+    qcSearchLink.addEventListener('click', function(e) { e.preventDefault(); switchView('qcsearch'); });
   }
-
   var scrollToTopBtn = document.getElementById("scrollToTopBtn");
   if (scrollToTopBtn) {
     window.addEventListener("scroll", function() {
-      if (window.scrollY > 300) {
-        scrollToTopBtn.classList.add("show");
-      } else {
-        scrollToTopBtn.classList.remove("show");
-      }
+      if (window.scrollY > 300) scrollToTopBtn.classList.add("show");
+      else scrollToTopBtn.classList.remove("show");
     });
     scrollToTopBtn.addEventListener("click", function() {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
-
   var closeBtn = document.getElementById('popupClose');
-  if (closeBtn) {
-    closeBtn.addEventListener('click', hideRegisterPopup);
-  }
-  
+  if (closeBtn) closeBtn.addEventListener('click', hideRegisterPopup);
   var popup = document.getElementById('popupOverlay');
   if (popup) {
-    popup.addEventListener('click', function(e) {
-      if (e.target === this) hideRegisterPopup();
-    });
+    popup.addEventListener('click', function(e) { if (e.target === this) hideRegisterPopup(); });
   }
-
   var qcCloseBtn = document.getElementById('qcPopupClose');
-  if (qcCloseBtn) {
-    qcCloseBtn.addEventListener('click', closeQCPopup);
-  }
+  if (qcCloseBtn) qcCloseBtn.addEventListener('click', closeQCPopup);
   var qcPopup = document.getElementById('qcPopupOverlay');
   if (qcPopup) {
-    qcPopup.addEventListener('click', function(e) {
-      if (e.target === this) closeQCPopup();
-    });
+    qcPopup.addEventListener('click', function(e) { if (e.target === this) closeQCPopup(); });
   }
-  
+  var outfitDetailsOverlay = document.getElementById('outfitDetailsOverlay');
+  if (outfitDetailsOverlay) {
+    outfitDetailsOverlay.addEventListener('click', function(e) { if (e.target === this) closeOutfitDetails(); });
+  }
   var qcLightboxClose = document.getElementById('qcLightboxClose');
-  if (qcLightboxClose) {
-    qcLightboxClose.addEventListener('click', closeQCLightbox);
-  }
+  if (qcLightboxClose) qcLightboxClose.addEventListener('click', closeQCLightbox);
   var qcLightboxOverlay = document.getElementById('qcLightboxOverlay');
   if (qcLightboxOverlay) {
-    qcLightboxOverlay.addEventListener('click', function(e) {
-      if (e.target === this) closeQCLightbox();
-    });
+    qcLightboxOverlay.addEventListener('click', function(e) { if (e.target === this) closeQCLightbox(); });
   }
-  
   var zoomIn = document.getElementById('qcZoomIn');
   var zoomOut = document.getElementById('qcZoomOut');
   var rotateBtn = document.getElementById('qcRotate');
@@ -12228,57 +11864,29 @@ function setupEventListeners() {
   var resetBtn = document.getElementById('qcResetView');
   var prevBtn = document.getElementById('qcPrevImage');
   var nextBtn = document.getElementById('qcNextImage');
-  
   if (zoomIn) zoomIn.addEventListener('click', qcZoomIn);
   if (zoomOut) zoomOut.addEventListener('click', qcZoomOut);
   if (rotateBtn) rotateBtn.addEventListener('click', qcRotate);
   if (fullscreenBtn) fullscreenBtn.addEventListener('click', qcToggleFullscreen);
   if (resetBtn) resetBtn.addEventListener('click', qcResetView);
-  if (prevBtn) prevBtn.addEventListener('click', function() {
-    if (qcCurrentIndex > 0) {
-      qcCurrentIndex--;
-      openQCLightbox(qcCurrentIndex);
-    }
-  });
-  if (nextBtn) nextBtn.addEventListener('click', function() {
-    if (qcCurrentIndex < qcImagesList.length - 1) {
-      qcCurrentIndex++;
-      openQCLightbox(qcCurrentIndex);
-    }
-  });
-  
+  if (prevBtn) prevBtn.addEventListener('click', function() { if (qcCurrentIndex > 0) { qcCurrentIndex--; openQCLightbox(qcCurrentIndex); } });
+  if (nextBtn) nextBtn.addEventListener('click', function() { if (qcCurrentIndex < qcImagesList.length - 1) { qcCurrentIndex++; openQCLightbox(qcCurrentIndex); } });
   var qcSearchInput = document.getElementById('qcSearchInput');
   if (qcSearchInput) {
-    qcSearchInput.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') {
-        searchQC();
-      }
-    });
+    qcSearchInput.addEventListener('keydown', function(e) { if (e.key === 'Enter') searchQC(); });
   }
-
-  // ============================================
-  // 🔧 POPRAWKA DLA LIGHTBOXA ZWYKŁEGO - ESC I X
-  // ============================================
-  
   var lightboxCloseBtn = document.getElementById('lightboxClose');
-  if (lightboxCloseBtn) {
-    lightboxCloseBtn.addEventListener('click', closeLightbox);
-  }
-  
+  if (lightboxCloseBtn) lightboxCloseBtn.addEventListener('click', closeLightbox);
   var lightboxOverlay = document.getElementById('lightboxOverlay');
   if (lightboxOverlay) {
-    lightboxOverlay.addEventListener('click', function(e) {
-      if (e.target === this) closeLightbox();
-    });
+    lightboxOverlay.addEventListener('click', function(e) { if (e.target === this) closeLightbox(); });
   }
-  
-  // Klawisz Escape dla zwykłego lightboxa
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
       const overlay = document.getElementById('lightboxOverlay');
-      if (overlay && overlay.classList.contains('active')) {
-        closeLightbox();
-      }
+      if (overlay && overlay.classList.contains('active')) closeLightbox();
+      const outfitOverlay = document.getElementById('outfitDetailsOverlay');
+      if (outfitOverlay && outfitOverlay.classList.contains('active')) closeOutfitDetails();
     }
   });
 }
@@ -12290,15 +11898,10 @@ function renderCategories() {
   var container = document.getElementById("categoriesContainer");
   if (!container) return;
   container.innerHTML = "";
-
   categoryMapping.forEach(function(cat) {
     var btn = document.createElement("button");
     btn.className = "category-chip" + (currentCategory === cat.techName ? " active" : "");
-    
-    if (cat.techName === "Girls") {
-      btn.classList.add("category-girls");
-    }
-    
+    if (cat.techName === "Girls") btn.classList.add("category-girls");
     btn.textContent = translations[currentLanguage][cat.translationKey] || cat.techName;
     btn.addEventListener("click", function() {
       currentCategory = cat.techName;
@@ -12315,98 +11918,21 @@ function renderCategories() {
 function renderFeatured() {
   var grid = document.getElementById('featuredGrid');
   if (!grid) return;
-  
   var featuredItems = [];
-  
   if (featuredProducts.length > 0) {
-    featuredItems = products.filter(function(p) {
-      return featuredProducts.includes(p.name);
-    });
+    featuredItems = products.filter(function(p) { return featuredProducts.includes(p.name); });
   } 
-  
   if (featuredItems.length === 0) {
     var reversed = products.slice().reverse();
     featuredItems = reversed.slice(0, Math.min(6, products.length));
   }
-  
   featuredItems = sortWithPromoted(featuredItems);
-  
   if (featuredItems.length === 0) {
     grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 20px; color: #71717a;">Brak produktów do wyświetlenia.</div>';
     return;
   }
-  
   grid.innerHTML = '';
-  
-  featuredItems.forEach(function(p) {
-    var finalLink = preferredAgent === "kakobuy" ? p.linkKakobuy : p.linkUsfans;
-    var catMap = categoryMapping.find(function(c) { return c.techName === p.category; });
-    var localizedCat = catMap ? translations[currentLanguage][catMap.translationKey] : p.category;
-    var priceData = formatPrice(p.price);
-    var qcUrl = p.linkUsfans || p.linkKakobuy || '';
-    
-    var tagClass = 'product-tag';
-    if (p.tag && p.tag.toUpperCase().includes('PROMOTED')) {
-      tagClass += ' promoted';
-    } else if (p.tag && p.tag.toUpperCase().includes('BEST')) {
-      tagClass += ' best';
-    } else if (p.tag && p.tag.toUpperCase().includes('BUDGET')) {
-      tagClass += ' budget';
-    }
-    
-    var safeImage = p.image || 'https://via.placeholder.com/300x200?text=No+Image';
-    var safeName = p.name || 'Produkt';
-    var randomViews = Math.floor(Math.random() * 500) + 200;
-    
-    var card = document.createElement('div');
-    card.className = 'featured-card';
-    
-    card.addEventListener('click', function(e) {
-      if (e.target.closest('.qc-icon')) return;
-      if (e.target.closest('.zoom-icon')) return;
-      if (finalLink && finalLink !== '#') {
-        window.open(finalLink, '_blank');
-      }
-    });
-    
-    card.innerHTML = 
-      '<img src="' + safeImage + '" alt="' + safeName + '" class="product-image" loading="lazy" onerror="this.src=\'https://via.placeholder.com/300x200?text=No+Image\'">' +
-      '<div class="zoom-icon" onclick="event.stopPropagation(); openLightbox(\'' + safeImage + '\')">' +
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#0b0b0c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-          '<circle cx="11" cy="11" r="8"/>' +
-          '<path d="m21 21-4.35-4.35"/>' +
-          '<path d="M11 8v6M8 11h6"/>' +
-        '</svg>' +
-      '</div>' +
-      '<div class="qc-icon" onclick="event.stopPropagation(); openQCPopup(\'' + qcUrl + '\', \'' + safeName.replace(/'/g, "\\'") + '\', \'' + safeImage + '\', \'' + priceData.usd + '\')">' +
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#0b0b0c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-          '<path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>' +
-          '<circle cx="12" cy="13" r="4"/>' +
-        '</svg>' +
-      '</div>' +
-      (p.tag ? '<div class="' + tagClass + '">' + p.tag + '</div>' : '') +
-      '<div class="product-overlay">' +
-        '<div class="product-info-bottom">' +
-          '<div class="product-meta-left">' +
-            '<div class="product-title">' + safeName + '</div>' +
-            '<div class="product-category-label">' + localizedCat + '</div>' +
-          '</div>' +
-          '<div class="product-price-wrapper">' +
-            '<span class="product-price-usd">' + priceData.usd + '</span>' +
-            '<span class="product-price-pln">' + priceData.pln + '</span>' +
-          '</div>' +
-        '</div>' +
-      '</div>' +
-      '<div class="product-views">' +
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-          '<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>' +
-          '<circle cx="12" cy="12" r="3"/>' +
-        '</svg>' +
-        ' ' + randomViews +
-      '</div>';
-    
-    grid.appendChild(card);
-  });
+  featuredItems.forEach(function(p) { grid.appendChild(buildProductCard(p, 'featured-card')); });
 }
 
 // ============================================
@@ -12418,7 +11944,6 @@ function handleSearch() {
   searchQuery = (mainSearch || globalSearch).toLowerCase().trim();
   applyFiltersAndSort();
 }
-
 function clearPriceFilters() {
   document.getElementById("priceMin").value = "";
   document.getElementById("priceMax").value = "";
@@ -12432,7 +11957,6 @@ function applyFiltersAndSort() {
   var minPrice = parseFloat(document.getElementById("priceMin").value) || 0;
   var maxPrice = parseFloat(document.getElementById("priceMax").value) || Infinity;
   var sortValue = document.getElementById("sortSelect").value;
-
   var filtered = products.filter(function(p) {
     var pricePLN = usdToPln(p.price);
     var matchesCategory = (currentCategory === "All" || p.category === currentCategory);
@@ -12440,20 +11964,51 @@ function applyFiltersAndSort() {
     var matchesPrice = pricePLN >= minPrice && pricePLN <= maxPrice;
     return matchesCategory && matchesSearch && matchesPrice;
   });
-
   filtered = sortWithPromoted(filtered);
-
   if (sortValue === "asc") {
-    filtered.sort(function(a, b) {
-      return usdToPln(a.price) - usdToPln(b.price);
-    });
+    filtered.sort(function(a, b) { return usdToPln(a.price) - usdToPln(b.price); });
   } else if (sortValue === "desc") {
-    filtered.sort(function(a, b) {
-      return usdToPln(b.price) - usdToPln(a.price);
-    });
+    filtered.sort(function(a, b) { return usdToPln(b.price) - usdToPln(a.price); });
   }
-
   renderGrid(filtered);
+}
+
+// ============================================
+// BUILD PRODUCT CARD (wspólny dla siatki/slidera/featured)
+// ============================================
+function buildProductCard(p, cardClass) {
+  var finalLink = preferredAgent === "kakobuy" ? p.linkKakobuy : p.linkUsfans;
+  var catMap = categoryMapping.find(function(c) { return c.techName === p.category; });
+  var localizedCat = catMap ? translations[currentLanguage][catMap.translationKey] : p.category;
+  var priceData = formatPrice(p.price);
+  var qcUrl = p.linkUsfans || p.linkKakobuy || '';
+  var tagClass = 'product-tag';
+  if (p.tag && p.tag.toUpperCase().includes('PROMOTED')) tagClass += ' promoted';
+  else if (p.tag && p.tag.toUpperCase().includes('BEST')) tagClass += ' best';
+  else if (p.tag && p.tag.toUpperCase().includes('BUDGET')) tagClass += ' budget';
+  else if (p.tag && p.tag.toUpperCase().includes('NEW')) tagClass += ' new';
+  var safeImage = p.image || 'https://via.placeholder.com/300x200?text=No+Image';
+  var safeName = p.name || 'Produkt';
+  var randomViews = Math.floor(Math.random() * 500) + 200;
+  var card = document.createElement('div');
+  card.className = cardClass || 'product-card';
+  card.addEventListener('click', function(e) {
+    if (e.target.closest('.qc-icon')) return;
+    if (e.target.closest('.zoom-icon')) return;
+    if (finalLink && finalLink !== '#') window.open(finalLink, '_blank');
+  });
+  card.innerHTML = 
+    '<img src="' + safeImage + '" alt="' + safeName + '" class="product-image" loading="lazy" onerror="this.src=\'https://via.placeholder.com/300x200?text=No+Image\'">' +
+    '<div class="zoom-icon" onclick="event.stopPropagation(); openLightbox(\'' + safeImage + '\')">' +
+      '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#0b0b0c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>' +
+    '</div>' +
+    '<div class="qc-icon" onclick="event.stopPropagation(); openQCPopup(\'' + qcUrl + '\', \'' + safeName.replace(/'/g, "\\'") + '\', \'' + safeImage + '\', \'' + priceData.usd + '\')">' +
+      '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#0b0b0c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>' +
+    '</div>' +
+    (p.tag ? '<div class="' + tagClass + '">' + p.tag + '</div>' : '') +
+    '<div class="product-overlay"><div class="product-info-bottom"><div class="product-meta-left"><div class="product-title">' + safeName + '</div><div class="product-category-label">' + localizedCat + '</div></div><div class="product-price-wrapper"><span class="product-price-usd">' + priceData.usd + '</span><span class="product-price-pln">' + priceData.pln + '</span></div></div></div>' +
+    '<div class="product-views"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> ' + randomViews + '</div>';
+  return card;
 }
 
 // ============================================
@@ -12463,85 +12018,20 @@ function renderGrid(items) {
   var grid = document.getElementById("grid");
   if (!grid) return;
   grid.innerHTML = "";
-
   var itemCount = document.getElementById("itemCount");
   if (itemCount) {
     var lang = translations[currentLanguage];
     itemCount.textContent = items.length + ' ' + (lang.items || 'itemów');
   }
-
   if (items.length === 0) {
     grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #71717a;">Brak produktów spełniających kryteria.</div>';
     return;
   }
-
-  items.forEach(function(p) {
-    var finalLink = preferredAgent === "kakobuy" ? p.linkKakobuy : p.linkUsfans;
-    var catMap = categoryMapping.find(function(c) { return c.techName === p.category; });
-    var localizedCat = catMap ? translations[currentLanguage][catMap.translationKey] : p.category;
-    var priceData = formatPrice(p.price);
-    var qcUrl = p.linkUsfans || p.linkKakobuy || '';
-
-    var tagClass = 'product-tag';
-    if (p.tag && p.tag.toUpperCase().includes('PROMOTED')) {
-      tagClass += ' promoted';
-    } else if (p.tag && p.tag.toUpperCase().includes('BEST')) {
-      tagClass += ' best';
-    } else if (p.tag && p.tag.toUpperCase().includes('BUDGET')) {
-      tagClass += ' budget';
-    } else if (p.tag && p.tag.toUpperCase().includes('NEW')) {
-      tagClass += ' new';
-    }
-
-    var safeImage = p.image || 'https://via.placeholder.com/300x200?text=No+Image';
-    var safeName = p.name || 'Produkt';
-
-    var card = document.createElement("div");
-    card.className = "product-card";
-
-    card.addEventListener("click", function(e) {
-      if (e.target.closest('.qc-icon')) return;
-      if (e.target.closest('.zoom-icon')) return;
-      if (finalLink && finalLink !== '#') {
-        window.open(finalLink, "_blank");
-      }
-    });
-
-    card.innerHTML = 
-      '<img src="' + safeImage + '" alt="' + safeName + '" class="product-image" loading="lazy" onerror="this.src=\'https://via.placeholder.com/300x200?text=No+Image\'">' +
-      '<div class="zoom-icon" onclick="event.stopPropagation(); openLightbox(\'' + safeImage + '\')">' +
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#0b0b0c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-          '<circle cx="11" cy="11" r="8"/>' +
-          '<path d="m21 21-4.35-4.35"/>' +
-          '<path d="M11 8v6M8 11h6"/>' +
-        '</svg>' +
-      '</div>' +
-      '<div class="qc-icon" onclick="event.stopPropagation(); openQCPopup(\'' + qcUrl + '\', \'' + safeName.replace(/'/g, "\\'") + '\', \'' + safeImage + '\', \'' + priceData.usd + '\')">' +
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#0b0b0c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-          '<path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>' +
-          '<circle cx="12" cy="13" r="4"/>' +
-        '</svg>' +
-      '</div>' +
-      (p.tag ? '<div class="' + tagClass + '">' + p.tag + '</div>' : '') +
-      '<div class="product-overlay">' +
-        '<div class="product-info-bottom">' +
-          '<div class="product-meta-left">' +
-            '<div class="product-title">' + safeName + '</div>' +
-            '<div class="product-category-label">' + localizedCat + '</div>' +
-          '</div>' +
-          '<div class="product-price-wrapper">' +
-            '<span class="product-price-usd">' + priceData.usd + '</span>' +
-            '<span class="product-price-pln">' + priceData.pln + '</span>' +
-          '</div>' +
-        '</div>' +
-      '</div>';
-
-    grid.appendChild(card);
-  });
+  items.forEach(function(p) { grid.appendChild(buildProductCard(p, 'product-card')); });
 }
 
 // ============================================
-// 🔍 LIGHTBOX ZWYKŁY - POPRAWIONY
+// 🔍 LIGHTBOX ZWYKŁY
 // ============================================
 function openLightbox(imgSrc) {
   var overlay = document.getElementById('lightboxOverlay');
@@ -12551,7 +12041,6 @@ function openLightbox(imgSrc) {
   overlay.classList.add('active');
   document.body.style.overflow = 'hidden';
 }
-
 function closeLightbox() {
   var overlay = document.getElementById('lightboxOverlay');
   if (!overlay) return;
@@ -12560,16 +12049,13 @@ function closeLightbox() {
 }
 
 // ============================================
-// 🏪 SPRZEDAWCY - FUNKCJE
+// 🏪 SPRZEDAWCY
 // ============================================
 function filterSellers() {
   var searchInput = document.getElementById('sellerSearch');
-  if (searchInput) {
-    currentSellerSearch = searchInput.value.toLowerCase().trim();
-  }
+  if (searchInput) currentSellerSearch = searchInput.value.toLowerCase().trim();
   renderSellers();
 }
-
 function filterSellersByCategory(cat) {
   currentSellerCategory = cat;
   document.querySelectorAll('.seller-filter-chip').forEach(function(btn) {
@@ -12577,49 +12063,31 @@ function filterSellersByCategory(cat) {
   });
   renderSellers();
 }
-
 function renderSellers() {
   var grid = document.getElementById('sellersGrid');
   if (!grid) return;
-  
   var searchValue = document.getElementById('sellerSearch')?.value.toLowerCase() || '';
-  
   var filtered = sellers.filter(function(s) {
     var matchesCategory = (currentSellerCategory === 'all' || s.category === currentSellerCategory);
     var matchesSearch = s.name.toLowerCase().includes(searchValue) || s.description.toLowerCase().includes(searchValue);
     return matchesCategory && matchesSearch;
   });
-  
   if (filtered.length === 0) {
     grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #71717a;">Brak sprzedawców spełniających kryteria.</div>';
     return;
   }
-  
   grid.innerHTML = '';
-  
   filtered.forEach(function(s) {
     var fullStars = Math.floor(s.rating / 2);
     var stars = '';
     for (var i = 0; i < fullStars; i++) stars += '★';
     for (var i = fullStars; i < 5; i++) stars += '☆';
-    
     var card = document.createElement('div');
     card.className = 'seller-card';
-    
     card.innerHTML = 
-      '<div class="seller-card-header">' +
-        '<span class="seller-card-name">' + s.name + '</span>' +
-        '<span class="seller-card-badge best">⭐ ' + s.badge + '</span>' +
-      '</div>' +
+      '<div class="seller-card-header"><span class="seller-card-name">' + s.name + '</span><span class="seller-card-badge best">⭐ ' + s.badge + '</span></div>' +
       '<p class="seller-card-desc">' + s.description + '</p>' +
-      '<div class="seller-card-footer">' +
-        '<div class="seller-card-rating">' +
-          '<span class="stars">' + stars + '</span>' +
-          '<span>' + s.rating + '/10</span>' +
-        '</div>' +
-        '<a href="' + s.link + '" target="_blank" rel="noopener noreferrer" class="seller-card-btn">Zobacz produkty →</a>' +
-      '</div>';
-    
+      '<div class="seller-card-footer"><div class="seller-card-rating"><span class="stars">' + stars + '</span><span>' + s.rating + '/10</span></div><a href="' + s.link + '" target="_blank" rel="noopener noreferrer" class="seller-card-btn">Zobacz produkty →</a></div>';
     grid.appendChild(card);
   });
 }
@@ -12634,11 +12102,13 @@ function switchView(view) {
   var lastFindsView = document.getElementById('lastFindsView');
   var promoView = document.getElementById('promoView');
   var qcSearchView = document.getElementById('qcSearchView');
+  var outfitsView = document.getElementById('outfitsView');
   var spreadsheetLink = document.getElementById('navSpreadsheet');
   var sellersLink = document.getElementById('navSellers');
   var lastFindsLink = document.getElementById('navLastFinds');
   var promoLink = document.getElementById('navPromo');
   var qcSearchLink = document.getElementById('navQCSearch');
+  var outfitsLink = document.getElementById('navOutfits');
   var heroTitle = document.getElementById('heroTitle');
   var heroSubtitle = document.getElementById('heroSubtitle');
   var searchInput = document.getElementById('search');
@@ -12649,12 +12119,14 @@ function switchView(view) {
   if (lastFindsView) lastFindsView.style.display = 'none';
   if (promoView) promoView.style.display = 'none';
   if (qcSearchView) qcSearchView.style.display = 'none';
+  if (outfitsView) outfitsView.style.display = 'none';
   
   if (spreadsheetLink) spreadsheetLink.classList.remove('active');
   if (sellersLink) sellersLink.classList.remove('active');
   if (lastFindsLink) lastFindsLink.classList.remove('active');
   if (promoLink) promoLink.classList.remove('active');
   if (qcSearchLink) qcSearchLink.classList.remove('active');
+  if (outfitsLink) outfitsLink.classList.remove('active');
   
   if (view === 'products') {
     if (productsView) productsView.style.display = 'block';
@@ -12670,11 +12142,7 @@ function switchView(view) {
     if (heroTitle) heroTitle.textContent = '🔥 Last Finds';
     if (heroSubtitle) heroSubtitle.textContent = 'Ostatnio dodane produkty.';
     renderSlider();
-    setTimeout(function() {
-      updateSlidesPerView();
-      updateSlider();
-      updateDots();
-    }, 100);
+    setTimeout(function() { updateSlidesPerView(); updateSlider(); updateDots(); }, 100);
   } else if (view === 'promo') {
     if (promoView) promoView.style.display = 'block';
     if (promoLink) promoLink.classList.add('active');
@@ -12686,6 +12154,12 @@ function switchView(view) {
     if (qcSearchLink) qcSearchLink.classList.add('active');
     if (heroTitle) heroTitle.textContent = '🔍 Sprawdź QC';
     if (heroSubtitle) heroSubtitle.textContent = 'Wyszukaj zdjęcia QC po nazwie lub linku.';
+  } else if (view === 'outfits') {
+    if (outfitsView) outfitsView.style.display = 'block';
+    if (outfitsLink) outfitsLink.classList.add('active');
+    if (heroTitle) heroTitle.textContent = '👕 Outfit Machine';
+    if (heroSubtitle) heroSubtitle.textContent = 'Losuj i zapisuj kompletne outfity z bazy produktów.';
+    renderSavedOutfits();
   } else {
     if (sellersView) sellersView.style.display = 'block';
     if (sellersLink) sellersLink.classList.add('active');
@@ -12698,94 +12172,23 @@ function switchView(view) {
 // ============================================
 // 🔥 LAST FINDS - SLIDER
 // ============================================
-
 let currentSlide = 0;
 let slidesPerView = 4;
 
 function renderSlider() {
   var track = document.getElementById('sliderTrack');
   if (!track) return;
-  
   var reversed = products.slice().reverse();
   var sliderItems = reversed.slice(0, Math.min(30, products.length));
-  
   if (sliderItems.length === 0) {
     track.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #71717a;">Brak produktów do wyświetlenia.</div>';
     return;
   }
-  
   track.innerHTML = '';
-  
   sliderItems.forEach(function(p) {
-    var finalLink = preferredAgent === "kakobuy" ? p.linkKakobuy : p.linkUsfans;
-    var catMap = categoryMapping.find(function(c) { return c.techName === p.category; });
-    var localizedCat = catMap ? translations[currentLanguage][catMap.translationKey] : p.category;
-    var priceData = formatPrice(p.price);
-    var qcUrl = p.linkUsfans || p.linkKakobuy || '';
-    
-    var tagClass = 'product-tag';
-    if (p.tag && p.tag.toUpperCase().includes('PROMOTED')) {
-      tagClass += ' promoted';
-    } else if (p.tag && p.tag.toUpperCase().includes('BEST')) {
-      tagClass += ' best';
-    } else if (p.tag && p.tag.toUpperCase().includes('BUDGET')) {
-      tagClass += ' budget';
-    }
-    
-    var safeImage = p.image || 'https://via.placeholder.com/300x200?text=No+Image';
-    var safeName = p.name || 'Produkt';
-    var randomViews = Math.floor(Math.random() * 500) + 200;
-    
-    var item = document.createElement('div');
-    item.className = 'slider-item';
-    
-    item.addEventListener('click', function(e) {
-      if (e.target.closest('.qc-icon')) return;
-      if (e.target.closest('.zoom-icon')) return;
-      if (finalLink && finalLink !== '#') {
-        window.open(finalLink, '_blank');
-      }
-    });
-    
-    item.innerHTML = 
-      '<img src="' + safeImage + '" alt="' + safeName + '" class="product-image" loading="lazy" onerror="this.src=\'https://via.placeholder.com/300x200?text=No+Image\'">' +
-      '<div class="zoom-icon" onclick="event.stopPropagation(); openLightbox(\'' + safeImage + '\')">' +
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#0b0b0c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-          '<circle cx="11" cy="11" r="8"/>' +
-          '<path d="m21 21-4.35-4.35"/>' +
-          '<path d="M11 8v6M8 11h6"/>' +
-        '</svg>' +
-      '</div>' +
-      '<div class="qc-icon" onclick="event.stopPropagation(); openQCPopup(\'' + qcUrl + '\', \'' + safeName.replace(/'/g, "\\'") + '\', \'' + safeImage + '\', \'' + priceData.usd + '\')">' +
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#0b0b0c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-          '<path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>' +
-          '<circle cx="12" cy="13" r="4"/>' +
-        '</svg>' +
-      '</div>' +
-      (p.tag ? '<div class="' + tagClass + '">' + p.tag + '</div>' : '') +
-      '<div class="product-overlay">' +
-        '<div class="product-info-bottom">' +
-          '<div class="product-meta-left">' +
-            '<div class="product-title">' + safeName + '</div>' +
-            '<div class="product-category-label">' + localizedCat + '</div>' +
-          '</div>' +
-          '<div class="product-price-wrapper">' +
-            '<span class="product-price-usd">' + priceData.usd + '</span>' +
-            '<span class="product-price-pln">' + priceData.pln + '</span>' +
-          '</div>' +
-        '</div>' +
-      '</div>' +
-      '<div class="product-views">' +
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-          '<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>' +
-          '<circle cx="12" cy="12" r="3"/>' +
-        '</svg>' +
-        ' ' + randomViews +
-      '</div>';
-    
-    track.appendChild(item);
+    var card = buildProductCard(p, 'slider-item');
+    track.appendChild(card);
   });
-  
   updateSlidesPerView();
   updateSlider();
   updateDots();
@@ -12793,43 +12196,26 @@ function renderSlider() {
 
 function updateSlidesPerView() {
   var width = window.innerWidth;
-  
-  if (width < 480) {
-    slidesPerView = 2;
-  } else if (width < 768) {
-    slidesPerView = 3;
-  } else if (width < 992) {
-    slidesPerView = 4;
-  } else if (width < 1200) {
-    slidesPerView = 5;
-  } else {
-    slidesPerView = 6;
-  }
+  if (width < 480) slidesPerView = 2;
+  else if (width < 768) slidesPerView = 3;
+  else if (width < 992) slidesPerView = 4;
+  else if (width < 1200) slidesPerView = 5;
+  else slidesPerView = 6;
 }
 
 function updateSlider() {
   var track = document.getElementById('sliderTrack');
   var totalItems = track ? track.children.length : 0;
   var maxSlide = Math.max(0, totalItems - slidesPerView);
-  
-  if (currentSlide > maxSlide) {
-    currentSlide = maxSlide;
-  }
-  
+  if (currentSlide > maxSlide) currentSlide = maxSlide;
   var itemWidth = track ? track.children[0]?.offsetWidth || 0 : 0;
   var gap = 16;
   var offset = currentSlide * (itemWidth + gap);
-  
-  if (track) {
-    track.style.transform = 'translateX(-' + offset + 'px)';
-  }
-  
+  if (track) track.style.transform = 'translateX(-' + offset + 'px)';
   var prevBtn = document.getElementById('sliderPrev');
   var nextBtn = document.getElementById('sliderNext');
-  
   if (prevBtn) prevBtn.disabled = currentSlide === 0;
   if (nextBtn) nextBtn.disabled = currentSlide >= maxSlide;
-  
   updateDots();
 }
 
@@ -12838,116 +12224,57 @@ function updateDots() {
   var track = document.getElementById('sliderTrack');
   var totalItems = track ? track.children.length : 0;
   var totalDots = Math.ceil(totalItems / slidesPerView);
-  
   if (!dotsContainer) return;
-  
   dotsContainer.innerHTML = '';
-  
   for (var i = 0; i < totalDots; i++) {
     var dot = document.createElement('button');
     dot.className = 'slider-dot' + (i === currentSlide ? ' active' : '');
     dot.addEventListener('click', function(index) {
-      return function() {
-        currentSlide = index;
-        updateSlider();
-      };
+      return function() { currentSlide = index; updateSlider(); };
     }(i));
     dotsContainer.appendChild(dot);
   }
 }
 
-function slidePrev() {
-  if (currentSlide > 0) {
-    currentSlide--;
-    updateSlider();
-  }
-}
-
+function slidePrev() { if (currentSlide > 0) { currentSlide--; updateSlider(); } }
 function slideNext() {
   var track = document.getElementById('sliderTrack');
   var totalItems = track ? track.children.length : 0;
   var maxSlide = Math.max(0, totalItems - slidesPerView);
-  
-  if (currentSlide < maxSlide) {
-    currentSlide++;
-    updateSlider();
-  }
+  if (currentSlide < maxSlide) { currentSlide++; updateSlider(); }
 }
 
 // ============================================
-// 🏷️ PROMO FINDS - FUNKCJE
+// 🏷️ PROMO FINDS
 // ============================================
-
 function renderPromotions() {
   var grid = document.getElementById('promoGrid');
   if (!grid) return;
-  
   if (promotions.length === 0) {
     grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #71717a;">Brak aktualnych promocji.</div>';
     return;
   }
-  
   grid.innerHTML = '';
-  
   promotions.forEach(function(p) {
     var stars = '';
     var fullStars = Math.floor(p.rating / 2);
     for (var i = 0; i < fullStars; i++) stars += '⭐';
     if (p.rating % 2 === 1) stars += '⭐';
     for (var i = fullStars; i < 5; i++) stars += '☆';
-    
     var tagClass = 'promo-tag';
-    if (p.tag && p.tag.toUpperCase().includes('BEST')) {
-      tagClass += ' best';
-    } else if (p.tag && p.tag.toUpperCase().includes('PROMO')) {
-      tagClass += ' promo';
-    }
-    
+    if (p.tag && p.tag.toUpperCase().includes('BEST')) tagClass += ' best';
+    else if (p.tag && p.tag.toUpperCase().includes('PROMO')) tagClass += ' promo';
     var safeImage = p.image || 'https://via.placeholder.com/300x200?text=No+Image';
     var safeName = p.name || 'Produkt';
-    
     var card = document.createElement('div');
     card.className = 'promo-card';
-    
     card.addEventListener('click', function(e) {
       if (e.target.closest('.promo-btn')) return;
-      if (p.link && p.link !== '#') {
-        window.open(p.link, '_blank');
-      }
+      if (p.link && p.link !== '#') window.open(p.link, '_blank');
     });
-    
     card.innerHTML = 
-      '<div class="promo-card-image-wrapper">' +
-        '<img src="' + safeImage + '" alt="' + safeName + '" class="promo-card-image" loading="lazy" onerror="this.src=\'https://via.placeholder.com/300x300?text=No+Image\'">' +
-        '<div class="promo-tag-wrapper">' +
-          '<span class="' + tagClass + '">' + p.tag + '</span>' +
-          '<span class="promo-batch">' + p.batch + '</span>' +
-        '</div>' +
-      '</div>' +
-      '<div class="promo-card-body">' +
-        '<h3 class="promo-card-title">' + safeName + '</h3>' +
-        '<div class="promo-card-meta">' +
-          '<span class="promo-card-price">' + p.price + '</span>' +
-          '<span class="promo-card-price-pln">' + p.pricePLN + '</span>' +
-        '</div>' +
-        '<div class="promo-card-details">' +
-          '<div class="promo-card-row">' +
-            '<span class="promo-label">Batch:</span>' +
-            '<span class="promo-value">' + p.batch + '</span>' +
-          '</div>' +
-          '<div class="promo-card-row">' +
-            '<span class="promo-label">Ważne do:</span>' +
-            '<span class="promo-value promo-expiry">' + p.expiry + '</span>' +
-          '</div>' +
-        '</div>' +
-        '<div class="promo-card-footer">' +
-          '<div class="promo-card-stats">' +
-            '<span class="promo-stat">' + stars + ' ' + p.rating + '</span>' +
-          '</div>' +
-          '<a href="' + p.link + '" target="_blank" rel="noopener noreferrer" class="promo-btn">📧 Szczegóły</a>' +
-        '</div>' +
-      '</div>';
-    
+      '<div class="promo-card-image-wrapper"><img src="' + safeImage + '" alt="' + safeName + '" class="promo-card-image" loading="lazy" onerror="this.src=\'https://via.placeholder.com/300x300?text=No+Image\'"><div class="promo-tag-wrapper"><span class="' + tagClass + '">' + p.tag + '</span><span class="promo-batch">' + p.batch + '</span></div></div>' +
+      '<div class="promo-card-body"><h3 class="promo-card-title">' + safeName + '</h3><div class="promo-card-meta"><span class="promo-card-price">' + p.price + '</span><span class="promo-card-price-pln">' + p.pricePLN + '</span></div><div class="promo-card-details"><div class="promo-card-row"><span class="promo-label">Batch:</span><span class="promo-value">' + p.batch + '</span></div><div class="promo-card-row"><span class="promo-label">Ważne do:</span><span class="promo-value promo-expiry">' + p.expiry + '</span></div></div><div class="promo-card-footer"><div class="promo-card-stats"><span class="promo-stat">' + stars + ' ' + p.rating + '</span></div><a href="' + p.link + '" target="_blank" rel="noopener noreferrer" class="promo-btn">📧 Szczegóły</a></div></div>';
     grid.appendChild(card);
   });
 }
@@ -12958,36 +12285,20 @@ function renderPromotions() {
 document.addEventListener('DOMContentLoaded', function() {
   var sidebarToggle = document.getElementById('sidebarToggle');
   var sidebarContent = document.querySelector('.sidebar-content');
-
   if (sidebarToggle && sidebarContent) {
     function updateToggleVisibility() {
-      if (window.innerWidth <= 768) {
-        sidebarToggle.style.display = 'flex';
-      } else {
-        sidebarToggle.style.display = 'none';
-        sidebarContent.style.display = 'flex';
-      }
+      if (window.innerWidth <= 768) sidebarToggle.style.display = 'flex';
+      else { sidebarToggle.style.display = 'none'; sidebarContent.style.display = 'flex'; }
     }
-
     updateToggleVisibility();
     window.addEventListener('resize', updateToggleVisibility);
-
     sidebarToggle.addEventListener('click', function() {
       if (sidebarContent.style.display === 'none' || sidebarContent.style.display === '') {
         sidebarContent.style.display = 'flex';
-        sidebarToggle.innerHTML = `
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4 6h16M4 12h16M4 18h16"/>
-          </svg>
-        `;
+        sidebarToggle.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>';
       } else {
         sidebarContent.style.display = 'none';
-        sidebarToggle.innerHTML = `
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="18" y1="6" x2="6" y2="18"/>
-            <line x1="6" y1="6" x2="18" y2="18"/>
-          </svg>
-        `;
+        sidebarToggle.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>';
       }
     });
   }
@@ -12996,29 +12307,22 @@ document.addEventListener('DOMContentLoaded', function() {
 // ============================================
 // 🔍 QC - POPUP
 // ============================================
-
 function openQCPopup(productUrl, productName, productImage, productPrice) {
   var overlay = document.getElementById('qcPopupOverlay');
   if (!overlay) return;
-  
   var thumb = document.getElementById('qcProductThumb');
   if (thumb) thumb.src = productImage || 'https://via.placeholder.com/100x100?text=No+Image';
-  
   var title = document.getElementById('qcProductTitle');
   if (title) title.textContent = productName || 'Produkt';
-  
   var price = document.getElementById('qcProductPrice');
   if (price) price.textContent = productPrice || '';
-  
   var loading = document.getElementById('qcLoading');
   var gallery = document.getElementById('qcImagesGrid');
   var badge = document.getElementById('qcBadge');
   var linkBtn = document.getElementById('qcLinkBtn');
-  
   qcImagesList = [];
   qcCurrentIndex = 0;
   if (gallery) gallery.innerHTML = '';
-  
   if (loading) loading.style.display = 'flex';
   if (badge) {
     badge.textContent = '⏳ Ładowanie...';
@@ -13027,21 +12331,15 @@ function openQCPopup(productUrl, productName, productImage, productPrice) {
     badge.style.borderColor = 'rgba(255, 165, 0, 0.3)';
   }
   if (linkBtn) linkBtn.style.display = 'none';
-  
   overlay.classList.add('active');
   document.body.style.overflow = 'hidden';
-  
   if (!productUrl) {
     if (loading) loading.style.display = 'none';
-    if (gallery) {
-      gallery.innerHTML = '<div class="qc-no-images">❌ Brak linku do produktu</div>';
-    }
+    if (gallery) gallery.innerHTML = '<div class="qc-no-images">❌ Brak linku do produktu</div>';
     return;
   }
-  
   fetchQCImages(productUrl);
 }
-
 function closeQCPopup() {
   var overlay = document.getElementById('qcPopupOverlay');
   if (!overlay) return;
@@ -13050,6 +12348,7 @@ function closeQCPopup() {
   qcImagesList = [];
   qcCurrentIndex = 0;
 }
+
 // ============================================
 // PROMO BANNER
 // ============================================
@@ -13060,7 +12359,6 @@ function closePromoBanner() {
   document.body.classList.add('no-banner');
   localStorage.setItem('promoBannerClosed', 'true');
 }
-
 document.addEventListener('DOMContentLoaded', function() {
   const banner = document.getElementById('promoBanner');
   if (banner && localStorage.getItem('promoBannerClosed') === 'true') {
@@ -13068,13 +12366,347 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.classList.add('no-banner');
   }
 });
+document.addEventListener('DOMContentLoaded', function() { randomizePopupLive(); });
 
 // ============================================
-// POPUP LIVE COUNTER (start)
+// 👕 OUTFIT MACHINE
 // ============================================
-document.addEventListener('DOMContentLoaded', function() {
-  randomizePopupLive();
-});
+const OUTFIT_SLOTS = {
+  tshirt: ['Tshirts'],
+  pants: ['Pants', 'Shorts'],
+  hoodie: ['Hoodies', 'Jackets'],
+  shoes: ['Shoes']
+};
+
+function getProductsBySlots(slotKey) {
+  const cats = OUTFIT_SLOTS[slotKey];
+  let pool = products.filter(p => cats.includes(p.category));
+  if (pool.length < 5 && slotKey === 'hoodie') {
+    pool = products.filter(p => ['Hoodies', 'Jackets', 'Tshirts'].includes(p.category));
+  }
+  return pool;
+}
+
+function getRandomProduct(slotKey) {
+  const pool = getProductsBySlots(slotKey);
+  if (pool.length === 0) return null;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
+function rollSlot(slotKey, callback) {
+  const slotEl = document.getElementById('slot-' + slotKey);
+  if (!slotEl) return;
+  slotEl.classList.add('rolling');
+  let rolls = 0;
+  const maxRolls = 12;
+  const pool = getProductsBySlots(slotKey);
+  const interval = setInterval(() => {
+    const tempProduct = pool[Math.floor(Math.random() * pool.length)];
+    if (tempProduct) {
+      slotEl.innerHTML = `<img src="${tempProduct.image}" alt="..." class="outfit-slot-image" style="opacity:0.7;">`;
+    }
+    rolls++;
+    if (rolls >= maxRolls) {
+      clearInterval(interval);
+      slotEl.classList.remove('rolling');
+      callback();
+    }
+  }, 80);
+}
+
+function generateRandomOutfit() {
+  const slots = ['tshirt', 'pants', 'hoodie', 'shoes'];
+  const hint = document.getElementById('outfitHint');
+  if (hint) hint.textContent = '🎲 Losowanie...';
+  const existingActions = document.querySelector('.outfit-actions');
+  if (existingActions) existingActions.remove();
+  let completed = 0;
+  const newOutfit = {};
+  slots.forEach((slotKey, index) => {
+    setTimeout(() => {
+      rollSlot(slotKey, () => {
+        const product = getRandomProduct(slotKey);
+        newOutfit[slotKey] = product;
+        renderSlot(slotKey, product);
+        completed++;
+        if (completed === slots.length) {
+          currentOutfit = newOutfit;
+          showOutfitActions();
+          if (hint) hint.textContent = '✅ Outfit gotowy! Zapisz go lub wylosuj ponownie.';
+        }
+      });
+    }, index * 150);
+  });
+}
+
+function renderSlot(slotKey, product) {
+  const slotEl = document.getElementById('slot-' + slotKey);
+  if (!slotEl) return;
+  if (!product) {
+    slotEl.classList.remove('has-item');
+    slotEl.innerHTML = `
+      <div class="outfit-slot-empty">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16v16H4z"/></svg>
+        <span>${slotKey.toUpperCase()}</span>
+      </div>
+    `;
+    slotEl.onclick = null;
+    return;
+  }
+  const price = parsePrice(product.price);
+  const pricePLN = Math.round(price * USD_TO_PLN);
+  slotEl.classList.add('has-item');
+  slotEl.innerHTML = `
+    <img src="${product.image}" alt="${product.name}" class="outfit-slot-image" onerror="this.src='https://via.placeholder.com/300x400?text=No+Image'">
+    <div class="outfit-slot-overlay">
+      <div class="outfit-slot-name">${product.name}</div>
+      <div class="outfit-slot-price">$${price.toFixed(2)} · ${pricePLN} zł</div>
+    </div>
+  `;
+  slotEl.onclick = function(e) {
+    e.stopPropagation();
+    const link = preferredAgent === 'kakobuy' ? product.linkKakobuy : product.linkUsfans;
+    if (link && link !== '#') window.open(link, '_blank');
+  };
+}
+
+function showOutfitActions() {
+  const footer = document.querySelector('.outfit-machine-footer');
+  if (!footer) return;
+  const existing = document.querySelector('.outfit-actions');
+  if (existing) existing.remove();
+  const actionsDiv = document.createElement('div');
+  actionsDiv.className = 'outfit-actions';
+  actionsDiv.innerHTML = `
+    <button class="outfit-action-btn primary" onclick="saveCurrentOutfit()">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+      Zapisz outfit
+    </button>
+    <button class="outfit-action-btn" onclick="openAllOutfitLinks()">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      Otwórz wszystkie linki
+    </button>
+  `;
+  footer.parentNode.insertBefore(actionsDiv, footer);
+}
+
+function saveCurrentOutfit() {
+  const hasAny = Object.values(currentOutfit).some(p => p !== null);
+  if (!hasAny) { alert('Najpierw wylosuj outfit!'); return; }
+  const customOutfit = {
+    id: Date.now(),
+    title: 'Losowy outfit',
+    image: currentOutfit.tshirt?.image || currentOutfit.hoodie?.image || currentOutfit.pants?.image || currentOutfit.shoes?.image || '',
+    date: new Date().toLocaleDateString('pl-PL'),
+    custom: false,
+    items: []
+  };
+  ['hoodie', 'tshirt', 'pants', 'shoes'].forEach(slot => {
+    const item = currentOutfit[slot];
+    if (item) {
+      customOutfit.items.push({
+        name: item.name,
+        image: item.image,
+        price: item.price,
+        category: item.category,
+        linkKakobuy: item.linkKakobuy,
+        linkUsfans: item.linkUsfans
+      });
+    }
+  });
+  savedOutfits.unshift(customOutfit);
+  if (savedOutfits.length > 30) savedOutfits = savedOutfits.slice(0, 30);
+  localStorage.setItem('savedOutfits', JSON.stringify(savedOutfits));
+  renderSavedOutfits();
+  showToast('✅ Outfit zapisany!');
+}
+
+function openAllOutfitLinks() {
+  const slots = ['tshirt', 'pants', 'hoodie', 'shoes'];
+  let opened = 0;
+  slots.forEach(slot => {
+    const product = currentOutfit[slot];
+    if (product) {
+      const link = preferredAgent === 'kakobuy' ? product.linkKakobuy : product.linkUsfans;
+      if (link && link !== '#') {
+        setTimeout(() => window.open(link, '_blank'), opened * 200);
+        opened++;
+      }
+    }
+  });
+  if (opened === 0) alert('Brak linków do otwarcia');
+}
+
+// ============================================
+// 📄 RENDEROWANIE OUTFITÓW (hardcoded + saved)
+// ============================================
+function renderSavedOutfits() {
+  const grid = document.getElementById('savedOutfitsGrid');
+  const empty = document.getElementById('savedOutfitsEmpty');
+  const count = document.getElementById('savedCount');
+  if (!grid) return;
+  
+  const allOutfits = [...outfits, ...savedOutfits];
+  if (count) count.textContent = allOutfits.length;
+  
+  if (allOutfits.length === 0) {
+    if (empty) empty.style.display = 'block';
+    grid.querySelectorAll('.saved-outfit-card').forEach(c => c.remove());
+    return;
+  }
+  if (empty) empty.style.display = 'none';
+  grid.querySelectorAll('.saved-outfit-card').forEach(c => c.remove());
+  
+  allOutfits.forEach(outfit => {
+    const card = document.createElement('div');
+    card.className = 'saved-outfit-card';
+    const items = outfit.items || [];
+    const totalPrice = items.reduce((sum, item) => sum + parsePrice(item.price), 0);
+    const totalPLN = Math.round(totalPrice * USD_TO_PLN);
+    const itemCount = items.length;
+    const imageUrl = outfit.image || (items[0] && items[0].image) || '';
+    const isHardcoded = outfits.some(o => o.id === outfit.id);
+    
+    card.innerHTML = `
+      <div class="saved-outfit-preview" style="grid-template-columns: 1fr;">
+        ${imageUrl ? `<div class="saved-outfit-preview-item">
+          <img src="${imageUrl}" alt="${outfit.title}" onerror="this.parentElement.classList.add('missing'); this.parentElement.innerHTML='?';">
+        </div>` : `<div class="saved-outfit-preview-item missing">—</div>`}
+      </div>
+      <div class="saved-outfit-info">
+        <div class="saved-outfit-meta">
+          <div class="saved-outfit-title">${outfit.title || ('Outfit #' + itemCount + ' itemów')}</div>
+          <div class="saved-outfit-price">$${totalPrice.toFixed(2)} · ${totalPLN} zł • ${itemCount} itemów</div>
+        </div>
+        <div class="saved-outfit-actions">
+          <button class="saved-outfit-icon-btn" onclick="openOutfitDetails('${outfit.id}')" title="Podgląd">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </button>
+          ${!isHardcoded ? `<button class="saved-outfit-icon-btn delete" onclick="deleteSavedOutfit('${outfit.id}')" title="Usuń">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6"/><path d="M10 11v6M14 11v6"/></svg>
+          </button>` : ''}
+        </div>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+// ============================================
+// 📄 OUTFIT DETAILS MODAL
+// ============================================
+function openOutfitDetails(outfitId) {
+  const allOutfits = [...outfits, ...savedOutfits];
+  const outfit = allOutfits.find(o => String(o.id) === String(outfitId));
+  if (!outfit) return;
+  const overlay = document.getElementById('outfitDetailsOverlay');
+  if (!overlay) return;
+  
+  const img = document.getElementById('outfitDetailsImage');
+  const hero = document.getElementById('outfitDetailsHero');
+  const items = outfit.items || [];
+  const totalPrice = items.reduce((sum, item) => sum + parsePrice(item.price), 0);
+  const totalPLN = Math.round(totalPrice * USD_TO_PLN);
+  const imageUrl = outfit.image || (items[0] && items[0].image) || '';
+  
+  if (img) {
+    if (imageUrl) { img.src = imageUrl; if (hero) hero.style.display = 'block'; }
+    else { if (hero) hero.style.display = 'none'; }
+  }
+  const title = document.getElementById('outfitDetailsTitle');
+  if (title) title.textContent = outfit.title || 'Outfit';
+  const total = document.getElementById('outfitDetailsTotal');
+  if (total) total.textContent = `$${totalPrice.toFixed(2)} · ${totalPLN} zł`;
+  const count = document.getElementById('outfitDetailsCount');
+  if (count) count.textContent = items.length + ' itemów';
+  
+  const list = document.getElementById('outfitDetailsList');
+  if (list) {
+    list.innerHTML = '';
+    items.forEach(item => {
+      const price = parsePrice(item.price);
+      const pricePLN = Math.round(price * USD_TO_PLN);
+      const catLabel = item.category || 'item';
+      const row = document.createElement('div');
+      row.className = 'outfit-details-item';
+      row.innerHTML = `
+        <div class="outfit-details-item-image">
+          <img src="${item.image}" alt="${item.name}" onerror="this.src='https://via.placeholder.com/80x80?text=?'">
+        </div>
+        <div class="outfit-details-item-info">
+          <div class="outfit-details-item-tag">🏷️ ${catLabel}</div>
+          <div class="outfit-details-item-name">${item.name}</div>
+          <div class="outfit-details-item-price">${pricePLN} zł <span class="outfit-details-item-usd">($${price.toFixed(2)})</span></div>
+        </div>
+        <div class="outfit-details-item-actions">
+          <button class="outfit-details-icon-btn" onclick="addItemToCart('${item.name.replace(/'/g, "\\'")}')" title="Dodaj do koszyka">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>
+          </button>
+          <button class="outfit-details-icon-btn" onclick="openItemLink('${item.name.replace(/'/g, "\\'")}')" title="Otwórz link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007 0l3-3a5 5 0 00-7-7l-1 1"/><path d="M14 11a5 5 0 00-7 0l-3 3a5 5 0 007 7l1-1"/></svg>
+          </button>
+        </div>
+      `;
+      list.appendChild(row);
+    });
+  }
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeOutfitDetails() {
+  const overlay = document.getElementById('outfitDetailsOverlay');
+  if (!overlay) return;
+  overlay.classList.remove('active');
+  document.body.style.overflow = '';
+}
+function addItemToCart(itemName) { showToast('🛒 Dodano: ' + itemName); }
+function openItemLink(itemName) {
+  const allOutfits = [...outfits, ...savedOutfits];
+  for (const outfit of allOutfits) {
+    const item = (outfit.items || []).find(i => i.name === itemName);
+    if (item) {
+      const link = preferredAgent === 'kakobuy' ? item.linkKakobuy : item.linkUsfans;
+      if (link && link !== '#') { window.open(link, '_blank'); }
+      else {
+        const fallback = item.linkUsfans || item.linkKakobuy;
+        if (fallback && fallback !== '#') window.open(fallback, '_blank');
+      }
+      return;
+    }
+  }
+}
+function addAllToCart() {
+  const titleEl = document.getElementById('outfitDetailsTitle');
+  const outfitTitle = titleEl ? titleEl.textContent : 'Outfit';
+  showToast('🛒 Dodano wszystkie itemy z: ' + outfitTitle);
+  closeOutfitDetails();
+}
+function deleteSavedOutfit(id) {
+  if (!confirm('Usunąć ten outfit?')) return;
+  savedOutfits = savedOutfits.filter(o => String(o.id) !== String(id));
+  localStorage.setItem('savedOutfits', JSON.stringify(savedOutfits));
+  renderSavedOutfits();
+  showToast('🗑️ Outfit usunięty');
+}
+function showToast(message) {
+  const existing = document.querySelector('.outfit-toast');
+  if (existing) existing.remove();
+  const toast = document.createElement('div');
+  toast.className = 'outfit-toast';
+  toast.textContent = message;
+  toast.style.cssText = `position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(20px);background:rgba(16,18,36,0.95);backdrop-filter:blur(20px);border:1px solid rgba(124,92,255,0.4);color:#fff;padding:14px 24px;border-radius:12px;font-size:14px;font-weight:600;z-index:10000;opacity:0;transition:all 0.3s ease;box-shadow:0 12px 40px rgba(0,0,0,0.6);pointer-events:none;`;
+  document.body.appendChild(toast);
+  requestAnimationFrame(() => {
+    toast.style.opacity = '1';
+    toast.style.transform = 'translateX(-50%) translateY(0)';
+  });
+  setTimeout(() => {
+    toast.style.opacity = '0';
+    toast.style.transform = 'translateX(-50%) translateY(20px)';
+    setTimeout(() => toast.remove(), 300);
+  }, 2500);
+}
 
 // ============================================
 // ✅ KONIEC

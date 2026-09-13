@@ -73,6 +73,7 @@
       <a href="#" class="nav-link active" id="navSpreadsheet"><span>Spreadsheet</span></a>
       <a href="#" class="nav-link" id="navLastFinds"><span>Last Finds</span></a>
       <a href="#" class="nav-link" id="navPromo"><span>Promo Finds</span></a>
+      <a href="#" class="nav-link" id="navOutfits"><span>Outfity</span></a>
       <a href="#" class="nav-link" id="navSellers"><span>Sprzedawcy</span></a>
       <a href="#" class="nav-link" id="navQCSearch"><span>Sprawdź QC</span></a>
       <a href="#" class="nav-link" id="changeAgentBtn"><span>Zmiana agenta</span></a>
@@ -147,6 +148,138 @@
         <button class="slider-arrow slider-arrow-right" id="sliderNext" type="button">›</button>
       </div>
       <div class="slider-dots" id="sliderDots"></div>
+    </section>
+  </div>
+
+  <div id="outfitsView" style="display: none;">
+    <section class="outfits-section">
+      
+      <div class="outfit-machine-card">
+        <div class="outfit-machine-header">
+          <div class="outfit-machine-left">
+            <div class="outfit-machine-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <div>
+              <div class="outfit-machine-title-row">
+                <h2 class="outfit-machine-title">Outfit Machine</h2>
+                <span class="outfit-machine-beta">BETA</span>
+              </div>
+              <p class="outfit-machine-desc">Wylosuj kompletny outfit z rzeczy z bazy</p>
+            </div>
+          </div>
+          <button class="outfit-machine-btn" onclick="generateRandomOutfit()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+              <line x1="9" y1="9" x2="15" y2="15"/>
+              <line x1="15" y1="9" x2="9" y2="15"/>
+            </svg>
+            <span>Wylosuj outfit</span>
+          </button>
+        </div>
+
+        <div class="outfit-slots" id="outfitSlots">
+          <div class="outfit-slot" data-slot="tshirt">
+            <div class="outfit-slot-label">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.38 3.46L16 2a4 4 0 01-8 0L3.62 3.46a2 2 0 00-1.34 2.23l.58 3.47a1 1 0 00.99.84H6v10a2 2 0 002 2h8a2 2 0 002-2V10h2.15a1 1 0 00.99-.84l.58-3.47a2 2 0 00-1.34-2.23z"/>
+              </svg>
+              <span>KOSZULKA</span>
+            </div>
+            <div class="outfit-slot-content" id="slot-tshirt">
+              <div class="outfit-slot-empty">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M20.38 3.46L16 2a4 4 0 01-8 0L3.62 3.46a2 2 0 00-1.34 2.23l.58 3.47a1 1 0 00.99.84H6v10a2 2 0 002 2h8a2 2 0 002-2V10h2.15a1 1 0 00.99-.84l.58-3.47a2 2 0 00-1.34-2.23z"/>
+                </svg>
+                <span>KOSZULKA</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="outfit-slot" data-slot="pants">
+            <div class="outfit-slot-label">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 2v20M18 2v20M6 2h12M6 22h12"/>
+              </svg>
+              <span>SPODNIE</span>
+            </div>
+            <div class="outfit-slot-content" id="slot-pants">
+              <div class="outfit-slot-empty">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M6 2v20M18 2v20M6 2h12M6 22h12"/>
+                </svg>
+                <span>SPODNIE</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="outfit-slot" data-slot="hoodie">
+            <div class="outfit-slot-label">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16v16H4z"/>
+                <path d="M9 9h6v6H9z"/>
+              </svg>
+              <span>BLUZA</span>
+            </div>
+            <div class="outfit-slot-content" id="slot-hoodie">
+              <div class="outfit-slot-empty">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4 4h16v16H4z"/>
+                  <path d="M9 9h6v6H9z"/>
+                </svg>
+                <span>BLUZA</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="outfit-slot" data-slot="shoes">
+            <div class="outfit-slot-label">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M2 20h20M4 20V8l6-4 4 4 6-2v14"/>
+              </svg>
+              <span>BUTY</span>
+            </div>
+            <div class="outfit-slot-content" id="slot-shoes">
+              <div class="outfit-slot-empty">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M2 20h20M4 20V8l6-4 4 4 6-2v14"/>
+                </svg>
+                <span>BUTY</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="outfit-machine-footer">
+          <span id="outfitHint">Naciśnij przycisk żeby wylosować kompletny outfit</span>
+        </div>
+      </div>
+
+      <div class="saved-outfits-section">
+        <div class="saved-outfits-header">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/>
+            </svg>
+            Outfity
+          </h3>
+          <span class="saved-count" id="savedCount">0</span>
+        </div>
+        <div class="saved-outfits-grid" id="savedOutfitsGrid">
+          <div class="saved-outfits-empty" id="savedOutfitsEmpty">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/>
+            </svg>
+            <p>Brak outfitów</p>
+            <span>Wylosuj outfit powyżej albo dodaj własny w kodzie</span>
+          </div>
+        </div>
+      </div>
+
     </section>
   </div>
 
@@ -305,6 +438,38 @@
     </a>
 
     <div class="popup-footer" id="popupFooter">Bez zobowiązań · Bonusy działają tylko przez ten link</div>
+  </div>
+</div>
+
+<!-- POPUP: OUTFIT DETAILS (podgląd) -->
+<div class="popup-overlay" id="outfitDetailsOverlay">
+  <div class="outfit-details-modal">
+    <button class="modal-close-x" onclick="closeOutfitDetails()">×</button>
+    
+    <div class="outfit-details-hero" id="outfitDetailsHero">
+      <img id="outfitDetailsImage" src="" alt="Outfit" />
+    </div>
+
+    <div class="outfit-details-header">
+      <h2 id="outfitDetailsTitle">Outfit</h2>
+      <div class="outfit-details-price">
+        <span id="outfitDetailsTotal">0 zł</span>
+        <span class="outfit-details-count" id="outfitDetailsCount">0 itemów</span>
+      </div>
+    </div>
+
+    <div class="outfit-details-list" id="outfitDetailsList"></div>
+
+    <div class="outfit-details-actions">
+      <button class="outfit-details-btn primary" onclick="addAllToCart()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="9" cy="21" r="1"/>
+          <circle cx="20" cy="21" r="1"/>
+          <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/>
+        </svg>
+        Dodaj wszystko do koszyka
+      </button>
+    </div>
   </div>
 </div>
 
