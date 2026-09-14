@@ -2,8 +2,7 @@
 // 🛍️ BAZA DANYCH PRODUKTÓW - DODAWAJ TUTAJ NOWE PRODUKTY!
 // ============================================
 const products = [
-  // 👇 WKLEJ TUTAJ SWOJE PRODUKTY 👇
-   {
+  {
     name: "Jordan 4 Frozen Moments / Black Canvas",
     category: "Shoes",
     price: "$63",
@@ -10331,6 +10330,106 @@ const products = [
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D997819314155",
     linkUsfans: "https://usfans.com/product/2/f_5izDpUeijvtcvKx0SoLm1T7IM7KskIGD48zgaTKGNueRfNJVY2BA?ref=TX9V9N",
     tag: "PYCLAB",
+    rating: 5
+  },
+  {
+    name: "nofaith flared bootcut jeans",
+    category: "Pants",
+    price: "$56.31",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2201254611318/O1CN01AB1TH11LbhAZXesid~crop,270,1644,2664,2664~_!!2201254611318.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1067837110535",
+    linkUsfans: "https://usfans.com/product/2/V7KYQ0Ksq0T-zqVRSalSQvt9if_-uiUbdc6GY-17GnIZL3NLQfMUxew?ref=TX9V9N",
+    tag: "BADMOODCLUB",
+    rating: 5
+  },
+  {
+    name: "greer studio blue hoodie",
+    category: "Hoodies",
+    price: "$36.38",
+    image: "https://si.geilicdn.com/wdseller1995625455-7648000001a05d770e7c0a2301af_4275_4278.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7843531621",
+    linkUsfans: "https://usfans.com/product/3/7843531621?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "GREER STUDIO HOODIE",
+    category: "Hoodies",
+    price: "$36.38",
+    image: "https://si.geilicdn.com/wdseller1995625455-76c9000001a05d71ab1e0a22d58f_4002_4002.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7843505697",
+    linkUsfans: "https://usfans.com/product/3/7843505697?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "130 windrunner jacket",
+    category: "Jackets",
+    price: "$38.04",
+    image: "https://si.geilicdn.com/wdseller1995625455-3f52000001a05d6bf5680a23b4f4_4284_4287.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fshop1624042771.v.weidian.com%2Fitem.html%3FitemID%3D7843440933%26wfr%3Dc",
+    linkUsfans: "https://usfans.com/product/3/7843440933?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "IDLE TIME MATRIOSHKA HOODIE",
+    category: "Hoodies",
+    price: "$39.70",
+    image: "https://si.geilicdn.com/wdseller1995625455-65420000019fb73b42f60a23c191_4284_4287.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7818989400",
+    linkUsfans: "https://usfans.com/product/3/7818989400?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "BELVEY LONGSLEEVE",
+    category: "Tshirts",
+    price: "$27.41",
+    image: "https://si.geilicdn.com/wdseller1995625455-39290000019f7e97aede0a230449_4284_4287.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7812404502",
+    linkUsfans: "https://usfans.com/product/3/7812404502?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "DA BROTHAS HOODIE",
+    category: "Hoodies",
+    price: "$36.38",
+    image: "https://si.geilicdn.com/wdseller1995625455-729b00000199c81e2aad0a2395e9_1290_1720.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7569588662",
+    linkUsfans: "https://usfans.com/product/3/7569588662?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "PEACEINWAR BIG BANG HOODIE",
+    category: "Hoodies",
+    price: "$34.72",
+    image: "https://si.geilicdn.com/wdseller1995625455-5cb3000001a080cd7bd00a2305d8_4284_4287.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7851143670",
+    linkUsfans: "https://usfans.com/product/3/7851143670?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "PEACEINWAR JAPAN HOODIE",
+    category: "Hoodies",
+    price: "$34.72",
+    image: "https://si.geilicdn.com/wdseller1995625455-28c2000001a0424b45f60a23c191_4284_4284.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7842414968",
+    linkUsfans: "https://usfans.com/product/3/7842414968?ref=TX9V9N",
+    tag: "ALIENSTUDIO",
+    rating: 5
+  },
+  {
+    name: "ACNE STUDIOS SCARF",
+    category: "Belts",
+    price: "$4.16",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202609/14/862d9cb580c2164dd381d6feedc4380c.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F659766751240.html",
+    linkUsfans: "https://usfans.com/product/1/659766751240?ref=TX9V9N",
+    tag: "RANDOM",
     rating: 5
   },
 ];
