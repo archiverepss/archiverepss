@@ -12,18 +12,7 @@
 // 🛍️ PRODUKTY - WKLEJ TUTAJ SWOJE
 // ============================================
 const products = [
-  // 👇 WKLEJ TUTAJ SWOJE PRODUKTY 👇
-  // {
-  //   name: "Jordan 4 Frozen Moments",
-  //   category: "Shoes",
-  //   price: "$63",
-  //   image: "https://...",
-  //   linkKakobuy: "https://...",
-  //   linkUsfans: "https://...",
-  //   tag: "R1",
-  //   rating: 5
-  // },
-   {
+  {
     name: "Jordan 4 Frozen Moments / Black Canvas",
     category: "Shoes",
     price: "$63",
@@ -10451,6 +10440,216 @@ const products = [
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F659766751240.html",
     linkUsfans: "https://usfans.com/product/1/659766751240?ref=TX9V9N",
     tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "EXP5 HOODIE",
+    category: "Hoodies",
+    price: "$39.61",
+    image: "https://si.geilicdn.com/wdseller2018810290-3bfc0000019f12ebf50b0a2305d8_1320_1760.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7797560409",
+    linkUsfans: "https://usfans.com/product/3/7797560409?ref=TX9V9N",
+    tag: "GODFATHER",
+    rating: 5
+  },
+  {
+    name: "AMI T-SHIRTS",
+    category: "Tshirts",
+    price: "$9.16",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01ma0MjR1kRUcITBIWY_!!2217704784680-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F877510826217.html",
+    linkUsfans: "https://usfans.com/product/1/877510826217?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA KIM TEE",
+    category: "Tshirts",
+    price: "$36.61",
+    image: "https://si.geilicdn.com/wdseller1756130041-5c3b0000019aaf46bf800a239646_3486_4305.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7614050531",
+    linkUsfans: "https://usfans.com/product/3/7614050531?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "Random Russian Letter longsleeve",
+    category: "Tshirts",
+    price: "$6.63",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3011401723/O1CN01fSdog41ObBVns0B6A_!!3011401723.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D977002130995",
+    linkUsfans: "https://usfans.com/product/2/a7aQ5ODYmDibzNQc7dWOomtaXiZlfENkD2PgRyJr5MAgUVUEA22kvg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ALUREHOPE HOODIE",
+    category: "Hoodies",
+    price: "$34.78",
+    image: "https://si.geilicdn.com/pcitem2023274866-4363000001a07589ee060a207569_2800_2800.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7849749048",
+    linkUsfans: "https://usfans.com/product/3/7849749048?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "COLA HENRY LONGSLEEVE",
+    category: "Tshirts",
+    price: "$19.81",
+    image: "https://si.geilicdn.com/pcitem2023274866-1893000001a0534882300a21146b_2730_2730.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7844870590",
+    linkUsfans: "https://usfans.com/product/3/7844870590?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "saint lauren longsleeve",
+    category: "Tshirts",
+    price: "$22.47",
+    image: "https://media.usfans.com/2026/09/16/144331/e68ab5d8-1959-46f9-9ecb-bb017096193a.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7832142759",
+    linkUsfans: "https://usfans.com/product/3/7832142759?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "louders loser hoodie",
+    category: "Hoodies",
+    price: "$47.93",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2210299185015/O1CN01cYM0me1muvPiUDpG2~crop,0,91,1179,1572~_!!2210299185015.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1053894771650",
+    linkUsfans: "https://usfans.com/product/2/N1Sl0Bj-WyVOU-KfoVMlWHeuhHEeaSBxdh1tABAyZ9zDDmJtVwTCcho?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SUPREME X MM6 (PAINT)",
+    category: "Hoodies",
+    price: "$64.73",
+    image: "https://media.usfans.com/2026/09/15/172532/ddc0dc73-21cb-476c-8dd3-7879a36ced53.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1066467432016",
+    linkUsfans: "https://usfans.com/product/2/hOJhO0FsLKRHcG7J-Wun20C1xjVaVUcYSrT4OzXvt7paElsWpAqfz0g?ref=TX9V9N",
+    tag: "BEST / MVT",
+    rating: 5
+  },
+  {
+    name: "MAYBACH PEN",
+    category: "Belts",
+    price: "$1.67",
+    image: "https://img.alicdn.com/bao/uploaded/i1/4003234698/O1CN01k7cSEw1kZjm1NGMTz_!!4003234698.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.html%3Fid%3D925009201520",
+    linkUsfans: "https://usfans.com/product/2/fWsKrgqoWCb7T9cTE3JSSBH_wV71PuF8TnBv2WBC300DnTRi8nxfjQ?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "evisu x palace cherry blossom tee",
+    category: "Tshirts",
+    price: "$13.32",
+    image: "https://media.usfans.com/2026/08/31/163404/4245f6c3-8318-4c9f-8115-ca55adf7d0ae.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7775938655",
+    linkUsfans: "https://usfans.com/product/3/7775938655?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "mertra x umbro windbreaker",
+    category: "Jackets",
+    price: "$39.94",
+    image: "https://media.usfans.com/2026/09/11/110643/8a5b1cb8-f8d8-4780-a3c3-879ef058fd9c.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7668205772",
+    linkUsfans: "https://usfans.com/product/3/7668205772?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "hysteric glamour newspaper tee",
+    category: "Tshirts",
+    price: "$14.81",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2219741768392/O1CN012QFZDa2Brav38Itn3_!!2219741768392.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1046280788559",
+    linkUsfans: "https://usfans.com/product/2/Re2nXXi7n3wYmSTTfR7jNr7wv-W1aNeRalokkjjNjBFKnjKIZVSkYL8?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "hysteric glamour adventures tee best",
+    category: "Tshirts",
+    price: "$19.81",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN011vTIsM1RR3e4avsKh_!!2126072107.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1045742968147",
+    linkUsfans: "https://usfans.com/product/2/BMhPllZnn5Bn5Ce7ei6wi4Le_nGPmtVKEXJ29fd3G2J-VOJcsmYh8iQ?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "hysteric glamour jukebox tee",
+    category: "Tshirts",
+    price: "$14.81",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01NdKtc91RR3exsEI6v_!!2126072107.heic",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1059988827388",
+    linkUsfans: "https://usfans.com/product/2/bww2zTa_0hSjJY1kmXG3z4HrGQBnIJ_PfqdPQ2NBdG4j7G4EnDL1vrM?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "hysteric kurt tee",
+    category: "Tshirts",
+    price: "$23.13",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01y4MHWm1RR3eS1jT8a_!!2126072107.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1050427871733",
+    linkUsfans: "https://usfans.com/product/2/jC9VIH_cFEHwfMYGPicPXvkV2ZyLKrJ9T0dlIu7eTwAfLTCNes8ba_Y?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "hysteric glamour hysteric time tee",
+    category: "Tshirts",
+    price: "$21.47",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01cbcpJR1RR3eAxfEVE_!!2126072107.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1048116612994",
+    linkUsfans: "https://usfans.com/product/2/DlPc31WFUQ-A0O_kpCZgYbqdQVxYYiwPixJt6j8JExg0IMVagc8HpaQ?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "hysteric glamour destroyer tee",
+    category: "Tshirts",
+    price: "$14.81",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01NeLTub1RR3e061f9y_!!2126072107.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1044864953168",
+    linkUsfans: "https://usfans.com/product/2/Gpz4LvuIOa4gT1AI_PU37sKBNougO8zP0hEC8zcVWEi-t_Gm97ETKRU?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "hysteric glamour star tee",
+    category: "Tshirts",
+    price: "$26.64",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN016RXcwn1RR3fK1VDM6_!!2126072107.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1069895560891",
+    linkUsfans: "https://usfans.com/product/2/Wx1iHRcMfShwsrg2nBFkt1R6jkGaBemwPCmKwP9OuvDMcSXhhp6-GfM?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "SAINT LAURENT FW17 KNIT",
+    category: "Hoodies",
+    price: "$54.48",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3575082995/O1CN01Y8i1yJ1XzlMnlU6FQ_!!3575082995.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1060706303933",
+    linkUsfans: "https://usfans.com/product/2/plzQzuEI6DuQdzhH7jILAee0g-tH21hckHMWs3BIE8xe1WkxQKklHQo?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "HYSTERIC GLAMOUR WHITE SKULL HOODIE",
+    category: "Hoodies",
+    price: "$46.43",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01CXSaLd1RR3eNjEsLQ_!!2126072107.heic",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1051838724939",
+    linkUsfans: "https://usfans.com/product/2/IrSkYaOCSgc5C9IPbjPqbDxm38fLoyB8CJZIdbOabRIRHPyRRB4Ue-w?ref=TX9V9N",
+    tag: "BEST",
     rating: 5
   },
 ];
