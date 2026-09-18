@@ -16,6 +16,14 @@
   <meta name="theme-color" content="#7c5cff">
   <link rel="icon" href="https://archivereps.pl/favicon.png" type="image/png" sizes="144x144">
   <link rel="apple-touch-icon" href="https://archivereps.pl/favicon.png">
+  
+  <!-- Preconnect do CDN-ów obrazków — kluczowe dla szybkiego QC -->
+  <link rel="preconnect" href="https://si.geilicdn.com" crossorigin>
+  <link rel="preconnect" href="https://img.alicdn.com" crossorigin>
+  <link rel="preconnect" href="https://kako-alosshk-pic.kakobuy.com" crossorigin>
+  <link rel="preconnect" href="https://media.usfans.com" crossorigin>
+  <link rel="dns-prefetch" href="https://nameless-band-5b92.buzzbrief80.workers.dev">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -139,6 +147,7 @@
 
     <section class="products-grid-section">
       <div id="grid" class="products-grid"></div>
+      <div id="gridSentinel" class="grid-sentinel" aria-hidden="true"></div>
     </section>
   </div>
 
@@ -157,7 +166,6 @@
   <!-- OUTFITS VIEW -->
   <div id="outfitsView" style="display:none;">
     <section class="outfits-section">
-
       <div class="outfit-machine-card">
         <div class="outfit-machine-header">
           <div class="outfit-machine-left">
@@ -189,27 +197,19 @@
         <div class="outfit-slots" id="outfitSlots">
           <div class="outfit-slot" data-slot="tshirt">
             <div class="outfit-slot-label"><span>KOSZULKA</span></div>
-            <div class="outfit-slot-content" id="slot-tshirt">
-              <div class="outfit-slot-empty"><span>KOSZULKA</span></div>
-            </div>
+            <div class="outfit-slot-content" id="slot-tshirt"><div class="outfit-slot-empty"><span>KOSZULKA</span></div></div>
           </div>
           <div class="outfit-slot" data-slot="pants">
             <div class="outfit-slot-label"><span>SPODNIE</span></div>
-            <div class="outfit-slot-content" id="slot-pants">
-              <div class="outfit-slot-empty"><span>SPODNIE</span></div>
-            </div>
+            <div class="outfit-slot-content" id="slot-pants"><div class="outfit-slot-empty"><span>SPODNIE</span></div></div>
           </div>
           <div class="outfit-slot" data-slot="hoodie">
             <div class="outfit-slot-label"><span>BLUZA</span></div>
-            <div class="outfit-slot-content" id="slot-hoodie">
-              <div class="outfit-slot-empty"><span>BLUZA</span></div>
-            </div>
+            <div class="outfit-slot-content" id="slot-hoodie"><div class="outfit-slot-empty"><span>BLUZA</span></div></div>
           </div>
           <div class="outfit-slot" data-slot="shoes">
             <div class="outfit-slot-label"><span>BUTY</span></div>
-            <div class="outfit-slot-content" id="slot-shoes">
-              <div class="outfit-slot-empty"><span>BUTY</span></div>
-            </div>
+            <div class="outfit-slot-content" id="slot-shoes"><div class="outfit-slot-empty"><span>BUTY</span></div></div>
           </div>
         </div>
 
@@ -230,28 +230,24 @@
           </div>
         </div>
       </div>
-
     </section>
   </div>
 
   <!-- TOOLS VIEW -->
   <div id="toolsView" style="display:none;">
     <section class="tools-section">
-
       <div class="tools-tabs">
         <button class="tools-tab active" data-tab="shipping" onclick="switchToolTab('shipping')">📦 Kalkulator wysyłki</button>
         <button class="tools-tab" data-tab="guides" onclick="switchToolTab('guides')">📖 Poradniki</button>
         <button class="tools-tab" data-tab="tracking" onclick="switchToolTab('tracking')">🚚 Śledzenie</button>
       </div>
 
-      <!-- KALKULATOR -->
       <div id="toolTab-shipping" class="tool-tab-content active">
         <div class="tool-panel-card">
           <div class="tool-panel-header">
             <h2 class="tool-panel-title">📦 Kalkulator wysyłki</h2>
             <p class="tool-panel-subtitle">Sprawdź ile zapłacisz za wysyłkę, zanim ją zamówisz.</p>
           </div>
-
           <div class="shipping-config">
             <div class="shipping-field">
               <label>Agent</label>
@@ -283,7 +279,6 @@
               </select>
             </div>
           </div>
-
           <div class="shipping-result">
             <div class="shipping-result-main">
               <div class="shipping-result-label">Szacowany koszt wysyłki</div>
@@ -295,24 +290,20 @@
               <div class="shipping-detail-row"><span class="shipping-detail-label">Waga</span><span class="shipping-detail-value" id="shipWeightDisplay">0 kg</span></div>
             </div>
           </div>
-
           <div class="shipping-compare">
             <div class="shipping-compare-title">🔍 Porównanie agentów dla tej samej wagi</div>
             <div id="shipCompareList" class="shipping-compare-list"></div>
           </div>
-
           <div class="shipping-note">⚠️ Ceny orientacyjne — mogą się różnić w zależności od sezonu, promocji i konkretnej linii.</div>
         </div>
       </div>
 
-      <!-- PORADNIKI -->
       <div id="toolTab-guides" class="tool-tab-content">
         <div class="tool-panel-card">
           <div class="tool-panel-header">
             <h2 class="tool-panel-title">📖 Poradniki</h2>
             <p class="tool-panel-subtitle">Wszystko co musisz wiedzieć o kupowaniu w Chinach.</p>
           </div>
-
           <div class="guide-list">
             <details class="guide-item">
               <summary>🚀 Jak zacząć kupować u agenta?</summary>
@@ -329,80 +320,52 @@
                 </ol>
               </div>
             </details>
-
             <details class="guide-item">
               <summary>🏷️ Co to jest batch i dlaczego jest ważny?</summary>
               <div class="guide-item-content">
                 <p><strong>Batch</strong> to partia produktu od konkretnego producenta. Ten sam but może mieć 5 batchy o różnej jakości.</p>
-                <ul>
-                  <li><strong>GX</strong> — top Jordanów</li>
-                  <li><strong>LW</strong> — top Yeezy</li>
-                  <li><strong>OWF</strong> — Off-White</li>
-                </ul>
+                <ul><li><strong>GX</strong> — top Jordanów</li><li><strong>LW</strong> — top Yeezy</li><li><strong>OWF</strong> — Off-White</li></ul>
               </div>
             </details>
-
             <details class="guide-item">
               <summary>📸 Czym jest QC?</summary>
               <div class="guide-item-content">
                 <p><strong>QC</strong> to zdjęcia produktu od agenta po dotarciu do magazynu.</p>
-                <ul>
-                  <li>Sprawdź loga — proste, wyraźne</li>
-                  <li>Sprawdź szwy — równe</li>
-                  <li>Sprawdź kolory — zgodne z oryginałem</li>
-                  <li>Porównaj z retail</li>
-                </ul>
+                <ul><li>Sprawdź loga — proste, wyraźne</li><li>Sprawdź szwy — równe</li><li>Sprawdź kolory — zgodne z oryginałem</li><li>Porównaj z retail</li></ul>
               </div>
             </details>
-
             <details class="guide-item">
               <summary>🚚 Jaką wybrać linię wysyłkową?</summary>
               <div class="guide-item-content">
-                <ul>
-                  <li><strong>DHL</strong></li>
-                  <li><strong>Etl</strong></li>
-                  <li><strong>Inpost</strong></li>
-                  <li><strong>DPD</strong></li>
-                </ul>
+                <ul><li><strong>DHL</strong></li><li><strong>Etl</strong></li><li><strong>Inpost</strong></li><li><strong>DPD</strong></li></ul>
               </div>
             </details>
-
             <details class="guide-item">
               <summary>💡 Praktyczne tipy</summary>
               <div class="guide-item-content">
-                <ul>
-                  <li>📸 Zawsze sprawdzaj QC</li>
-                  <li>🚚 Wybieraj zaufanych przewoźników</li>
-                  <li>🏷️ Kody referencyjne przy rejestracji</li>
-                  <li>📅 Unikaj świąt</li>
-                  <li>💬 Dołącz do Discord</li>
-                </ul>
+                <ul><li>📸 Zawsze sprawdzaj QC</li><li>🚚 Wybieraj zaufanych przewoźników</li><li>🏷️ Kody referencyjne przy rejestracji</li><li>📅 Unikaj świąt</li><li>💬 Dołącz do Discord</li></ul>
               </div>
             </details>
           </div>
         </div>
       </div>
 
-      <!-- ŚLEDZENIE -->
       <div id="toolTab-tracking" class="tool-tab-content">
         <div class="tool-panel-card">
           <div class="tool-panel-header">
             <h2 class="tool-panel-title">🚚 Śledzenie paczki</h2>
-            <p class="tool-panel-subtitle">Wpisz numer śledzenia — przeniesiemy Cię na 17track (działa z Fortis i innymi).</p>
+            <p class="tool-panel-subtitle">Wpisz numer — otworzymy 17track z ustawionym Fortis.</p>
           </div>
-
           <div class="tracking-form">
             <input type="text" id="trackingNumber" placeholder="np. FT123456789, RR123456789PL..." onkeydown="if(event.key==='Enter') trackParcel()" />
             <button class="tracking-btn" onclick="trackParcel()">Śledź →</button>
           </div>
-
           <div class="tracking-info">
             <strong>💡 Jak to działa?</strong>
-            <p>Wpisz numer śledzenia i naciśnij "Śledź". Otworzy się 17track z Twoim numerem — obsługuje Fortis, DHL, DPD, InPost, Poczta Polska i inne.</p>
+            <p>Wpisz numer śledzenia i naciśnij "Śledź". Otworzy się 17track z Twoim numerem i przewoźnikiem <strong>Fortis</strong> ustawionym automatycznie.</p>
           </div>
         </div>
       </div>
-
     </section>
   </div>
 
@@ -581,17 +544,15 @@
   </div>
 </div>
 
-<!-- QC LIGHTBOX FULLSCREEN (bez sekcji Informacje) -->
+<!-- QC LIGHTBOX -->
 <div class="lightbox-overlay" id="qcLightboxOverlay">
   <div class="qc-lightbox-fullscreen">
     <button class="lightbox-close" id="qcLightboxClose">×</button>
-
     <div class="qc-lightbox-main">
       <div class="qc-lightbox-image-wrapper" id="qcLightboxWrapper">
-        <img id="qcLightboxImg" src="" alt="QC">
+        <img id="qcLightboxImg" src="" alt="QC" decoding="async">
       </div>
     </div>
-
     <div class="qc-lightbox-controls">
       <button class="qc-lightbox-btn" id="qcZoomIn" title="Przybliż">+</button>
       <button class="qc-lightbox-btn" id="qcZoomOut" title="Oddal">−</button>
@@ -609,19 +570,19 @@
   <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle social sidebar">≡</button>
   <div class="sidebar-content">
     <a href="https://discord.gg/ecY996uVNd" target="_blank" rel="noopener noreferrer" class="sidebar-icon discord" aria-label="Discord">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord" class="sidebar-img">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord" class="sidebar-img" loading="lazy" decoding="async">
       <span class="icon-label">Discord</span>
     </a>
     <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="sidebar-icon usfans" aria-label="USFans">
-      <img src="https://swagworld.eu/assets/usfans-DTQr6n0M.webp" alt="USFans" class="sidebar-img usfans-logo">
+      <img src="https://swagworld.eu/assets/usfans-DTQr6n0M.webp" alt="USFans" class="sidebar-img usfans-logo" loading="lazy" decoding="async">
       <span class="icon-label">USFans</span>
     </a>
     <a href="https://linktr.ee/archiverepsss" target="_blank" rel="noopener noreferrer" class="sidebar-icon linktree" aria-label="Linktree">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linktree.svg" alt="Linktree" class="sidebar-img">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linktree.svg" alt="Linktree" class="sidebar-img" loading="lazy" decoding="async">
       <span class="icon-label">Linktree</span>
     </a>
     <a href="https://www.tiktok.com/@archiverepsss" target="_blank" rel="noopener noreferrer" class="sidebar-icon tiktok" aria-label="TikTok">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok" class="sidebar-img">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok" class="sidebar-img" loading="lazy" decoding="async">
       <span class="icon-label">TikTok</span>
     </a>
   </div>
@@ -639,7 +600,7 @@
     </div>
     <p class="qc-subtitle">Kliknij kafelek z "+" żeby załadować więcej zdjęć.</p>
     <div class="qc-product-info">
-      <img id="qcProductThumb" src="" alt="Product thumbnail">
+      <img id="qcProductThumb" src="" alt="Product thumbnail" loading="lazy" decoding="async">
       <div class="qc-product-details">
         <h4 id="qcProductTitle">Nazwa produktu</h4>
         <span id="qcProductPrice">Cena</span>
@@ -657,7 +618,7 @@
   </div>
 </div>
 
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 
 <footer class="site-footer">
   <div class="footer-container">
