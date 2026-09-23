@@ -10822,6 +10822,66 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "undercover double swirl portrait tee",
+    category: "Tshirts",
+    price: "$9.82",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2219806430381/O1CN01GcJaCB1EgY1xddCWY_!!2219806430381.heic",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D940912405471",
+    linkUsfans: "https://usfans.com/product/2/nqe-sSSx8RdSrwoOtDA1c4LjlnrALfzTxgIiBraLOxF5S2s24kyrdg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "HYOMA PANDA TEE",
+    category: "Tshirts",
+    price: "$29.77",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2216391452427/O1CN01qUiLUmDLd6G2Rogo_!!2216391452427.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1081222421691",
+    linkUsfans: "https://usfans.com/product/2/0KouWxAyOaa8Qtf1wnCVqIa3g3vXxjdASc2_x2gHKMJdEg1WcBQj_v0?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "2026 distressed washed jeans",
+    category: "Pants",
+    price: "$26.45",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2131899552/O1CN01xMBlWb2KQsBM4eITh~crop,113,0,681,908~_!!2131899552.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D802877141317",
+    linkUsfans: "https://usfans.com/product/2/WQE9wM-k5U6K-5Dj_WS-kpGC8pBKgGg28J7lPBVq959rgzlYw2YsIg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "TABBIC VINTAGE LOOSE JANS",
+    category: "Pants",
+    price: "$29.61",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2222255986096/O1CN01W5nfKL1uu1Ywdc9IG~crop,223,314,1418,1891~_!!2222255986096.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1047482163715",
+    linkUsfans: "https://usfans.com/product/2/Xv7bLqCqZrmNF3--EZwMiNF3P7UEoEZiB8-0vJkyO8yD1jOqjGkaxPw?ref=TX9V9N",
+    tag: "TABBIC",
+    rating: 5
+  },
+  {
+    name: "Blaexit Paris Bootcut jeans",
+    category: "Pants",
+    price: "$22.90",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2208117102724/O1CN018Phm3j1Vze20pa8R0_!!2208117102724.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D800058872631",
+    linkUsfans: "https://usfans.com/product/2/xlrvM3vc_f-zIKG05w62kV6a5ksjwe1l25SBIiFH_41KqvF7r-3P6Q?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "Vg Homme 08Ss Blood-Stained jeans",
+    category: "Pants",
+    price: "$47.90",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2210299185015/O1CN011q76oIrHEFI5ZQrD_!!2210299185015.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1070324933047",
+    linkUsfans: "https://usfans.com/product/2/z7z6VdfE5-sym3eigFYobQpp86Q2a_01tV56ikHATIhowjjXPp4I5dU?ref=TX9V9N",
+    tag: "VOGUE",
+    rating: 5
+  },
 ];
 
 // ============================================
