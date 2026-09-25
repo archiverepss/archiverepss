@@ -10882,6 +10882,146 @@ const products = [
     tag: "VOGUE",
     rating: 5
   },
+  {
+    name: "avril lavgine zip up hoodie",
+    category: "Hoodies",
+    price: "$31.23",
+    image: "https://img.alicdn.com/bao/uploaded/i4/346392213/O1CN010egt7j1SDbeDMHd8Q_!!346392213.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1069389302000",
+    linkUsfans: "https://usfans.com/product/2/-vPoodoLY2_8OrvoCw_TK0NmYKjOyUIebNqmbFRXSMBb9LVDqbFOLHg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "whole day im busy hoodie",
+    category: "Hoodies",
+    price: "$22.93",
+    image: "https://img.alicdn.com/bao/uploaded/i2/346392213/O1CN011kzHOl1SDbZBiIZoM_!!346392213.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D837786413589",
+    linkUsfans: "https://usfans.com/product/2/AVQEuaYLtoPod5O_NnNQZ23hS1mall3LkxjSBQJFH9VczheHbNlNoA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "asian girl tee",
+    category: "Tshirts",
+    price: "$12.96",
+    image: "https://img.alicdn.com/bao/uploaded/i3/346392213/O1CN01LaAklk1SDbPuWxq6F_!!346392213.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D767520783896",
+    linkUsfans: "https://usfans.com/product/2/GhL3VNl0CkoZO6qlZ0wN-BQYlth4NIeBFvxWjG4iZfIiHnUpS0Q-Qw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ARTILLERY FUNHOUSE SWEATSHIRT",
+    category: "Hoodies",
+    price: "$26.25",
+    image: "https://img.alicdn.com/bao/uploaded/i2/346392213/O1CN01kY5M7X1SDbc06f7YM_!!346392213.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D974657895956",
+    linkUsfans: "https://usfans.com/product/2/vT_RStNBHNkl6KxmLV91ejNhzKxKa5DWSDIoL3Mgk8WJ9iaa2AwkOQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "SAINT LAURENT MALIBU HOODIE",
+    category: "Hoodies",
+    price: "$66.11",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2200736549757/O1CN01fcUb1o2LwlYFcddwK_!!2200736549757.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1049118896190",
+    linkUsfans: "https://usfans.com/product/2/On8GouL_TEgimWzdHaRnCi4v6NMIkDvNG9BTw3feEb9I9dHIhgchPO0?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "SLP HOODIES",
+    category: "Hoodies",
+    price: "$32.06",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2214183518581/O1CN010KGJUB2DG9k5GFvnB_!!2214183518581.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D989985856937",
+    linkUsfans: "https://usfans.com/product/2/OMgMxDMslP5pahDav_gsFKLWZ8tFDvToHtIp3GikGREvLjGExy-B3Q?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "OAKLEY VINTAGE SWEATER",
+    category: "Hoodies",
+    price: "$19.11",
+    image: "https://si.geilicdn.com/weidian1417299265-02b5000001958cf754fb0a20e273_1080_1344.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6649590750",
+    linkUsfans: "https://usfans.com/product/3/6649590750?ref=TX9V9N",
+    tag: "RANDOM / BUDGET",
+    rating: 5
+  },
+  {
+    name: "HEAT BULLETPROOF TEE",
+    category: "Tshirts",
+    price: "$9.94",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2218252751209/O1CN01TbCjVJ1KnlqBJfUrO_!!2218252751209.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D841983022398",
+    linkUsfans: "https://usfans.com/product/2/ELbHmLLs4iOP8lxqHw11EwjcXqHnqAfOTLxxKioai733jzAWuUbMig?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "dark distressed & washed hoodie",
+    category: "Hoodies",
+    price: "$16.28",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2218252751209/O1CN01oVVJqQ1KnlqY7JyhK_!!2218252751209.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D847516441642",
+    linkUsfans: "https://usfans.com/product/2/qgqy3eOVt1m8g3g40HSLczVBh2W6bnM24OVVus6TPdYjE1jXoluF1w?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "AK47 T-SHIRTS",
+    category: "Tshirts",
+    price: "$9.94",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2218252751209/O1CN01bKFWNr1KnlxmLtoWV_!!2218252751209.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1014871091490",
+    linkUsfans: "https://usfans.com/product/2/25oMOw_1O7up6p8zG7jGfuYc6WUYMne3MUH6ugjMWxlosGXrpn8Ndq8?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RANDOM BLUE TEE",
+    category: "Tshirts",
+    price: "$9.94",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2218252751209/O1CN01Gjb6AU1KnlxiMF8Ir_!!2218252751209.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1013543227979",
+    linkUsfans: "https://usfans.com/product/2/hYo396nyPOg6ldFp947P9aOr3bAhiMn183ATNDOfnIQHuDvXrWfW2yw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RANDOM STARS TEE",
+    category: "Tshirts",
+    price: "$9.94",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2218252751209/O1CN01tnOM961Knlxt8sP1M_!!2218252751209.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1022409356026",
+    linkUsfans: "https://usfans.com/product/2/YEoGxEDcFK5xKAoGgvkisFkcCHYergi786o50EBn3jowb0meVaw3b4o?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "trythm club hoodie",
+    category: "Hoodies",
+    price: "$16.95",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01WtG7Lr1ju3eiqurls_!!2215844974607-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F820481883072.html",
+    linkUsfans: "https://usfans.com/product/1/820481883072?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "SCUFFERS [BUDGET]",
+    category: "Hoodies",
+    price: "$28.74",
+    image: "https://media.usfans.com/2026/09/22/172757/d9869e4f-dd81-4c03-912f-7b5948d64446.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1000326104674",
+    linkUsfans: "https://usfans.com/product/2/jhlSlcgk2fGzIql29Z1MVmqHz4HmjlQMdkns27JEG6iv9rxRm3cEpMw?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
