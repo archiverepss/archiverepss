@@ -11022,6 +11022,26 @@ const products = [
     tag: "BUDGET",
     rating: 5
   },
+  {
+    name: "NUMBER NINE SOVC [BUDGET]",
+    category: "Hoodies",
+    price: "$29.72",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2212643669335/O1CN01IyuZnM2IpUGjDR1Gi_!!2212643669335.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D838245331655",
+    linkUsfans: "https://usfans.com/product/2/WRVfdjvqNQqLa-PDWXjPuSgXJb605Ld6qKnEeNEU-xbLD3s-48D8gA?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "74 ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$47.37",
+    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202609/14/9854bd611e1d18ee402df920c7c21de3.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7737080009",
+    linkUsfans: "https://usfans.com/product/3/7737080009?ref=TX9V9N",
+    tag: "GODFATHER",
+    rating: 5
+  },
 ];
 
 // ============================================
