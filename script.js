@@ -11042,6 +11042,136 @@ const products = [
     tag: "GODFATHER",
     rating: 5
   },
+  {
+    name: "helmut lang motorcycle jacket",
+    category: "Jackets",
+    price: "$74.42",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2207431618838/O1CN01z0FPp32F9rQO3xGrZ_!!2207431618838.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D839772160733",
+    linkUsfans: "https://usfans.com/product/2/iCdBBT-8nIIJol-zG1rVuBEVNMlbIxtdoZCbl1HXbzkRE0eHLk1YyA?ref=TX9V9N",
+    tag: "DEEDS / BEST",
+    rating: 5
+  },
+  {
+    name: "helmut lang waxed denim jacke",
+    category: "Jackets",
+    price: "$89.37",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2207431618838/O1CN01bdsseJ2F9rYNQAU2t_!!2207431618838.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1024435701596",
+    linkUsfans: "https://usfans.com/product/2/lr4JhI7Dxhz_5a851Bej335PXuTKORWhXjVCC0iPwZoqnam-1_bfhDw?ref=TX9V9N",
+    tag: "DEEDS / BEST",
+    rating: 5
+  },
+  {
+    name: "christmast nike socks",
+    category: "Underwear",
+    price: "$2.06",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN013GMm8L1W63VjIZ9Wc_!!2220481152738-0-cib.jpg",
+    linkKakobuy: "https://usfans.com/product/1/964133267807?ref=TX9V9N",
+    linkUsfans: "https://usfans.com/product/1/964133267807?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "(3 PAIR) adidas socks",
+    category: "Underwear",
+    price: "$4.82",
+    image: "https://si.geilicdn.com/open1847561709-1234478995-1e250000019639412cf50a23b491_800_800.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7447131555",
+    linkUsfans: "https://usfans.com/product/3/7447131555?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "NIKE NBA SOCKS",
+    category: "Underwear",
+    price: "$3.31",
+    image: "https://si.geilicdn.com/pcitem1944479080-252f00000198a81c53030a207569_1276_1276.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7525030163",
+    linkUsfans: "https://usfans.com/product/3/7525030163?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "(6 PACK) CK SOCKS",
+    category: "Underwear",
+    price: "$5.82",
+    image: "https://si.geilicdn.com/pcitem1944479080-061b0000019a672ba5120a239646_1276_1276.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7600482508",
+    linkUsfans: "https://usfans.com/product/3/7600482508?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "3 pairs nike x nocta socks",
+    category: "Underwear",
+    price: "$8.14",
+    image: "https://si.geilicdn.com/pcitem901541691039-26aa0000017e4793650c0a22e17f_1080_1080.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7592514845",
+    linkUsfans: "https://usfans.com/product/3/7592514845?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "TRAVIS SCOTT SOCKS",
+    category: "Underwear",
+    price: "$0.77",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01fMmH4w1XbU0T4s22l_!!4272442942-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F661778775436.html",
+    linkUsfans: "https://usfans.com/product/1/661778775436?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MASTERMIND SOCKS",
+    category: "Underwear",
+    price: "$1.47",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01ilcWim1RHRHRdGqoq_!!2220176752086-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F972396816819.html",
+    linkUsfans: "https://usfans.com/product/1/972396816819?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "THOM BROWNE SOCKS",
+    category: "Underwear",
+    price: "$1.70",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01AUGBz41RHRI9nuW69_!!2220176752086-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F987192051624.html",
+    linkUsfans: "https://usfans.com/product/1/987192051624?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "YORI BOXERS",
+    category: "Underwear",
+    price: "$4.77",
+    image: "https://si.geilicdn.com/weidian1468816995-6d8b0000019874bf59d00a811411_750_1000.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7519832781",
+    linkUsfans: "https://usfans.com/product/3/7519832781?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "[BUDGET] NIKE NOCTA SOCKS",
+    category: "Underwear",
+    price: "$1.50",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01rVTgqd2BXtho9Wh6I_!!2215386608349-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F714075609703.html",
+    linkUsfans: "https://usfans.com/product/1/714075609703?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "onrunning socks",
+    category: "Underwear",
+    price: "$1.17",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01SP8Pig1yV4OQ3CSaL_!!4611686018427386295-0-cbu_common_content.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F909401749379.html",
+    linkUsfans: "https://usfans.com/product/1/909401749379?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
