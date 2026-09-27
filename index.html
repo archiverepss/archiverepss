@@ -3,31 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
   <title>ArchiveReps - Spreadsheet</title>
   <meta name="description" content="Najlepszy spreadsheet w Polsce. Sprawdź najlepsze batche, Codziennie nowe produkty!">
   <meta name="keywords" content="archivereps.pl, archivereps, spreadsheet">
   <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://archivereps.pl">
   <meta property="og:title" content="ArchiveReps - Spreadsheet">
   <meta property="og:description" content="Najlepszy spreadsheet w Polsce. Sprawdź najlepsze batche, codziennie nowe produkty!">
   <meta property="og:image" content="https://archivereps.pl/banner2.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="theme-color" content="#7c5cff">
+  <meta name="theme-color" content="#050816">
+
   <link rel="icon" href="https://archivereps.pl/favicon.png" type="image/png" sizes="144x144">
   <link rel="apple-touch-icon" href="https://archivereps.pl/favicon.png">
-  
-  <!-- Preconnect do CDN-ów obrazków — kluczowe dla szybkiego QC -->
+
+  <!-- ⚡ PRECONNECT / DNS-PREFETCH — start połączeń zanim przeglądarka wie, że ich potrzebuje -->
   <link rel="preconnect" href="https://si.geilicdn.com" crossorigin>
   <link rel="preconnect" href="https://img.alicdn.com" crossorigin>
-  <link rel="preconnect" href="https://kako-alosshk-pic.kakobuy.com" crossorigin>
   <link rel="preconnect" href="https://media.usfans.com" crossorigin>
-  <link rel="dns-prefetch" href="https://nameless-band-5b92.buzzbrief80.workers.dev">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://kako-alosshk-pic.kakobuy.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="dns-prefetch" href="https://nameless-band-5b92.buzzbrief80.workers.dev">
+  <link rel="dns-prefetch" href="https://gc.zgo.at">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+  <!-- ⚡ CRITICAL CSS — inline, żeby pierwszy paint był natychmiastowy -->
+  <style>
+    /* === CRITICAL PATH ONLY === */
+    *{margin:0;padding:0;box-sizing:border-box}
+    :root{--bg:#050816;--text:#f5f5f7;--accent:#7c5cff;--accent-2:#4ad4ff;--border-glass:rgba(255,255,255,.06)}
+    html{scroll-behavior:smooth;background:var(--bg);color-scheme:dark}
+    body{
+      font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+      background:var(--bg);color:var(--text);line-height:1.55;
+      overflow-x:hidden;-webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding-top:132px;min-height:100vh;
+    }
+    main,nav,footer{position:relative;z-index:1}
+    a{color:inherit;text-decoration:none}
+    button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+    img{display:block;max-width:100%}
+
+    /* Navbar skeleton — zapobiega przesunięciu layoutu */
+    .navbar{
+      position:fixed;top:12px;left:50%;transform:translateX(-50%);
+      width:calc(100% - 32px);max-width:1400px;height:64px;z-index:1000;
+      background:rgba(10,12,30,.65);
+      backdrop-filter:blur(24px) saturate(180%);
+      -webkit-backdrop-filter:blur(24px) saturate(180%);
+      border:1px solid var(--border-glass);border-radius:20px;
+    }
+
+    /* Hero skeleton */
+    .main-content{max-width:1400px;margin:0 auto;padding:40px 24px 60px}
+    .hero-section{text-align:center;margin-bottom:48px;padding:20px 0}
+
+    /* Promo banner placeholder — zapobiega skokowi layoutu */
+    .promo-banner{position:relative;z-index:1001;width:calc(100% - 32px);max-width:1400px;margin:12px auto 0;height:56px}
+    .promo-banner.hidden{display:none}
+
+    /* Skeleton dla produktów */
+    .products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px}
+    .skeleton-card{aspect-ratio:4/3;border-radius:20px;background:linear-gradient(90deg,rgba(255,255,255,.03) 0%,rgba(255,255,255,.07) 50%,rgba(255,255,255,.03) 100%);background-size:200% 100%;animation:skeleton-shimmer 1.5s ease-in-out infinite;contain:layout style paint}
+    @keyframes skeleton-shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+
+    /* Fallback dla noscript / FOUC */
+    body:not(.app-ready) .products-grid::before{content:"";display:block;grid-column:1/-1;height:200px}
+  </style>
+
+  <!-- ⚡ ASYNC CSS — ładuje się bez blokowania render -->
+  <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="style.css"></noscript>
+
+  <!-- ⚡ Font — preload + font-display:swap -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"></noscript>
+
+  <!-- Analytics (async, nie blokuje) -->
   <script data-goatcounter="https://archiverepss.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
@@ -74,7 +133,7 @@
         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
         </svg>
-        <input type="text" id="globalSearch" placeholder="Szukaj...  ⌘ K" oninput="handleSearch()" />
+        <input type="text" id="globalSearch" placeholder="Szukaj..." oninput="handleSearch()" />
       </div>
     </div>
     <div class="nav-links">
@@ -159,7 +218,6 @@
         <div class="slider-wrapper"><div class="slider-track" id="sliderTrack"></div></div>
         <button class="slider-arrow slider-arrow-right" id="sliderNext" type="button">›</button>
       </div>
-      <div class="slider-dots" id="sliderDots"></div>
     </section>
   </div>
 
@@ -471,7 +529,7 @@
     <div class="popup-header-v2">
       <div class="popup-brand-v2">
         <div class="popup-agent-logo" id="popupAgentLogo">
-          <img src="https://kakobuy.com/favicon.ico" alt="Kakobuy" id="popupLogoImg">
+          <img src="https://kakobuy.com/favicon.ico" alt="Kakobuy" id="popupLogoImg" loading="lazy">
         </div>
         <span class="popup-brand-name">ArchiveReps</span>
       </div>
@@ -519,7 +577,7 @@
   <div class="outfit-details-modal">
     <button class="modal-close-x" onclick="closeOutfitDetails()">×</button>
     <div class="outfit-details-hero" id="outfitDetailsHero">
-      <img id="outfitDetailsImage" src="" alt="Outfit" />
+      <img id="outfitDetailsImage" src="" alt="Outfit" loading="lazy" />
     </div>
     <div class="outfit-details-header">
       <h2 id="outfitDetailsTitle">Outfit</h2>
@@ -535,19 +593,19 @@
   </div>
 </div>
 
-<button class="scroll-to-top" id="scrollToTopBtn">↑</button>
+<button class="scroll-to-top" id="scrollToTopBtn" aria-label="Do góry">↑</button>
 
 <div class="lightbox-overlay" id="lightboxOverlay">
   <div class="lightbox-content">
-    <button class="lightbox-close" id="lightboxClose">×</button>
-    <img id="lightboxImg" src="" alt="Powiększone zdjęcie">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Zamknij">×</button>
+    <img id="lightboxImg" src="" alt="Powiększone zdjęcie" loading="lazy">
   </div>
 </div>
 
 <!-- QC LIGHTBOX -->
 <div class="lightbox-overlay" id="qcLightboxOverlay">
   <div class="qc-lightbox-fullscreen">
-    <button class="lightbox-close" id="qcLightboxClose">×</button>
+    <button class="lightbox-close" id="qcLightboxClose" aria-label="Zamknij">×</button>
     <div class="qc-lightbox-main">
       <div class="qc-lightbox-image-wrapper" id="qcLightboxWrapper">
         <img id="qcLightboxImg" src="" alt="QC" decoding="async">
@@ -618,6 +676,7 @@
   </div>
 </div>
 
+<!-- ⚡ SCRIPTS: data.js przed script.js, oba z defer -->
 <script src="script.js" defer></script>
 
 <footer class="site-footer">

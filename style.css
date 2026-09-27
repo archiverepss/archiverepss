@@ -1173,3 +1173,267 @@ body.no-banner { padding-top: 84px; }
     scroll-behavior: auto !important;
   }
 }
+/* ============ PERFORMANCE ENHANCEMENTS ============ */
+
+/* Skeleton loading state */
+body:not(.app-ready) #grid {
+  min-height: 400px;
+}
+body:not(.app-ready) #grid::before {
+  content: "";
+  display: block;
+  grid-column: 1 / -1;
+  height: 300px;
+  border-radius: 20px;
+  background: linear-gradient(90deg,
+    rgba(255,255,255,.02) 0%,
+    rgba(255,255,255,.06) 50%,
+    rgba(255,255,255,.02) 100%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s ease-in-out infinite;
+}
+
+/* GPU acceleration dla kart produktów */
+.product-card,
+.featured-card,
+.slider-item,
+.promo-card,
+.seller-card,
+.saved-outfit-card {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Zmniejsz animacje na hoverach — szybszy feedback */
+.product-card { transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease; }
+
+/* Slider — płynniejszy */
+.slider-track { transition: transform 0.35s cubic-bezier(0.22, 0.61, 0.36, 1); }
+
+/* Unikaj reflow podczas animacji modala */
+.popup-overlay { will-change: opacity; }
+.popup-overlay.active .popup-card { will-change: transform; }
+
+/* QC image item — szybsze renderowanie */
+.qc-image-item,
+.qc-search-image-item { 
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Fallback dla przeglądarek bez backdrop-filter */
+@supports not (backdrop-filter: blur(1px)) {
+  .navbar { background: rgba(10, 12, 30, 0.95); }
+}
+
+/* Print styles — nie renderuj ciężkich rzeczy */
+@media print {
+  .navbar, .social-sidebar, .scroll-to-top, .promo-banner { display: none !important; }
+}
+
+/* ============ MICRO-OPTIMIZATIONS ============ */
+
+/* Zredukuj animację na urządzeniach o niskiej wydajności */
+@media (prefers-reduced-motion: reduce) {
+  body::before { display: none; }  /* Wyłącz gradient tła — drogi render */
+}
+
+/* Optymalizacja tła — mniej warstw */
+@media (max-width: 768px) {
+  body::before {
+    background:
+      radial-gradient(ellipse 600px 400px at 30% 0%, rgba(124, 92, 255, 0.15), transparent 60%);
+  }
+}
+/* ============ IMAGE FIXES ============ */
+
+/* Zapobiega migotaniu podczas ładowania */
+.product-image,
+.promo-card-image,
+.outfit-slot-image,
+.qc-image-item img,
+.qc-search-image-item img,
+.saved-outfit-preview-item img,
+.outfit-details-item-image img {
+  background: linear-gradient(90deg, #0f1225 0%, #1a1f35 50%, #0f1225 100%);
+  background-size: 200% 100%;
+  animation: img-loading 1.5s ease-in-out infinite;
+}
+
+@keyframes img-loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Gdy obrazek się załaduje — usuń animację (dodawane przez JS) */
+img[data-loaded="1"] {
+  animation: none;
+  background: #0f1225;
+}
+
+/* Placeholder dla zepsutych obrazków */
+img[src*="data:image/svg+xml"] {
+  animation: none;
+  background: #0f1225;
+  object-fit: contain;
+  padding: 20px;
+}
+
+/* Outfit slot image slot — zanim załaduje się obrazek */
+.outfit-slot-image-slot {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+}
+
+/* Promo image slot */
+.promo-card-image-slot {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+}
+
+/* Outfit details image slot */
+.outfit-details-item-image {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.outfit-details-item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ============ QC VIRTUALIZATION — PŁYNNE SETKI ZDJĘĆ ============ */
+
+/* Kafelek QC — izolacja layoutu BEZ psucia wyglądu */
+.qc-image-item,
+.qc-search-image-item {
+  /* contain: layout pomaga, strict psuje */
+  contain: layout paint;
+  /* content-visibility pomija render poza viewportem */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 140px;
+  /* GPU acceleration */
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Obrazek w kafelku QC — bez zmian wizualnych */
+.qc-image-item img,
+.qc-search-image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  /* Wyłącz skeleton na kafelkach QC — przy setkach miga */
+  animation: none;
+  background: #0b0b0c;
+}
+
+/* Grid QC — zachowaj oryginalny layout */
+.qc-images-grid {
+  /* NIE dodawaj contain — psuje auto-fill */
+  /* contain: layout style; <- USUŃ TO */
+  contain: layout;
+}
+
+/* Modal QC — scroll bez reflow */
+.qc-modal-card {
+  /* zachowaj oryginał + dodaj tylko contain */
+  contain: layout style;
+}
+
+/* Media query dla mobile — mniejsze kafelki */
+@media (max-width: 768px) {
+  .qc-image-item,
+  .qc-search-image-item {
+    contain-intrinsic-size: auto 100px;
+  }
+}
+
+/* Skeleton dla obrazków produktów — ZACHOWAJ (nie nadpisuj!) */
+/* NIE dodawaj tu nic dla .product-image, .promo-card-image itd. — 
+   już masz to w głównym CSS */
+
+/* Slot placeholder dla outfitów (jeśli używasz) */
+.outfit-slot-image-slot,
+.promo-card-image-slot {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+}
+
+/* Poprawka dla safari — content-visibility potrafi psuć */
+@supports not (content-visibility: auto) {
+  .qc-image-item,
+  .qc-search-image-item {
+    contain: layout paint;
+  }
+}
+/* ============ QC SHIMMER ANIMACJA ============ */
+
+.qc-image-item.qc-loading {
+  background: linear-gradient(90deg,
+    #0f1225 0%,
+    #1a1f35 50%,
+    #0f1225 100%);
+  background-size: 200% 100%;
+  animation: qc-shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes qc-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.qc-image-item.qc-loaded {
+  animation: none;
+  background: #0b0b0c;
+}
+
+.qc-image-item img {
+  transition: opacity 0.4s ease;
+}
+
+.qc-image-item.qc-plus-overlay-wrapper {
+  animation: none;
+  background: #0b0b0c;
+}
+
+.qc-plus-overlay-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  background: rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.qc-plus-overlay-wrapper:hover .qc-plus-overlay-content {
+  background: rgba(124, 92, 255, 0.6);
+}
+
+.qc-plus-icon {
+  font-size: 32px;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 1;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+}
+
+.qc-plus-text {
+  font-size: 14px;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+  letter-spacing: 0.5px;
+}
