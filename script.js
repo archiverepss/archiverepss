@@ -11172,6 +11172,66 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "YEEZY DESERT BOOTS",
+    category: "Shoes",
+    price: "$74.75",
+    image: "https://si.geilicdn.com/open1733523732-1234478995-635800000193833ebbaa0a8115b5_1180_1770.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fshop1614983740.v.weidian.com%2Fitem.html%3FitemID%3D7780503541%26wfr%3Dc%26source%3Dgoods_home%26ifr%3Ditemdetail%26sfr%3Dapp",
+    linkUsfans: "https://usfans.com/product/3/7780503541?ref=TX9V9N",
+    tag: "WWTOP",
+    rating: 5
+  },
+  {
+    name: "undercover beaded ghost hand jeans",
+    category: "Pants",
+    price: "$61.13",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01PLv5071CUylckBJ6k_!!2025450085.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D990510654397",
+    linkUsfans: "https://usfans.com/product/2/OKqdLSSjNASwzSbOJC8oAYhLFpRlrZ6xT0NBXyb58CDpA14o3RaMOw?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "LGB 00S Archive Color-Blocked Dragon Tour Dragon HOODIE",
+    category: "Hoodies",
+    price: "$44.69",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2221168735348/O1CN01Gyn7TD1pNRGbtrOlw_!!2221168735348.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D996668059377",
+    linkUsfans: "https://usfans.com/product/2/T4y4Jl5CshySzoBrclrzqLevSCDOtrgnIkko4AoR47XDPKzEh5b5zA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "NENET TSHIRTS (A LOT OF CW)",
+    category: "Tshirts",
+    price: "$14.62",
+    image: "https://img.alicdn.com/bao/uploaded/i4/282429573/O1CN01b9vC4w2KaUCB2QWHl_!!282429573.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D637531994309",
+    linkUsfans: "https://usfans.com/product/2/zu72u8vZfpyeW15L8ZD4V-iL0uMEXyMlD1eYxWH2b7wdweFzqEsYNg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RIPPED FLARED JEANS",
+    category: "Pants",
+    price: "$27.91",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2131899552/O1CN017pUVqf2KQsIKm0OB7_!!2131899552.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D952842650129",
+    linkUsfans: "https://usfans.com/product/2/dheb5YYXQYEcNHoHzuofIIDz2ddQAYqd2ReOFGe1aodseaBR98mWgA?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "RICK OWENS BANANA CUTS",
+    category: "Pants",
+    price: "$79.60",
+    image: "https://si.geilicdn.com/wdseller2087598183-3c86000001a0af5d62a90a2103bd_1173_1564.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7856821142",
+    linkUsfans: "https://usfans.com/product/3/7856821142?ref=TX9V9N",
+    tag: "BEST / DAGGER",
+    rating: 5
+  },
 ];
 
 // ============================================
