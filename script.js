@@ -11232,6 +11232,186 @@ const products = [
     tag: "BEST / DAGGER",
     rating: 5
   },
+  {
+    name: "Supreme polo longsleeve",
+    category: "Tshirts",
+    price: "$43.24",
+    image: "https://www.crepslocker.com/cdn/shop/files/supreme-x-jacob-_-co.-la-martina-rugby-black-polo-shirt-front.webp?v=1783343410&width=1200",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1082405813935",
+    linkUsfans: "https://usfans.com/product/2/G6DIriXxKBgNUITqJhd0kGiIBYrtvAIZPdgHRluUSdnCLI6JwpkXItM?ref=TX9V9N",
+    tag: "TIGER",
+    rating: 5
+  },
+  {
+    name: "celine youth knight poem",
+    category: "Hoodies",
+    price: "$49.73",
+    image: "https://si.geilicdn.com/wdseller1635581967-38cc0000019fd710eee90a2396f4_1206_1608.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7823165268",
+    linkUsfans: "https://usfans.com/product/3/7823165268?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "Undercover07Aw Fang tee",
+    category: "Tshirts",
+    price: "$16.47",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2215647843546/O1CN01L57TLPb3zmJ2OPw7_!!2215647843546.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1058888526044",
+    linkUsfans: "https://usfans.com/product/2/_Midxmlbw03hN-BqTlTnjAZKtytFn9JwL3M90UKkkDb2lFLhQewTzew?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "VINTAGE EVISU HOODIE",
+    category: "Hoodies",
+    price: "$37.42",
+    image: "https://media.usfans.com/upload/ori/2026/10/01/141158/39a8e1f7-98be-4be7-ab2a-46a39be82296.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7852038097",
+    linkUsfans: "https://usfans.com/product/3/7852038097?ref=TX9V9N",
+    tag: "DRAGON",
+    rating: 5
+  },
+  {
+    name: "MARTY SUPREME JACKET",
+    category: "Jackets",
+    price: "$66.52",
+    image: "https://photo.yupoo.com/noghost/a81a3edd93/5a842029.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D1064922259106",
+    linkUsfans: "https://usfans.com/product/2/QVjsM8l--6UwX5D35r0A2wEx1nw-tDIQxkuQC9WNlJy3x3jM-fVie50?ref=TX9V9N",
+    tag: "DRAGON",
+    rating: 5
+  },
+  {
+    name: "cdg rollin stones tee",
+    category: "Tshirts",
+    price: "$14.97",
+    image: "https://media.usfans.com/2026/09/15/110701/15eb93bb-c375-4ac0-a779-7045c01d491e.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1068371871904",
+    linkUsfans: "https://usfans.com/product/2/49JO6BVYW5NA0uZN_NU5UECEZbD9u0b0e3AWXngAHKNDmUjWWZsfRN8?ref=TX9V9N",
+    tag: "DRAGON",
+    rating: 5
+  },
+  {
+    name: "BAPE X CDG TEE",
+    category: "Tshirts",
+    price: "$16.30",
+    image: "https://cdn11.bigcommerce.com/s-e2ftvydejy/images/stencil/1280x1280/products/13323/74449/BAPE-x-Comme-des-Garcons-Osaka-1-Tee-Black__37390.1657580235.jpg?c=1?imbypass=on",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7688092762",
+    linkUsfans: "https://usfans.com/product/3/7688092762?ref=TX9V9N",
+    tag: "DRAGON",
+    rating: 5
+  },
+  {
+    name: "bape x cdg (colorful) tee",
+    category: "Tshirts",
+    price: "$13.48",
+    image: "https://images.stockx.com/images/BAPE-x-CDG-Osaka-Tee-SS25-White.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1746034109",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7714740944",
+    linkUsfans: "https://usfans.com/product/3/7714740944?ref=TX9V9N",
+    tag: "DRAGON",
+    rating: 5
+  },
+  {
+    name: "supreme x cdg knit",
+    category: "Hoodies",
+    price: "$38.25",
+    image: "https://storage.googleapis.com/hypeclothinga-media/__sized__/products/Supreme_Cdg_Sweater_Black_88163ac9_Hype_Clothinga.001-thumbnail-1080x1080-70.jpeg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1038168725313",
+    linkUsfans: "https://usfans.com/product/2/X4wUFZTDQYwdbQnXJaBARBvrV4X4WQLXnEhUt44-zADGMUuJCwuHPD0?ref=TX9V9N",
+    tag: "DRAGON",
+    rating: 5
+  },
+  {
+    name: "vintage nike longsleeve",
+    category: "Tshirts",
+    price: "$26.61",
+    image: "https://media.usfans.com/upload/ori/2026/10/01/191017/afbe22fa-40f3-40bf-b30e-86bf5ec0d691.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7837289448",
+    linkUsfans: "https://usfans.com/product/3/7837289448?ref=TX9V9N",
+    tag: "DRAGON",
+    rating: 5
+  },
+  {
+    name: "EVISU SHORTS (3CW)",
+    category: "Shorts",
+    price: "$26.61",
+    image: "https://us.evisu.com/cdn/shop/files/2ESHTM6DS1211RXDN-BLDD_m1_6f342680-7289-46aa-b162-b3312fdafc44.jpg?v=1772518731&width=1180",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7807775770",
+    linkUsfans: "https://usfans.com/product/3/7807775770?ref=TX9V9N",
+    tag: "DRAGON",
+    rating: 5
+  },
+  {
+    name: "Jeremy Scott x adidas money",
+    category: "Shoes",
+    price: "$39.92",
+    image: "https://si.geilicdn.com/pcitem902084712424-32380000019fe5c754740a21146b_1440_1440.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7824634200",
+    linkUsfans: "https://usfans.com/product/3/7824634200?ref=TX9V9N",
+    tag: "YOLO",
+    rating: 3
+  },
+  {
+    name: "Jeremy Scott x Adidas high",
+    category: "Shoes",
+    price: "$44.74",
+    image: "https://si.geilicdn.com/wdseller1985969299-0e830000019f857fb0bd0a230417_3510_4431.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7809935489",
+    linkUsfans: "https://usfans.com/product/3/7809935489?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "maison margiela high gats",
+    category: "Shoes",
+    price: "$99.62",
+    image: "https://img.alicdn.com/bao/uploaded/i3/1101571305/O1CN012Uq66agMJlG4tdMC_!!1101571305.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1085701557743",
+    linkUsfans: "https://usfans.com/product/2/fKeZnuBJxz2s5KDjEQnWiW8PiCOJtumc6iG-vUZcoQYJ9SVTlpDrfYU?ref=TX9V9N",
+    tag: "RICHBRO / BEST",
+    rating: 5
+  },
+  {
+    name: "maison margiela cuban chain links",
+    category: "Shoes",
+    price: "$131.05",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2210299185015/O1CN01OXgCxkPhXPC8SorO~crop,23,0,3909,5213~_!!2210299185015.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1080491485761",
+    linkUsfans: "https://usfans.com/product/2/Le38y6pgHXDXzlwbHOOMK9I5gaQFx0A7lAOdz_Ggt6YSkKmIXLnw8sk?ref=TX9V9N",
+    tag: "VOGUE",
+    rating: 5
+  },
+  {
+    name: "Saint Laurent SL/10H Sneaker",
+    category: "Shoes",
+    price: "$149.51",
+    image: "https://si.geilicdn.com/wdseller1674667562-4cae0000019ee6ce58420a22d535_1290_1247.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7770981995",
+    linkUsfans: "https://usfans.com/product/3/7770981995?ref=TX9V9N",
+    tag: "ATM",
+    rating: 5
+  },
+  {
+    name: "Saint Laurent SL/08H Sneaker",
+    category: "Shoes",
+    price: "$64.53",
+    image: "https://img.alicdn.com/bao/uploaded/i4/1991699106/O1CN01Humo5K2H8biMza92l_!!1991699106.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D947936617129",
+    linkUsfans: "https://usfans.com/product/2/TGOxnYo0Qgb8ymdaOr4zCcjCnw1a5NiZXFxqiSZpxot5zOSsPI4inw?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "Rick Owens Taped Ramones",
+    category: "Shoes",
+    price: "$98.45",
+    image: "https://si.geilicdn.com/pcitem1348580183-1e8500000197793656830a23047e_1280_1280.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7459124307",
+    linkUsfans: "https://usfans.com/product/3/7459124307?ref=TX9V9N",
+    tag: "ROG / BEST",
+    rating: 5
+  },
 ];
 
 // ============================================
