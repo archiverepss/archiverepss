@@ -11276,7 +11276,7 @@ const products = [
     name: "MARTY SUPREME JACKET",
     category: "Jackets",
     price: "$66.52",
-    image: "https://photo.yupoo.com/noghost/a81a3edd93/5a842029.jpg",
+    image: "https://media.usfans.com/2026/09/20/155411/f83295be-4db7-402e-8f90-20f3b93ff8f7.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D1064922259106",
     linkUsfans: "https://usfans.com/product/2/QVjsM8l--6UwX5D35r0A2wEx1nw-tDIQxkuQC9WNlJy3x3jM-fVie50?ref=TX9V9N",
     tag: "DRAGON",
