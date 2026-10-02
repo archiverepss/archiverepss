@@ -11412,6 +11412,146 @@ const products = [
     tag: "ROG / BEST",
     rating: 5
   },
+  {
+    name: "af1 independece day",
+    category: "Shoes",
+    price: "$32.93",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01OQy27Z2Crsl10kddo_!!2219709768528-0-cib.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F999893201747.html",
+    linkUsfans: "https://usfans.com/product/1/999893201747?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "JORDAN 13",
+    category: "Shoes",
+    price: "$79.83",
+    image: "https://si.geilicdn.com/wdseller2075017176-49060000019e930173a70a23037f_1179_1179.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7780080519",
+    linkUsfans: "https://usfans.com/product/3/7780080519?ref=TX9V9N",
+    tag: "PK / WWTOP",
+    rating: 5
+  },
+  {
+    name: "AF1 MID",
+    category: "Shoes",
+    price: "$28.28",
+    image: "https://si.geilicdn.com/pcitem1238871281-29610000019d4f91967a0a20e284-unadjust_600_600.gif",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7233879757",
+    linkUsfans: "https://usfans.com/product/3/7233879757?ref=TX9V9N",
+    tag: "G / LJ",
+    rating: 5
+  },
+  {
+    name: "SHOX CDG (DRAGON)",
+    category: "Shoes",
+    price: "$31.60",
+    image: "https://i.ebayimg.com/images/g/HLcAAOSwv9RloIaL/s-l1200.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7648018582",
+    linkUsfans: "https://usfans.com/product/3/7648018582?ref=TX9V9N",
+    tag: "DRAGON",
+    rating: 5
+  },
+  {
+    name: "JORDAN 8",
+    category: "Shoes",
+    price: "$66.52",
+    image: "https://si.geilicdn.com/open1850717273-1234478995-17c100000192e18e9ea80a210559_1074_1074.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7611453519",
+    linkUsfans: "https://usfans.com/product/3/7611453519?ref=TX9V9N",
+    tag: "WM",
+    rating: 5
+  },
+  {
+    name: "AF1 SKELETON",
+    category: "Shoes",
+    price: "$44.91",
+    image: "https://si.geilicdn.com/open1619761113-1234478995-45310000018eadb99df60a8115b5-unadjust_600_600.png",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7232477311",
+    linkUsfans: "https://usfans.com/product/3/7232477311?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "Saint Laurent Wyatt boots",
+    category: "Shoes",
+    price: "$76.16",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2516659220/O1CN01DZjX0X2Hyoior2MxE_!!2516659220.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D840285083527",
+    linkUsfans: "https://usfans.com/product/2/xsn-yC5lbjUoY__BOXwcYj4ljaPNQmi7iQTcnT8xamqJm5judDhc5A?ref=TX9V9N",
+    tag: "?",
+    rating: 5
+  },
+  {
+    name: "Saint Laurentt Wyatt boots black",
+    category: "Shoes",
+    price: "$78",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2516659220/O1CN01Fj4zVZ2HyoryZquXz_!!2516659220.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1055801756476",
+    linkUsfans: "https://usfans.com/product/2/b0Rqs0mCpCAFGh0SpnmA3LigCOgmrInyM84Yvuiz89y-ZqbkZ42TbHE?ref=TX9V9N",
+    tag: "?",
+    rating: 5
+  },
+  {
+    name: "424 BOOTS (BLACK)",
+    category: "Shoes",
+    price: "$104.77",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3161356379/O1CN01c5ekBf1wzdGxTlWqI_!!3161356379.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D680320187919",
+    linkUsfans: "https://usfans.com/product/2/soWrhxK4kF16W2mh-klpQTjJbovIHM8rUJaxN-t3aCbC67UymAl5JQ?ref=TX9V9N",
+    tag: "?",
+    rating: 5
+  },
+  {
+    name: "424 BOOTS (MILK GRAY)",
+    category: "Shoes",
+    price: "$104.77",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3161356379/O1CN01JSQyY01wzdH9kXwHj_!!3161356379.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D680809493341",
+    linkUsfans: "https://usfans.com/product/2/6E1zm4-jNRhJIZogauKbo286VAZ8X0G0KWevh-3JyxqyMtGzaNEGow?ref=TX9V9N",
+    tag: "?",
+    rating: 5
+  },
+  {
+    name: "424 X BOOTS",
+    category: "Shoes",
+    price: "$118.91",
+    image: "https://img.alicdn.com/bao/uploaded/i3/3161356379/O1CN01mTtazk1wzdbUhpD2J_!!3161356379.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D990662616652",
+    linkUsfans: "https://usfans.com/product/2/2nLWSbnBmOz5_WYab5Pf0MW9GzW1G-BI0FXg6LwHY01NxtmwC_a1_A?ref=TX9V9N",
+    tag: "?",
+    rating: 5
+  },
+  {
+    name: "NUMBER NINE BOOTS",
+    category: "Shoes",
+    price: "$71.18",
+    image: "https://img.alicdn.com/bao/uploaded/i2/384909810/O1CN011w6odh2ML1xN08MYD_!!384909810.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D600577481424",
+    linkUsfans: "https://usfans.com/product/2/5hJCyhV5jJppMe5BMTxIyYX39lBKQmt9U1ZtJq-9N8JIbuBfIm1caQ?ref=TX9V9N",
+    tag: "?",
+    rating: 5
+  },
+  {
+    name: "balenciaga alaska Horse Hair Boots",
+    category: "Shoes",
+    price: "$116.41",
+    image: "https://si.geilicdn.com/weidian901911750822-5846000001957c1d31aa0a2301b4_1536_1536.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7315036362",
+    linkUsfans: "https://usfans.com/product/3/7315036362?ref=TX9V9N",
+    tag: "FOSHAN",
+    rating: 5
+  },
+  {
+    name: "RICK OWENS TRACTOR BOOTS",
+    category: "Shoes",
+    price: "$116.08",
+    image: "https://img.alicdn.com/bao/uploaded/i3/783814701/O1CN01Nz49ol1kb6mEBRCpw_!!783814701.jpg",
+    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D635308355125",
+    linkUsfans: "https://usfans.com/product/2/ufeOJXhEGhTQnHVWZPUfLNbrrb8a02m6nN3E950CHmIYVPQNZT4Qzw?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
 ];
 
 // ============================================
