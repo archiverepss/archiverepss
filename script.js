@@ -14090,7 +14090,8 @@ function switchView(view) {
 // ============================================
 document.addEventListener('DOMContentLoaded', function () {
   if (typeof products === 'undefined' || !Array.isArray(products)) {
-    console.error('❌ Brak tablicy "products" — upewnij się, że data.js jest załadowany PRZED script.js');
+    console.error('❌ Brak tablicy "products"');
+    document.body.classList.add('app-ready'); // pokaż stronę mimo błędu
     return;
   }
 
@@ -14114,11 +14115,19 @@ document.addEventListener('DOMContentLoaded', function () {
     document.body.classList.add('no-banner');
   }
 
+  // 🔥 Pokaż stronę dopiero gdy wszystko gotowe (double RAF = pewność że paint się odbył)
   requestAnimationFrame(() => {
-    document.body.classList.add('app-ready');
+    requestAnimationFrame(() => {
+      document.body.classList.add('app-ready');
+    });
   });
 
+  // 🔥 Fallback: jeśli z jakiegoś powodu app-ready nie zostało dodane w 1s, dodaj
+  setTimeout(() => {
+    if (!document.body.classList.contains('app-ready')) {
+      document.body.classList.add('app-ready');
+    }
+  }, 1000);
+
   console.log('%c✅ ArchiveReps załadowany.', 'color: #34d399; font-weight: bold');
-  console.log('%c🚀 Performance mode: ON', 'color: #4ad4ff; font-weight: bold');
-  console.log('%c⚡ QC: 12 na start, load more +6, max 40, shimmer animacja', 'color: #ff6ec7; font-weight: bold');
 });

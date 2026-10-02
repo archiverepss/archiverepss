@@ -21,7 +21,7 @@
   <link rel="icon" href="https://archivereps.pl/favicon.png" type="image/png" sizes="144x144">
   <link rel="apple-touch-icon" href="https://archivereps.pl/favicon.png">
 
-  <!-- ⚡ PRECONNECT / DNS-PREFETCH — start połączeń zanim przeglądarka wie, że ich potrzebuje -->
+  <!-- ⚡ PRECONNECT / DNS-PREFETCH -->
   <link rel="preconnect" href="https://si.geilicdn.com" crossorigin>
   <link rel="preconnect" href="https://img.alicdn.com" crossorigin>
   <link rel="preconnect" href="https://media.usfans.com" crossorigin>
@@ -31,11 +31,16 @@
   <link rel="dns-prefetch" href="https://gc.zgo.at">
   <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
-  <!-- ⚡ CRITICAL CSS — inline, żeby pierwszy paint był natychmiastowy -->
+  <!-- ⚡ CRITICAL CSS — PEŁNY ABOVE-THE-FOLD (naprawia FOUC) -->
   <style>
     /* === CRITICAL PATH ONLY === */
     *{margin:0;padding:0;box-sizing:border-box}
-    :root{--bg:#050816;--text:#f5f5f7;--accent:#7c5cff;--accent-2:#4ad4ff;--border-glass:rgba(255,255,255,.06)}
+    :root{
+      --bg:#050816;--text:#f5f5f7;--text-muted:#8b8fa8;--text-dim:#565a72;
+      --accent:#7c5cff;--accent-2:#4ad4ff;--border-glass:rgba(255,255,255,.06);
+      --surface:rgba(20,24,44,.55);--glass:rgba(255,255,255,.04);
+      --radius:14px;--radius-sm:10px;
+    }
     html{scroll-behavior:smooth;background:var(--bg);color-scheme:dark}
     body{
       font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
@@ -43,13 +48,25 @@
       overflow-x:hidden;-webkit-font-smoothing:antialiased;
       -moz-osx-font-smoothing:grayscale;
       padding-top:132px;min-height:100vh;
+      /* 🔥 Ukryj body zanim pełny CSS się załaduje */
+      opacity:0;
+      transition:opacity .15s ease-out;
     }
+    /* 🔥 Pokaż gdy aplikacja gotowa */
+    body.app-ready{opacity:1}
+    /* 🔥 Fallback: jeśli JS padnie, pokaż po 800ms */
+    body::after{
+      content:"";position:fixed;inset:0;background:var(--bg);
+      z-index:-1;pointer-events:none;
+    }
+
     main,nav,footer{position:relative;z-index:1}
     a{color:inherit;text-decoration:none}
     button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
     img{display:block;max-width:100%}
+    svg{display:block}
 
-    /* Navbar skeleton — zapobiega przesunięciu layoutu */
+    /* === NAVBAR === */
     .navbar{
       position:fixed;top:12px;left:50%;transform:translateX(-50%);
       width:calc(100% - 32px);max-width:1400px;height:64px;z-index:1000;
@@ -58,35 +75,145 @@
       -webkit-backdrop-filter:blur(24px) saturate(180%);
       border:1px solid var(--border-glass);border-radius:20px;
     }
+    .nav-container{height:100%;padding:0 16px;display:flex;align-items:center;gap:14px;width:100%}
+    .nav-left{display:flex;align-items:center;gap:14px;flex-shrink:0}
+    .brand-logo{display:flex;align-items:center;gap:1px;font-size:18px;font-weight:800;letter-spacing:-.4px;cursor:pointer}
+    .logo-archive{color:#fff}
+    .logo-repss{background:linear-gradient(90deg,#7c5cff,#4ad4ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .nav-search-box{position:relative;display:flex;align-items:center;max-width:240px}
+    .nav-search-box input{
+      width:100%;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);
+      border-radius:10px;padding:8px 12px 8px 34px;color:#f5f5f7;
+      font-size:12.5px;font-family:inherit;outline:none;transition:all .22s ease;
+    }
+    .nav-search-box .search-icon{position:absolute;left:11px;width:14px;height:14px;color:#565a72;pointer-events:none}
+    .nav-links{display:flex;align-items:center;gap:2px;flex:1;justify-content:center}
+    .nav-link{
+      color:#8b8fa8;font-size:12.5px;font-weight:500;padding:8px 12px;
+      border-radius:10px;border:1px solid transparent;white-space:nowrap;
+      display:inline-flex;align-items:center;cursor:pointer;transition:all .22s ease;
+    }
+    .nav-link.active{
+      color:#fff;
+      background:linear-gradient(135deg,rgba(124,92,255,.2),rgba(74,212,255,.08));
+      border-color:rgba(124,92,255,.35);
+    }
+    .nav-right-icons{display:flex;align-items:center;gap:6px;flex-shrink:0}
+    .icon-btn{
+      width:34px;height:34px;display:flex;align-items:center;justify-content:center;
+      background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);
+      border-radius:10px;color:#8b8fa8;font-size:13px;font-weight:600;
+    }
 
-    /* Hero skeleton */
-    .main-content{max-width:1400px;margin:0 auto;padding:40px 24px 60px}
-    .hero-section{text-align:center;margin-bottom:48px;padding:20px 0}
-
-    /* Promo banner placeholder — zapobiega skokowi layoutu */
-    .promo-banner{position:relative;z-index:1001;width:calc(100% - 32px);max-width:1400px;margin:12px auto 0;height:56px}
+    /* === PROMO BANNER === */
+    .promo-banner{position:relative;z-index:1001;width:calc(100% - 32px);max-width:1400px;margin:12px auto 0}
     .promo-banner.hidden{display:none}
+    .promo-banner-inner{
+      display:flex;align-items:center;justify-content:space-between;gap:16px;
+      padding:10px 12px 10px 14px;
+      background:linear-gradient(135deg,rgba(124,92,255,.12),rgba(255,110,199,.08));
+      border:1px solid rgba(124,92,255,.25);border-radius:16px;
+    }
+    .promo-banner-left{display:flex;align-items:center;gap:12px;flex:1;min-width:0}
+    .promo-banner-icon{
+      width:34px;height:34px;flex-shrink:0;display:flex;align-items:center;justify-content:center;
+      background:linear-gradient(135deg,rgba(124,92,255,.25),rgba(255,110,199,.15));
+      border:1px solid rgba(124,92,255,.35);border-radius:10px;color:#a78bfa;
+    }
+    .promo-banner-text{font-size:13.5px;font-weight:500;color:#d4d4dc;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .promo-banner-text strong{color:#fff;font-weight:700}
+    .promo-banner-right{display:flex;align-items:center;gap:8px;flex-shrink:0}
+    .promo-banner-code{
+      font-size:11.5px;font-weight:700;padding:5px 10px;border-radius:8px;
+      background:rgba(255,110,199,.15);color:#ff6ec7;border:1px solid rgba(255,110,199,.25);
+    }
+    .promo-banner-btn{
+      display:inline-flex;align-items:center;gap:6px;padding:8px 16px;
+      background:linear-gradient(135deg,#7c5cff 0%,#a78bfa 50%,#ff6ec7 100%);
+      color:#fff;font-size:12.5px;font-weight:700;border-radius:10px;white-space:nowrap;
+    }
+    .promo-banner-close{
+      width:28px;height:28px;display:flex;align-items:center;justify-content:center;
+      background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);
+      border-radius:8px;color:#565a72;cursor:pointer;
+    }
+    body.no-banner{padding-top:84px}
 
-    /* Skeleton dla produktów */
-    .products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px}
-    .skeleton-card{aspect-ratio:4/3;border-radius:20px;background:linear-gradient(90deg,rgba(255,255,255,.03) 0%,rgba(255,255,255,.07) 50%,rgba(255,255,255,.03) 100%);background-size:200% 100%;animation:skeleton-shimmer 1.5s ease-in-out infinite;contain:layout style paint}
+    /* === HERO === */
+    .main-content{max-width:1400px;margin:0 auto;padding:40px 24px 60px;position:relative}
+    .hero-section{text-align:center;margin-bottom:48px;padding:20px 0}
+    .hero-icon{
+      display:inline-flex;align-items:center;justify-content:center;
+      margin-bottom:16px;width:70px;height:70px;border-radius:20px;
+      background:linear-gradient(135deg,rgba(124,92,255,.15),rgba(74,212,255,.08));
+      border:1px solid rgba(124,92,255,.25);color:var(--accent-2);
+    }
+    .hero-icon svg{width:40px;height:40px}
+    .hero-section h1{
+      font-size:48px;font-weight:800;letter-spacing:-1.5px;margin-bottom:8px;
+      background:linear-gradient(180deg,#fff 0%,#a1a1aa 100%);
+      -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+    }
+    .hero-section p{font-size:16px;color:var(--text-muted)}
+
+    /* === FILTRY === */
+    .filter-controls-section{margin-bottom:32px}
+    .search-filter-wrapper{display:flex;gap:12px;margin-bottom:16px}
+    .product-search-input{position:relative;flex:1;display:flex;align-items:center}
+    .product-search-input input{
+      width:100%;background:var(--surface);border:1px solid var(--border-glass);
+      border-radius:var(--radius);padding:14px 16px 14px 44px;color:var(--text);
+      font-size:14px;font-family:inherit;outline:none;
+    }
+    .search-icon-inner{position:absolute;left:16px;width:18px;height:18px;color:var(--text-dim);pointer-events:none}
+    .filter-toggle-btn{
+      background:var(--surface);border:1px solid var(--border-glass);
+      border-radius:var(--radius);padding:0 20px;color:var(--text);
+      font-size:14px;font-weight:500;
+    }
+    .advanced-filters-panel{display:none}
+    .advanced-filters-panel.active{display:flex}
+    .categories-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px}
+    .categories-chips-container{display:flex;flex-wrap:wrap;gap:8px;flex:1}
+    .category-chip{
+      background:var(--glass);border:1px solid var(--border-glass);color:var(--text-muted);
+      padding:8px 16px;border-radius:999px;font-size:13px;font-weight:500;
+      font-family:inherit;cursor:pointer;
+    }
+    .category-chip.active{
+      background:linear-gradient(135deg,var(--accent),#a78bfa);
+      color:#fff;border-color:transparent;
+    }
+
+    /* === SKELETON PRODUKTÓW === */
+    .products-grid{
+      display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px;
+    }
+    .skeleton-card{
+      aspect-ratio:4/3;border-radius:20px;
+      background:linear-gradient(90deg,rgba(255,255,255,.03) 0%,rgba(255,255,255,.07) 50%,rgba(255,255,255,.03) 100%);
+      background-size:200% 100%;animation:skeleton-shimmer 1.5s ease-in-out infinite;
+      contain:layout style paint;
+    }
     @keyframes skeleton-shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
 
-    /* Fallback dla noscript / FOUC */
-    body:not(.app-ready) .products-grid::before{content:"";display:block;grid-column:1/-1;height:200px}
+    /* === FALLBACK jeśli JS padnie === */
+    html.no-js body{opacity:1 !important}
   </style>
 
-  <!-- ⚡ ASYNC CSS — ładuje się bez blokowania render -->
-  <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="style.css"></noscript>
+  <!-- 🔥 Fallback: dodaj klasę no-js jeśli JS wyłączony -->
+  <noscript><style>body{opacity:1 !important}</style></noscript>
 
-  <!-- ⚡ Font — preload + font-display:swap -->
+  <!-- ⚡ CSS synchroniczny (zamiast async) — naprawia FOUC -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ⚡ Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"></noscript>
 
-  <!-- Analytics (async, nie blokuje) -->
+  <!-- Analytics -->
   <script data-goatcounter="https://archiverepss.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
