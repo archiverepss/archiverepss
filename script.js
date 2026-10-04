@@ -497,8 +497,8 @@ const products = [
     category: "Shoes",
     price: "$119.09",
     image: "https://img.alicdn.com/bao/uploaded/i4/2073165527/O1CN01npjSp81qhQ9eM137S_!!2073165527.heic",
-    linkKakobuy: "https://ikako.vip/r8y44",
-    linkUsfans: "https://usfans.com/product/2/989070127428?ref=TX9V9N",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D989070127428",
+    linkUsfans: "https://usfans.com/product/2/DF0PGm3QR6DWiSxaKyNew5UxYufZTMb4BWBmpiEGU0l8HHw7vPYPFQ?ref=TX9V9N",
     tag: "ROK (BEST)",
     rating: 5
   },
@@ -507,8 +507,8 @@ const products = [
     category: "Shoes",
     price: "$102",
     image: "https://img.alicdn.com/bao/uploaded/i3/2073165527/O1CN01gjVVAR1qhPwO82u0k_!!2073165527.jpg",
-    linkKakobuy: "https://ikako.vip/2fn59",
-    linkUsfans: "https://usfans.com/product/2/742989586219?ref=TX9V9N",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D742989586219",
+    linkUsfans: "https://usfans.com/product/2/-ZWxKiXvSgD1qnKgDdTg-Du9nShVgutUi1cfbjxYg1nr1wbQttij9Q?ref=TX9V9N",
     tag: "ROK (BEST)",
     rating: 5
   },
@@ -5807,8 +5807,8 @@ const products = [
     category: "Shoes",
     price: "$79.11",
     image: "https://img.alicdn.com/bao/uploaded/i4/2073165527/O1CN01A4XoJT1qhPxIMyFEf_!!2073165527.jpg",
-    linkKakobuy: "",
-    linkUsfans: "https://usfans.com/product/2/J4r9uqkNrr2TwK1YkrIBU1dkA_PyeeES4F_spiQB2fNwDQwapGisTw?ref=TX9V9N",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D750496442528",
+    linkUsfans: "https://usfans.com/product/2/vp2VgGgOgLWu-MNzlWlK5QGRkN7Ssl-NAIuaLSVpcxlvFtR3EUR9aQ?ref=TX9V9N",
     tag: "ROK / BEST",
     rating: 4
   },
