@@ -11552,6 +11552,106 @@ const products = [
     tag: "",
     rating: 5
   },
+  {
+    name: "Ralph Lauren Knit",
+    category: "Hoodies",
+    price: "$19.13",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN010u85fM29V2BUWSkkb_!!2222475048072-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1052309933526.html",
+    linkUsfans: "https://usfans.com/product/1/1052309933526?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RALPH LAUREN HALF KNIT",
+    category: "Hoodies",
+    price: "$20.79",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01xPM9vi29V2BT62nMr_!!2222475048072-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1051343618100.html",
+    linkUsfans: "https://usfans.com/product/1/1051343618100?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RALPH LAUREN SHIRT",
+    category: "Tshirts",
+    price: "$19.63",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01Wq3CKw29V2BSjpPzP_!!2222475048072-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1052321437148.html",
+    linkUsfans: "https://usfans.com/product/1/1052321437148?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "BUDGET CHROME HEARTS JEANS",
+    category: "Pants",
+    price: "$22.46",
+    image: "https://si.geilicdn.com/wdseller1303790680-455300000182baaf68520a20e2c5_1284_1284.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7563971401",
+    linkUsfans: "https://usfans.com/product/3/7563971401?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "HOMIXIDE HOODIE",
+    category: "Hoodies",
+    price: "$27.94",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2212643669335/O1CN01DfXSor2IpUF162zGd_!!2212643669335.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D809413007423",
+    linkUsfans: "https://usfans.com/product/2/uNc5AJgnej8QRYh8RZp8YZgkNOi-AhaCpw87ppsrIyH93zpMg_cj7g?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "IG BRAND HOODIE #1",
+    category: "Hoodies",
+    price: "$16.44",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2218252751209/O1CN01ehR2kt1Knlxfhs8E6_!!2218252751209.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1014889186645",
+    linkUsfans: "https://usfans.com/product/2/OHYJ2sEMh8mLAo6JLBAZaT7NnRfRVpzMEV98HPaOdVwdnJGpQ7EpZio?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "fascination ends hoodie",
+    category: "Hoodies",
+    price: "$18.12",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2218252751209/O1CN01U6nyP61KnlrmwsGmi_!!2218252751209.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D866833955006",
+    linkUsfans: "https://usfans.com/product/2/EGVIPSt381vPjty3PDwAml6-zYL2fMAq47iH2wkg_SKPWeTQZMRzmA?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "IG BRAND HOODIE #2",
+    category: "Hoodies",
+    price: "$16.44",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2218252751209/O1CN01DWvZbu1KnlxTrdLBm_!!2218252751209.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1008430845677",
+    linkUsfans: "https://usfans.com/product/2/e5ChXaonYUr7a6BHHjNvdRLoXtUqVLT5lAwq7HU8KXvXPO_P9KQy14Q?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "SATOSHI NAKAMOTO LONGSLEEVE",
+    category: "Tshirts",
+    price: "$9.25",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2208782615098/O1CN01YID1Ec1nWwEYWS7wD_!!2208782615098.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D976015211553",
+    linkUsfans: "https://usfans.com/product/2/nfz4BZCiAULgCdNmAl40YxaPYDNHQcNqYi703gYRLjqCgUpJOkCfbA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "make america 2016 again hoodie",
+    category: "Hoodies",
+    price: "$16.47",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2208782615098/O1CN01X6N00l1nWwF9BfubH_!!2208782615098.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D989541717156",
+    linkUsfans: "https://usfans.com/product/2/2n9HFvAjHafp3nGZ_aN6DxdzGoaTHflW5jYhfUNtheuR09B-73BtLQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
