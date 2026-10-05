@@ -11652,6 +11652,106 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "rick owens vans (leather)",
+    category: "Shoes",
+    price: "$83",
+    image: "https://img.alicdn.com/bao/uploaded///img.alicdn.com/imgextra/i2/2073165527/O1CN01bES3bg1qhPwdzQXr6_!!2073165527.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D744570330907",
+    linkUsfans: "https://usfans.com/product/2/Ua71Gdw5IzrGZ_AH4G8IyUircEmByKKnFKY9VfLxUbMoU6hob7P0tA?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "RICK OWENS RAMONES HIGH",
+    category: "Shoes",
+    price: "$88",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2073165527/O1CN01485J8C1qhPwUphXp2_!!2073165527.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D743123887757",
+    linkUsfans: "https://usfans.com/product/2/heM6uOlkxV8zGyhyGCTZymUQ6XuUEJr-zuizQNIf4UiDE6Xqy3rCXQ?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "RICK OWENS JUMBO LACE",
+    category: "Shoes",
+    price: "$86.31",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2073165527/O1CN01JL2OQR1qhPwYGBH7M_!!2073165527.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D743011642576",
+    linkUsfans: "https://usfans.com/product/2/al84NpH_NVYlYRsBO_eaLY3tcCrrHqRUy_g4UVEMBpKBJvRwTwaQZQ?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "RICK OWENS RAMONES (leather)",
+    category: "Shoes",
+    price: "$83",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2073165527/O1CN01eUiyqN1qhQBVDtcG1_!!2073165527.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1033419326067",
+    linkUsfans: "https://usfans.com/product/2/tHLj9W3T3kBhQUcQ9NKLfLr2K4VaDOZZ8M6yukyAktGauqoCs7ixpX8?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "RICK OWENS HEXAGON",
+    category: "Shoes",
+    price: "$73.01",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2073165527/O1CN01mthpbK1qhQ9yaVoNj_!!2073165527.png",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D992971499327",
+    linkUsfans: "https://usfans.com/product/2/8vNVm7JWFHoqbFTLRgS0S5ZQgLwGPj_7Xgrdppem4rY6_YITXwUkhg?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ARTIEMASTER ZIP UP HOODIE",
+    category: "Hoodies",
+    price: "$15.30",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01YsHKKX1rFlqSGSJjb_!!2631375602-0-cib.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F948615042955.html",
+    linkUsfans: "https://usfans.com/product/1/948615042955?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
+  {
+    name: "junya watanabe frankenstein tee",
+    category: "Tshirts",
+    price: "$21.29",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2220863143615/O1CN01Sf8AF9E0f7HEPAJW_!!2220863143615.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1061604017205",
+    linkUsfans: "https://usfans.com/product/2/NodTwOQmJBjCT4Eia93p9MrcqrwUwx_NBWJV3lxeomrsFkQWfuJfbbQ?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
+  {
+    name: "UNDERCOVER SKOLOCT LONGSLEEVE",
+    category: "Tshirts",
+    price: "$31.27",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2220863143615/O1CN01vQykCH1cZivcSOCeY_!!2220863143615.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1061765635018",
+    linkUsfans: "https://usfans.com/product/2/LsccUUqkXH2teBaNDQPjmGQ12PbeDBk2syZW1PSfRcDxjwCqMIAd0pM?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
+  {
+    name: "nenet scarf",
+    category: "Belts",
+    price: "$4.98",
+    image: "https://img.alicdn.com/bao/uploaded/i2/63095227/TB2SQ.3oOMnBKNjSZFoXXbOSFXa_!!63095227.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D869262432351",
+    linkUsfans: "https://usfans.com/product/2/REcqjWScfLyB_YEladY1VMfWYsFDt-1qXkoxWbHBTUHvHhLb6C3D-Q?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
+  {
+    name: "RAF SIMONS POLTERGEIST HOODIE",
+    category: "Hoodies",
+    price: "$49.73",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01QxNpG2EB0gK2NHou_!!2025450085.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1080099673409",
+    linkUsfans: "https://usfans.com/product/2/PV9kC7nwL79VV4t1ByTSYKsQPEBRWM_4YTElNeAIJM4aglE-BKc2xLs?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
 ];
 
 // ============================================
