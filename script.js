@@ -11752,6 +11752,116 @@ const products = [
     tag: "",
     rating: 5
   },
+  {
+    name: "Idependent undercover tee",
+    category: "Tshirts",
+    price: "$16.47",
+    image: "https://img.alicdn.com/bao/uploaded/i2/1885602090/O1CN01Uz1n331RJGvEWmQti~crop,150,0,1350,1800~_!!1885602090.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1056629421834",
+    linkUsfans: "https://usfans.com/product/2/eTicQPfUxla1RNllo_rxy3dzOMr54vCwMWRe-q3P5Uu3-4oZQlQyzUA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "number nine 'extra heavy' tee",
+    category: "Tshirts",
+    price: "$24.62",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01ER3DLB1CUyocBrp6X~crop,0,267,1200,1200~_!!2025450085.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1065024488978",
+    linkUsfans: "https://usfans.com/product/2/Vdo-J76h0xRUGYKFj5JGSMXX-wIVP4KbZD7gOVrsP2ubGNbtri4Gel0?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "raf simons solemn x tee",
+    category: "Tshirts",
+    price: "$27.94",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01uD047F1CUyngNjT6w_!!2025450085.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1045403564544",
+    linkUsfans: "https://usfans.com/product/2/Mz0CxFRyEoxI_MMOk5GZmotHvaMsBuVhdrWWSOxCg5azTrNEmJ6rBfU?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "hba half face tee",
+    category: "Tshirts",
+    price: "$27.94",
+    image: "https://img.alicdn.com/bao/uploaded/i3/82460901/O1CN01cD8n0h1IWhz1fcBbE_!!82460901.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1030817607134",
+    linkUsfans: "https://usfans.com/product/2/YDP4vEMLZp9s5uhuhIUQvxEFEgY3HX8MxaHMALhHSJqfOvPilk1ACBY?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ugg x junya watanabe",
+    category: "Shoes",
+    price: "$99.62",
+    image: "https://si.geilicdn.com/weidianw2592845-3163000001a089b3111b0a230115_1674_1280.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7852296232",
+    linkUsfans: "https://usfans.com/product/3/7852296232?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "TIMBERLAND X CH",
+    category: "Shoes",
+    price: "$79.54 - $112.13",
+    image: "https://si.geilicdn.com/weidian901995075041-623600000199d77d73380a2304aa_1280_1280.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7571998884",
+    linkUsfans: "https://usfans.com/product/3/7571998884?ref=TX9V9N",
+    tag: "537REMAKE",
+    rating: 5
+  },
+  {
+    name: "STRIKE BOOTS (MVT)",
+    category: "Shoes",
+    price: "$182.77",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2222382431155/O1CN01kFfT4q1KP2ajkzjUJ_!!2222382431155.png",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1048429464127",
+    linkUsfans: "https://usfans.com/product/2/6sT4ibbQ-PvI9-3RcjKU-DehyJCccw8H7zxnKOsQT0H5UGNSVX0d2Uc?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "timberland veneda carter",
+    category: "Shoes",
+    price: "$81.33",
+    image: "https://si.geilicdn.com/wdseller1748043198-68d10000019b993dbc350a23111a_1280_1280.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7657440668",
+    linkUsfans: "https://usfans.com/product/3/7657440668?ref=TX9V9N",
+    tag: "537REMAKE",
+    rating: 5
+  },
+  {
+    name: "ANONYMOUS CLUB BOOTS",
+    category: "Shoes",
+    price: "$97.79",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2210299185015/O1CN01pQEIH71muvIrWufYg_!!2210299185015.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D888375912973",
+    linkUsfans: "https://usfans.com/product/2/LB6sGIHem6cIz1lh4aLt5USNffXubVuZ8lLWrQBBlUfbBXrB9DoLBQ?ref=TX9V9N",
+    tag: "VOGUE",
+    rating: 5
+  },
+  {
+    name: "AMIRI BANDANA BOOTS",
+    category: "Shoes",
+    price: "$61.20",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2516659220/O1CN01ZbScON2HyoYQpQptn_!!2516659220.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D711962132207",
+    linkUsfans: "https://usfans.com/product/2/2Sr0cGg7Wd44JUn4AvdaQbzjR4cZvIM8bipocwR0p3LBrMPrlaEijg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "amiri double zipper stack boots",
+    category: "Shoes",
+    price: "$62.03",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2214183518581/O1CN01fdwwKV2DG9jEz1XKo_!!2214183518581.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D974982959105",
+    linkUsfans: "https://usfans.com/product/2/AffdqM5iKno87CrcKU3bEyrYPs4xH9VzfNqUCc1NfPH9xrC4oSqEkA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
