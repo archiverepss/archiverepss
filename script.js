@@ -11862,6 +11862,116 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "RACER X NEWROCK boots",
+    category: "Shoes",
+    price: "$189.42",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2217802793950/O1CN01BSeDFxKXwHI68gFc_!!2217802793950.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1034873753837",
+    linkUsfans: "https://usfans.com/product/2/I6K3wQLcBP_A8vzAh4uUiMAhm7Lf3SinnOQrBcPsHdEbp1paaBVkcFU?ref=TX9V9N",
+    tag: "NIE",
+    rating: 5
+  },
+  {
+    name: "dior FW08 Mummy Boots",
+    category: "Shoes",
+    price: "$159.65",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2516659220/O1CN013www4B2Hyoertu4tj_!!2516659220.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D738039891395",
+    linkUsfans: "https://usfans.com/product/2/0-VsepTTsbQyrN5TFlfI_Z6N8kzKQvoZ7U0D2mp9475i0n5WbXPalw?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
+  {
+    name: "NEWROCK BOOTS",
+    category: "Shoes",
+    price: "$71.51",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01Py12OJ20yUxIJvYZ9_!!2215076446918-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F815245647438.html",
+    linkUsfans: "https://usfans.com/product/1/815245647438?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "rick owens megatooth boots",
+    category: "Shoes",
+    price: "$77.83",
+    image: "https://img.alicdn.com/bao/uploaded/i4/783814701/O1CN01IcL3ji1kb6vbIAOVe_!!783814701.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D870384077937",
+    linkUsfans: "https://usfans.com/product/2/7VRVl16vl5fwrGneOEb8Ld2M7BKKbUf9oj2pRGXdpyJOb07JZium3g?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
+  {
+    name: "rick owens megatooth #2",
+    category: "Shoes",
+    price: "$85.65",
+    image: "https://img.alicdn.com/bao/uploaded/i3/3161356379/O1CN01uHZJ9d1wzdWwjcfjv_!!3161356379.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D873289734150",
+    linkUsfans: "https://usfans.com/product/2/ejWPmwJXnbG12Qg9-O8unFXWOrxtfGLxYhUaGlAOQsps8kcf3fidDg?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
+  {
+    name: "margiela gats (white)",
+    category: "Shoes",
+    price: "$68.02",
+    image: "https://i.pinimg.com/564x/e3/b1/e8/e3b1e8049bfc9f3894fd4d2e26b7902f.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D1081083290058",
+    linkUsfans: "https://usfans.com/product/2/0wSsNVZRU1ga7R7zUfohAVurBAV4-W2KjRgDo5UuWKAmsH_S4j2tJWs?ref=TX9V9N",
+    tag: "BEST / MVT",
+    rating: 5
+  },
+  {
+    name: "margiela gats (black)",
+    category: "Shoes",
+    price: "$68.02",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2223054845092/O1CN014BD6aiSkmjG2eHNi_!!2223054845092.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1083187792507",
+    linkUsfans: "https://usfans.com/product/2/shQFRb-OQijWvNZRM8W7hTgcpWBl3FNCzhsPmo4ahGg6TNYu3PqQSFU?ref=TX9V9N",
+    tag: "BEST / MVT",
+    rating: 5
+  },
+  {
+    name: "margiela gats (full black)",
+    category: "Shoes",
+    price: "$68.02",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2223054845092/O1CN01qJIUkUOWLjB1nX8G_!!2223054845092.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1082167341399",
+    linkUsfans: "https://usfans.com/product/2/zHMQ7V1eUide67YiFkCCOkPU4JlRji2Mx58CogADPdiMOq4W58V025I?ref=TX9V9N",
+    tag: "BEST / MVT",
+    rating: 5
+  },
+  {
+    name: "nike blazer off white",
+    category: "Shoes",
+    price: "$64.86",
+    image: "https://si.geilicdn.com/open1733523732-1234478995-5c9800000193b35545fe0a8115b5_960_961.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7780529395",
+    linkUsfans: "https://usfans.com/product/3/7780529395?ref=TX9V9N",
+    tag: "WWTOP",
+    rating: 5
+  },
+  {
+    name: "peaceinwar haunted house jeans",
+    category: "Pants",
+    price: "$36.42",
+    image: "https://si.geilicdn.com/wdseller1995625455-3031000001a094a5872e0a23b54f_4284_4287.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7850292615",
+    linkUsfans: "https://usfans.com/product/3/7850292615?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "arcteryx beanie (budget)",
+    category: "Belts",
+    price: "$2.42",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01LTBFSG1h56TUw7aoL_!!2220907014225-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F985509354919.html",
+    linkUsfans: "https://usfans.com/product/1/985509354919?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
 ];
 
 // ============================================
