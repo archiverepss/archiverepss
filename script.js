@@ -11972,6 +11972,116 @@ const products = [
     tag: "BUDGET",
     rating: 5
   },
+  {
+    name: "Dior Homme 03ss Follow Me Clawmarks",
+    category: "Pants",
+    price: "$66.48",
+    image: "https://media.usfans.com/upload/ori/2026/09/24/151943/4465c6da-68d6-4949-bdfe-28dae4cc31c9.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fe.tb.cn%2Fh.7ve1EpScs51kAz2%3Ftk%3DvmSmUlGujq8",
+    linkUsfans: "https://usfans.com/product/2/CAEfM9TtRBVLa4_Yyh53dt41pvsNc9CMZYSKFQUXIjZABpMh8uf_OqE?ref=TX9V9N",
+    tag: "DINI",
+    rating: 5
+  },
+  {
+    name: "ihatestars hoodie",
+    category: "Hoodies",
+    price: "$13.17",
+    image: "https://si.geilicdn.com/wdseller1995625455-0bd90000019e15ebf1190a210247_3025_3026.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7763208968",
+    linkUsfans: "https://usfans.com/product/3/7763208968?ref=TX9V9N",
+    tag: "BEST / ALIEN",
+    rating: 5
+  },
+  {
+    name: "peaceinwar canada tee",
+    category: "Tshirts",
+    price: "$13.17",
+    image: "https://si.geilicdn.com/wdseller1995625455-1e2f000001a095bef4330a240147_4284_4287.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7850400253",
+    linkUsfans: "https://usfans.com/product/3/7850400253?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA BOXERS",
+    category: "Underwear",
+    price: "$6.49",
+    image: "https://si.geilicdn.com/wdseller1553898455-412000000189e9f5c3d70a20e35c_1284_1257.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6542818689",
+    linkUsfans: "https://usfans.com/product/3/6542818689?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
+  {
+    name: "OPIUM YVL BOXERS",
+    category: "Underwear",
+    price: "$4.99",
+    image: "https://img.alicdn.com/bao/uploaded/i1/909482473/O1CN01iKLjf21U8gWmJTHGk_!!909482473.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D925823613689",
+    linkUsfans: "https://usfans.com/product/2/pNIpYocnzsLpX7TLIXLhF0V5I4bgcSrCBwratifaoGSLBamDhkMsPw?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
+  {
+    name: "CH SOCKS",
+    category: "Underwear",
+    price: "$1.82",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01u4Es3w24ucB3BdZHZ_!!2220566547451-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F978838664623.html",
+    linkUsfans: "https://usfans.com/product/1/978838664623?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "exp5 gradient hoodie",
+    category: "Hoodies",
+    price: "$42.99",
+    image: "https://si.geilicdn.com/wdseller2018810290-21050000019f0e3cbbdc0a2304a0_1320_1760.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7796633011",
+    linkUsfans: "https://usfans.com/product/3/7796633011?ref=TX9V9N",
+    tag: "GODFATHER",
+    rating: 5
+  },
+  {
+    name: "ym diamond black jeans",
+    category: "Pants",
+    price: "$46.49",
+    image: "https://si.geilicdn.com/wdseller2018810290-09190000019f4a6c2e2d0a23c1e0_1320_1760.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7807382794",
+    linkUsfans: "https://usfans.com/product/3/7807382794?ref=TX9V9N",
+    tag: "GODFATHER",
+    rating: 5
+  },
+  {
+    name: "EXP5 George Jacket-Plaid",
+    category: "Jackets",
+    price: "$48.15",
+    image: "https://si.geilicdn.com/wdseller2018810290-122a0000019ef9ba780e0a210247_1320_1760.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7794579401",
+    linkUsfans: "https://usfans.com/product/3/7794579401?ref=TX9V9N",
+    tag: "GODFATHER",
+    rating: 5
+  },
+  {
+    name: "exp5 multicolor hoodie",
+    category: "Hoodies",
+    price: "$39.66",
+    image: "https://si.geilicdn.com/wdseller2018810290-4dd10000019fe1ee1f920a23b6ac_1320_1760.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7821433913",
+    linkUsfans: "https://usfans.com/product/3/7821433913?ref=TX9V9N",
+    tag: "GODFATHER",
+    rating: 5
+  },
+  {
+    name: "EXP5 WASHED TEE",
+    category: "Tshirts",
+    price: "$18.16",
+    image: "https://si.geilicdn.com/wdseller2018810290-11400000019e49d12dc90a22d58f_1320_1760.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7772405728",
+    linkUsfans: "https://usfans.com/product/3/7772405728?ref=TX9V9N",
+    tag: "GODFATHER",
+    rating: 5
+  },
 ];
 
 // ============================================
