@@ -12082,6 +12082,46 @@ const products = [
     tag: "GODFATHER",
     rating: 5
   },
+  {
+    name: "stone island hoodies",
+    category: "Hoodies",
+    price: "$29.99",
+    image: "https://si.geilicdn.com/pcitem1329468934-395d0000019961e360730a210256_2560_1920.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7630848358",
+    linkUsfans: "https://usfans.com/product/3/7630848358?ref=TX9V9N",
+    tag: "DREAMREMAKE",
+    rating: 5
+  },
+  {
+    name: "stone island sweaters",
+    category: "Hoodies",
+    price: "$36.66",
+    image: "https://si.geilicdn.com/pcitem1329468934-0f5a0000019856021efe0a23057e-unadjust_962_764.png",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7627770471&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7627770471?ref=TX9V9N",
+    tag: "DREAMREMAKE",
+    rating: 5
+  },
+  {
+    name: "stone island fleece hoodies",
+    category: "Hoodies",
+    price: "$36.66",
+    image: "https://si.geilicdn.com/pcitem1329468934-31b50000019a5cd1a6b90a23038e_2560_2560.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7630909656&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7630909656?ref=TX9V9N",
+    tag: "DREAMREMAKE",
+    rating: 5
+  },
+  {
+    name: "stone island soft shell jacket",
+    category: "Jackets",
+    price: "$43.32",
+    image: "https://media.usfans.com/upload/ori/2026/10/09/102247/3197cf1e-2f17-421a-85d6-9de4801e5e4f.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785789292&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7785789292?ref=TX9V9N",
+    tag: "DREAMREMAKE",
+    rating: 5
+  },
 ];
 
 // ============================================
