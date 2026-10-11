@@ -14843,3 +14843,87 @@ document.addEventListener('DOMContentLoaded', function () {
 
   console.log('ArchiveReps loaded — HOME view active.');
 });
+
+/* ============================================================
+   ============  MOBILE HAMBURGER MENU LOGIC  ================
+   ============================================================ */
+(function() {
+  'use strict';
+
+  function initMobileMenu() {
+    const hamburger = document.getElementById('hamburgerBtn');
+    const menu = document.getElementById('mobileMenu');
+    const overlay = document.getElementById('mobileMenuOverlay');
+    const closeBtn = document.getElementById('mobileMenuClose');
+    const links = document.querySelectorAll('.mobile-menu-link');
+
+    if (!hamburger || !menu || !overlay) return;
+
+    function openMenu() {
+      menu.classList.add('active');
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMenu() {
+      menu.classList.remove('active');
+      overlay.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    hamburger.addEventListener('click', openMenu);
+    overlay.addEventListener('click', closeMenu);
+    if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+
+    links.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const view = link.dataset.view;
+
+        links.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+
+        closeMenu();
+
+        if (typeof window.switchView === 'function') {
+          window.switchView(view);
+        }
+
+        const desktopMap = {
+          home: 'navHome',
+          products: 'navSpreadsheet',
+          lastfinds: 'navLastFinds',
+          promo: 'navPromo',
+          outfits: 'navOutfits',
+          tools: 'navTools',
+          sellers: 'navSellers',
+          qcsearch: 'navQCSearch'
+        };
+        const desktopId = desktopMap[view];
+        if (desktopId) {
+          document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+          const el = document.getElementById(desktopId);
+          if (el) el.classList.add('active');
+        }
+      });
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && menu.classList.contains('active')) {
+        closeMenu();
+      }
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 900 && menu.classList.contains('active')) {
+        closeMenu();
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initMobileMenu);
+  } else {
+    initMobileMenu();
+  }
+})();

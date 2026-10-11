@@ -57,7 +57,6 @@
     button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
     img{display:block;max-width:100%}
     svg{display:block}
-
     .navbar{
       position:fixed;top:12px;left:50%;transform:translateX(-50%);
       width:calc(100% - 32px);max-width:1400px;height:64px;z-index:1000;
@@ -100,45 +99,125 @@
       border-radius:10px;padding:8px 12px 8px 34px;color:#f5f5f7;
       font-size:12.5px;font-family:inherit;outline:none;transition:all .22s ease;
     }
-
-    /* ============ MOBILE NAVBAR CRITICAL ============ */
-    @media (max-width: 900px) {
-      body { padding-top: 140px; }
-      body.no-banner { padding-top: 96px; }
-      .navbar { height: auto; min-height: 64px; }
-      .nav-container { padding: 10px 14px; gap: 10px; flex-wrap: nowrap; }
-      .nav-links {
-        overflow-x: auto; overflow-y: hidden; flex-wrap: nowrap;
-        justify-content: flex-start; gap: 4px; padding: 4px 2px; margin: 0 4px;
-        scrollbar-width: none; -ms-overflow-style: none; -webkit-overflow-scrolling: touch;
-      }
-      .nav-links::-webkit-scrollbar { display: none; }
-      .nav-link { padding: 8px 12px !important; font-size: 12.5px !important; flex-shrink: 0; border-radius: 999px; background: rgba(255,255,255,.03); }
-      .nav-link.active { background: linear-gradient(135deg, rgba(124,92,255,.35), rgba(74,212,255,.15)); border-color: rgba(124,92,255,.5); }
-      .nav-search-inline { display: none !important; }
+    .hamburger-btn{
+      display:none;width:40px;height:40px;
+      background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);
+      border-radius:10px;color:#ffffff;cursor:pointer;
+      align-items:center;justify-content:center;flex-shrink:0;
+      transition:all .2s ease;padding:0;
     }
-    @media (max-width: 640px) {
-      body { padding-top: 175px; }
-      body.no-banner { padding-top: 130px; }
-      .navbar { top: 8px; width: calc(100% - 16px); height: auto; min-height: 60px; border-radius: 16px; }
-      .nav-container { height: auto; min-height: 60px; padding: 8px 12px; gap: 8px; flex-wrap: wrap; }
-      .nav-left { width: 100%; justify-content: space-between; flex-shrink: 0; }
-      .brand-logo { font-size: 15px; }
-      .nav-links {
-        width: 100%; margin: 0; padding: 8px 0 2px;
-        justify-content: flex-start;
-        border-top: 1px solid rgba(255,255,255,.05);
-        order: 3;
+    .hamburger-btn:active{background:rgba(124,92,255,.25);transform:scale(.95)}
+    .hamburger-btn svg{width:20px;height:20px;stroke:currentColor;stroke-width:2.2;fill:none;stroke-linecap:round}
+    .mobile-menu-overlay{
+      position:fixed;inset:0;background:rgba(0,0,0,.7);
+      backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+      z-index:2000;opacity:0;pointer-events:none;transition:opacity .25s ease;
+    }
+    .mobile-menu-overlay.active{opacity:1;pointer-events:auto}
+    .mobile-menu{
+      position:fixed;top:0;right:0;bottom:0;width:min(320px,85vw);
+      background:linear-gradient(180deg,#0a0c1e 0%,#0f1225 100%);
+      border-left:1px solid rgba(255,255,255,.08);z-index:2001;
+      transform:translateX(100%);transition:transform .3s cubic-bezier(.22,1,.36,1);
+      display:flex;flex-direction:column;overflow-y:auto;
+      overscroll-behavior:contain;padding:24px 20px;
+    }
+    .mobile-menu.active{transform:translateX(0)}
+    .mobile-menu-header{
+      display:flex;align-items:center;justify-content:space-between;
+      margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid rgba(255,255,255,.06);
+    }
+    .mobile-menu-brand{display:flex;align-items:center;gap:8px;font-size:18px;font-weight:800;letter-spacing:-.5px}
+    .mobile-menu-close{
+      width:38px;height:38px;background:rgba(255,255,255,.05);
+      border:1px solid rgba(255,255,255,.08);border-radius:10px;color:#ffffff;
+      cursor:pointer;display:flex;align-items:center;justify-content:center;
+      font-size:20px;font-weight:300;transition:all .2s ease;padding:0;
+    }
+    .mobile-menu-close:active{background:rgba(255,255,255,.1);transform:rotate(90deg)}
+    .mobile-menu-links{display:flex;flex-direction:column;gap:4px;flex:1}
+    .mobile-menu-link{
+      display:flex;align-items:center;gap:14px;padding:14px 16px;
+      background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.04);
+      border-radius:12px;color:#b8bcd0;font-size:15px;font-weight:600;
+      font-family:inherit;cursor:pointer;text-decoration:none;
+      transition:all .18s ease;-webkit-tap-highlight-color:transparent;
+    }
+    .mobile-menu-link:active{
+      background:rgba(124,92,255,.15);border-color:rgba(124,92,255,.4);
+      color:#ffffff;transform:scale(.98);
+    }
+    .mobile-menu-link.active{
+      background:linear-gradient(135deg,rgba(124,92,255,.2),rgba(74,212,255,.1));
+      border-color:rgba(124,92,255,.45);color:#ffffff;
+    }
+    .mobile-menu-link-icon{
+      width:36px;height:36px;display:flex;align-items:center;justify-content:center;
+      background:rgba(124,92,255,.12);border:1px solid rgba(124,92,255,.2);
+      border-radius:10px;flex-shrink:0;color:#a78bfa;
+    }
+    .mobile-menu-link.active .mobile-menu-link-icon{
+      background:rgba(124,92,255,.3);border-color:rgba(124,92,255,.5);color:#ffffff;
+    }
+    .mobile-menu-link-icon svg{
+      width:18px;height:18px;stroke:currentColor;fill:none;
+      stroke-width:2;stroke-linecap:round;stroke-linejoin:round;
+    }
+    .mobile-menu-link-text{flex:1;text-align:left}
+    .mobile-menu-link-arrow{color:#565a72;font-size:16px;font-weight:300;transition:transform .2s ease}
+    .mobile-menu-link:active .mobile-menu-link-arrow{transform:translateX(3px);color:#a78bfa}
+    .mobile-menu-footer{
+      margin-top:20px;padding-top:20px;
+      border-top:1px solid rgba(255,255,255,.06);
+      display:flex;flex-direction:column;gap:10px;
+    }
+    .mobile-menu-agent-btn{
+      display:flex;align-items:center;justify-content:center;gap:8px;
+      padding:14px 18px;background:#ffffff;color:#0a0a0f;
+      font-size:13.5px;font-weight:800;border-radius:12px;
+      text-decoration:none;transition:all .2s ease;
+      -webkit-tap-highlight-color:transparent;
+    }
+    .mobile-menu-agent-btn:active{transform:scale(.97);box-shadow:0 12px 28px rgba(255,255,255,.15)}
+    @media (max-width: 900px) {
+      .nav-links { display: none !important; }
+      .nav-search-inline { display: none !important; }
+      .hamburger-btn { display: flex; }
+      .brand-logo { font-size: 16px !important; }
+      body { padding-top: 90px !important; }
+      body.no-banner { padding-top: 46px !important; }
+      .navbar {
+        top: 8px !important; width: calc(100% - 16px) !important;
+        height: 58px !important; min-height: 58px !important;
+        border-radius: 16px !important;
       }
-      .nav-right-icons { order: 2; gap: 6px; flex-shrink: 0; }
-      .nav-link { padding: 7px 12px !important; font-size: 12px !important; }
-      .icon-btn, .icon-btn-lang { width: 32px; height: 32px; font-size: 12px; }
+      .nav-container {
+        height: 58px !important; min-height: 58px !important;
+        padding: 0 14px !important; gap: 10px !important;
+        flex-wrap: nowrap !important;
+      }
+      .nav-left { width: auto !important; flex: 1 !important; }
+      .nav-right-icons { order: 0 !important; gap: 8px !important; }
+      /* UKRYJ ikony lupy i QC na kartach */
+      .product-card .zoom-icon,
+      .product-card .qc-icon,
+      .featured-card .zoom-icon,
+      .featured-card .qc-icon,
+      .slider-item .zoom-icon,
+      .slider-item .qc-icon {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
     }
     @media (max-width: 400px) {
-      .nav-link { padding: 6px 10px !important; font-size: 11px !important; }
+      .hamburger-btn { width: 36px; height: 36px; }
+      .icon-btn, .icon-btn-lang {
+        width: 32px !important; height: 32px !important; font-size: 11px !important;
+      }
+      .brand-logo { font-size: 15px !important; }
     }
-    /* ============ END MOBILE NAVBAR ============ */
-
     .promo-banner{position:relative;z-index:1001;width:calc(100% - 32px);max-width:1400px;margin:12px auto 0}
     .promo-banner.hidden{display:none}
     .promo-banner-inner{
@@ -270,6 +349,13 @@
       <a href="#" class="nav-link" id="navSellers"><span>Sprzedawcy</span></a>
       <a href="#" class="nav-link" id="navQCSearch"><span>Sprawdź QC</span></a>
     </div>
+    <button class="hamburger-btn" id="hamburgerBtn" aria-label="Otwórz menu">
+      <svg viewBox="0 0 24 24">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
     <div class="nav-right-icons">
       <div class="nav-search-inline">
         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -940,6 +1026,97 @@
     </div>
   </div>
 </div>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+<aside class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-header">
+    <div class="mobile-menu-brand">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 20L12 4L21 20H3Z" stroke="#7c5cff" stroke-width="2.5" stroke-linejoin="round"/>
+        <circle cx="12" cy="16" r="1.5" fill="#4ad4ff"/>
+      </svg>
+      <span class="logo-archive">archive</span><span class="logo-repss">reps</span>
+    </div>
+    <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Zamknij menu">×</button>
+  </div>
+
+  <div class="mobile-menu-links">
+    <a href="#" class="mobile-menu-link active" data-view="home">
+      <span class="mobile-menu-link-icon">
+        <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </span>
+      <span class="mobile-menu-link-text">Strona główna</span>
+      <span class="mobile-menu-link-arrow">›</span>
+    </a>
+
+    <a href="#" class="mobile-menu-link" data-view="products">
+      <span class="mobile-menu-link-icon">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+      </span>
+      <span class="mobile-menu-link-text">Produkty</span>
+      <span class="mobile-menu-link-arrow">›</span>
+    </a>
+
+    <a href="#" class="mobile-menu-link" data-view="lastfinds">
+      <span class="mobile-menu-link-icon">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      </span>
+      <span class="mobile-menu-link-text">Last Finds</span>
+      <span class="mobile-menu-link-arrow">›</span>
+    </a>
+
+    <a href="#" class="mobile-menu-link" data-view="promo">
+      <span class="mobile-menu-link-icon">
+        <svg viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+      </span>
+      <span class="mobile-menu-link-text">Promocje</span>
+      <span class="mobile-menu-link-arrow">›</span>
+    </a>
+
+    <a href="#" class="mobile-menu-link" data-view="outfits">
+      <span class="mobile-menu-link-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      </span>
+      <span class="mobile-menu-link-text">Outfity</span>
+      <span class="mobile-menu-link-arrow">›</span>
+    </a>
+
+    <a href="#" class="mobile-menu-link" data-view="tools">
+      <span class="mobile-menu-link-icon">
+        <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+      </span>
+      <span class="mobile-menu-link-text">Narzędzia</span>
+      <span class="mobile-menu-link-arrow">›</span>
+    </a>
+
+    <a href="#" class="mobile-menu-link" data-view="sellers">
+      <span class="mobile-menu-link-icon">
+        <svg viewBox="0 0 24 24"><path d="M3 9l1-5h16l1 5M3 9v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9M3 9h18"/><path d="M9 22V12h6v10"/></svg>
+      </span>
+      <span class="mobile-menu-link-text">Sprzedawcy</span>
+      <span class="mobile-menu-link-arrow">›</span>
+    </a>
+
+    <a href="#" class="mobile-menu-link" data-view="qcsearch">
+      <span class="mobile-menu-link-icon">
+        <svg viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+      </span>
+      <span class="mobile-menu-link-text">Sprawdź QC</span>
+      <span class="mobile-menu-link-arrow">›</span>
+    </a>
+  </div>
+
+  <div class="mobile-menu-footer">
+    <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="mobile-menu-agent-btn">
+      <span>Wypróbuj USFans</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="7" y1="17" x2="17" y2="7"/>
+        <polyline points="7 7 17 7 17 17"/>
+      </svg>
+    </a>
+  </div>
+</aside>
 
 <script src="script.js" defer></script>
 
