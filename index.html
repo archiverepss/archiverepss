@@ -5,11 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
   <title>ArchiveReps - Spreadsheet</title>
-  <meta name="description" content="Najlepszy spreadsheet w Polsce. Sprawdź najlepsze batche, Codziennie nowe produkty!">
+  <meta name="description" content="Najlepszy spreadsheet w Polsce. Sprawdź najlepsze batche, codziennie nowe produkty!">
   <meta name="keywords" content="archivereps.pl, archivereps, spreadsheet">
   <meta name="robots" content="index, follow">
 
-  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://archivereps.pl">
   <meta property="og:title" content="ArchiveReps - Spreadsheet">
@@ -21,7 +20,6 @@
   <link rel="icon" href="https://archivereps.pl/favicon.png" type="image/png" sizes="144x144">
   <link rel="apple-touch-icon" href="https://archivereps.pl/favicon.png">
 
-  <!-- ⚡ PRECONNECT / DNS-PREFETCH -->
   <link rel="preconnect" href="https://si.geilicdn.com" crossorigin>
   <link rel="preconnect" href="https://img.alicdn.com" crossorigin>
   <link rel="preconnect" href="https://media.usfans.com" crossorigin>
@@ -31,9 +29,7 @@
   <link rel="dns-prefetch" href="https://gc.zgo.at">
   <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
-  <!-- ⚡ CRITICAL CSS — PEŁNY ABOVE-THE-FOLD (naprawia FOUC) -->
   <style>
-    /* === CRITICAL PATH ONLY === */
     *{margin:0;padding:0;box-sizing:border-box}
     :root{
       --bg:#050816;--text:#f5f5f7;--text-muted:#8b8fa8;--text-dim:#565a72;
@@ -48,25 +44,19 @@
       overflow-x:hidden;-webkit-font-smoothing:antialiased;
       -moz-osx-font-smoothing:grayscale;
       padding-top:132px;min-height:100vh;
-      /* 🔥 Ukryj body zanim pełny CSS się załaduje */
       opacity:0;
       transition:opacity .15s ease-out;
     }
-    /* 🔥 Pokaż gdy aplikacja gotowa */
     body.app-ready{opacity:1}
-    /* 🔥 Fallback: jeśli JS padnie, pokaż po 800ms */
     body::after{
       content:"";position:fixed;inset:0;background:var(--bg);
       z-index:-1;pointer-events:none;
     }
-
     main,nav,footer{position:relative;z-index:1}
     a{color:inherit;text-decoration:none}
     button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
     img{display:block;max-width:100%}
     svg{display:block}
-
-    /* === NAVBAR === */
     .navbar{
       position:fixed;top:12px;left:50%;transform:translateX(-50%);
       width:calc(100% - 32px);max-width:1400px;height:64px;z-index:1000;
@@ -77,16 +67,9 @@
     }
     .nav-container{height:100%;padding:0 16px;display:flex;align-items:center;gap:14px;width:100%}
     .nav-left{display:flex;align-items:center;gap:14px;flex-shrink:0}
-    .brand-logo{display:flex;align-items:center;gap:1px;font-size:18px;font-weight:800;letter-spacing:-.4px;cursor:pointer}
+    .brand-logo{display:flex;align-items:center;gap:6px;font-size:17px;font-weight:800;letter-spacing:-.5px;cursor:pointer}
     .logo-archive{color:#fff}
     .logo-repss{background:linear-gradient(90deg,#7c5cff,#4ad4ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-    .nav-search-box{position:relative;display:flex;align-items:center;max-width:240px}
-    .nav-search-box input{
-      width:100%;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);
-      border-radius:10px;padding:8px 12px 8px 34px;color:#f5f5f7;
-      font-size:12.5px;font-family:inherit;outline:none;transition:all .22s ease;
-    }
-    .nav-search-box .search-icon{position:absolute;left:11px;width:14px;height:14px;color:#565a72;pointer-events:none}
     .nav-links{display:flex;align-items:center;gap:2px;flex:1;justify-content:center}
     .nav-link{
       color:#8b8fa8;font-size:12.5px;font-weight:500;padding:8px 12px;
@@ -95,17 +78,27 @@
     }
     .nav-link.active{
       color:#fff;
-      background:linear-gradient(135deg,rgba(124,92,255,.2),rgba(74,212,255,.08));
+      background:linear-gradient(135deg,rgba(124,92,255,.18),rgba(74,212,255,.06));
       border-color:rgba(124,92,255,.35);
     }
-    .nav-right-icons{display:flex;align-items:center;gap:6px;flex-shrink:0}
+    .nav-right-icons{display:flex;align-items:center;gap:8px;flex-shrink:0}
     .icon-btn{
       width:34px;height:34px;display:flex;align-items:center;justify-content:center;
       background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);
       border-radius:10px;color:#8b8fa8;font-size:13px;font-weight:600;
     }
-
-    /* === PROMO BANNER === */
+    .icon-btn-lang{
+      width:38px;height:34px;display:flex;align-items:center;justify-content:center;
+      background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);
+      border-radius:10px;color:#f5f5f7;font-size:11.5px;font-weight:700;letter-spacing:.5px;
+    }
+    .nav-search-inline{position:relative;display:flex;align-items:center;width:220px}
+    .nav-search-inline .search-icon{position:absolute;left:12px;width:14px;height:14px;color:#565a72;pointer-events:none}
+    .nav-search-inline input{
+      width:100%;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);
+      border-radius:10px;padding:8px 12px 8px 34px;color:#f5f5f7;
+      font-size:12.5px;font-family:inherit;outline:none;transition:all .22s ease;
+    }
     .promo-banner{position:relative;z-index:1001;width:calc(100% - 32px);max-width:1400px;margin:12px auto 0}
     .promo-banner.hidden{display:none}
     .promo-banner-inner{
@@ -135,28 +128,10 @@
     .promo-banner-close{
       width:28px;height:28px;display:flex;align-items:center;justify-content:center;
       background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);
-      border-radius:8px;color:#565a72;cursor:pointer;
+      border-radius:8px;color:#565a72;
     }
     body.no-banner{padding-top:84px}
-
-    /* === HERO === */
     .main-content{max-width:1400px;margin:0 auto;padding:40px 24px 60px;position:relative}
-    .hero-section{text-align:center;margin-bottom:48px;padding:20px 0}
-    .hero-icon{
-      display:inline-flex;align-items:center;justify-content:center;
-      margin-bottom:16px;width:70px;height:70px;border-radius:20px;
-      background:linear-gradient(135deg,rgba(124,92,255,.15),rgba(74,212,255,.08));
-      border:1px solid rgba(124,92,255,.25);color:var(--accent-2);
-    }
-    .hero-icon svg{width:40px;height:40px}
-    .hero-section h1{
-      font-size:48px;font-weight:800;letter-spacing:-1.5px;margin-bottom:8px;
-      background:linear-gradient(180deg,#fff 0%,#a1a1aa 100%);
-      -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-    }
-    .hero-section p{font-size:16px;color:var(--text-muted)}
-
-    /* === FILTRY === */
     .filter-controls-section{margin-bottom:32px}
     .search-filter-wrapper{display:flex;gap:12px;margin-bottom:16px}
     .product-search-input{position:relative;flex:1;display:flex;align-items:center}
@@ -184,41 +159,25 @@
       background:linear-gradient(135deg,var(--accent),#a78bfa);
       color:#fff;border-color:transparent;
     }
-
-    /* === SKELETON PRODUKTÓW === */
     .products-grid{
       display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px;
     }
-    .skeleton-card{
-      aspect-ratio:4/3;border-radius:20px;
-      background:linear-gradient(90deg,rgba(255,255,255,.03) 0%,rgba(255,255,255,.07) 50%,rgba(255,255,255,.03) 100%);
-      background-size:200% 100%;animation:skeleton-shimmer 1.5s ease-in-out infinite;
-      contain:layout style paint;
-    }
-    @keyframes skeleton-shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
-
-    /* === FALLBACK jeśli JS padnie === */
     html.no-js body{opacity:1 !important}
   </style>
 
-  <!-- 🔥 Fallback: dodaj klasę no-js jeśli JS wyłączony -->
   <noscript><style>body{opacity:1 !important}</style></noscript>
 
-  <!-- ⚡ CSS synchroniczny (zamiast async) — naprawia FOUC -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- ⚡ Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"></noscript>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap"></noscript>
 
-  <!-- Analytics -->
   <script data-goatcounter="https://archiverepss.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 
-<!-- BANNER PROMO -->
 <div class="promo-banner" id="promoBanner">
   <div class="promo-banner-inner">
     <div class="promo-banner-left">
@@ -254,47 +213,197 @@
   <div class="nav-container">
     <div class="nav-left">
       <div class="brand-logo" id="logoText">
-        <span class="logo-archive">Archive</span><span class="logo-repss">Repss</span>
-      </div>
-      <div class="nav-search-box">
-        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        <svg class="logo-mark" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 20L12 4L21 20H3Z" stroke="#7c5cff" stroke-width="2.5" stroke-linejoin="round"/>
+          <circle cx="12" cy="16" r="1.5" fill="#4ad4ff"/>
         </svg>
-        <input type="text" id="globalSearch" placeholder="Szukaj..." oninput="handleSearch()" />
+        <span class="logo-archive">archive</span><span class="logo-repss">reps</span>
       </div>
     </div>
     <div class="nav-links">
-      <a href="#" class="nav-link active" id="navSpreadsheet"><span>Spreadsheet</span></a>
+      <a href="#" class="nav-link active" id="navHome"><span>Strona główna</span></a>
+      <a href="#" class="nav-link" id="navSpreadsheet"><span>Produkty</span></a>
       <a href="#" class="nav-link" id="navLastFinds"><span>Last Finds</span></a>
-      <a href="#" class="nav-link" id="navPromo"><span>Promo Finds</span></a>
+      <a href="#" class="nav-link" id="navPromo"><span>Promocje</span></a>
       <a href="#" class="nav-link" id="navOutfits"><span>Outfity</span></a>
       <a href="#" class="nav-link" id="navTools"><span>Narzędzia</span></a>
       <a href="#" class="nav-link" id="navSellers"><span>Sprzedawcy</span></a>
       <a href="#" class="nav-link" id="navQCSearch"><span>Sprawdź QC</span></a>
-      <a href="#" class="nav-link" id="changeAgentBtn"><span>Zmiana agenta</span></a>
     </div>
     <div class="nav-right-icons">
-      <button class="icon-btn" id="changeLangBtn" title="Zmień język">PL</button>
-      <button class="icon-btn" title="Ulubione">♥</button>
-      <button class="icon-btn" title="Ustawienia">⚙</button>
+      <div class="nav-search-inline">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input type="text" id="globalSearch" placeholder="Szukaj findów" oninput="handleSearch()" />
+      </div>
+      <button class="icon-btn-lang" id="changeLangBtn" title="Zmień język"><span>PL</span></button>
+      <button class="icon-btn" title="Ulubione">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+        </svg>
+      </button>
+      <button class="icon-btn" id="changeAgentBtn" title="Zmień agenta">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 3v18h18"/>
+          <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
 
+<div class="agent-banner" id="agentBanner">
+  <div class="agent-banner-inner">
+    <div class="agent-banner-left">
+      <div class="agent-banner-logo">
+        <img src="https://swagworld.eu/assets/usfans-DTQr6n0M.webp" alt="USFans" loading="eager">
+      </div>
+      <div class="agent-banner-text">
+        <div class="agent-banner-title" id="agentBannerTitle">USFans — Twój agent zakupowy</div>
+        <div class="agent-banner-sub" id="agentBannerSub">Twoje findy. Jeden adres.</div>
+      </div>
+    </div>
+    <div class="agent-banner-right">
+      <span class="agent-banner-partner">PARTNER / ARCHIVEREPSS</span>
+      <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="agent-banner-btn" id="agentBannerBtn">
+        <span id="agentBannerBtnText">Wypróbuj USFans</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"/>
+          <polyline points="7 7 17 7 17 17"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
 <main class="main-content">
 
-  <header class="hero-section">
-    <div class="hero-icon">
-      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M8 13h8"/><path d="M8 17h8"/><path d="M8 9h2"/>
-      </svg>
-    </div>
-    <h1 id="heroTitle">Spreadsheet</h1>
-    <p id="heroSubtitle">Przeglądaj naszą kolekcję najlepszych linków.</p>
-  </header>
+  <div id="homeView">
+    <section class="home-hero">
+      <div class="home-hero-grid">
+        <div class="home-hero-left">
+          <div class="home-eyebrow">
+            <span class="home-eyebrow-line"></span>
+            <span>ARCHIVEREPSS / FIND YOUR NEXT</span>
+          </div>
+          <h1 class="home-title">
+            Dobry styl.<br>
+            Jeszcze lepsze<br>
+            <span class="home-title-accent">findy.</span>
+          </h1>
+          <p class="home-subtitle">
+            Wybrane produkty, najlepsze batche i linki.<br>
+            Wszystko, czego szukasz — w jednym miejscu.
+          </p>
 
-  <!-- PRODUCTS VIEW -->
-  <div id="productsView">
+          <div class="home-search-wrapper">
+            <svg class="home-search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input type="text" id="homeSearch" placeholder="Szukaj swojego następnego finda" oninput="handleHomeSearch(this.value)" onkeydown="if(event.key==='Enter') submitHomeSearch()" autocomplete="off" />
+            <button class="home-search-btn" onclick="submitHomeSearch()" aria-label="Szukaj">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </button>
+            <div class="live-search-results" id="liveSearchResults"></div>
+          </div>
+
+          <div class="home-quick-tags">
+            <button class="home-quick-tag" onclick="quickGoToCategory('Hoodies')">Bluzy</button>
+            <button class="home-quick-tag" onclick="quickGoToCategory('Pants')">Spodnie</button>
+            <button class="home-quick-tag" onclick="quickGoToCategory('Shoes')">Buty</button>
+            <button class="home-quick-tag" onclick="quickGoToCategory('Tshirts')">T-shirty</button>
+            <button class="home-quick-tag" onclick="quickGoToCategory('Jackets')">Kurtki</button>
+          </div>
+        </div>
+
+        <div class="home-hero-right">
+          <div class="home-featured-card">
+            <div class="home-featured-bg"></div>
+            <div class="home-featured-content">
+              <div class="home-featured-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                </svg>
+                <span>FIND NA DZIŚ</span>
+              </div>
+              <h2 class="home-featured-title">Twój nowy<br>favourite czeka.</h2>
+              <p class="home-featured-sub">Mały detal. Duża zmiana w Twoim outfcie.</p>
+              <button class="home-featured-btn" onclick="switchView('products')">
+                <span>Zobacz finda</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </button>
+            </div>
+            <div class="home-featured-product">
+              <div class="home-featured-product-img" id="homeFeaturedImg"></div>
+              <div class="home-featured-product-label">
+                <span id="homeFeaturedTag">R1 BATCH</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"/>
+                  <polyline points="7 7 17 7 17 17"/>
+                </svg>
+              </div>
+            </div>
+            <div class="home-featured-dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section">
+      <div class="home-section-header">
+        <div class="home-section-left">
+          <div class="home-section-num">01</div>
+          <div>
+            <div class="home-section-eyebrow">WYBRANE DLA CIEBIE</div>
+            <h2 class="home-section-title">Najnowsze findy</h2>
+            <p class="home-section-desc">Świeża selekcja z archiwum. Znajdź coś dla siebie.</p>
+          </div>
+        </div>
+        <button class="home-section-link" onclick="switchView('lastfinds')">
+          <span>Pokaż wszystko</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"/>
+            <polyline points="7 7 17 7 17 17"/>
+          </svg>
+        </button>
+      </div>
+      <div id="homeLatestGrid" class="home-latest-grid"></div>
+    </section>
+
+    <section class="home-section">
+      <div class="home-section-header">
+        <div class="home-section-left">
+          <div class="home-section-num">02</div>
+          <div>
+            <div class="home-section-eyebrow">SPRAWDZENI</div>
+            <h2 class="home-section-title">Top sprzedawcy</h2>
+            <p class="home-section-desc">Sprawdzeni sprzedawcy — najlepsze batche i jakość.</p>
+          </div>
+        </div>
+        <button class="home-section-link" onclick="switchView('sellers')">
+          <span>Wszyscy sprzedawcy</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"/>
+            <polyline points="7 7 17 7 17 17"/>
+          </svg>
+        </button>
+      </div>
+      <div id="homeSellersRow" class="home-sellers-row"></div>
+    </section>
+  </div>
+
+  <div id="productsView" style="display:none;">
     <section class="filter-controls-section">
       <div class="search-filter-wrapper">
         <div class="product-search-input">
@@ -327,7 +436,7 @@
 
       <div class="categories-header">
         <div class="categories-chips-container" id="categoriesContainer"></div>
-        <span id="itemCount" style="font-size:13px;color:#71717a;white-space:nowrap;padding-left:12px;">0 itemów</span>
+        <span id="itemCount">0 itemów</span>
       </div>
     </section>
 
@@ -337,7 +446,6 @@
     </section>
   </div>
 
-  <!-- LAST FINDS -->
   <div id="lastFindsView" style="display:none;">
     <section class="lastfinds-slider-section">
       <div class="slider-container">
@@ -348,7 +456,6 @@
     </section>
   </div>
 
-  <!-- OUTFITS VIEW -->
   <div id="outfitsView" style="display:none;">
     <section class="outfits-section">
       <div class="outfit-machine-card">
@@ -405,7 +512,7 @@
 
       <div class="saved-outfits-section">
         <div class="saved-outfits-header">
-          <h3>👕 Outfity</h3>
+          <h3>Outfity</h3>
           <span class="saved-count" id="savedCount">0</span>
         </div>
         <div class="saved-outfits-grid" id="savedOutfitsGrid">
@@ -418,19 +525,18 @@
     </section>
   </div>
 
-  <!-- TOOLS VIEW -->
   <div id="toolsView" style="display:none;">
     <section class="tools-section">
       <div class="tools-tabs">
-        <button class="tools-tab active" data-tab="shipping" onclick="switchToolTab('shipping')">📦 Kalkulator wysyłki</button>
-        <button class="tools-tab" data-tab="guides" onclick="switchToolTab('guides')">📖 Poradniki</button>
-        <button class="tools-tab" data-tab="tracking" onclick="switchToolTab('tracking')">🚚 Śledzenie</button>
+        <button class="tools-tab active" data-tab="shipping" onclick="switchToolTab('shipping')">Kalkulator wysyłki</button>
+        <button class="tools-tab" data-tab="guides" onclick="switchToolTab('guides')">Poradniki</button>
+        <button class="tools-tab" data-tab="tracking" onclick="switchToolTab('tracking')">Śledzenie</button>
       </div>
 
       <div id="toolTab-shipping" class="tool-tab-content active">
         <div class="tool-panel-card">
           <div class="tool-panel-header">
-            <h2 class="tool-panel-title">📦 Kalkulator wysyłki</h2>
+            <h2 class="tool-panel-title">Kalkulator wysyłki</h2>
             <p class="tool-panel-subtitle">Sprawdź ile zapłacisz za wysyłkę, zanim ją zamówisz.</p>
           </div>
           <div class="shipping-config">
@@ -454,13 +560,13 @@
             <div class="shipping-field">
               <label>Kraj</label>
               <select id="shipCountry" onchange="calcShipping()">
-                <option value="PL" selected>🇵🇱 Polska</option>
-                <option value="DE">🇩🇪 Niemcy</option>
-                <option value="FR">🇫🇷 Francja</option>
-                <option value="ES">🇪🇸 Hiszpania</option>
-                <option value="IT">🇮🇹 Włochy</option>
-                <option value="UK">🇬🇧 UK</option>
-                <option value="US">🇺🇸 USA</option>
+                <option value="PL" selected>Polska</option>
+                <option value="DE">Niemcy</option>
+                <option value="FR">Francja</option>
+                <option value="ES">Hiszpania</option>
+                <option value="IT">Włochy</option>
+                <option value="UK">UK</option>
+                <option value="US">USA</option>
               </select>
             </div>
           </div>
@@ -476,22 +582,22 @@
             </div>
           </div>
           <div class="shipping-compare">
-            <div class="shipping-compare-title">🔍 Porównanie agentów dla tej samej wagi</div>
+            <div class="shipping-compare-title">Porównanie agentów dla tej samej wagi</div>
             <div id="shipCompareList" class="shipping-compare-list"></div>
           </div>
-          <div class="shipping-note">⚠️ Ceny orientacyjne — mogą się różnić w zależności od sezonu, promocji i konkretnej linii.</div>
+          <div class="shipping-note">Ceny orientacyjne — mogą się różnić w zależności od sezonu, promocji i konkretnej linii.</div>
         </div>
       </div>
 
       <div id="toolTab-guides" class="tool-tab-content">
         <div class="tool-panel-card">
           <div class="tool-panel-header">
-            <h2 class="tool-panel-title">📖 Poradniki</h2>
+            <h2 class="tool-panel-title">Poradniki</h2>
             <p class="tool-panel-subtitle">Wszystko co musisz wiedzieć o kupowaniu w Chinach.</p>
           </div>
           <div class="guide-list">
             <details class="guide-item">
-              <summary>🚀 Jak zacząć kupować u agenta?</summary>
+              <summary>Jak zacząć kupować u agenta?</summary>
               <div class="guide-item-content">
                 <ol>
                   <li><strong>Załóż konto u agenta z naszego linku</strong> — np. USFans, Kakobuy. Wpisz kod referencyjny (np. <code>CARE40</code>) żeby dostać kupony.</li>
@@ -506,29 +612,29 @@
               </div>
             </details>
             <details class="guide-item">
-              <summary>🏷️ Co to jest batch i dlaczego jest ważny?</summary>
+              <summary>Co to jest batch i dlaczego jest ważny?</summary>
               <div class="guide-item-content">
                 <p><strong>Batch</strong> to partia produktu od konkretnego producenta. Ten sam but może mieć 5 batchy o różnej jakości.</p>
                 <ul><li><strong>GX</strong> — top Jordanów</li><li><strong>LW</strong> — top Yeezy</li><li><strong>OWF</strong> — Off-White</li></ul>
               </div>
             </details>
             <details class="guide-item">
-              <summary>📸 Czym jest QC?</summary>
+              <summary>Czym jest QC?</summary>
               <div class="guide-item-content">
                 <p><strong>QC</strong> to zdjęcia produktu od agenta po dotarciu do magazynu.</p>
                 <ul><li>Sprawdź loga — proste, wyraźne</li><li>Sprawdź szwy — równe</li><li>Sprawdź kolory — zgodne z oryginałem</li><li>Porównaj z retail</li></ul>
               </div>
             </details>
             <details class="guide-item">
-              <summary>🚚 Jaką wybrać linię wysyłkową?</summary>
+              <summary>Jaką wybrać linię wysyłkową?</summary>
               <div class="guide-item-content">
                 <ul><li><strong>DHL</strong></li><li><strong>Etl</strong></li><li><strong>Inpost</strong></li><li><strong>DPD</strong></li></ul>
               </div>
             </details>
             <details class="guide-item">
-              <summary>💡 Praktyczne tipy</summary>
+              <summary>Praktyczne tipy</summary>
               <div class="guide-item-content">
-                <ul><li>📸 Zawsze sprawdzaj QC</li><li>🚚 Wybieraj zaufanych przewoźników</li><li>🏷️ Kody referencyjne przy rejestracji</li><li>📅 Unikaj świąt</li><li>💬 Dołącz do Discord</li></ul>
+                <ul><li>Zawsze sprawdzaj QC</li><li>Wybieraj zaufanych przewoźników</li><li>Kody referencyjne przy rejestracji</li><li>Unikaj świąt</li><li>Dołącz do Discord</li></ul>
               </div>
             </details>
           </div>
@@ -538,7 +644,7 @@
       <div id="toolTab-tracking" class="tool-tab-content">
         <div class="tool-panel-card">
           <div class="tool-panel-header">
-            <h2 class="tool-panel-title">🚚 Śledzenie paczki</h2>
+            <h2 class="tool-panel-title">Śledzenie paczki</h2>
             <p class="tool-panel-subtitle">Wpisz numer — otworzymy 17track z ustawionym Fortis.</p>
           </div>
           <div class="tracking-form">
@@ -546,7 +652,7 @@
             <button class="tracking-btn" onclick="trackParcel()">Śledź →</button>
           </div>
           <div class="tracking-info">
-            <strong>💡 Jak to działa?</strong>
+            <strong>Jak to działa?</strong>
             <p>Wpisz numer śledzenia i naciśnij "Śledź". Otworzy się 17track z Twoim numerem i przewoźnikiem <strong>Fortis</strong> ustawionym automatycznie.</p>
           </div>
         </div>
@@ -554,7 +660,6 @@
     </section>
   </div>
 
-  <!-- SELLERS -->
   <div id="sellersView" style="display:none;">
     <section class="sellers-grid-section">
       <div class="sellers-filter-bar">
@@ -575,7 +680,6 @@
     </section>
   </div>
 
-  <!-- QC SEARCH -->
   <div id="qcSearchView" style="display:none;">
     <section class="qc-search-section">
       <div class="qc-search-container">
@@ -597,7 +701,6 @@
     </section>
   </div>
 
-  <!-- PROMO -->
   <div id="promoView" style="display:none;">
     <section class="promo-grid-section">
       <div class="promo-header">
@@ -612,7 +715,6 @@
   </div>
 </main>
 
-<!-- POPUP: LANGUAGE -->
 <div class="popup-overlay" id="languagePopupOverlay">
   <div class="language-modal-card">
     <div class="language-modal-header">
@@ -628,7 +730,6 @@
   </div>
 </div>
 
-<!-- POPUP: AGENT -->
 <div class="popup-overlay" id="agentPopupOverlay">
   <div class="agent-modal-card">
     <button class="modal-close-x" onclick="closeAgentPopup()">×</button>
@@ -649,7 +750,6 @@
   </div>
 </div>
 
-<!-- POPUP: REGISTER v2 -->
 <div class="popup-overlay" id="popupOverlay">
   <div class="popup-card popup-card-v2">
     <button class="popup-close" id="popupClose">×</button>
@@ -661,8 +761,8 @@
         <span class="popup-brand-name">ArchiveReps</span>
       </div>
       <div class="popup-badges-v2">
-        <span class="popup-badge-v2 partner">★ PARTNER</span>
-        <span class="popup-badge-v2 limited">★ LIMITOWANA</span>
+        <span class="popup-badge-v2 partner">PARTNER</span>
+        <span class="popup-badge-v2 limited">LIMITOWANA</span>
       </div>
     </div>
     <h3 class="popup-headline" id="popupHeadline">Zapłać za 10kg tylko 350zł!</h3>
@@ -699,7 +799,6 @@
   </div>
 </div>
 
-<!-- POPUP: OUTFIT DETAILS -->
 <div class="popup-overlay" id="outfitDetailsOverlay">
   <div class="outfit-details-modal">
     <button class="modal-close-x" onclick="closeOutfitDetails()">×</button>
@@ -715,7 +814,7 @@
     </div>
     <div class="outfit-details-list" id="outfitDetailsList"></div>
     <div class="outfit-details-actions">
-      <button class="outfit-details-btn primary" onclick="addAllToCart()">🛒 Dodaj wszystko do koszyka</button>
+      <button class="outfit-details-btn primary" onclick="addAllToCart()">Dodaj wszystko do koszyka</button>
     </div>
   </div>
 </div>
@@ -729,7 +828,6 @@
   </div>
 </div>
 
-<!-- QC LIGHTBOX -->
 <div class="lightbox-overlay" id="qcLightboxOverlay">
   <div class="qc-lightbox-fullscreen">
     <button class="lightbox-close" id="qcLightboxClose" aria-label="Zamknij">×</button>
@@ -803,13 +901,12 @@
   </div>
 </div>
 
-<!-- ⚡ SCRIPTS: data.js przed script.js, oba z defer -->
 <script src="script.js" defer></script>
 
 <footer class="site-footer">
   <div class="footer-container">
     <div class="footer-col footer-col-community">
-      <div class="footer-community-title">👥 SPOŁECZNOŚĆ</div>
+      <div class="footer-community-title">SPOŁECZNOŚĆ</div>
       <p class="footer-community-desc">Najlepsza wyszukiwarka produktów!<br>Dołącz do naszej społeczności.</p>
       <div class="footer-social-links">
         <a href="https://discord.gg/ecY996uVNd" class="footer-social-btn discord-btn">Discord</a>
