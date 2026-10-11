@@ -225,10 +225,10 @@ const products = [
   {
     name: "PRADA CUPS",
     category: "Shoes",
-    price: "$102",
-    image: "https://si.geilicdn.com/wdseller1747999085-006a00000198db97d7040a20e273_1800_1800.jpg",
-    linkKakobuy: "https://ikako.vip/2qazp",
-    linkUsfans: "https://usfans.com/product/3/7512669491?ref=TX9V9N",
+    price: "$108",
+    image: "https://si.geilicdn.com/wdseller1725607234-2af70000019d0598e1990a81347d_1691_1691.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7714607278&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7714607278?ref=TX9V9N",
     tag: "BEST (ZZZTOP)",
     rating: 5
   },
@@ -516,9 +516,9 @@ const products = [
     name: "CHANEL RUNNER",
     category: "Shoes",
     price: "$86.35",
-    image: "https://si.geilicdn.com/wdseller1913061311-2f7f00000195e1026f190a240147_2560_2560.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7435415609&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7435415609?ref=TX9V9N",
+    image: "https://si.geilicdn.com/wdseller1725607234-3b8c0000019d079ef8480a20e2c5_1277_1640.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7714763378&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7714763378?ref=TX9V9N",
     tag: "BEST (ZZZTOP)",
     rating: 5
   },
