@@ -1907,3 +1907,421 @@ body:not(.app-ready) #grid::before {
   .guide-item summary { font-size: 14px; padding: 14px 16px; }
   .guide-item-content { padding: 0 16px 16px; font-size: 13px; }
 }
+/* ============================================================
+   ============  MOBILE OPTIMIZATION v2  =====================
+   ============================================================ */
+
+/* ---------- TABLET (max 900px) ---------- */
+@media (max-width: 900px) {
+  /* NAVBAR — wszystko w jednej linii, nawigacja przewijalna poziomo */
+  .navbar {
+    height: auto;
+    min-height: 64px;
+    padding: 0;
+    overflow: visible;
+  }
+  .nav-container {
+    padding: 10px 14px;
+    gap: 10px;
+    flex-wrap: nowrap;
+  }
+  .nav-left { flex-shrink: 0; }
+  .brand-logo { font-size: 16px; }
+
+  /* Nawigacja — poziomy scroll z ukrytym scrollbarem */
+  .nav-links {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 4px;
+    padding: 4px 2px;
+    margin: 0 4px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-link {
+    padding: 8px 12px !important;
+    font-size: 12.5px !important;
+    flex-shrink: 0;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.03);
+  }
+  .nav-link.active {
+    background: linear-gradient(135deg, rgba(124, 92, 255, 0.35), rgba(74, 212, 255, 0.15));
+    border-color: rgba(124, 92, 255, 0.5);
+  }
+
+  /* Prawa strona — zostaw tylko język + agent */
+  .nav-right-icons { gap: 6px; }
+  .nav-search-inline { display: none !important; }
+
+  /* Body padding — więcej miejsca na navbar */
+  body { padding-top: 140px; }
+  body.no-banner { padding-top: 96px; }
+
+  /* Agent banner — mniejsze ale widoczne */
+  .agent-banner { margin-top: 12px; padding: 0 14px; }
+  .agent-banner-inner { padding: 14px 18px; gap: 14px; }
+  .agent-banner-logo { width: 46px; height: 46px; }
+  .agent-banner-title { font-size: 14.5px; }
+  .agent-banner-sub { font-size: 12.5px; }
+  .agent-banner-partner { display: none; }
+  .agent-banner-btn { padding: 10px 18px; font-size: 12.5px; }
+
+  /* HOME HERO — karty większe, tekst czytelny */
+  .home-hero { padding: 12px 0 40px; }
+  .home-hero-grid { grid-template-columns: 1fr; gap: 36px; }
+  .home-title { font-size: 56px; letter-spacing: -2.4px; }
+  .home-subtitle { font-size: 15px; }
+  .home-search-wrapper { max-width: 100%; }
+  .home-search-wrapper input { font-size: 15px; }
+  .home-quick-tag { padding: 10px 18px; font-size: 13.5px; }
+
+  /* Featured card */
+  .home-featured-card { min-height: 420px; padding: 32px 28px 28px; }
+  .home-featured-content { max-width: 90%; }
+  .home-featured-title { font-size: 30px; }
+  .home-featured-sub { font-size: 13.5px; }
+  .home-featured-product { width: 150px; right: 20px; bottom: 52px; }
+
+  /* Sekcje */
+  .home-section { padding: 32px 0 16px; margin-top: 32px; }
+  .home-section-header { flex-wrap: wrap; gap: 14px; }
+  .home-section-title { font-size: 26px; }
+  .home-section-desc { font-size: 13.5px; }
+  .home-section-num { width: 36px; height: 36px; font-size: 11px; }
+
+  /* Latesty — 3 kolumny na tablet */
+  .home-latest-grid { grid-template-columns: repeat(3, 1fr); gap: 12px; }
+
+  /* Sellers — 2 kolumny */
+  .home-sellers-row { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+
+  /* Produkty — 2-3 kolumny */
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 14px;
+  }
+  .product-card { border-radius: 16px; }
+
+  /* Slider większe karty */
+  .slider-item { min-width: 210px; max-width: 210px; }
+
+  /* Filtry */
+  .filter-controls-section { margin-bottom: 24px; }
+  .search-filter-wrapper { gap: 8px; }
+  .product-search-input input { padding: 12px 14px 12px 40px; font-size: 13.5px; }
+  .filter-toggle-btn { padding: 0 16px; font-size: 13px; }
+
+  /* Kategorie */
+  .category-chip { padding: 8px 14px; font-size: 12.5px; }
+
+  /* Sprzedawcy — grid */
+  .sellers-grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+
+  /* Outfity */
+  .outfit-slots { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .outfit-machine-header { flex-direction: column; align-items: stretch; gap: 16px; }
+  .outfit-machine-btn { justify-content: center; }
+
+  /* Narzędzia */
+  .shipping-result { grid-template-columns: 1fr; }
+}
+
+/* ---------- MOBILE (max 640px) ---------- */
+@media (max-width: 640px) {
+  /* NAVBAR — kompaktowy */
+  .navbar {
+    top: 8px;
+    width: calc(100% - 16px);
+    border-radius: 16px;
+  }
+  .nav-container {
+    padding: 8px 12px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .nav-left { width: 100%; justify-content: space-between; }
+  .brand-logo { font-size: 15px; }
+  .nav-links {
+    width: 100%;
+    margin: 0;
+    padding: 4px 0;
+    justify-content: flex-start;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 8px;
+    order: 3;
+  }
+  .nav-right-icons {
+    order: 2;
+    gap: 6px;
+  }
+  .nav-link {
+    padding: 7px 12px !important;
+    font-size: 12px !important;
+  }
+  .icon-btn, .icon-btn-lang {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+  }
+
+  /* Body padding — więcej bo navbar 2-rzędowy */
+  body { padding-top: 175px; }
+  body.no-banner { padding-top: 130px; }
+
+  /* Banner promo — kompaktowy */
+  .promo-banner { width: calc(100% - 16px); margin: 8px auto 0; }
+  .promo-banner-inner { padding: 10px 12px; gap: 8px; }
+  .promo-banner-text { font-size: 12px; }
+  .promo-banner-code { display: none; }
+  .promo-banner-btn { padding: 7px 12px; font-size: 11.5px; }
+
+  /* Agent banner — kompaktowy stack */
+  .agent-banner { padding: 0 10px; margin-top: 10px; }
+  .agent-banner-inner {
+    padding: 12px 14px;
+    gap: 12px;
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .agent-banner-left { gap: 12px; }
+  .agent-banner-logo { width: 42px; height: 42px; border-radius: 12px; }
+  .agent-banner-title { font-size: 13.5px; }
+  .agent-banner-sub { font-size: 11.5px; }
+  .agent-banner-right { width: 100%; }
+  .agent-banner-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 11px 16px;
+    font-size: 12.5px;
+  }
+
+  /* HOME HERO */
+  .home-title { font-size: 42px; letter-spacing: -1.8px; line-height: 1.02; }
+  .home-subtitle { font-size: 13.5px; line-height: 1.6; margin-bottom: 26px; }
+  .home-eyebrow { font-size: 10px; margin-bottom: 18px; }
+
+  /* Wyszukiwarka */
+  .home-search-wrapper {
+    padding: 5px 5px 5px 42px;
+    border-radius: 14px;
+  }
+  .home-search-icon { left: 14px; width: 16px; height: 16px; }
+  .home-search-wrapper input { padding: 11px 6px; font-size: 14px; }
+  .home-search-btn { width: 42px; height: 42px; border-radius: 10px; }
+  .home-search-btn svg { width: 16px; height: 16px; }
+
+  /* Dropdown live search */
+  .live-search-results { max-height: 60vh; border-radius: 14px; }
+  .live-search-item { padding: 12px 14px; gap: 12px; }
+  .live-search-thumb { width: 46px; height: 46px; }
+  .live-search-name { font-size: 13px; }
+  .live-search-price { font-size: 13px; }
+
+  /* Quick tags */
+  .home-quick-tags { gap: 6px; }
+  .home-quick-tag { padding: 8px 14px; font-size: 12px; }
+
+  /* Featured card — mniejsza ale nadal czytelna */
+  .home-featured-card {
+    min-height: 380px;
+    padding: 26px 22px 24px;
+    border-radius: 20px;
+  }
+  .home-featured-badge { font-size: 10px; padding: 5px 12px; margin-bottom: 16px; }
+  .home-featured-title { font-size: 26px; letter-spacing: -0.8px; margin-bottom: 10px; }
+  .home-featured-sub { font-size: 13px; margin-bottom: 20px; }
+  .home-featured-btn { padding: 10px 18px; font-size: 12.5px; }
+  .home-featured-product {
+    width: 120px;
+    right: 12px;
+    bottom: 40px;
+    padding: 10px;
+    border-radius: 14px;
+  }
+  .home-featured-product-label { font-size: 10px; }
+  .home-featured-dots { left: 24px; bottom: 24px; }
+
+  /* Sekcje */
+  .home-section { padding: 24px 0 12px; margin-top: 24px; }
+  .home-section-header { margin-bottom: 18px; }
+  .home-section-left { gap: 12px; }
+  .home-section-num { width: 32px; height: 32px; font-size: 10px; }
+  .home-section-eyebrow { font-size: 10px; }
+  .home-section-title { font-size: 22px; letter-spacing: -0.5px; }
+  .home-section-desc { font-size: 12.5px; }
+  .home-section-link { padding: 8px 14px; font-size: 12px; }
+
+  /* Latesty — 2 kolumny */
+  .home-latest-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .home-latest-grid .product-card { border-radius: 14px; aspect-ratio: 4 / 3; }
+
+  /* Sellers — 1 kolumna */
+  .home-sellers-row { grid-template-columns: 1fr; gap: 10px; }
+  .home-seller-mini { padding: 14px 16px; }
+  .home-seller-mini-avatar { width: 38px; height: 38px; font-size: 14px; }
+
+  /* Produkty — 2 kolumny na wąskim mobile */
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .product-card { border-radius: 14px; aspect-ratio: 1 / 1; }
+  .product-title { font-size: 13px; max-width: 130px; }
+  .product-category-label { font-size: 10.5px; }
+  .product-price-usd { font-size: 14px; }
+  .product-price-pln { font-size: 10px; }
+  .product-tag { font-size: 9px; padding: 4px 10px; top: 10px; left: 10px; }
+  .product-overlay { padding: 12px; }
+
+  /* Kategorie */
+  .category-chip { padding: 7px 12px; font-size: 12px; }
+  .categories-header { padding-bottom: 12px; margin-bottom: 14px; }
+  #itemCount { font-size: 11.5px !important; padding: 4px 10px; }
+
+  /* Slider */
+  .slider-item { min-width: 150px; max-width: 150px; }
+  .slider-arrow { width: 38px; height: 38px; font-size: 18px; }
+
+  /* Filtry */
+  .filter-toggle-btn { padding: 12px 14px !important; font-size: 13px; }
+  .product-search-input input { font-size: 14px; padding: 12px 14px 12px 42px; }
+
+  /* Sprzedawcy grid */
+  .sellers-grid { grid-template-columns: 1fr; }
+  .seller-card { padding: 20px; }
+  .seller-card-name { font-size: 18px; }
+  .seller-card-badge { font-size: 10px; padding: 3px 10px; }
+
+  /* Outfity */
+  .outfit-machine-card { padding: 20px 16px 18px; }
+  .outfit-machine-icon { width: 42px; height: 42px; }
+  .outfit-machine-title { font-size: 18px; }
+  .outfit-slots { gap: 10px; }
+  .outfit-slot-label { font-size: 10px; }
+  .saved-outfits-section { padding: 18px 16px; }
+  .saved-outfits-grid { grid-template-columns: 1fr; }
+
+  /* Narzędzia */
+  .tool-panel-card { padding: 20px 16px; }
+  .tool-panel-title { font-size: 20px; }
+  .tools-tab { min-width: 120px; padding: 11px 14px; font-size: 12px; }
+  .shipping-result-price { font-size: 32px; }
+  .tracking-form { flex-direction: column; }
+  .tracking-btn { padding: 14px; width: 100%; }
+
+  /* Popupy */
+  .qc-modal-card { padding: 22px 16px 18px; border-radius: 18px; }
+  .qc-images-grid { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 8px; }
+  .popup-card-v2 { padding: 22px 18px 18px; }
+  .popup-headline { font-size: 22px; }
+
+  /* Sidebar społecznościowy */
+  .social-sidebar {
+    right: 10px;
+    bottom: 90px;
+    top: auto;
+    transform: none;
+  }
+  .sidebar-content {
+    flex-direction: column;
+    padding: 8px;
+    gap: 6px;
+    border-radius: 14px;
+  }
+  .sidebar-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .sidebar-icon .sidebar-img { width: 20px; height: 20px; }
+  .sidebar-icon.usfans .usfans-logo { width: 26px; height: 26px; }
+  .sidebar-icon .icon-label { display: none; }
+
+  /* Scroll to top */
+  .scroll-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  /* Footer */
+  .site-footer { padding: 36px 18px 30px; }
+  .footer-container { grid-template-columns: 1fr; gap: 24px; }
+  .footer-col-community, .footer-col-info { align-items: center; text-align: center; }
+  .footer-community-desc { max-width: 100%; }
+  .footer-disclaimer { max-width: 100%; }
+}
+
+/* ---------- MAŁY MOBILE (max 400px) ---------- */
+@media (max-width: 400px) {
+  .home-title { font-size: 36px; letter-spacing: -1.4px; }
+  .home-subtitle { font-size: 13px; }
+  .nav-link { padding: 6px 10px !important; font-size: 11px !important; }
+  .nav-link span { font-size: 11px !important; }
+
+  .products-grid { gap: 8px; }
+  .product-title { font-size: 12px; max-width: 110px; }
+  .home-latest-grid { gap: 8px; }
+
+  .home-featured-card { min-height: 340px; padding: 22px 18px; }
+  .home-featured-title { font-size: 22px; }
+  .home-featured-product { width: 100px; right: 10px; bottom: 36px; }
+}
+
+/* ---------- DODATKOWE USPRAWNIENIA MOBILE ---------- */
+
+/* Większe tappable area dla kluczowych przycisków */
+@media (hover: none) {
+  .nav-link,
+  .home-quick-tag,
+  .category-chip,
+  .icon-btn,
+  .icon-btn-lang,
+  .zoom-icon,
+  .qc-icon,
+  .home-search-btn,
+  .slider-arrow,
+  .outfit-machine-btn,
+  .home-featured-btn,
+  .agent-banner-btn {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  /* Ikony zoom/QC — zawsze widoczne na dotyku (nie ma hover) */
+  .product-card .zoom-icon,
+  .product-card .qc-icon,
+  .slider-item .zoom-icon,
+  .slider-item .qc-icon {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Landscape phone — jeszcze bardziej kompaktowy navbar */
+@media (max-width: 900px) and (orientation: landscape) {
+  body { padding-top: 130px; }
+  body.no-banner { padding-top: 90px; }
+  .home-title { font-size: 44px; letter-spacing: -1.8px; }
+  .home-featured-card { min-height: 320px; }
+}
+
+/* iOS safe area */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .social-sidebar {
+    bottom: calc(90px + env(safe-area-inset-bottom));
+  }
+  .scroll-to-top {
+    bottom: calc(20px + env(safe-area-inset-bottom));
+  }
+  .site-footer {
+    padding-bottom: calc(30px + env(safe-area-inset-bottom));
+  }
+}
