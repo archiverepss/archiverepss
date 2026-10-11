@@ -176,7 +176,7 @@ const products = [
     name: "NIKE SHOX",
     category: "Shoes",
     price: "$25-29",
-    image: "https://si.geilicdn.com/weidian1558770107-0ee40000019ade43e4b10a21146b_1536_2048.jpg",
+    image: "https://si.geilicdn.com/wdseller901792703548-332c0000019003199ace0a22d172_1280_960.jpg",
     linkKakobuy: "https://ikako.vip/gguwx",
     linkUsfans: "https://usfans.com/product/3/7242663953?ref=TX9V9N",
     tag: "BAYMAX",
