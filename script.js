@@ -12510,6 +12510,46 @@ const outfits = [
       },
     ]
   },
+  {
+    id: "1791844440566",
+    title: "DENIM TEARS FIT",
+    image: "https://cdn.doppel.fit/x6aC8kkwmbW89aMU2LDO1achxuKHoZ1iN0lnlOPfB7U/rs:fill:1920/q:85/f:webp/b3V0Zml0cy9jNzA3MjRmZC1jODlkLTRlZDQtOWVkYS03NDc4MzU4NDhjNDYvMC9pbWFnZS53ZWJw",
+    tags: ["DENIM TEARS"],
+    items: [
+      {
+        name: "denim tears hoodie",
+        price: "$49.65",
+        image: "https://media.usfans.com/upload/ori/2026/10/08/192955/4b331f7f-7caf-4291-adbd-0f7189a4ff36.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
+        category: "Hoodies",
+        linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1001952763181&affcode=archivee",
+        linkUsfans: "https://usfans.com/product/2/3dDM9MCWgv6pCcRvZC0lNIU0Xmjr6EHd3Cd5UBzzK4WUGXPRMsoTakg?ref=TX9V9N"
+      },
+      {
+        name: "denim tears sweatpants",
+        price: "$44.65",
+        image: "https://media.usfans.com/2026/10/08/104648/21e56f20-69fc-41a7-ad7d-d46ac624dd4a.jpg",
+        category: "Pants",
+        linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1001967311797&affcode=archivee",
+        linkUsfans: "https://usfans.com/product/2/QyoE3agZg2dzkY_P14gY3qVjdxVka5WHNJFs7UDOt8iD5AA8s4Pcf3A?ref=TX9V9N"
+      },
+      {
+        name: "Goyard Belvedere Messenger Bag",
+        price: "$172.02",
+        image: "https://si.geilicdn.com/pcitem1717663958-45420000018f104827720a2102c5_1080_1080.jpg",
+        category: "Belts",
+        linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6215999200",
+        linkUsfans: "https://usfans.com/product/3/6215999200?ref=TX9V9N"
+      },
+      {
+        name: "NIKE SOCKS 3 PAIR",
+        price: "$5.49",
+        image: "https://si.geilicdn.com/open1847561709-1234478995-571d000001978909a5ee0a22d249_2560_1920.jpg",
+        category: "Underwear",
+        linkKakobuy: "https://ikako.vip/nvxcm",
+        linkUsfans: "https://usfans.com/product/3/7495699974?ref=TX9V9N"
+      },
+    ]
+  },
 ];
 
 
