@@ -12624,6 +12624,30 @@ const outfits = [
       },
     ]
   },
+  {
+    id: "1791846569714",
+    title: "RICK OWENS FIT",
+    image: "https://cdn.doppel.fit/PnWQ2zh1gcCg6GfPkYOmqkJFo6HzVLqdRhCuDNdeNes/rs:fill:1920/q:85/f:webp/b3V0Zml0cy9iZTg4ZjY2My04OGVlLTRiZGMtODM5ZS01NTA4NzdmNmJhMGYvMC9pbWFnZS53ZWJw",
+    tags: ["RICK OWENS"],
+    items: [
+      {
+        name: "RICK OWENS VANS",
+        price: "$56.89",
+        image: "https://img.alicdn.com/bao/uploaded/i3/2073165527/O1CN01tc3z221qhPwJH7aLk_!!2073165527.jpg",
+        category: "Shoes",
+        linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D742716692574",
+        linkUsfans: "https://usfans.com/product/2/vyak_E-glKVaGmgCQySUZ79bs49WDuu8waSHlbm2pfXGkUi3bjIOVA?ref=TX9V9N"
+      },
+      {
+        name: "RICK OWENS WIZARD HOODIE",
+        price: "$41",
+        image: "https://img.alicdn.com/bao/uploaded/i4/62314016/O1CN01acQlrm1fXNTge4elY_!!62314016.jpg",
+        category: "Hoodies",
+        linkKakobuy: "https://ikako.vip/7a3v6",
+        linkUsfans: "https://usfans.com/product/2/JeG1kP8TjnRhYASM6S7qJ_38h03289uo1_AHO7dvTwMwFYjXYSqEkw?ref=TX9V9N"
+      },
+    ]
+  },
 ];
 
 
