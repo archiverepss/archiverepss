@@ -12325,6 +12325,18 @@ const promotions = [
     tag: "PENGREPS",
     category: "All"
   },
+  {
+    name: "ARCTERYX BETA BEST BATCH",
+    price: "$46.65",
+    pricePLN: "180 zł",
+    batch: "BEST",
+    expiry: "-",
+    rating: 10,
+    image: "https://www.outdoorxl.pl/media/catalog/product/cache/default/image/300x360/9df78eab33525d08d6e5fb8d27136e95/a/r/arcteryx-beta-jacket-men-s-black-m-black-0.jpg",
+    link: "https://usfans.com/product/3/7849571470?ref=TX9V9N",
+    tag: "DREAMREMAKE / BEST",
+    category: "All"
+  },
 ];
 
 // ============================================
