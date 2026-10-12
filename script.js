@@ -12470,6 +12470,46 @@ const outfits = [
       },
     ]
   },
+  {
+    id: "1791844248847",
+    title: "CALM FIT",
+    image: "https://cdn.doppel.fit/pZfS_fYmBpBqA-l_I01ch3hLXJHizaRmX-MXxX1A1ic/rs:fill:1920/q:85/f:webp/b3V0Zml0cy9kM2MyMjc0Ni04Y2QxLTQ0ZGUtOTA2OS04MDk5YjNkMTEwY2YvMC9pbWFnZS53ZWJw",
+    tags: ["CALM","BAPE"],
+    items: [
+      {
+        name: "BAPE T-SHIRTS",
+        price: "$8",
+        image: "https://cbu01.alicdn.com/img/ibank/O1CN01KSTgYG24yjjaG6mlO_!!2220333237460-0-cib.jpg",
+        category: "Tshirts",
+        linkKakobuy: "https://ikako.vip/cvutw",
+        linkUsfans: "https://usfans.com/product/1/965138963696?ref=TX9V9N"
+      },
+      {
+        name: "ASICS GEL KAYANO 14",
+        price: "$37.61 ",
+        image: "https://si.geilicdn.com/wdseller1845163825-6813000001930325d8200a8134f0_1179_1179.jpg",
+        category: "Shoes",
+        linkKakobuy: "https://ikako.vip/m2avv",
+        linkUsfans: "https://usfans.com/product/3/7614280923?ref=TX9V9N"
+      },
+      {
+        name: "SUVENE SWEATPANTS",
+        price: "$22.43",
+        image: "https://media.usfans.com/2026/08/26/111310/cc3944e9-c3eb-4af2-a4ed-3464b394a6d9.jpg",
+        category: "Pants",
+        linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7817206562",
+        linkUsfans: "https://usfans.com/product/3/7817206562?ref=TX9V9N"
+      },
+      {
+        name: "SUPREME BEANIE",
+        price: "$16",
+        image: "https://si.geilicdn.com/pcitem1848650374-33f50000019ab4d09ec40a2301b4_1276_1276.jpg",
+        category: "Belts",
+        linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7617676948%26spider_token%3D9792&affcode=archivee",
+        linkUsfans: "https://usfans.com/product/3/7617676948?ref=TX9V9N"
+      },
+    ]
+  },
 ];
 
 
