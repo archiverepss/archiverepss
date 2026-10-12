@@ -3,12 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-
   <title>ArchiveReps - Spreadsheet</title>
   <meta name="description" content="Najlepszy spreadsheet w Polsce. Sprawdź najlepsze batche, codziennie nowe produkty!">
   <meta name="keywords" content="archivereps.pl, archivereps, spreadsheet">
   <meta name="robots" content="index, follow">
-
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://archivereps.pl">
   <meta property="og:title" content="ArchiveReps - Spreadsheet">
@@ -16,10 +14,8 @@
   <meta property="og:image" content="https://archivereps.pl/banner2.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#050816">
-
   <link rel="icon" href="https://archivereps.pl/favicon.png" type="image/png" sizes="144x144">
   <link rel="apple-touch-icon" href="https://archivereps.pl/favicon.png">
-
   <link rel="preconnect" href="https://si.geilicdn.com" crossorigin>
   <link rel="preconnect" href="https://img.alicdn.com" crossorigin>
   <link rel="preconnect" href="https://media.usfans.com" crossorigin>
@@ -31,154 +27,51 @@
 
   <style>
     *{margin:0;padding:0;box-sizing:border-box}
-    :root{
-      --bg:#050816;--text:#f5f5f7;--text-muted:#8b8fa8;--text-dim:#565a72;
-      --accent:#7c5cff;--accent-2:#4ad4ff;--border-glass:rgba(255,255,255,.06);
-      --surface:rgba(20,24,44,.55);--glass:rgba(255,255,255,.04);
-      --radius:14px;--radius-sm:10px;
-    }
+    :root{--bg:#050816;--text:#f5f5f7;--text-muted:#8b8fa8;--text-dim:#565a72;--accent:#7c5cff;--accent-2:#4ad4ff;--border-glass:rgba(255,255,255,.06);--surface:rgba(20,24,44,.55);--glass:rgba(255,255,255,.04);--radius:14px;--radius-sm:10px}
     html{scroll-behavior:smooth;background:var(--bg);color-scheme:dark}
-    body{
-      font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
-      background:var(--bg);color:var(--text);line-height:1.55;
-      overflow-x:hidden;-webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-      padding-top:132px;min-height:100vh;
-      opacity:0;
-      transition:opacity .15s ease-out;
-    }
+    body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);line-height:1.55;overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding-top:132px;min-height:100vh;opacity:0;transition:opacity .15s ease-out}
     body.app-ready{opacity:1}
-    body::after{
-      content:"";position:fixed;inset:0;background:var(--bg);
-      z-index:-1;pointer-events:none;
-    }
+    body::after{content:"";position:fixed;inset:0;background:var(--bg);z-index:-1;pointer-events:none}
     main,nav,footer{position:relative;z-index:1}
     a{color:inherit;text-decoration:none}
     button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
     img{display:block;max-width:100%}
     svg{display:block}
-    .navbar{
-      position:fixed;top:12px;left:50%;transform:translateX(-50%);
-      width:calc(100% - 32px);max-width:1400px;height:64px;z-index:1000;
-      background:rgba(10,12,30,.65);
-      backdrop-filter:blur(24px) saturate(180%);
-      -webkit-backdrop-filter:blur(24px) saturate(180%);
-      border:1px solid var(--border-glass);border-radius:20px;
-    }
+    .navbar{position:fixed;top:12px;left:50%;transform:translateX(-50%);width:calc(100% - 32px);max-width:1400px;height:64px;z-index:1000;background:rgba(10,12,30,.65);backdrop-filter:blur(24px) saturate(180%);-webkit-backdrop-filter:blur(24px) saturate(180%);border:1px solid var(--border-glass);border-radius:20px}
     .nav-container{height:100%;padding:0 16px;display:flex;align-items:center;gap:14px;width:100%}
     .nav-left{display:flex;align-items:center;gap:14px;flex-shrink:0}
     .brand-logo{display:flex;align-items:center;gap:6px;font-size:17px;font-weight:800;letter-spacing:-.5px;cursor:pointer}
     .logo-archive{color:#fff}
     .logo-repss{background:linear-gradient(90deg,#7c5cff,#4ad4ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
     .nav-links{display:flex;align-items:center;gap:2px;flex:1;justify-content:center}
-    .nav-link{
-      color:#8b8fa8;font-size:12.5px;font-weight:500;padding:8px 12px;
-      border-radius:10px;border:1px solid transparent;white-space:nowrap;
-      display:inline-flex;align-items:center;cursor:pointer;transition:all .22s ease;
-    }
-    .nav-link.active{
-      color:#fff;
-      background:linear-gradient(135deg,rgba(124,92,255,.18),rgba(74,212,255,.06));
-      border-color:rgba(124,92,255,.35);
-    }
+    .nav-link{color:#8b8fa8;font-size:12.5px;font-weight:500;padding:8px 12px;border-radius:10px;border:1px solid transparent;white-space:nowrap;display:inline-flex;align-items:center;cursor:pointer;transition:all .22s ease}
+    .nav-link.active{color:#fff;background:linear-gradient(135deg,rgba(124,92,255,.18),rgba(74,212,255,.06));border-color:rgba(124,92,255,.35)}
     .nav-right-icons{display:flex;align-items:center;gap:8px;flex-shrink:0}
-    .icon-btn{
-      width:34px;height:34px;display:flex;align-items:center;justify-content:center;
-      background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);
-      border-radius:10px;color:#8b8fa8;font-size:13px;font-weight:600;
-    }
-    .icon-btn-lang{
-      width:38px;height:34px;display:flex;align-items:center;justify-content:center;
-      background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);
-      border-radius:10px;color:#f5f5f7;font-size:11.5px;font-weight:700;letter-spacing:.5px;
-    }
+    .icon-btn{width:34px;height:34px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:10px;color:#8b8fa8;font-size:13px;font-weight:600}
+    .icon-btn-lang{width:38px;height:34px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:10px;color:#f5f5f7;font-size:11.5px;font-weight:700;letter-spacing:.5px}
     .nav-search-inline{position:relative;display:flex;align-items:center;width:220px}
     .nav-search-inline .search-icon{position:absolute;left:12px;width:14px;height:14px;color:#565a72;pointer-events:none}
-    .nav-search-inline input{
-      width:100%;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);
-      border-radius:10px;padding:8px 12px 8px 34px;color:#f5f5f7;
-      font-size:12.5px;font-family:inherit;outline:none;transition:all .22s ease;
-    }
-    .hamburger-btn{
-      display:none;width:40px;height:40px;
-      background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);
-      border-radius:10px;color:#ffffff;cursor:pointer;
-      align-items:center;justify-content:center;flex-shrink:0;
-      transition:all .2s ease;padding:0;
-    }
+    .nav-search-inline input{width:100%;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:10px;padding:8px 12px 8px 34px;color:#f5f5f7;font-size:12.5px;font-family:inherit;outline:none;transition:all .22s ease}
+    .hamburger-btn{display:none;width:40px;height:40px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:10px;color:#ffffff;cursor:pointer;align-items:center;justify-content:center;flex-shrink:0;transition:all .2s ease;padding:0}
     .hamburger-btn:active{background:rgba(124,92,255,.25);transform:scale(.95)}
     .hamburger-btn svg{width:20px;height:20px;stroke:currentColor;stroke-width:2.2;fill:none;stroke-linecap:round}
-    .mobile-menu-overlay{
-      position:fixed;inset:0;background:rgba(0,0,0,.7);
-      backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
-      z-index:2000;opacity:0;pointer-events:none;transition:opacity .25s ease;
-    }
+    .mobile-menu-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);z-index:2000;opacity:0;pointer-events:none;transition:opacity .25s ease}
     .mobile-menu-overlay.active{opacity:1;pointer-events:auto}
-    .mobile-menu{
-      position:fixed;top:0;right:0;bottom:0;width:min(320px,85vw);
-      background:linear-gradient(180deg,#0a0c1e 0%,#0f1225 100%);
-      border-left:1px solid rgba(255,255,255,.08);z-index:2001;
-      transform:translateX(100%);transition:transform .3s cubic-bezier(.22,1,.36,1);
-      display:flex;flex-direction:column;overflow-y:auto;
-      overscroll-behavior:contain;padding:24px 20px;
-    }
+    .mobile-menu{position:fixed;top:0;right:0;bottom:0;width:min(320px,85vw);background:linear-gradient(180deg,#0a0c1e 0%,#0f1225 100%);border-left:1px solid rgba(255,255,255,.08);z-index:2001;transform:translateX(100%);transition:transform .3s cubic-bezier(.22,1,.36,1);display:flex;flex-direction:column;overflow-y:auto;overscroll-behavior:contain;padding:24px 20px}
     .mobile-menu.active{transform:translateX(0)}
-    .mobile-menu-header{
-      display:flex;align-items:center;justify-content:space-between;
-      margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid rgba(255,255,255,.06);
-    }
+    .mobile-menu-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid rgba(255,255,255,.06)}
     .mobile-menu-brand{display:flex;align-items:center;gap:8px;font-size:18px;font-weight:800;letter-spacing:-.5px}
-    .mobile-menu-close{
-      width:38px;height:38px;background:rgba(255,255,255,.05);
-      border:1px solid rgba(255,255,255,.08);border-radius:10px;color:#ffffff;
-      cursor:pointer;display:flex;align-items:center;justify-content:center;
-      font-size:20px;font-weight:300;transition:all .2s ease;padding:0;
-    }
-    .mobile-menu-close:active{background:rgba(255,255,255,.1);transform:rotate(90deg)}
+    .mobile-menu-close{width:38px;height:38px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:10px;color:#ffffff;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:300;transition:all .2s ease;padding:0}
     .mobile-menu-links{display:flex;flex-direction:column;gap:4px;flex:1}
-    .mobile-menu-link{
-      display:flex;align-items:center;gap:14px;padding:14px 16px;
-      background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.04);
-      border-radius:12px;color:#b8bcd0;font-size:15px;font-weight:600;
-      font-family:inherit;cursor:pointer;text-decoration:none;
-      transition:all .18s ease;-webkit-tap-highlight-color:transparent;
-    }
-    .mobile-menu-link:active{
-      background:rgba(124,92,255,.15);border-color:rgba(124,92,255,.4);
-      color:#ffffff;transform:scale(.98);
-    }
-    .mobile-menu-link.active{
-      background:linear-gradient(135deg,rgba(124,92,255,.2),rgba(74,212,255,.1));
-      border-color:rgba(124,92,255,.45);color:#ffffff;
-    }
-    .mobile-menu-link-icon{
-      width:36px;height:36px;display:flex;align-items:center;justify-content:center;
-      background:rgba(124,92,255,.12);border:1px solid rgba(124,92,255,.2);
-      border-radius:10px;flex-shrink:0;color:#a78bfa;
-    }
-    .mobile-menu-link.active .mobile-menu-link-icon{
-      background:rgba(124,92,255,.3);border-color:rgba(124,92,255,.5);color:#ffffff;
-    }
-    .mobile-menu-link-icon svg{
-      width:18px;height:18px;stroke:currentColor;fill:none;
-      stroke-width:2;stroke-linecap:round;stroke-linejoin:round;
-    }
+    .mobile-menu-link{display:flex;align-items:center;gap:14px;padding:14px 16px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.04);border-radius:12px;color:#b8bcd0;font-size:15px;font-weight:600;font-family:inherit;cursor:pointer;text-decoration:none;transition:all .18s ease;-webkit-tap-highlight-color:transparent}
+    .mobile-menu-link.active{background:linear-gradient(135deg,rgba(124,92,255,.2),rgba(74,212,255,.1));border-color:rgba(124,92,255,.45);color:#ffffff}
+    .mobile-menu-link-icon{width:36px;height:36px;display:flex;align-items:center;justify-content:center;background:rgba(124,92,255,.12);border:1px solid rgba(124,92,255,.2);border-radius:10px;flex-shrink:0;color:#a78bfa}
+    .mobile-menu-link.active .mobile-menu-link-icon{background:rgba(124,92,255,.3);border-color:rgba(124,92,255,.5);color:#ffffff}
+    .mobile-menu-link-icon svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
     .mobile-menu-link-text{flex:1;text-align:left}
-    .mobile-menu-link-arrow{color:#565a72;font-size:16px;font-weight:300;transition:transform .2s ease}
-    .mobile-menu-link:active .mobile-menu-link-arrow{transform:translateX(3px);color:#a78bfa}
-    .mobile-menu-footer{
-      margin-top:20px;padding-top:20px;
-      border-top:1px solid rgba(255,255,255,.06);
-      display:flex;flex-direction:column;gap:10px;
-    }
-    .mobile-menu-agent-btn{
-      display:flex;align-items:center;justify-content:center;gap:8px;
-      padding:14px 18px;background:#ffffff;color:#0a0a0f;
-      font-size:13.5px;font-weight:800;border-radius:12px;
-      text-decoration:none;transition:all .2s ease;
-      -webkit-tap-highlight-color:transparent;
-    }
-    .mobile-menu-agent-btn:active{transform:scale(.97);box-shadow:0 12px 28px rgba(255,255,255,.15)}
+    .mobile-menu-link-arrow{color:#565a72;font-size:16px;font-weight:300}
+    .mobile-menu-footer{margin-top:20px;padding-top:20px;border-top:1px solid rgba(255,255,255,.06);display:flex;flex-direction:column;gap:10px}
+    .mobile-menu-agent-btn{display:flex;align-items:center;justify-content:center;gap:8px;padding:14px 18px;background:#ffffff;color:#0a0a0f;font-size:13.5px;font-weight:800;border-radius:12px;text-decoration:none;transition:all .2s ease;-webkit-tap-highlight-color:transparent}
     @media (max-width: 900px) {
       .nav-links { display: none !important; }
       .nav-search-inline { display: none !important; }
@@ -186,145 +79,73 @@
       .brand-logo { font-size: 16px !important; }
       body { padding-top: 90px !important; }
       body.no-banner { padding-top: 46px !important; }
-      .navbar {
-        top: 8px !important; width: calc(100% - 16px) !important;
-        height: 58px !important; min-height: 58px !important;
-        border-radius: 16px !important;
-      }
-      .nav-container {
-        height: 58px !important; min-height: 58px !important;
-        padding: 0 14px !important; gap: 10px !important;
-        flex-wrap: nowrap !important;
-      }
+      .navbar { top: 8px !important; width: calc(100% - 16px) !important; height: 58px !important; min-height: 58px !important; border-radius: 16px !important; }
+      .nav-container { height: 58px !important; min-height: 58px !important; padding: 0 14px !important; gap: 10px !important; flex-wrap: nowrap !important; }
       .nav-left { width: auto !important; flex: 1 !important; }
       .nav-right-icons { order: 0 !important; gap: 8px !important; }
-      .product-card .zoom-icon,
-      .product-card .qc-icon,
-      .featured-card .zoom-icon,
-      .featured-card .qc-icon,
-      .slider-item .zoom-icon,
-      .slider-item .qc-icon {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        pointer-events: none !important;
-      }
+      .product-card .zoom-icon, .product-card .qc-icon, .featured-card .zoom-icon, .featured-card .qc-icon, .slider-item .zoom-icon, .slider-item .qc-icon { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }
     }
     @media (max-width: 400px) {
       .hamburger-btn { width: 36px; height: 36px; }
-      .icon-btn, .icon-btn-lang {
-        width: 32px !important; height: 32px !important; font-size: 11px !important;
-      }
+      .icon-btn, .icon-btn-lang { width: 32px !important; height: 32px !important; font-size: 11px !important; }
       .brand-logo { font-size: 15px !important; }
     }
     .promo-banner{position:relative;z-index:1001;width:calc(100% - 32px);max-width:1400px;margin:12px auto 0}
     .promo-banner.hidden{display:none}
-    .promo-banner-inner{
-      display:flex;align-items:center;justify-content:space-between;gap:16px;
-      padding:10px 12px 10px 14px;
-      background:linear-gradient(135deg,rgba(124,92,255,.12),rgba(255,110,199,.08));
-      border:1px solid rgba(124,92,255,.25);border-radius:16px;
-    }
+    .promo-banner-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 12px 10px 14px;background:linear-gradient(135deg,rgba(124,92,255,.12),rgba(255,110,199,.08));border:1px solid rgba(124,92,255,.25);border-radius:16px}
     .promo-banner-left{display:flex;align-items:center;gap:12px;flex:1;min-width:0}
-    .promo-banner-icon{
-      width:34px;height:34px;flex-shrink:0;display:flex;align-items:center;justify-content:center;
-      background:linear-gradient(135deg,rgba(124,92,255,.25),rgba(255,110,199,.15));
-      border:1px solid rgba(124,92,255,.35);border-radius:10px;color:#a78bfa;
-    }
+    .promo-banner-icon{width:34px;height:34px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(124,92,255,.25),rgba(255,110,199,.15));border:1px solid rgba(124,92,255,.35);border-radius:10px;color:#a78bfa}
     .promo-banner-text{font-size:13.5px;font-weight:500;color:#d4d4dc;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
     .promo-banner-text strong{color:#fff;font-weight:700}
     .promo-banner-right{display:flex;align-items:center;gap:8px;flex-shrink:0}
-    .promo-banner-code{
-      font-size:11.5px;font-weight:700;padding:5px 10px;border-radius:8px;
-      background:rgba(255,110,199,.15);color:#ff6ec7;border:1px solid rgba(255,110,199,.25);
-    }
-    .promo-banner-btn{
-      display:inline-flex;align-items:center;gap:6px;padding:8px 16px;
-      background:linear-gradient(135deg,#7c5cff 0%,#a78bfa 50%,#ff6ec7 100%);
-      color:#fff;font-size:12.5px;font-weight:700;border-radius:10px;white-space:nowrap;
-    }
-    .promo-banner-close{
-      width:28px;height:28px;display:flex;align-items:center;justify-content:center;
-      background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);
-      border-radius:8px;color:#565a72;
-    }
+    .promo-banner-code{font-size:11.5px;font-weight:700;padding:5px 10px;border-radius:8px;background:rgba(255,110,199,.15);color:#ff6ec7;border:1px solid rgba(255,110,199,.25)}
+    .promo-banner-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:linear-gradient(135deg,#7c5cff 0%,#a78bfa 50%,#ff6ec7 100%);color:#fff;font-size:12.5px;font-weight:700;border-radius:10px;white-space:nowrap}
+    .promo-banner-close{width:28px;height:28px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:8px;color:#565a72}
     body.no-banner{padding-top:84px}
     .main-content{max-width:1400px;margin:0 auto;padding:40px 24px 60px;position:relative}
     .filter-controls-section{margin-bottom:32px}
     .search-filter-wrapper{display:flex;gap:12px;margin-bottom:16px}
     .product-search-input{position:relative;flex:1;display:flex;align-items:center}
-    .product-search-input input{
-      width:100%;background:var(--surface);border:1px solid var(--border-glass);
-      border-radius:var(--radius);padding:14px 16px 14px 44px;color:var(--text);
-      font-size:14px;font-family:inherit;outline:none;
-    }
+    .product-search-input input{width:100%;background:var(--surface);border:1px solid var(--border-glass);border-radius:var(--radius);padding:14px 16px 14px 44px;color:var(--text);font-size:14px;font-family:inherit;outline:none}
     .search-icon-inner{position:absolute;left:16px;width:18px;height:18px;color:var(--text-dim);pointer-events:none}
-    .filter-toggle-btn{
-      background:var(--surface);border:1px solid var(--border-glass);
-      border-radius:var(--radius);padding:0 20px;color:var(--text);
-      font-size:14px;font-weight:500;
-    }
+    .filter-toggle-btn{background:var(--surface);border:1px solid var(--border-glass);border-radius:var(--radius);padding:0 20px;color:var(--text);font-size:14px;font-weight:500}
     .advanced-filters-panel{display:none}
     .advanced-filters-panel.active{display:flex}
     .categories-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px}
     .categories-chips-container{display:flex;flex-wrap:wrap;gap:8px;flex:1}
-    .category-chip{
-      background:var(--glass);border:1px solid var(--border-glass);color:var(--text-muted);
-      padding:8px 16px;border-radius:999px;font-size:13px;font-weight:500;
-      font-family:inherit;cursor:pointer;
-    }
-    .category-chip.active{
-      background:linear-gradient(135deg,var(--accent),#a78bfa);
-      color:#fff;border-color:transparent;
-    }
-    .products-grid{
-      display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px;
-    }
+    .category-chip{background:var(--glass);border:1px solid var(--border-glass);color:var(--text-muted);padding:8px 16px;border-radius:999px;font-size:13px;font-weight:500;font-family:inherit;cursor:pointer}
+    .category-chip.active{background:linear-gradient(135deg,var(--accent),#a78bfa);color:#fff;border-color:transparent}
+    .products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px}
     html.no-js body{opacity:1 !important}
   </style>
-
   <noscript><style>body{opacity:1 !important}</style></noscript>
-
   <link rel="stylesheet" href="style.css">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap"></noscript>
-
   <script data-goatcounter="https://archiverepss.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
   <div class="promo-banner" id="promoBanner">
-  <div class="promo-banner-inner">
-    <div class="promo-banner-left">
-      <div class="promo-banner-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
-        </svg>
+    <div class="promo-banner-inner">
+      <div class="promo-banner-left">
+        <div class="promo-banner-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+        <span class="promo-banner-text"><strong>-40%</strong> na wysyłkę w USFans! Odbierz zanim zniknie. <strong>Kod: "CARE40"</strong></span>
       </div>
-      <span class="promo-banner-text">
-        <strong>-40%</strong> na wysyłkę w USFans! Odbierz zanim zniknie. <strong>Kod: "CARE40"</strong>
-      </span>
-    </div>
-    <div class="promo-banner-right">
-      <span class="promo-banner-code">-40%</span>
-      <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="promo-banner-btn">
-        Zarejestruj się
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="5" y1="12" x2="19" y2="12"/>
-          <polyline points="12 5 19 12 12 19"/>
-        </svg>
-      </a>
-      <button class="promo-banner-close" onclick="closePromoBanner()" aria-label="Zamknij">
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="18" y1="6" x2="6" y2="18"/>
-          <line x1="6" y1="6" x2="18" y2="18"/>
-        </svg>
-      </button>
+      <div class="promo-banner-right">
+        <span class="promo-banner-code">-40%</span>
+        <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="promo-banner-btn">Zarejestruj się
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <button class="promo-banner-close" onclick="closePromoBanner()" aria-label="Zamknij">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
     </div>
   </div>
-</div>
 
 <nav class="navbar">
   <div class="nav-container">
@@ -348,30 +169,19 @@
       <a href="#" class="nav-link" id="navQCSearch"><span>Sprawdź QC</span></a>
     </div>
     <button class="hamburger-btn" id="hamburgerBtn" aria-label="Otwórz menu">
-      <svg viewBox="0 0 24 24">
-        <line x1="3" y1="6" x2="21" y2="6"/>
-        <line x1="3" y1="12" x2="21" y2="12"/>
-        <line x1="3" y1="18" x2="21" y2="18"/>
-      </svg>
+      <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
     </button>
     <div class="nav-right-icons">
       <div class="nav-search-inline">
-        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-        </svg>
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
         <input type="text" id="globalSearch" placeholder="Szukaj findów" oninput="handleSearch()" />
       </div>
       <button class="icon-btn-lang" id="changeLangBtn" title="Zmień język"><span>PL</span></button>
       <button class="icon-btn" title="Ulubione">
-        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
-        </svg>
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
       </button>
       <button class="icon-btn" id="changeAgentBtn" title="Zmień agenta">
-        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M3 3v18h18"/>
-          <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/>
-        </svg>
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
       </button>
     </div>
   </div>
@@ -380,9 +190,7 @@
 <div class="agent-banner" id="agentBanner">
   <div class="agent-banner-inner">
     <div class="agent-banner-left">
-      <div class="agent-banner-logo">
-        <img src="https://swagworld.eu/assets/usfans-DTQr6n0M.webp" alt="USFans" loading="eager">
-      </div>
+      <div class="agent-banner-logo"><img src="https://swagworld.eu/assets/usfans-DTQr6n0M.webp" alt="USFans" loading="eager"></div>
       <div class="agent-banner-text">
         <div class="agent-banner-title" id="agentBannerTitle">USFans — Twój agent zakupowy</div>
         <div class="agent-banner-sub" id="agentBannerSub">Twoje findy. Jeden adres.</div>
@@ -392,49 +200,28 @@
       <span class="agent-banner-partner">PARTNER / ARCHIVEREPSS</span>
       <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="agent-banner-btn" id="agentBannerBtn" style="text-decoration:none;">
         <span id="agentBannerBtnText">Wypróbuj USFans</span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="7" y1="17" x2="17" y2="7"/>
-          <polyline points="7 7 17 7 17 17"/>
-        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
       </a>
     </div>
   </div>
 </div>
 
 <main class="main-content">
-
   <div id="homeView">
     <section class="home-hero">
       <div class="home-hero-grid">
         <div class="home-hero-left">
-          <div class="home-eyebrow">
-            <span class="home-eyebrow-line"></span>
-            <span>ARCHIVEREPSS / FIND YOUR NEXT</span>
-          </div>
-          <h1 class="home-title">
-            Dobry styl.<br>
-            Jeszcze lepsze<br>
-            <span class="home-title-accent">findy.</span>
-          </h1>
-          <p class="home-subtitle">
-            Wybrane produkty, najlepsze batche i linki.<br>
-            Wszystko, czego szukasz — w jednym miejscu.
-          </p>
-
+          <div class="home-eyebrow"><span class="home-eyebrow-line"></span><span>ARCHIVEREPSS / FIND YOUR NEXT</span></div>
+          <h1 class="home-title">Dobry styl.<br>Jeszcze lepsze<br><span class="home-title-accent">findy.</span></h1>
+          <p class="home-subtitle">Wybrane produkty, najlepsze batche i linki.<br>Wszystko, czego szukasz — w jednym miejscu.</p>
           <div class="home-search-wrapper">
-            <svg class="home-search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-            </svg>
+            <svg class="home-search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
             <input type="text" id="homeSearch" placeholder="Szukaj swojego następnego finda" oninput="handleHomeSearch(this.value)" onkeydown="if(event.key==='Enter') submitHomeSearch()" autocomplete="off" />
             <button class="home-search-btn" onclick="submitHomeSearch()" aria-label="Szukaj">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="5" y1="12" x2="19" y2="12"/>
-                <polyline points="12 5 19 12 12 19"/>
-              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
             </button>
             <div class="live-search-results" id="liveSearchResults"></div>
           </div>
-
           <div class="home-quick-tags">
             <button class="home-quick-tag" onclick="quickGoToCategory('Hoodies')">Bluzy</button>
             <button class="home-quick-tag" onclick="quickGoToCategory('Pants')">Spodnie</button>
@@ -443,42 +230,9 @@
             <button class="home-quick-tag" onclick="quickGoToCategory('Jackets')">Kurtki</button>
           </div>
         </div>
-
         <div class="home-hero-right">
-          <div class="home-featured-card">
-            <div class="home-featured-bg"></div>
-            <div class="home-featured-content">
-              <div class="home-featured-badge">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
-                </svg>
-                <span>FIND NA DZIŚ</span>
-              </div>
-              <h2 class="home-featured-title">Twój nowy<br>favourite czeka.</h2>
-              <p class="home-featured-sub">Mały detal. Duża zmiana w Twoim outfcie.</p>
-              <button class="home-featured-btn" onclick="switchView('products')">
-                <span>Zobacz finda</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                  <line x1="5" y1="12" x2="19" y2="12"/>
-                  <polyline points="12 5 19 12 12 19"/>
-                </svg>
-              </button>
-            </div>
-            <div class="home-featured-product">
-              <div class="home-featured-product-img" id="homeFeaturedImg"></div>
-              <div class="home-featured-product-label">
-                <span id="homeFeaturedTag">R1 BATCH</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                  <line x1="7" y1="17" x2="17" y2="7"/>
-                  <polyline points="7 7 17 7 17 17"/>
-                </svg>
-              </div>
-            </div>
-            <div class="home-featured-dots">
-              <span class="dot active"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
+          <div class="home-featured-card" id="homeFeaturedCard">
+            <div class="home-featured-dots" id="homeFeaturedDots"></div>
           </div>
         </div>
       </div>
@@ -496,10 +250,7 @@
         </div>
         <button class="home-section-link" onclick="switchView('lastfinds')">
           <span>Pokaż wszystko</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="7" y1="17" x2="17" y2="7"/>
-            <polyline points="7 7 17 7 17 17"/>
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </button>
       </div>
       <div id="homeLatestGrid" class="home-latest-grid"></div>
@@ -517,27 +268,22 @@
         </div>
         <button class="home-section-link" onclick="switchView('sellers')">
           <span>Wszyscy sprzedawcy</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="7" y1="17" x2="17" y2="7"/>
-            <polyline points="7 7 17 7 17 17"/>
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </button>
       </div>
       <div id="homeSellersRow" class="home-sellers-row"></div>
     </section>
   </div>
-    <div id="productsView" style="display:none;">
+
+  <div id="productsView" style="display:none;">
     <section class="filter-controls-section">
       <div class="search-filter-wrapper">
         <div class="product-search-input">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner">
-            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
           <input type="text" id="search" placeholder="Szukaj produktów..." oninput="handleSearch()" />
         </div>
         <button class="filter-toggle-btn" id="filterToggleBtn"><span>Filtry</span></button>
       </div>
-
       <div class="advanced-filters-panel" id="advancedFilters">
         <div class="filter-group">
           <label id="lblSorting">Sortowanie</label>
@@ -556,13 +302,11 @@
         </div>
         <button class="clear-filters-btn" id="clearFilterBtn" onclick="clearPriceFilters()">Wyczyść filtr</button>
       </div>
-
       <div class="categories-header">
         <div class="categories-chips-container" id="categoriesContainer"></div>
         <span id="itemCount">0 itemów</span>
       </div>
     </section>
-
     <section class="products-grid-section">
       <div id="grid" class="products-grid"></div>
       <div id="gridSentinel" class="grid-sentinel" aria-hidden="true"></div>
@@ -580,88 +324,55 @@
   </div>
 
   <div id="outfitsView" style="display:none;">
-  <section class="outfits-page-header">
-    <h1 class="outfits-page-title">Outfity</h1>
-    <p class="outfits-page-subtitle">
-      <strong id="outfitsCountLabel">0+</strong> gotowych zestawów prosto z Chin. Kliknij outfit żeby zobaczyć szczegóły i dodać do koszyka.
-    </p>
-  </section>
-
-  <div class="outfits-topbar">
-    <button class="outfits-filter-btn" type="button">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/></svg>
-      <span>Filtry</span>
-    </button>
-
-    <button class="outfits-machine-trigger" id="outfitsMachineTrigger" type="button">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg>
-      <span>Outfit Machine</span>
-      <span class="beta-chip">BETA</span>
-    </button>
-  </div>
-
-  <div class="outfits-machine-panel" id="outfitsMachinePanel">
-    <div class="outfits-machine-inner">
-      <div class="outfits-machine-head">
-        <div class="outfits-machine-head-left">
-          <div class="outfits-machine-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+    <section class="outfits-page-header">
+      <h1 class="outfits-page-title">Outfity</h1>
+      <p class="outfits-page-subtitle"><strong id="outfitsCountLabel">0+</strong> gotowych zestawów prosto z Chin. Kliknij outfit żeby zobaczyć szczegóły i dodać do koszyka.</p>
+    </section>
+    <div class="outfits-topbar">
+      <button class="outfits-filter-btn" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/></svg>
+        <span>Filtry</span>
+      </button>
+      <button class="outfits-machine-trigger" id="outfitsMachineTrigger" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg>
+        <span>Outfit Machine</span><span class="beta-chip">BETA</span>
+      </button>
+    </div>
+    <div class="outfits-machine-panel" id="outfitsMachinePanel">
+      <div class="outfits-machine-inner">
+        <div class="outfits-machine-head">
+          <div class="outfits-machine-head-left">
+            <div class="outfits-machine-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+            <div><div class="outfits-machine-title">Outfit Machine</div><div class="outfits-machine-sub">Wylosuj kompletny outfit z bazy</div></div>
           </div>
-          <div>
-            <div class="outfits-machine-title">Outfit Machine</div>
-            <div class="outfits-machine-sub">Wylosuj kompletny outfit z bazy</div>
+          <div class="outfits-machine-actions">
+            <button class="outfits-machine-trigger" id="outfitsRandomBtn" type="button" style="margin-left:0;padding:10px 18px;font-size:13px;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
+              <span>Losuj</span>
+            </button>
+            <button class="outfits-close-panel" id="outfitsClosePanel" type="button" aria-label="Zamknij">×</button>
           </div>
         </div>
-        <div class="outfits-machine-actions">
-          <button class="outfits-machine-trigger" id="outfitsRandomBtn" type="button" style="margin-left:0;padding:10px 18px;font-size:13px;">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
-            <span>Losuj</span>
+        <div class="outfits-slots" id="outfitsSlots">
+          <div class="outfits-slot" data-slot="hoodie"><div class="outfits-slot-label">BLUZA</div><div class="outfits-slot-content" id="slot-hoodie"><div class="outfits-slot-empty">BLUZA</div></div></div>
+          <div class="outfits-slot" data-slot="tshirt"><div class="outfits-slot-label">KOSZULKA</div><div class="outfits-slot-content" id="slot-tshirt"><div class="outfits-slot-empty">KOSZULKA</div></div></div>
+          <div class="outfits-slot" data-slot="pants"><div class="outfits-slot-label">SPODNIE</div><div class="outfits-slot-content" id="slot-pants"><div class="outfits-slot-empty">SPODNIE</div></div></div>
+          <div class="outfits-slot" data-slot="shoes"><div class="outfits-slot-label">BUTY</div><div class="outfits-slot-content" id="slot-shoes"><div class="outfits-slot-empty">BUTY</div></div></div>
+        </div>
+        <div class="outfits-machine-footer">
+          <div class="outfits-machine-hint" id="outfitsMachineHint"><span class="spinner-mini"></span><span id="outfitsHintText">Naciśnij "Losuj" żeby wylosować kompletny outfit</span></div>
+          <button class="outfits-save-btn" id="outfitsSaveBtn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+            <span>Zapisz outfit</span>
           </button>
-          <button class="outfits-close-panel" id="outfitsClosePanel" type="button" aria-label="Zamknij">×</button>
         </div>
-      </div>
-
-      <div class="outfits-slots" id="outfitsSlots">
-        <div class="outfits-slot" data-slot="hoodie">
-          <div class="outfits-slot-label">BLUZA</div>
-          <div class="outfits-slot-content" id="slot-hoodie"><div class="outfits-slot-empty">BLUZA</div></div>
-        </div>
-        <div class="outfits-slot" data-slot="tshirt">
-          <div class="outfits-slot-label">KOSZULKA</div>
-          <div class="outfits-slot-content" id="slot-tshirt"><div class="outfits-slot-empty">KOSZULKA</div></div>
-        </div>
-        <div class="outfits-slot" data-slot="pants">
-          <div class="outfits-slot-label">SPODNIE</div>
-          <div class="outfits-slot-content" id="slot-pants"><div class="outfits-slot-empty">SPODNIE</div></div>
-        </div>
-        <div class="outfits-slot" data-slot="shoes">
-          <div class="outfits-slot-label">BUTY</div>
-          <div class="outfits-slot-content" id="slot-shoes"><div class="outfits-slot-empty">BUTY</div></div>
-        </div>
-      </div>
-
-      <div class="outfits-machine-footer">
-        <div class="outfits-machine-hint" id="outfitsMachineHint">
-          <span class="spinner-mini"></span>
-          <span id="outfitsHintText">Naciśnij "Losuj" żeby wylosować kompletny outfit</span>
-        </div>
-        <button class="outfits-save-btn" id="outfitsSaveBtn" type="button">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
-          <span>Zapisz outfit</span>
-        </button>
       </div>
     </div>
+    <section class="outfits-grid-section">
+      <div class="outfits-grid-label"><div class="outfits-grid-label-line"></div><span class="outfits-grid-label-text">NASZE OUTFITY</span><div class="outfits-grid-label-line right"></div></div>
+      <div class="outfits-grid" id="outfitsGrid"></div>
+    </section>
   </div>
-
-  <section class="outfits-grid-section">
-    <div class="outfits-grid-label">
-      <div class="outfits-grid-label-line"></div>
-      <span class="outfits-grid-label-text">NASZE OUTFITY</span>
-      <div class="outfits-grid-label-line right"></div>
-    </div>
-    <div class="outfits-grid" id="outfitsGrid"></div>
-  </section>
-</div>
 
   <div id="toolsView" style="display:none;">
     <section class="tools-section">
@@ -670,140 +381,49 @@
         <button class="tools-tab" data-tab="guides" onclick="switchToolTab('guides')">Poradniki</button>
         <button class="tools-tab" data-tab="tracking" onclick="switchToolTab('tracking')">Śledzenie</button>
       </div>
-
       <div id="toolTab-shipping" class="tool-tab-content active">
         <div class="tool-panel-card">
-          <div class="tool-panel-header">
-            <h2 class="tool-panel-title">Kalkulator wysyłki</h2>
-            <p class="tool-panel-subtitle">Sprawdź ile zapłacisz za wysyłkę, zanim ją zamówisz.</p>
-          </div>
+          <div class="tool-panel-header"><h2 class="tool-panel-title">Kalkulator wysyłki</h2><p class="tool-panel-subtitle">Sprawdź ile zapłacisz za wysyłkę, zanim ją zamówisz.</p></div>
           <div class="shipping-config">
-            <div class="shipping-field">
-              <label>Agent</label>
-              <select id="shipAgent" onchange="calcShipping()">
-                <option value="usfans">USFans</option>
-                <option value="kakobuy">Kakobuy</option>
-                <option value="superbuy">Superbuy</option>
-                <option value="cssbuy">CSSBuy</option>
-                <option value="sugargoo">Sugargoo</option>
-                <option value="hoobuy">HooBuy</option>
-                <option value="allchinabuy">AllChinaBuy</option>
-                <option value="orientdig">OrientDig</option>
-              </select>
-            </div>
-            <div class="shipping-field">
-              <label>Waga (kg)</label>
-              <input type="number" id="shipWeight" value="2" step="0.1" min="0.1" oninput="calcShipping()" />
-            </div>
-            <div class="shipping-field">
-              <label>Kraj</label>
-              <select id="shipCountry" onchange="calcShipping()">
-                <option value="PL" selected>Polska</option>
-                <option value="DE">Niemcy</option>
-                <option value="FR">Francja</option>
-                <option value="ES">Hiszpania</option>
-                <option value="IT">Włochy</option>
-                <option value="UK">UK</option>
-                <option value="US">USA</option>
-              </select>
-            </div>
+            <div class="shipping-field"><label>Agent</label><select id="shipAgent" onchange="calcShipping()"><option value="usfans">USFans</option><option value="kakobuy">Kakobuy</option><option value="superbuy">Superbuy</option><option value="cssbuy">CSSBuy</option><option value="sugargoo">Sugargoo</option><option value="hoobuy">HooBuy</option><option value="allchinabuy">AllChinaBuy</option><option value="orientdig">OrientDig</option></select></div>
+            <div class="shipping-field"><label>Waga (kg)</label><input type="number" id="shipWeight" value="2" step="0.1" min="0.1" oninput="calcShipping()" /></div>
+            <div class="shipping-field"><label>Kraj</label><select id="shipCountry" onchange="calcShipping()"><option value="PL" selected>Polska</option><option value="DE">Niemcy</option><option value="FR">Francja</option><option value="ES">Hiszpania</option><option value="IT">Włochy</option><option value="UK">UK</option><option value="US">USA</option></select></div>
           </div>
           <div class="shipping-result">
-            <div class="shipping-result-main">
-              <div class="shipping-result-label">Szacowany koszt wysyłki</div>
-              <div class="shipping-result-price" id="shipCost">0 zł</div>
-              <div class="shipping-result-pln" id="shipCostPLN">cena bazowa</div>
-            </div>
-            <div class="shipping-result-details">
-              <div class="shipping-detail-row"><span class="shipping-detail-label">Stawka za kg</span><span class="shipping-detail-value" id="shipBaseFee">0 zł/kg</span></div>
-              <div class="shipping-detail-row"><span class="shipping-detail-label">Waga</span><span class="shipping-detail-value" id="shipWeightDisplay">0 kg</span></div>
-            </div>
+            <div class="shipping-result-main"><div class="shipping-result-label">Szacowany koszt wysyłki</div><div class="shipping-result-price" id="shipCost">0 zł</div><div class="shipping-result-pln" id="shipCostPLN">cena bazowa</div></div>
+            <div class="shipping-result-details"><div class="shipping-detail-row"><span class="shipping-detail-label">Stawka za kg</span><span class="shipping-detail-value" id="shipBaseFee">0 zł/kg</span></div><div class="shipping-detail-row"><span class="shipping-detail-label">Waga</span><span class="shipping-detail-value" id="shipWeightDisplay">0 kg</span></div></div>
           </div>
-          <div class="shipping-compare">
-            <div class="shipping-compare-title">Porównanie agentów dla tej samej wagi</div>
-            <div id="shipCompareList" class="shipping-compare-list"></div>
-          </div>
+          <div class="shipping-compare"><div class="shipping-compare-title">Porównanie agentów dla tej samej wagi</div><div id="shipCompareList" class="shipping-compare-list"></div></div>
           <div class="shipping-note">Ceny orientacyjne — mogą się różnić w zależności od sezonu, promocji i konkretnej linii.</div>
         </div>
       </div>
-
       <div id="toolTab-guides" class="tool-tab-content">
         <div class="tool-panel-card">
-          <div class="tool-panel-header">
-            <h2 class="tool-panel-title">Poradniki</h2>
-            <p class="tool-panel-subtitle">Wszystko co musisz wiedzieć o kupowaniu w Chinach.</p>
-          </div>
+          <div class="tool-panel-header"><h2 class="tool-panel-title">Poradniki</h2><p class="tool-panel-subtitle">Wszystko co musisz wiedzieć o kupowaniu w Chinach.</p></div>
           <div class="guide-list">
-            <details class="guide-item">
-              <summary>Jak zacząć kupować u agenta?</summary>
-              <div class="guide-item-content">
-                <ol>
-                  <li><strong>Załóż konto u agenta z naszego linku</strong> — np. USFans, Kakobuy. Wpisz kod referencyjny (np. <code>CARE40</code>) żeby dostać kupony.</li>
-                  <li><strong>Skopiuj link produktu</strong> z Weidian, Taobao, 1688 lub Yupoo.</li>
-                  <li><strong>Wklej link</strong> do wyszukiwarki agenta.</li>
-                  <li><strong>Wybierz rozmiar, kolor, batch</strong> i opłać.</li>
-                  <li><strong>Czekaj</strong> aż produkt dotrze do magazynu (2-5 dni).</li>
-                  <li><strong>Obejrzyj QC</strong> — zaakceptuj lub zgłoś problem.</li>
-                  <li><strong>Zrób rehearsal</strong> — wywal pudełka od butów, zrób vacuuming puchowych rzeczy.</li>
-                  <li><strong>Zapłać za wysyłkę</strong> do Polski i czekaj 5-20 dni.</li>
-                </ol>
-              </div>
-            </details>
-            <details class="guide-item">
-              <summary>Co to jest batch i dlaczego jest ważny?</summary>
-              <div class="guide-item-content">
-                <p><strong>Batch</strong> to partia produktu od konkretnego producenta. Ten sam but może mieć 5 batchy o różnej jakości.</p>
-                <ul><li><strong>GX</strong> — top Jordanów</li><li><strong>LW</strong> — top Yeezy</li><li><strong>OWF</strong> — Off-White</li></ul>
-              </div>
-            </details>
-            <details class="guide-item">
-              <summary>Czym jest QC?</summary>
-              <div class="guide-item-content">
-                <p><strong>QC</strong> to zdjęcia produktu od agenta po dotarciu do magazynu.</p>
-                <ul><li>Sprawdź loga — proste, wyraźne</li><li>Sprawdź szwy — równe</li><li>Sprawdź kolory — zgodne z oryginałem</li><li>Porównaj z retail</li></ul>
-              </div>
-            </details>
-            <details class="guide-item">
-              <summary>Jaką wybrać linię wysyłkową?</summary>
-              <div class="guide-item-content">
-                <ul><li><strong>DHL</strong></li><li><strong>Etl</strong></li><li><strong>Inpost</strong></li><li><strong>DPD</strong></li></ul>
-              </div>
-            </details>
-            <details class="guide-item">
-              <summary>Praktyczne tipy</summary>
-              <div class="guide-item-content">
-                <ul><li>Zawsze sprawdzaj QC</li><li>Wybieraj zaufanych przewoźników</li><li>Kody referencyjne przy rejestracji</li><li>Unikaj świąt</li><li>Dołącz do Discord</li></ul>
-              </div>
-            </details>
+            <details class="guide-item"><summary>Jak zacząć kupować u agenta?</summary><div class="guide-item-content"><ol><li><strong>Załóż konto u agenta z naszego linku</strong> — np. USFans, Kakobuy. Wpisz kod referencyjny (np. <code>CARE40</code>) żeby dostać kupony.</li><li><strong>Skopiuj link produktu</strong> z Weidian, Taobao, 1688 lub Yupoo.</li><li><strong>Wklej link</strong> do wyszukiwarki agenta.</li><li><strong>Wybierz rozmiar, kolor, batch</strong> i opłać.</li><li><strong>Czekaj</strong> aż produkt dotrze do magazynu (2-5 dni).</li><li><strong>Obejrzyj QC</strong> — zaakceptuj lub zgłoś problem.</li><li><strong>Zrób rehearsal</strong> — wywal pudełka od butów, zrób vacuuming puchowych rzeczy.</li><li><strong>Zapłać za wysyłkę</strong> do Polski i czekaj 5-20 dni.</li></ol></div></details>
+            <details class="guide-item"><summary>Co to jest batch i dlaczego jest ważny?</summary><div class="guide-item-content"><p><strong>Batch</strong> to partia produktu od konkretnego producenta. Ten sam but może mieć 5 batchy o różnej jakości.</p><ul><li><strong>GX</strong> — top Jordanów</li><li><strong>LW</strong> — top Yeezy</li><li><strong>OWF</strong> — Off-White</li></ul></div></details>
+            <details class="guide-item"><summary>Czym jest QC?</summary><div class="guide-item-content"><p><strong>QC</strong> to zdjęcia produktu od agenta po dotarciu do magazynu.</p><ul><li>Sprawdź loga — proste, wyraźne</li><li>Sprawdź szwy — równe</li><li>Sprawdź kolory — zgodne z oryginałem</li><li>Porównaj z retail</li></ul></div></details>
+            <details class="guide-item"><summary>Jaką wybrać linię wysyłkową?</summary><div class="guide-item-content"><ul><li><strong>DHL</strong></li><li><strong>Etl</strong></li><li><strong>Inpost</strong></li><li><strong>DPD</strong></li></ul></div></details>
+            <details class="guide-item"><summary>Praktyczne tipy</summary><div class="guide-item-content"><ul><li>Zawsze sprawdzaj QC</li><li>Wybieraj zaufanych przewoźników</li><li>Kody referencyjne przy rejestracji</li><li>Unikaj świąt</li><li>Dołącz do Discord</li></ul></div></details>
           </div>
         </div>
       </div>
-
       <div id="toolTab-tracking" class="tool-tab-content">
         <div class="tool-panel-card">
-          <div class="tool-panel-header">
-            <h2 class="tool-panel-title">Śledzenie paczki</h2>
-            <p class="tool-panel-subtitle">Wpisz numer — otworzymy 17track z ustawionym Fortis.</p>
-          </div>
-          <div class="tracking-form">
-            <input type="text" id="trackingNumber" placeholder="np. FT123456789, RR123456789PL..." onkeydown="if(event.key==='Enter') trackParcel()" />
-            <button class="tracking-btn" onclick="trackParcel()">Śledź →</button>
-          </div>
-          <div class="tracking-info">
-            <strong>Jak to działa?</strong>
-            <p>Wpisz numer śledzenia i naciśnij "Śledź". Otworzy się 17track z Twoim numerem i przewoźnikiem <strong>Fortis</strong> ustawionym automatycznie.</p>
-          </div>
+          <div class="tool-panel-header"><h2 class="tool-panel-title">Śledzenie paczki</h2><p class="tool-panel-subtitle">Wpisz numer — otworzymy 17track z ustawionym Fortis.</p></div>
+          <div class="tracking-form"><input type="text" id="trackingNumber" placeholder="np. FT123456789, RR123456789PL..." onkeydown="if(event.key==='Enter') trackParcel()" /><button class="tracking-btn" onclick="trackParcel()">Śledź →</button></div>
+          <div class="tracking-info"><strong>Jak to działa?</strong><p>Wpisz numer śledzenia i naciśnij "Śledź". Otworzy się 17track z Twoim numerem i przewoźnikiem <strong>Fortis</strong> ustawionym automatycznie.</p></div>
         </div>
       </div>
     </section>
   </div>
-    <div id="sellersView" style="display:none;">
+
+  <div id="sellersView" style="display:none;">
     <section class="sellers-grid-section">
       <div class="sellers-filter-bar">
         <div class="sellers-search-input">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner">
-            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon-inner"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
           <input type="text" id="sellerSearch" placeholder="Szukaj sprzedawców..." oninput="filterSellers()" />
         </div>
         <div class="sellers-filter-chips">
@@ -822,9 +442,7 @@
       <div class="qc-search-container">
         <div class="qc-search-box">
           <div class="qc-search-input-wrapper">
-            <svg class="qc-search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-            </svg>
+            <svg class="qc-search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
             <input type="text" id="qcSearchInput" placeholder="Szukaj produktów po nazwie lub wklej link..." onkeydown="if(event.key==='Enter') searchQC()" />
           </div>
           <button class="qc-search-btn" onclick="searchQC()">Szukaj</button>
@@ -852,6 +470,7 @@
   </div>
 </main>
 
+<!-- POPUPY -->
 <div class="popup-overlay" id="languagePopupOverlay">
   <div class="language-modal-card">
     <div class="language-modal-header">
@@ -870,19 +489,10 @@
 <div class="popup-overlay" id="agentPopupOverlay">
   <div class="agent-modal-card">
     <button class="modal-close-x" onclick="closeAgentPopup()">×</button>
-    <div class="modal-header">
-      <h2 id="agentPopupTitle">Wybierz Agenta</h2>
-      <p id="agentPopupDesc">Wybierz preferowanego agenta.</p>
-    </div>
+    <div class="modal-header"><h2 id="agentPopupTitle">Wybierz Agenta</h2><p id="agentPopupDesc">Wybierz preferowanego agenta.</p></div>
     <div class="agent-options-grid">
-      <button class="agent-select-btn" onclick="selectAgent('kakobuy')">
-        <div class="agent-btn-content"><span class="agent-logo-dot kakobuy-dot"></span><span class="agent-name">Kakobuy</span></div>
-        <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-      </button>
-      <button class="agent-select-btn" onclick="selectAgent('usfans')">
-        <div class="agent-btn-content"><span class="agent-logo-dot usfans-dot"></span><span class="agent-name">USFans</span></div>
-        <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-      </button>
+      <button class="agent-select-btn" onclick="selectAgent('kakobuy')"><div class="agent-btn-content"><span class="agent-logo-dot kakobuy-dot"></span><span class="agent-name">Kakobuy</span></div><svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+      <button class="agent-select-btn" onclick="selectAgent('usfans')"><div class="agent-btn-content"><span class="agent-logo-dot usfans-dot"></span><span class="agent-name">USFans</span></div><svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
     </div>
   </div>
 </div>
@@ -893,7 +503,10 @@
     <div class="popup-header-v2">
       <div class="popup-brand-v2">
         <div class="popup-agent-logo" id="popupAgentLogo">
-          <img src="https://kakobuy.com/favicon.ico" alt="Kakobuy" id="popupLogoImg" loading="lazy">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 20L12 4L21 20H3Z" stroke="#7c5cff" stroke-width="2.5" stroke-linejoin="round"/>
+            <circle cx="12" cy="16" r="1.5" fill="#4ad4ff"/>
+          </svg>
         </div>
         <span class="popup-brand-name">ArchiveReps</span>
       </div>
@@ -904,33 +517,19 @@
     </div>
     <h3 class="popup-headline" id="popupHeadline">Zapłać za 10kg tylko 350zł!</h3>
     <p class="popup-subtext" id="popupDesc">Zarejestruj się przez nasz link, później w Kuponach wpisz kod <strong id="popupSubtextCode">CARE40</strong>.</p>
-    <div class="popup-live" id="popupLive">
-      <span class="popup-live-dot"></span>
-      <span><strong id="popupLiveCount">75</strong> osób ogląda teraz</span>
-    </div>
+    <div class="popup-live" id="popupLive"><span class="popup-live-dot"></span><span><strong id="popupLiveCount">75</strong> osób ogląda teraz</span></div>
     <div class="popup-benefits">
-      <div class="popup-benefit">
-        <div class="popup-benefit-left"><div class="popup-benefit-icon">🏷️</div><span class="popup-benefit-text" id="popupBenefit1Text">Masa kuponów</span></div>
-        <span class="popup-benefit-tag gratis" id="popupBenefit1Tag">GRATIS</span>
-      </div>
-      <div class="popup-benefit">
-        <div class="popup-benefit-left"><div class="popup-benefit-icon">💧</div><span class="popup-benefit-text" id="popupBenefit2Text">Odbierz kupon -40%</span></div>
-        <span class="popup-benefit-tag discount" id="popupBenefit2Tag">−40%</span>
-      </div>
+      <div class="popup-benefit"><div class="popup-benefit-left"><div class="popup-benefit-icon">🏷️</div><span class="popup-benefit-text" id="popupBenefit1Text">Masa kuponów</span></div><span class="popup-benefit-tag gratis" id="popupBenefit1Tag">GRATIS</span></div>
+      <div class="popup-benefit"><div class="popup-benefit-left"><div class="popup-benefit-icon">💧</div><span class="popup-benefit-text" id="popupBenefit2Text">Odbierz kupon -40%</span></div><span class="popup-benefit-tag discount" id="popupBenefit2Tag">−40%</span></div>
     </div>
     <div class="popup-code-section">
       <div class="code-row">
         <span class="code-label" id="popupCodeLabel">Kod referencyjny:</span>
-        <div class="code-value-wrapper">
-          <span class="code-value" id="popupCodeValue">CARE40</span>
-          <button class="copy-code-btn" onclick="copyCode()">Kopiuj</button>
-        </div>
+        <div class="code-value-wrapper"><span class="code-value" id="popupCodeValue">CARE40</span><button class="copy-code-btn" onclick="copyCode()">Kopiuj</button></div>
       </div>
     </div>
     <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="popup-btn popup-btn-v2" id="popupRegisterBtn">
-      <span class="popup-btn-icon">❄️</span>
-      <span id="popupBtnText">Zarejestruj się i odbierz bonusy</span>
-      <span class="popup-btn-arrow">→</span>
+      <span class="popup-btn-icon">❄️</span><span id="popupBtnText">Zarejestruj się i odbierz bonusy</span><span class="popup-btn-arrow">→</span>
     </a>
     <div class="popup-footer" id="popupFooter">Bez zobowiązań · Bonusy działają tylko przez ten link</div>
   </div>
@@ -940,27 +539,25 @@
   <div class="outfit-details-modal">
     <button class="modal-close-x" onclick="closeOutfitDetails()">×</button>
     <div class="outfit-details-layout">
-      <div class="outfit-details-hero" id="outfitDetailsHero">
-        <img id="outfitDetailsImage" src="" alt="Outfit" loading="lazy" />
-      </div>
+      <div class="outfit-details-hero" id="outfitDetailsHero"><img id="outfitDetailsImage" src="" alt="Outfit" loading="lazy" /></div>
       <div class="outfit-details-content">
-        <div class="outfit-details-header">
-          <h2 id="outfitDetailsTitle">Outfit</h2>
-          <div class="outfit-details-price">
-            <span id="outfitDetailsTotal">0 zł</span>
-            <span class="outfit-details-count" id="outfitDetailsCount">0 itemów</span>
-          </div>
-        </div>
+        <div class="outfit-details-header"><h2 id="outfitDetailsTitle">Outfit</h2><div class="outfit-details-price"><span id="outfitDetailsTotal">0 zł</span><span class="outfit-details-count" id="outfitDetailsCount">0 itemów</span></div></div>
         <div class="outfit-details-list" id="outfitDetailsList"></div>
-        <div class="outfit-details-actions">
-          <button class="outfit-details-btn primary" onclick="addAllToCart()">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
-              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
-            </svg>
-            <span>Dodaj wszystko do koszyka</span>
-          </button>
-        </div>
+        <div class="outfit-details-actions"><button class="outfit-details-btn primary" onclick="addAllToCart()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span>Dodaj wszystko do koszyka</span></button></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="popup-overlay" id="promoDetailsOverlay">
+  <div class="outfit-details-modal">
+    <button class="modal-close-x" onclick="closePromoDetails()">×</button>
+    <div class="outfit-details-layout">
+      <div class="outfit-details-hero" id="promoDetailsHero"><img id="promoDetailsImage" src="" alt="Promo" loading="lazy" /></div>
+      <div class="outfit-details-content">
+        <div class="outfit-details-header"><h2 id="promoDetailsTitle">Promocja</h2><div class="outfit-details-price"><span id="promoDetailsPrice">0 zł</span><span class="outfit-details-count" id="promoDetailsBatch">BATCH</span></div></div>
+        <div class="outfit-details-list" id="promoDetailsList"></div>
+        <div class="outfit-details-actions"><button class="outfit-details-btn primary" onclick="addPromoToCart()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span>Przejdź do oferty</span></button></div>
       </div>
     </div>
   </div>
@@ -1022,119 +619,38 @@
   <div class="qc-modal-card">
     <button class="modal-close-x" id="qcPopupClose">×</button>
     <div class="qc-modal-header">
-      <div class="qc-header-left">
-        <span style="font-size:24px">QC</span>
-        <h2>ZDJĘCIA QC</h2>
-      </div>
+      <div class="qc-header-left"><span style="font-size:24px">QC</span><h2>ZDJĘCIA QC</h2></div>
       <span class="qc-badge" id="qcBadge">Sprawdzanie...</span>
     </div>
     <p class="qc-subtitle">Kliknij kafelek z "+" żeby załadować więcej zdjęć.</p>
-    <div class="qc-product-info">
-      <img id="qcProductThumb" src="" alt="Product thumbnail" loading="lazy" decoding="async">
-      <div class="qc-product-details">
-        <h4 id="qcProductTitle">Nazwa produktu</h4>
-        <span id="qcProductPrice">Cena</span>
-      </div>
-    </div>
-    <div class="qc-loading" id="qcLoading" style="display:flex;">
-      <div class="qc-spinner"></div>
-      <span>Ładowanie zdjęć QC...</span>
-    </div>
+    <div class="qc-product-info"><img id="qcProductThumb" src="" alt="Product thumbnail" loading="lazy" decoding="async"><div class="qc-product-details"><h4 id="qcProductTitle">Nazwa produktu</h4><span id="qcProductPrice">Cena</span></div></div>
+    <div class="qc-loading" id="qcLoading" style="display:flex;"><div class="qc-spinner"></div><span>Ładowanie zdjęć QC...</span></div>
     <div class="qc-images-grid" id="qcImagesGrid"></div>
-    <div class="qc-footer">
-      <span class="qc-delivery">Śr. dostawa: 2-5d</span>
-      <a href="#" class="qc-link-btn" id="qcLinkBtn" style="display:none;">Zobacz na QCItems →</a>
-    </div>
+    <div class="qc-footer"><span class="qc-delivery">Śr. dostawa: 2-5d</span><a href="#" class="qc-link-btn" id="qcLinkBtn" style="display:none;">Zobacz na QCItems →</a></div>
   </div>
 </div>
-<!-- MOBILE MENU -->
+
 <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
 <aside class="mobile-menu" id="mobileMenu">
   <div class="mobile-menu-header">
     <div class="mobile-menu-brand">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M3 20L12 4L21 20H3Z" stroke="#7c5cff" stroke-width="2.5" stroke-linejoin="round"/>
-        <circle cx="12" cy="16" r="1.5" fill="#4ad4ff"/>
-      </svg>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 20L12 4L21 20H3Z" stroke="#7c5cff" stroke-width="2.5" stroke-linejoin="round"/><circle cx="12" cy="16" r="1.5" fill="#4ad4ff"/></svg>
       <span class="logo-archive">archive</span><span class="logo-repss">reps</span>
     </div>
     <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Zamknij menu">×</button>
   </div>
-
   <div class="mobile-menu-links">
-    <a href="#" class="mobile-menu-link active" data-view="home">
-      <span class="mobile-menu-link-icon">
-        <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-      </span>
-      <span class="mobile-menu-link-text">Strona główna</span>
-      <span class="mobile-menu-link-arrow">›</span>
-    </a>
-
-    <a href="#" class="mobile-menu-link" data-view="products">
-      <span class="mobile-menu-link-icon">
-        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
-      </span>
-      <span class="mobile-menu-link-text">Produkty</span>
-      <span class="mobile-menu-link-arrow">›</span>
-    </a>
-
-    <a href="#" class="mobile-menu-link" data-view="lastfinds">
-      <span class="mobile-menu-link-icon">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-      </span>
-      <span class="mobile-menu-link-text">Last Finds</span>
-      <span class="mobile-menu-link-arrow">›</span>
-    </a>
-
-    <a href="#" class="mobile-menu-link" data-view="promo">
-      <span class="mobile-menu-link-icon">
-        <svg viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
-      </span>
-      <span class="mobile-menu-link-text">Promocje</span>
-      <span class="mobile-menu-link-arrow">›</span>
-    </a>
-
-    <a href="#" class="mobile-menu-link" data-view="outfits">
-      <span class="mobile-menu-link-icon">
-        <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-      </span>
-      <span class="mobile-menu-link-text">Outfity</span>
-      <span class="mobile-menu-link-arrow">›</span>
-    </a>
-
-    <a href="#" class="mobile-menu-link" data-view="tools">
-      <span class="mobile-menu-link-icon">
-        <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-      </span>
-      <span class="mobile-menu-link-text">Narzędzia</span>
-      <span class="mobile-menu-link-arrow">›</span>
-    </a>
-
-    <a href="#" class="mobile-menu-link" data-view="sellers">
-      <span class="mobile-menu-link-icon">
-        <svg viewBox="0 0 24 24"><path d="M3 9l1-5h16l1 5M3 9v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9M3 9h18"/><path d="M9 22V12h6v10"/></svg>
-      </span>
-      <span class="mobile-menu-link-text">Sprzedawcy</span>
-      <span class="mobile-menu-link-arrow">›</span>
-    </a>
-
-    <a href="#" class="mobile-menu-link" data-view="qcsearch">
-      <span class="mobile-menu-link-icon">
-        <svg viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-      </span>
-      <span class="mobile-menu-link-text">Sprawdź QC</span>
-      <span class="mobile-menu-link-arrow">›</span>
-    </a>
+    <a href="#" class="mobile-menu-link active" data-view="home"><span class="mobile-menu-link-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span><span class="mobile-menu-link-text">Strona główna</span><span class="mobile-menu-link-arrow">›</span></a>
+    <a href="#" class="mobile-menu-link" data-view="products"><span class="mobile-menu-link-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></span><span class="mobile-menu-link-text">Produkty</span><span class="mobile-menu-link-arrow">›</span></a>
+    <a href="#" class="mobile-menu-link" data-view="lastfinds"><span class="mobile-menu-link-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span><span class="mobile-menu-link-text">Last Finds</span><span class="mobile-menu-link-arrow">›</span></a>
+    <a href="#" class="mobile-menu-link" data-view="promo"><span class="mobile-menu-link-icon"><svg viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></span><span class="mobile-menu-link-text">Promocje</span><span class="mobile-menu-link-arrow">›</span></a>
+    <a href="#" class="mobile-menu-link" data-view="outfits"><span class="mobile-menu-link-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></span><span class="mobile-menu-link-text">Outfity</span><span class="mobile-menu-link-arrow">›</span></a>
+    <a href="#" class="mobile-menu-link" data-view="tools"><span class="mobile-menu-link-icon"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span><span class="mobile-menu-link-text">Narzędzia</span><span class="mobile-menu-link-arrow">›</span></a>
+    <a href="#" class="mobile-menu-link" data-view="sellers"><span class="mobile-menu-link-icon"><svg viewBox="0 0 24 24"><path d="M3 9l1-5h16l1 5M3 9v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9M3 9h18"/><path d="M9 22V12h6v10"/></svg></span><span class="mobile-menu-link-text">Sprzedawcy</span><span class="mobile-menu-link-arrow">›</span></a>
+    <a href="#" class="mobile-menu-link" data-view="qcsearch"><span class="mobile-menu-link-icon"><svg viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span><span class="mobile-menu-link-text">Sprawdź QC</span><span class="mobile-menu-link-arrow">›</span></a>
   </div>
-
   <div class="mobile-menu-footer">
-    <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="mobile-menu-agent-btn">
-      <span>Wypróbuj USFans</span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-        <line x1="7" y1="17" x2="17" y2="7"/>
-        <polyline points="7 7 17 7 17 17"/>
-      </svg>
-    </a>
+    <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="mobile-menu-agent-btn"><span>Wypróbuj USFans</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
   </div>
 </aside>
 
@@ -1157,6 +673,5 @@
 </footer>
 
 <script src="script.js" defer></script>
-
 </body>
 </html>
