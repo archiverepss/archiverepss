@@ -12235,13 +12235,12 @@ const products = [
 ];
 
 // ============================================
-// 👕 OUTFITY - WKLEJ TUTAJ SWOJE
+// 👕 OUTFITY - GOTOWE ZESTAWY DO LOSOWANIA
 // ============================================
 const outfits = [
-  // 👇 WKLEJ TUTAJ SWOJE OUTFITY 👇
   {
     id: "ballhog-fit",
-    title: "BALLHOG FIR",
+    title: "Ballhog Fit",
     image: "https://cdn.doppel.fit/CxNnORhUFeDwaqetaYtJXfDTk7LIEyAFB-kiJObIybE/rs:fill:1920/q:85/f:webp/b3V0Zml0cy9mMzFmYzQzMy03YWYzLTQ3NzYtODExZS1iMDQzYjY4YmM2NWIvMC9pbWFnZS53ZWJw",
     tags: ["Ballhog", "DRIP"],
     items: [
@@ -12268,10 +12267,9 @@ const outfits = [
         category: "Shoes",
         linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6561387515",
         linkUsfans: "https://usfans.com/product/3/6561387515?ref=TX9V9N"
-      },
-
+      }
     ]
-  }
+  },
 ];
 
 
@@ -12712,6 +12710,12 @@ const featuredProducts = [];
 
 'use strict';
 
+
+/* ============================================================
+   ARCHIVEREPSS — script.js (FINAL v14 — OUTFITS v2 + MODAL v2)
+   ============================================================ */
+
+'use strict';
 
 // ============================================
 // KONFIGURACJA
@@ -13984,7 +13988,6 @@ function renderHomeFeatured() {
   }
 }
 
-// ANIMACJA: reveal on scroll dla "Najnowsze findy"
 let homeRevealObserver = null;
 
 function setupHomeReveal() {
@@ -14205,67 +14208,97 @@ function renderPromotions() {
 }
 
 // ============================================
-// OUTFITY
+// OUTFITY — v2 (grid + Outfit Machine + animacja shuffle)
 // ============================================
-function renderSavedOutfits() {
-  const grid = $('savedOutfitsGrid');
-  const empty = $('savedOutfitsEmpty');
-  const count = $('savedCount');
+const OUTFIT_SLOTS = {
+  tshirt: ['Tshirts'],
+  pants: ['Pants', 'Shorts'],
+  hoodie: ['Hoodies', 'Jackets'],
+  shoes: ['Shoes']
+};
+
+const OUTFIT_SLOT_LABELS = {
+  hoodie: 'BLUZA', tshirt: 'KOSZULKA', pants: 'SPODNIE', shoes: 'BUTY'
+};
+
+let outfitMachineOpen = false;
+let currentGeneratedOutfit = {};
+
+/* ---------- RENDER GRID OUTFITÓW ---------- */
+function renderOutfitsGrid() {
+  const grid = $('outfitsGrid');
+  const countLabel = $('outfitsCountLabel');
   if (!grid) return;
-  const hardcodedOutfits = (typeof outfits !== 'undefined' ? outfits : []);
-  const all = [...hardcodedOutfits, ...savedOutfits];
-  if (count) count.textContent = all.length;
+
+  const hardcoded = (typeof outfits !== 'undefined' ? outfits : []);
+  const all = [...hardcoded, ...savedOutfits];
+
+  if (countLabel) countLabel.textContent = all.length + '+';
+
   if (all.length === 0) {
-    if (empty) empty.style.display = 'block';
-    grid.querySelectorAll('.saved-outfit-card').forEach(c => c.remove());
+    grid.innerHTML = '<div class="outfits-empty"><p>Brak outfitów</p><span>Wylosuj outfit w Outfit Machine albo dodaj własny w kodzie</span></div>';
     return;
   }
-  if (empty) empty.style.display = 'none';
-  grid.querySelectorAll('.saved-outfit-card').forEach(c => c.remove());
+
+  grid.innerHTML = '';
   const fragment = document.createDocumentFragment();
+
   all.forEach(outfit => {
     const items = outfit.items || [];
     const total = items.reduce((s, i) => s + parsePrice(i.price), 0);
     const totalPLN = Math.round(total * CONFIG.USD_TO_PLN);
     const image = sanitizeUrl(outfit.image || (items[0] && items[0].image) || '');
-    const isHardcoded = hardcodedOutfits.some(o => o.id === outfit.id);
+    const isHardcoded = hardcoded.some(o => String(o.id) === String(outfit.id));
+
     const card = document.createElement('div');
-    card.className = 'saved-outfit-card';
+    card.className = 'outfit-card' + (isHardcoded ? '' : ' is-custom');
+    card.dataset.outfitId = String(outfit.id);
+
     card.innerHTML =
-      '<div class="saved-outfit-preview" style="grid-template-columns:1fr;">' +
-        (image ? '<div class="saved-outfit-preview-item"></div>' : '<div class="saved-outfit-preview-item missing">—</div>') +
-      '</div>' +
-      '<div class="saved-outfit-info"><div class="saved-outfit-meta"><div class="saved-outfit-title">' + escapeHtml(outfit.title || 'Outfit') + '</div><div class="saved-outfit-price">$' + total.toFixed(2) + ' · ' + totalPLN + ' zł • ' + items.length + ' itemów</div></div>' +
-      '<div class="saved-outfit-actions"><button class="saved-outfit-icon-btn" data-action="open-outfit" data-outfit-id="' + escapeAttr(String(outfit.id)) + '" title="Podgląd"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></button>' +
-      (!isHardcoded ? '<button class="saved-outfit-icon-btn delete" data-action="delete-outfit" data-outfit-id="' + escapeAttr(String(outfit.id)) + '" title="Usuń"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6"/></svg></button>' : '') +
-      '</div></div>';
-    if (image) {
-      const preview = card.querySelector('.saved-outfit-preview-item');
-      if (preview) {
-        const img = createImg(image, outfit.title || 'Outfit');
-        preview.appendChild(img);
-      }
-    }
+      (image ? '<img class="outfit-card-img" src="' + escapeHtml(image) + '" alt="' + escapeHtml(outfit.title || 'Outfit') + '" loading="lazy" decoding="async" referrerpolicy="no-referrer">' : '') +
+      '<div class="outfit-card-items-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg><span>' + items.length + '</span></div>' +
+      (isHardcoded ? '' : '<div class="outfit-card-custom-tag">Twój</div><div class="outfit-card-delete" data-action="delete-outfit" data-outfit-id="' + escapeAttr(String(outfit.id)) + '" title="Usuń"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6"/></svg></div>') +
+      '<div class="outfit-card-overlay"><div class="outfit-card-bottom"><div class="outfit-card-meta"><div class="outfit-card-title">' + escapeHtml(outfit.title || 'Outfit') + '</div><div class="outfit-card-price">' + totalPLN + ' zł</div></div></div></div>';
+
+    card.addEventListener('click', (e) => {
+      if (e.target.closest('[data-action="delete-outfit"]')) return;
+      openOutfitDetails(String(outfit.id));
+    }, { passive: true });
+
     fragment.appendChild(card);
   });
+
   grid.appendChild(fragment);
 }
 
+/* ---------- DELETE OUTFIT ---------- */
 document.addEventListener('click', (e) => {
-  const btn = e.target.closest('[data-action="open-outfit"], [data-action="delete-outfit"]');
-  if (!btn) return;
-  const id = btn.dataset.outfitId;
-  if (btn.dataset.action === 'open-outfit') openOutfitDetails(id);
-  else if (btn.dataset.action === 'delete-outfit') deleteSavedOutfit(id);
+  const del = e.target.closest('[data-action="delete-outfit"]');
+  if (!del) return;
+  e.stopPropagation();
+  e.preventDefault();
+  deleteSavedOutfit(del.dataset.outfitId);
 });
 
+function deleteSavedOutfit(id) {
+  if (!confirm('Usunąć ten outfit?')) return;
+  savedOutfits = savedOutfits.filter(o => String(o.id) !== String(id));
+  localStorage.setItem('savedOutfits', JSON.stringify(savedOutfits));
+  renderOutfitsGrid();
+  showToast('Usunięto outfit');
+}
+window.deleteSavedOutfit = deleteSavedOutfit;
+
+/* ---------- OUTFIT DETAILS — v2 (doppel style) ---------- */
 function openOutfitDetails(outfitId) {
-  const hardcodedOutfits = (typeof outfits !== 'undefined' ? outfits : []);
-  const all = [...hardcodedOutfits, ...savedOutfits];
+  const hardcoded = (typeof outfits !== 'undefined' ? outfits : []);
+  const all = [...hardcoded, ...savedOutfits];
   const outfit = all.find(o => String(o.id) === String(outfitId));
   if (!outfit) return;
+
   const overlay = $('outfitDetailsOverlay');
   if (!overlay) return;
+
   const img = $('outfitDetailsImage');
   const hero = $('outfitDetailsHero');
   const items = outfit.items || [];
@@ -14273,57 +14306,82 @@ function openOutfitDetails(outfitId) {
   const totalPLN = Math.round(total * CONFIG.USD_TO_PLN);
   const imageUrl = sanitizeUrl(outfit.image || (items[0] && items[0].image) || '');
 
-  if (img) {
-    if (imageUrl) { setImageSrc(img, imageUrl); if (hero) hero.style.display = 'block'; }
-    else if (hero) hero.style.display = 'none';
+  if (img && hero) {
+    if (imageUrl) {
+      setImageSrc(img, imageUrl);
+      hero.style.display = 'block';
+    } else {
+      hero.style.display = 'none';
+    }
   }
+
   const title = $('outfitDetailsTitle');
   if (title) title.textContent = outfit.title || 'Outfit';
+
   const totalEl = $('outfitDetailsTotal');
-  if (totalEl) totalEl.textContent = '$' + total.toFixed(2) + ' · ' + totalPLN + ' zł';
+  if (totalEl) totalEl.textContent = totalPLN + ' zł';
+
   const countEl = $('outfitDetailsCount');
-  if (countEl) countEl.textContent = items.length + ' itemów';
+  if (countEl) countEl.textContent = items.length + ' ' + (items.length === 1 ? 'item' : 'itemów');
 
   const list = $('outfitDetailsList');
   if (list) {
     list.innerHTML = '';
     const fragment = document.createDocumentFragment();
+
     items.forEach((item, idx) => {
       const pricePLN = Math.round(parsePrice(item.price) * CONFIG.USD_TO_PLN);
       const row = document.createElement('div');
       row.className = 'outfit-details-item';
       row.innerHTML =
         '<div class="outfit-details-item-image"></div>' +
-        '<div class="outfit-details-item-info"><div class="outfit-details-item-tag">' + escapeHtml(item.category || 'item') + '</div><div class="outfit-details-item-name">' + escapeHtml(item.name) + '</div><div class="outfit-details-item-price">' + pricePLN + ' zł</div></div>' +
+        '<div class="outfit-details-item-info">' +
+          '<div class="outfit-details-item-tag">' + escapeHtml((item.category || 'item').toLowerCase()) + '</div>' +
+          '<div class="outfit-details-item-name">' + escapeHtml(item.name) + '</div>' +
+          '<div class="outfit-details-item-price">' + pricePLN + ' zł</div>' +
+        '</div>' +
         '<div class="outfit-details-item-actions">' +
-          '<button class="outfit-details-icon-btn" data-action="open-item" data-item-idx="' + idx + '" title="Otwórz link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M10 13a5 5 0 007 0l3-3a5 5 0 00-7-7l-1 1"/><path d="M14 11a5 5 0 00-7 0l-3 3a5 5 0 007 7l1-1"/></svg></button>' +
+          '<button class="outfit-details-icon-btn" data-action="open-item" data-item-idx="' + idx + '" title="Dodaj do koszyka">' +
+            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>' +
+          '</button>' +
+          '<button class="outfit-details-icon-btn" data-action="open-item-link" data-item-idx="' + idx + '" title="Otwórz link">' +
+            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 007 0l3-3a5 5 0 00-7-7l-1 1"/><path d="M14 11a5 5 0 00-7 0l-3 3a5 5 0 007 7l1-1"/></svg>' +
+          '</button>' +
         '</div>';
       const imgSlot = row.querySelector('.outfit-details-item-image');
-      if (imgSlot) {
-        const img = createImg(item.image, item.name);
-        imgSlot.appendChild(img);
-      }
+      if (imgSlot) imgSlot.appendChild(createImg(item.image, item.name));
       fragment.appendChild(row);
     });
     list.appendChild(fragment);
     list._outfitItems = items;
   }
+
   overlay.classList.add('active');
   document.body.style.overflow = 'hidden';
 }
 
+/* ---------- EVENT DELEGATION: klik w przyciski w modalu ---------- */
 document.addEventListener('click', (e) => {
-  const btn = e.target.closest('[data-action="open-item"]');
+  const btn = e.target.closest('[data-action="open-item"], [data-action="open-item-link"]');
   if (!btn) return;
+
   const list = $('outfitDetailsList');
   if (!list || !list._outfitItems) return;
+
   const idx = parseInt(btn.dataset.itemIdx, 10);
+  if (isNaN(idx)) return;
+
   const item = list._outfitItems[idx];
   if (!item) return;
-  const link = sanitizeUrl(state.preferredAgent === 'kakobuy' ? item.linkKakobuy : item.linkUsfans);
-  const fallback = link || sanitizeUrl(item.linkUsfans) || sanitizeUrl(item.linkKakobuy);
-  if (fallback && fallback !== '#') window.open(fallback, '_blank', 'noopener,noreferrer');
-});
+
+  if (btn.dataset.action === 'open-item-link') {
+    const link = sanitizeUrl(state.preferredAgent === 'kakobuy' ? item.linkKakobuy : item.linkUsfans);
+    const fallback = link || sanitizeUrl(item.linkUsfans) || sanitizeUrl(item.linkKakobuy);
+    if (fallback && fallback !== '#') window.open(fallback, '_blank', 'noopener,noreferrer');
+  } else {
+    showToast('Dodano: ' + item.name);
+  }
+}, { passive: true });
 
 function closeOutfitDetails() {
   const overlay = $('outfitDetailsOverlay');
@@ -14340,75 +14398,39 @@ function addAllToCart() {
 }
 window.addAllToCart = addAllToCart;
 
-function deleteSavedOutfit(id) {
-  if (!confirm('Usunąć ten outfit?')) return;
-  savedOutfits = savedOutfits.filter(o => String(o.id) !== String(id));
-  localStorage.setItem('savedOutfits', JSON.stringify(savedOutfits));
-  renderSavedOutfits();
-  showToast('Usunięto');
-}
-window.deleteSavedOutfit = deleteSavedOutfit;
-
-// ============================================
-// OUTFIT MACHINE
-// ============================================
-const OUTFIT_SLOTS = {
-  tshirt: ['Tshirts'],
-  pants: ['Pants', 'Shorts'],
-  hoodie: ['Hoodies', 'Jackets'],
-  shoes: ['Shoes']
-};
-
-function getProductsBySlots(slotKey) {
+/* ---------- MACHINE — SLOTY ---------- */
+function getProductsBySlot(slotKey) {
   const allProducts = (typeof products !== 'undefined' ? products : []);
-  const cats = OUTFIT_SLOTS[slotKey];
-  let pool = allProducts.filter(p => cats.includes(p.category));
+  let pool = allProducts.filter(p => OUTFIT_SLOTS[slotKey].includes(p.category));
   if (pool.length < 5 && slotKey === 'hoodie') {
     pool = allProducts.filter(p => ['Hoodies', 'Jackets', 'Tshirts'].includes(p.category));
   }
   return pool;
 }
 
-function generateRandomOutfit() {
-  const slots = ['tshirt', 'pants', 'hoodie', 'shoes'];
-  const hint = $('outfitHint');
-  if (hint) hint.textContent = 'Losowanie...';
-  const existing = document.querySelector('.outfit-actions');
-  if (existing) existing.remove();
-
-  const newOutfit = {};
-  slots.forEach((slotKey) => {
-    const pool = getProductsBySlots(slotKey);
-    const product = pool[Math.floor(Math.random() * pool.length)] || null;
-    newOutfit[slotKey] = product;
-    renderSlot(slotKey, product);
-  });
-  state.currentOutfit = newOutfit;
-  showOutfitActions();
-  if (hint) hint.textContent = 'Outfit gotowy!';
-}
-window.generateRandomOutfit = generateRandomOutfit;
-
 function renderSlot(slotKey, product) {
   const slotEl = $('slot-' + slotKey);
   if (!slotEl) return;
+  slotEl.classList.remove('shuffling', 'loading', 'revealed', 'flash');
+
   if (!product) {
     slotEl.classList.remove('has-item');
-    slotEl.innerHTML = '<div class="outfit-slot-empty"><span>' + escapeHtml(slotKey.toUpperCase()) + '</span></div>';
+    slotEl.innerHTML = '<div class="outfits-slot-empty">' + OUTFIT_SLOT_LABELS[slotKey] + '</div>';
     slotEl.onclick = null;
     return;
   }
-  const price = parsePrice(product.price);
-  const pricePLN = Math.round(price * CONFIG.USD_TO_PLN);
+
   slotEl.classList.add('has-item');
-  slotEl.innerHTML =
-    '<div class="outfit-slot-image-slot"></div>' +
-    '<div class="outfit-slot-overlay"><div class="outfit-slot-name">' + escapeHtml(product.name) + '</div><div class="outfit-slot-price">$' + price.toFixed(2) + ' · ' + pricePLN + ' zł</div></div>';
-  const slot = slotEl.querySelector('.outfit-slot-image-slot');
-  if (slot) {
-    const img = createImg(product.image, product.name, { className: 'outfit-slot-image' });
-    slot.replaceWith(img);
-  }
+  slotEl.innerHTML = '';
+
+  const img = createImg(product.image, product.name);
+  slotEl.appendChild(img);
+
+  const info = document.createElement('div');
+  info.className = 'outfits-slot-info';
+  info.textContent = product.name;
+  slotEl.appendChild(info);
+
   slotEl.onclick = function (e) {
     e.stopPropagation();
     const link = sanitizeUrl(state.preferredAgent === 'kakobuy' ? product.linkKakobuy : product.linkUsfans);
@@ -14416,64 +14438,151 @@ function renderSlot(slotKey, product) {
   };
 }
 
-function showOutfitActions() {
-  const footer = document.querySelector('.outfit-machine-footer');
-  if (!footer) return;
-  const existing = document.querySelector('.outfit-actions');
-  if (existing) existing.remove();
-  const div = document.createElement('div');
-  div.className = 'outfit-actions';
-  div.innerHTML =
-    '<button class="outfit-action-btn primary" data-action="save-outfit">Zapisz outfit</button>' +
-    '<button class="outfit-action-btn" data-action="open-all-links">Otwórz linki</button>';
-  footer.parentNode.insertBefore(div, footer);
+/* ---------- MACHINE — LOSOWANIE Z ANIMACJĄ ---------- */
+function generateRandomOutfit() {
+  const slots = ['hoodie', 'tshirt', 'pants', 'shoes'];
+  const hint = $('outfitsMachineHint');
+  const hintText = $('outfitsHintText');
+  const saveBtn = $('outfitsSaveBtn');
+
+  if (saveBtn) saveBtn.classList.remove('ready');
+  if (hint) hint.classList.add('loading');
+  if (hintText) hintText.textContent = 'Losowanie outfitów...';
+
+  slots.forEach(slotKey => {
+    const slotEl = $('slot-' + slotKey);
+    if (!slotEl) return;
+    slotEl.classList.add('shuffling');
+    const pool = getProductsBySlot(slotKey);
+    if (pool.length === 0) return;
+
+    slotEl._shuffleInterval = setInterval(() => {
+      const randomP = pool[Math.floor(Math.random() * pool.length)];
+      const oldImg = slotEl.querySelector('img');
+      if (oldImg) {
+        oldImg.src = sanitizeUrl(randomP.image);
+      } else {
+        slotEl.innerHTML = '';
+        const img = createImg(randomP.image, randomP.name);
+        slotEl.appendChild(img);
+      }
+    }, 60);
+  });
+
+  setTimeout(() => {
+    const newOutfit = {};
+    slots.forEach((slotKey, i) => {
+      const slotEl = $('slot-' + slotKey);
+      if (slotEl && slotEl._shuffleInterval) {
+        clearInterval(slotEl._shuffleInterval);
+        delete slotEl._shuffleInterval;
+      }
+      const pool = getProductsBySlot(slotKey);
+      const product = pool[Math.floor(Math.random() * pool.length)] || null;
+      newOutfit[slotKey] = product;
+
+      setTimeout(() => {
+        if (slotEl) {
+          slotEl.classList.remove('shuffling', 'loading');
+          slotEl.classList.add('revealed');
+          setTimeout(() => slotEl.classList.add('flash'), 50);
+          setTimeout(() => slotEl.classList.remove('flash'), 800);
+        }
+        renderSlot(slotKey, product);
+      }, i * 100);
+    });
+
+    currentGeneratedOutfit = newOutfit;
+    state.currentOutfit = newOutfit;
+
+    setTimeout(() => {
+      if (hint) hint.classList.remove('loading');
+      if (hintText) hintText.textContent = 'Outfit gotowy! Możesz go zapisać.';
+      if (saveBtn) saveBtn.classList.add('ready');
+    }, slots.length * 100 + 300);
+  }, 500);
 }
+window.generateRandomOutfit = generateRandomOutfit;
 
-document.addEventListener('click', (e) => {
-  const btn = e.target.closest('[data-action="save-outfit"], [data-action="open-all-links"]');
-  if (!btn) return;
-  if (btn.dataset.action === 'save-outfit') saveCurrentOutfit();
-  else if (btn.dataset.action === 'open-all-links') openAllOutfitLinks();
-});
+/* ---------- MACHINE — PANEL TOGGLE ---------- */
+function openMachinePanel() {
+  const panel = $('outfitsMachinePanel');
+  if (!panel) return;
+  panel.classList.add('open');
+  outfitMachineOpen = true;
+}
+function closeMachinePanel() {
+  const panel = $('outfitsMachinePanel');
+  if (!panel) return;
+  panel.classList.remove('open');
+  outfitMachineOpen = false;
+}
+function toggleMachinePanel() {
+  if (outfitMachineOpen) closeMachinePanel();
+  else openMachinePanel();
+}
+window.openMachinePanel = openMachinePanel;
+window.closeMachinePanel = closeMachinePanel;
 
+/* ---------- MACHINE — ZAPISZ OUTFIT ---------- */
 function saveCurrentOutfit() {
-  if (!Object.values(state.currentOutfit).some(p => p)) { alert('Najpierw wylosuj outfit!'); return; }
+  const outfit = currentGeneratedOutfit;
+  if (!outfit || !Object.values(outfit).some(p => p)) {
+    alert('Najpierw wylosuj outfit!');
+    return;
+  }
+
   const custom = {
     id: Date.now(),
     title: 'Losowy outfit',
-    image: sanitizeUrl(state.currentOutfit.tshirt?.image || state.currentOutfit.hoodie?.image || ''),
+    image: sanitizeUrl((outfit.hoodie && outfit.hoodie.image) || (outfit.tshirt && outfit.tshirt.image) || ''),
     date: new Date().toLocaleDateString('pl-PL'),
     custom: false,
     items: []
   };
+
   ['hoodie', 'tshirt', 'pants', 'shoes'].forEach(slot => {
-    const item = state.currentOutfit[slot];
+    const item = outfit[slot];
     if (item) custom.items.push({
       name: item.name, image: item.image, price: item.price, category: item.category,
       linkKakobuy: item.linkKakobuy, linkUsfans: item.linkUsfans
     });
   });
+
   savedOutfits.unshift(custom);
   if (savedOutfits.length > 30) savedOutfits = savedOutfits.slice(0, 30);
   localStorage.setItem('savedOutfits', JSON.stringify(savedOutfits));
-  renderSavedOutfits();
-  showToast('Zapisano!');
+  renderOutfitsGrid();
+  showToast('Zapisano outfit!');
 }
+window.saveCurrentOutfit = saveCurrentOutfit;
 
-function openAllOutfitLinks() {
-  let opened = 0;
-  ['tshirt', 'pants', 'hoodie', 'shoes'].forEach(slot => {
-    const p = state.currentOutfit[slot];
-    if (p && opened < CONFIG.MAX_OPENED_LINKS) {
-      const link = sanitizeUrl(state.preferredAgent === 'kakobuy' ? p.linkKakobuy : p.linkUsfans);
-      if (link && link !== '#') {
-        setTimeout(() => window.open(link, '_blank', 'noopener,noreferrer'), opened * 200);
-        opened++;
-      }
-    }
-  });
-  if (opened === 0) alert('Brak linków');
+/* ---------- INIT OUTFITS PAGE ---------- */
+function initOutfitsPage() {
+  const trigger = $('outfitsMachineTrigger');
+  const randomBtn = $('outfitsRandomBtn');
+  const closeBtn = $('outfitsClosePanel');
+  const saveBtn = $('outfitsSaveBtn');
+
+  if (trigger && !trigger._bound) {
+    trigger.addEventListener('click', toggleMachinePanel);
+    trigger._bound = true;
+  }
+  if (randomBtn && !randomBtn._bound) {
+    randomBtn.addEventListener('click', generateRandomOutfit);
+    randomBtn._bound = true;
+  }
+  if (closeBtn && !closeBtn._bound) {
+    closeBtn.addEventListener('click', closeMachinePanel);
+    closeBtn._bound = true;
+  }
+  if (saveBtn && !saveBtn._bound) {
+    saveBtn.addEventListener('click', saveCurrentOutfit);
+    saveBtn._bound = true;
+  }
+  renderOutfitsGrid();
 }
+window.initOutfitsPage = initOutfitsPage;
 
 // ============================================
 // KALKULATOR WYSYŁKI
@@ -14596,7 +14705,6 @@ function trackParcel() {
   window.open('https://t.17track.net/pl#nums=' + encodeURIComponent(num) + '&fc=191272', '_blank', 'noopener,noreferrer');
 }
 window.trackParcel = trackParcel;
-
 // ============================================
 // POPUPY
 // ============================================
@@ -14903,7 +15011,7 @@ function switchView(view) {
   } else if (view === 'outfits') {
     const el = $('outfitsView'); if (el) el.style.display = 'block';
     $('navOutfits')?.classList.add('active');
-    renderSavedOutfits();
+    initOutfitsPage();
   } else if (view === 'tools') {
     const el = $('toolsView'); if (el) el.style.display = 'block';
     $('navTools')?.classList.add('active');
@@ -14920,6 +15028,14 @@ window.switchView = switchView;
 // INIT
 // ============================================
 document.addEventListener('DOMContentLoaded', function () {
+  // Awaryjne: zawsze odpal app-ready po 2s
+  setTimeout(() => {
+    if (!document.body.classList.contains('app-ready')) {
+      document.body.classList.add('app-ready');
+      console.warn('Force app-ready (fallback)');
+    }
+  }, 2000);
+
   if (typeof products === 'undefined' || !Array.isArray(products)) {
     console.error('Brak tablicy "products"');
     document.body.classList.add('app-ready');
@@ -14961,11 +15077,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }, 1000);
 
-  console.log('ArchiveReps loaded — HOME view active.');
+  console.log('ArchiveReps loaded — OUTFITS v2 ready.');
 });
 
 /* ============================================================
-   ============  MOBILE HAMBURGER MENU LOGIC  ================
+   MOBILE HAMBURGER MENU LOGIC
    ============================================================ */
 (function() {
   'use strict';
