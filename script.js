@@ -12112,6 +12112,126 @@ const products = [
     tag: "DREAMREMAKE",
     rating: 5
   },
+  {
+    name: "number nine fender hoodie (black)",
+    category: "Hoodies",
+    price: "$41.32",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01m2epc31CUyldAknO3_!!2025450085.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D990517666261&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/14pYpw9dW2nfO78eKCIt6Ot_oreroF6tQMfzdQJcOJ-bknOmJJ7uUw?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "number nine striped jeans",
+    category: "Pants",
+    price: "$44.82",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01VbbXb3gWFZK1WPjS_!!2025450085.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D903285937614&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/i42vFxO11aBXxjnFIUva-r2xKBXEYAm2M7vxME2-um-8q8adTgpk0A?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "CLOUDTILT",
+    category: "Shoes",
+    price: "$43.32",
+    image: "https://si.geilicdn.com/pcitem901878883297-33af0000019faccb1f2e0a2396f4_1440_1440.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7817542998&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7817542998?ref=TX9V9N",
+    tag: "T1",
+    rating: 5
+  },
+  {
+    name: "BAPESTA [LINK 2]",
+    category: "Shoes",
+    price: "$25",
+    image: "https://si.geilicdn.com/pcitem902012928833-36490000019bc5f5d10f0a239846_1074_1074.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7622106470&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7622106470?ref=TX9V9N",
+    tag: "C",
+    rating: 5
+  },
+  {
+    name: "AIR YEEZY 2",
+    category: "Shoes",
+    price: "$119.96",
+    image: "https://si.geilicdn.com/wdseller1909199332-0d280000019be571c81b0a23138d_2560_2560.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7334181985",
+    linkUsfans: "https://usfans.com/product/3/7334181985?ref=TX9V9N",
+    tag: "OWF",
+    rating: 5
+  },
+  {
+    name: "ASICS GEL KAHANA 8",
+    category: "Shoes",
+    price: "$28",
+    image: "https://si.geilicdn.com/pcitem902045249308-2e670000019dae45836d0a8132bd_3024_3024.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7699697228&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7699697228?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
+  {
+    name: "ASICS GEL 1130",
+    category: "Shoes",
+    price: "$29.66",
+    image: "https://si.geilicdn.com/pcitem901870080011-5bdd0000019784c11aa00a239646_1440_1440.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7703922718&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7703922718?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA 10XL",
+    category: "Shoes",
+    price: "$61.28",
+    image: "https://si.geilicdn.com/pcitem1710010242-44c1000001983716dd330a20e273_3072_3072.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7227681077&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7227681077?ref=TX9V9N",
+    tag: "XA = BEST",
+    rating: 5
+  },
+  {
+    name: "BALENCIAGA STAPLER",
+    category: "Shoes",
+    price: "$62.93",
+    image: "https://si.geilicdn.com/pcitem1710010242-3d5000000198370b0ad70a23037f_3072_3072.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7266112493&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7266112493?ref=TX9V9N",
+    tag: "VG = BEST",
+    rating: 5
+  },
+  {
+    name: "NUMBERIS [BUDGET]",
+    category: "Shoes",
+    price: "$29.66",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN019j97uw1dCC9YpPJ55_!!2220059103699-0-cib.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F972250196381.html&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/1/972250196381?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "CP COMPANY PADDED JACKET",
+    category: "Jackets",
+    price: "$122.46",
+    image: "https://si.geilicdn.com/pcitem1858790261-4c2f0000019ab10f1aa10a20e2c5_736_736.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7818543825",
+    linkUsfans: "https://usfans.com/product/3/7818543825?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "CP COMPANY GOOGLE JACKET",
+    category: "Jackets",
+    price: "$91.63",
+    image: "https://si.geilicdn.com/pcitem1858790261-788b0000019ab115a40c0a23038e_1186_1500.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7821447446",
+    linkUsfans: "https://usfans.com/product/3/7821447446?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
 ];
 
 // ============================================
