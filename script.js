@@ -12232,6 +12232,206 @@ const products = [
     tag: "BEST",
     rating: 5
   },
+  {
+    name: "gucci chateau marmont hoodie",
+    category: "Hoodies",
+    price: "$57.98",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2220863143615/O1CN01sgGbQzAMqYF3VX04_!!2220863143615.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1073540898333&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/mSt9SD2ecOWgU3iwu_868wdKrGl1fKNOurzuXqAxIxNJOQOdRyFfKes?ref=TX9V9N",
+    tag: "lvcha made",
+    rating: 5
+  },
+  {
+    name: "maison margiela removable zip up hoodie",
+    category: "Hoodies",
+    price: "$54.82",
+    image: "https://img.alicdn.com/bao/uploaded/i1/1101571305/O1CN01EoRBXU1LVk0sXil7q_!!1101571305.png",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1017193512465&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/LZwrojU2rx7t6JRm-gHk8aVo3GqYrgf0bq2T9YPOGvudgzbjTKI78aM?ref=TX9V9N",
+    tag: "RICHBRO",
+    rating: 5
+  },
+  {
+    name: "revenge hoodie [budget]",
+    category: "Hoodies",
+    price: "$24.66",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2196894558/O1CN017jJZWi1jXc99YdSZv_!!2196894558.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D653778439915&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/btsy8KrhTgrg-ES_SmNUi_fzcOVtJ2wEOq6TD6dJEP3R1Yjm1t35Gg?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "denim tears hoodie",
+    category: "Hoodies",
+    price: "$49.65",
+    image: "https://media.usfans.com/upload/ori/2026/10/08/192955/4b331f7f-7caf-4291-adbd-0f7189a4ff36.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1001952763181&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/3dDM9MCWgv6pCcRvZC0lNIU0Xmjr6EHd3Cd5UBzzK4WUGXPRMsoTakg?ref=TX9V9N",
+    tag: "BEST / ANGELKING",
+    rating: 5
+  },
+  {
+    name: "denim tears sweatpants",
+    category: "Pants",
+    price: "$44.65",
+    image: "https://media.usfans.com/2026/10/08/104648/21e56f20-69fc-41a7-ad7d-d46ac624dd4a.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1001967311797&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/QyoE3agZg2dzkY_P14gY3qVjdxVka5WHNJFs7UDOt8iD5AA8s4Pcf3A?ref=TX9V9N",
+    tag: "BEST / ANGELKING",
+    rating: 5
+  },
+  {
+    name: "denim tears tee",
+    category: "Tshirts",
+    price: "$16.33",
+    image: "https://media.usfans.com/2026/09/10/115241/91fc67ab-7dbe-48cc-b137-1ceecdee4d8c.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1002599406861&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/WkcDJEhJljmzyrxx3PioXpLok6kf1tMXkNc_CAsgYFfREY0tMd6DgFY?ref=TX9V9N",
+    tag: "BEST / ANGELKING",
+    rating: 5
+  },
+  {
+    name: "denim tears shorts",
+    category: "Shorts",
+    price: "$28",
+    image: "https://media.usfans.com/2026/08/28/145844/2a93bff6-8607-4fab-87ae-4e80fcd42573.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1004136388105&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/h4RETCvS9S2BJBRThLPUk54h4Ax0d1u8Sld-wL0RQDADbBV1T4wZYac?ref=TX9V9N",
+    tag: "BEST / ANGELKING",
+    rating: 5
+  },
+  {
+    name: "ultralight washed longsleeve",
+    category: "Tshirts",
+    price: "$25",
+    image: "https://si.geilicdn.com/wdseller2073272636-6a590000019e84ba4e210a8133cc_1320_1320.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7777773121&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7777773121?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "ultralight rainbow letters tee",
+    category: "Tshirts",
+    price: "$12.50",
+    image: "https://si.geilicdn.com/wdseller2073272636-49980000019fb9c30e8f0a2394a4_1320_1320.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7816445873&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7816445873?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "deputy zip up hoodie",
+    category: "Hoodies",
+    price: "$30",
+    image: "https://si.geilicdn.com/wdseller2073272636-28850000019fa2520c2b0a81347d_1320_1320.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7813268883&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7813268883?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "deputy script zip",
+    category: "Hoodies",
+    price: "$36.66",
+    image: "https://si.geilicdn.com/wdseller2073272636-328a0000019fdb22dff10a22d535_1320_1320.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7823700458&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7823700458?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "deputy red lips hoodie",
+    category: "Hoodies",
+    price: "$26.66",
+    image: "https://si.geilicdn.com/wdseller2073272636-051f0000019f9cfa3f380a2301af_2560_2560.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7812948869&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7812948869?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "mutimer ballet tee",
+    category: "Tshirts",
+    price: "$14.83",
+    image: "https://si.geilicdn.com/wdseller2073272636-114d0000019f4d0841ea0a20e2c5_1320_1320.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7805019117&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7805019117?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "mutimer chair tee",
+    category: "Tshirts",
+    price: "$14.17",
+    image: "https://si.geilicdn.com/wdseller2073272636-6cea0000019f38a5a6fa0a239646_1320_1320.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7804643178&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7804643178?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "vszn polo",
+    category: "Tshirts",
+    price: "$18.16",
+    image: "https://si.geilicdn.com/wdseller2088921286-5d43000001a06731892d0a23047e_1320_1320.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7844900143&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7844900143?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "vszn paparazzi tee",
+    category: "Tshirts",
+    price: "$14.17",
+    image: "https://si.geilicdn.com/wdseller2088921286-7dfb0000019fb98cc1c20a2315ef_1280_1280.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7816391863&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7816391863?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "exp5 watch tee",
+    category: "Tshirts",
+    price: "$11.50",
+    image: "https://si.geilicdn.com/pcitem2088921286-56f00000019fa882c3c90a23041a-unadjust_990_964.png",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7817202504&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7817202504?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "exp5 plaid button shirt",
+    category: "Tshirts",
+    price: "$14.17",
+    image: "https://si.geilicdn.com/pcitem2088921286-33980000019fa87ea3310a23111a-unadjust_962_986.png",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7814186695&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7814186695?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "exp5 brick belt",
+    category: "Belts",
+    price: "$27.49",
+    image: "https://si.geilicdn.com/pcitem2088921286-016f0000019fa889b5080a20e273-unadjust_822_838.png",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7814182847&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7814182847?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "reaven tears tee",
+    category: "Tshirts",
+    price: "$11.50",
+    image: "https://si.geilicdn.com/pcitem2088921286-39b30000019fa88c4bc50a230115-unadjust_988_986.png",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7814060965&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7814060965?ref=TX9V9N",
+    tag: "PENGREPS",
+    rating: 5
+  },
 ];
 
 // ============================================
