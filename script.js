@@ -12242,7 +12242,7 @@ const outfits = [
     id: "ballhog-fit",
     title: "Ballhog Fit",
     image: "https://cdn.doppel.fit/CxNnORhUFeDwaqetaYtJXfDTk7LIEyAFB-kiJObIybE/rs:fill:1920/q:85/f:webp/b3V0Zml0cy9mMzFmYzQzMy03YWYzLTQ3NzYtODExZS1iMDQzYjY4YmM2NWIvMC9pbWFnZS53ZWJw",
-    tags: ["Ballhog", "DRIP"],
+    tags: ["Ballhog","DRIP"],
     items: [
       {
         name: "HYOMA SWEATER",
@@ -12267,7 +12267,7 @@ const outfits = [
         category: "Shoes",
         linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6561387515",
         linkUsfans: "https://usfans.com/product/3/6561387515?ref=TX9V9N"
-      }
+      },
     ]
   },
 ];
@@ -12277,19 +12277,6 @@ const outfits = [
 // 🏷️ PROMOCJE - WKLEJ TUTAJ SWOJE
 // ============================================
 const promotions = [
-  // 👇 WKLEJ TUTAJ SWOJE PROMOCJE 👇
-   {
-    name: "CORTEIZ",
-    price: "CHEAP",
-    pricePLN: "CHEAP zł",
-    batch: "BEST",
-    expiry: "-",
-    rating: 10,
-    image: "https://si.geilicdn.com/wdseller1936187346-574f000001991dcde8250a23037f_1290_1290.jpg",
-    link: "https://goat-official.x.yupoo.com/categories/4970429",
-    tag: "GOAT",
-    category: "All"
-  },
   {
     name: "BROKEN PLANET",
     price: "CHEAP",
@@ -12314,7 +12301,7 @@ const promotions = [
     tag: "GOAT",
     category: "All"
   },
-   {
+  {
     name: "BALENCIAGA DEFENDER",
     price: "$31.11",
     pricePLN: "≈ 116 zł",
@@ -12338,25 +12325,12 @@ const promotions = [
     tag: "PENGREPS",
     category: "All"
   },
-  {
-    name: "RANDOM YEEZY SLIDES / NO BOX",
-    price: "$6.55",
-    pricePLN: "≈ 25 zł",
-    batch: "LW",
-    expiry: "-",
-    rating: 9,
-    image: "https://si.geilicdn.com/wdseller1994488306-23fb0000019e34c61cc90a23b54f_2560_2560.jpg",
-    link: "https://usfans.com/product/3/7654491297?ref=TX9V9N",
-    tag: "YOLO",
-    category: "shoes"
-  },  
 ];
 
 // ============================================
 // 🏪 SPRZEDAWCY - WKLEJ TUTAJ SWOICH
 // ============================================
 const sellers = [
-  // 👇 WKLEJ TUTAJ SWOICH SPRZEDAWCÓW 👇
   {
     name: "HotDog",
     category: "clothing",
@@ -12408,7 +12382,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na Casablanca , Chrome Hearts",
     link: "https://tophotfashion.x.yupoo.com/categories/4639789",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12417,7 +12391,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na Sp5der, Hellstar, Eric Emmanuel",
     link: "https://pikachushop.x.yupoo.com/categories/4695853",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12426,7 +12400,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na Tech Fleece",
     link: "https://huskyreps.x.yupoo.com/categories/5071768",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12435,7 +12409,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na PeaceInWar",
     link: "https://alienstudio.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12444,7 +12418,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na obuwie Off-White, oraz kurtki TNF (TOP BATCH)",
     link: "https://shark-breeder.x.yupoo.com/categories/4510356",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12453,16 +12427,16 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na Acne Studios, Balenciaga Strike Boots oraz Margiela Gats",
     link: "https://mvt-shop01.x.yupoo.com/search/album?uid=1&sort=&q=acne",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
-   {
+  {
     name: "NeonRG",
     category: "clothing",
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na obuwie Loubutin",
     link: "https://weidian.com/?userid=927881720&p=iphone&wfr=BuyercopyURL&share_relation=abed070e2cc9bf60_927881720_1",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12471,16 +12445,16 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca odzieży high fashion oraz na marki typu: BURBERRY, BALENCIAGA",
     link: "https://thethunder.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
-   {
+  {
     name: "CVW",
     category: "shoes",
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na sneakersy Travis",
     link: "https://weidian.com/?userid=1801401190",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12489,7 +12463,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na Syna World",
     link: "https://elephant-factory.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12498,7 +12472,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Jeden z lepszych sprzedawców na itemy CELINE",
     link: "https://1to1.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12507,7 +12481,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na buty DIOR B23",
     link: "https://13160805690.x.yupoo.com/categories/734649?isSubCate=true",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12516,7 +12490,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na bransoletki wykonane z naprawde trwałych materiałów.",
     link: "hhttps://www.survivalworld1.top/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12525,7 +12499,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na czapki oraz szaliki",
     link: "https://ogwave.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12534,7 +12508,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na Givenchy",
     link: "https://backstudio.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12543,7 +12517,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na bielizne",
     link: "https://baymaxsocks.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12552,25 +12526,25 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na obuwie Lanvin, Hasło: Hinaisan , żeby zakupic przedmiot trzeba napisac do niego na whatsappie",
     link: "https://naisan23.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
-   {
+  {
     name: "HengyuClub",
     category: "clothing",
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na spodnie Purple Brand",
     link: "https://hengyuclub.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
-   {
+  {
     name: "BigD",
     category: "clothing",
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na ciuchy Ksubi",
     link: "https://shop315027087.world.taobao.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12579,7 +12553,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na kurtki MONCLER",
     link: "https://jieyi168.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12588,7 +12562,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na Denim Tears",
     link: "https://angelking47.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12597,7 +12571,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na buty DIOR B22",
     link: "https://item.taobao.com/item.htm?id=765005637664",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12606,7 +12580,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na kurtki Arcteryx",
     link: "https://west42.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12615,7 +12589,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na paski/belty",
     link: "https://weidian.com/?userid=1621840505",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12624,7 +12598,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na Stone Island",
     link: "https://shop1735775997.v.weidian.com/?userid=1735775997&wfr=BuyercopyURL&share_relation=fac77d2b317052fe_1202650183_1&spider_token=8893&tabType=new",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12633,7 +12607,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na blank ubrania",
     link: "https://unionkingdom.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12645,13 +12619,13 @@ const sellers = [
     rating: 10,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
-   {
+  {
     name: "REPBROS",
     category: "clothing",
     badge: "Najwyżej oceniany",
     description: "Najlepszy sprzedawca na CDG,AMI",
     link: "https://repbros.x.yupoo.com/albums",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12660,7 +12634,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Jeden z lepszych sprzedawców na obuwie. Przed zakupem polecam sprawdzic jaki batch na dany item",
     link: "https://yolo66.x.yupoo.com/categories",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12669,7 +12643,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Jeden z lepszych sprzedawców na obuwie. Przed zakupem polecam sprawdzic jaki batch na dany item",
     link: "https://wwfake100.x.yupoo.com/albums?tab=gallery",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12678,7 +12652,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "Jeden z lepszych sprzedawców na obuwie (BALENCIAGA) Przed zakupem polecam sprawdzic jaki batch na dany item",
     link: "https://evga.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
   {
@@ -12687,7 +12661,7 @@ const sellers = [
     badge: "Najwyżej oceniany",
     description: "BEST BUDGET NA TORBKI, WE RECOMMEND TAKE ITEMS WITH LETTER A E.G P580A",
     link: "https://godmall.x.yupoo.com/",
-    rating: 9.0,
+    rating: 9,
     image: "https://cdn-icons-png.freepik.com/512/168/168814.png"
   },
 ];
