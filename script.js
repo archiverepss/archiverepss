@@ -12432,6 +12432,16 @@ const products = [
     tag: "PENGREPS",
     rating: 5
   },
+  {
+    name: "ESSENTIALS 25SS 24FW HOODIES",
+    category: "Hoodies",
+    price: "$23.66",
+    image: "https://si.geilicdn.com/pcitem2077227601-64620000019ea75d97590a230115_900_1201.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784864283",
+    linkUsfans: "https://usfans.com/product/3/7784864283?ref=TX9V9N",
+    tag: "BEST / YISHAN",
+    rating: 5
+  },
 ];
 
 // ============================================
