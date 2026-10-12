@@ -12550,6 +12550,38 @@ const outfits = [
       },
     ]
   },
+  {
+    id: "1791844664295",
+    title: "SUMMER FIT",
+    image: "https://cdn.doppel.fit/gjgZjn_hSGhAUT3XS9iVPJRJGOP_d0Jg69Bvc1bN868/rs:fill:1920/q:85/f:webp/b3V0Zml0cy9hNGZkYWIxNi0wNjdjLTQyYTgtOTUxOC1hMTRjYmU1NmIyZjQvMC9pbWFnZS53ZWJw",
+    tags: ["SUMMER FIT","SUMMER"],
+    items: [
+      {
+        name: "CR7 TEE",
+        price: "$7.71",
+        image: "https://cbu01.alicdn.com/img/ibank/O1CN019bVsMs1Yz8GIp9uvL_!!2217950923129-0-cib.jpg",
+        category: "Tshirts",
+        linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F816615191785.html",
+        linkUsfans: "https://usfans.com/product/1/816615191785?ref=TX9V9N"
+      },
+      {
+        name: "ESSENTIALS FW23 SHORTS",
+        price: "$12.78",
+        image: "https://media.usfans.com/2026/05/30/095138/f2a5e65d-c0c1-4cd6-8a49-5281c271982f.jpg",
+        category: "Shorts",
+        linkKakobuy: "https://ikako.vip/2t9sb",
+        linkUsfans: "https://usfans.com/product/1/944187286551?ref=TX9V9N"
+      },
+      {
+        name: "YEEZY SLIDE",
+        price: "$18.63",
+        image: "https://si.geilicdn.com/open1733523732-1234478995-3ea90000019379c005df0a8133b5_960_961.jpg",
+        category: "Shoes",
+        linkKakobuy: "https://ikako.vip/mqtj6",
+        linkUsfans: "https://usfans.com/product/3/7780610003?ref=TX9V9N"
+      },
+    ]
+  },
 ];
 
 
