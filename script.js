@@ -12592,6 +12592,38 @@ const outfits = [
       },
     ]
   },
+  {
+    id: "1791845602948",
+    title: "ESSENTIALS GREY FIT",
+    image: "https://cdn.doppel.fit/Rbupq83Ax5LluuvxJNPsN9G3k9yAmab_lbf9utPRFQ0/rs:fill:1920/q:85/f:webp/b3V0Zml0cy9mYmQwMTk0YS03YWU4LTQ4NjctYmRiZi0zYzdiMjQ5YzAzNTQvMC9pbWFnZS53ZWJw",
+    tags: ["ESSENTIALS"],
+    items: [
+      {
+        name: "ESSENTIALS 25SS 24FW HOODIES",
+        price: "$23.66",
+        image: "https://si.geilicdn.com/pcitem2077227601-64620000019ea75d97590a230115_900_1201.jpg",
+        category: "Hoodies",
+        linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784864283",
+        linkUsfans: "https://usfans.com/product/3/7784864283?ref=TX9V9N"
+      },
+      {
+        name: "ESSENTIALS 22SS SHORTS",
+        price: "$11.66",
+        image: "https://si.geilicdn.com/pcitem2077227601-113a0000019ea6ce7d670a22d1a4_800_800.jpg",
+        category: "Shorts",
+        linkKakobuy: "https://ikako.vip/97u7w",
+        linkUsfans: "https://usfans.com/product/3/7784932792?ref=TX9V9N"
+      },
+      {
+        name: "CHANEL RUNNER",
+        price: "$86.35",
+        image: "https://si.geilicdn.com/wdseller1725607234-3b8c0000019d079ef8480a20e2c5_1277_1640.jpg",
+        category: "Shoes",
+        linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7714763378&affcode=archivee",
+        linkUsfans: "https://usfans.com/product/3/7714763378?ref=TX9V9N"
+      },
+    ]
+  },
 ];
 
 
