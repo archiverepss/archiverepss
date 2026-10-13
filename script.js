@@ -12442,6 +12442,266 @@ const products = [
     tag: "BEST / YISHAN",
     rating: 5
   },
+  {
+    name: "broken planet love u hoodie",
+    category: "Hoodies",
+    price: "$34.82",
+    image: "https://si.geilicdn.com/wdseller211957776-21ba0000019f1ff12ce00a20e284_1204_1204.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop211957776.v.weidian.com%2Fitem.html%3FitemID%3D7801980342",
+    linkUsfans: "https://usfans.com/product/3/7801980342?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "tech fleece 2025 shorts",
+    category: "Shorts",
+    price: "$33.16",
+    image: "https://si.geilicdn.com/pcitem2065060864-15640000019f3d401ad90a23047e-unadjust_815_786.png",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7773108745",
+    linkUsfans: "https://usfans.com/product/3/7773108745?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "TNF NUPTSE 1996 [HUSKY]",
+    category: "Jackets",
+    price: "$74.64",
+    image: "https://si.geilicdn.com/pcitem2065060864-26870000019f8fc7b1d90a2394a4_971_878.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1657421191.v.weidian.com%2Fitem.html%3FitemID%3D7814806054",
+    linkUsfans: "https://usfans.com/product/3/7814806054?ref=TX9V9N",
+    tag: "BEST / HUSKY",
+    rating: 5
+  },
+  {
+    name: "essentials 26ss hoodie",
+    category: "Hoodies",
+    price: "$23.66",
+    image: "https://si.geilicdn.com/pcitem2077227601-3a2f0000019fd6c177680a23037f_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7820251359",
+    linkUsfans: "https://usfans.com/product/3/7820251359?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 25SS polo Fleece",
+    category: "Hoodies",
+    price: "$23.66",
+    image: "https://si.geilicdn.com/pcitem2077227601-4ecd0000019ea75dac110a20e7c7_900_1201.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784913809",
+    linkUsfans: "https://usfans.com/product/3/7784913809?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 21ss hoodie",
+    category: "Hoodies",
+    price: "$21.16",
+    image: "https://si.geilicdn.com/pcitem2077227601-4f080000019ea736500d0a8132bd_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787005238",
+    linkUsfans: "https://usfans.com/product/3/7787005238?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 25SP Hoodie metallic-logo",
+    category: "Hoodies",
+    price: "$23.66",
+    image: "https://si.geilicdn.com/pcitem2077227601-7e900000019ea764500b0a2303ee_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784918723",
+    linkUsfans: "https://usfans.com/product/3/7784918723?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 2021SS Union X FOG",
+    category: "Hoodies",
+    price: "$21.66",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN0143DFPB1qHJXvu18Te_!!2219381645470-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F942998213755.html",
+    linkUsfans: "https://usfans.com/product/1/942998213755?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ESSENTIALS 24SS HOODIE",
+    category: "Hoodies",
+    price: "$23.66",
+    image: "https://si.geilicdn.com/pcitem2077227601-5c350000019ea758ceb60a20e284_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784857079",
+    linkUsfans: "https://usfans.com/product/3/7784857079?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ESSENTIALS 24SS Nylon Fleece Hoodie",
+    category: "Hoodies",
+    price: "$25.33",
+    image: "https://si.geilicdn.com/pcitem2077227601-3b6f0000019ea75a06a30a231177_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784938201",
+    linkUsfans: "https://usfans.com/product/3/7784938201?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ESSENTIALS 23SS HOODIE",
+    category: "Hoodies",
+    price: "$21.16",
+    image: "https://si.geilicdn.com/pcitem2077227601-27220000019ea73349360a207569_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7782556961",
+    linkUsfans: "https://usfans.com/product/3/7782556961?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ESSENTIALS 24SU HOODIE",
+    category: "Hoodies",
+    price: "$23.66",
+    image: "https://si.geilicdn.com/pcitem2077227601-5c350000019ea758ceb60a20e284_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784857079",
+    linkUsfans: "https://usfans.com/product/3/7784857079?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ESSENTIALS 23SS Black Core Collection Hoodie",
+    category: "Hoodies",
+    price: "$20.33",
+    image: "https://si.geilicdn.com/pcitem2077227601-761f0000019ea7669ecd0a23037f_1600_2400.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7788510204",
+    linkUsfans: "https://usfans.com/product/3/7788510204?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ESSENTIALS 2021SS Core HOODIE",
+    category: "Hoodies",
+    price: "$21.16",
+    image: "https://si.geilicdn.com/pcitem2077227601-43b00000019ea73cefcd0a81347d_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787068248",
+    linkUsfans: "https://usfans.com/product/3/7787068248?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ESSENTIALS 25SS 24FW Hoodie",
+    category: "Hoodies",
+    price: "$23.66",
+    image: "https://si.geilicdn.com/pcitem2077227601-2e750000019ea75d99290a20e672_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784864283",
+    linkUsfans: "https://usfans.com/product/3/7784864283?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ESSENTIALS 24FW-State Hoodie",
+    category: "Hoodies",
+    price: "$27",
+    image: "https://si.geilicdn.com/pcitem2077227601-586d0000019ea755a8e80a210256_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7786664123",
+    linkUsfans: "https://usfans.com/product/3/7786664123?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ESSENTIALS 22SS-Hoodie",
+    category: "Hoodies",
+    price: "$21.16",
+    image: "https://si.geilicdn.com/pcitem2077227601-0be90000019ea25cfaa00a8133cc-unadjust_800_800.png",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7781917165",
+    linkUsfans: "https://usfans.com/product/3/7781917165?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ESSENTIALS 19SS HOODIE",
+    category: "Hoodies",
+    price: "$21.16",
+    image: "https://si.geilicdn.com/pcitem2077227601-12920000019eb65023540a811411_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7786984630",
+    linkUsfans: "https://usfans.com/product/3/7786984630?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 20SS hoodie",
+    category: "Hoodies",
+    price: "$21.16",
+    image: "https://si.geilicdn.com/pcitem2077227601-48f90000019ea73ace870a2396f4_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787054196",
+    linkUsfans: "https://usfans.com/product/3/7787054196?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 25ss zip hoodie",
+    category: "Hoodies",
+    price: "$25.33",
+    image: "https://si.geilicdn.com/pcitem2077227601-0b640000019ea75c97c50a2394a4_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784819553",
+    linkUsfans: "https://usfans.com/product/3/7784819553?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 23fw hoodie",
+    category: "Hoodies",
+    price: "$23.66",
+    image: "https://si.geilicdn.com/pcitem2077227601-7ad90000019ea76890930a8133cc_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7782631851",
+    linkUsfans: "https://usfans.com/product/3/7782631851?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ESSENTIALS 26SS SWEATPANTS",
+    category: "Pants",
+    price: "$20.33",
+    image: "https://si.geilicdn.com/pcitem2077227601-359e0000019fd6c1cbfb0a81347d_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7820035529",
+    linkUsfans: "https://usfans.com/product/3/7820035529?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 25ss nba sweatpants",
+    category: "Pants",
+    price: "$22.50",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01pIsm3428s6WFpS5ni_!!2216476787987-0-cib.jpg?__r__=1779345936445",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1067489366757.html",
+    linkUsfans: "https://usfans.com/product/1/1067489366757?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials sp25 metalic logo sweatpants",
+    category: "Pants",
+    price: "$20.33",
+    image: "https://si.geilicdn.com/pcitem2077227601-38220000019ea7648d3f0a20e672_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7788009804",
+    linkUsfans: "https://usfans.com/product/3/7788009804?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 19SS-PatchPants",
+    category: "Pants",
+    price: "$21.66",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01gX2Tfh1qHJXvepbYU_!!2219381645470-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F942388634734.html",
+    linkUsfans: "https://usfans.com/product/1/942388634734?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 22SS-Sweatpants",
+    category: "Pants",
+    price: "$17.83",
+    image: "https://si.geilicdn.com/pcitem2077227601-117c0000019f02e918090a239646-unadjust_800_800.png",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7798571124",
+    linkUsfans: "https://usfans.com/product/3/7798571124?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
 ];
 
 // ============================================
