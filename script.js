@@ -14031,6 +14031,23 @@ function sortWithPromoted(items) {
   });
 }
 
+// Fisher-Yates shuffle — tasuje tablicę
+function shuffleArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Tasuje z promowanymi na górze — reszta losowo
+function shuffleWithPromotedFirst(items) {
+  const promoted = items.filter(p => p.tag && p.tag.toUpperCase().includes('PROMOTED'));
+  const rest = items.filter(p => !(p.tag && p.tag.toUpperCase().includes('PROMOTED')));
+  return [...shuffleArray(promoted), ...shuffleArray(rest)];
+}
+
 // ============================================
 // IMAGE HELPERS
 // ============================================
@@ -14649,6 +14666,8 @@ function applyFiltersAndSort() {
   const maxPrice = parseFloat($('priceMax')?.value) || Infinity;
   const sortValue = $('sortSelect')?.value || 'default';
   const allProducts = (typeof products !== 'undefined' ? products : []);
+
+  // 1. Filtrowanie
   let filtered = allProducts.filter(p => {
     const pricePLN = usdToPln(p.price);
     const matchesCategory = (state.currentCategory === "All" || p.category === state.currentCategory);
@@ -14656,9 +14675,18 @@ function applyFiltersAndSort() {
     const matchesPrice = pricePLN >= minPrice && pricePLN <= maxPrice;
     return matchesCategory && matchesSearch && matchesPrice;
   });
-  filtered = sortWithPromoted(filtered);
-  if (sortValue === "asc") filtered.sort((a, b) => usdToPln(a.price) - usdToPln(b.price));
-  else if (sortValue === "desc") filtered.sort((a, b) => usdToPln(b.price) - usdToPln(a.price));
+
+  // 2. Sortowanie / losowanie
+  if (sortValue === "asc") {
+    filtered.sort((a, b) => usdToPln(a.price) - usdToPln(b.price));
+  } else if (sortValue === "desc") {
+    filtered.sort((a, b) => usdToPln(b.price) - usdToPln(a.price));
+  } else {
+    // Domyślne — LOSOWO (promowane na górze, reszta wymieszana)
+    filtered = shuffleWithPromotedFirst(filtered);
+  }
+
+  // 3. Render
   renderGrid(filtered);
 }
 
@@ -14920,7 +14948,8 @@ function renderHomeLatest() {
   if (!grid) return;
   const allProducts = (typeof products !== 'undefined' ? products : []);
   if (allProducts.length === 0) return;
-  const latest = allProducts.slice().reverse().slice(0, 5);
+  // LOSOWE 5 produktów z całej bazy
+  const latest = shuffleArray(allProducts).slice(0, 5);
   grid.innerHTML = '';
   const fragment = document.createDocumentFragment();
   latest.forEach(p => fragment.appendChild(buildProductCard(p, 'product-card')));
@@ -15768,4 +15797,3 @@ document.addEventListener('DOMContentLoaded', function () {
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initMobileMenu);
   else initMobileMenu();
 })();
-
