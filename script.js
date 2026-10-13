@@ -12702,6 +12702,546 @@ const products = [
     tag: "BEST",
     rating: 5
   },
+  {
+    name: "essentials 24ss sweatpants",
+    category: "Pants",
+    price: "$20.33",
+    image: "https://si.geilicdn.com/pcitem2077227601-0beb0000019ea75a11830a21146b_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787870792",
+    linkUsfans: "https://usfans.com/product/3/7787870792?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 21SS CORE SWEATPANTS",
+    category: "Pants",
+    price: "$17.83",
+    image: "https://si.geilicdn.com/pcitem2077227601-44300000019ea73cf2fd0a8133cc_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787068248",
+    linkUsfans: "https://usfans.com/product/3/7787068248?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 24FW25SS Sweatpants",
+    category: "Pants",
+    price: "$20.33",
+    image: "https://si.geilicdn.com/pcitem2077227601-6de90000019ea75da4010a23038e_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784901987",
+    linkUsfans: "https://usfans.com/product/3/7784901987?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ESSENTIALS 24FW SWEATPANTS",
+    category: "Pants",
+    price: "$22.83",
+    image: "https://si.geilicdn.com/pcitem2077227601-59770000019ea755ba210a230115_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7786622713",
+    linkUsfans: "https://usfans.com/product/3/7786622713?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 22SS SWEATPANTS",
+    category: "Pants",
+    price: "$17.83",
+    image: "https://si.geilicdn.com/pcitem2077227601-4d510000019ea6ce83120a210256-unadjust_800_800.png",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784894562",
+    linkUsfans: "https://usfans.com/product/3/7784894562?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 23ss sweatpants",
+    category: "Pants",
+    price: "$17.83",
+    image: "https://si.geilicdn.com/pcitem2077227601-311c0000019ea733838b0a20e284_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785505514",
+    linkUsfans: "https://usfans.com/product/3/7785505514?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 20ss sweatpants",
+    category: "Pants",
+    price: "$17.83",
+    image: "https://si.geilicdn.com/pcitem2077227601-43ad0000019ea73c3f610a23047e_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784018833",
+    linkUsfans: "https://usfans.com/product/3/7784018833?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 21SS SWEATPANTS",
+    category: "Pants",
+    price: "$17.83",
+    image: "https://si.geilicdn.com/pcitem2077227601-5f140000019eb69960900a22d1a4_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784072251",
+    linkUsfans: "https://usfans.com/product/3/7784072251?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 22FW SWEATPANTS",
+    category: "Pants",
+    price: "$17.83",
+    image: "https://si.geilicdn.com/pcitem2077227601-1b220000019ea7320c280a20e7c7_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784867592",
+    linkUsfans: "https://usfans.com/product/3/7784867592?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 1977 sweatpants",
+    category: "Pants",
+    price: "$17.83",
+    image: "https://si.geilicdn.com/pcitem2077227601-58d20000019ea6d146a70a23047e_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784937260",
+    linkUsfans: "https://usfans.com/product/3/7784937260?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 22SS relaxed pants",
+    category: "Pants",
+    price: "$17.83",
+    image: "https://si.geilicdn.com/pcitem2077227601-5d360000019ea6ce93b60a2396f4_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7781925577",
+    linkUsfans: "https://usfans.com/product/3/7781925577?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 25AS sweatpants",
+    category: "Pants",
+    price: "$20.33",
+    image: "https://si.geilicdn.com/pcitem2077227601-3ee80000019ea75c8b4f0a231177_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784839271",
+    linkUsfans: "https://usfans.com/product/3/7784839271?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 23fw sweatpants CLOUD",
+    category: "Pants",
+    price: "$20.33",
+    image: "https://si.geilicdn.com/pcitem2077227601-7efb0000019ea76899d60a22d535_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785633754",
+    linkUsfans: "https://usfans.com/product/3/7785633754?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 22SS-1977Sweatpants",
+    category: "Pants",
+    price: "$17.83",
+    image: "https://si.geilicdn.com/pcitem2077227601-4fb80000019ea6d13ba40a20e284_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784958888",
+    linkUsfans: "https://usfans.com/product/3/7784958888?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 26ss tee",
+    category: "Tshirts",
+    price: "$11.67",
+    image: "https://si.geilicdn.com/pcitem2077227601-2e350000019fd6c10e490a230115_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7820271157",
+    linkUsfans: "https://usfans.com/product/3/7820271157?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials nba tee",
+    category: "Tshirts",
+    price: "$13.33",
+    image: "https://si.geilicdn.com/pcitem2077227601-698e0000019ecfbe79cf0a23038e_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7786619699",
+    linkUsfans: "https://usfans.com/product/3/7786619699?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 23fw v-neck",
+    category: "Tshirts",
+    price: "$14.67",
+    image: "https://si.geilicdn.com/pcitem2077227601-7b710000019ea768f2690a23047e_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785624274",
+    linkUsfans: "https://usfans.com/product/3/7785624274?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 25sp metalic tee",
+    category: "Tshirts",
+    price: "$11.67",
+    image: "https://si.geilicdn.com/pcitem2077227601-7bfb0000019ea76406250a2396f4_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7788003972",
+    linkUsfans: "https://usfans.com/product/3/7788003972?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 21ss union x fog tee",
+    category: "Tshirts",
+    price: "$10.83",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01jCHNdW1qHJXtoATFA_!!2219381645470-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F943525752959.html",
+    linkUsfans: "https://usfans.com/product/1/943525752959?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 2019 fg tee",
+    category: "Tshirts",
+    price: "$10.83",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01aEsPkY1qHJXujwvAc_!!2219381645470-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F942999205665.html",
+    linkUsfans: "https://usfans.com/product/1/942999205665?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 19ss tee",
+    category: "Tshirts",
+    price: "$10.50",
+    image: "https://si.geilicdn.com/pcitem2077227601-5ea30000019eb6573f990a8132bd_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7786947158",
+    linkUsfans: "https://usfans.com/product/3/7786947158?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 24SU tee",
+    category: "Tshirts",
+    price: "$16.33",
+    image: "https://si.geilicdn.com/pcitem2077227601-52970000019ea758b4780a207569_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787892888",
+    linkUsfans: "https://usfans.com/product/3/7787892888?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 24SU BASIC TEE",
+    category: "Tshirts",
+    price: "$8.83",
+    image: "https://si.geilicdn.com/pcitem2077227601-31ff0000019f02de6f9f0a8132bd_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7795616339",
+    linkUsfans: "https://usfans.com/product/3/7795616339?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 22SS tee",
+    category: "Tshirts",
+    price: "$10.50",
+    image: "https://si.geilicdn.com/pcitem2077227601-282a0000019f02e8ff300a23038e-unadjust_800_800.png",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7798614534",
+    linkUsfans: "https://usfans.com/product/3/7798614534?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 23SS tee",
+    category: "Tshirts",
+    price: "$11.67",
+    image: "https://si.geilicdn.com/pcitem2077227601-7c9c0000019ea766aa460a22d535_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785464783",
+    linkUsfans: "https://usfans.com/product/3/7785464783?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 25AS tee",
+    category: "Tshirts",
+    price: "$11.67",
+    image: "https://si.geilicdn.com/pcitem2077227601-5e110000019ea75c72f60a23057e_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784825319",
+    linkUsfans: "https://usfans.com/product/3/7784825319?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 25SS 24FW TEE",
+    category: "Tshirts",
+    price: "$11.67",
+    image: "https://si.geilicdn.com/pcitem2077227601-5fd00000019ea75d8ae20a23057e_900_1201.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787811388",
+    linkUsfans: "https://usfans.com/product/3/7787811388?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 24SS HEAVY TEE",
+    category: "Tshirts",
+    price: "$16.33",
+    image: "https://si.geilicdn.com/pcitem2077227601-5c590000019ea758ad120a210256_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787892888",
+    linkUsfans: "https://usfans.com/product/3/7787892888?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 2022SS TEE",
+    category: "Tshirts",
+    price: "$10.50",
+    image: "https://si.geilicdn.com/pcitem2077227601-4b980000019ea6ccebd50a20e284-unadjust_800_800.png",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7781940983",
+    linkUsfans: "https://usfans.com/product/3/7781940983?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 23SS TEE",
+    category: "Tshirts",
+    price: "$10.50",
+    image: "https://si.geilicdn.com/pcitem2077227601-391c0000019ea73350650a81347d_3024_3024.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785594188",
+    linkUsfans: "https://usfans.com/product/3/7785594188?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 22fw tee",
+    category: "Tshirts",
+    price: "$10.50",
+    image: "https://si.geilicdn.com/pcitem2077227601-2f3f0000019ea731d9c60a20e284_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7782014471",
+    linkUsfans: "https://usfans.com/product/3/7782014471?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 22fw big logo",
+    category: "Tshirts",
+    price: "$10.50",
+    image: "https://si.geilicdn.com/pcitem2077227601-26260000019ea731db440a20e273-unadjust_800_800.png",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785275738",
+    linkUsfans: "https://usfans.com/product/3/7785275738?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 24ss tee",
+    category: "Tshirts",
+    price: "$11.67",
+    image: "https://si.geilicdn.com/pcitem2077227601-6c010000019ea758aad30a2396f4_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787823514",
+    linkUsfans: "https://usfans.com/product/3/7787823514?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 24fw tee",
+    category: "Tshirts",
+    price: "$12.50",
+    image: "https://si.geilicdn.com/pcitem2077227601-5adb0000019ea75070930a8133cc_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7786650313",
+    linkUsfans: "https://usfans.com/product/3/7786650313?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 20ss tee",
+    category: "Tshirts",
+    price: "$10.50",
+    image: "https://si.geilicdn.com/pcitem2077227601-2fb60000019ea73a9bd10a20e273_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787008250",
+    linkUsfans: "https://usfans.com/product/3/7787008250?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 23fw cloud tee",
+    category: "Tshirts",
+    price: "$11.67",
+    image: "https://si.geilicdn.com/pcitem2077227601-785b0000019ea76867860a23037f_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7782578615",
+    linkUsfans: "https://usfans.com/product/3/7782578615?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 1977 2022ss tee",
+    category: "Tshirts",
+    price: "$10.50",
+    image: "https://si.geilicdn.com/pcitem2077227601-115a0000019ea6cea00d0a22d1a4-unadjust_800_800.png",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7782027827",
+    linkUsfans: "https://usfans.com/product/3/7782027827?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 21ss tee",
+    category: "Tshirts",
+    price: "$10.50",
+    image: "https://si.geilicdn.com/pcitem2077227601-2fb60000019ea73a9bd10a20e273_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787008250",
+    linkUsfans: "https://usfans.com/product/3/7787008250?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 26ss shorts",
+    category: "Shorts",
+    price: "$13",
+    image: "https://si.geilicdn.com/pcitem2077227601-2ff00000019fd6c228640a230115_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7820283099",
+    linkUsfans: "https://usfans.com/product/3/7820283099?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 1977 terry shorts",
+    category: "Shorts",
+    price: "$12.17",
+    image: "https://si.geilicdn.com/pcitem2077227601-2d6d0000019ea73ab5650a2102c5_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7810515984",
+    linkUsfans: "https://usfans.com/product/3/7810515984?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 25sp metalic shorts",
+    category: "Shorts",
+    price: "$13",
+    image: "https://si.geilicdn.com/pcitem2077227601-30590000019ea76423f80a22d1a4_3000_4652.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787994136",
+    linkUsfans: "https://usfans.com/product/3/7787994136?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 24ss running shorts",
+    category: "Shorts",
+    price: "$13",
+    image: "https://si.geilicdn.com/pcitem2077227601-75fd0000019ea758c4880a23041a_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784885093",
+    linkUsfans: "https://usfans.com/product/3/7784885093?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 2022ss shorts",
+    category: "Shorts",
+    price: "$12.17",
+    image: "https://si.geilicdn.com/pcitem2077227601-3d7c0000019f02e907c60a8132bd-unadjust_800_800.png",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7795582799",
+    linkUsfans: "https://usfans.com/product/3/7795582799?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 25as shorts",
+    category: "Shorts",
+    price: "$13",
+    image: "https://si.geilicdn.com/pcitem2077227601-259e0000019ea75c79e00a22d1a4_2362_2362.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784876693",
+    linkUsfans: "https://usfans.com/product/3/7784876693?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 22fw shorts",
+    category: "Shorts",
+    price: "$12.17",
+    image: "https://si.geilicdn.com/pcitem2077227601-05290000019ea731eb020a811411-unadjust_800_800.png",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7781976637",
+    linkUsfans: "https://usfans.com/product/3/7781976637?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 24fw shorts",
+    category: "Shorts",
+    price: "$15.50",
+    image: "https://si.geilicdn.com/pcitem2077227601-5a500000019ea75084230a81347d_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7789575248",
+    linkUsfans: "https://usfans.com/product/3/7789575248?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 21ss union x fog shorts",
+    category: "Shorts",
+    price: "$15",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01KcFHnS1qHJXwOoNNQ_!!2219381645470-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F943563992413.html",
+    linkUsfans: "https://usfans.com/product/1/943563992413?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 22ss shorts",
+    category: "Shorts",
+    price: "$12.17",
+    image: "https://si.geilicdn.com/pcitem2077227601-113a0000019ea6ce7d670a22d1a4_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784932792",
+    linkUsfans: "https://usfans.com/product/3/7784932792?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 23ss shorts",
+    category: "Shorts",
+    price: "$12.17",
+    image: "https://si.geilicdn.com/pcitem2077227601-02af0000019ea7337b060a2304aa_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785601876",
+    linkUsfans: "https://usfans.com/product/3/7785601876?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 20ss shorts",
+    category: "Shorts",
+    price: "$12.17",
+    image: "https://si.geilicdn.com/pcitem2077227601-2d6d0000019ea73ab5650a2102c5_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784014935",
+    linkUsfans: "https://usfans.com/product/3/7784014935?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 24ss shorts",
+    category: "Shorts",
+    price: "$13",
+    image: "https://si.geilicdn.com/pcitem2077227601-32c60000019ea758bd0b0a20e2c5_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784938117",
+    linkUsfans: "https://usfans.com/product/3/7784938117?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 23fw cloud shorts",
+    category: "Shorts",
+    price: "$13",
+    image: "https://si.geilicdn.com/pcitem2077227601-01d30000019ea76876b90a2396f4_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7782610173",
+    linkUsfans: "https://usfans.com/product/3/7782610173?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 2021ss shorts",
+    category: "Shorts",
+    price: "$12.17",
+    image: "https://si.geilicdn.com/pcitem2077227601-33e40000019ea73639e70a20e284_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784009299",
+    linkUsfans: "https://usfans.com/product/3/7784009299?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "essentials 24su running shorts",
+    category: "Shorts",
+    price: "$13",
+    image: "https://si.geilicdn.com/pcitem2077227601-75fd0000019ea758c4880a23041a_800_800.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784885093",
+    linkUsfans: "https://usfans.com/product/3/7784885093?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
 ];
 
 // ============================================
