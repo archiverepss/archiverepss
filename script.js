@@ -13242,6 +13242,186 @@ const products = [
     tag: "BEST",
     rating: 5
   },
+  {
+    name: "celine fantasies crewneck",
+    category: "Hoodies",
+    price: "$49.82",
+    image: "https://si.geilicdn.com/wdseller1944549967-20c1000001a0d3acf6020a23b6ac_1290_1606.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7862468530",
+    linkUsfans: "https://usfans.com/product/3/7862468530?ref=TX9V9N",
+    tag: "",
+    rating: 5
+  },
+  {
+    name: "hysteric glamour stoner hoodie",
+    category: "Hoodies",
+    price: "$49.65",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2222150862801/O1CN01cHDrJO8okAC1WPjS_!!2222150862801.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1075542814122",
+    linkUsfans: "https://usfans.com/product/2/PhQngyLQkALOUPZObYYeMORL5NUFJgXHaazEUj0Fo-U4Cwp6rPyUlkA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "nofaith sun faded jeans",
+    category: "Pants",
+    price: "$39.82",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2172884485/O1CN01uy4yLW1j0BTIjWAZU_!!2172884485.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1011512349028",
+    linkUsfans: "https://usfans.com/product/2/In_CH5Kpl8VUsb5Vjshy_BBDBIwQURdDoZNl2bvMKR6i7gZE-ctQIKc?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "mm6 belt [budget]",
+    category: "Belts",
+    price: "$2.15",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01Q1ZHN91f7jPVuBZCe_!!2217492963960-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F833218047485.html",
+    linkUsfans: "https://usfans.com/product/1/833218047485?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "hysteric glamour snake tee",
+    category: "Tshirts",
+    price: "$29.83",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01Syi3Cd1RR3eB3VtxJ~crop,0,0,1280,1706~_!!2126072107.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1047234629527",
+    linkUsfans: "https://usfans.com/product/2/ywrKTBtZt6j7Pqo9CgtC1zHrFYYkOCbL98EUpweoJTM6KNv9ARhiZ9w?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "lgb shorts",
+    category: "Shorts",
+    price: "$26.49",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2212554637278/O1CN01bQ3TxX23dNhs6hPrO_!!2212554637278.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1051106981587",
+    linkUsfans: "https://usfans.com/product/2/hCaIE8Wa3zBTN35cakfFVc9H1RnTEJ8DHy4ssIOZ8wCNCL660VDJGcM?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "givenchy tee [budget]",
+    category: "Tshirts",
+    price: "$13",
+    image: "https://img.alicdn.com/bao/uploaded/i1/1055132907/O1CN01m3Lsrb1XLSK69Ouyg_!!1055132907.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D803346454328",
+    linkUsfans: "https://usfans.com/product/2/9HbQ0MfdeIun2QLaRsQxJ0OtQsmWqkTJren2lsl1gZKirGQypoTvug?ref=TX9V9N",
+    tag: "[BUDGT]",
+    rating: 5
+  },
+  {
+    name: "peaceinwar \"light backpack\"",
+    category: "Belts",
+    price: "$31.49",
+    image: "https://si.geilicdn.com/wdseller1995625455-7f8c000001a12452e1fb0a23012d_1320_1760.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7869926703",
+    linkUsfans: "https://usfans.com/product/3/7869926703?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peacinwar arsenal polo",
+    category: "Tshirts",
+    price: "$19.89",
+    image: "https://si.geilicdn.com/wdseller1995625455-4ec9000001a080cbdc1d0a23010f_4284_4284.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7848082749",
+    linkUsfans: "https://usfans.com/product/3/7848082749?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar nwo tee",
+    category: "Tshirts",
+    price: "$13.17",
+    image: "https://si.geilicdn.com/wdseller1995625455-30850000019ffa6b4e8b0a23b5fa_4284_4287.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7830707426",
+    linkUsfans: "https://usfans.com/product/3/7830707426?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar little danmu te",
+    category: "Tshirts",
+    price: "$17.50",
+    image: "https://si.geilicdn.com/wdseller1995625455-78430000019f654edea10a2102b1_3025_3026.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7807155889",
+    linkUsfans: "https://usfans.com/product/3/7807155889?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar hand painted war te",
+    category: "Tshirts",
+    price: "$14.17",
+    image: "https://si.geilicdn.com/wdseller1995625455-497a0000019f655082560a23c1e0_3025_3026.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7807122441",
+    linkUsfans: "https://usfans.com/product/3/7807122441?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar hypebeast windbreaker",
+    category: "Jackets",
+    price: "$39.82",
+    image: "https://si.geilicdn.com/wdseller1995625455-24f4000001a0b9148ace0a23b54f_1320_1760.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7854865279",
+    linkUsfans: "https://usfans.com/product/3/7854865279?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar pocket war hoodie",
+    category: "Hoodies",
+    price: "$34.82",
+    image: "https://si.geilicdn.com/wdseller1995625455-345a000001a04249700c0a23b4f4_4284_4287.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7842151478",
+    linkUsfans: "https://usfans.com/product/3/7842151478?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar blossom hoodie",
+    category: "Hoodies",
+    price: "$34.82",
+    image: "https://si.geilicdn.com/wdseller1995625455-5658000001a02895f4c50a23010f_4284_4287.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7838033888",
+    linkUsfans: "https://usfans.com/product/3/7838033888?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar international hoodie",
+    category: "Hoodies",
+    price: "$39.82",
+    image: "https://si.geilicdn.com/wdseller1995625455-20700000019f65534fdc0a23c191_3025_3026.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7810083176",
+    linkUsfans: "https://usfans.com/product/3/7810083176?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar nuke sweatpants",
+    category: "Pants",
+    price: "$38.16",
+    image: "https://si.geilicdn.com/wdseller1995625455-352a000001a0289431ed0a23138d_4284_4287.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7838075772",
+    linkUsfans: "https://usfans.com/product/3/7838075772?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar canada sweatpants",
+    category: "Pants",
+    price: "$36.49",
+    image: "https://si.geilicdn.com/wdseller1995625455-7605000001a0289836330a23b5fa_4284_4287.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7837965018",
+    linkUsfans: "https://usfans.com/product/3/7837965018?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
 ];
 
 // ============================================
