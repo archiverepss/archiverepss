@@ -79,7 +79,7 @@ const products = [
     image: "https://drop-up.pl/cdn/shop/files/air-force-1-low-07-triple-white-drop-up.webp?v=1721894137",
     linkKakobuy: "https://ikako.vip/mug7s",
     linkUsfans: "https://usfans.com/product/3/7783109456?ref=TX9V9N",
-    tag: "GX",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -89,7 +89,7 @@ const products = [
     image: "https://si.geilicdn.com/wdseller1745861162-27f50000019ac1319b630a207569_1179_1180.jpg",
     linkKakobuy: "https://ikako.vip/mug7s",
     linkUsfans: "https://usfans.com/product/3/7783109456?ref=TX9V9N",
-    tag: "GX",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -109,7 +109,7 @@ const products = [
     image: "https://si.geilicdn.com/open1733523732-1234478995-7a39000001937dd368d70aa08290_1166_874.jpg?w=640&h=640",
     linkKakobuy: "https://ikako.vip/wntsf",
     linkUsfans: "https://usfans.com/product/3/7783614004?ref=TX9V9N",
-    tag: "X",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -129,7 +129,7 @@ const products = [
     image: "https://si.geilicdn.com/wdseller1800766149-2794000001953e97c7b60a2305d8_2560_2560.jpg",
     linkKakobuy: "https://ikako.vip/9hmbf",
     linkUsfans: "https://usfans.com/product/3/7080344125?ref=TX9V9N",
-    tag: "GX",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -389,7 +389,7 @@ const products = [
     image: "https://si.geilicdn.com/wdseller1845163825-66b8000001903fab445a0a2303ee_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/my7mt",
     linkUsfans: "https://usfans.com/product/3/7614451240?ref=TX9V9N",
-    tag: "M",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -399,7 +399,7 @@ const products = [
     image: "https://si.geilicdn.com/open1850717273-1234478995-35c90000018f485757ce0a210298_1268_1268.jpg",
     linkKakobuy: "https://ikako.vip/cyv6p",
     linkUsfans: "https://usfans.com/product/3/7611445385?ref=TX9V9N",
-    tag: "M",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -409,7 +409,7 @@ const products = [
     image: "https://si.geilicdn.com/pcitem901759954358-72e3000001880535e0400a20e2c5_1170_1161.jpg",
     linkKakobuy: "https://ikako.vip/d9bkx",
     linkUsfans: "https://usfans.com/product/3/7614131537?ref=TX9V9N",
-    tag: "M",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -449,7 +449,7 @@ const products = [
     image: "https://si.geilicdn.com/open1733523732-1234478995-3ea90000019379c005df0a8133b5_960_961.jpg",
     linkKakobuy: "https://ikako.vip/mqtj6",
     linkUsfans: "https://usfans.com/product/3/7780610003?ref=TX9V9N",
-    tag: "GX",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -459,7 +459,7 @@ const products = [
     image: "https://si.geilicdn.com/open1733523732-1234478995-06e9000001937481b6330a8133b5_2560_2504.jpg",
     linkKakobuy: "https://ikako.vip/vbznk",
     linkUsfans: "https://usfans.com/product/3/7565932674?ref=TX9V9N",
-    tag: "LW",
+    tag: "LW = BEST",
     rating: 5
   },
   {
@@ -469,7 +469,7 @@ const products = [
     image: "https://si.geilicdn.com/wdseller1553163813-27780000018f2301c4040a2303ee_1290_1290.jpg",
     linkKakobuy: "https://ikako.vip/gjsvt",
     linkUsfans: "https://usfans.com/product/3/7436863807?ref=TX9V9N",
-    tag: "LW/OG",
+    tag: "LW = BEST",
     rating: 5
   },
   {
@@ -489,7 +489,7 @@ const products = [
     image: "https://si.geilicdn.com/open1773336045-1234478995-552800000195f0f5d5c30aa0834c_1122_1122.jpg",
     linkKakobuy: "https://ikako.vip/xzgyc",
     linkUsfans: "https://usfans.com/product/3/7438739618?ref=TX9V9N",
-    tag: "LW",
+    tag: "LW = BEST",
     rating: 5
   },
   {
@@ -509,7 +509,7 @@ const products = [
     image: "https://img.alicdn.com/bao/uploaded/i3/2073165527/O1CN01gjVVAR1qhPwO82u0k_!!2073165527.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D742989586219",
     linkUsfans: "https://usfans.com/product/2/-ZWxKiXvSgD1qnKgDdTg-Du9nShVgutUi1cfbjxYg1nr1wbQttij9Q?ref=TX9V9N",
-    tag: "ROK (BEST)",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -559,7 +559,7 @@ const products = [
     image: "https://images.stockx.com/images/Maison-Margiela-Replica-Dark-Wash-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
     linkKakobuy: "https://ikako.vip/4jdjd",
     linkUsfans: "https://usfans.com/product/2/1027814116602?ref=TX9V9N",
-    tag: "MVT",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -579,7 +579,7 @@ const products = [
     image: "https://si.geilicdn.com/wdseller1268847658-5e0f00000187c5f8dc6a0a20e7c7-unadjust_1170_1170.gif",
     linkKakobuy: "https://ikako.vip/m988f",
     linkUsfans: "https://usfans.com/product/3/6230413247?ref=TX9V9N",
-    tag: "GZ(EVGA)",
+    tag: "GZ = BEST",
     rating: 5
   },
   {
@@ -629,7 +629,7 @@ const products = [
     image: "https://si.geilicdn.com/pcitem901870080011-39bf00000197227e34340a23047e_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/r2d6r",
     linkUsfans: "https://usfans.com/product/3/7611411555?ref=TX9V9N",
-    tag: "ZC",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -649,7 +649,7 @@ const products = [
     image: "https://si.geilicdn.com/pcitem901870080011-0f5900000197ccd442460a23041a_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/m75qc",
     linkUsfans: "https://usfans.com/product/3/7611481057?ref=TX9V9N",
-    tag: "M",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -679,7 +679,7 @@ const products = [
     image: "https://si.geilicdn.com/wdseller1425026222-4ca70000018909df212e0a231565_2560_2560.jpg",
     linkKakobuy: "https://ikako.vip/8a84f",
     linkUsfans: "https://usfans.com/product/3/7617138156?ref=TX9V9N",
-    tag: "FOSHAN",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -689,7 +689,7 @@ const products = [
     image: "https://si.geilicdn.com/pcitem1710010242-1de500000198412384980a230115_1840_1840.jpg",
     linkKakobuy: "https://ikako.vip/gj47w",
     linkUsfans: "https://usfans.com/product/3/5925479942?ref=TX9V9N",
-    tag: "FOSHAN",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -699,37 +699,37 @@ const products = [
     image: "https://si.geilicdn.com/weidian1710010242-62d800000188ac29f0b60a231179_1496_1496.jpg",
     linkKakobuy: "https://ikako.vip/eqwhz",
     linkUsfans: "https://usfans.com/product/3/6386513161?ref=TX9V9N",
-    tag: "FOSHAN",
+    tag: "BEST",
     rating: 5
   },
   {
     name: "UGG",
     category: "Shoes",
-    price: "$26 - $40 ",
+    price: "$26 - $40",
     image: "https://si.geilicdn.com/pcitem901870080011-25c6000001990c6cb29b0a20e7c7_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/2eqst",
     linkUsfans: "https://usfans.com/product/3/7615231442?ref=TX9V9N",
-    tag: "TOP",
+    tag: "BEST",
     rating: 5
   },
   {
     name: "ASICS GEL KAYANO 14",
     category: "Shoes",
-    price: "$37.61 ",
+    price: "$37.61",
     image: "https://si.geilicdn.com/wdseller1845163825-6813000001930325d8200a8134f0_1179_1179.jpg",
     linkKakobuy: "https://ikako.vip/m2avv",
     linkUsfans: "https://usfans.com/product/3/7614280923?ref=TX9V9N",
-    tag: "ZC",
+    tag: "BEST",
     rating: 5
   },
   {
     name: "ASICS GEL NYC",
     category: "Shoes",
-    price: "$36 ",
+    price: "$36",
     image: "https://si.geilicdn.com/pcitem1845163825-774f000001988d52d82f0a81347d_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/k99a6",
     linkUsfans: "https://usfans.com/product/3/7614453260?ref=TX9V9N",
-    tag: "ZC",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -745,31 +745,31 @@ const products = [
   {
     name: "BALENCIAGA RUNNER 7.0",
     category: "Shoes",
-    price: "$69 ",
+    price: "$69",
     image: "https://si.geilicdn.com/wdseller1268847658-287900000187c2f2271f0a20e273-unadjust_1170_1170.gif",
     linkKakobuy: "https://ikako.vip/5hmve",
     linkUsfans: "https://usfans.com/product/3/6223355835?ref=TX9V9N",
-    tag: "XA",
+    tag: "XA = BEST",
     rating: 5
   },
   {
     name: "BALENCIAGA TRACK 2.0",
     category: "Shoes",
-    price: "$75 ",
+    price: "$75",
     image: "https://si.geilicdn.com/open1268847658-1234478995-1b7200000196303502cc0a23b4de_769_767.jpg",
     linkKakobuy: "https://ikako.vip/6278e",
     linkUsfans: "https://usfans.com/product/3/7447859512?ref=TX9V9N",
-    tag: "VG",
+    tag: "VG = BEST",
     rating: 5
   },
   {
     name: "BALENCIAGA TRACK",
     category: "Shoes",
-    price: "$60 ",
+    price: "$60",
     image: "https://si.geilicdn.com/wdseller1268847658-37100000018adde9cc270a20e273-unadjust_1170_1170.gif",
     linkKakobuy: "https://ikako.vip/xqj28",
     linkUsfans: "https://usfans.com/product/3/6665205608?ref=TX9V9N",
-    tag: "VG",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -3739,7 +3739,7 @@ const products = [
     image: "https://si.geilicdn.com/wdseller1745861162-202a0000019ad93b99780a20e672_1179_884.jpg",
     linkKakobuy: "https://ikako.vip/8m2uur",
     linkUsfans: "https://usfans.com/product/3/7783042962?ref=TX9V9N",
-    tag: "GX (BEST)",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -3949,7 +3949,7 @@ const products = [
     image: "https://si.geilicdn.com/pcitem1268847658-3d7e0000019515e5c1fb0a2303ee_1290_1290.jpg",
     linkKakobuy: "https://ikako.vip/fprtr",
     linkUsfans: "https://usfans.com/product/3/6229036205?ref=TX9V9N",
-    tag: "ZC / BEST",
+    tag: "ZC = BEST",
     rating: 5
   },
   {
@@ -5119,7 +5119,7 @@ const products = [
     image: "https://si.geilicdn.com/wdseller1745861162-185a0000019cd46b18290a2315ef_1206_1608.jpg",
     linkKakobuy: "https://ikako.vip/8r9r78",
     linkUsfans: "https://usfans.com/product/3/7783613742?ref=TX9V9N",
-    tag: "GX / BEST",
+    tag: "GX = BEST",
     rating: 5
   },
   {
@@ -5209,7 +5209,7 @@ const products = [
     image: "https://si.geilicdn.com/wdseller2075148751-39780000019eacd96add0a23b6ac_3025_3029.jpg",
     linkKakobuy: "https://ikako.vip/mug7s",
     linkUsfans: "https://usfans.com/product/3/7783109456?ref=TX9V9N",
-    tag: "GX",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -5549,7 +5549,7 @@ const products = [
     image: "https://si.geilicdn.com/pcitem901870080011-1d01000001984d7ed7b50a231316_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/m64kg",
     linkUsfans: "https://usfans.com/product/3/7611477107?ref=TX9V9N",
-    tag: "M",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -5559,7 +5559,7 @@ const products = [
     image: "https://si.geilicdn.com/pcitem901870080011-5b85000001923f5858ec0a23038e_1074_1074.jpg",
     linkKakobuy: "https://ikako.vip/4t8w5",
     linkUsfans: "https://usfans.com/product/3/7614453194?ref=TX9V9N",
-    tag: "M",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -5659,7 +5659,7 @@ const products = [
     image: "https://si.geilicdn.com/pcitem901870080011-55f900000197d72db9a40a81347d_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/ebfnb",
     linkUsfans: "https://usfans.com/product/3/7611465313?ref=TX9V9N",
-    tag: "M",
+    tag: "BEST",
     rating: 4
   },
   {
@@ -5809,7 +5809,7 @@ const products = [
     image: "https://img.alicdn.com/bao/uploaded/i3/2073165527/O1CN01tc3z221qhPwJH7aLk_!!2073165527.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D742716692574",
     linkUsfans: "https://usfans.com/product/2/vyak_E-glKVaGmgCQySUZ79bs49WDuu8waSHlbm2pfXGkUi3bjIOVA?ref=TX9V9N",
-    tag: "ROK / BEST",
+    tag: "BEST",
     rating: 4
   },
   {
@@ -6999,7 +6999,7 @@ const products = [
     image: "https://si.geilicdn.com/pcitem1727599812-52cd0000018c25d6edf10a231179_1279_1486.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6561387515",
     linkUsfans: "https://usfans.com/product/3/6561387515?ref=TX9V9N",
-    tag: "2PAC / BEST",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -7079,7 +7079,7 @@ const products = [
     image: "https://si.geilicdn.com/open1733523732-1234478995-5f31000001937e800af50a210559_1179_884.jpg",
     linkKakobuy: "https://ikako.vip/ykdwts",
     linkUsfans: "https://usfans.com/product/3/7783092788?ref=TX9V9N",
-    tag: "GX",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -7839,7 +7839,7 @@ const products = [
     image: "https://img.alicdn.com/bao/uploaded/i1/3065565146/O1CN01kxMuNu1nsvDv40Uka_!!3065565146.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D946095291364",
     linkUsfans: "https://usfans.com/product/2/_eoL4-rSKxu_OAWkAa4CKWhfT0EUGh7VUjq2GpY9tyicmd1YljV-Kg?ref=TX9V9N",
-    tag: "NIE / BEST",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -7939,7 +7939,7 @@ const products = [
     image: "https://si.geilicdn.com/wdseller1845163825-461c0000019424c90d3e0a23038e_1080_1080.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7611473323",
     linkUsfans: "https://usfans.com/product/3/7611473323?ref=TX9V9N",
-    tag: "XA",
+    tag: "XA = BEST",
     rating: 5
   },
   {
@@ -11909,7 +11909,7 @@ const products = [
     image: "https://i.pinimg.com/564x/e3/b1/e8/e3b1e8049bfc9f3894fd4d2e26b7902f.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D1081083290058",
     linkUsfans: "https://usfans.com/product/2/0wSsNVZRU1ga7R7zUfohAVurBAV4-W2KjRgDo5UuWKAmsH_S4j2tJWs?ref=TX9V9N",
-    tag: "BEST / MVT",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -11919,7 +11919,7 @@ const products = [
     image: "https://img.alicdn.com/bao/uploaded/i3/2223054845092/O1CN014BD6aiSkmjG2eHNi_!!2223054845092.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1083187792507",
     linkUsfans: "https://usfans.com/product/2/shQFRb-OQijWvNZRM8W7hTgcpWBl3FNCzhsPmo4ahGg6TNYu3PqQSFU?ref=TX9V9N",
-    tag: "BEST / MVT",
+    tag: "BEST",
     rating: 5
   },
   {
@@ -11929,7 +11929,7 @@ const products = [
     image: "https://img.alicdn.com/bao/uploaded/i1/2223054845092/O1CN01qJIUkUOWLjB1nX8G_!!2223054845092.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1082167341399",
     linkUsfans: "https://usfans.com/product/2/zHMQ7V1eUide67YiFkCCOkPU4JlRji2Mx58CogADPdiMOq4W58V025I?ref=TX9V9N",
-    tag: "BEST / MVT",
+    tag: "BEST",
     rating: 5
   },
   {
