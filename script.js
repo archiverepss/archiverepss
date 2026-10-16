@@ -13695,6 +13695,18 @@ const promotions = [
     tag: "DREAMREMAKE / BEST",
     category: "All"
   },
+  {
+    name: "AIRMAX 95",
+    price: "$35",
+    pricePLN: "133",
+    batch: "BEST [GX]",
+    expiry: "-",
+    rating: 10,
+    image: "https://si.geilicdn.com/wdseller2075681620-07a6000001a1451f1cf00a210256_960_962.jpg",
+    link: "https://usfans.com/product/3/7877381142?ref=TX9V9N",
+    tag: "WWTOP",
+    category: "Shoes"
+  },
 ];
 
 // ============================================
