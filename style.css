@@ -1392,3 +1392,106 @@ body:not(.app-ready) #grid::before { content: ""; display: block; grid-column: 1
   .outfit-details-item-name { font-size: 13.5px; }
   .outfit-details-actions { padding: 16px 18px 20px; }
 }
+
+/* === OPTYMALIZACJA WYDAJNOŚCI === */
+.product-card,
+.slider-item,
+.promo-card-v2,
+.outfit-card {
+  contain: layout style paint;
+}
+
+#homeLatestGrid .product-card {
+  /* will-change tylko gdy animacja jest aktywna */
+  will-change: auto;
+}
+#homeLatestGrid .product-card:not(.revealed) {
+  will-change: opacity, transform;
+}
+
+/* Wyłącz animacje shimmer gdy obrazek już się załadował */
+img[data-loaded="1"] {
+  animation: none !important;
+  background: #0f1225 !important;
+}
+/* === NAPRAWA PŁYNNEGO ŁADOWANIA ZDJĘĆ === */
+img {
+  content-visibility: visible !important; 
+}
+.product-card, .slider-item, .promo-card-v2, .outfit-card {
+  contain: layout style !important; 
+  /* === NAPRAWA PŁYNNEGO ŁADOWANIA I HOVER ZOOM === */
+.product-image {
+  /* Płynne pojawianie się, a po 0.4s przełącza się na płynny zoom przy hoverze (0.5s) */
+  transition: opacity 0.4s ease, transform 0.5s cubic-bezier(0.22, 1, 0.36, 1) !important;
+  background: #0f1225;
+}
+
+.promo-card-v2-img, .outfit-card-img {
+  transition: opacity 0.4s ease, transform 0.6s cubic-bezier(0.22, 1, 0.36, 1) !important;
+  background: #0f1225;
+}
+
+/* Wymuszamy płynny zoom przy najechaniu (nadpisujemy ewentualne konflikty) */
+.product-card:hover .product-image,
+.featured-card:hover .product-image,
+.slider-item:hover .product-image {
+  transform: scale(1.06) !important;
+}
+
+.promo-card-v2:hover .promo-card-v2-img {
+  transform: scale(1.06) !important;
+}
+
+.outfit-card:hover .outfit-card-img {
+  transform: scale(1.06) !important;
+}
+}
+
+/* === GLOBALNY LOADER === */
+.global-loader {
+  position: fixed;
+  inset: 0;
+  background: #050816;
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.6s;
+}
+
+.global-loader.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.loader-spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(124, 92, 255, 0.15);
+  border-top-color: #7c5cff;
+  border-radius: 50%;
+  animation: spin-loader 0.8s linear infinite;
+  box-shadow: 0 0 20px rgba(124, 92, 255, 0.2);
+}
+
+.loader-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #8b8fa8;
+  letter-spacing: 0.5px;
+  animation: pulse-text 1.5s ease-in-out infinite;
+}
+
+@keyframes spin-loader {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse-text {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
