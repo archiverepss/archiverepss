@@ -13429,7 +13429,7 @@ const products = [
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01iDsZUU1zbJHzkwHeU_!!2217703186732-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F817960081214.html",
     linkUsfans: "https://usfans.com/product/1/817960081214?ref=TX9V9N",
-    tag: "BEST",
+    tag: "budget",
     rating: 5
   },
   {
