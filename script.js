@@ -13422,6 +13422,46 @@ const products = [
     tag: "BEST",
     rating: 5
   },
+  {
+    name: "bape tshirt (a lot of cw)",
+    category: "Tshirts",
+    price: "$7.51",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01iDsZUU1zbJHzkwHeU_!!2217703186732-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F817960081214.html",
+    linkUsfans: "https://usfans.com/product/1/817960081214?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "cdg play tee [budget]",
+    category: "Tshirts",
+    price: "$3.51",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01FDAlK31YhjK14jYog_!!2215788503091-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F780676363975.html",
+    linkUsfans: "https://usfans.com/product/1/780676363975?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "number nine double skull (black)",
+    category: "Hoodies",
+    price: "$43.11",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01lYw0zR1CUykZ1dtPe_!!2025450085.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D967077938389",
+    linkUsfans: "https://usfans.com/product/2/geSbzF9OBa0U5eyku9U5QGFcm2Ga4fsJRiG37L_ApPO5LBK5bbA6bA?ref=TX9V9N",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "ISABEL MARANT",
+    category: "Shoes",
+    price: "$71.73",
+    image: "https://si.geilicdn.com/pcitem902087794413-4786000001a07848e9bc0a20e672_1440_1920.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7847045635",
+    linkUsfans: "https://usfans.com/product/3/7847045635?ref=TX9V9N",
+    tag: "GZ",
+    rating: 5
+  },
 ];
 
 // ============================================
