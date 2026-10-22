@@ -13462,6 +13462,116 @@ const products = [
     tag: "GZ",
     rating: 5
   },
+  {
+    name: "undercover card tee",
+    category: "Tshirts",
+    price: "$16.54",
+    image: "https://si.geilicdn.com/wdseller1744067351-50240000019f98e6b1990a20e273_1180_1572.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7812736781",
+    linkUsfans: "https://usfans.com/product/3/7812736781?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "jellycat pendant",
+    category: "Belts",
+    price: "$2.33",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01YB9JxY1yl6Hb5ZGu9_!!2221368666618-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1016947587881.html",
+    linkUsfans: "https://usfans.com/product/1/1016947587881?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "tom ford sunglasses",
+    category: "Belts",
+    price: "$9.36",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN011rinaB22jVJqJ6zg2_!!2217896487156-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F950518363279.html",
+    linkUsfans: "https://usfans.com/product/1/950518363279?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "stone island phone case",
+    category: "Belts",
+    price: "$0.50",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01w8XikE2AnBLXI61gR_!!2218570258247-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F837404564540.html",
+    linkUsfans: "https://usfans.com/product/1/837404564540?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "RIMOWA PHONE CASE",
+    category: "Belts",
+    price: "$9.02",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01oXl1lr233CNl2ejWx_!!2220920547199-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F995353028712.html",
+    linkUsfans: "https://usfans.com/product/1/995353028712?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "nocta phone case",
+    category: "Belts",
+    price: "$0.59",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01HktNig1ui7Dn74Z4f_!!2218874636070-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F992186045488.html",
+    linkUsfans: "https://usfans.com/product/1/992186045488?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "tnf phone case",
+    category: "Belts",
+    price: "$0.59",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01IEjcS41IEqJ5jVvOI_!!2215151140862-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F746209479716.html",
+    linkUsfans: "https://usfans.com/product/1/746209479716?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "chrome hearts phone case",
+    category: "Belts",
+    price: "$1.31",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01VnUaFg1KLN40gqJwi_!!3585621147-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F614731778970.html",
+    linkUsfans: "https://usfans.com/product/1/614731778970?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "rimowa phone case (2)",
+    category: "Belts",
+    price: "$2.21",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01ITlp3f1UjKJ35m7IX_!!2219977232553-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1061493283690.html",
+    linkUsfans: "https://usfans.com/product/1/1061493283690?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ch trouser chain",
+    category: "Belts",
+    price: "$1.09",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN0111LVOD1pSTUl5fnwn_!!2217812975359-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F822249396308.html",
+    linkUsfans: "https://usfans.com/product/1/822249396308?ref=TX9V9N",
+    tag: "BUDGET",
+    rating: 5
+  },
+  {
+    name: "JOJO SCARF",
+    category: "Belts",
+    price: "$5.01",
+    image: "https://img.alicdn.com/bao/uploaded/i3/3624541446/O1CN01monT6P1MYJbeC4gsJ_!!3624541446.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D603882869568&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/znmnGbQiLh-0arzJbJVWn0qQprbvoRJw5pOq9OWXAeHQOUMJV16MNA?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
