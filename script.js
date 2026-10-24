@@ -347,7 +347,7 @@ const products = [
   {
     name: "NUMBER NINE SKULL  WHITE HODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$62",
     image: "https://img.alicdn.com/bao/uploaded/i1/2200736549757/O1CN01RuSeJ72LwlWUhFC7U_!!2200736549757.jpg",
     linkKakobuy: "https://ikako.vip/usgae",
@@ -358,7 +358,7 @@ const products = [
   {
     name: "NUMBER NINE SKULL HODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$72",
     image: "https://img.alicdn.com/bao/uploaded/i3/2200736549757/O1CN01ZZcv0c2LwlVdmMKRt_!!2200736549757.jpg",
     linkKakobuy: "https://ikako.vip/hpcxu",
@@ -369,7 +369,7 @@ const products = [
   {
     name: "SUPREME X HYSTERIC GLAMOUR",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$68",
     image: "https://www.theillest.pl/wp-content/uploads/2024/11/Supreme-HYSTERIC-GLAMOUR-Fall-Winter-2024-8.jpg",
     linkKakobuy: "https://ikako.vip/zmcw3",
@@ -391,7 +391,7 @@ const products = [
   {
     name: "BALENCIAGA SOCCER HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$45",
     image: "https://img.alicdn.com/imgextra/i2/3550899246/O1CN01kSVru42IAiyacd2nn_!!3550899246.jpg",
     linkKakobuy: "https://ikako.vip/tu6eq",
@@ -402,7 +402,7 @@ const products = [
   {
     name: "BALENCIAGA EBAY ZIP UP",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$37",
     image: "https://img.alicdn.com/bao/uploaded/i4/3550899246/O1CN01tVBTxl2IAj3yGdZey_!!3550899246.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D895618734663",
@@ -413,7 +413,7 @@ const products = [
   {
     name: "BALENCIAGA FUR ZIP UP",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$56",
     image: "https://assets.allchinabuysheets.com/665f4b5bc53ebfd135d04b40/69273032577f2ab88a1b263b_6925d65b0f585962b0b359df_561506090_2228718664283514_9131020294079013372_n-removebg-preview.webp",
     linkKakobuy: "https://ikako.vip/dzwbm",
@@ -424,7 +424,7 @@ const products = [
   {
     name: "BALENCIAGA X UNDER ARMOUR HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$36",
     image: "https://si.geilicdn.com/wdseller1258568610-00c80000019abd91f8330a2102c5_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/7wdhxf",
@@ -908,7 +908,7 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR REVERSIBLE FUR HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$69",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01rwzcst1RR3bu8hZy7_!!2126072107.png",
     linkKakobuy: "https://ikako.vip/zjvkm",
@@ -1007,7 +1007,7 @@ const products = [
   {
     name: "RICK OWENS HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$41",
     image: "https://img.alicdn.com/bao/uploaded/i1/62314016/O1CN01e9pAON1fXNjKDiAAl_!!62314016.jpg",
     linkKakobuy: "https://ikako.vip/9nekn",
@@ -1018,7 +1018,7 @@ const products = [
   {
     name: "RICK OWENS WIZARD HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$41",
     image: "https://img.alicdn.com/bao/uploaded/i4/62314016/O1CN01acQlrm1fXNTge4elY_!!62314016.jpg",
     linkKakobuy: "https://ikako.vip/7a3v6",
@@ -1029,7 +1029,7 @@ const products = [
   {
     name: "RICK OWENS SUBHUMAN HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$39",
     image: "https://img.alicdn.com/bao/uploaded/i3/62314016/O1CN01OVNA0I1fXNf0akPcv_!!62314016.jpg",
     linkKakobuy: "https://ikako.vip/ghbm5",
@@ -1183,7 +1183,7 @@ const products = [
   {
     name: "RAF SIMONS VIRGINIA CREEPER CREWNECK",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$62",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/18/87db2535902729346f1b20f54751989d.jpg",
     linkKakobuy: "https://ikako.vip/myvhe3",
@@ -1249,7 +1249,7 @@ const products = [
   {
     name: "BURBERRY GREY HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$50.93",
     image: "https://media.usfans.com/upload/ori/2026/10/06/102804/05d4ef63-6eb1-4b09-b9db-68a2e844ba03.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
     linkKakobuy: "https://ikako.vip/s7kpd",
@@ -1271,7 +1271,7 @@ const products = [
   {
     name: "BURBERRY ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$50.93",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/25/7c0d044a539812b3b2d5eb77a7f0addc.jpg",
     linkKakobuy: "https://ikako.vip/zjmxnf",
@@ -1326,7 +1326,7 @@ const products = [
   {
     name: "RALPH LAUREN ZIPPER HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$27.54",
     image: "https://si.geilicdn.com/open1831762514-252808396-13a1000001935930c3280aa08290_1239_1241.jpg",
     linkKakobuy: "https://ikako.vip/rfy5a",
@@ -1370,7 +1370,7 @@ const products = [
   {
     name: "BROKEN PLANET ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$34.32",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/17/0c05c924d34c2c57735613ff7b958e6b.jpg",
     linkKakobuy: "https://ikako.vip/89xdp",
@@ -1414,7 +1414,7 @@ const products = [
   {
     name: "SUPREME X MM6",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$62.72",
     image: "https://images.stockx.com/images/Supreme-MM6-Maison-Margiela-Zip-Up-Hooded-Sweatshirt-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1744142786",
     linkKakobuy: "https://ikako.vip/t64fj",
@@ -3229,7 +3229,7 @@ const products = [
   {
     name: "Derschutze Gallery Hoodie",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$38",
     image: "https://img.alicdn.com/bao/uploaded/i1/1854157063/O1CN01QyqjQx222uUMVbfRC_!!1854157063.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7513541026",
@@ -3251,7 +3251,7 @@ const products = [
   {
     name: "Derschutze awakening V2 BLOSSOM Hoodie",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$33",
     image: "https://img.alicdn.com/bao/uploaded/i1/1854157063/O1CN01w8zgPc222uSmzxiKS_!!1854157063.jpg",
     linkKakobuy: "https://ikako.vip/jadt8",
@@ -3262,7 +3262,7 @@ const products = [
   {
     name: "CDG HOODIE BIG HEART",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$42",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/28/01c50d2925f56d4836c9bd496afc6501.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D975518273866&affcode=archivee",
@@ -3284,7 +3284,7 @@ const products = [
   {
     name: "CDG ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$40",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/20/08e16a9401ebe00c2643f5d1e4150eff.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D975522325315&affcode=archivee",
@@ -3295,7 +3295,7 @@ const products = [
   {
     name: "CDG PLAY ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$42",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/8f30df14c597686ba901499db9dc7cce.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D974788342665&affcode=archivee",
@@ -3328,7 +3328,7 @@ const products = [
   {
     name: "PAIKI FUR ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$41",
     image: "https://img.alicdn.com/bao/uploaded/i3/2217229488319/O1CN01aVZICMJkXiF65evo_!!2217229488319.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D841606251822&affcode=archivee",
@@ -3405,7 +3405,7 @@ const products = [
   {
     name: "LOEWE ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$17.57",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01NLBNhc1WvLg0B31CC_!!2216716812850-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/7mu8w",
@@ -3669,7 +3669,7 @@ const products = [
   {
     name: "ERD CREWNECK",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$17.42",
     image: "https://img.alicdn.com/bao/uploaded/i2/2075710764/O1CN01J9qQW51HVxdjUi5Yc_!!2075710764.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D906486784153&affcode=archivee",
@@ -3680,7 +3680,7 @@ const products = [
   {
     name: "MM KNIT ZIP UP",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$22.38",
     image: "https://img.alicdn.com/bao/uploaded/i4/4151923581/O1CN018cFAPh1cK9DUrkk8n_!!4151923581.jpg",
     linkKakobuy: "https://ikako.vip/42939",
@@ -3691,7 +3691,7 @@ const products = [
   {
     name: "MM KNIT",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$13.87",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01yYEy7j1OYtRQj0UZd_!!1004951718-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/5evbs",
@@ -3702,7 +3702,7 @@ const products = [
   {
     name: "UNDERCOVER CREWNECK",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$22.24",
     image: "https://img.alicdn.com/bao/uploaded/i2/2652892586/O1CN01DyyLAH1UyRFXDjG3D_!!2652892586.jpg",
     linkKakobuy: "https://ikako.vip/mzute",
@@ -3713,7 +3713,7 @@ const products = [
   {
     name: "UNDERCOVER GIZ SAWTOOTH CREWNECK",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$18.76",
     image: "http://img.alicdn.com/imgextra/i4/2217964616975/O1CN01KzYlGH21ObetuoSGL_!!2217964616975.jpg",
     linkKakobuy: "https://ikako.vip/65v9v",
@@ -3768,7 +3768,7 @@ const products = [
   {
     name: "WLNEXT ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$32.38",
     image: "https://img.alicdn.com/bao/uploaded/i1/1124265575/O1CN01VKw8FU1r3Oxp9z87d_!!1124265575.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D749224137219&affcode=archivee",
@@ -3779,7 +3779,7 @@ const products = [
   {
     name: "UVU INSIGNA ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$31.44",
     image: "https://si.geilicdn.com/wdseller1940384309-11f4000001982dab0b4d0a22d58f_1320_1320.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7513593962&affcode=archivee",
@@ -3878,7 +3878,7 @@ const products = [
   {
     name: "(BUDGET) CORTEIZ HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$21.73",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01gxXgq31riAK6IVGnJ_!!2217847465664-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/h9m3h",
@@ -3955,7 +3955,7 @@ const products = [
   {
     name: "VETEMENTS ZURICH",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$56.83",
     image: "https://img.alicdn.com/bao/uploaded/i4/2210299185015/O1CN01ZfxYcp1muvO3pGJrk_!!2210299185015.jpg",
     linkKakobuy: "https://ikako.vip/vuqaj",
@@ -4318,7 +4318,7 @@ const products = [
   {
     name: "VETE BRO ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$47.25",
     image: "https://img.alicdn.com/bao/uploaded/i2/2210299185015/O1CN01BGpy2z1muvO3peHpG~crop,62,0,1875,2500~_!!2210299185015.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D844916341750",
@@ -4329,7 +4329,7 @@ const products = [
   {
     name: "NUMBER NINE SHIELD CREWNECK",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$40.24",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01WeIBlN1CUykcsqbG9_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D968237571225",
@@ -4538,7 +4538,7 @@ const products = [
   {
     name: "NEBRASKA LICENSE ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$28.20",
     image: "https://img.alicdn.com/bao/uploaded/i1/346392213/O1CN01y79YDM1SDbaEjDsf1_!!346392213.jpg",
     linkKakobuy: "https://ikako.vip/hmwac",
@@ -4549,7 +4549,7 @@ const products = [
   {
     name: "NUMBER NINE ZIP UP HOODIE (LMYER)",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$40",
     image: "https://media.usfans.com/images/qc/20250806/2138c20a30e8452f9412aff29b1e7840.png",
     linkKakobuy: "https://ikako.vip/uxf3j",
@@ -4879,7 +4879,7 @@ const products = [
   {
     name: "PEACEINWAR AIRBONE ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$45.48",
     image: "https://si.geilicdn.com/wdseller1995625455-7eec0000019dd830c1ff0a23c191_3025_3026.jpg",
     linkKakobuy: "https://ikako.vip/x9axd",
@@ -5297,7 +5297,7 @@ const products = [
   {
     name: "UPINFLAMES ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$32",
     image: "https://si.geilicdn.com/wdseller1940384309-64120000019ab6e9e9b50a239839_1320_1320.jpg",
     linkKakobuy: "https://ikako.vip/bk6p6",
@@ -5308,7 +5308,7 @@ const products = [
   {
     name: "DERSCHUTZE CREWNECK",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$26.5",
     image: "https://si.geilicdn.com/wdseller1940384309-4ecb0000019b0944df710a23c191_1320_1320.jpg",
     linkKakobuy: "https://ikako.vip/7r6mf",
@@ -6111,7 +6111,7 @@ const products = [
   {
     name: "STUSSY HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$27.01",
     image: "https://media.usfans.com/2026/05/17/104231/a1c884a2-597d-473a-9d76-b58759716a53.jpg",
     linkKakobuy: "https://ikako.vip/qm6jw",
@@ -6353,7 +6353,7 @@ const products = [
   {
     name: "VETEMENTS POLIZEI ZIP UP",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$48.74",
     image: "https://si.geilicdn.com/wdseller1846720803-114100000198a3cb0dfe0a81347d_1179_1959.jpg",
     linkKakobuy: "https://ikako.vip/6td55",
@@ -6551,7 +6551,7 @@ const products = [
   {
     name: "NE NET HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$20",
     image: "https://img.alicdn.com/bao/uploaded/i2/787254007/O1CN01RkRP2Y1fTFuWHMK2I_!!787254007.png",
     linkKakobuy: "https://ikako.vip/742mk",
@@ -6793,7 +6793,7 @@ const products = [
   {
     name: "LGB HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$44",
     image: "https://img.alicdn.com/bao/uploaded/i1/2221168735348/O1CN01wl0cxc1pNRGX3Q372_!!2221168735348.jpg",
     linkKakobuy: "https://ikako.vip/8wtqc",
@@ -6804,7 +6804,7 @@ const products = [
   {
     name: "UNDERCOVER HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$27.50 - $29.10",
     image: "https://img.alicdn.com/bao/uploaded/i2/2215133707687/O1CN01PPUhWh26eheZJS7Zo_!!2215133707687.jpg",
     linkKakobuy: "https://ikako.vip/4avsj",
@@ -6848,7 +6848,7 @@ const products = [
   {
     name: "LGB ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$47.20",
     image: "https://img.alicdn.com/bao/uploaded/i4/2221168735348/O1CN01QiyT1C1pNRGgGGrCZ_!!2221168735348.jpg",
     linkKakobuy: "https://ikako.vip/6gtep",
@@ -7310,7 +7310,7 @@ const products = [
   {
     name: "NN SOVC CREWNECK",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$37.33",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN010lq0kW1CUylrmdHmP_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D994414671611",
@@ -7541,7 +7541,7 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$57.20",
     image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01cMsB1B1RR3f5rwhTl_!!2126072107.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1014829368956",
@@ -7629,7 +7629,7 @@ const products = [
   {
     name: "HYSTERIC CALL ME HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$49",
     image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01SMmCpa1RR3cuntiry~hdr~livephoto~_!!2126072107.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D986855670758",
@@ -7717,7 +7717,7 @@ const products = [
   {
     name: "HYOMA CREWNECK",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$65.36",
     image: "https://si.geilicdn.com/wdseller1977061622-19940000019f4702a0770a2304aa_765_1024.jpg",
     linkKakobuy: "https://usfans.com/product/3/7804251369?ref=TX9V9N",
@@ -7948,7 +7948,7 @@ const products = [
   {
     name: "CARDIGAN ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$30.82",
     image: "https://img.alicdn.com/bao/uploaded/i2/346392213/O1CN010npMdU1SDbaTaZneI_!!346392213.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D954349990038",
@@ -7992,7 +7992,7 @@ const products = [
   {
     name: "USA FLAG ZIP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$25.90",
     image: "https://img.alicdn.com/bao/uploaded/i3/346392213/O1CN01ecoNaB1SDba4QmjQ0_!!346392213.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D942810138262",
@@ -8014,7 +8014,7 @@ const products = [
   {
     name: "BOXY HOODED CARDIGAN",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$25.90",
     image: "https://img.alicdn.com/bao/uploaded/i4/346392213/O1CN01aPa01A1SDbaeFh31p_!!346392213.jpg",
     linkKakobuy: "https://usfans.com/product/2/1bgO862q9BfzCdg7qfBzcX_XJ2GNOlM3yV3BAKAQ0CqvvT8ZJcCPGQ?ref=TX9V9N",
@@ -8201,7 +8201,7 @@ const products = [
   {
     name: "CERTIFIED FREAK HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$29.76",
     image: "https://img.alicdn.com/bao/uploaded/i4/1801124778/O1CN01SPFkHO1lANRqLsFiB_!!1801124778.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D863480165301",
@@ -8333,7 +8333,7 @@ const products = [
   {
     name: "RALPH LAUREN USA SWEATER",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$25.65",
     image: "https://media.usfans.com/2026/08/27/220520/067f1572-bee0-4f1d-9c7f-ce63f6c7b568.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F943439407506.html",
@@ -9026,7 +9026,7 @@ const products = [
   {
     name: "DG RED LIGHT HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$39.08",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN013D4G2D1gquA8SyMXM_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D848413782171",
@@ -9554,7 +9554,7 @@ const products = [
   {
     name: "SAINT ALEXANDER KNIT",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$29.58",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/28/634a5b7f1b11b249f69b49f6b9490b99.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1010131652510",
@@ -9862,7 +9862,7 @@ const products = [
   {
     name: "GUCCI CHATEAU MARMONT SWEATER",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$49.61",
     image: "https://si.geilicdn.com/wdseller1623957871-02710000019ff602baa20a23038e_2560_2557.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7821413291",
@@ -9873,7 +9873,7 @@ const products = [
   {
     name: "NOFAITHSTUDIOS SWEATER",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$44.63",
     image: "https://img.alicdn.com/bao/uploaded/i1/2213360897592/O1CN01r6llRF25xC1jmn30P_!!2213360897592.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984729772773",
@@ -9884,7 +9884,7 @@ const products = [
   {
     name: "GIVENCHY SWEATER",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$26.22",
     image: "https://img.alicdn.com/bao/uploaded/i2/1055132907/O1CN01nXex8c1XLSF4X5zJk_!!1055132907.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D739760720141",
@@ -9895,7 +9895,7 @@ const products = [
   {
     name: "ERD FACE SWEATER",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$44.47",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215800851954/O1CN016I3y291QIypjclUEp_!!2215800851954.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D754726443757",
@@ -10269,7 +10269,7 @@ const products = [
   {
     name: "SUVENE ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$24.92",
     image: "https://si.geilicdn.com/pcitem2088921286-4af70000019faecd00420a2394a4-unadjust_940_908.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7815126155",
@@ -10731,7 +10731,7 @@ const products = [
   {
     name: "DERSCHUTZE TIGER ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$41.22",
     image: "https://si.geilicdn.com/wdseller2073272636-02150000019ee1b7ab800a21146b_1320_1320.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7788554077",
@@ -10753,7 +10753,7 @@ const products = [
   {
     name: "THOM BROWNE ZIPPER",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$46.37",
     image: "https://si.geilicdn.com/wdseller1258568610-0fda0000019c08f65f2e0a23010f_1320_990.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7676977478",
@@ -10819,7 +10819,7 @@ const products = [
   {
     name: "SUPREME X TRUE RELIGION HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$64.46",
     image: "https://img.alicdn.com/bao/uploaded/i4/2217868191481/O1CN01fCdLfy1MoLWsTk7Yt_!!2217868191481.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D794377449438",
@@ -10863,7 +10863,7 @@ const products = [
   {
     name: "LV MARQUE SWEATER",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$42.88",
     image: "https://media.usfans.com/upload/ori/2026/09/30/095317/d844b8e9-85cb-42c4-bd38-aa762722b0fb.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7654457475",
@@ -10896,7 +10896,7 @@ const products = [
   {
     name: "PRADA SWEATER",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$49.53",
     image: "https://si.geilicdn.com/pcitem2020241165-14cf0000019b4218a6fc0a2315ef-unadjust_640_637.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7641078552",
@@ -10907,7 +10907,7 @@ const products = [
   {
     name: "BALENCIAGA X UNDER ARMOUR HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$64.49",
     image: "https://media.usfans.com/2026/08/28/210915/821a01aa-2397-4340-af7b-32c5f3477717.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7637963257",
@@ -10951,7 +10951,7 @@ const products = [
   {
     name: "Beauty:Beast Killer Icon Japan Devilman Sirene",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$61.33",
     image: "https://si.geilicdn.com/wdseller1623957871-76940000019efa5d8e620a2102b1_1320_1508.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7797726472",
@@ -10973,7 +10973,7 @@ const products = [
   {
     name: "RICK OWENS VOMIT SWEATER",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$51.36",
     image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01GaGoNQmmnDL2gAYw~crop,10,0,1300,1734~_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1073759341983",
@@ -11204,7 +11204,7 @@ const products = [
   {
     name: "EMOTIONS NEVER DIE HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$21.11",
     image: "https://img.alicdn.com/bao/uploaded/i2/2075710764/O1CN016J6gU61HVxgn0sKjr_!!2075710764.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D981752419955",
@@ -11468,7 +11468,7 @@ const products = [
   {
     name: "DA BROTHAS HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$36.38",
     image: "https://si.geilicdn.com/wdseller1995625455-729b00000199c81e2aad0a2395e9_1290_1720.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7569588662",
@@ -11589,7 +11589,7 @@ const products = [
   {
     name: "louders loser hoodie",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$47.93",
     image: "https://img.alicdn.com/bao/uploaded/i4/2210299185015/O1CN0108LEGS1muvPdbENfh~crop,35,0,1061,1415~_!!2210299185015.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1053894771650",
@@ -11600,7 +11600,7 @@ const products = [
   {
     name: "SUPREME X MM6 (PAINT)",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$64.73",
     image: "https://media.usfans.com/2026/09/15/172532/ddc0dc73-21cb-476c-8dd3-7879a36ced53.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1066467432016",
@@ -11721,7 +11721,7 @@ const products = [
   {
     name: "SAINT LAURENT FW17 KNIT",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$54.48",
     image: "https://img.alicdn.com/bao/uploaded/i2/3575082995/O1CN01Y8i1yJ1XzlMnlU6FQ_!!3575082995.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1060706303933",
@@ -11765,7 +11765,7 @@ const products = [
   {
     name: "ne net crewneck",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$21.30",
     image: "https://img.alicdn.com/bao/uploaded/i1/282429573/O1CN01cV9scl2KaU6mSDuFJ_!!282429573.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D578909004581",
@@ -11996,7 +11996,7 @@ const products = [
   {
     name: "avril lavgine zip up hoodie",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$31.23",
     image: "https://img.alicdn.com/bao/uploaded/i4/346392213/O1CN010egt7j1SDbeDMHd8Q_!!346392213.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1069389302000",
@@ -12007,7 +12007,7 @@ const products = [
   {
     name: "whole day im busy hoodie",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$22.93",
     image: "https://img.alicdn.com/bao/uploaded/i2/346392213/O1CN011kzHOl1SDbZBiIZoM_!!346392213.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D837786413589",
@@ -12029,7 +12029,7 @@ const products = [
   {
     name: "ARTILLERY FUNHOUSE SWEATSHIRT",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$26.25",
     image: "https://img.alicdn.com/bao/uploaded/i2/346392213/O1CN01kY5M7X1SDbc06f7YM_!!346392213.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D974657895956",
@@ -12062,7 +12062,7 @@ const products = [
   {
     name: "OAKLEY VINTAGE SWEATER",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$19.11",
     image: "https://si.geilicdn.com/weidian1417299265-02b5000001958cf754fb0a20e273_1080_1344.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6649590750",
@@ -12161,7 +12161,7 @@ const products = [
   {
     name: "74 ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$47.37",
     image: "https://si.geilicdn.com/wdseller2018810290-74e90000019dbea1e54e0a240147_1320_1760.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7737080009",
@@ -12337,7 +12337,7 @@ const products = [
   {
     name: "LGB 00S Archive Color-Blocked Dragon Tour Dragon HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$44.69",
     image: "https://img.alicdn.com/bao/uploaded/i4/2221168735348/O1CN01Gyn7TD1pNRGbtrOlw_!!2221168735348.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D996668059377",
@@ -12414,7 +12414,7 @@ const products = [
   {
     name: "VINTAGE EVISU HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$37.42",
     image: "https://media.usfans.com/upload/ori/2026/10/01/141158/39a8e1f7-98be-4be7-ab2a-46a39be82296.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7852038097",
@@ -12469,7 +12469,7 @@ const products = [
   {
     name: "supreme x cdg knit",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$38.25",
     image: "https://storage.googleapis.com/hypeclothinga-media/__sized__/products/Supreme_Cdg_Sweater_Black_88163ac9_Hype_Clothinga.001-thumbnail-1080x1080-70.jpeg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1038168725313",
@@ -12733,7 +12733,7 @@ const products = [
   {
     name: "Ralph Lauren Knit",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$19.13",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN010u85fM29V2BUWSkkb_!!2222475048072-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1052309933526.html",
@@ -12744,7 +12744,7 @@ const products = [
   {
     name: "RALPH LAUREN HALF KNIT",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$20.79",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01xPM9vi29V2BT62nMr_!!2222475048072-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1051343618100.html",
@@ -12898,12 +12898,12 @@ const products = [
   {
     name: "ARTIEMASTER ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$15.30",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01YsHKKX1rFlqSGSJjb_!!2631375602-0-cib.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F948615042955.html",
     linkUsfans: "https://usfans.com/product/1/948615042955?ref=TX9V9N",
-    tag: "",
+    tag: "ARTIE",
     rating: 5
   },
   {
@@ -13503,7 +13503,7 @@ const products = [
   {
     name: "maison margiela removable zip up hoodie",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$54.82",
     image: "https://img.alicdn.com/bao/uploaded/i1/1101571305/O1CN01EoRBXU1LVk0sXil7q_!!1101571305.png",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1017193512465&affcode=archivee",
@@ -13591,7 +13591,7 @@ const products = [
   {
     name: "deputy zip up hoodie",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$30",
     image: "https://si.geilicdn.com/wdseller2073272636-28850000019fa2520c2b0a81347d_1320_1320.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7813268883&affcode=archivee",
@@ -13602,7 +13602,7 @@ const products = [
   {
     name: "deputy script zip",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$36.66",
     image: "https://si.geilicdn.com/wdseller2073272636-328a0000019fdb22dff10a22d535_1320_1320.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7823700458&affcode=archivee",
@@ -13932,7 +13932,7 @@ const products = [
   {
     name: "essentials 25ss zip hoodie",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$25.33",
     image: "https://si.geilicdn.com/pcitem2077227601-0b640000019ea75c97c50a2394a4_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784819553",
@@ -14603,12 +14603,12 @@ const products = [
   {
     name: "celine fantasies crewneck",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$49.82",
     image: "https://si.geilicdn.com/wdseller1944549967-20c1000001a0d3acf6020a23b6ac_1290_1606.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7862468530",
     linkUsfans: "https://usfans.com/product/3/7862468530?ref=TX9V9N",
-    tag: "",
+    tag: "?",
     rating: 5
   },
   {
@@ -14823,7 +14823,7 @@ const products = [
   {
     name: "number nine double skull (black)",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$43.11",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01lYw0zR1CUykZ1dtPe_!!2025450085.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D967077938389",
@@ -14966,7 +14966,7 @@ const products = [
   {
     name: "vetements mtb zip up",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "zip-ups",
     price: "$71.65",
     image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN01vRdBDb26cs1uuck87_!!3822597683.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D864277272767&affcode=archivee",
@@ -15065,7 +15065,7 @@ const products = [
   {
     name: "peaceinwar sweater",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$31.59",
     image: "https://si.geilicdn.com/wdseller1995625455-21a3000001a014197fd60a2304a0_4284_4287.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7830779533&affcode=archivee",
@@ -15175,7 +15175,7 @@ const products = [
   {
     name: "fyrewrld knit",
     category: "Hoodies",
-    subcategory: "",
+    subcategory: "sweaters",
     price: "$43.11",
     image: "https://img.alicdn.com/bao/uploaded/i1/3324545123/O1CN01REXA1hFC2vG2b8G8_!!3324545123.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1056576222628&affcode=archivee",
