@@ -1634,7 +1634,7 @@ const products = [
   {
     name: "RALPH LAUREN POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$20.22",
     image: "https://si.geilicdn.com/wdseller1595179932-06af0000019759d8e5370a230115_1170_1170.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1852083541.v.weidian.com%2Fitem.html%3FitemID%3D7595170179&affcode=archivee",
@@ -3548,7 +3548,7 @@ const products = [
   {
     name: "PEACEINWAR FEDERAL POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$21.28",
     image: "https://si.geilicdn.com/wdseller1995625455-02c30000019d244b12460a240147_1320_1760.jpg",
     linkKakobuy: "https://ikako.vip/q9j4k",
@@ -3977,7 +3977,7 @@ const products = [
   {
     name: "NO E MOSEN LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$32.19",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/30/58fb6d15c4033af0b330e43ab210efb8.jpg",
     linkKakobuy: "https://ikako.vip/xdmpq",
@@ -4153,7 +4153,7 @@ const products = [
   {
     name: "UNDERCOVER 10AW LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$24.63",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01X0CYbH1FEtWMvrjxb_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/jbrdq",
@@ -4439,7 +4439,7 @@ const products = [
   {
     name: "BALENCIAGA LAMBORGHINI LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$27.45",
     image: "https://img.alicdn.com/bao/uploaded/i4/3550899246/O1CN01RRhMbA2IAj5VkWYgV_!!3550899246.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D938199594257",
@@ -4450,7 +4450,7 @@ const products = [
   {
     name: "MOWALOLA TANK TOP",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "tank-tops",
     price: "$13",
     image: "https://img.alicdn.com/bao/uploaded/i3/2342244629/O1CN01YTPzYL1k48RSzXtM9_!!2342244629.jpg",
     linkKakobuy: "https://ikako.vip/37c9n",
@@ -5429,7 +5429,7 @@ const products = [
   {
     name: "CDG LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$9.30",
     image: "https://cbu01.alicdn.com/img/ibank/20215983421_702400057.jpg",
     linkKakobuy: "https://ikako.vip/scscx",
@@ -5572,7 +5572,7 @@ const products = [
   {
     name: "GIVENCHY TANK TOP",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "tank-tops",
     price: "$15.65",
     image: "https://img.alicdn.com/bao/uploaded/i1/2220863143615/O1CN01gd5ZZR1cZiuW2dAMz_!!2220863143615.jpg",
     linkKakobuy: "https://ikako.vip/aw8vj",
@@ -5583,7 +5583,7 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$23.65",
     image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01wE1go41FEtiXfq8dK_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/d94uc",
@@ -5638,7 +5638,7 @@ const products = [
   {
     name: "YVL POLO SHIRT",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$14.17",
     image: "https://img.alicdn.com/bao/uploaded/i3/2212643669335/O1CN01bKkLin2IpUJnpXyYL_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/qpu9av",
@@ -5737,7 +5737,7 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$23.63",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01wpCRZ71FEti7cu5DQ_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/83ra9",
@@ -6463,7 +6463,7 @@ const products = [
   {
     name: "CHROME HEARTS LONGSLEEVE GREY WAFFLE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$25.76",
     image: "https://si.geilicdn.com/wdseller1405292126-4b3c000001985f8089250a23c286_2560_1934.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7786208490%3Fref%3DTX9V9N",
@@ -6496,7 +6496,7 @@ const products = [
   {
     name: "CHROME HEARTS LONGSLEEVE WAFFLE BLACK",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$27.39",
     image: "https://si.geilicdn.com/wdseller1405292126-64c400000195177b28790a2315ef_1290_1689.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7783183005%3Fref%3DTX9V9N",
@@ -6859,12 +6859,12 @@ const products = [
   {
     name: "UNDERCOVER PARROT LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$21.10",
     image: "https://img.alicdn.com/bao/uploaded/i4/2214916689299/O1CN01EXmj9X2IZ071Dg622_!!2214916689299.jpg",
     linkKakobuy: "https://ikako.vip/vbt8p",
     linkUsfans: "https://usfans.com/product/2/arQL8pVpThQWOulTZeP_QS2pQkZJu9P5wQBgpbVXs3K9gnHBoS-Z1Q?ref=TX9V9N",
-    tag: "",
+    tag: "random",
     rating: 5
   },
   {
@@ -6892,7 +6892,7 @@ const products = [
   {
     name: "HAUNTED MOUND POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$27.50",
     image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01FFlqNf1gquCAQnv11_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984646240081",
@@ -6903,7 +6903,7 @@ const products = [
   {
     name: "NO E MOSEN POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$30.70",
     image: "https://img.alicdn.com/bao/uploaded/i1/2214662668840/O1CN014hS3Wh2FAmLKLdXLH_!!2214662668840.png",
     linkKakobuy: "https://usfans.com/product/2/bjGi1FXYctEc9R5Ho129WYlWBdIPHquCr9FvQkIRhW5_mPuCi84nEPM?ref=TX9V9N",
@@ -6914,7 +6914,7 @@ const products = [
   {
     name: "SUPERSTAR POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$29.24",
     image: "https://img.alicdn.com/bao/uploaded/i3/3791109895/O1CN0160jRXD2MxyCipdaNh_!!3791109895.png",
     linkKakobuy: "https://ikako.vip/phubr",
@@ -6925,7 +6925,7 @@ const products = [
   {
     name: "HYDROGEN POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$15.52",
     image: "https://img.alicdn.com/bao/uploaded/i1/99635133/O1CN01uOlPU31nmy9BhhzwW_!!99635133.jpg",
     linkKakobuy: "https://ikako.vip/y6zrp",
@@ -7178,7 +7178,7 @@ const products = [
   {
     name: "ADIDAS LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$11.23",
     image: "https://si.geilicdn.com/pcitem706980371-0af8000001955a7093e20a239646_831_814.jpg",
     linkKakobuy: "https://usfans.com/product/3/7406850255?ref=TX9V9N",
@@ -7266,7 +7266,7 @@ const products = [
   {
     name: "NUMBER NINE LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$27.51",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01RjeXuo1CUylGS6ccY_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984045117545",
@@ -7453,7 +7453,7 @@ const products = [
   {
     name: "CH MATTYBOY LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$30.80",
     image: "https://si.geilicdn.com/wdseller1405292126-72c30000019a0c1c230f0a2395e9_1290_1223.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fshop1697270306.v.weidian.com%2Fitem.html%3FitemID%3D7786135548%26wfr%3Dc%26ifr%3Ditemdetail%26spider_token_alias%3D5e08%26spider_action%3Dto_detail_activity%26source%3Dgoods_home%26spider%3Dseller.new_item_detail._.1%26sfr%3Dapp",
@@ -7464,7 +7464,7 @@ const products = [
   {
     name: "RALPH LAUREN SAKURA POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$17.70",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01qQq90i2H5OvxAVOdU_!!2221903629099-0-cib.jpg",
     linkKakobuy: "https://usfans.com/product/1/1039921176688?ref=TX9V9N",
@@ -7475,7 +7475,7 @@ const products = [
   {
     name: "RALPH LAUREN POLO (milan,paris,etc)",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$9.90",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01W3iax8rHXVB0yQLY_!!2220868832142-0-cib.jpg",
     linkKakobuy: "https://usfans.com/product/1/987017902603?ref=TX9V9N",
@@ -7486,7 +7486,7 @@ const products = [
   {
     name: "RALPH LAUREN BASIC POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$14",
     image: "https://media.usfans.com/2026/08/05/154342/8cc559e4-6905-44ae-b088-ee36276c3234.jpg",
     linkKakobuy: "https://usfans.com/product/2/2Bjm5IXEmgI8ygP2JViloBQKEGZWx6rLSgWaJ5ezPrQyyZEs6eQJMA?ref=TX9V9N",
@@ -7497,7 +7497,7 @@ const products = [
   {
     name: "RALPH LAUREN STRIPED POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$11.14",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01gmndXZ1zsiWQxgTeE_!!2219804286770-0-cib.jpg",
     linkKakobuy: "https://usfans.com/product/1/925942857409?ref=TX9V9N",
@@ -7508,7 +7508,7 @@ const products = [
   {
     name: "STARS POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$16.04",
     image: "https://img.alicdn.com/bao/uploaded/i1/3072186629/O1CN019kqXbr1yq8UAigWoE_!!3072186629.jpg",
     linkKakobuy: "https://usfans.com/product/2/jWf9QiDRFXeANBN3-g_2qBDmnnec2ZxtDHmveman4DmkGi8re52ChQ?ref=TX9V9N",
@@ -7552,7 +7552,7 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$37.53",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN017wc35K1RR3eIrliTm_!!2126072107.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1047537951561",
@@ -7618,7 +7618,7 @@ const products = [
   {
     name: "VIVIENNE WESTWOOD POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$37.53",
     image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01CrlRFr1RR3f30EW1U_!!2126072107.heic",
     linkKakobuy: "https://usfans.com/product/2/_wqw4aCVFgIDXCd5NSLgpvuXglgEJTKDfsLQM7Z02jkvHA-c4c_VKT0?ref=TX9V9N",
@@ -7684,7 +7684,7 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$29.35",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01mEHOj91RR3ejCTYZP_!!2126072107.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1055972734591",
@@ -7882,7 +7882,7 @@ const products = [
   {
     name: "HBA LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$37.37",
     image: "https://img.alicdn.com/bao/uploaded/i1/2210299185015/O1CN013FemWB1muvHOAGsLb_!!2210299185015.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D841353897367",
@@ -7959,7 +7959,7 @@ const products = [
   {
     name: "NOTE POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$14.43",
     image: "https://img.alicdn.com/bao/uploaded/i3/346392213/O1CN01C1ZoNa1SDbcqsPBKt_!!346392213.jpg",
     linkKakobuy: "https://usfans.com/product/2/bsshG_uncEs_HztnbZAr6qjFa1uQM4ygPQn9pFcp4yBZuuy8u56HwTc?ref=TX9V9N",
@@ -7981,7 +7981,7 @@ const products = [
   {
     name: "MORO WAFFLE LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$19.35",
     image: "https://img.alicdn.com/bao/uploaded/i1/346392213/O1CN01CADyKQ1SDbd2kH0Ep_!!346392213.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1003167239130",
@@ -8025,7 +8025,7 @@ const products = [
   {
     name: "WAFFLE USA LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$19.35",
     image: "https://img.alicdn.com/bao/uploaded/i4/346392213/O1CN01V1tryo1SDbZMmDLvh_!!346392213.jpg",
     linkKakobuy: "https://usfans.com/product/2/tGiYT7gtxVPyFwWy8DiYP-eD45-TW5rGiqHxIYrh3jW9NJzvfJ1Scg?ref=TX9V9N",
@@ -8069,7 +8069,7 @@ const products = [
   {
     name: "MONCLER POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$6.41",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01IADLgi1Cti6dYLvjC_!!2219481280139-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F1%2F919803013702",
@@ -8091,7 +8091,7 @@ const products = [
   {
     name: "WEST COAST CHOPPERS LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$16.44",
     image: "https://media.usfans.com/2026/08/08/213527/5fb99705-8c0a-4858-b257-a5f835c1fedc.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F1%2F827994506682",
@@ -8531,7 +8531,7 @@ const products = [
   {
     name: "ERD TEEN JUST WANTED LOVE LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$27.75",
     image: "https://si.geilicdn.com/wdseller1399882362-13b400000193b6f37d6e0a23111a_1080_1080.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7321144671",
@@ -8806,7 +8806,7 @@ const products = [
   {
     name: "PEACEINWAR THERMAL LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$24.47",
     image: "https://si.geilicdn.com/wdseller1995625455-50320000019d8b42d5210a2305d8_3025_3026.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7735264633",
@@ -8828,7 +8828,7 @@ const products = [
   {
     name: "WACKS THERMAL LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$24.47",
     image: "https://si.geilicdn.com/wdseller1995625455-4bd40000019f88dc9d5f0a2102b1_4284_4287.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7810595299",
@@ -9092,7 +9092,7 @@ const products = [
   {
     name: "DG EVERSINCE POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$26",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01mjdsHm1gquC1rpmN8_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D981907392756",
@@ -9136,7 +9136,7 @@ const products = [
   {
     name: "COLD VISIONS LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$29.56",
     image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN01criLCG1gqu6zK8vei_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D854770514865",
@@ -9334,7 +9334,7 @@ const products = [
   {
     name: "DEFTONES LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$9.69",
     image: "https://img.alicdn.com/bao/uploaded/i2/179126450/O1CN017QKffS1xW9ix9wkKt_!!179126450.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D703670391171",
@@ -9455,7 +9455,7 @@ const products = [
   {
     name: "CHAI STRIPED POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$52.42",
     image: "https://img.alicdn.com/bao/uploaded/i2/3320370237/O1CN01jUgXIH1DcaqOUOa6Z_!!3320370237.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D821335305418",
@@ -9466,7 +9466,7 @@ const products = [
   {
     name: "JADED POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$24.49",
     image: "https://img.alicdn.com/bao/uploaded/i2/2200548663844/O1CN01KrtpHp1eGba7xcWzK_!!2200548663844.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D993927534961",
@@ -9477,7 +9477,7 @@ const products = [
   {
     name: "JADED POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$25.96",
     image: "https://si.geilicdn.com/wdseller1405292126-05d800000195c4a1da570a239646_1290_1690.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7783186981",
@@ -9488,7 +9488,7 @@ const products = [
   {
     name: "DRAGON POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$17.26",
     image: "https://media.usfans.com/2026/07/25/151152/4c8f637d-f5bb-4fec-9c1a-cf249217baf0.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1053378923246",
@@ -9499,7 +9499,7 @@ const products = [
   {
     name: "BALENCIAGA LOOP POLO",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$22.84",
     image: "https://si.geilicdn.com/wdseller1258568610-3ca30000019c8025b7e30a2303ee_600_721.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7697319588",
@@ -11457,7 +11457,7 @@ const products = [
   {
     name: "BELVEY LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$27.41",
     image: "https://si.geilicdn.com/wdseller1995625455-39290000019f7e97aede0a230449_4284_4287.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7812404502",
@@ -11545,7 +11545,7 @@ const products = [
   {
     name: "Random Russian Letter longsleeve",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$6.63",
     image: "https://img.alicdn.com/bao/uploaded/i2/3011401723/O1CN01fSdog41ObBVns0B6A_!!3011401723.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D977002130995",
@@ -11567,7 +11567,7 @@ const products = [
   {
     name: "COLA HENRY LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$19.81",
     image: "https://si.geilicdn.com/pcitem2023274866-1893000001a0534882300a21146b_2730_2730.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7844870590",
@@ -11578,7 +11578,7 @@ const products = [
   {
     name: "saint lauren longsleeve",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$22.47",
     image: "https://media.usfans.com/2026/09/16/144331/e68ab5d8-1959-46f9-9ecb-bb017096193a.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7832142759",
@@ -12381,7 +12381,7 @@ const products = [
   {
     name: "Supreme polo longsleeve",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$43.24",
     image: "https://www.crepslocker.com/cdn/shop/files/supreme-x-jacob-_-co.-la-martina-rugby-black-polo-shirt-front.webp?v=1783343410&width=1200",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1082405813935",
@@ -12480,7 +12480,7 @@ const products = [
   {
     name: "vintage nike longsleeve",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$26.61",
     image: "https://media.usfans.com/upload/ori/2026/10/01/191017/afbe22fa-40f3-40bf-b30e-86bf5ec0d691.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7837289448",
@@ -12821,7 +12821,7 @@ const products = [
   {
     name: "SATOSHI NAKAMOTO LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$9.25",
     image: "https://img.alicdn.com/bao/uploaded/i4/2208782615098/O1CN01YID1Ec1nWwEYWS7wD_!!2208782615098.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D976015211553",
@@ -12920,12 +12920,12 @@ const products = [
   {
     name: "UNDERCOVER SKOLOCT LONGSLEEVE",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$31.27",
     image: "https://img.alicdn.com/bao/uploaded/i1/2220863143615/O1CN01vQykCH1cZivcSOCeY_!!2220863143615.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1061765635018",
     linkUsfans: "https://usfans.com/product/2/LsccUUqkXH2teBaNDQPjmGQ12PbeDBk2syZW1PSfRcDxjwCqMIAd0pM?ref=TX9V9N",
-    tag: "",
+    tag: "random",
     rating: 5
   },
   {
@@ -13569,7 +13569,7 @@ const products = [
   {
     name: "ultralight washed longsleeve",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$25",
     image: "https://si.geilicdn.com/wdseller2073272636-6a590000019e84ba4e210a8133cc_1320_1320.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7777773121&affcode=archivee",
@@ -13646,7 +13646,7 @@ const products = [
   {
     name: "vszn polo",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$18.16",
     image: "https://si.geilicdn.com/wdseller2088921286-5d43000001a06731892d0a23047e_1320_1320.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7844900143&affcode=archivee",
@@ -14691,7 +14691,7 @@ const products = [
   {
     name: "peacinwar arsenal polo",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$19.89",
     image: "https://si.geilicdn.com/wdseller1995625455-4ec9000001a080cbdc1d0a23010f_4284_4284.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7848082749",
@@ -15032,7 +15032,7 @@ const products = [
   {
     name: "alurehope uk longsleeve",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "longsleeve",
     price: "$19.89",
     image: "https://si.geilicdn.com/pcitem2023274866-5d34000001a0681168420a2394a4_3024_3024.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7845018975&affcode=archivee",
@@ -15131,7 +15131,7 @@ const products = [
   {
     name: "droland miller polo",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$30.92",
     image: "https://si.geilicdn.com/wdseller1995625455-04dd0000019ffa6569640a23b4f4_4275_4278.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7830679242&affcode=archivee",
@@ -15208,7 +15208,7 @@ const products = [
   {
     name: "fyrewrld polo",
     category: "Tshirts",
-    subcategory: "",
+    subcategory: "polo",
     price: "$19",
     image: "https://img.alicdn.com/bao/uploaded/i1/3324545123/O1CN01LmBMyzMRYaK2b8G8_!!3324545123.png",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1068335387756&affcode=archivee",
