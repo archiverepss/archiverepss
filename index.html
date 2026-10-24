@@ -289,6 +289,8 @@
         </div>
         <button class="filter-toggle-btn" id="filterToggleBtn"><span>Filtry</span></button>
       </div>
+      
+      <!-- NOWY PANEL FILTRÓW -->
       <div class="advanced-filters-panel" id="advancedFilters">
         <div class="filter-group">
           <label id="lblSorting">Sortowanie</label>
@@ -305,8 +307,16 @@
             <input type="number" id="priceMax" placeholder="Max" oninput="applyFiltersAndSort()" />
           </div>
         </div>
+        
+        <!-- TUTAJ POJAWIAJĄ SIĘ TAGI (SUBCATEGORIE) -->
+        <div class="filter-group filter-group-tags" id="subcategoryFilterGroup" style="display:none;">
+          <label>Tagi (Rodzaj)</label>
+          <div class="subcategory-chips-container" id="subcategoriesContainer"></div>
+        </div>
+
         <button class="clear-filters-btn" id="clearFilterBtn" onclick="clearPriceFilters()">Wyczyść filtr</button>
       </div>
+
       <div class="categories-header">
         <div class="categories-chips-container" id="categoriesContainer"></div>
         <span id="itemCount">0 itemów</span>

@@ -1495,3 +1495,98 @@ img {
   0%, 100% { opacity: 0.6; }
   50% { opacity: 1; }
 }
+/* === SUBCATEGORY CHIPS (TAGI) === */
+.subcategory-chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.05);
+  animation: subFadeIn 0.3s ease;
+}
+.subcategory-chips-container:empty { display: none; }
+
+@keyframes subFadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.subcategory-chip {
+  background: rgba(124, 92, 255, 0.06);
+  border: 1px solid rgba(124, 92, 255, 0.18);
+  color: #a7a8b8;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  position: relative;
+}
+.subcategory-chip:hover {
+  background: rgba(124, 92, 255, 0.15);
+  border-color: rgba(124, 92, 255, 0.4);
+  color: #ffffff;
+}
+.subcategory-chip.active {
+  background: linear-gradient(135deg, #7c5cff, #a78bfa);
+  border-color: transparent;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(124, 92, 255, 0.35);
+}
+.subcategory-chip.active::before {
+  content: '✓ ';
+  font-weight: 700;
+}
+/* === NOWE FILTRY (TAGI) W PANELU === */
+.filter-group-tags {
+  flex: 1 1 100%;
+  margin-top: 10px;
+  padding-top: 16px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+}
+
+.subcategory-chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.subcategory-chip {
+  background: rgba(124, 92, 255, 0.05);
+  border: 1px solid rgba(124, 92, 255, 0.2);
+  color: #a7a8b8;
+  padding: 7px 14px;
+  border-radius: 8px;
+  font-size: 12.5px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.subcategory-chip:hover {
+  background: rgba(124, 92, 255, 0.15);
+  border-color: rgba(124, 92, 255, 0.45);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.subcategory-chip.active {
+  background: linear-gradient(135deg, #7c5cff, #a78bfa);
+  border-color: transparent;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(124, 92, 255, 0.3);
+}
+
+.subcategory-chip.active::before {
+  content: '✓';
+  font-size: 11px;
+  font-weight: 900;
+}
