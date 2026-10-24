@@ -57,8 +57,8 @@ const products = [
     category: "Shoes",
     price: "$67",
     image: "https://si.geilicdn.com/wdseller1800766149-03d500000199ce69b8010a23041a_1004_1004.jpg",
-    linkKakobuy: "https://ikako.vip/cuhud",
-    linkUsfans: "https://usfans.com/product/3/7233181350?ref=TX9V9N",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7580289365&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7580289365?ref=TX9V9N",
     tag: "GX",
     rating: 5
   },
