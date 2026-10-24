@@ -2118,7 +2118,7 @@ const products = [
   {
     name: "THE NORTH FACE 1996 VEST",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "vest",
     price: "28.21",
     image: "https://si.geilicdn.com/wdseller901828721618-4d7100000192201ef5a30a239646_1442_1444.jpg",
     linkKakobuy: "https://ikako.vip/6yhwt",
@@ -2129,7 +2129,7 @@ const products = [
   {
     name: "TNF 1996 RETRO NUPTSE 700",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "42.31",
     image: "https://si.geilicdn.com/pcitem1425026222-3ec000000199e4a07d640a20e2c5_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/y6w24",
@@ -2140,7 +2140,7 @@ const products = [
   {
     name: "ARCTERYX  SL",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "windbreaker",
     price: "63",
     image: "https://media.usfans.com/2026/09/15/104827/387db35a-db23-4920-b108-85fc570957d6.jpg",
     linkKakobuy: "https://ikako.vip/mcegm",
@@ -2580,7 +2580,7 @@ const products = [
   {
     name: "MONCLER VEST BUDGET",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "vest",
     price: "$68.17",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/5/78ac8e7f607b21da8b89a3b27967897e.jpg",
     linkKakobuy: "https://ikako.vip/2zwqd",
@@ -2591,7 +2591,7 @@ const products = [
   {
     name: "MONCLER MAYA BEST BATCH",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$204.18",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/8/7f2ba002068ecdfe1d72796567584c56.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fh5.m.taobao.com%2Fawp%2Fcore%2Fdetail.htm%3Fft%3Dt%26id%3D903368724429&affcode=archivee",
@@ -2602,7 +2602,7 @@ const products = [
   {
     name: "MONCLER TBELIARD BEST BATCH",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$221.73",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/26/ff8f17f63ff47b9585f44fc60e5228f4.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D699573998420%26spm%3Da213gs.v2success.result.1.61584831mOrh1a&affcode=archivee",
@@ -8322,7 +8322,7 @@ const products = [
   {
     name: "BURBERRY JACKET",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$147.80",
     image: "https://media.usfans.com/2026/08/25/164943/0bb479d8-7ad5-4bfa-8307-70f65bf20504.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7774014334",
@@ -9389,7 +9389,7 @@ const products = [
   {
     name: "MONTBELL JACKET",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$72.30",
     image: "https://media.usfans.com/2026/08/27/193829/29249792-f57f-4a23-9abe-1117b7e3ccb5.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1038430245047",
@@ -9400,7 +9400,7 @@ const products = [
   {
     name: "SUPREME X TNF WINDBREAKER",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "windbreaker",
     price: "$22.19",
     image: "https://media.usfans.com/2026/08/29/135238/4f5af283-cafa-4bdc-b01f-4946d616bb64.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F824243867207.html",
@@ -9422,7 +9422,7 @@ const products = [
   {
     name: "VAKA FUR PUFFER",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$80.35",
     image: "https://kako-alosshk-pic.lucklybuy.com/whg/202601/8/8673b31b51a8f899a89255e71b619cfa.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D851374411476",
@@ -9433,7 +9433,7 @@ const products = [
   {
     name: "UEKK FUR PUFFER",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$48.97",
     image: "https://img.alicdn.com/bao/uploaded/i3/3329641338/O1CN01iZxdB71LkqxFqcLY5_!!3329641338.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D861627595826",
@@ -9840,7 +9840,7 @@ const products = [
   {
     name: "CP COMPANY JACKET",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$99.54",
     image: "https://media.usfans.com/2026/08/27/212736/8ffafc80-6b2e-4857-9aef-ecc2eacc33a2.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7719828849",
@@ -9851,7 +9851,7 @@ const products = [
   {
     name: "PALACE WHITE JACKET",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$63.05",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202609/03/47b08179415d08c9a5dba60788760322.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1037232174808",
@@ -10247,7 +10247,7 @@ const products = [
   {
     name: "MERTRA HEAT ACTIVE JACKET",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$38.21",
     image: "https://media.usfans.com/2026/09/04/104614/7948dd3e-f469-4188-a420-83e60b417d78.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7547344748",
@@ -10489,7 +10489,7 @@ const products = [
   {
     name: "NOCTA JACKET",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$63.12",
     image: "https://media.usfans.com/2026/08/29/111443/9dc0a41c-86f4-46c6-a863-405310e6f0a3.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D4417493409",
@@ -10544,7 +10544,7 @@ const products = [
   {
     name: "PRADA JACKET",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$96.23",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/02/54559a6439e04a3fad38048388d80f91.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7550368327",
@@ -10577,7 +10577,7 @@ const products = [
   {
     name: "MONCLER TBELIARD",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$119.67",
     image: "https://kako-alosshk-pic.lucklybuy.com/whg/202512/1/f5a61fd4d9a995e98fbe1e653de89165.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7281201276",
@@ -10588,7 +10588,7 @@ const products = [
   {
     name: "Corvidae Shiny Black V2 Puffer Jacket",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$97.73",
     image: "https://media.usfans.com/2026/08/11/154551/1c070386-ccdc-458c-b31c-ca8536d59167.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D856300197629",
@@ -10599,7 +10599,7 @@ const products = [
   {
     name: "Corvidae Puffer jacket",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$47.87",
     image: "https://media.usfans.com/2026/09/03/134627/5cc06b62-3422-4c86-b6ee-80e1cf8133ba.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D800711464338",
@@ -10610,7 +10610,7 @@ const products = [
   {
     name: "SYNAWORLD DOWN JACKET BLACK",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$81.44",
     image: "https://img.alicdn.com/bao/uploaded/i3/727551888/O1CN012YbbNv1Poko3jw96y_!!727551888.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D862036961394",
@@ -10632,7 +10632,7 @@ const products = [
   {
     name: "WLNEXT PUFFER JACKET",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$43.88",
     image: "https://img.alicdn.com/bao/uploaded/i4/1124265575/O1CN01eHpJKh1r3PAAwlUau_!!1124265575.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984176563412",
@@ -10698,7 +10698,7 @@ const products = [
   {
     name: "MONCLER BATMAN JACKET",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$112.85",
     image: "https://media.usfans.com/2026/09/05/205939/482d2d05-3e59-4656-8d35-a58080db7263.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D970007644708",
@@ -10808,7 +10808,7 @@ const products = [
   {
     name: "NIKE JACKET",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$37.47",
     image: "https://si.geilicdn.com/pcitem706980371-4bd60000019338a3885b0a231316_679_692.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7304991679",
@@ -11435,7 +11435,7 @@ const products = [
   {
     name: "130 windrunner jacket",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "windbreaker",
     price: "$38.04",
     image: "https://si.geilicdn.com/wdseller1995625455-3f52000001a05d6bf5680a23b4f4_4284_4287.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fshop1624042771.v.weidian.com%2Fitem.html%3FitemID%3D7843440933%26wfr%3Dc",
@@ -11633,7 +11633,7 @@ const products = [
   {
     name: "mertra x umbro windbreaker",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "windbreaker",
     price: "$39.94",
     image: "https://media.usfans.com/2026/09/11/110643/8a5b1cb8-f8d8-4780-a3c3-879ef058fd9c.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7668205772",
@@ -13470,7 +13470,7 @@ const products = [
   {
     name: "CP COMPANY PADDED JACKET",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$122.46",
     image: "https://si.geilicdn.com/pcitem1858790261-4c2f0000019ab10f1aa10a20e2c5_736_736.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7818543825",
@@ -13481,7 +13481,7 @@ const products = [
   {
     name: "CP COMPANY GOOGLE JACKET",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$91.63",
     image: "https://si.geilicdn.com/pcitem1858790261-788b0000019ab115a40c0a23038e_1186_1500.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7821447446",
@@ -13745,7 +13745,7 @@ const products = [
   {
     name: "TNF NUPTSE 1996 [HUSKY]",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "puffer",
     price: "$74.64",
     image: "https://si.geilicdn.com/pcitem2065060864-26870000019f8fc7b1d90a2394a4_971_878.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1657421191.v.weidian.com%2Fitem.html%3FitemID%3D7814806054",
@@ -14735,7 +14735,7 @@ const products = [
   {
     name: "peaceinwar hypebeast windbreaker",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "windbreaker",
     price: "$39.82",
     image: "https://si.geilicdn.com/wdseller1995625455-24f4000001a0b9148ace0a23b54f_1320_1760.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7854865279",
@@ -15010,7 +15010,7 @@ const products = [
   {
     name: "peaceinwar windbreaker",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "windbreaker",
     price: "$39.94",
     image: "https://si.geilicdn.com/wdseller1995625455-24f4000001a0b9148ace0a23b54f_1320_1760.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7854865279&affcode=archivee",
@@ -15054,7 +15054,7 @@ const products = [
   {
     name: "ihatestars windbreaker",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "windbreaker",
     price: "$49.97",
     image: "https://si.geilicdn.com/wdseller1995625455-4435000001a01e00fd140a2302e6_4284_4284.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7832629193&affcode=archivee",
@@ -15164,7 +15164,7 @@ const products = [
   {
     name: "Vescartes Windbreaker",
     category: "Jackets",
-    subcategory: "",
+    subcategory: "windbreaker",
     price: "$63.34",
     image: "https://si.geilicdn.com/wdseller1995625455-32f10000019f40c68b130a23c1e0_3025_3026.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7803034749&affcode=archivee",
