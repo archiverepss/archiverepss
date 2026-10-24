@@ -2734,7 +2734,7 @@ const products = [
   {
     name: "CP COMPANY BEANIE",
     category: "Belts",
-    subcategory: "",
+    subcategory: "beanie",
     price: "$13",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/1/c51e13567bf2ae0bd3a592b1bb8b6a7c.jpg",
     linkKakobuy: "https://ikako.vip/vf5qn",
@@ -2745,7 +2745,7 @@ const products = [
   {
     name: "ARCTERYX BEANIE",
     category: "Belts",
-    subcategory: "",
+    subcategory: "beanie",
     price: "$13",
     image: "https://si.geilicdn.com/pcitem1315629966-2d210000019a6dd599da0a23038e_1276_1276.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7549993727&affcode=archivee",
@@ -2756,7 +2756,7 @@ const products = [
   {
     name: "SUPREME BEANIE",
     category: "Belts",
-    subcategory: "",
+    subcategory: "beanie",
     price: "$16",
     image: "https://si.geilicdn.com/pcitem1848650374-33f50000019ab4d09ec40a2301b4_1276_1276.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7617676948%26spider_token%3D9792&affcode=archivee",
@@ -2767,7 +2767,7 @@ const products = [
   {
     name: "CORTEIZ BEANIE",
     category: "Belts",
-    subcategory: "",
+    subcategory: "beanie",
     price: "$16",
     image: "https://img.alicdn.com/bao/uploaded/i2/2214278784178/O1CN01l1Zlul1gjZlcOdbql_!!2214278784178.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D694456604440&affcode=archivee",
@@ -2778,7 +2778,7 @@ const products = [
   {
     name: "LV BELT",
     category: "Belts",
-    subcategory: "",
+    subcategory: "belts",
     price: "$35",
     image: "https://si.geilicdn.com/weidian1860614617-151d00000197960f4fc70a23038e_1440_1920.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7496492536&affcode=archivee",
@@ -2789,7 +2789,7 @@ const products = [
   {
     name: "LV BELTS",
     category: "Belts",
-    subcategory: "",
+    subcategory: "belts",
     price: "$35",
     image: "https://si.geilicdn.com/open1621840505-1234478995-0ccd0000018f589a161f0a210559_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/gezpn",
@@ -2800,7 +2800,7 @@ const products = [
   {
     name: "YSL BELTS",
     category: "Belts",
-    subcategory: "",
+    subcategory: "belts",
     price: "$35",
     image: "https://si.geilicdn.com/open1621840505-1234478995-51870000018f58aba4550a239631_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/cs28e",
@@ -2811,7 +2811,7 @@ const products = [
   {
     name: "YSL BELTS",
     category: "Belts",
-    subcategory: "",
+    subcategory: "belts",
     price: "$35",
     image: "https://si.geilicdn.com/weidian1860614617-4f5c000001977b43220c0a2395e5_1440_1920.jpg",
     linkKakobuy: "https://ikako.vip/nvanfy",
@@ -2822,7 +2822,7 @@ const products = [
   {
     name: "HERMES BELTS",
     category: "Belts",
-    subcategory: "",
+    subcategory: "belts",
     price: "$39",
     image: "https://si.geilicdn.com/weidian1860614617-409a000001990f45f4b30a231316_1512_2016.jpg",
     linkKakobuy: "https://ikako.vip/sfn7a",
@@ -2833,7 +2833,7 @@ const products = [
   {
     name: "GUCCI BELTS",
     category: "Belts",
-    subcategory: "",
+    subcategory: "belts",
     price: "$35",
     image: "https://si.geilicdn.com/weidian1854818118-2fb60000019a70bdcd000a23041a_1279_1706.jpg",
     linkKakobuy: "https://ikako.vip/khkw5",
@@ -2844,7 +2844,7 @@ const products = [
   {
     name: "GUCCI BELTS",
     category: "Belts",
-    subcategory: "",
+    subcategory: "belts",
     price: "$35",
     image: "https://si.geilicdn.com/open1621840505-1234478995-17220000018f588c067d0a8115b5_1440_1920.jpg",
     linkKakobuy: "https://ikako.vip/retz6",
@@ -2855,7 +2855,7 @@ const products = [
   {
     name: "FERRAGAMO BELTS",
     category: "Belts",
-    subcategory: "",
+    subcategory: "belts",
     price: "$36",
     image: "https://si.geilicdn.com/weidian1860614617-0a6a00000199460a11c90a23047e_1440_1920.jpg",
     linkKakobuy: "https://ikako.vip/vny7g",
@@ -2866,7 +2866,7 @@ const products = [
   {
     name: "FERRAGAMO BELTS",
     category: "Belts",
-    subcategory: "",
+    subcategory: "belts",
     price: "$36",
     image: "https://si.geilicdn.com/weidian1860614617-7f580000019889a6820b0a230115_1440_1920.jpg",
     linkKakobuy: "https://ikako.vip/348by",
@@ -2877,7 +2877,7 @@ const products = [
   {
     name: "FERRAGAMO BELTS",
     category: "Belts",
-    subcategory: "",
+    subcategory: "belts",
     price: "$36",
     image: "https://si.geilicdn.com/weidian1860614617-7827000001910c0052160a23057e_1440_1920.jpg",
     linkKakobuy: "https://ikako.vip/b6jygq",
@@ -2888,7 +2888,7 @@ const products = [
   {
     name: "CHROME HEARTS BELT",
     category: "Belts",
-    subcategory: "",
+    subcategory: "belts",
     price: "$41",
     image: "https://si.geilicdn.com/weidian1860614617-57d100000197981ca68a0a23111a_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/bkbm9",
@@ -2899,7 +2899,7 @@ const products = [
   {
     name: "CHROME HEARTS BELT",
     category: "Belts",
-    subcategory: "",
+    subcategory: "belts",
     price: "$45",
     image: "https://si.geilicdn.com/weidian1860614617-5f1a0000019798181d4a0a2395a3_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/ckzgq",
@@ -5935,7 +5935,7 @@ const products = [
   {
     name: "UNDERCOVER 13AW BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$63.77",
     image: "https://img.alicdn.com/bao/uploaded/i1/2702114446/O1CN01mrcgiR1iiJwfboOsB_!!2702114446.jpg",
     linkKakobuy: "https://ikako.vip/9zhag",
@@ -5946,7 +5946,7 @@ const products = [
   {
     name: "SUPREME LEOPARD BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$27.01",
     image: "https://media.usfans.com/2026/06/21/095541/20458839-19d8-4fb7-991a-77d6fa37dbdf.jpg",
     linkKakobuy: "https://ikako.vip/pecmm",
@@ -6298,7 +6298,7 @@ const products = [
   {
     name: "MAYBACH SUNGLASSES",
     category: "Belts",
-    subcategory: "",
+    subcategory: "glasses",
     price: "$5.29",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01xJq9xg1vHq2OL5LYV_!!2218760966148-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/frk2vk",
@@ -6562,7 +6562,7 @@ const products = [
   {
     name: "NIKE ELITE BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$8.31",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN0150PcY71mSzE3P0We7_!!2204410194954-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/e9bwm",
@@ -6573,7 +6573,7 @@ const products = [
   {
     name: "UNDERCOVER 13AW BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$65",
     image: "https://img.alicdn.com/bao/uploaded/i1/2702114446/O1CN01mrcgiR1iiJwfboOsB_!!2702114446.jpg",
     linkKakobuy: "",
@@ -6584,7 +6584,7 @@ const products = [
   {
     name: "SUPREME LEOPARD BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$27.60",
     image: "https://media.usfans.com/2026/07/12/174444/c061b271-e2f4-4a38-af4a-77a6c736cbd6.jpg",
     linkKakobuy: "",
@@ -6595,7 +6595,7 @@ const products = [
   {
     name: "MAYBACK SUNGLASSES",
     category: "Belts",
-    subcategory: "",
+    subcategory: "glasses",
     price: "$5.40",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01CnSQRZ1vHq2QHlEB8_!!2218760966148-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/frk2v",
@@ -6661,7 +6661,7 @@ const products = [
   {
     name: "130 BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$35.75",
     image: "https://si.geilicdn.com/wdseller1995625455-66bd0000019d956e92de0a2102c5_1771_1771.jpg",
     linkKakobuy: "https://usfans.com/product/3/7737174343?ref=TX9V9N",
@@ -6716,7 +6716,7 @@ const products = [
   {
     name: "NEW ERA HATS",
     category: "Belts",
-    subcategory: "",
+    subcategory: "hats",
     price: "$3.23",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN0169wxsQ1v4667nFlUb_!!2218104666118-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/6bfmy",
@@ -6727,7 +6727,7 @@ const products = [
   {
     name: "CHROME HEARTS HAT",
     category: "Belts",
-    subcategory: "",
+    subcategory: "hats",
     price: "$6.40 - $9",
     image: "https://kk-oss-wh-hk.kakobuy.com/whg/202607/17/4d8b53d4219269209aa7b60c79e444ca.jpg",
     linkKakobuy: "https://ikako.vip/84m6k",
@@ -8355,7 +8355,7 @@ const products = [
   {
     name: "CHROME HEARTS SUNGLASSES",
     category: "Belts",
-    subcategory: "",
+    subcategory: "glasses",
     price: "$2.14",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01yNkeuR26fcPZ5isWj_!!2219836167689-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F936065068550.html",
@@ -8366,7 +8366,7 @@ const products = [
   {
     name: "CARTIER SUNGLASSES BUDGET",
     category: "Belts",
-    subcategory: "",
+    subcategory: "glasses",
     price: "$13.98",
     image: "https://img.alicdn.com/bao/uploaded/i1/65329823/O1CN01tyuoKL2MQzIIRNmhB_!!65329823.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D669173517215",
@@ -9004,7 +9004,7 @@ const products = [
   {
     name: "DG MARTYR TOUR HAT",
     category: "Belts",
-    subcategory: "",
+    subcategory: "hats",
     price: "$27.59",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01NAyqSP1gquDD3wI7L_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1004581085729",
@@ -10071,7 +10071,7 @@ const products = [
   {
     name: "SUPREME SS26 BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$51.33",
     image: "https://media.usfans.com/2026/08/31/105201/62a82fd4-600e-42f6-ba5f-0823587b0075.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1077271700366",
@@ -10082,7 +10082,7 @@ const products = [
   {
     name: "SUPREME SS25 BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$51.33",
     image: "https://media.usfans.com/2026/08/31/094009/75c6cb69-eb56-49dc-be5a-6146e3a1df0a.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D977775890145",
@@ -10093,7 +10093,7 @@ const products = [
   {
     name: "[BUDGET] SUPREME BACKPACKS",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$14.79",
     image: "https://media.usfans.com/2026/08/30/141310/84920786-5e16-4bfb-9d7f-d4161cc2db91.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D936162683683",
@@ -10104,7 +10104,7 @@ const products = [
   {
     name: "ALYX BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$32.89",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01Cmo79l2LDQF7zearQ_!!2219473329658-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F896645383136.html",
@@ -10115,7 +10115,7 @@ const products = [
   {
     name: "NE-NET BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$14.12",
     image: "https://img.alicdn.com/bao/uploaded///img.alicdn.com/imgextra/i1/279331395/O1CN01cOza5P1MAxR005wSK_!!279331395.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D765744109854",
@@ -10126,7 +10126,7 @@ const products = [
   {
     name: "ALYX BACKPACK #2",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$30.43",
     image: "https://img.alicdn.com/bao/uploaded/i1/1980285384/O1CN01Vlff6h1pdvEciJNrH_!!1980285384.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D666252752742",
@@ -10324,7 +10324,7 @@ const products = [
   {
     name: "ERD CAP",
     category: "Belts",
-    subcategory: "",
+    subcategory: "hats",
     price: "$14.62",
     image: "https://si.geilicdn.com/wdseller1399882362-50d8000001990e37838c0a210139_1320_830.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7540211681",
@@ -10379,7 +10379,7 @@ const products = [
   {
     name: "SUPREME X YOHJI YAMAMOTO BEANIE",
     category: "Belts",
-    subcategory: "",
+    subcategory: "beanie",
     price: "$6.32",
     image: "https://media.usfans.com/2026/08/24/171816/966bc6d5-7565-47f6-96ef-bbd3a9d19873.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F977726022651.html",
@@ -10401,7 +10401,7 @@ const products = [
   {
     name: "VIVIENNE WESTWOOD BEANIE",
     category: "Belts",
-    subcategory: "",
+    subcategory: "beanie",
     price: "$6.62",
     image: "https://img.alicdn.com/bao/uploaded/i2/1890925104/O1CN01Ih5FBO1nZgLYkjikX_!!1890925104.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D663719295210",
@@ -10423,7 +10423,7 @@ const products = [
   {
     name: "CHROME HEARTS BEANIES",
     category: "Belts",
-    subcategory: "",
+    subcategory: "beanie",
     price: "$5.49",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01GaKTuv29eeMGHpsWw_!!2217633678093-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F841329427106.html",
@@ -10445,7 +10445,7 @@ const products = [
   {
     name: "SLP SUNGLASSES",
     category: "Belts",
-    subcategory: "",
+    subcategory: "glasses",
     price: "$11.47",
     image: "https://img.alicdn.com/bao/uploaded/i3/2065238185/O1CN01GA2YLp2AKmleTtQPo_!!2065238185.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D810804635097",
@@ -10720,7 +10720,7 @@ const products = [
   {
     name: "MERTRA BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$25.77",
     image: "https://si.geilicdn.com/wdseller2073272636-1ad00000019f7988972f0a2315ef_1320_1320.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7811861034",
@@ -10984,7 +10984,7 @@ const products = [
   {
     name: "Dior AW06 Duffel Bag",
     category: "Belts",
-    subcategory: "",
+    subcategory: "bags",
     price: "$122.83",
     image: "https://img.alicdn.com/bao/uploaded/i4/3926619803/O1CN01X5QUwz2MHpmqESbUG_!!3926619803.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1055775692868",
@@ -10995,7 +10995,7 @@ const products = [
   {
     name: "DERSCHUTZE BAG",
     category: "Belts",
-    subcategory: "",
+    subcategory: "bags",
     price: "$132.80",
     image: "https://si.geilicdn.com/wdseller1940384309-0fb90000019c9ed0bf790a2102c5_1320_1320.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7689859389",
@@ -11006,7 +11006,7 @@ const products = [
   {
     name: "Goyard Coursier Messenger Bag",
     category: "Belts",
-    subcategory: "",
+    subcategory: "bags",
     price: "$194.44",
     image: "https://si.geilicdn.com/pcitem1717663958-034600000196d4555aa20a23037f_1080_1080.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7468019875",
@@ -11017,7 +11017,7 @@ const products = [
   {
     name: "Balenciaga Le City Bag",
     category: "Belts",
-    subcategory: "",
+    subcategory: "bags",
     price: "$282.38",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202609/08/5d3f8d8886887a061ec99128adf38fea.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D995736417876",
@@ -11028,7 +11028,7 @@ const products = [
   {
     name: "Goyard Belvedere Messenger Bag",
     category: "Belts",
-    subcategory: "",
+    subcategory: "bags",
     price: "$172.02",
     image: "https://si.geilicdn.com/pcitem1717663958-45420000018f104827720a2102c5_1080_1080.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6215999200",
@@ -11039,7 +11039,7 @@ const products = [
   {
     name: "Burberry Bag",
     category: "Belts",
-    subcategory: "",
+    subcategory: "bags",
     price: "$24.60",
     image: "https://media.usfans.com/2026/07/11/162016/a9db3185-f042-4cb2-862e-fb9e758dc6b6.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D836343886503",
@@ -11050,7 +11050,7 @@ const products = [
   {
     name: "BAPE BAG",
     category: "Belts",
-    subcategory: "",
+    subcategory: "bags",
     price: "$5.64",
     image: "https://img.alicdn.com/bao/uploaded/i2/2201547488158/O1CN01BNzgId2A8Q6VQRSHD_!!2201547488158.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D845320191221",
@@ -11061,7 +11061,7 @@ const products = [
   {
     name: "Night Lab Leather Bag",
     category: "Belts",
-    subcategory: "",
+    subcategory: "bags",
     price: "$77.95",
     image: "https://img.alicdn.com/bao/uploaded/i1/2310918540/O1CN01DcZZj02CxNSHsirGT_!!2310918540.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D846885393006",
@@ -11072,7 +11072,7 @@ const products = [
   {
     name: "Alexander 2011 Wang Bag",
     category: "Belts",
-    subcategory: "",
+    subcategory: "bags",
     price: "$265.76",
     image: "https://media.usfans.com/2026/06/02/195845/fc080ef1-0d4c-4a02-817f-2d5b42608b8f.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984674478939",
@@ -11083,7 +11083,7 @@ const products = [
   {
     name: "SLP BACKPACKS",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$124.65",
     image: "https://img.alicdn.com/bao/uploaded/i3/2948520607/O1CN012QQyNM1GM3QnNCf0V_!!2948520607.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D862089813202",
@@ -11094,7 +11094,7 @@ const products = [
   {
     name: "MASTERMIND BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$11.47",
     image: "https://img.alicdn.com/bao/uploaded/i4/1577726729/O1CN01SmIGIL1zZvx3IKkED_!!1577726729.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D709609130819",
@@ -11105,7 +11105,7 @@ const products = [
   {
     name: "BALENCIAGA X ADIDAS BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$22.61",
     image: "https://media.usfans.com/2026/09/01/155935/960453b1-9357-4bb8-a9bf-85000f904b49.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D828260751059",
@@ -11116,7 +11116,7 @@ const products = [
   {
     name: "MCM BACKPACK",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$25.77",
     image: "https://media.usfans.com/2026/09/09/221442/675a7358-5996-416e-a470-70e7b7a7b231.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F895935826282.html",
@@ -13184,7 +13184,7 @@ const products = [
   {
     name: "arcteryx beanie (budget)",
     category: "Belts",
-    subcategory: "",
+    subcategory: "beanie",
     price: "$2.42",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01LTBFSG1h56TUw7aoL_!!2220907014225-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F985509354919.html",
@@ -14680,7 +14680,7 @@ const products = [
   {
     name: "peaceinwar \"light backpack\"",
     category: "Belts",
-    subcategory: "",
+    subcategory: "backpacks",
     price: "$31.49",
     image: "https://si.geilicdn.com/wdseller1995625455-7f8c000001a12452e1fb0a23012d_1320_1760.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7869926703",
@@ -14867,7 +14867,7 @@ const products = [
   {
     name: "tom ford sunglasses",
     category: "Belts",
-    subcategory: "",
+    subcategory: "glasses",
     price: "$9.36",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN011rinaB22jVJqJ6zg2_!!2217896487156-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F950518363279.html",
