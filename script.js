@@ -13572,6 +13572,236 @@ const products = [
     tag: "RANDOM",
     rating: 5
   },
+  {
+    name: "vetements mtb zip up",
+    category: "Hoodies",
+    price: "$71.65",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN01vRdBDb26cs1uuck87_!!3822597683.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D864277272767&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/gcUXFOSsfKM98SY38AEwedDUrDNUQj28zJ8zqjRS32nL6pq141TcqA?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "Alurehope tee",
+    category: "Tshirts",
+    price: "$14.88",
+    image: "https://si.geilicdn.com/wdseller211957776-0d7c000001a13adb1bec0a23041a_1182_1182.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7875851420&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7875851420?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ihatestars x idle time tee",
+    category: "Tshirts",
+    price: "$11.53",
+    image: "https://si.geilicdn.com/wdseller1995625455-2614000001a12f0b73680a23012d_4284_4287.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7874606494&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7874606494?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar battlefield thermal",
+    category: "Tshirts",
+    price: "$23.23",
+    image: "https://si.geilicdn.com/wdseller1995625455-1cd1000001a0d2a239900a23012d_4284_4287.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7862431058&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7862431058?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar windbreaker",
+    category: "Jackets",
+    price: "$39.94",
+    image: "https://si.geilicdn.com/wdseller1995625455-24f4000001a0b9148ace0a23b54f_1320_1760.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7854865279&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7854865279?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "greer street sweats",
+    category: "Pants",
+    price: "$34.93",
+    image: "https://si.geilicdn.com/wdseller1995625455-371b000001a0b91713910a20e273_1320_1760.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7858027604&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7858027604?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "alurehope uk longsleeve",
+    category: "Tshirts",
+    price: "$19.89",
+    image: "https://si.geilicdn.com/pcitem2023274866-5d34000001a0681168420a2394a4_3024_3024.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7845018975&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7845018975?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "HCW Jeans",
+    category: "Pants",
+    price: "$36.60",
+    image: "https://si.geilicdn.com/wdseller1995625455-58db0000019f1d0e6c4a0a23c286_2560_3413.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7798619341&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7798619341?ref=TX9V9N",
+    tag: "ALIEN",
+    rating: 5
+  },
+  {
+    name: "ihatestars windbreaker",
+    category: "Jackets",
+    price: "$49.97",
+    image: "https://si.geilicdn.com/wdseller1995625455-4435000001a01e00fd140a2302e6_4284_4284.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7832629193&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7832629193?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar sweater",
+    category: "Hoodies",
+    price: "$31.59",
+    image: "https://si.geilicdn.com/wdseller1995625455-21a3000001a014197fd60a2304a0_4284_4287.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7830779533&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7830779533?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "ihatestars Jeans",
+    category: "Pants",
+    price: "$38.27",
+    image: "https://si.geilicdn.com/wdseller1995625455-3f8d000001a014181d000a23b5fa_4283_4283.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7830808379&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7830808379?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar solider Sweats",
+    category: "Pants",
+    price: "$38.27",
+    image: "https://si.geilicdn.com/wdseller1995625455-1eda000001a004a0746b0a23c1e0_2560_3413.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7832111866&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7832111866?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar world flags tee",
+    category: "Tshirts",
+    price: "$14.21",
+    image: "https://si.geilicdn.com/wdseller1995625455-693e0000019ffa69dc380a2301af_4284_4287.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7827790681&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7827790681?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "idle time resist tee",
+    category: "Tshirts",
+    price: "$14.88",
+    image: "https://si.geilicdn.com/wdseller1995625455-67c40000019ffa67db050a23c191_1320_1760.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7830733056&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7830733056?ref=TX9V9N",
+    tag: "ALIEN",
+    rating: 5
+  },
+  {
+    name: "idle time rainbow skull tee",
+    category: "Tshirts",
+    price: "$14.88",
+    image: "https://si.geilicdn.com/wdseller1995625455-65710000019ffa66f5640a240147_4284_4287.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7830752824&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7830752824?ref=TX9V9N",
+    tag: "ALIEN",
+    rating: 5
+  },
+  {
+    name: "droland miller polo",
+    category: "Tshirts",
+    price: "$30.92",
+    image: "https://si.geilicdn.com/wdseller1995625455-04dd0000019ffa6569640a23b4f4_4275_4278.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7830679242&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7830679242?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "forgetraven thermal",
+    category: "Tshirts",
+    price: "$15.88",
+    image: "https://media.usfans.com/2026/10/16/142145/5052107a-f060-4f3b-8f04-c218975e3dfc.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7805196871&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7805196871?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "peaceinwar sketch hoodie",
+    category: "Hoodies",
+    price: "$38.27",
+    image: "https://si.geilicdn.com/wdseller1995625455-22760000019f40fc166b0a2303ea_3019_3021.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7806106126&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7806106126?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "Vescartes Windbreaker",
+    category: "Jackets",
+    price: "$63.34",
+    image: "https://si.geilicdn.com/wdseller1995625455-32f10000019f40c68b130a23c1e0_3025_3026.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7803034749&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7803034749?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "fyrewrld knit",
+    category: "Hoodies",
+    price: "$43.11",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3324545123/O1CN01REXA1hFC2vG2b8G8_!!3324545123.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1056576222628&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/Qys_RWdBup_tmrbuqHsLsapAyoU3JJb8s5w3nSlVTwOVQMVdGr9go_c?ref=TX9V9N",
+    tag: "FYREWRLD",
+    rating: 5
+  },
+  {
+    name: "fyrewrld blank tee",
+    category: "Tshirts",
+    price: "$17.13",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3324545123/O1CN01IoDKQa1niOBqBuQXv_!!3324545123.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1055089915783&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/4RNhJUfzznpD3TdDsi7MP9aFYm9C5pW9ZvW-UOK-djW2Q_i1bTEHrKg?ref=TX9V9N",
+    tag: "FYREWRLD",
+    rating: 5
+  },
+  {
+    name: "fyrewrld tank top",
+    category: "Tshirts",
+    price: "$13.88",
+    image: "https://img.alicdn.com/bao/uploaded/i2/3324545123/O1CN01a4reoS1niOCaoQp5a_!!3324545123.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1069789755322&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/8BGfMsCcDzDv4nHlbApeAzqeKss7UN6SHfVBJoa-3ZEPWNa52PQgRFE?ref=TX9V9N",
+    tag: "FYREWRLD",
+    rating: 5
+  },
+  {
+    name: "fyrewrld polo",
+    category: "Tshirts",
+    price: "$19",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3324545123/O1CN01LmBMyzMRYaK2b8G8_!!3324545123.png",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1068335387756&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/Ff7dC-_f8xUzq2mjqSEGjkLHGxgFKg5xIPw5K2VmqSXkfwNPXl4teCk?ref=TX9V9N",
+    tag: "FYREWRLD",
+    rating: 5
+  },
 ];
 
 // ============================================
