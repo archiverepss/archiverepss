@@ -15216,6 +15216,149 @@ const products = [
     tag: "FYREWRLD",
     rating: 5
   },
+  {
+    name: "AMIRI FLANNEL",
+    category: "Tshirts",
+    subcategory: "t-shirts",
+    price: "$33.24",
+    image: "https://media.usfans.com/PDA/5393d622-9d3c-4252-91ab-3faa5f1854f4.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7451355584&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7451355584?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "supreme knit",
+    category: "Hoodies",
+    subcategory: "sweaters",
+    price: "$21.71",
+    image: "https://media.usfans.com/2026/10/21/140717/1ca8610f-9fdd-4489-9f7a-542e0656ff07.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7867101238&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7867101238?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "Saint Laurent Knit",
+    category: "Hoodies",
+    subcategory: "sweaters",
+    price: "$36.74",
+    image: "https://media.usfans.com/2026/10/17/172412/39af8104-9f16-4b62-afcc-dcf58f1dfc95.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7867155072&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7867155072?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ERD Ballroom Dance Knit",
+    category: "Hoodies",
+    subcategory: "sweaters",
+    price: "$32.63",
+    image: "https://img.alicdn.com/imgextra/i3/3983273761/O1CN01JXxdLV1deai9ZIPVJ_!!3983273761.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D998687457104&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/47kHNUMITUqU8fwbEzOlyNaUbvrynYOWdl2vJHTGJXffgtvlAnWKZg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "osamason beanie",
+    category: "Belts",
+    subcategory: "beanie",
+    price: "$11.71",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN017hG0lc2ArsJ4ZFCM_!!2215791284194.png",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1083581207267&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/-G53HwB6hUXF7C5gHinneBrJ-QfEyXTlEucEmAUNHO2lb2q-aQ1qto8?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "MCM BELT",
+    category: "Belts",
+    subcategory: "belts",
+    price: "$36.74",
+    image: "https://si.geilicdn.com/weidian1860614617-52c800000197e7c4304f0a231177_1512_2016.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7840584569&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7840584569?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "montblanc belt",
+    category: "Belts",
+    subcategory: "belts",
+    price: "$37.58",
+    image: "https://si.geilicdn.com/weidian1860614617-4c21000001906cd7d91c0a2396f4_1074_1074.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7841005349&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7841005349?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "celine leopard belt",
+    category: "Belts",
+    subcategory: "belts",
+    price: "$18.57",
+    image: "https://img.alicdn.com/bao/uploaded/i4/3575082995/O1CN01tfHwZU1XzlMHT20Gc_!!3575082995.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1054144601407&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/cb8rC6jldkmR3MHcGwss6fO39T-uCq2yH4KViK77aCTjU2oquNkAVXs?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "fyrewrld pearl belt",
+    category: "Belts",
+    subcategory: "belts",
+    price: "$35.91",
+    image: "https://si.geilicdn.com/pcitem1914636722-5181000001a067d613f00a2304aa-unadjust_1280_1280.png",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7806712962&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/3/7806712962?ref=TX9V9N",
+    tag: "FYREWRLD",
+    rating: 5
+  },
+  {
+    name: "Davril Belt",
+    category: "Belts",
+    subcategory: "belts",
+    price: "$38.05",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2218079599398/O1CN01LkLS8R2JILNcFLipM_!!2218079599398.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1066457238811&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/muRrpOn_ATbtHIxhDVtRxl5g3U4OcOvzUA6nvUkUJlafbQftfaTPCSQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "davril deerskin belt",
+    category: "Belts",
+    subcategory: "belts",
+    price: "$37.57",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2218079599398/O1CN01vu0SQ62JILNbyRIGv_!!2218079599398.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1065637471263&affcode=archivee",
+    linkUsfans: "https://usfans.com/product/2/kweiH_fl9blM2OJpKOgI9qa79dVbMZnNlDW_DMJQP6YPJwSMzAHF09w?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "gucci belt [budget]",
+    category: "Belts",
+    subcategory: "belts",
+    price: "$4.81",
+    image: "https://media.usfans.com/2026/10/24/182805/97252fa1-8f22-4c45-a105-f7c1af8759a4.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F856673243220.html",
+    linkUsfans: "https://usfans.com/product/1/856673243220?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "Diesel Belt",
+    category: "Belts",
+    subcategory: "belts",
+    price: "$22.07",
+    image: "https://img.alicdn.com/bao/uploaded/i1/3690682408/O1CN01d2NQd21TeuZ0LywnI_!!3690682408.jpg",
+    linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D718874618717",
+    linkUsfans: "https://usfans.com/product/2/xrBVVaU5RNHBqJH-KXLF74RGUG8iNLSPW6vnp1z7BfsP2b-h6D5HMg?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
 ];
 
 // ============================================
