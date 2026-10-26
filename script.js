@@ -49,7 +49,6 @@ const products = [
   {
     name: "Jordan 4 Frozen Moments / Black Canvas",
     category: "Shoes",
-    subcategory: "",
     price: "$63",
     image: "https://si.geilicdn.com/pcitem1764521644-621f0000018c4aa1f7c00a20e672_1111_1111.jpg",
     linkKakobuy: "https://ikako.vip/caj2t",
@@ -60,7 +59,6 @@ const products = [
   {
     name: "Jordan 1 (A LOT OF CW)",
     category: "Shoes",
-    subcategory: "",
     price: "$73.65",
     image: "https://si.geilicdn.com/open1733523732-1234478995-573c000001937484b6860a8115b5_889_889.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7565902946&affcode=archivee",
@@ -71,7 +69,6 @@ const products = [
   {
     name: "ERD BLACK HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$30.75",
     image: "https://media.usfans.com/2026/08/29/094617/6f1e43ce-1a56-466d-8d4c-14e71c822123.jpg",
     linkKakobuy: "https://ikako.vip/ct5va",
@@ -82,7 +79,6 @@ const products = [
   {
     name: "ERD EXPOSED CHRISTINA",
     category: "Hoodies",
-    subcategory: "",
     price: "$37",
     image: "https://img.alicdn.com/bao/uploaded/i3/2209401688377/O1CN01nzkhiG2BkixFHPEOI_!!2209401688377.jpg",
     linkKakobuy: "https://ikako.vip/2nz6h",
@@ -93,7 +89,6 @@ const products = [
   {
     name: "Jordan 3 (A LOT OF CW)",
     category: "Shoes",
-    subcategory: "",
     price: "$67",
     image: "https://si.geilicdn.com/wdseller1800766149-03d500000199ce69b8010a23041a_1004_1004.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7580289365&affcode=archivee",
@@ -104,7 +99,6 @@ const products = [
   {
     name: "Jordan 4 (A LOT OF CW)",
     category: "Shoes",
-    subcategory: "",
     price: "$68-82",
     image: "https://si.geilicdn.com/wdseller1800766149-751d00000199be1057b40a21146b_1189_1189.jpg",
     linkKakobuy: "https://ikako.vip/9s8kv",
@@ -115,7 +109,6 @@ const products = [
   {
     name: "AF1",
     category: "Shoes",
-    subcategory: "",
     price: "$33",
     image: "https://drop-up.pl/cdn/shop/files/air-force-1-low-07-triple-white-drop-up.webp?v=1721894137",
     linkKakobuy: "https://ikako.vip/mug7s",
@@ -126,7 +119,6 @@ const products = [
   {
     name: "AF1 X CDG",
     category: "Shoes",
-    subcategory: "",
     price: "$44",
     image: "https://si.geilicdn.com/wdseller1745861162-27f50000019ac1319b630a207569_1179_1180.jpg",
     linkKakobuy: "https://ikako.vip/mug7s",
@@ -137,7 +129,6 @@ const products = [
   {
     name: "AF1 CPFFM",
     category: "Shoes",
-    subcategory: "",
     price: "$57",
     image: "https://si.geilicdn.com/open1733523732-1234478995-01f900000193832a70b50a8133b5_1179_884.jpg",
     linkKakobuy: "https://ikako.vip/33vjb",
@@ -148,7 +139,6 @@ const products = [
   {
     name: "AF1 X NOCTA",
     category: "Shoes",
-    subcategory: "",
     price: "$41",
     image: "https://si.geilicdn.com/open1733523732-1234478995-7a39000001937dd368d70aa08290_1166_874.jpg?w=640&h=640",
     linkKakobuy: "https://ikako.vip/wntsf",
@@ -159,7 +149,6 @@ const products = [
   {
     name: "AF1 X SUPREME",
     category: "Shoes",
-    subcategory: "",
     price: "$38",
     image: "https://si.geilicdn.com/pcitem1845163825-537600000190c026304e0a210349_1080_816.jpg",
     linkKakobuy: "https://ikako.vip/fszb3",
@@ -170,7 +159,6 @@ const products = [
   {
     name: "KOBE 6",
     category: "Shoes",
-    subcategory: "",
     price: "$70",
     image: "https://si.geilicdn.com/wdseller1800766149-2794000001953e97c7b60a2305d8_2560_2560.jpg",
     linkKakobuy: "https://ikako.vip/9hmbf",
@@ -181,7 +169,6 @@ const products = [
   {
     name: "AIR MAX 95 X CORTEIZ",
     category: "Shoes",
-    subcategory: "",
     price: "$32-37",
     image: "https://si.geilicdn.com/pcitem1743028401-3a130000019330171c080a20e2c5_800_800.jpg",
     linkKakobuy: "https://ikako.vip/gj2j3",
@@ -192,7 +179,6 @@ const products = [
   {
     name: "AIR MAX 95",
     category: "Shoes",
-    subcategory: "",
     price: "$49-53",
     image: "https://si.geilicdn.com/wdseller1800766149-690900000199c3e75fae0a8133cc_1280_1708.jpg",
     linkKakobuy: "https://ikako.vip/bvejm",
@@ -203,7 +189,6 @@ const products = [
   {
     name: "AIR MAX 97",
     category: "Shoes",
-    subcategory: "",
     price: "$34-71",
     image: "https://si.geilicdn.com/pcitem1854263096-5f2b00000195d8ec7db00a8133cc_1200_1200.jpg",
     linkKakobuy: "https://ikako.vip/zq4ez",
@@ -214,7 +199,6 @@ const products = [
   {
     name: "NIKE P-6000",
     category: "Shoes",
-    subcategory: "",
     price: "$27",
     image: "https://si.geilicdn.com/pcitem901870080011-253b000001955d587db00a23038e_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/ptjfm",
@@ -225,7 +209,6 @@ const products = [
   {
     name: "NIKE SHOX",
     category: "Shoes",
-    subcategory: "",
     price: "$25-29",
     image: "https://si.geilicdn.com/wdseller901792703548-332c0000019003199ace0a22d172_1280_960.jpg",
     linkKakobuy: "https://ikako.vip/gguwx",
@@ -236,7 +219,6 @@ const products = [
   {
     name: "BOWER ERD MY ROLE IN THE HISTORY OF WAR",
     category: "Tshirts",
-    subcategory: "",
     price: "$17",
     image: "http://img.alicdn.com/imgextra/i1/2215800851954/O1CN018QAVxk1QIyyNrFm9j_!!2215800851954.jpg",
     linkKakobuy: "https://ikako.vip/b769n",
@@ -247,7 +229,6 @@ const products = [
   {
     name: "NUMBER NINE NECKLACE TEE (LMYER)",
     category: "Tshirts",
-    subcategory: "",
     price: "$14",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN019apdfS1FEtZ2Pj4qE_!!2943390456.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D798219996153&affcode=archivee",
@@ -258,7 +239,6 @@ const products = [
   {
     name: "NUMBER NINE  SHIELD HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$39",
     image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01tC9CQu1FEteE2U0KP_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/auvew",
@@ -269,7 +249,6 @@ const products = [
   {
     name: "RICK OWENS SHOES",
     category: "Shoes",
-    subcategory: "",
     price: "$69.26 - $93",
     image: "https://si.geilicdn.com/open1268847658-1234478995-509a000001898d9e69790a230227_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/k7fpd",
@@ -280,7 +259,6 @@ const products = [
   {
     name: "PRADA CUPS",
     category: "Shoes",
-    subcategory: "",
     price: "$108",
     image: "https://si.geilicdn.com/wdseller1725607234-2af70000019d0598e1990a81347d_1691_1691.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7714607278&affcode=archivee",
@@ -291,7 +269,6 @@ const products = [
   {
     name: "ERD PINK HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$31",
     image: "https://cdna.lystit.com/photos/sugar/92680392/enfants-riches-deprimes-Red-Logo-Hoodie.jpeg",
     linkKakobuy: "https://ikako.vip/g47ay",
@@ -302,7 +279,6 @@ const products = [
   {
     name: "NUMBER NINE SOVC HOODIE (HONGSHENG)",
     category: "Hoodies",
-    subcategory: "",
     price: "$40",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01eh7nHv1CUymor3p8e_!!2025450085.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1017388726264&affcode=archivee",
@@ -313,7 +289,6 @@ const products = [
   {
     name: "NUMBER NINE KNIGHT HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$40",
     image: "https://img.alicdn.com/bao/uploaded/i4/2943390456/O1CN01GsdOc11FEteLPRn3Z_!!2943390456.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D903317040153",
@@ -324,7 +299,6 @@ const products = [
   {
     name: "NUMBER NINE LION HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$40",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01aWiY7m1FEthKJs5lq~crop,0,125,768,768~_!!2943390456.jpg_400x400q85.jpg_.webp",
     linkKakobuy: "https://ikako.vip/8qtac",
@@ -335,7 +309,6 @@ const products = [
   {
     name: "NUMBER NINE SOVC BURGUNDY HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$38",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN018SyP5i1FEtZiTM8qt_!!2943390456.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D973545172940",
@@ -379,7 +352,6 @@ const products = [
   {
     name: "BALENCIAGA LIBERTY HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$59",
     image: "https://www.mytheresa.com/image/1094/1238/100/e4/P00948300.jpg",
     linkKakobuy: "https://ikako.vip/675xdy",
@@ -434,7 +406,6 @@ const products = [
   {
     name: "BUDGET HELLSTAR HOODIES",
     category: "Hoodies",
-    subcategory: "",
     price: "$29",
     image: "https://img.alicdn.com/bao/uploaded/i4/2217139011106/O1CN01Nj651l1K2b1lhXqjp_!!2217139011106.jpg",
     linkKakobuy: "https://ikako.vip/zb326",
@@ -445,7 +416,6 @@ const products = [
   {
     name: "JORDAN 11 (A LOT OF CW)",
     category: "Shoes",
-    subcategory: "",
     price: "$71 - $77",
     image: "https://si.geilicdn.com/wdseller1505219366-3bf100000194c160da770a210349_960_961.jpg",
     linkKakobuy: "https://ikako.vip/ba8ym",
@@ -456,7 +426,6 @@ const products = [
   {
     name: "DUNK'S",
     category: "Shoes",
-    subcategory: "",
     price: "$37 - $55",
     image: "https://si.geilicdn.com/wdseller1845163825-66b8000001903fab445a0a2303ee_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/my7mt",
@@ -467,7 +436,6 @@ const products = [
   {
     name: "DUNK'S",
     category: "Shoes",
-    subcategory: "",
     price: "$26 - $56",
     image: "https://si.geilicdn.com/open1850717273-1234478995-35c90000018f485757ce0a210298_1268_1268.jpg",
     linkKakobuy: "https://ikako.vip/cyv6p",
@@ -478,7 +446,6 @@ const products = [
   {
     name: "DUNK'S",
     category: "Shoes",
-    subcategory: "",
     price: "$41 - $56",
     image: "https://si.geilicdn.com/pcitem901759954358-72e3000001880535e0400a20e2c5_1170_1161.jpg",
     linkKakobuy: "https://ikako.vip/d9bkx",
@@ -489,7 +456,6 @@ const products = [
   {
     name: "Off-White Out Of Office",
     category: "Shoes",
-    subcategory: "",
     price: "$49.2",
     image: "https://si.geilicdn.com/wdseller2007014970-79a70000019c0b1721340a2304aa_800_800.jpg",
     linkKakobuy: "https://ikako.vip/465v6",
@@ -500,7 +466,6 @@ const products = [
   {
     name: "Off-White Be Right Back",
     category: "Shoes",
-    subcategory: "",
     price: "$47.67",
     image: "https://si.geilicdn.com/pcitem901805158979-0def00000190cd230fec0a239646_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/82zya",
@@ -511,7 +476,6 @@ const products = [
   {
     name: "Off - White Sneakers",
     category: "Shoes",
-    subcategory: "",
     price: "$54-57$",
     image: "https://si.geilicdn.com/open338847680-1234478995-594a00000183665a29f20a22d58f_2560_2560.jpg",
     linkKakobuy: "https://ikako.vip/uq5q5",
@@ -544,7 +508,6 @@ const products = [
   {
     name: "YEEZY 350",
     category: "Shoes",
-    subcategory: "",
     price: "$63",
     image: "https://si.geilicdn.com/wdseller1553163813-27780000018f2301c4040a2303ee_1290_1290.jpg",
     linkKakobuy: "https://ikako.vip/gjsvt",
@@ -555,7 +518,6 @@ const products = [
   {
     name: "YEEZY 500",
     category: "Shoes",
-    subcategory: "",
     price: "$62",
     image: "https://si.geilicdn.com/pcitem1437660918-07cf00000178b8495aca0a217216_4032_4030.jpg",
     linkKakobuy: "https://ikako.vip/quc5s",
@@ -566,7 +528,6 @@ const products = [
   {
     name: "YEEZY 700 V2",
     category: "Shoes",
-    subcategory: "",
     price: "$59",
     image: "https://si.geilicdn.com/open1773336045-1234478995-552800000195f0f5d5c30aa0834c_1122_1122.jpg",
     linkKakobuy: "https://ikako.vip/xzgyc",
@@ -577,7 +538,6 @@ const products = [
   {
     name: "RICK OWENS MEGA BUMPERS",
     category: "Shoes",
-    subcategory: "",
     price: "$119.09",
     image: "https://img.alicdn.com/bao/uploaded/i4/2073165527/O1CN01npjSp81qhQ9eM137S_!!2073165527.heic",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D989070127428",
@@ -588,7 +548,6 @@ const products = [
   {
     name: "RICK OWENS GEOBASKETS",
     category: "Shoes",
-    subcategory: "",
     price: "$102",
     image: "https://img.alicdn.com/bao/uploaded/i3/2073165527/O1CN01gjVVAR1qhPwO82u0k_!!2073165527.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D742989586219",
@@ -599,7 +558,6 @@ const products = [
   {
     name: "CHANEL RUNNER",
     category: "Shoes",
-    subcategory: "",
     price: "$86.35",
     image: "https://si.geilicdn.com/wdseller1725607234-3b8c0000019d079ef8480a20e2c5_1277_1640.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7714763378&affcode=archivee",
@@ -610,7 +568,6 @@ const products = [
   {
     name: "PHILIP PLEIN THUNDER HI-TOP RANDOM BATCH",
     category: "Shoes",
-    subcategory: "",
     price: "$76.55",
     image: "https://img.alicdn.com/bao/uploaded/i2/2212485637805/O1CN01MuaF1d27WkCqD1x3H_!!2212485637805.jpg",
     linkKakobuy: "https://ikako.vip/exqp5",
@@ -621,7 +578,6 @@ const products = [
   {
     name: "MARGIELA FUTURE",
     category: "Shoes",
-    subcategory: "",
     price: "$98.73",
     image: "https://si.geilicdn.com/wdseller901910887734-29320000019b653808960a23038e_1290_1290.jpg",
     linkKakobuy: "https://ikako.vip/fkxmb",
@@ -632,7 +588,6 @@ const products = [
   {
     name: "MAISON MIHARA",
     category: "Shoes",
-    subcategory: "",
     price: "$30",
     image: "https://si.geilicdn.com/pcitem1845163825-26ec00000195499ce70d0a20e273_1440_1440.jpg?w=400&h=400",
     linkKakobuy: "https://ikako.vip/qnv7v",
@@ -643,7 +598,6 @@ const products = [
   {
     name: "MARGIELA GATS",
     category: "Shoes",
-    subcategory: "",
     price: "$64.13",
     image: "https://images.stockx.com/images/Maison-Margiela-Replica-Dark-Wash-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
     linkKakobuy: "https://ikako.vip/4jdjd",
@@ -654,18 +608,14 @@ const products = [
   {
     name: "TIMBERLAND X BAPE",
     category: "Shoes",
-    subcategory: "",
     price: "$52",
     image: "https://img.alicdn.com/bao/uploaded/i4/905145255/O1CN01UfZoda1ogq2kKnMwc_!!905145255.jpg",
-    linkKakobuy: "",
-    linkUsfans: "",
     tag: "BEST",
     rating: 5
   },
   {
     name: "TIMBERLAND",
     category: "Shoes",
-    subcategory: "",
     price: "$58",
     image: "https://si.geilicdn.com/wdseller1268847658-5e0f00000187c5f8dc6a0a20e7c7-unadjust_1170_1170.gif",
     linkKakobuy: "https://ikako.vip/m988f",
@@ -676,7 +626,6 @@ const products = [
   {
     name: "ADIDAS SAMBA/GAZELLE/SPEZIAL",
     category: "Shoes",
-    subcategory: "",
     price: "$26.66",
     image: "https://si.geilicdn.com/wdseller1268847658-130d0000019c1e813cbb0a210256_1320_1320.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1268847658.v.weidian.com%2Fitem.html%3FitemID%3D7684300655&affcode=archivee",
@@ -687,7 +636,6 @@ const products = [
   {
     name: "ADIDAS SAMBA",
     category: "Shoes",
-    subcategory: "",
     price: "$20.06",
     image: "https://si.geilicdn.com/weidian1744790155-01e80000018b473df5600a231273_1080_810.jpg",
     linkKakobuy: "https://ikako.vip/cfec3",
@@ -698,7 +646,6 @@ const products = [
   {
     name: "ADIDAS CAMPUS",
     category: "Shoes",
-    subcategory: "",
     price: "$25.08",
     image: "https://si.geilicdn.com/wdseller1541848429-5fdb000001869d59ac360a22d246_1284_1284.jpg",
     linkKakobuy: "https://ikako.vip/ydzgh",
@@ -709,7 +656,6 @@ const products = [
   {
     name: "NEW BALANCE 530",
     category: "Shoes",
-    subcategory: "",
     price: "$43.88",
     image: "https://si.geilicdn.com/pcitem1854263096-7b1e00000195dd73e3850a20e2c5_1200_1200.jpg",
     linkKakobuy: "https://ikako.vip/5azyb",
@@ -720,7 +666,6 @@ const products = [
   {
     name: "NEW BALANCE 990",
     category: "Shoes",
-    subcategory: "",
     price: "$41",
     image: "https://si.geilicdn.com/pcitem901870080011-39bf00000197227e34340a23047e_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/r2d6r",
@@ -731,10 +676,8 @@ const products = [
   {
     name: "NEW BALANCE 990",
     category: "Shoes",
-    subcategory: "",
     price: "$41",
     image: "https://si.geilicdn.com/pcitem901870080011-39bf00000197227e34340a23047e_1440_1440.jpg",
-    linkKakobuy: "",
     linkUsfans: "https://usfans.com/product/3/7611411555?ref=TX9V9N",
     tag: "ZC",
     rating: 5
@@ -742,7 +685,6 @@ const products = [
   {
     name: "NEW BALANCE 9060",
     category: "Shoes",
-    subcategory: "",
     price: "$29",
     image: "https://si.geilicdn.com/pcitem901870080011-0f5900000197ccd442460a23041a_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/m75qc",
@@ -753,7 +695,6 @@ const products = [
   {
     name: "NEW BALANCE 1906",
     category: "Shoes",
-    subcategory: "",
     price: "$31",
     image: "https://si.geilicdn.com/wdseller1558770107-683f0000018f7d842c330a230417_1742_1739.jpg",
     linkKakobuy: "https://ikako.vip/f2988",
@@ -764,7 +705,6 @@ const products = [
   {
     name: "NEW BALANCE 2002",
     category: "Shoes",
-    subcategory: "",
     price: "$40-43",
     image: "https://si.geilicdn.com/wdseller901559461514-266c00000180deef08dd0a8134f0_1284_1285.jpg",
     linkKakobuy: "https://ikako.vip/89pb2",
@@ -775,7 +715,6 @@ const products = [
   {
     name: "LANVIN LEATHER CURB",
     category: "Shoes",
-    subcategory: "",
     price: "$75",
     image: "https://si.geilicdn.com/wdseller1425026222-4ca70000018909df212e0a231565_2560_2560.jpg",
     linkKakobuy: "https://ikako.vip/8a84f",
@@ -786,7 +725,6 @@ const products = [
   {
     name: "LV TRAINER",
     category: "Shoes",
-    subcategory: "",
     price: "$76",
     image: "https://si.geilicdn.com/pcitem1710010242-1de500000198412384980a230115_1840_1840.jpg",
     linkKakobuy: "https://ikako.vip/gj47w",
@@ -797,7 +735,6 @@ const products = [
   {
     name: "LV SKATE",
     category: "Shoes",
-    subcategory: "",
     price: "$72",
     image: "https://si.geilicdn.com/weidian1710010242-62d800000188ac29f0b60a231179_1496_1496.jpg",
     linkKakobuy: "https://ikako.vip/eqwhz",
@@ -808,7 +745,6 @@ const products = [
   {
     name: "UGG",
     category: "Shoes",
-    subcategory: "",
     price: "$26 - $40",
     image: "https://si.geilicdn.com/pcitem901870080011-25c6000001990c6cb29b0a20e7c7_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/2eqst",
@@ -819,7 +755,6 @@ const products = [
   {
     name: "ASICS GEL KAYANO 14",
     category: "Shoes",
-    subcategory: "",
     price: "$37.61",
     image: "https://si.geilicdn.com/wdseller1845163825-6813000001930325d8200a8134f0_1179_1179.jpg",
     linkKakobuy: "https://ikako.vip/m2avv",
@@ -830,7 +765,6 @@ const products = [
   {
     name: "ASICS GEL NYC",
     category: "Shoes",
-    subcategory: "",
     price: "$36",
     image: "https://si.geilicdn.com/pcitem1845163825-774f000001988d52d82f0a81347d_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/k99a6",
@@ -841,7 +775,6 @@ const products = [
   {
     name: "NUMERIS",
     category: "Shoes",
-    subcategory: "",
     price: "$60 ",
     image: "https://si.geilicdn.com/pcitem1809160355-344300000197e7a863740a20e273_4279_4376.jpg",
     linkKakobuy: "https://ikako.vip/7dpc7s",
@@ -852,7 +785,6 @@ const products = [
   {
     name: "BALENCIAGA RUNNER 7.0",
     category: "Shoes",
-    subcategory: "",
     price: "$69",
     image: "https://si.geilicdn.com/wdseller1268847658-287900000187c2f2271f0a20e273-unadjust_1170_1170.gif",
     linkKakobuy: "https://ikako.vip/5hmve",
@@ -863,7 +795,6 @@ const products = [
   {
     name: "BALENCIAGA TRACK 2.0",
     category: "Shoes",
-    subcategory: "",
     price: "$75",
     image: "https://si.geilicdn.com/open1268847658-1234478995-1b7200000196303502cc0a23b4de_769_767.jpg",
     linkKakobuy: "https://ikako.vip/6278e",
@@ -874,7 +805,6 @@ const products = [
   {
     name: "BALENCIAGA TRACK",
     category: "Shoes",
-    subcategory: "",
     price: "$60",
     image: "https://si.geilicdn.com/wdseller1268847658-37100000018adde9cc270a20e273-unadjust_1170_1170.gif",
     linkKakobuy: "https://ikako.vip/xqj28",
@@ -885,7 +815,6 @@ const products = [
   {
     name: "BALENCIAGA TRACK LED",
     category: "Shoes",
-    subcategory: "",
     price: "$76 ",
     image: "https://si.geilicdn.com/wdseller1268847658-38100000018adde920f70a23034c_1170_1170.jpg",
     linkKakobuy: "https://ikako.vip/57u8s",
@@ -896,7 +825,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR STRAWBERRY HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$58",
     image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01fFyu291RR3c2VDKOd~hdr~_!!2126072107.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D962214060243",
@@ -918,7 +846,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR HEADACHE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$40",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01z6bJYX1FEti8NG0Fq_!!2943390456.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D994038198668",
@@ -929,7 +856,6 @@ const products = [
   {
     name: "SP5DER PINK HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$42",
     image: "https://img.alicdn.com/bao/uploaded/i1/2219813327674/O1CN01kBCXn826YkT4irGlc_!!2219813327674.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D929834666023&affcode=archivee",
@@ -940,7 +866,6 @@ const products = [
   {
     name: "SP5DER x TRAVIS SCOTT RODERO HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$42",
     image: "https://img.alicdn.com/bao/uploaded/i2/2219813327674/O1CN01GVmRBd26YkVqaLfGR_!!2219813327674.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D992371547557&affcode=archivee",
@@ -951,7 +876,6 @@ const products = [
   {
     name: "SP5DER RHINESTONE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$45",
     image: "https://img.alicdn.com/bao/uploaded/i1/2219813327674/O1CN01azRhoa26YkVqZGFgm_!!2219813327674.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D992372979833&affcode=archivee",
@@ -962,7 +886,6 @@ const products = [
   {
     name: "CHROME HEARTS USA HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$46",
     image: "https://n-hype.com/cdn/shop/files/Chrome_Hearts_USA_Flag_Thermal_Black_Zip-up_Hoodie_Showroom_NHype_Lodz_Polska_1800x1800.png?v=1718778366",
     linkKakobuy: "https://ikako.vip/nmtan",
@@ -973,7 +896,6 @@ const products = [
   {
     name: "CHROME HEARTS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$46",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/29/fe1c33a49608f3c31f683f10a1dd34cd.jpg",
     linkKakobuy: "https://ikako.vip/dbudg",
@@ -984,18 +906,15 @@ const products = [
   {
     name: "CHROME HEARTS DEADLY DOLL HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$42",
     image: "https://shengliroadmarket.com/cdn/shop/products/chrome-hearts-deadly-doll-pink-cross-scroll-logo-zip-up-hoodie-433121.jpg?v=1704692844",
     linkKakobuy: "https://ikako.vip/eztq3",
-    linkUsfans: "",
     tag: "TOPHOT",
     rating: 5
   },
   {
     name: "CHROME HEARTS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$43",
     image: "https://media-photos.depop.com/b1/34953571/1405202588_a0646994b5d14e8fa6d6d03bba9c6d9f/P0.jpg",
     linkKakobuy: "https://ikako.vip/2pm5s",
@@ -1039,7 +958,6 @@ const products = [
   {
     name: "DIOR HOMME SS07 BRUCE LEE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$34",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/987caa4325a3033d07db37d9cdca1547.jpg",
     linkKakobuy: "https://ikako.vip/k9crx",
@@ -1050,7 +968,6 @@ const products = [
   {
     name: "VETEMENTS SEXUAL FANTASIES",
     category: "Hoodies",
-    subcategory: "",
     price: "$58",
     image: "https://img.alicdn.com/bao/uploaded/i4/3822597683/O1CN014fPBij26cs22QmStU_!!3822597683.jpg",
     linkKakobuy: "https://ikako.vip/8c7vs",
@@ -1061,7 +978,6 @@ const products = [
   {
     name: "VETEMENTS MTB HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$59",
     image: "https://img.alicdn.com/bao/uploaded/i4/3822597683/O1CN01Yhu5J226cs1sovJJR_!!3822597683.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D851411609247",
@@ -1072,7 +988,6 @@ const products = [
   {
     name: "VETEMENTS ELEVEN INCH GUN CLUB GRAY",
     category: "Hoodies",
-    subcategory: "",
     price: "$59",
     image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN01UPBPBu26crxz53r1G_!!3822597683.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D757458682100",
@@ -1083,7 +998,6 @@ const products = [
   {
     name: "VETEMENTS ELEVEN INCH GUN CLUB BLACK",
     category: "Hoodies",
-    subcategory: "",
     price: "$59",
     image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN01pGP7R726cs20IAU16_!!3822597683.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D847058966068",
@@ -1094,7 +1008,6 @@ const products = [
   {
     name: "HELLSTAR BRAINWASHED PINK HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$66",
     image: "https://images.stockx.com/images/Hellstar-Brainwashed-With-Brain-Hoodie-Pink.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&q=60&dpr=1&trim=color&updated_at=1692432898",
     linkKakobuy: "https://ikako.vip/26z7v",
@@ -1105,7 +1018,6 @@ const products = [
   {
     name: "360GSM BLANK HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$25",
     image: "https://img.alicdn.com/bao/uploaded/i1/808386976/O1CN01Z31Ese21P44B6wCSa_!!808386976.jpg",
     linkKakobuy: "https://ikako.vip/jdar4",
@@ -1116,7 +1028,6 @@ const products = [
   {
     name: "480GSM BLANK HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$34",
     image: "https://img.alicdn.com/bao/uploaded/i4/808386976/O1CN01xJiAAp21P44PkivwB_!!808386976.jpg",
     linkKakobuy: "https://ikako.vip/d65q6",
@@ -1127,7 +1038,6 @@ const products = [
   {
     name: "630GSM BLANK HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$37",
     image: "https://img.alicdn.com/bao/uploaded/i3/808386976/O1CN01yn8oxv21P3z1hfHon_!!808386976.jpg",
     linkKakobuy: "https://ikako.vip/v8tnp",
@@ -1138,7 +1048,6 @@ const products = [
   {
     name: "AKIMBO WHITE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$29",
     image: "https://si.geilicdn.com/wdseller1746487736-199f00000199e306c9f50a23041a_1179_1179.jpg",
     linkKakobuy: "https://ikako.vip/ph9jr",
@@ -1149,7 +1058,6 @@ const products = [
   {
     name: "AKIMBO BLACK HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$29",
     image: "https://media.usfans.com/2026/08/20/133310/80cfd9b9-60f0-4217-a6e5-50d7ee990f8a.jpg",
     linkKakobuy: "https://ikako.vip/yjdtx",
@@ -1160,7 +1068,6 @@ const products = [
   {
     name: "RAF SIMONS NEW ORDER HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$75",
     image: "https://img.alicdn.com/bao/uploaded/i3/2200736549757/O1CN01fQtofd2LwlX2BV5UF_!!2200736549757.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1013935249594",
@@ -1171,7 +1078,6 @@ const products = [
   {
     name: "RAF SIMONS ROOTS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$75",
     image: "http://img.alicdn.com/imgextra/i3/2200736549757/O1CN01C04sop2LwlX7Dmw5p_!!2200736549757.jpg",
     linkKakobuy: "https://ikako.vip/68ntw",
@@ -1193,7 +1099,6 @@ const products = [
   {
     name: "PEACE IN WAR CHERRY BLOSSOM HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$31",
     image: "https://si.geilicdn.com/wdseller1995625455-017a0000019b0db3cdb80a2303ea_1290_1720.jpg",
     linkKakobuy: "https://ikako.vip/9ngyc",
@@ -1204,7 +1109,6 @@ const products = [
   {
     name: "PEACE IN WAR FUCK THE INDUSTRY HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$32.76",
     image: "https://si.geilicdn.com/wdseller1995625455-03d40000019b0db7d7b00a2102b1_1290_1720.jpg",
     linkKakobuy: "https://ikako.vip/kassc",
@@ -1215,7 +1119,6 @@ const products = [
   {
     name: "PEACE IN WAR WINTER WAR HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$32.6",
     image: "https://si.geilicdn.com/wdseller1995625455-5b8a0000019b5e45a2bb0a2395e9_1290_1720.jpg",
     linkKakobuy: "https://ikako.vip/pjby8",
@@ -1226,7 +1129,6 @@ const products = [
   {
     name: "PEACE IN WAR SWEDEN HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$31.03",
     image: "https://si.geilicdn.com/wdseller1995625455-4a6200000199b48e9dbe0a2301f1_1290_1720.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7567731360%26wfr%3Dc&affcode=archivee",
@@ -1237,7 +1139,6 @@ const products = [
   {
     name: "BURBERRY BLACK HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$48.27",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/13/6be7311acca5546e85446e84396a055b.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7524095139%3Fref%3DTX9V9N",
@@ -1259,7 +1160,6 @@ const products = [
   {
     name: "SUPREME X BURBERRY",
     category: "Hoodies",
-    subcategory: "",
     price: "$48.27",
     image: "https://kk-oss-wh-hk.kakobuy.com/whg/202606/05/afdd86611ab8748f7cfc8a5a07733af0.jpg",
     linkKakobuy: "https://ikako.vip/vnfeq",
@@ -1281,7 +1181,6 @@ const products = [
   {
     name: "ESSENTIALS X NBA HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$24.29",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/11/b02c219556fa4b16065c111d9828b494.jpg",
     linkKakobuy: "https://ikako.vip/tgsvs",
@@ -1292,7 +1191,6 @@ const products = [
   {
     name: "ESSENTIALS FOG",
     category: "Hoodies",
-    subcategory: "",
     price: "$36.24",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/e18f98ce66ec33a026096aae8e59cee0.jpg",
     linkKakobuy: "https://ikako.vip/9jecu",
@@ -1303,7 +1201,6 @@ const products = [
   {
     name: "ESSENTIALS FOG",
     category: "Hoodies",
-    subcategory: "",
     price: "$31",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/11/b7239d9756a065d5d55db2b307947615.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D978371331776&affcode=archivee",
@@ -1314,7 +1211,6 @@ const products = [
   {
     name: "ESSENTIALS FOG",
     category: "Hoodies",
-    subcategory: "",
     price: "$34.84",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/11/802a6f35780b40baf23b8b6e34068ca0.jpg",
     linkKakobuy: "https://ikako.vip/rqe7wa",
@@ -1336,7 +1232,6 @@ const products = [
   {
     name: "RALPH LAUREN FLEECE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$23.35",
     image: "https://si.geilicdn.com/wdseller1980586073-3daf00000199cdc9028d0a2304aa_1170_1170.jpg",
     linkKakobuy: "https://ikako.vip/na9y9",
@@ -1347,7 +1242,6 @@ const products = [
   {
     name: "BROKEN PLANET NOT FROM HERE ",
     category: "Hoodies",
-    subcategory: "",
     price: "$32.76",
     image: "https://si.geilicdn.com/wdseller1746487736-7f870000019ae9e68b210a21146b_1179_1179.jpg",
     linkKakobuy: "https://ikako.vip/sprp4",
@@ -1358,7 +1252,6 @@ const products = [
   {
     name: "BROKEN PLANET MOON PHASE",
     category: "Hoodies",
-    subcategory: "",
     price: "$32.76",
     image: "https://si.geilicdn.com/wdseller1746487736-2220000001956987605d0a23041a_1170_1170.jpg",
     linkKakobuy: "https://ikako.vip/9q9e8",
@@ -1380,7 +1273,6 @@ const products = [
   {
     name: "SYNA HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$25.81",
     image: "https://si.geilicdn.com/wdseller1274221412-6c8b0000019170bc30be0a2393d9_1284_1284.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7261685985%26wfr%3Dc&affcode=archivee",
@@ -1391,7 +1283,6 @@ const products = [
   {
     name: "I LOVE SYNA HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$31",
     image: "https://si.geilicdn.com/wdseller1274221412-15d2000001976435d3200a22d58f_1284_1284.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7491890348%26wfr%3Dc&affcode=archivee",
@@ -1402,7 +1293,6 @@ const products = [
   {
     name: "SYNA X NEM RENTS DUE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$30",
     image: "https://si.geilicdn.com/wdseller1936187346-365c00000198ef2e82950a2301b4_1373_1373.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7656816950&affcode=archivee",
@@ -1424,7 +1314,6 @@ const products = [
   {
     name: "MERTRA HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$36",
     image: "https://si.geilicdn.com/wdseller1940384309-770900000199d2b5e7b60a230449_1320_1320.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1739784557.v.weidian.com%2Fitem.html%3FitemID%3D7569423015&affcode=archivee",
@@ -1435,7 +1324,6 @@ const products = [
   {
     name: "MERTRA X UMBRO HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$36",
     image: "https://si.geilicdn.com/wdseller1940384309-15220000019ae55ad4570a230215_1320_1320.jpg",
     linkKakobuy: "https://ikako.vip/faqpu",
@@ -1446,7 +1334,6 @@ const products = [
   {
     name: "ERD MULHOLLAND T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$25.7",
     image: "https://img.alicdn.com/bao/uploaded/i1/3550899246/O1CN01A49ALr2IAj5LKXF92_!!3550899246.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D933818787049",
@@ -1457,7 +1344,6 @@ const products = [
   {
     name: "ERD T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.22",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/5/8fa95a38b94c6c65549b40660032db9b.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7491984689&affcode=archivee",
@@ -1468,10 +1354,8 @@ const products = [
   {
     name: "ERD CHRISTINA T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$19.12",
     image: "https://img.alicdn.com/bao/uploaded/i2/2214656006513/O1CN011G8Otv1xz0blTvUkr_!!2214656006513.jpg",
-    linkKakobuy: "",
     linkUsfans: "https://usfans.com/product/2/887414307607?ref=TX9V9N",
     tag: "K8",
     rating: 5
@@ -1479,7 +1363,6 @@ const products = [
   {
     name: "CHROME HEARTS T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$28",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/18/7614d9903500303cd30469a9e0e7717a.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7506477680&affcode=archivee",
@@ -1490,7 +1373,6 @@ const products = [
   {
     name: "CHROME HEARTS T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$28.05",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/14/289102da081ca2571c46a84d1f82aad8.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7504593741&affcode=archivee",
@@ -1501,7 +1383,6 @@ const products = [
   {
     name: "CHROME HEARTS T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$28.05",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/15/e312e36ff34100469743281690df01d0.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7505571487&affcode=archivee",
@@ -1512,7 +1393,6 @@ const products = [
   {
     name: "NUMBER NINE SOVC TEE WASHED (LMYER)",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.79",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01B0RHgZ1FEtc0ZsHLP_!!2943390456.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D850232694076",
@@ -1523,7 +1403,6 @@ const products = [
   {
     name: "UNDERCOVER TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$10",
     image: "https://img.alicdn.com/bao/uploaded/i2/2217964616975/O1CN01F56UB321ObbEM5ji2~crop,338,0,1899,2532~_!!2217964616975.jpg",
     linkKakobuy: "https://ikako.vip/drx57",
@@ -1534,7 +1413,6 @@ const products = [
   {
     name: "UNDERCOVER KLAUS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.57",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01FxjFJU1FEtW2R4hRn_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/rwawv",
@@ -1545,7 +1423,6 @@ const products = [
   {
     name: "UNDERCOVER GURUGURU",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.87",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01bCYjdF1FEtVrAiEHL_!!2943390456.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D645671108769",
@@ -1556,7 +1433,6 @@ const products = [
   {
     name: "GOTHAM TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.87",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01Mh3Dpd1FEtc2vVoCn_!!2943390456.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D850109331994&affcode=archivee",
@@ -1567,7 +1443,6 @@ const products = [
   {
     name: "NUMBER NINE KURT TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.29",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01Fs4sxm1FEtb1nSbQO_!!2943390456.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D834164734264&affcode=archivee",
@@ -1578,7 +1453,6 @@ const products = [
   {
     name: "GIVENCHY T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$28",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202507/30/d9ad15c50bafde4199670bd8167141c3.jpg",
     linkKakobuy: "https://ikako.vip/rbfcm",
@@ -1589,7 +1463,6 @@ const products = [
   {
     name: "ESSENTIALS T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.63",
     image: "https://img.alicdn.com/bao/uploaded/i4/2219953490549/O1CN01Yvv4p51FvUWKVHMx9_!!2219953490549.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D962636024464&affcode=archivee",
@@ -1600,7 +1473,6 @@ const products = [
   {
     name: "ESSENTIALS T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.86",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/5000a6f78c898bdf535f4cbcb730065e.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D962039057752&affcode=archivee",
@@ -1611,7 +1483,6 @@ const products = [
   {
     name: "ESSENTIALS T-SHIRTS (BUDGET BATCH)",
     category: "Tshirts",
-    subcategory: "",
     price: "$8.59",
     image: "https://img.alicdn.com/bao/uploaded/i1/2075710764/O1CN01TmCj9b1HVxKvJL8ZN_!!2075710764.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fcnfans.com%2Fproduct%2F%3Fshop_type%3Dtaobao%26id%3D668913880734&affcode=archivee",
@@ -1622,7 +1493,6 @@ const products = [
   {
     name: "RALPH LAUREN T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.38",
     image: "https://si.geilicdn.com/open1831762514-252808396-37160000019359434ee50aa0834c_978_1024.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1852083541.v.weidian.com%2Fitem.html%3FitemID%3D7596975464%26spider_token%3D4592&affcode=archivee",
@@ -1644,18 +1514,15 @@ const products = [
   {
     name: "VETEMENTS INTERPOL TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$32.76",
     image: "https://img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i4/3410334215/O1CN01z6vrDX1h0WOiAv5WA_!!3410334215.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D824732030088",
-    linkUsfans: "",
     tag: "MVT",
     rating: 5
   },
   {
     name: "SYNA WORLD PLAYBOY T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$12",
     image: "https://img.alicdn.com/bao/uploaded/i2/2200616171702/O1CN018kCAEI1ORZ4zgd6WC_!!2200616171702.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D819278430583&affcode=archivee",
@@ -1666,7 +1533,6 @@ const products = [
   {
     name: "SYNA X PSG T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.23",
     image: "https://si.geilicdn.com/wdseller1274221412-3d860000019614d0152a0a2102b1_1284_1284.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1274221412.v.weidian.com%2Fitem.html%3FitemID%3D7443980484&affcode=archivee",
@@ -1677,7 +1543,6 @@ const products = [
   {
     name: "SYNA BLACK T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.23",
     image: "https://si.geilicdn.com/wdseller1274221412-6f2900000192fba736a60a230246_1284_1284.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1274221412.v.weidian.com%2Fitem.html%3FitemID%3D7298162199&affcode=archivee",
@@ -1688,7 +1553,6 @@ const products = [
   {
     name: "NIKE X STUSSY T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.89",
     image: "https://si.geilicdn.com/open1804138897-1234478995-1839000001900cbb3a7b0a8133b5_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7243919380&affcode=archivee",
@@ -1699,7 +1563,6 @@ const products = [
   {
     name: "SP5DER OG WEB V2 GRAY TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.06",
     image: "https://img.alicdn.com/bao/uploaded/i3/2219813327674/O1CN013L2ggE26YkUE7zWaG_!!2219813327674.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D931241172963&affcode=archivee",
@@ -1710,7 +1573,6 @@ const products = [
   {
     name: "SP5DER X TRAVIS CACTUS JACK",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.73",
     image: "https://img.alicdn.com/bao/uploaded/i2/2219813327674/O1CN01UGy4hV26YkT5zYhNU_!!2219813327674.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D930374774167&affcode=archivee",
@@ -1721,18 +1583,15 @@ const products = [
   {
     name: "SP5DER TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.41",
     image: "https://img.alicdn.com/imgextra/i1/2212715957798/O1CN01WlY4l327TXW9PW7at_!!2212715957798.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D823211569627&affcode=archivee",
-    linkUsfans: "",
     tag: "PIKA",
     rating: 5
   },
   {
     name: "CDG TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.62",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01vmC0951FEtQNWRf5j_!!2943390456.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D706505282193&affcode=archivee",
@@ -1743,7 +1602,6 @@ const products = [
   {
     name: "CDG PLAY TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$22.93",
     image: "https://img.alicdn.com/bao/uploaded/i3/2220706226099/O1CN01rAsnnL1uvOh82eklG_!!2220706226099.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D974955606875&affcode=archivee",
@@ -1754,7 +1612,6 @@ const products = [
   {
     name: "CDG DOUBLE HEARTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$22.5",
     image: "https://img.alicdn.com/bao/uploaded/i2/2220706226099/O1CN01e2HvS31uvOh7Cx4Eo_!!2220706226099.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D976288568920&affcode=archivee",
@@ -1765,7 +1622,6 @@ const products = [
   {
     name: "CDG PLAY TEES",
     category: "Tshirts",
-    subcategory: "",
     price: "$19.46",
     image: "https://img.alicdn.com/bao/uploaded/i4/2220706226099/O1CN019YyHZ01uvOh7HyhDp_!!2220706226099.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D974427059839&affcode=archivee",
@@ -1776,7 +1632,6 @@ const products = [
   {
     name: "CDG PLAY TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$22.52",
     image: "https://img.alicdn.com/bao/uploaded/i1/2220706226099/O1CN01F6vyZ21uvOh7iPfPv_!!2220706226099.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D976313608209&affcode=archivee",
@@ -1787,7 +1642,6 @@ const products = [
   {
     name: "GALLERY DEPT TSHIRTS (BUDGET)",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.15",
     image: "https://img.alicdn.com/bao/uploaded/i2/2217139011106/O1CN01rLyBXN1K2b1ufD22p_!!2217139011106.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D771007293616&affcode=archivee",
@@ -1798,7 +1652,6 @@ const products = [
   {
     name: "PALM ANGELS TSHIRTS (BUDGET)",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.15",
     image: "https://img.alicdn.com/bao/uploaded/i4/2217139011106/O1CN01ImpDF51K2azrRaWIl_!!2217139011106.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D770939300665&affcode=archivee",
@@ -1809,7 +1662,6 @@ const products = [
   {
     name: "FORTNITE X BALENCIAGA (RANDOM/BUDGET)",
     category: "Tshirts",
-    subcategory: "",
     price: "$31.19",
     image: "https://si.geilicdn.com/wdseller1024195542-7f15000001814d53603a0a22b3e4_1124_1500.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D4980473884&affcode=archivee",
@@ -1820,7 +1672,6 @@ const products = [
   {
     name: "BALENCIAGA BLUE FLARED LOST TAPES",
     category: "Pants",
-    subcategory: "",
     price: "$62.96",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/2e1e9a448e834633f20451e8996d735a.jpg",
     linkKakobuy: "https://ikako.vip/7zk79",
@@ -1831,7 +1682,6 @@ const products = [
   {
     name: "BUDGET BALENCIAGA BAGGY JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$21.42",
     image: "https://img.alicdn.com/bao/uploaded/i4/402758480/O1CN010zXoKN2CVtV2JeZT1_!!402758480.jpg",
     linkKakobuy: "https://ikako.vip/an9zs",
@@ -1842,7 +1692,6 @@ const products = [
   {
     name: "BALENCIAGA FLARED JEANS (BUDGET)",
     category: "Pants",
-    subcategory: "",
     price: "$25",
     image: "https://img.alicdn.com/bao/uploaded/i1/2214514093/O1CN01iiHQSF1g6dzXIV2Gj_!!2214514093.jpg",
     linkKakobuy: "https://ikako.vip/z6naf",
@@ -1853,7 +1702,6 @@ const products = [
   {
     name: "BALENCIAGA CUT UP JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$82",
     image: "https://media.usfans.com/upload/ori/2026/10/10/112228/a322d3f9-19d7-4b72-81bb-b643d26d88e7.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fe.tb.cn%2Fh.SJOZrGOcmZOEBIX%3Ftk%3Dwi7xf7YnCzH&affcode=archivee",
@@ -1864,7 +1712,6 @@ const products = [
   {
     name: "PURPLE BRAND JEANS (WM179)",
     category: "Pants",
-    subcategory: "",
     price: "$40.75",
     image: "https://si.geilicdn.com/pcitem453299265-22dd0000019afa3b95f30a23111a_500_500.jpg",
     linkKakobuy: "https://ikako.vip/2cb9f",
@@ -1875,7 +1722,6 @@ const products = [
   {
     name: "PURPLE BRAND JEANS (WM178)",
     category: "Pants",
-    subcategory: "",
     price: "$41",
     image: "https://si.geilicdn.com/pcitem453299265-20050000019afa3b80360a2303ee_500_500.jpg",
     linkKakobuy: "https://ikako.vip/2cb9f",
@@ -1886,7 +1732,6 @@ const products = [
   {
     name: "PURPLE BRAND JEANS(PB141)",
     category: "Pants",
-    subcategory: "",
     price: "$41",
     image: "https://si.geilicdn.com/pcitem453299265-417500000198053f14a20a23111a_1200_1200.jpg",
     linkKakobuy: "https://ikako.vip/7dh9b",
@@ -1897,7 +1742,6 @@ const products = [
   {
     name: "PURPLE BRAND JEANS (WM131)",
     category: "Pants",
-    subcategory: "",
     price: "$41",
     image: "https://si.geilicdn.com/pcitem453299265-4c9d000001996672c29e0a2303ee_4168_4168.jpg",
     linkKakobuy: "https://ikako.vip/2cb9f",
@@ -1908,7 +1752,6 @@ const products = [
   {
     name: "MIJKO PATCH JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$22",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/15/140d728f36b7fa7716cc73b1bfdecf47.jpg",
     linkKakobuy: "https://ikako.vip/pdyhvd",
@@ -1919,7 +1762,6 @@ const products = [
   {
     name: "ACNE 1981M VINTAGE BLACK",
     category: "Pants",
-    subcategory: "",
     price: "$53",
     image: "https://preview.redd.it/rep-topacney-vs-retail-comparison-acne-studios-1981m-v0-2e3k8p3tz1de1.jpg?width=640&crop=smart&auto=webp&s=0aa242d0926cb170c02200f94939f8e03fa789f4",
     linkKakobuy: "https://ikako.vip/byp9n",
@@ -1930,7 +1772,6 @@ const products = [
   {
     name: "ESSENTIALS PANTS (BUDGET)",
     category: "Pants",
-    subcategory: "",
     price: "$18.81",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/3ff28cfd0ce1bdc77444552311e3ed6d.jpg",
     linkKakobuy: "https://ikako.vip/gqh67",
@@ -1941,7 +1782,6 @@ const products = [
   {
     name: "ESSENTIALS FOG PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$28.38",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/6/125c4d37e99863a1509cd2ea48d04914.jpg",
     linkKakobuy: "https://ikako.vip/gud2k",
@@ -1952,7 +1792,6 @@ const products = [
   {
     name: "RICK OWENS SUBHUMAN WAXED PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$34.17",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/8/28b72f710ddd559c7f062da4aae71937.jpg",
     linkKakobuy: "https://ikako.vip/8rb6r",
@@ -1963,7 +1802,6 @@ const products = [
   {
     name: "RICK OWENS DRKSHDW JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$28",
     image: "https://img.alicdn.com/bao/uploaded/i4/2214514093/O1CN01Mw6ugI1g6e9yzqzbr_!!2214514093.jpg",
     linkKakobuy: "https://ikako.vip/xrfzt",
@@ -1974,7 +1812,6 @@ const products = [
   {
     name: "RICK OWENS PANTS (cargo)",
     category: "Pants",
-    subcategory: "",
     price: "$34.48",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/6/ae41f484f522f921f4f6434444778709.jpg",
     linkKakobuy: "https://ikako.vip/8qyny",
@@ -1985,7 +1822,6 @@ const products = [
   {
     name: "RO PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$49.99",
     image: "https://si.geilicdn.com/pcitem1487039158-331200000196a90ffc680a20e7c7_800_800.jpg",
     linkKakobuy: "https://ikako.vip/4vm26",
@@ -1996,7 +1832,6 @@ const products = [
   {
     name: "RICK OWENS PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$58",
     image: "https://img.alicdn.com/bao/uploaded/i1/62314016/O1CN01nLKBFG1fXNMak3ugp_!!62314016.jpg",
     linkKakobuy: "https://ikako.vip/5fgu4",
@@ -2007,7 +1842,6 @@ const products = [
   {
     name: "GUCCI DEMNA BLACK JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$63.5",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/26/ab1bd2aea8baab67c337ea8110c87103.jpg",
     linkKakobuy: "https://ikako.vip/4na4r",
@@ -2018,7 +1852,6 @@ const products = [
   {
     name: "GUCCI DEMNA JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$63.5",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/41d1bb469c2875b723dd64d5839b48ff.jpg",
     linkKakobuy: "https://ikako.vip/4na4r",
@@ -2029,7 +1862,6 @@ const products = [
   {
     name: "GALLERY DEPT SWEATPANTS (BUDGET)",
     category: "Pants",
-    subcategory: "",
     price: "$30.78",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/20/3897ba39e80549745b2d931aad7e38a8.jpg",
     linkKakobuy: "https://ikako.vip/w6nrz",
@@ -2040,7 +1872,6 @@ const products = [
   {
     name: "GALLERY DEPT PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$48.07",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/19/4ea0ec8e7e5f2b07e8255ca310236cc5.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D821375995617&affcode=archivee",
@@ -2051,7 +1882,6 @@ const products = [
   {
     name: "HELLSTAR UNIFORM PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$55",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202507/27/697b7b347c5aa8789840344516f33bd5.jpg",
     linkKakobuy: "https://ikako.vip/sjqrn",
@@ -2062,7 +1892,6 @@ const products = [
   {
     name: "HELLSTAR PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$28.06",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/13/2c6efc36b1fc6bbab51bfddf9ccc3c67.jpg",
     linkKakobuy: "https://ikako.vip/zb326",
@@ -2073,7 +1902,6 @@ const products = [
   {
     name: "TRUE RELIGION JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$27",
     image: "https://img.alicdn.com/bao/uploaded/i4/2404365569/O1CN01Dd5upM1r0egErRCpf_!!2404365569.jpg",
     linkKakobuy: "https://ikako.vip/yn4wj",
@@ -2084,7 +1912,6 @@ const products = [
   {
     name: "NIKE X STUSSY SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$23.55",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/16/0236cfe2a833020b9233c5441ae5f14c.jpg",
     linkKakobuy: "https://ikako.vip/7czwr",
@@ -2095,7 +1922,6 @@ const products = [
   {
     name: "NIKE X NOCTA",
     category: "Pants",
-    subcategory: "",
     price: "$25.08",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/11/4465525b6a49c60f138d8bee4cfbbfd6.jpg",
     linkKakobuy: "https://ikako.vip/h3w3s",
@@ -2106,7 +1932,6 @@ const products = [
   {
     name: "PALM ANGELS PANTS",
     category: "Pants",
-    subcategory: "",
     price: "20.6",
     image: "https://img.alicdn.com/bao/uploaded/i1/574102188/O1CN010s0FJx1S29g8lHaPK_!!574102188.jpg",
     linkKakobuy: "https://ikako.vip/r57j9",
@@ -2150,7 +1975,6 @@ const products = [
   {
     name: "Derschutze Denim Pants",
     category: "Pants",
-    subcategory: "",
     price: "$32.91",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/99f0e3e1b3574f6ed874f6cba2305bcc.jpg",
     linkKakobuy: "https://ikako.vip/8j95q8",
@@ -2161,7 +1985,6 @@ const products = [
   {
     name: "Derschutze blue Denim Pants",
     category: "Pants",
-    subcategory: "",
     price: "$32.91",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/31/6d865564526a5a676882dd6cd609facb.jpg",
     linkKakobuy: "https://ikako.vip/fpsdy",
@@ -2172,7 +1995,6 @@ const products = [
   {
     name: "Derschutze Western Jogger",
     category: "Pants",
-    subcategory: "",
     price: "$32.91",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/ad5cf687195083e02bf18eecb6740cb2.jpg",
     linkKakobuy: "https://ikako.vip/z3g2x",
@@ -2183,7 +2005,6 @@ const products = [
   {
     name: "Derschutze Denim Pants",
     category: "Pants",
-    subcategory: "",
     price: "$32.91",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/14e6f3fb99a8b11cf8dcf951f7c96f39.jpg",
     linkKakobuy: "https://ikako.vip/f5hec",
@@ -2194,7 +2015,6 @@ const products = [
   {
     name: "Ralph Lauren Suit Pants",
     category: "Pants",
-    subcategory: "",
     price: "$24.51",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/559e31f4b72c116d181bfd30ef77e851.jpg",
     linkKakobuy: "https://ikako.vip/vxpf4u",
@@ -2205,7 +2025,6 @@ const products = [
   {
     name: "Ralph Lauren FLeece Pants",
     category: "Pants",
-    subcategory: "",
     price: "$21.79",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/24/adafb0606dea315046027c9d39baeaea.jpg",
     linkKakobuy: "https://ikako.vip/ep3p5",
@@ -2216,7 +2035,6 @@ const products = [
   {
     name: "Ralph Lauren Pants",
     category: "Pants",
-    subcategory: "",
     price: "$21.79",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/b3b5c401937392c718e40bbd14b5971c.jpg",
     linkKakobuy: "https://ikako.vip/j7dpx",
@@ -2227,7 +2045,6 @@ const products = [
   {
     name: "BPM RENT'S DUE PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$28.99",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/2/cd56a7fa0e73e86b596b5e69de6d6dc9.jpg",
     linkKakobuy: "https://ikako.vip/f5yw8",
@@ -2238,7 +2055,6 @@ const products = [
   {
     name: "BPM PANTS ALL THE STARS",
     category: "Pants",
-    subcategory: "",
     price: "$31.19",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/30/c2ce72f87d12679b12048bb059796047.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1621342910.v.weidian.com%2Fitem.html%3FitemID%3D7499784900&affcode=archivee",
@@ -2249,7 +2065,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR HAGI JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$64.18",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/6611d64c5141dd3bae6bdfb05b5c2c91.jpg",
     linkKakobuy: "https://ikako.vip/zqt64",
@@ -2260,7 +2075,6 @@ const products = [
   {
     name: "BALENCIAGA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$18.65",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/14/67ab0f21735bbada4796e8a5723f6d83.jpg",
     linkKakobuy: "https://ikako.vip/e3wcb",
@@ -2271,7 +2085,6 @@ const products = [
   {
     name: "BALENCIAGA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$34.17",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202508/25/c101b6e35b82ad64eed0589c6ec742a0.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7519004840%26spider_token%3D8dbf&affcode=archivee",
@@ -2282,7 +2095,6 @@ const products = [
   {
     name: "BALENCIAGA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$32.6",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/18/10f059bf1e46c242e52a9784466bd5a3.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7499057490%26spider_token%3Da6ee&affcode=archivee",
@@ -2293,7 +2105,6 @@ const products = [
   {
     name: "BALENCIAGA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$42",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/2/c1dfbc22d5b6d0fd9466ab6969479fc7.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7497106511%26spider_token%3Df58f&affcode=archivee",
@@ -2304,7 +2115,6 @@ const products = [
   {
     name: "BALENCIAGA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$34.42",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/24/c7de5443bfae1f2aaa028671d078de7f.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7618065701%26wfr%3Dc&affcode=archivee",
@@ -2315,7 +2125,6 @@ const products = [
   {
     name: "BALENCIAGA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$35.89",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/30/c0bbe2344e541f395d0b5e6c2c1101d3.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7604006524%26wfr%3Dc&affcode=archivee",
@@ -2326,7 +2135,6 @@ const products = [
   {
     name: "BALENCIAGA DOUBLE WAIST SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$28.05",
     image: "https://si.geilicdn.com/wdseller901879073112-14a2000001980dc49d090a210256_1020_797.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7510584472%26wfr%3Dc&affcode=archivee",
@@ -2337,7 +2145,6 @@ const products = [
   {
     name: "ESSENTIALS NBA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$14.11",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/26/b5787adaa03393adb57326c6b41d5a6a.jpg",
     linkKakobuy: "https://ikako.vip/apvuy",
@@ -2348,7 +2155,6 @@ const products = [
   {
     name: "ESSENTIALS FOG SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$23.95",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/114450d1949c026e2889fc048bbcb7ea.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D962037909233&affcode=archivee",
@@ -2359,7 +2165,6 @@ const products = [
   {
     name: "ESSENTIALS FOG SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$27",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/c4b3acab7da80306ff239e225b14fa5f.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D934124406348&affcode=archivee",
@@ -2370,7 +2175,6 @@ const products = [
   {
     name: "ESSENTIALS FOG SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$27",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/28/5d81b84ec4734a2de9c94bc0814f42b7.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7254715223%26wfr%3Dc&affcode=archivee",
@@ -2381,18 +2185,15 @@ const products = [
   {
     name: "GALLERY DEPT SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$32.76",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202505/24/e69e06249af5084e7e44e981011e1d41.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D923514622610&affcode=archivee",
-    linkUsfans: "",
     tag: "TOPHOT",
     rating: 5
   },
   {
     name: "BPM WASHED SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$29",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202507/19/91f12c173cca026989a4ea6afcf5820f.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1621342910.v.weidian.com%2Fitem.html%3FitemID%3D7342141752&affcode=archivee",
@@ -2403,7 +2204,6 @@ const products = [
   {
     name: "BPM SUN LOGO SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$21.16",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/16/fbce57d171dc0586f469c928d5baa681.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1621342910.v.weidian.com%2Fitem.html%3FitemID%3D7490154691&affcode=archivee",
@@ -2414,7 +2214,6 @@ const products = [
   {
     name: "BPM BLACK DENIM SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$27.43",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/3da68e9be909cb9a633a12e0dba08f67.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1621342910.v.weidian.com%2Fitem.html%3FitemID%3D7342496656&affcode=archivee",
@@ -2425,7 +2224,6 @@ const products = [
   {
     name: "BPM GRAY SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$21.16",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/2/05749b43cd3f94f01d387aea9aab0c2c.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1621342910.v.weidian.com%2Fitem.html%3FitemID%3D7341453361&affcode=archivee",
@@ -2436,7 +2234,6 @@ const products = [
   {
     name: "DERSCHUTZE SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$25.86",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/62e6dddcb36f78163bae1fcb55983694.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1739784557.v.weidian.com%2Fitem.html%3FitemID%3D7632918134&affcode=archivee",
@@ -2447,7 +2244,6 @@ const products = [
   {
     name: "DERSCHUTZE SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$25.86",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/26/4bbf8a50d359ec1a30a0619f350790f1.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1739784557.v.weidian.com%2Fitem.html%3FitemID%3D7618310132&affcode=archivee",
@@ -2458,7 +2254,6 @@ const products = [
   {
     name: "DERSCHUTZE SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$24.29",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/659cab4a9184888970269896b817b110.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1739784557.v.weidian.com%2Fitem.html%3FitemID%3D7576666451&affcode=archivee",
@@ -2469,7 +2264,6 @@ const products = [
   {
     name: "ISLAND PUFF PRINT SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$24.29",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/23/e7f6c5d48640b998df20b480690b274d.jpg",
     linkKakobuy: "https://ikako.vip/8ng37",
@@ -2480,7 +2274,6 @@ const products = [
   {
     name: "EE X WARREN LOTAS",
     category: "Shorts",
-    subcategory: "",
     price: "$13.11",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/9/28e8ba7b6df49759ebc80caedd80d1db.jpg",
     linkKakobuy: "https://ikako.vip/43fhs",
@@ -2491,7 +2284,6 @@ const products = [
   {
     name: "EE SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$12.96",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/01bdce96a23355117620332f72a225e2.jpg",
     linkKakobuy: "https://ikako.vip/a2vks",
@@ -2502,7 +2294,6 @@ const products = [
   {
     name: "EE SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$12.96",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/14/97ba7964e94d9e242c4e365d16c1953a.jpg",
     linkKakobuy: "https://ikako.vip/numeb",
@@ -2513,7 +2304,6 @@ const products = [
   {
     name: "EE SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$13.1",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/18/f1ba1d316fa6addab797657d25137b6d.jpg",
     linkKakobuy: "https://ikako.vip/tfdjm",
@@ -2524,7 +2314,6 @@ const products = [
   {
     name: "NIKE/JORDAN SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$10.12",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/23/be00e61dbce212ec44aef4df4e24fe50.jpg",
     linkKakobuy: "https://ikako.vip/75yyf",
@@ -2535,7 +2324,6 @@ const products = [
   {
     name: "JORDAN SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$6.27",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/291088b20efa88c4358653548e605092.jpg",
     linkKakobuy: "https://ikako.vip/55xmv",
@@ -2546,7 +2334,6 @@ const products = [
   {
     name: "CARHARTT SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$26.63",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/15/e7881787353d393c62d2d66edc425982.jpg",
     linkKakobuy: "https://ikako.vip/fh3yp",
@@ -2557,7 +2344,6 @@ const products = [
   {
     name: "ARCTERYX MACAI REMOVABLE HOOD",
     category: "Jackets",
-    subcategory: "",
     price: "$94.03",
     image: "https://media.usfans.com/2026/09/22/134648/baa149aa-d95a-4a18-88a0-224837d8dc83.jpg",
     linkKakobuy: "https://ikako.vip/fs6gt",
@@ -2568,7 +2354,6 @@ const products = [
   {
     name: "ARCTERYX MACAI",
     category: "Jackets",
-    subcategory: "",
     price: "$94.03",
     image: "https://si.geilicdn.com/pcitem1329468934-6cf00000019965c4fd840a231316-unadjust_838_856.png",
     linkKakobuy: "https://ikako.vip/dn9k2",
@@ -2583,7 +2368,6 @@ const products = [
     price: "$68.17",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/5/78ac8e7f607b21da8b89a3b27967897e.jpg",
     linkKakobuy: "https://ikako.vip/2zwqd",
-    linkUsfans: "",
     tag: "BUDGET BATCH",
     rating: 5
   },
@@ -2612,7 +2396,6 @@ const products = [
   {
     name: "RICK OWENS SECRET PARKA JACKET",
     category: "Jackets",
-    subcategory: "",
     price: "$208",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/9/4ab182e98917ca976d54543797db3b23.jpg",
     linkKakobuy: "https://ikako.vip/wdg8b",
@@ -2623,7 +2406,6 @@ const products = [
   {
     name: "JORDAN SOCKS 2 PAIR (42-46)",
     category: "Underwear",
-    subcategory: "",
     price: "$7.21",
     image: "https://si.geilicdn.com/pcitem1944479080-13890000019abefe66f00a2103bd_1276_1276.jpg",
     linkKakobuy: "https://ikako.vip/add9k",
@@ -2634,7 +2416,6 @@ const products = [
   {
     name: "NIKE SOCKS 6 PAIR (42-46)",
     category: "Underwear",
-    subcategory: "",
     price: "$9.25",
     image: "https://si.geilicdn.com/open1847561709-1234478995-59c70000019638db296d0a22d249_1276_1276.jpg",
     linkKakobuy: "https://ikako.vip/97wg9",
@@ -2645,7 +2426,6 @@ const products = [
   {
     name: "NIKE SOCKS 3 PAIR",
     category: "Underwear",
-    subcategory: "",
     price: "$5.49",
     image: "https://si.geilicdn.com/open1847561709-1234478995-571d000001978909a5ee0a22d249_2560_1920.jpg",
     linkKakobuy: "https://ikako.vip/nvxcm",
@@ -2656,7 +2436,6 @@ const products = [
   {
     name: "VETEMENTS SOCKS (36-42)",
     category: "Underwear",
-    subcategory: "",
     price: "$2.2",
     image: "https://si.geilicdn.com/pcitem1234071531-7e440000019a66c3da5e0a23111a_1276_1276.jpg",
     linkKakobuy: "https://ikako.vip/mbvwk",
@@ -2667,7 +2446,6 @@ const products = [
   {
     name: "ERIC EMANUEL SOCKS (3 PACK)",
     category: "Underwear",
-    subcategory: "",
     price: "$7.06",
     image: "https://si.geilicdn.com/pcitem2005654965-0c360000019aafb796620a207569_1702_1276.jpg",
     linkKakobuy: "https://ikako.vip/559eq",
@@ -2678,7 +2456,6 @@ const products = [
   {
     name: "CALVIN KLEIN BOXERS (5 PACK)",
     category: "Underwear",
-    subcategory: "",
     price: "$15.52",
     image: "https://si.geilicdn.com/open1847561709-1234478995-608c0000019638dab1650a8115c2_2560_2560.jpg",
     linkKakobuy: "https://ikako.vip/bgsjc",
@@ -2689,7 +2466,6 @@ const products = [
   {
     name: "FOG BOXERS (2 PACK)",
     category: "Underwear",
-    subcategory: "",
     price: "$15.52",
     image: "https://si.geilicdn.com/open1847561709-1234478995-65070000019639728abe0a8133b0_1155_1280.jpg",
     linkKakobuy: "https://ikako.vip/gj93u",
@@ -2700,7 +2476,6 @@ const products = [
   {
     name: "BALENCIAGA HAMPTONS",
     category: "Shoes",
-    subcategory: "",
     price: "$67",
     image: "https://si.geilicdn.com/wdseller1268847658-3dc60000019c2dd97f0d0a21146b_1320_1320.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1268847658.v.weidian.com%2Fitem.html%3FitemID%3D7509083332&affcode=archivee",
@@ -2711,7 +2486,6 @@ const products = [
   {
     name: "BALENCIAGA 3XL",
     category: "Shoes",
-    subcategory: "",
     price: "$63",
     image: "https://si.geilicdn.com/pcitem1710010242-5ba400000198b83c96f30a2304aa_2832_2832.jpg",
     linkKakobuy: "https://ikako.vip/mk6w3",
@@ -2722,7 +2496,6 @@ const products = [
   {
     name: "BALENCIAGA X-PANDER",
     category: "Shoes",
-    subcategory: "",
     price: "$82",
     image: "https://si.geilicdn.com/pcitem1425026222-7955000001964561a7a90a811411_1440_1920.jpg",
     linkKakobuy: "https://ikako.vip/9wev4",
@@ -2737,7 +2510,6 @@ const products = [
     price: "$13",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/1/c51e13567bf2ae0bd3a592b1bb8b6a7c.jpg",
     linkKakobuy: "https://ikako.vip/vf5qn",
-    linkUsfans: "",
     tag: "CPREPS / BEST",
     rating: 5
   },
@@ -2781,7 +2553,6 @@ const products = [
     price: "$35",
     image: "https://si.geilicdn.com/weidian1860614617-151d00000197960f4fc70a23038e_1440_1920.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7496492536&affcode=archivee",
-    linkUsfans: "",
     tag: "K8 / BEST",
     rating: 5
   },
@@ -2909,7 +2680,6 @@ const products = [
   {
     name: "SLP T-SHIRTS (100 CW)",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.5",
     image: "https://img.alicdn.com/bao/uploaded/i4/2214183518581/O1CN01zvzBmf2DG9jbN9HCS_!!2214183518581.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D975385164276",
@@ -2920,7 +2690,6 @@ const products = [
   {
     name: "KETAMINE T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$26.6",
     image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01sjBPY41gquCafTLof_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D991905213307",
@@ -2931,7 +2700,6 @@ const products = [
   {
     name: "NETTSPEND INVERT T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.25",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01xWayyE2IpUKYRcAgu_!!2212643669335.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D924627845937",
@@ -2942,7 +2710,6 @@ const products = [
   {
     name: "NETTSPEND EARLY LIFE CRISIS T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.59",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01WNOvQf1gqu9vhs1qX_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D929461367636",
@@ -2953,7 +2720,6 @@ const products = [
   {
     name: "NETTSPEND REHAB T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.59",
     image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN01CBZsge1gquBBxFzdl_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D959891279366",
@@ -2964,7 +2730,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR STRAWBERRY T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$22.13",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/16/4699cea934b2176cbbf843445a475a75.jpg",
     linkKakobuy: "https://ikako.vip/p34fw",
@@ -2975,7 +2740,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$19.04",
     image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01jJ8hET1RR3ZKEXxxg_!!2126072107.png",
     linkKakobuy: "https://ikako.vip/8z3nm",
@@ -2986,7 +2750,6 @@ const products = [
   {
     name: "Jordan 4 (LJR BATCH)",
     category: "Shoes",
-    subcategory: "",
     price: "$75.22",
     image: "https://si.geilicdn.com/open1773336045-1234478995-53ce00000195f0f1a5820a23b4de_960_962.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7436802531%26spider_token%3D6edf&affcode=archivee",
@@ -2997,7 +2760,6 @@ const products = [
   {
     name: "Jordan 5 (Y3/LJR)",
     category: "Shoes",
-    subcategory: "",
     price: "$70",
     image: "https://si.geilicdn.com/wdseller1505219366-388a00000198fd3b8e8b0a20e2c5_1184_666.jpg",
     linkKakobuy: "https://ikako.vip/qf5bu5",
@@ -3019,7 +2781,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR MEDICINE T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$22.23",
     image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01St4jiG1RR3bSE8ugM~crop,156,0,858,1144~_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D979272611838",
@@ -3030,7 +2791,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.83",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN018ydGoN1RR3bBHQ0VV_!!2126072107.jpg",
     linkKakobuy: "https://ikako.vip/wvszt",
@@ -3041,7 +2801,6 @@ const products = [
   {
     name: "RANDOM T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$8",
     image: "https://img.alicdn.com/bao/uploaded/i4/3043413681/O1CN014K74s61d3x01hzmT4_!!3043413681.jpg",
     linkKakobuy: "https://ikako.vip/rzmpc",
@@ -3052,7 +2811,6 @@ const products = [
   {
     name: "SHIBU T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.08",
     image: "https://img.alicdn.com/bao/uploaded/i2/2217023441945/O1CN01jwviZQ1QErOaZ7YP8_!!2217023441945.jpg",
     linkKakobuy: "https://ikako.vip/ykfau",
@@ -3063,7 +2821,6 @@ const products = [
   {
     name: "ANN D LOCTUS T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.89",
     image: "https://img.alicdn.com/bao/uploaded/i3/4169169639/O1CN01EB8QXG2L4ik5ZHuQp_!!4169169639.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D926436516645",
@@ -3074,7 +2831,6 @@ const products = [
   {
     name: "CARTI WLR T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.33",
     image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01Ps8PHy2IpUEzjtIYL_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/x3sbe",
@@ -3085,7 +2841,6 @@ const products = [
   {
     name: "AKIRA T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.4",
     image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01QnSHXd2IpUHMH8zZ9_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/k8bhm",
@@ -3096,7 +2851,6 @@ const products = [
   {
     name: "UNDERCOVER 10SS T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.36",
     image: "https://si.geilicdn.com/pcitem901965113164-7ddb00000197c01360500a20e284_2796_2796.jpg",
     linkKakobuy: "https://ikako.vip/ej45a",
@@ -3107,7 +2861,6 @@ const products = [
   {
     name: "VUJADE T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.78",
     image: "https://img.alicdn.com/bao/uploaded/i4/3954478424/O1CN01UiQ4y52C6FGCRraDv_!!3954478424.jpg",
     linkKakobuy: "https://ikako.vip/bf8de",
@@ -3118,7 +2871,6 @@ const products = [
   {
     name: "I'M FINE BLOOD STAIN SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.26",
     image: "https://img.alicdn.com/bao/uploaded/i1/2218252751209/O1CN019PGXtm1KnlrjXlurh_!!2218252751209.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D867615196966",
@@ -3129,7 +2881,6 @@ const products = [
   {
     name: "SUPREME ARABIC SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$16",
     image: "https://si.geilicdn.com/open1624782517-1624782517-2b2300000198f1c6ba720aa043f9_1350_1350.jpg",
     linkKakobuy: "https://ikako.vip/zdj9p",
@@ -3140,7 +2891,6 @@ const products = [
   {
     name: "APHEX TWIN TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.36",
     image: "https://img.alicdn.com/bao/uploaded/i3/2212643669335/O1CN01DD6m0g2IpUExmmB9h_!!2212643669335.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D809631048361&affcode=archivee",
@@ -3151,7 +2901,6 @@ const products = [
   {
     name: "2HOLLIS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.23",
     image: "https://img.alicdn.com/bao/uploaded/i2/2212643669335/O1CN01fOFFsO2IpUKN3AGJI_!!2212643669335.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D921199812955&affcode=archivee",
@@ -3162,7 +2911,6 @@ const products = [
   {
     name: "2HOLLIS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.39",
     image: "https://img.alicdn.com/bao/uploaded/i2/2212643669335/O1CN01REr0ZU2IpUMpVaF3f_!!2212643669335.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D981183457748&affcode=archivee",
@@ -3173,7 +2921,6 @@ const products = [
   {
     name: "NUMBER NINE MICKEY TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.18",
     image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01fRcB0T2IpUKCsPfL2_!!2212643669335.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D916936678572&affcode=archivee",
@@ -3184,7 +2931,6 @@ const products = [
   {
     name: "RANDOM OPIUM TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.88",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01FMzCwD2IpUHgIwuUr_!!2212643669335.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D808924265747&affcode=archivee",
@@ -3195,7 +2941,6 @@ const products = [
   {
     name: "SUPREME THIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$8.62",
     image: "https://si.geilicdn.com/wdseller1947147904-63130000019735ab59920a2315ef_1288_1288.jpg",
     linkKakobuy: "https://ikako.vip/bvck7",
@@ -3206,7 +2951,6 @@ const products = [
   {
     name: "NIKE X NOCTA HOODIES",
     category: "Hoodies",
-    subcategory: "",
     price: "$32",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/14/e0d7afed2005d6bde1003ba80a38791b.jpg",
     linkKakobuy: "https://ikako.vip/87fzm",
@@ -3217,7 +2961,6 @@ const products = [
   {
     name: "Derschutze Ariza Hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$35.06",
     image: "https://img.alicdn.com/bao/uploaded/i4/1854157063/O1CN01hOdpUV222uVxtFpJC~hdr~_!!1854157063.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D992257028851",
@@ -3239,7 +2982,6 @@ const products = [
   {
     name: "Derschutze Hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$36",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/27/877099cfac8f23bb9f89f10d4a7561a9.jpg",
     linkKakobuy: "https://ikako.vip/jfr3x",
@@ -3272,7 +3014,6 @@ const products = [
   {
     name: "CDG HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$39",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/28/35262d6361a5fdfd130146e16d92089f.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D974299403094&affcode=archivee",
@@ -3305,7 +3046,6 @@ const products = [
   {
     name: "CORTEIZ X BBK ROYALE ZIP UP HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$39",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/29/9ba1aab474da34577ab50582277951da.jpg",
     linkKakobuy: "https://ikako.vip/3hu3p",
@@ -3316,7 +3056,6 @@ const products = [
   {
     name: " CORTEIZ BLACK ALCATRAZ HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$32",
     image: "https://si.geilicdn.com/wdseller1781632402-291f00000189b9c04af50a2102d0_750_750.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1760986891.v.weidian.com%2Fitem.html%3FitemID%3D7653811325&affcode=archivee",
@@ -3338,7 +3077,6 @@ const products = [
   {
     name: "PLAYBOI CARTI CAT HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$25.19",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01VhYQHf2IpUFI208vJ_!!2212643669335.png",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D817686026285&affcode=archivee",
@@ -3349,7 +3087,6 @@ const products = [
   {
     name: "ARTIEMASTER BLANK HOODIE'S (A LOT OF CW)",
     category: "Hoodies",
-    subcategory: "",
     price: "$11.45",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01GD1BYr1rFljOsRngl_!!2631375602-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/4hpr6",
@@ -3360,7 +3097,6 @@ const products = [
   {
     name: "YEEZY X GOSHA RUBCHINSKIYE",
     category: "Hoodies",
-    subcategory: "",
     price: "$25",
     image: "https://si.geilicdn.com/pcitem1375395368-115e000001913862f2820a8133cc_845_845.jpg",
     linkKakobuy: "https://ikako.vip/4b9av",
@@ -3371,7 +3107,6 @@ const products = [
   {
     name: "UNDERCOVER 06SS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$16",
     image: "https://img.alicdn.com/bao/uploaded/i1/2217964616975/O1CN01c4f4jN21ObaS8Vpwo_!!2217964616975.jpg",
     linkKakobuy: "https://ikako.vip/dng5f3",
@@ -3382,7 +3117,6 @@ const products = [
   {
     name: "SAINT ALEXANDER HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$26.35",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01Mda06N1riAKvT3HfO_!!2217847465664-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/8zmvb",
@@ -3393,7 +3127,6 @@ const products = [
   {
     name: "PLAYBOI CARTI WLR HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$25.50",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01X2kFIu2IpUFUNdM2m_!!2212643669335.png",
     linkKakobuy: "https://ikako.vip/gweh5",
@@ -3415,7 +3148,6 @@ const products = [
   {
     name: "6PM HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$36",
     image: "https://si.geilicdn.com/open1621342910-1234478995-1687000001941e3c6a1c0a232357_1284_1284.jpg",
     linkKakobuy: "https://ikako.vip/zjqxk",
@@ -3426,7 +3158,6 @@ const products = [
   {
     name: "PEACEINWAR PATRIOT HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$32.17",
     image: "https://img.alicdn.com/bao/uploaded/i4/2687803572/O1CN01FhgslU1cG1sGFeTNn_!!2687803572.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7624819348",
@@ -3437,7 +3168,6 @@ const products = [
   {
     name: "PEACEINWAR YIN YANG HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$31.21",
     image: "https://si.geilicdn.com/wdseller1995625455-75300000019ada5206720a2102b1_1290_1720.jpg",
     linkKakobuy: "https://ikako.vip/ap9c4",
@@ -3448,7 +3178,6 @@ const products = [
   {
     name: "PEACEINWAR HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$32.79",
     image: "https://si.geilicdn.com/wdseller1995625455-37e50000019b21f71ac80a2395e9_1290_1720.jpg",
     linkKakobuy: "https://ikako.vip/xtndr",
@@ -3459,7 +3188,6 @@ const products = [
   {
     name: "PEACEINWAR SOLIDER HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$33.5",
     image: "https://img.alicdn.com/bao/uploaded/i2/2687803572/O1CN014myot71cG1sFmRZBR_!!2687803572.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7650756049",
@@ -3470,7 +3198,6 @@ const products = [
   {
     name: "PEACEINWAR EU T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.4",
     image: "https://si.geilicdn.com/wdseller1995625455-6b190000019d1a09ad3d0a23c286_1320_1760.jpg",
     linkKakobuy: "https://ikako.vip/7mmaw",
@@ -3481,7 +3208,6 @@ const products = [
   {
     name: "PEACEINWAR NATIONAL FLAG T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.4",
     image: "https://si.geilicdn.com/wdseller1995625455-3f300000019d19ee36ce0a23c1e0_1320_1760.jpg",
     linkKakobuy: "https://ikako.vip/gekdf",
@@ -3492,7 +3218,6 @@ const products = [
   {
     name: "PEACEINWAR ANTI-WAR SKULL TSHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.4",
     image: "https://si.geilicdn.com/wdseller1995625455-53a30000019d19e9c52e0a239839_1320_1760.jpg",
     linkKakobuy: "https://ikako.vip/qnk8t",
@@ -3503,7 +3228,6 @@ const products = [
   {
     name: "PEACEINWAR COLLABORATION SKULL",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.4",
     image: "https://si.geilicdn.com/wdseller1995625455-196b0000019d24d6ddee0a20e672_1320_1760.jpg",
     linkKakobuy: "https://ikako.vip/q62s7",
@@ -3514,7 +3238,6 @@ const products = [
   {
     name: "PEACEINWAR BATTLEFIELD PHOTO",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.4",
     image: "https://si.geilicdn.com/wdseller1995625455-7e7a0000019d245e199e0a239646_1320_1760.jpg",
     linkKakobuy: "https://ikako.vip/gwyqy",
@@ -3525,7 +3248,6 @@ const products = [
   {
     name: "PEACEINWAR CAMOUFLAGE SKULL ",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.4",
     image: "https://si.geilicdn.com/wdseller1995625455-020a0000019d2458154e0a2303ea_1320_1760.jpg",
     linkKakobuy: "https://ikako.vip/fyhge",
@@ -3536,7 +3258,6 @@ const products = [
   {
     name: "PEACEINWAR BRAIDED NATIONAL FLAG",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.4",
     image: "https://si.geilicdn.com/wdseller1995625455-07260000019d244eb7920a2305d8_1320_1760.jpg",
     linkKakobuy: "https://ikako.vip/u3tp2",
@@ -3558,7 +3279,6 @@ const products = [
   {
     name: "PEACEINWAR SKULL SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$34.52",
     image: "https://si.geilicdn.com/wdseller1995625455-5ccb0000019b21edc7d70a23b5fa_1290_1720.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7635947538&affcode=archivee",
@@ -3569,7 +3289,6 @@ const products = [
   {
     name: "PEACEINWAR SKULL SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$36.1",
     image: "https://si.geilicdn.com/wdseller1995625455-7f440000019b0db144a60a2304a0_1290_1720.jpg",
     linkKakobuy: "https://ikako.vip/vukad",
@@ -3580,7 +3299,6 @@ const products = [
   {
     name: "PEACEINWAR EU SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$34",
     image: "https://si.geilicdn.com/wdseller1995625455-1ad70000019b8d082bd60a230417_1290_1720.jpg",
     linkKakobuy: "https://ikako.vip/f6s9w",
@@ -3591,7 +3309,6 @@ const products = [
   {
     name: "CHROME HEARTS MORO LONGSLEEVE",
     category: "Hoodies",
-    subcategory: "",
     price: "$31.37",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/6/cb50d32e7616cd79c15d4e855f2a7b61.jpg",
     linkKakobuy: "https://ikako.vip/buhj4",
@@ -3602,7 +3319,6 @@ const products = [
   {
     name: "CHROME HEARTS LONGSLEEVE",
     category: "Hoodies",
-    subcategory: "",
     price: "$26.64",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/2/3e84c625460f0f2751299a169f5d7af0.jpg",
     linkKakobuy: "https://ikako.vip/by29w",
@@ -3613,18 +3329,15 @@ const products = [
   {
     name: "CDG LONGSLEEVE",
     category: "Hoodies",
-    subcategory: "",
     price: "$19",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202604/1/1f0873b020b72d07495626288df5e5d2.jpg",
     linkKakobuy: "https://ikako.vip/ubd6c",
-    linkUsfans: "",
     tag: "RANDOM",
     rating: 4
   },
   {
     name: "HYSTERIC GLAMOUR SUE RYNSKI LONGSLEEVE",
     category: "Hoodies",
-    subcategory: "",
     price: "$25",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01gWT2HW1RR3afrvxpb_!!2126072107.jpg",
     linkKakobuy: "https://ikako.vip/65udt",
@@ -3635,7 +3348,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR LONGSLEEVE",
     category: "Hoodies",
-    subcategory: "",
     price: "$17.5",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215143892248/O1CN014GrvjD1STdE4sXyhw_!!2215143892248.jpg",
     linkKakobuy: "https://ikako.vip/typeg",
@@ -3646,7 +3358,6 @@ const products = [
   {
     name: "UNDERCOVER LONGSLEEVE",
     category: "Hoodies",
-    subcategory: "",
     price: "$20.78",
     image: "https://img.alicdn.com/bao/uploaded/i1/2214916689299/O1CN014S01jV2IZ04zhEr6o_!!2214916689299.jpg",
     linkKakobuy: "https://ikako.vip/tt8hz",
@@ -3657,7 +3368,6 @@ const products = [
   {
     name: "ERD LONGSLEEVE",
     category: "Hoodies",
-    subcategory: "",
     price: "$40",
     image: "https://img.alicdn.com/bao/uploaded/i1/2216268737739/O1CN01nH3lzT272WDwXz7jx_!!2216268737739.jpg",
     linkKakobuy: "https://ikako.vip/yjb6t",
@@ -3723,7 +3433,6 @@ const products = [
   {
     name: "NUMBER NINE BYE BYE GOOD NIGHT",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.23",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/7/0e851edaa511445340d2cc680634c12d.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D910677881280&affcode=archivee",
@@ -3734,7 +3443,6 @@ const products = [
   {
     name: "SUPREME X HYSTERIC GLAMOUR TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.27",
     image: "https://img.alicdn.com/bao/uploaded/i1/3421444534/O1CN01CRPV8S1jMcmmySngs_!!3421444534.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D871616414168&affcode=archivee",
@@ -3745,7 +3453,6 @@ const products = [
   {
     name: "NUMBER NINE KICK YOUR ASS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.31",
     image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01SSGrRX1FEtYp8DuZk_!!2943390456.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D793393698046&affcode=archivee",
@@ -3756,7 +3463,6 @@ const products = [
   {
     name: "MASTERMIND RHINESTONE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$16",
     image: "https://img.alicdn.com/bao/uploaded/i4/3483485472/O1CN01YJgxSZ1qIEAuPPmwl_!!3483485472.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D752233274681&affcode=archivee",
@@ -3789,7 +3495,6 @@ const products = [
   {
     name: "BASIC NIKE PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$13.37",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/10/fd5cfb59281b8cb55b947a6c9f9b2568.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7535370671&affcode=archivee",
@@ -3800,7 +3505,6 @@ const products = [
   {
     name: "Survet Flared joggers",
     category: "Pants",
-    subcategory: "",
     price: "$12",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/9/f11639e00eb8d5d83b77f538a66b85c9.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7536809461&affcode=archivee",
@@ -3811,7 +3515,6 @@ const products = [
   {
     name: "(BUDGET) ACNE STUDIOS JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$28.16",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/31/37b4f42c2cfe7c74c4ae63dd565aa82c.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D896534806883&affcode=archivee",
@@ -3822,7 +3525,6 @@ const products = [
   {
     name: "NO FAITH STUDIOS JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$40.15",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/26/bf6a07eeb00ca9b39ddceb49721aa468.jpg",
     linkKakobuy: "https://ikako.vip/fj85r",
@@ -3833,7 +3535,6 @@ const products = [
   {
     name: "(BUDGET) GALLERY DEPT JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$20.01",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202604/1/6bf9a3c39e99d20e8624b1d2f4ecafeb.jpg",
     linkKakobuy: "https://ikako.vip/uhsqa",
@@ -3844,7 +3545,6 @@ const products = [
   {
     name: "GOLDEN GOOSE SUPER STAR",
     category: "Shoes",
-    subcategory: "",
     price: "$59.82",
     image: "https://si.geilicdn.com/wdseller1505219366-1c1d00000198eceeca7b0a210139_1174_1566.jpg",
     linkKakobuy: "https://ikako.vip/cqubs",
@@ -3855,7 +3555,6 @@ const products = [
   {
     name: "(BUDGET) HELLSTAR SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$20.58",
     image: "https://media.usfans.com/2026/06/15/113955/06d75545-c991-4c6e-abb1-b47821484d4b.jpg",
     linkKakobuy: "https://ikako.vip/qka4w",
@@ -3866,7 +3565,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR LONGSLEEVE",
     category: "Hoodies",
-    subcategory: "",
     price: "$23.9",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01CfgW5P1FEtiXMb5Wz~crop,0,128,768,768~_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/dh5zs",
@@ -3888,7 +3586,6 @@ const products = [
   {
     name: "(BUDGET) CORTEIZ SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$17.32",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01f2JUcJ1riALCl70fW_!!2217847465664-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/h9m3h",
@@ -3899,7 +3596,6 @@ const products = [
   {
     name: "DERSCHUTZE SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$18.89",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/22/0a449d60950d93f378222cdb347052c7.jpg",
     linkKakobuy: "https://ikako.vip/ykm3x",
@@ -3910,7 +3606,6 @@ const products = [
   {
     name: "DROLAND MILLER MISA TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.33",
     image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01y9hoP42IpUIVFF2Tl_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/zsztp",
@@ -3921,7 +3616,6 @@ const products = [
   {
     name: "RANDOM WASHED TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.18",
     image: "https://img.alicdn.com/bao/uploaded/i1/1857205236/O1CN01Vd2GjE1oY8bwXxAzq_!!1857205236.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D699698744900&affcode=archivee",
@@ -3932,7 +3626,6 @@ const products = [
   {
     name: "BALENCIAGA BRITNEY T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.17",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01Ht7hI628s6RXw5HYG_!!2215450777987-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/a4svt",
@@ -3943,7 +3636,6 @@ const products = [
   {
     name: "AJ1 X TRAVIS",
     category: "Shoes",
-    subcategory: "",
     price: "$63 - 72",
     image: "https://si.geilicdn.com/wdseller1505219366-0c5a00000198343b658f0a2396f4_960_961.jpg",
     linkKakobuy: "https://ikako.vip/zn5kr",
@@ -3965,7 +3657,6 @@ const products = [
   {
     name: "HOMIXIDE GANG TOUR TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.52",
     image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01JsaxDn2IpUF05WMXl_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/ed8kr",
@@ -3987,7 +3678,6 @@ const products = [
   {
     name: "Air Max Plus Tn",
     category: "Shoes",
-    subcategory: "",
     price: "$23.63 - 32",
     image: "https://si.geilicdn.com/weidian1744790155-524b0000018cdbccae590a231418_1536_2048.jpg",
     linkKakobuy: "https://ikako.vip/8fa4d",
@@ -3998,7 +3688,6 @@ const products = [
   {
     name: "(BUDGET) RANDOM FLARED PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$24.13",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/5/db25d86d05522290e161b280a055f232.jpg",
     linkKakobuy: "https://ikako.vip/et2g3",
@@ -4009,7 +3698,6 @@ const products = [
   {
     name: "BUDGET MAISON MARGIELA T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.31",
     image: "https://media.usfans.com/PDA/674b546c-8c5e-43ba-8205-cb1503335d57.jpg",
     linkKakobuy: "https://ikako.vip/yxnu2",
@@ -4020,7 +3708,6 @@ const products = [
   {
     name: "CARHARTT JACKETS [A LOT OF CW]",
     category: "Jackets",
-    subcategory: "",
     price: "$31.73 - 41.27",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/23/597513f4fa29c1ecaa8c336bde5ec22c.jpg",
     linkKakobuy: "https://ikako.vip/gr5ma",
@@ -4031,7 +3718,6 @@ const products = [
   {
     name: "WEST COAST CHOPPERS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$24.72",
     image: "https://si.geilicdn.com/open1624782517-1624782517-40d1000001990f7b63140a231226_1280_1707.jpg",
     linkKakobuy: "https://ikako.vip/5tbt5",
@@ -4042,7 +3728,6 @@ const products = [
   {
     name: "WEST COAST CHOPPERS T-SHIRTS",
     category: "Tshirt",
-    subcategory: "",
     price: "$10.31 - 12.27",
     image: "https://img.alicdn.com/bao/uploaded/i2/2210749411287/O1CN01QbLK5c1LNUqryJwck_!!2210749411287.jpg",
     linkKakobuy: "https://ikako.vip/m489a",
@@ -4053,7 +3738,6 @@ const products = [
   {
     name: "RICK OWENS BIAS BOOTCUT JEANS",
     category: "Shorts",
-    subcategory: "",
     price: "$27.89",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/29/99a5dfd17759aea546184e92b8b1fdf7.jpg",
     linkKakobuy: "https://ikako.vip/u94wn",
@@ -4064,7 +3748,6 @@ const products = [
   {
     name: "UNDERCOVER 03 TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.24",
     image: "https://img.alicdn.com/bao/uploaded/i4/2652892586/O1CN01laq0eg1UyRHYWO6Ib_!!2652892586.jpg",
     linkKakobuy: "https://ikako.vip/p52x4",
@@ -4075,7 +3758,6 @@ const products = [
   {
     name: "UNDERCOVER 10SS TEE 'GRACE JOURNAL'",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.16",
     image: "https://img.alicdn.com/bao/uploaded/i4/2652892586/O1CN016H5Gte1UyRGxJlwq7_!!2652892586.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D907865244699",
@@ -4086,7 +3768,6 @@ const products = [
   {
     name: "UNDERCOVER 10SS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.91",
     image: "https://img.alicdn.com/bao/uploaded/i1/2652892586/O1CN01u9yYnP1UyRHDoVhtW_!!2652892586.jpg",
     linkKakobuy: "https://ikako.vip/8knn9",
@@ -4097,7 +3778,6 @@ const products = [
   {
     name: "UNDERCOVER THE VESH-CHES TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.25",
     image: "https://img.alicdn.com/bao/uploaded/i1/2652892586/O1CN01k4BIlw1UyRIKCmCx1_!!2652892586.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D946392353863",
@@ -4108,7 +3788,6 @@ const products = [
   {
     name: "NUMBER NINE GUITAR TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$23.93",
     image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01WijceZ1FEtRAGUuUY_!!2943390456.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D713152360154",
@@ -4119,7 +3798,6 @@ const products = [
   {
     name: "NUMBER NINE TEE (LETTERS)",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.38",
     image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01aQostt1FEtZm3P9Gg_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/8ja72",
@@ -4130,7 +3808,6 @@ const products = [
   {
     name: "NUMBER NINE SOVC TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.64",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01QNMsQZ1FEtZfvbVku_!!2943390456.jpg",
     linkKakobuy: "https://item.taobao.com/item.htm?id=811533361881",
@@ -4141,7 +3818,6 @@ const products = [
   {
     name: "NOCTA HOTSTEP 2",
     category: "Shoes",
-    subcategory: "",
     price: "$60.39",
     image: "https://si.geilicdn.com/wdseller1745861162-202a0000019ad93b99780a20e672_1179_884.jpg",
     linkKakobuy: "https://ikako.vip/8m2uur",
@@ -4163,7 +3839,6 @@ const products = [
   {
     name: "RICK OWENS FLARED PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$28.39",
     image: "https://img.alicdn.com/bao/uploaded/i3/2214514093/O1CN01Q8Rq121g6e8wZQQMe_!!2214514093.jpg",
     linkKakobuy: "https://ikako.vip/v9kge",
@@ -4174,7 +3849,6 @@ const products = [
   {
     name: "RANDOM SUPREME T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.79",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202604/30/584b7969a6c1717942f2535f6e8e2cfa.jpg",
     linkKakobuy: "https://ikako.vip/mbdr3",
@@ -4185,7 +3859,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR BOB DYLAN TSHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.66",
     image: "https://img.alicdn.com/bao/uploaded/i1/3926619803/O1CN01DwSH112MHpkO87CMD_!!3926619803.jpg",
     linkKakobuy: "https://ikako.vip/v4myt",
@@ -4196,7 +3869,6 @@ const products = [
   {
     name: "XAVIERSOBASED ANIME T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.86",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202604/17/c9cfbcbfefa773cb12dfa40b852f158f.jpg",
     linkKakobuy: "https://ikako.vip/gpy3w",
@@ -4207,7 +3879,6 @@ const products = [
   {
     name: "GOTH MONEY RECORD TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$19.34",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN015G4fNA1gquA1olip3_!!2215791284194.png",
     linkKakobuy: "https://ikako.vip/jqpje",
@@ -4218,7 +3889,6 @@ const products = [
   {
     name: "SALEM X BLADEE SILKROAD T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.83",
     image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01r1Tptf1gqu7WVDzgP_!!2215791284194.png",
     linkKakobuy: "https://ikako.vip/u8suf",
@@ -4229,7 +3899,6 @@ const products = [
   {
     name: "HAUNTED MOUND T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.03",
     image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01uKtX2J1gquAhsa2jk_!!2215791284194.png",
     linkKakobuy: "https://ikako.vip/jya2g",
@@ -4240,7 +3909,6 @@ const products = [
   {
     name: "I LOVE HAUNTED MOUND T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.51",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01koPi4m1gqu4Hv35xv_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D810238559904",
@@ -4251,7 +3919,6 @@ const products = [
   {
     name: "CPFFM X SAINT MICHAEL T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.37",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01iKK7G7206uZu9ZDam_!!2837346801-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/ssdam",
@@ -4262,7 +3929,6 @@ const products = [
   {
     name: "RICK OWENS SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$23.33",
     image: "https://img.alicdn.com/bao/uploaded/i1/2214514093/O1CN01WRTJl81g6e36HloDN_!!2214514093.jpg",
     linkKakobuy: "https://ikako.vip/wvhkv",
@@ -4273,7 +3939,6 @@ const products = [
   {
     name: "DERSCHUTZE TEE JAZZ V2",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.82",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202604/17/65e8557ede53771a13c56eafdd94174d.jpg",
     linkKakobuy: "https://ikako.vip/z54nm",
@@ -4284,7 +3949,6 @@ const products = [
   {
     name: "DERSCHUTZE AWAKENING V2 TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.54",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/12/7379b1fe924ad27dd63b71781b23a537.jpg",
     linkKakobuy: "https://ikako.vip/82xs9",
@@ -4295,7 +3959,6 @@ const products = [
   {
     name: "THAT'S AWFUL COUGH SYRUP HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$41.79",
     image: "https://img.alicdn.com/bao/uploaded/i1/2214138141153/O1CN01Zd7aLN1KO7frE6Zq6_!!2214138141153.jpg",
     linkKakobuy: "https://ikako.vip/k8b78",
@@ -4306,7 +3969,6 @@ const products = [
   {
     name: "THAT'S AWFUL COUGH SYRUP HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$41.64",
     image: "https://img.alicdn.com/bao/uploaded/i3/2214138141153/O1CN01dZSjyu1KO7ftRrtq2_!!2214138141153.jpg",
     linkKakobuy: "https://ikako.vip/wsk2y",
@@ -4339,7 +4001,6 @@ const products = [
   {
     name: "NUMBER NINE SOLOIST TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$24",
     image: "https://img.alicdn.com/bao/uploaded/i4/2943390456/O1CN01ZhvM7O1FEtREVOl4E_!!2943390456.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D713153724831",
@@ -4350,7 +4011,6 @@ const products = [
   {
     name: "NUMBER NINE I LOVE GOTHAM TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.71",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01Mh3Dpd1FEtc2vVoCn_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/ju4bd",
@@ -4361,7 +4021,6 @@ const products = [
   {
     name: "UNDERCOVER EVA ELYSION TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.34",
     image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01hDRBHZ1FEtb1RQkUJ_!!2943390456.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D834426605166",
@@ -4372,7 +4031,6 @@ const products = [
   {
     name: "BALENCIAGA 3XL (BEST)",
     category: "Shoes",
-    subcategory: "",
     price: "$72",
     image: "https://si.geilicdn.com/pcitem1268847658-3d7e0000019515e5c1fb0a2303ee_1290_1290.jpg",
     linkKakobuy: "https://ikako.vip/fprtr",
@@ -4383,7 +4041,6 @@ const products = [
   {
     name: "DERSCHUTZE DENIM SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$19.04",
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/22/0a449d60950d93f378222cdb347052c7.jpg",
     linkKakobuy: "https://ikako.vip/ykm3x",
@@ -4394,7 +4051,6 @@ const products = [
   {
     name: "SMOKING BOY HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$31.71",
     image: "https://si.geilicdn.com/wdseller1995625455-41b00000019d24da6ee70a23047e_1320_1760.jpg",
     linkKakobuy: "https://ikako.vip/w695t",
@@ -4405,7 +4061,6 @@ const products = [
   {
     name: "BALENCIAGA TAPE T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$13",
     image: "https://si.geilicdn.com/wdseller1730445636-502f00000186ef745c1f0a22d246_1284_1503.jpg",
     linkKakobuy: "https://ikako.vip/j9du3",
@@ -4427,7 +4082,6 @@ const products = [
   {
     name: "BALENCIAGA MICKEY SHOES",
     category: "Shoes",
-    subcategory: "",
     price: "$77",
     image: "https://si.geilicdn.com/wdseller1268847658-38c400000195e2c291610a2304a0_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/6vdc3",
@@ -4460,7 +4114,6 @@ const products = [
   {
     name: "COINBASE LARP T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$16",
     image: "https://si.geilicdn.com/open1831483949-1831483949-1f110000019be4a161fe0a8115c2_3024_4032.jpg",
     linkKakobuy: "https://ikako.vip/xpf32",
@@ -4471,7 +4124,6 @@ const products = [
   {
     name: "KEN CARSON GREAT CHAOS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$12",
     image: "https://img.alicdn.com/bao/uploaded/i2/2212643669335/O1CN01NJWVhz2IpUFxQXabh_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/ws4vd",
@@ -4482,7 +4134,6 @@ const products = [
   {
     name: "VETEMENTS INTERPOL TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$17",
     image: "https://img.alicdn.com/bao/uploaded/i2/2217868191481/O1CN014Aglbz1MoLdSpv9RA_!!2217868191481.jpg",
     linkKakobuy: "https://ikako.vip/ttknj",
@@ -4493,7 +4144,6 @@ const products = [
   {
     name: "STUSSY X RICK OWENS T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$15",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01cP9Nnc1FEtI45h4pd_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/d54sn",
@@ -4504,7 +4154,6 @@ const products = [
   {
     name: "BUDGET CORTEIZ SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$11.49",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01QOsDRi1zbJBZoe0vM_!!2215823446732-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/v6wsg",
@@ -4515,7 +4164,6 @@ const products = [
   {
     name: "BUDGET RHUDE SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$17.93",
     image: "https://img.alicdn.com/bao/uploaded/i3/2215032114223/O1CN01pQuK1h1h4BYVhoPD4_!!2215032114223.jpg",
     linkKakobuy: "https://ikako.vip/ktb6p",
@@ -4526,7 +4174,6 @@ const products = [
   {
     name: "UP IN FLAMES SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$14.53",
     image: "https://kk-oss-wh-sz.oss-cn-shenzhen.aliyuncs.com/whg/202605/12/3945f2d3ab1de19f8baf9cc439ceab15.jpg",
     linkKakobuy: "https://ikako.vip/gh5b9",
@@ -4559,7 +4206,6 @@ const products = [
   {
     name: "NUMBER NINE SHIELD HOODIE (BLUE)",
     category: "Hoodies",
-    subcategory: "",
     price: "$41.3",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN013eXWen1FEtiXWjEzR_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/t9by3",
@@ -4570,7 +4216,6 @@ const products = [
   {
     name: "NUMBER NINE SHIELD GREEN CREWNECK",
     category: "Hoodies",
-    subcategory: "",
     price: "$39.70",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01lljFWz1FEti0CWjky_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/d7esy",
@@ -4581,7 +4226,6 @@ const products = [
   {
     name: "UNDERCOVER LUNAR T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.21",
     image: "https://img.alicdn.com/bao/uploaded/i3/2943390456/O1CN01kuwrP31FEtVsFRf8A_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/xh3eg",
@@ -4592,7 +4236,6 @@ const products = [
   {
     name: "UNDERCOVER CANDLE T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$10",
     image: "https://img.alicdn.com/bao/uploaded/i4/2219806430381/O1CN01nQMGqB1EgY1mRJmd9_!!2219806430381.heic",
     linkKakobuy: "https://ikako.vip/7y5dt",
@@ -4603,7 +4246,6 @@ const products = [
   {
     name: "NUMBERNINE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$42",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01k7uYHE1CUymOrdtsb_!!2025450085.jpg",
     linkKakobuy: "https://ikako.vip/bpu4z",
@@ -4614,7 +4256,6 @@ const products = [
   {
     name: "GRAILZ MARINES  HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$29.30",
     image: "https://img.alicdn.com/bao/uploaded/i1/2201204187410/O1CN019cbovH24bpvivIIMI_!!2201204187410.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D963949247487",
@@ -4625,7 +4266,6 @@ const products = [
   {
     name: "NEW BALANCE 1906",
     category: "Shoes",
-    subcategory: "",
     price: "$36",
     image: "https://si.geilicdn.com/pcitem901870080011-588f00000198a566d6d80a239646_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/tgpcc",
@@ -4636,7 +4276,6 @@ const products = [
   {
     name: "NUMBER NINE HOODIE WHITE",
     category: "Hoodies",
-    subcategory: "",
     price: "$45",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01DGYwMU1CUymk76PsQ_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1015301702523",
@@ -4647,7 +4286,6 @@ const products = [
   {
     name: "AIME LEON DORE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$33.40",
     image: "https://img.alicdn.com/bao/uploaded/i2/2331597012/O1CN018M7wHr21fXw2nj6k3_!!2331597012.jpg",
     linkKakobuy: "https://ikako.vip/qn8cw",
@@ -4658,7 +4296,6 @@ const products = [
   {
     name: "ANONYMOUS CLUB SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$45",
     image: "https://img.alicdn.com/bao/uploaded/i4/2210299185015/O1CN01fXkrdQ1muvITGPzeE_!!2210299185015.png",
     linkKakobuy: "https://ikako.vip/uhdza",
@@ -4669,7 +4306,6 @@ const products = [
   {
     name: "ALICE HOLLYWOOD TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.5",
     image: "https://img.alicdn.com/imgextra/i3/2214656006513/O1CN01D8rdMg1xz0eRN4DC8_!!2214656006513.jpg",
     linkKakobuy: "https://ikako.vip/mm8se",
@@ -4680,7 +4316,6 @@ const products = [
   {
     name: "VIVIENNE WESTWOOD TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$31.40",
     image: "https://img.alicdn.com/bao/uploaded/i3/1114566/O1CN01Sthit71jbHUqqB8Je_!!1114566.jpg",
     linkKakobuy: "https://ikako.vip/2hppg",
@@ -4691,7 +4326,6 @@ const products = [
   {
     name: "ERD TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$26.68",
     image: "https://img.alicdn.com/bao/uploaded/i4/2215800851954/O1CN013RGc5P1QIys5jpc6g_!!2215800851954.jpg",
     linkKakobuy: "https://ikako.vip/ehz5z",
@@ -4702,7 +4336,6 @@ const products = [
   {
     name: "POLIZEI TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$26.68",
     image: "https://img.alicdn.com/bao/uploaded/i1/2909580396/O1CN01CcCY2i1EnPhFzbBaX_!!2909580396.jpg",
     linkKakobuy: "https://ikako.vip/43cjf",
@@ -4713,7 +4346,6 @@ const products = [
   {
     name: "NETTSPEND HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$39.80",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01AGOZZK1gquAThWfPH_!!2215791284194.png",
     linkKakobuy: "https://ikako.vip/2xrf5",
@@ -4724,7 +4356,6 @@ const products = [
   {
     name: "I WANNA BE FAMOUS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$15",
     image: "https://img.alicdn.com/bao/uploaded/i3/2143400835/O1CN01beGPqa1I2TnO0gceR~crop,0,180,1440,1440~_!!2143400835.jpg",
     linkKakobuy: "https://ikako.vip/753yw",
@@ -4735,7 +4366,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR BEAR TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$23",
     image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01kyNpZL1RR3eC5PGdI_!!2126072107.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1046418982983",
@@ -4746,7 +4376,6 @@ const products = [
   {
     name: "CSONLINE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$31.50",
     image: "https://img.alicdn.com/bao/uploaded/i3/728515915/O1CN01MnuhUH1tZ7mOR2vfv_!!728515915.jpg",
     linkKakobuy: "https://ikako.vip/swerj",
@@ -4757,7 +4386,6 @@ const products = [
   {
     name: "CB SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$25.3",
     image: "https://media.usfans.com/2026/05/23/142933/b6d48b2d-de94-404f-a609-acc5b198c793.jpg",
     linkKakobuy: "https://ikako.vip/pzu29",
@@ -4768,7 +4396,6 @@ const products = [
   {
     name: "GARMS SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$27",
     image: "https://media.usfans.com/2026/05/28/140344/a39cd1f4-9137-4d93-be2a-6dc1bc4e89fd.jpg",
     linkKakobuy: "https://ikako.vip/squp3",
@@ -4779,7 +4406,6 @@ const products = [
   {
     name: "NIKE TECH SHORTS (BUDGET)",
     category: "Shorts",
-    subcategory: "",
     price: "$10.6",
     image: "https://kk-oss-wh-hk.kakobuy.com/whg/202605/29/911872b95df894af5101bebb58d994bb.jpg",
     linkKakobuy: "https://ikako.vip/6z86s",
@@ -4790,7 +4416,6 @@ const products = [
   {
     name: "MUAY THAI SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$9.56",
     image: "https://media.usfans.com/2026/05/26/110339/9151d7b7-0ff3-47bd-98f7-6f5d9f2284eb.jpg",
     linkKakobuy: "https://ikako.vip/x7bnh",
@@ -4801,7 +4426,6 @@ const products = [
   {
     name: "MERTRA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$22.01",
     image: "https://media.usfans.com/2026/05/29/170442/f3b051b5-ec0c-4cd3-91ab-a89dab3499f9.jpg",
     linkKakobuy: "https://ikako.vip/rghrs",
@@ -4812,7 +4436,6 @@ const products = [
   {
     name: "MERTRA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$22.01",
     image: "https://media.usfans.com/2026/05/26/111355/d3f7ea55-e960-40a9-9f27-35c4bf22c674.jpg",
     linkKakobuy: "https://ikako.vip/gjvqt",
@@ -4823,7 +4446,6 @@ const products = [
   {
     name: "MERTRA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$24.50",
     image: "https://media.usfans.com/2026/05/21/143548/7dda9e05-7d59-42b4-b741-7be9d8854528.jpg",
     linkKakobuy: "https://ikako.vip/xqgrw",
@@ -4834,7 +4456,6 @@ const products = [
   {
     name: "MERTRA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$22.01",
     image: "https://media.usfans.com/2026/05/24/201343/865e80a3-7c53-400e-82d0-abbedf37093e.jpg",
     linkKakobuy: "https://ikako.vip/qhjx7",
@@ -4845,7 +4466,6 @@ const products = [
   {
     name: "MERTRA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$22.01",
     image: "https://media.usfans.com/2026/05/26/133532/b5a294f4-c28c-42f6-9e3a-0c64aa2c262a.jpg",
     linkKakobuy: "https://ikako.vip/6kdev",
@@ -4856,7 +4476,6 @@ const products = [
   {
     name: "PEACEINWAR CHAOS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$33.91",
     image: "https://si.geilicdn.com/wdseller1995625455-0a2c0000019d4e14672d0a239839_2560_3413.jpg",
     linkKakobuy: "https://ikako.vip/3p6ccu",
@@ -4867,7 +4486,6 @@ const products = [
   {
     name: "PEACEINWAR EU HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$34.10",
     image: "https://si.geilicdn.com/wdseller1995625455-69720000019e301bed8a0a23b4f4_3025_3026.jpg",
     linkKakobuy: "https://ikako.vip/pnzu3",
@@ -4889,7 +4507,6 @@ const products = [
   {
     name: "PEACEINWAR RED STAR EMBRO HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$37.40",
     image: "https://si.geilicdn.com/wdseller1995625455-525c0000019daa24ef4d0a210247_1320_1760.jpg",
     linkKakobuy: "https://ikako.vip/qtkuf",
@@ -4900,7 +4517,6 @@ const products = [
   {
     name: "420 GSM SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$18.17",
     image: "https://img.alicdn.com/imgextra/i4/808386976/O1CN01a1OAnh21P42TPyWAS_!!808386976.jpg",
     linkKakobuy: "https://ikako.vip/utghb",
@@ -4911,7 +4527,6 @@ const products = [
   {
     name: "360 GSM SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$16.80",
     image: "https://img.alicdn.com/bao/uploaded/i1/808386976/O1CN01J2lQZG21P3zB4jXlI_!!808386976.jpg",
     linkKakobuy: "https://ikako.vip/jrpkn",
@@ -4922,7 +4537,6 @@ const products = [
   {
     name: "UNDERCOVER 03 TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$24",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01VND1991FEtVykLiFZ_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/g2869",
@@ -4933,7 +4547,6 @@ const products = [
   {
     name: "PEACEINWAR SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$15.90",
     image: "https://si.geilicdn.com/wdseller1995625455-5f070000019d19f23cb90a240147_1320_1760.jpg",
     linkKakobuy: "https://ikako.vip/f5vz5q",
@@ -4944,7 +4557,6 @@ const products = [
   {
     name: "BULLETPROOF TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.90",
     image: "https://si.geilicdn.com/wdseller1995625455-66390000019d6c1d93a90a230449_3025_3026.jpg",
     linkKakobuy: "https://ikako.vip/e8uv8",
@@ -4955,7 +4567,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR PARTY TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$23.01",
     image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01dsprjO1RR3dkOld5A_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1034814361803",
@@ -4966,7 +4577,6 @@ const products = [
   {
     name: "IDLT BLANK TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$4.80",
     image: "https://img.alicdn.com/bao/uploaded/i4/1566784/O1CN01LvFB0m1zz7ylH08Jw_!!1566784.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D615825547877",
@@ -4977,7 +4587,6 @@ const products = [
   {
     name: "NUMBERNINE MIRROR TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$27.28",
     image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01LZz4BU1CUyiTEb4FT_!!2025450085.jpg",
     linkKakobuy: "https://ikako.vip/yrp7d",
@@ -4988,7 +4597,6 @@ const products = [
   {
     name: "RYE PORNSTAR TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$23",
     image: "https://img.alicdn.com/bao/uploaded/i3/1955315533/O1CN01zDFQhD1qkATW1vkjR_!!1955315533.jpg",
     linkKakobuy: "https://ikako.vip/j25mc",
@@ -4999,7 +4607,6 @@ const products = [
   {
     name: "NETTSPEND T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$22.5",
     image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01tqWTPp1gquAIKTwWo_!!2215791284194.png",
     linkKakobuy: "https://ikako.vip/ae52z",
@@ -5010,7 +4617,6 @@ const products = [
   {
     name: "RANDOM CAMO SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$9.03",
     image: "https://img.alicdn.com/bao/uploaded/i4/2730747287/O1CN01ctcimt23hV6YwB1Qo_!!2730747287.jpg",
     linkKakobuy: "https://ikako.vip/ngnws",
@@ -5021,7 +4627,6 @@ const products = [
   {
     name: "BAPE X CHROME HEARTS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.3",
     image: "https://si.geilicdn.com/open1831483949-1831483949-25ea0000019c1339d3670a231226_800_800.jpg",
     linkKakobuy: "https://ikako.vip/7ssk9",
@@ -5032,7 +4637,6 @@ const products = [
   {
     name: "NUMBER NINE T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.67",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01Ouqaas1FEtbvGWPN4_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/c3bk6",
@@ -5043,7 +4647,6 @@ const products = [
   {
     name: "NUMBER NINE SHIELD T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.01",
     image: "https://img.alicdn.com/bao/uploaded/i2/2943390456/O1CN01NOrj7B1FEtck373Gt_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/gvwbh",
@@ -5054,7 +4657,6 @@ const products = [
   {
     name: "NUMBER NINE ROLLING STONES T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.26",
     image: "https://img.alicdn.com/bao/uploaded/i4/2943390456/O1CN0177SLaG1FEtg0TnRuv_!!2943390456.jpg",
     linkKakobuy: "https://ikako.vip/h58xb",
@@ -5065,7 +4667,6 @@ const products = [
   {
     name: "PHILIP PLEIN T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.23",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01qRRMZ11vhUFxbZOcA_!!4089116204-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/puaj3",
@@ -5076,7 +4677,6 @@ const products = [
   {
     name: "SUPREME T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.47",
     image: "https://media.usfans.com/PDA/b64881bb-ba2c-4aa2-a3d2-20f6e8d89dda.jpg",
     linkKakobuy: "https://ikako.vip/n2gsv",
@@ -5087,7 +4687,6 @@ const products = [
   {
     name: "REVENGE T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$11",
     image: "https://img.alicdn.com/bao/uploaded/i4/2196894558/O1CN01w1NYPY1jXbzpSi1vv_!!2196894558.jpg",
     linkKakobuy: "https://ikako.vip/u27xb",
@@ -5098,7 +4697,6 @@ const products = [
   {
     name: "BAPE T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$8",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01KSTgYG24yjjaG6mlO_!!2220333237460-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/cvutw",
@@ -5109,7 +4707,6 @@ const products = [
   {
     name: "MARLBORO T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$7.90",
     image: "https://si.geilicdn.com/open1624782517-1624782517-5bf8000001976e158b7a0aa043be_800_800.jpg",
     linkKakobuy: "https://ikako.vip/9uqhq",
@@ -5120,7 +4717,6 @@ const products = [
   {
     name: "CDG BULLETPROOF T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.80",
     image: "https://media.usfans.com/2026/06/13/172007/088688ff-0ac1-4efb-8fbb-c23145d995b6.jpg",
     linkKakobuy: "https://ikako.vip/r9kfx",
@@ -5131,7 +4727,6 @@ const products = [
   {
     name: "MERTRA T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.23",
     image: "https://si.geilicdn.com/wdseller1940384309-67330000019d6c41065a0a230449_2560_2560.jpg",
     linkKakobuy: "https://ikako.vip/rdsvm",
@@ -5142,7 +4737,6 @@ const products = [
   {
     name: "MERTRA SCORPION T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.23",
     image: "https://si.geilicdn.com/wdseller1940384309-77ea0000019dc7168c660a20e273_1320_1320.jpg",
     linkKakobuy: "https://ikako.vip/jg4df",
@@ -5153,7 +4747,6 @@ const products = [
   {
     name: "MERTRA T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$17.40",
     image: "https://si.geilicdn.com/wdseller1940384309-332d0000019d951f63080a239846_1320_1320.jpg",
     linkKakobuy: "https://ikako.vip/2expg",
@@ -5164,7 +4757,6 @@ const products = [
   {
     name: "MERTRA X UMBRO T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.71",
     image: "https://media.usfans.com/2026/06/11/145439/30ce2dd2-c77a-491a-abbc-1568a73490d7.jpg",
     linkKakobuy: "https://ikako.vip/2jquc",
@@ -5175,7 +4767,6 @@ const products = [
   {
     name: "MERTRA T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.67",
     image: "https://media.usfans.com/2026/06/15/221937/73845d10-aa7d-4898-a799-d95d0152022e.jpg",
     linkKakobuy: "https://ikako.vip/qztgh6",
@@ -5186,7 +4777,6 @@ const products = [
   {
     name: "SUPREME X MM6 MONEY T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.3",
     image: "https://cdn.doppel.fit/JTwGxTuF9plYmjYwFoMCQutFGmR2vYa1nETDr2bgeBg/rs:fill:1920/q:85/f:webp/VEFPQkFPLzEwNTQ5NzQzNDY1NTAva2Frb2J1eV8xNDRmbGJ5cHkwZWtwc3J5NmduYzVvL3dhdGVybWFya2VkL2E5YzY2MDA5MzE2MmRlNDkxNmQ2ZTg0OWUzNWIzOWEzLndlYnA",
     linkKakobuy: "https://ikako.vip/6dazr",
@@ -5197,7 +4787,6 @@ const products = [
   {
     name: "NETTSPEND EARLY LIFE CRISIS T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.80",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01MNIfUF2IpULm5h0tt_!!2212643669335.jpg",
     linkKakobuy: "https://item.taobao.com/item.htm?id=956865408575",
@@ -5208,7 +4797,6 @@ const products = [
   {
     name: "PESO SLIM FIT T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$13",
     image: "https://img.alicdn.com/bao/uploaded/i4/2217868191481/O1CN01QSdbsV1MoLeBkuLAA_!!2217868191481.jpg",
     linkKakobuy: "https://ikako.vip/thduq",
@@ -5219,7 +4807,6 @@ const products = [
   {
     name: "GALLERY DEPT T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.45",
     image: "https://img.alicdn.com/bao/uploaded/i3/727551888/O1CN012c6ogw1PokrA7yscq_!!727551888.png",
     linkKakobuy: "https://ikako.vip/tdnha",
@@ -5230,7 +4817,6 @@ const products = [
   {
     name: "BILLIONAIRE STUDIOS T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.85",
     image: "https://img.alicdn.com/bao/uploaded/i4/2217868191481/O1CN01IoUrmD1MoLZro24mz_!!2217868191481.jpg",
     linkKakobuy: "https://ikako.vip/8ubbd",
@@ -5241,7 +4827,6 @@ const products = [
   {
     name: "ESSENTIALS NBA T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.15",
     image: "https://media.usfans.com/2026/06/08/094450/67846d31-f0f9-45c3-afa2-377a09854dc5.jpg",
     linkKakobuy: "https://ikako.vip/9dp3d",
@@ -5252,7 +4837,6 @@ const products = [
   {
     name: "WARREN LOTAS T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.95",
     image: "https://media.usfans.com/PDA/4117ce5c-7e2a-4e38-8738-6c5f2023b551.jpg",
     linkKakobuy: "https://ikako.vip/6suem",
@@ -5263,7 +4847,6 @@ const products = [
   {
     name: "JADED LONDON JORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$27.70",
     image: "https://img.alicdn.com/bao/uploaded/i1/3482427204/O1CN010PlDE7235UJl6dmGB_!!3482427204.jpg",
     linkKakobuy: "https://ikako.vip/zf5mv",
@@ -5274,7 +4857,6 @@ const products = [
   {
     name: "WARREN LOTAS CARD SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$32.80",
     image: "https://media.usfans.com/PDA/d6ca78ea-753c-4dff-ab45-fcf8db5bfc81.jpg",
     linkKakobuy: "https://ikako.vip/zwgu9",
@@ -5285,7 +4867,6 @@ const products = [
   {
     name: "PEACEINWAR BURGUNDY HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$31.74",
     image: "https://si.geilicdn.com/wdseller1995625455-41c60000019e982431ef0a23138d_3025_3025.jpg",
     linkKakobuy: "https://ikako.vip/58nuwv",
@@ -5318,7 +4899,6 @@ const products = [
   {
     name: "GENESIS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$37.7",
     image: "https://si.geilicdn.com/wdseller1995625455-0ab20000019bd51822e60a23b4f4_1290_1720.jpg",
     linkKakobuy: "https://ikako.vip/r74qz5",
@@ -5329,7 +4909,6 @@ const products = [
   {
     name: "DERSCHUTZE BLOSSOM HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$32",
     image: "https://si.geilicdn.com/wdseller1940384309-0b7a0000019b4fabdf8b0a23c191_1320_1320.jpg",
     linkKakobuy: "https://ikako.vip/m67qn",
@@ -5340,7 +4919,6 @@ const products = [
   {
     name: "NUMBER NINE HOODIE (WHITE BLACK)",
     category: "Hoodies",
-    subcategory: "",
     price: "$41.16",
     image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01QzFRW91CUyld1P1FC_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D990513962818",
@@ -5351,7 +4929,6 @@ const products = [
   {
     name: "PROTOCOL + HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$26.4",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN0153cBRt1TjUoIXq57p_!!2208944992418-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/r8wjw",
@@ -5362,7 +4939,6 @@ const products = [
   {
     name: "HOMIXIDE GANG TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.6",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01rkgduE2IpUJ7EjSu2_!!2212643669335.png",
     linkKakobuy: "https://ikako.vip/arq76",
@@ -5373,7 +4949,6 @@ const products = [
   {
     name: "NUMBER NINE  CRYING SKULL TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$25.88",
     image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01t7k9DU1CUyjEInDlP_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D935965063489",
@@ -5384,7 +4959,6 @@ const products = [
   {
     name: "NUMBER NINE NECKLACE TEE (HONGSHENG)",
     category: "Tshirts",
-    subcategory: "",
     price: "$25.84",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01EEQEuf1CUyhur8OOy_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D900724060340",
@@ -5395,7 +4969,6 @@ const products = [
   {
     name: "UNDERCOVER DRACULA TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$31",
     image: "https://img.alicdn.com/bao/uploaded/i3/2210534265651/O1CN01OeElo41rcDE6LbnZ5_!!2210534265651.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D928509582358",
@@ -5406,7 +4979,6 @@ const products = [
   {
     name: "TRAVIS SCOTT TSHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$7.99",
     image: "https://img.alicdn.com/bao/uploaded/i3/1034922469/O1CN01tTFbJQ1U6qi6Akw6Q_!!1034922469.jpg",
     linkKakobuy: "https://ikako.vip/3hkhy",
@@ -5417,7 +4989,6 @@ const products = [
   {
     name: "NIKE X NOCTA TSHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$7.99",
     image: "https://media.usfans.com/2026/07/04/131643/8d6319c3-e7de-4536-8b04-774a9868f8de.jpg",
     linkKakobuy: "https://ikako.vip/rbfng",
@@ -5439,7 +5010,6 @@ const products = [
   {
     name: "NETTSPEND T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.38",
     image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN016NFbEe2IpULGTpUtK_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/htnuq",
@@ -5450,7 +5020,6 @@ const products = [
   {
     name: "DESTROY LONELY TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.50",
     image: "https://img.alicdn.com/bao/uploaded/i2/2212643669335/O1CN01uT7Jr12IpUO0bx4W2_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/e9fsu",
@@ -5461,7 +5030,6 @@ const products = [
   {
     name: "NETTSPEND SILENCE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.85",
     image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01JNRfFV1gquCVBXXv9_!!2215791284194.png",
     linkKakobuy: "https://ikako.vip/5cuq6",
@@ -5472,7 +5040,6 @@ const products = [
   {
     name: "YEAT 2ALIVE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.4",
     image: "https://img.alicdn.com/bao/uploaded/i3/2212643669335/O1CN01CMlxDH2IpUPNyAZrJ_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/nccsbv",
@@ -5483,7 +5050,6 @@ const products = [
   {
     name: "VETEMENTS BRO TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$27.59",
     image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN01GUSaPu26cs3NWG2De~crop,714,0,4284,4284~_!!3822597683.jpg",
     linkKakobuy: "https://ikako.vip/37yfu",
@@ -5494,7 +5060,6 @@ const products = [
   {
     name: "VETEMENTS RAMMSTEIN TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$27.42",
     image: "https://img.alicdn.com/bao/uploaded/i4/3822597683/O1CN01PmKBRn26cs1VH2VRe_!!3822597683.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D914754964898",
@@ -5505,7 +5070,6 @@ const products = [
   {
     name: "NUMBER NINE WINGS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$46.14",
     image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01SKlsef1CUyn2WjGIx_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1024404254449",
@@ -5516,7 +5080,6 @@ const products = [
   {
     name: "NUMBER NINE HOODIE RED",
     category: "Hoodies",
-    subcategory: "",
     price: "$40.83",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01k7uYHE1CUymOrdtsb_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1008505432114",
@@ -5527,7 +5090,6 @@ const products = [
   {
     name: "NUMBER NINE LAMBRETTA TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.1",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01Y5EDWB1CUynEf18Yz_!!2025450085.jpg",
     linkKakobuy: "https://ikako.vip/zuch6",
@@ -5538,7 +5100,6 @@ const products = [
   {
     name: "RAF SIMONS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$25.75",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01QtjxvW1CUyoAHgBf9_!!2025450085.jpg",
     linkKakobuy: "https://ikako.vip/439nn",
@@ -5549,7 +5110,6 @@ const products = [
   {
     name: "BALENCIAGA SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$31.75",
     image: "https://si.geilicdn.com/wdseller1258568610-519000000199d30822420a210139_1170_1462.jpg",
     linkKakobuy: "https://ikako.vip/sdrfan",
@@ -5560,7 +5120,6 @@ const products = [
   {
     name: "SUPREME X MARTIN ROSE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$42.78",
     image: "https://media.usfans.com/2026/06/26/173550/8319b899-4f16-4249-b16c-52b4fc83cc9c.jpg",
     linkKakobuy: "https://ikako.vip/xj6zj",
@@ -5593,7 +5152,6 @@ const products = [
   {
     name: "AF1",
     category: "Shoes",
-    subcategory: "",
     price: "$22.32",
     image: "https://si.geilicdn.com/wdseller1745861162-40b50000019ac0376d200a239846_1280_1296.jpg",
     linkKakobuy: "https://ikako.vip/2xndf",
@@ -5604,7 +5162,6 @@ const products = [
   {
     name: "BALENCIAGA DEFENDER",
     category: "Shoes",
-    subcategory: "",
     price: "$68.55",
     image: "https://si.geilicdn.com/wdseller1268847658-5b6c00000187c5cc353f0a231447-unadjust_1170_1170.gif",
     linkKakobuy: "https://ikako.vip/j8fr4",
@@ -5615,7 +5172,6 @@ const products = [
   {
     name: "HELLSTAR T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.63",
     image: "https://img.alicdn.com/bao/uploaded/i1/574102188/O1CN01rUCVnI1S29fWfzLM0_!!574102188.jpg",
     linkKakobuy: "https://ikako.vip/ngp9z",
@@ -5626,7 +5182,6 @@ const products = [
   {
     name: "HELLSTAR T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.19",
     image: "https://img.alicdn.com/imgextra/i1/2911353512/O1CN01qMfRsp1boXvg7dHy1_!!2911353512.jpg",
     linkKakobuy: "https://ikako.vip/td56d",
@@ -5648,7 +5203,6 @@ const products = [
   {
     name: "ADIDAS SUPERSTAR",
     category: "Shoes",
-    subcategory: "",
     price: "$25.51",
     image: "https://si.geilicdn.com/open1733523732-1234478995-7a130000019374833ccb0a232357_1080_818.jpg",
     linkKakobuy: "https://ikako.vip/p4grs",
@@ -5670,7 +5224,6 @@ const products = [
   {
     name: "RANDOM PLAID SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$15.79",
     image: "https://img.alicdn.com/bao/uploaded/i2/2687803572/O1CN01OR3uLL1cG1ssuR0cX_!!2687803572.jpg",
     linkKakobuy: "https://ikako.vip/35qdm",
@@ -5681,7 +5234,6 @@ const products = [
   {
     name: "IHS LOGO TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.96",
     image: "https://img.alicdn.com/bao/uploaded/i4/2687803572/O1CN01XVY45Y1cG1t1qGXQf_!!2687803572.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7763313954",
@@ -5692,7 +5244,6 @@ const products = [
   {
     name: "TORN STARS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.55",
     image: "https://img.alicdn.com/bao/uploaded/i2/2687803572/O1CN01I66eNJ1cG1tdyvwU7_!!2687803572.jpg",
     linkKakobuy: "https://ikako.vip/5cgmu",
@@ -5703,7 +5254,6 @@ const products = [
   {
     name: "ONE CHANCE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$17.40",
     image: "https://si.geilicdn.com/wdseller1995625455-3e010000019ef3e29db80a23b54f_3025_3026.jpg",
     linkKakobuy: "https://ikako.vip/u79ud",
@@ -5714,7 +5264,6 @@ const products = [
   {
     name: "IHS JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$36.60",
     image: "https://si.geilicdn.com/wdseller1995625455-36930000019daa2bbe990a230246_3019_3021.jpg",
     linkKakobuy: "https://ikako.vip/esazz",
@@ -5725,7 +5274,6 @@ const products = [
   {
     name: "DRAMA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$14.21",
     image: "https://media.usfans.com/2026/06/25/111344/1bc574e4-6556-4128-bd5d-4862c98d3015.jpg",
     linkKakobuy: "https://ikako.vip/u67cg",
@@ -5747,7 +5295,6 @@ const products = [
   {
     name: "CHROME HEARTS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$6.71",
     image: "https://si.geilicdn.com/wdseller343709482-78920000016ae2bd57b80a20b7b9_1124_1124.jpg",
     linkKakobuy: "https://ikako.vip/7m9du",
@@ -5758,7 +5305,6 @@ const products = [
   {
     name: "AF1 CH X NOCTA",
     category: "Shoes",
-    subcategory: "",
     price: "$44.69",
     image: "https://si.geilicdn.com/wdseller2075148751-39780000019eacd96add0a23b6ac_3025_3029.jpg",
     linkKakobuy: "https://ikako.vip/mug7s",
@@ -5769,7 +5315,6 @@ const products = [
   {
     name: "AJ1 X TRAVIS",
     category: "Shoes",
-    subcategory: "",
     price: "$63",
     image: "https://si.geilicdn.com/wdseller1924290571-2cc30000019eacb42f850a2301af_3025_3029.jpg",
     linkKakobuy: "https://ikako.vip/g6ex5",
@@ -5780,7 +5325,6 @@ const products = [
   {
     name: "BAPE SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$3.04",
     image: "https://si.geilicdn.com/pcitem1944479080-5e680000019df2475e080a20e2c5_640_640.jpg",
     linkKakobuy: "https://ikako.vip/ray2b",
@@ -5791,7 +5335,6 @@ const products = [
   {
     name: "STUSSY SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$2.88",
     image: "https://si.geilicdn.com/open1847561709-1234478995-5eee0000019639653c5d0a8133b0_1276_1276.jpg",
     linkKakobuy: "https://ikako.vip/zeunj",
@@ -5802,7 +5345,6 @@ const products = [
   {
     name: "NIKE BALACLAVA MASK",
     category: "Belts",
-    subcategory: "",
     price: "$5.91",
     image: "https://si.geilicdn.com/pcitem1234071531-67a900000196ce8609650a2303ee_3024_4032.jpg",
     linkKakobuy: "https://ikako.vip/kphat",
@@ -5813,7 +5355,6 @@ const products = [
   {
     name: "CH BOXERS",
     category: "Underwear",
-    subcategory: "",
     price: "$8.78",
     image: "https://si.geilicdn.com/pcitem1234071531-2fc50000019abb2cd8460a23057e-unadjust_1183_1090.png",
     linkKakobuy: "https://ikako.vip/yjccvj",
@@ -5824,7 +5365,6 @@ const products = [
   {
     name: "ESSENTIALS BASIC TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$8.78",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01vFcN1H1qHJXs5FkhP_!!2219381645470-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/jsxej",
@@ -5835,7 +5375,6 @@ const products = [
   {
     name: "ESSENTIALS 1977 TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.39",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01PY2J1h1qHJYzyqmiZ_!!2219381645470-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/p8v3f",
@@ -5846,7 +5385,6 @@ const products = [
   {
     name: "ESSENTIALS 1977 SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$11.98",
     image: "https://media.usfans.com/2026/06/26/140012/b3c435c8-5790-435e-8a82-7fa3f925a0ea.jpg",
     linkKakobuy: "https://ikako.vip/3au5g",
@@ -5857,7 +5395,6 @@ const products = [
   {
     name: "ESSENTIALS METALIC SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$12.78",
     image: "https://media.usfans.com/2026/07/04/175234/e613655d-544c-4342-99b3-7f0319823fcf.jpg",
     linkKakobuy: "https://ikako.vip/7k4pqp",
@@ -5868,7 +5405,6 @@ const products = [
   {
     name: "ESSENTIALS 22SS SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$11.66",
     image: "https://si.geilicdn.com/pcitem2077227601-113a0000019ea6ce7d670a22d1a4_800_800.jpg",
     linkKakobuy: "https://ikako.vip/97u7w",
@@ -5879,7 +5415,6 @@ const products = [
   {
     name: "ESSENTIALS FW23 SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$12.78",
     image: "https://media.usfans.com/2026/05/30/095138/f2a5e65d-c0c1-4cd6-8a49-5281c271982f.jpg",
     linkKakobuy: "https://ikako.vip/2t9sb",
@@ -5890,7 +5425,6 @@ const products = [
   {
     name: "ESSENTIALS 1977 HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$20.77",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01h6khbf1qHJY0gTJYt_!!2219381645470-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/bpdqj",
@@ -5901,7 +5435,6 @@ const products = [
   {
     name: "ESSENTIALS 25AS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$23.16",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01KMVyJc1qHJXnitImg_!!2219381645470-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/ut9d3e",
@@ -5912,7 +5445,6 @@ const products = [
   {
     name: "ESSENTIALS 25SP PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$21.60",
     image: "https://media.usfans.com/2026/06/17/205733/d944fc74-1309-4b9d-9c1a-ee40d680aa3a.jpg",
     linkKakobuy: "https://ikako.vip/gez8d",
@@ -5923,7 +5455,6 @@ const products = [
   {
     name: "ESSENTIALS 22SS PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$17.10",
     image: "https://si.geilicdn.com/pcitem2077227601-4d510000019ea6ce83120a210256-unadjust_800_800.png",
     linkKakobuy: "https://ikako.vip/23mfufd",
@@ -5956,7 +5487,6 @@ const products = [
   {
     name: "PRADA CUPS",
     category: "Shoes",
-    subcategory: "",
     price: "$55.93",
     image: "https://si.geilicdn.com/wdseller1845163825-7af30000019608ea51530a20e284_1080_1082.jpg",
     linkKakobuy: "https://ikako.vip/g35tw",
@@ -5967,7 +5497,6 @@ const products = [
   {
     name: "BOTTEGA VENETTA",
     category: "Shoes",
-    subcategory: "",
     price: "$49.60",
     image: "https://si.geilicdn.com/pcitem1845163825-2e780000019263f44a4b0a22d172_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/vebg3",
@@ -5978,7 +5507,6 @@ const products = [
   {
     name: "BIRKENSTOCK",
     category: "Shoes",
-    subcategory: "",
     price: "$27.20",
     image: "https://si.geilicdn.com/pcitem902046947791-725e0000019d54b43c0f0a231177_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/ra82v",
@@ -5989,7 +5517,6 @@ const products = [
   {
     name: "SAUCONY PROGRID",
     category: "Shoes",
-    subcategory: "",
     price: "$35.16",
     image: "https://si.geilicdn.com/wdseller2074610362-4cb00000019ed1e2a5510a231177_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/syadc",
@@ -6000,7 +5527,6 @@ const products = [
   {
     name: "DIOR B30",
     category: "Shoes",
-    subcategory: "",
     price: "$49.60",
     image: "https://si.geilicdn.com/wdseller1845163825-62fa0000019479242a090a22d58f_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/9qunq",
@@ -6011,7 +5537,6 @@ const products = [
   {
     name: "DIOR B30",
     category: "Shoes",
-    subcategory: "",
     price: "$100.70",
     image: "https://images.stockx.com/360/Dior-B30-Black-Black/Images/Dior-B30-Black-Black/Lv2/img01.jpg?w=480&q=60&dpr=1&updated_at=1786478796&h=320",
     linkKakobuy: "https://ikako.vip/kc7js",
@@ -6022,7 +5547,6 @@ const products = [
   {
     name: "DIOR B22",
     category: "Shoes",
-    subcategory: "",
     price: "$136",
     image: "https://images.stockx.com/360/Dior-B22-Black-Silver/Images/Dior-B22-Black-Silver/Lv2/img01.jpg?w=480&q=60&dpr=1&updated_at=1784730054&h=320",
     linkKakobuy: "https://ikako.vip/xnudu",
@@ -6033,7 +5557,6 @@ const products = [
   {
     name: "DIOR B9",
     category: "Shoes",
-    subcategory: "",
     price: "$95.60",
     image: "https://si.geilicdn.com/wdseller1747999085-779c0000019939c820930a23010f_3024_3029.jpg",
     linkKakobuy: "https://ikako.vip/gn99n",
@@ -6044,7 +5567,6 @@ const products = [
   {
     name: "DIOR B23",
     category: "Shoes",
-    subcategory: "",
     price: "$84.7",
     image: "https://si.geilicdn.com/wdseller500815599-4a4c0000019da9ec089d0a21146b_1170_1172.jpg",
     linkKakobuy: "https://ikako.vip/y7jk6",
@@ -6055,7 +5577,6 @@ const products = [
   {
     name: "SALOMON XT6",
     category: "Shoes",
-    subcategory: "",
     price: "$43.15",
     image: "https://si.geilicdn.com/pcitem1994488306-09d9000001a030d5ecc70a22d1a4_1280_1280.jpg",
     linkKakobuy: "https://ikako.vip/2n9kwh",
@@ -6066,7 +5587,6 @@ const products = [
   {
     name: "RALPH LAUREN SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$19.02",
     image: "https://media.usfans.com/2026/07/02/132200/9f0d4c6f-aa90-4177-b543-1263c48b8a8c.jpg",
     linkKakobuy: "https://ikako.vip/cbaq4",
@@ -6077,7 +5597,6 @@ const products = [
   {
     name: "RALPH LAUREN BEACH SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$15.90",
     image: "https://media.usfans.com/2026/06/26/171829/00da2c2d-5aa0-4ae7-902a-7ab05e9efcb7.jpg",
     linkKakobuy: "https://ikako.vip/ft5gx",
@@ -6088,7 +5607,6 @@ const products = [
   {
     name: "RALPH LAUREN SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$19.02",
     image: "https://media.usfans.com/2026/07/03/143715/0d69b9da-8377-43e8-9538-3409e8ab4453.jpg",
     linkKakobuy: "https://ikako.vip/fy4b4",
@@ -6099,7 +5617,6 @@ const products = [
   {
     name: "STUSSY SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$12.63",
     image: "https://media.usfans.com/2026/06/13/115251/ca8e8f9c-1b76-4c1b-b4c6-84e5ffc17846.jpg",
     linkKakobuy: "https://ikako.vip/rpabw",
@@ -6121,7 +5638,6 @@ const products = [
   {
     name: "NEW BALANCE 2002",
     category: "Shoes",
-    subcategory: "",
     price: "$41.55",
     image: "https://si.geilicdn.com/pcitem1845163825-09610000019726e207370a8133cc_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/rzqp6",
@@ -6132,7 +5648,6 @@ const products = [
   {
     name: "NB 2002 LINK 1",
     category: "Shoes",
-    subcategory: "",
     price: "$35.16",
     image: "https://si.geilicdn.com/pcitem901870080011-1d01000001984d7ed7b50a231316_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/m64kg",
@@ -6143,7 +5658,6 @@ const products = [
   {
     name: "NB 2002 LINK 2",
     category: "Shoes",
-    subcategory: "",
     price: "$35.16",
     image: "https://si.geilicdn.com/pcitem901870080011-5b85000001923f5858ec0a23038e_1074_1074.jpg",
     linkKakobuy: "https://ikako.vip/4t8w5",
@@ -6154,7 +5668,6 @@ const products = [
   {
     name: "VETEMENTS BOMBER",
     category: "Jackets",
-    subcategory: "",
     price: "$109.95",
     image: "https://img.alicdn.com/bao/uploaded/i3/3822597683/O1CN01EC7ZOA26cs5MXT5CG_!!3822597683.jpg",
     linkKakobuy: "https://ikako.vip/yxq2t",
@@ -6165,7 +5678,6 @@ const products = [
   {
     name: "VETEMENTS COKE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$54.18",
     image: "https://img.alicdn.com/bao/uploaded/i3/3822597683/O1CN01YPkVdh26cs41QfXZV_!!3822597683.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D976932161028",
@@ -6176,7 +5688,6 @@ const products = [
   {
     name: "VETEMENTS VITKAC HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$58.65",
     image: "https://img.alicdn.com/bao/uploaded/i1/3822597683/O1CN010hjbvg26cs419JjXR_!!3822597683.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D976943349689",
@@ -6187,7 +5698,6 @@ const products = [
   {
     name: "VETEMENTS RAMMSTEIN HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$61.85",
     image: "https://img.alicdn.com/bao/uploaded/i1/3822597683/O1CN01nYyq1r26crzwyLtmP_!!3822597683.jpg",
     linkKakobuy: "https://ikako.vip/c4j4q",
@@ -6198,7 +5708,6 @@ const products = [
   {
     name: "VETEMENTS POLIZEI HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$54.18",
     image: "https://img.alicdn.com/bao/uploaded/i4/3822597683/O1CN01cUn2Qh26cs40qaXnm_!!3822597683.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D981646426264",
@@ -6209,7 +5718,6 @@ const products = [
   {
     name: "VETEMENTS HOODIE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$63.77",
     image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN01AJ6x5U26crzeZubBw_!!3822597683.jpg",
     linkKakobuy: "https://ikako.vip/52de8",
@@ -6220,7 +5728,6 @@ const products = [
   {
     name: "VETEMENTS TARGET TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$25",
     image: "https://img.alicdn.com/bao/uploaded/i1/3822597683/O1CN01B2HLKe26cs1sCmxok_!!3822597683.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D924990005081",
@@ -6231,7 +5738,6 @@ const products = [
   {
     name: "AMIRI T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$25",
     image: "https://img.alicdn.com/bao/uploaded/i1/2217139011106/O1CN01iIF3T01K2bBWTdRJp_!!2217139011106.jpg_400x400.jpg",
     linkKakobuy: "https://ikako.vip/are34",
@@ -6242,7 +5748,6 @@ const products = [
   {
     name: "NUMBERNINE SKULL TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.07",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN018N6JOA2IpUKo1WJI6_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/47358",
@@ -6253,7 +5758,6 @@ const products = [
   {
     name: "NB 9060 LINK2",
     category: "Shoes",
-    subcategory: "",
     price: "$28.5",
     image: "https://si.geilicdn.com/pcitem901870080011-55f900000197d72db9a40a81347d_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/ebfnb",
@@ -6264,7 +5768,6 @@ const products = [
   {
     name: "NEW BALANCE 240",
     category: "Shoes",
-    subcategory: "",
     price: "$28.5",
     image: "https://si.geilicdn.com/pcitem901931162197-04500000019a7f8834af0a231177_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/bf4j2",
@@ -6275,7 +5778,6 @@ const products = [
   {
     name: "STUSSY T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$7.80",
     image: "https://media.usfans.com/2026/08/08/131857/ec63aa36-3789-4a81-a5a4-b2d3c87fc7d5.jpg",
     linkKakobuy: "https://ikako.vip/t6m66",
@@ -6286,7 +5788,6 @@ const products = [
   {
     name: "LOVELAST TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.39",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01GqdGYY2IpUH9AlK85_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/sud3k",
@@ -6308,7 +5809,6 @@ const products = [
   {
     name: "ALEXANDER WANG TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$25.76",
     image: "https://img.alicdn.com/bao/uploaded/i4/2380236052/O1CN01Q49LVu1uZs7R0ALE7_!!2380236052.jpg",
     linkKakobuy: "https://usfans.com/product/2/Tgijc9ANSfG1SRs7Tp0Wy4t6bKUepdTXVXxhpA1r9klwmICEtcpBN_Q?ref=TX9V9N",
@@ -6319,7 +5819,6 @@ const products = [
   {
     name: "ALEXANDER WANG TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$25.76",
     image: "https://img.alicdn.com/bao/uploaded/i3/2380236052/O1CN01oxQh9y1uZs7lvtjDh_!!2380236052.jpg",
     linkKakobuy: "https://usfans.com/product/2/RvxSNVjCqoBRrBFE66ZZwx-dIRoLF3tnVU4tOBQcXKQCoEJVdhp0_pE?ref=TX9V9N",
@@ -6330,7 +5829,6 @@ const products = [
   {
     name: "BALENCIAGA BEBE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.03",
     image: "https://si.geilicdn.com/wdseller1846720803-034d00000198a3c3211b0a210256_1179_1959.jpg",
     linkKakobuy: "https://ikako.vip/vxzdb",
@@ -6341,7 +5839,6 @@ const products = [
   {
     name: "RICK OWENS SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$29.18",
     image: "https://si.geilicdn.com/wdseller1846720803-4641000001900536e4be0a23959c_640_640.jpg",
     linkKakobuy: "https://ikako.vip/smdud",
@@ -6363,7 +5860,6 @@ const products = [
   {
     name: "RL SOCKS (3 PAIR)",
     category: "Underwear",
-    subcategory: "",
     price: "$5.71",
     image: "https://si.geilicdn.com/open1847561709-1234478995-63430000019639937a5e0a23b491_1280_1280.jpg",
     linkKakobuy: "https://ikako.vip/fyrwk",
@@ -6374,7 +5870,6 @@ const products = [
   {
     name: "PALACE SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$1.96",
     image: "https://img.alicdn.com/bao/uploaded/i4/3548429741/O1CN018P1etH2LpQxQff7DG_!!3548429741.jpg",
     linkKakobuy: "https://usfans.com/product/2/d17SSF0QRHb2uNdiUFrNa9pB8nJ36_iCdkXbpamA9bj_IV5DvW9sWg?ref=TX9V9N",
@@ -6385,10 +5880,8 @@ const products = [
   {
     name: "HELLSTAR SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$3.25",
     image: "https://img.alicdn.com/bao/uploaded/i3/65389438/O1CN013E0TrA2Jaf95kM4G5_!!65389438.jpg",
-    linkKakobuy: "",
     linkUsfans: "https://usfans.com/product/2/PyFZ8q0-Nlr2izvuoYcBtYmS6B1B0ageQebsIZ8jdO-qm1N6eZmEZA?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 4
@@ -6396,10 +5889,8 @@ const products = [
   {
     name: "CHROME HEARTS SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$4.88",
     image: "https://si.geilicdn.com/pcitem901541691039-6a5300000178cf24fbcd0a21c2a7_800_800.jpg",
-    linkKakobuy: "",
     linkUsfans: "https://usfans.com/product/3/7615886986?ref=TX9V9N",
     tag: "BAYMAXSOCKS",
     rating: 4
@@ -6407,7 +5898,6 @@ const products = [
   {
     name: "RICK OWENS ABSTRACT",
     category: "Shoes",
-    subcategory: "",
     price: "$79.11",
     image: "https://img.alicdn.com/bao/uploaded/i4/2073165527/O1CN01A4XoJT1qhPxIMyFEf_!!2073165527.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D750496442528",
@@ -6418,7 +5908,6 @@ const products = [
   {
     name: "RICK OWENS VANS",
     category: "Shoes",
-    subcategory: "",
     price: "$56.89",
     image: "https://img.alicdn.com/bao/uploaded/i3/2073165527/O1CN01tc3z221qhPwJH7aLk_!!2073165527.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D742716692574",
@@ -6429,10 +5918,8 @@ const products = [
   {
     name: "UNDERCOVER TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.25",
     image: "https://img.alicdn.com/bao/uploaded/i4/2652892586/O1CN017MSIGW1UyRMjfjrDX_!!2652892586.jpg",
-    linkKakobuy: "",
     linkUsfans: "https://usfans.com/product/2/UShfJHH7oAK2rEIE41jM71Ts7Un9k8vwGBK9osv7cjlyWrY8HPYVPQ?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
@@ -6440,7 +5927,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR GUITAR TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$26",
     image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01lIZ3qs1RR3d7Me3XK~crop,160,0,960,1280~_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1014216575746",
@@ -6451,10 +5937,8 @@ const products = [
   {
     name: "BALENCIAGA X UA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$24.13",
     image: "https://si.geilicdn.com/wdseller1405292126-3a04000001978dce998a0a2102b1_1290_1197.jpg",
-    linkKakobuy: "",
     linkUsfans: "https://usfans.com/product/3/7786198628?ref=TX9V9N",
     tag: "SQUIRTLE",
     rating: 5
@@ -6473,7 +5957,6 @@ const products = [
   {
     name: "CHROME HEARTS SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$30.65",
     image: "https://si.geilicdn.com/wdseller1405292126-4219000001992e33a1290a20e273_1290_1223.jpg",
     linkKakobuy: "https://ikako.vip/9paad",
@@ -6484,7 +5967,6 @@ const products = [
   {
     name: "BALENCIAGA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$22.50",
     image: "https://si.geilicdn.com/wdseller1405292126-77ba00000193c4d808390a23047e_1290_1219.jpg",
     linkKakobuy: "https://ikako.vip/9nkuj",
@@ -6506,7 +5988,6 @@ const products = [
   {
     name: "VINTAGE CH HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$51",
     image: "https://si.geilicdn.com/pcitem2008188646-21c00000019b738810f80a23057e_1200_1600.jpg",
     linkKakobuy: "https://ikako.vip/eqd7r",
@@ -6517,7 +5998,6 @@ const products = [
   {
     name: "VALLEY DREAMS HOODIES",
     category: "Hoodies",
-    subcategory: "",
     price: "$24.13",
     image: "https://img.alicdn.com/bao/uploaded/i3/2075710764/O1CN01eqUFCc1HVxgw5RfJz_!!2075710764.jpg",
     linkKakobuy: "https://ikako.vip/5nqwp",
@@ -6528,7 +6008,6 @@ const products = [
   {
     name: "KAPITEL SURF HOODIES",
     category: "Hoodies",
-    subcategory: "",
     price: "$48.75",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01AmRE3y1CUylvX2gwT_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D997841588094",
@@ -6539,7 +6018,6 @@ const products = [
   {
     name: "NUMBER NINE MICKEY HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$40.43",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01R6ASXf1CUykxlROaZ_!!2025450085.jpg",
     linkKakobuy: "https://ikako.vip/cpkex",
@@ -6575,7 +6053,6 @@ const products = [
     subcategory: "backpacks",
     price: "$65",
     image: "https://img.alicdn.com/bao/uploaded/i1/2702114446/O1CN01mrcgiR1iiJwfboOsB_!!2702114446.jpg",
-    linkKakobuy: "",
     linkUsfans: "https://usfans.com/product/2/rc-ZM3IvF86JpqxNJjr27A18EDCjDNksqv_YQ4r-_lExO1AT_PyUBw?ref=TX9V9N",
     tag: "LUFU",
     rating: 5
@@ -6586,7 +6063,6 @@ const products = [
     subcategory: "backpacks",
     price: "$27.60",
     image: "https://media.usfans.com/2026/07/12/174444/c061b271-e2f4-4a38-af4a-77a6c736cbd6.jpg",
-    linkKakobuy: "",
     linkUsfans: "https://usfans.com/product/2/HFOTg0uzbd-H9mtSSofdwKyxrStX2BymygYJe4JqEKOVbp1U7KE1Tg?ref=TX9V9N",
     tag: "LUFU",
     rating: 5
@@ -6605,7 +6081,6 @@ const products = [
   {
     name: "COUGH SYRUP TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.50",
     image: "https://img.alicdn.com/bao/uploaded/i4/2214138141153/O1CN01yHxiLt1KO7f5Wgt3B_!!2214138141153.jpg",
     linkKakobuy: "https://usfans.com/product/2/T_dLPYyWf6bP4dNUDseZrRaqFr2wuPZZHYVwQ97XIOUowiehu4s0gg?ref=TX9V9N",
@@ -6616,7 +6091,6 @@ const products = [
   {
     name: "SATOSHI NAKAMOTO T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$13",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01vdIfFA2DYw2DU92V3_!!2210892998622-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/zctn7",
@@ -6627,7 +6101,6 @@ const products = [
   {
     name: "BLEOOD MERCH TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.91",
     image: "https://img.alicdn.com/bao/uploaded/i1/2212643669335/O1CN01DrxRvd2IpUQDbpEUV_!!2212643669335.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1060317973960",
@@ -6638,7 +6111,6 @@ const products = [
   {
     name: "NE NE CAT TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.48",
     image: "https://img.alicdn.com/bao/uploaded/i3/3965754257/O1CN01ZhzNMn1hJkjaj2ias_!!3965754257.jpg",
     linkKakobuy: "https://usfans.com/product/2/4f6Cyc9fxtucAMssp9H849AO-X25qcn89SY7zwvOn44vDXDQI-1OSQ?ref=TX9V9N",
@@ -6649,7 +6121,6 @@ const products = [
   {
     name: "PROJECT GR TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$8.70",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01z7BHxU1nsSpaQz8Pf_!!2215853495145-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/uqkzuz",
@@ -6671,7 +6142,6 @@ const products = [
   {
     name: "RANDOM DENIM SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$14.36",
     image: "https://img.alicdn.com/bao/uploaded/i3/2212336833369/O1CN01A220WO1al3Jl7BKA9_!!2212336833369.jpg",
     linkKakobuy: "https://usfans.com/product/2/MIS25rkHkrMuoFc6tBU9MM3C1e5IIH_wQ249k0lPYU_zK9Nsm-DCpA?ref=TX9V9N",
@@ -6682,7 +6152,6 @@ const products = [
   {
     name: "RANDOM FLARED JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$19.58",
     image: "https://img.alicdn.com/bao/uploaded/i3/2212336833369/O1CN018q00CO1al3R2ZbvbO_!!2212336833369.jpg",
     linkKakobuy: "https://usfans.com/product/2/UimTYS-yTE7Fekqmxhj-lef-EJw_flpb-9wBw2yLPGE1Gn9iTg0vHQ?ref=TX9V9N",
@@ -6693,7 +6162,6 @@ const products = [
   {
     name: "RANDOM LOOSE FIT PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$17.13",
     image: "https://img.alicdn.com/bao/uploaded/i2/2212336833369/O1CN01mhltm71al3RCj1l2I_!!2212336833369.jpg",
     linkKakobuy: "https://usfans.com/product/2/91NPilR7T6VYFcRLEkzCvT8Hitl8vW6wUWHLcZ1T53BOF68Ceatl5Q?ref=TX9V9N",
@@ -6704,7 +6172,6 @@ const products = [
   {
     name: "SAINT HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$30.20",
     image: "https://img.alicdn.com/bao/uploaded/i2/2247438892/O1CN01oJw7LL2FYabKfGBk0_!!2247438892.jpg",
     linkKakobuy: "https://usfans.com/product/2/Ymoql3RXWc5_GfdEy5e4oxHxOD6jufaBT2dIoEvFTHejKF12oxKlAg?ref=TX9V9N",
@@ -6737,7 +6204,6 @@ const products = [
   {
     name: "YUNG LEAN HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$16",
     image: "https://img.alicdn.com/bao/uploaded/i2/2218252751209/O1CN0158hGvr1KnlpwDc2wd_!!2218252751209.jpg",
     linkKakobuy: "https://ikako.vip/qjbsu",
@@ -6748,7 +6214,6 @@ const products = [
   {
     name: "BEAUTY BEAST HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$55",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01BKn7T21CUylkAXTqU_!!2025450085.jpg",
     linkKakobuy: "https://ikako.vip/4m4qw",
@@ -6759,7 +6224,6 @@ const products = [
   {
     name: "AF1",
     category: "Shoes",
-    subcategory: "",
     price: "$16.32",
     image: "https://si.geilicdn.com/pcitem1994488306-15000000019ac0f88fb60a23057e_1440_1440.jpg",
     linkKakobuy: "https://ikako.vip/y6dtn",
@@ -6770,7 +6234,6 @@ const products = [
   {
     name: "CRYSTAL CASTLES TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21",
     image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01m8fqdg1gquDjljkZ0_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1017303562861",
@@ -6781,7 +6244,6 @@ const products = [
   {
     name: "VIVIENE WESTWOOD TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$24.20",
     image: "https://si.geilicdn.com/wdseller2075092115-75cc0000019f54d4c1060a231177_1170_1560.jpg",
     linkKakobuy: "https://ikako.vip/kv4pz",
@@ -6814,7 +6276,6 @@ const products = [
   {
     name: "SLP SHOES",
     category: "Shoes",
-    subcategory: "",
     price: "$91.40",
     image: "https://si.geilicdn.com/wdseller901910887734-25820000019c19f5d6b20a23111a_1290_968.jpg",
     linkKakobuy: "https://ikako.vip/ptxkc",
@@ -6825,7 +6286,6 @@ const products = [
   {
     name: "NUMBER NINE HOODIE (DOUBLE SKULL)",
     category: "Hoodies",
-    subcategory: "",
     price: "$43.80",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01liB29o1CUykxPNFe1_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D977377534654",
@@ -6836,7 +6296,6 @@ const products = [
   {
     name: "IG BRAND HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$32.50",
     image: "https://si.geilicdn.com/wdseller1995625455-77e80000019c27af1c190a2301f1_1320_1760.jpg",
     linkKakobuy: "https://ikako.vip/sfz6m",
@@ -6869,7 +6328,6 @@ const products = [
   {
     name: "CHERRY BLOSSOM TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.55",
     image: "https://si.geilicdn.com/wdseller1995625455-6d170000019f744b27960a23c1e0_4284_4287.jpg",
     linkKakobuy: "https://ikako.vip/6djzr",
@@ -6880,7 +6338,6 @@ const products = [
   {
     name: "CYBERDOG TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$25.60",
     image: "https://img.alicdn.com/bao/uploaded/i4/2220014592646/O1CN01imuU6l1VPv8W8WYl4_!!2220014592646.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1059536456241",
@@ -6935,7 +6392,6 @@ const products = [
   {
     name: "SPIDER WEB PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$46.60",
     image: "https://img.alicdn.com/bao/uploaded/i3/2209619269329/O1CN01ElxQR82Imk11mTIp7_!!2209619269329.jpg",
     linkKakobuy: "https://ikako.vip/mvxra",
@@ -6946,7 +6402,6 @@ const products = [
   {
     name: "GIVENCHY TYSON",
     category: "Shoes",
-    subcategory: "",
     price: "$147",
     image: "https://si.geilicdn.com/wdseller902014648568-1c780000019deb3cfb5e0a20e7c7_1290_1290.jpg",
     linkKakobuy: "https://ikako.vip/43p5m",
@@ -6957,7 +6412,6 @@ const products = [
   {
     name: "CHROME HEARTS X CONVERSE",
     category: "Shoes",
-    subcategory: "",
     price: "$106",
     image: "https://si.geilicdn.com/wdseller1748043198-76d40000019def57435f0a22d1a4_1206_1608.jpg",
     linkKakobuy: "https://ikako.vip/mfdvv",
@@ -6968,7 +6422,6 @@ const products = [
   {
     name: "CHROME HEARTS SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$2.05",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01tFynI41RHRGOhgt6Z_!!2220176752086-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/m9cngd",
@@ -6979,7 +6432,6 @@ const products = [
   {
     name: "MCQUEEN SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$2.29",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01yEB5eQ1RHRIAoI1R2_!!2220176752086-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/7zhxg",
@@ -6990,7 +6442,6 @@ const products = [
   {
     name: "RANDOM JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$18.81",
     image: "https://img.alicdn.com/bao/uploaded/i4/474977443/O1CN01MZI3mF24qwy0rF6Kx_!!474977443.jpg",
     linkKakobuy: "https://ikako.vip/68fsc",
@@ -7001,7 +6452,6 @@ const products = [
   {
     name: "GLOGANG TSHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$14",
     image: "https://media.usfans.com/2026/07/02/133427/a6edce1d-568d-4cb3-8e67-ddd127b7596c.jpg",
     linkKakobuy: "https://ikako.vip/fbx53c",
@@ -7012,7 +6462,6 @@ const products = [
   {
     name: "SAINT MICHAEL ITEMS",
     category: "Hoodies",
-    subcategory: "",
     price: "$19.15",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01y0uVM02A5DIxeSNQl_!!2218164908151-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/p6xcd",
@@ -7023,7 +6472,6 @@ const products = [
   {
     name: "YEEZY GAP HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$21.61",
     image: "https://media.usfans.com/2026/07/30/185507/7f926ffa-afe2-4997-887f-868a60132f3b.jpg",
     linkKakobuy: "https://ikako.vip/de5tf",
@@ -7034,7 +6482,6 @@ const products = [
   {
     name: "CB SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$18.82",
     image: "https://kk-oss-wh-hk.kakobuy.com/whg/202607/29/efa94021006d9871720b1bd65699d7bd.jpg",
     linkKakobuy: "https://ikako.vip/8tbs5",
@@ -7045,7 +6492,6 @@ const products = [
   {
     name: "KAPPA TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.82",
     image: "https://si.geilicdn.com/pcitem901965113164-659800000197bfef48470a2102c5-unadjust_1200_1200.png",
     linkKakobuy: "https://ikako.vip/kxkss",
@@ -7056,7 +6502,6 @@ const products = [
   {
     name: "RHUDE SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$10.15",
     image: "https://media.usfans.com/2026/07/28/170044/213431d6-f7cf-4270-8c76-5fea266e4514.jpg",
     linkKakobuy: "https://ikako.vip/zd9nd",
@@ -7067,7 +6512,6 @@ const products = [
   {
     name: "GODSPEED TSHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$8.68",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01N5Byfa1cfDcj0Zkan_!!2220822963627-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/x2qb9",
@@ -7078,7 +6522,6 @@ const products = [
   {
     name: "FLEXX FANTASIES HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$29.29",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN01q8tcHF2IpUN6xdm7F_!!2212643669335.jpg",
     linkKakobuy: "https://ikako.vip/xghnk",
@@ -7089,7 +6532,6 @@ const products = [
   {
     name: "MARGIELA T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.64",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01ZUWoYf2C3xKuz90t2_!!2206818368419-0-cib.jpg",
     linkKakobuy: "https://ikako.vip/an2k3",
@@ -7100,7 +6542,6 @@ const products = [
   {
     name: "Margiela Future",
     category: "Shoes",
-    subcategory: "",
     price: "$103",
     image: "https://si.geilicdn.com/wdseller901910887734-2df00000019b65296bde0a23041a_1536_1536.jpg",
     linkKakobuy: "https://ikako.vip/fkxmb",
@@ -7111,7 +6552,6 @@ const products = [
   {
     name: "ARMANI TSHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$7.37",
     image: "https://media.usfans.com/2026/08/01/183736/c23a1f4b-46c6-49d9-a8a6-7f18e2970e07.jpg",
     linkKakobuy: "https://ikako.vip/rmgg5",
@@ -7122,7 +6562,6 @@ const products = [
   {
     name: "DAVIS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.65",
     image: "https://si.geilicdn.com/wdseller1940384309-0d1c0000019ab6df51ed0a2304a0_1320_1320.jpg",
     linkKakobuy: "https://ikako.vip/xvj77y",
@@ -7133,7 +6572,6 @@ const products = [
   {
     name: "CELINE LEOPARD HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$43.48",
     image: "https://media.usfans.com/2026/07/06/142521/1a99fe46-a4b4-4026-ada1-3a29513278ee.jpg",
     linkKakobuy: "https://ikako.vip/tar4e",
@@ -7144,7 +6582,6 @@ const products = [
   {
     name: "NIKE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$7.22",
     image: "https://si.geilicdn.com/pcitem706980371-0ffd00000178631d9f650a21c2a8-unadjust_653_651.png",
     linkKakobuy: "https://usfans.com/product/3/4330697574?ref=TX9V9N",
@@ -7155,7 +6592,6 @@ const products = [
   {
     name: "NIKE SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$12.03",
     image: "https://si.geilicdn.com/pcitem706980371-20f40000016c374af6f30a217205_662_659.jpg",
     linkKakobuy: "https://usfans.com/product/3/2897688465?ref=TX9V9N",
@@ -7166,7 +6602,6 @@ const products = [
   {
     name: "NIKE SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$12.83",
     image: "https://media.usfans.com/2026/07/08/115818/59059c2a-adef-40ae-b60e-6685b217c26e.jpg",
     linkKakobuy: "https://usfans.com/product/3/7460410141?ref=TX9V9N",
@@ -7188,7 +6623,6 @@ const products = [
   {
     name: "NIKE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$15.24",
     image: "https://si.geilicdn.com/pcitem706980371-111d0000017bb49873530a20e273-unadjust_764_752.png",
     linkKakobuy: "https://usfans.com/product/3/4416194209?ref=TX9V9N",
@@ -7199,7 +6633,6 @@ const products = [
   {
     name: "NIKE PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$13.63",
     image: "https://si.geilicdn.com/pcitem706980371-222900000175c4fb8f0b0a20b7b9-unadjust_677_708.png",
     linkKakobuy: "https://usfans.com/product/3/4155451033?ref=TX9V9N",
@@ -7210,7 +6643,6 @@ const products = [
   {
     name: "JORDAN TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.62",
     image: "https://si.geilicdn.com/pcitem706980371-5626000001805a104b080a22d3fa-unadjust_595_572.png",
     linkKakobuy: "https://usfans.com/product/3/4732348767?ref=TX9V9N",
@@ -7221,7 +6653,6 @@ const products = [
   {
     name: "ALO SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$15.08",
     image: "https://si.geilicdn.com/wdseller1489596767-5bd600000193dd2462910a20e2c5_1024_1024.jpg",
     linkKakobuy: "https://usfans.com/product/3/7326662149?ref=TX9V9N",
@@ -7232,7 +6663,6 @@ const products = [
   {
     name: "ALO TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.55",
     image: "https://si.geilicdn.com/wdseller1489596767-3b2800000195d4e08b9d0a2304aa_800_800.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7433632753%3Fref%3DTX9V9N",
@@ -7243,7 +6673,6 @@ const products = [
   {
     name: "ALO HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$26.14",
     image: "https://media.usfans.com/2026/07/16/184953/742697b4-d253-4345-be3f-ba628da0c5e1.jpg",
     linkKakobuy: "https://usfans.com/product/3/3649172715?ref=TX9V9N",
@@ -7254,7 +6683,6 @@ const products = [
   {
     name: "YEEZY 350",
     category: "Shoes",
-    subcategory: "",
     price: "$21.11",
     image: "https://si.geilicdn.com/pcitem1425026222-17bb00000195d1930e560a23111a-unadjust_539_356.png",
     linkKakobuy: "https://usfans.com/product/3/7614226321?ref=TX9V9N",
@@ -7276,7 +6704,6 @@ const products = [
   {
     name: "NUMBER NINE HOODIE (HONGSHENG)",
     category: "Hoodies",
-    subcategory: "",
     price: "$40.60",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01A4YzBk1CUylGL6DKt_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984697380403",
@@ -7287,7 +6714,6 @@ const products = [
   {
     name: "NUMBER NINE LAMBRETTA GREY",
     category: "Hoodies",
-    subcategory: "",
     price: "$40.60",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01esCYiy1CUyl9tyjkg_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D984708856733",
@@ -7298,7 +6724,6 @@ const products = [
   {
     name: "NUMBER NINE SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$30.78",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01em97yL1CUynydaJ1y_!!2025450085.png",
     linkKakobuy: "https://usfans.com/product/2/wXii5y3AOfojQPMwVflVKOk34yrBwQU2s0QWXM8bvZwVWVwJG2VtmE0?ref=TX9V9N",
@@ -7320,7 +6745,6 @@ const products = [
   {
     name: "NUMBER NINE 'FOREIGN MAN'",
     category: "Tshirts",
-    subcategory: "",
     price: "$24.23",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01lKBSmK1CUyo0Hcptf_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1049432215554",
@@ -7331,7 +6755,6 @@ const products = [
   {
     name: "NUMBER NINE TEE #2",
     category: "Tshirts",
-    subcategory: "",
     price: "$20.96",
     image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01qbCWc01CUyo0L5lXU~crop,39,0,1172,1563~_!!2025450085.jpg",
     linkKakobuy: "https://item.taobao.com/item.htm?id=1052037176142",
@@ -7342,7 +6765,6 @@ const products = [
   {
     name: "NUMBER NINE 'BLEEDING METAL HEART'",
     category: "Tshirts",
-    subcategory: "",
     price: "$25.87",
     image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01IMI6GB1CUynZXDDBt~crop,19,0,1131,1131~_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1041556541300",
@@ -7353,7 +6775,6 @@ const products = [
   {
     name: "NN SHIELD SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$43.88",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01qQdARU1CUylKkkEJW_!!2025450085.jpg",
     linkKakobuy: "https://usfans.com/product/2/o8fyXRsMal-9i6jM0FaLmrhSXulcwTQbdLmZS_D-6c-09Q6puHjdaQ?ref=TX9V9N",
@@ -7364,7 +6785,6 @@ const products = [
   {
     name: "NUMBER NINE ROLLING STONES",
     category: "Tshirts",
-    subcategory: "",
     price: "$24.33",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN013BbJcN1CUyoBk6hvI~crop,128,86,953,1270~_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1053340774823",
@@ -7375,7 +6795,6 @@ const products = [
   {
     name: "BEAUTY BEAST TINK HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$55.34",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01Tnf4LF1CUymooE5UP_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D991296281095",
@@ -7386,7 +6805,6 @@ const products = [
   {
     name: "NUMBER NINE GOTHAM CITY (HONGSHENG)",
     category: "Tshirts",
-    subcategory: "",
     price: "$22.60",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01OAH7OR1CUyo0TSIIZ_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1049398623576",
@@ -7397,7 +6815,6 @@ const products = [
   {
     name: "NUMBER NINE VANDALISM TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$25.89",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01brCDkx1CUynZE9dsJ~crop,0,15,1163,1550~_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1041866305669",
@@ -7408,7 +6825,6 @@ const products = [
   {
     name: "RANDOM BAGGY JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$10.16",
     image: "https://kk-oss-wh-hk.kakobuy.com/whg/202608/08/836f9c4d198ce34ea238a544375920fd.jpg",
     linkKakobuy: "https://usfans.com/product/1/721399386912?ref=TX9V9N",
@@ -7419,7 +6835,6 @@ const products = [
   {
     name: "BUDGET SHORT JEANS",
     category: "Shorts",
-    subcategory: "",
     price: "$9.60",
     image: "https://kk-oss-wh-hk.kakobuy.com/whg/202608/04/ac57960f2266b9eb5f4b0d659bbd710c.jpg",
     linkKakobuy: "https://usfans.com/product/1/715119132747?ref=TX9V9N",
@@ -7430,7 +6845,6 @@ const products = [
   {
     name: "FLARED JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$11.80",
     image: "https://kako-alosshk-pic.lucklybuy.com/whg/202512/10/694c9d81d8631d7432c1bafbc255974f.jpg",
     linkKakobuy: "https://usfans.com/product/1/743752498961?ref=TX9V9N",
@@ -7441,7 +6855,6 @@ const products = [
   {
     name: "FORGET ME HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$29.33",
     image: "https://media.usfans.com/2026/08/07/151502/d8c84cc0-909c-4afb-af68-dcff53642b2d.jpg",
     linkKakobuy: "https://usfans.com/product/3/7790508049?ref=TX9V9N",
@@ -7518,7 +6931,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR NOTE JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$55.53",
     image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01m8a4581RR3bghFoFu_!!2126072107.jpg",
     linkKakobuy: "https://usfans.com/product/2/zKtNSLKGNsqqomkhRmNkSXCgJFsV9oc-aVEqxJanhBz4u8gkxJv3Hw?ref=TX9V9N",
@@ -7529,7 +6941,6 @@ const products = [
   {
     name: "HYSTERIC SMOKING GIRL TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$26.05",
     image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01L8NaLW1RR3dYUTkP1_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1029156277376",
@@ -7562,7 +6973,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR FLAG BEAR",
     category: "Tshirts",
-    subcategory: "",
     price: "$24.42",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01Hx6B8y1RR3eyZOUxR_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1040922820684",
@@ -7573,7 +6983,6 @@ const products = [
   {
     name: "HELMUT LANG TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$37.53",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01si59D01RR3fJi9fIy_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1063078399076",
@@ -7584,7 +6993,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$47.40",
     image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01bNnfGe1RR3cXqqcXW~crop,152,0,865,1154~_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D969485946389",
@@ -7595,7 +7003,6 @@ const products = [
   {
     name: "BEAUTY BEAST SAILOR MOON TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$35.90",
     image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01x2gDaw1RR3eraQtwa_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1053246456361",
@@ -7606,7 +7013,6 @@ const products = [
   {
     name: "BEAUTY BEAST TINK TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$44.07",
     image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01CoYuQh1RR3dIdbSdz_!!2126072107.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1016486372795",
@@ -7639,7 +7045,6 @@ const products = [
   {
     name: "HYSTERIC TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.14",
     image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01GDZj981RR3dfW3LwB_!!2126072107.heic",
     linkKakobuy: "https://usfans.com/product/2/afwJw4h5ssxawR1uxxtE-5ehM670F9z75FB2TcUiod73IuW9tCWDJ0E?ref=TX9V9N",
@@ -7650,7 +7055,6 @@ const products = [
   {
     name: "NUMBER NINE PAIN TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$26.05",
     image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN016bo8T11RR3eSW7iY5_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1051366086621",
@@ -7661,7 +7065,6 @@ const products = [
   {
     name: "NN YOU KNOW YOU RIGHT",
     category: "Tshirts",
-    subcategory: "",
     price: "$26.05",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01AdmAyU1RR3ef14VkY_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1054639494129",
@@ -7672,7 +7075,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR BLITZKRIEG",
     category: "Tshirts",
-    subcategory: "",
     price: "$22.79",
     image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN011zjAcG1RR3e4aqAV9_!!2126072107.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1045741596551",
@@ -7694,7 +7096,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR OASIS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$26.05",
     image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01zuYKkg1RR3eSkCjFW_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1053244864074",
@@ -7705,7 +7106,6 @@ const products = [
   {
     name: "HYSTERIC BEAR HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$47.36",
     image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01Txm31Y1RR3cSnEPWs_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D998807955538",
@@ -7727,7 +7127,6 @@ const products = [
   {
     name: "RICK OWENS VANS (2PAC)",
     category: "Shoes",
-    subcategory: "",
     price: "$125.90",
     image: "https://si.geilicdn.com/pcitem1727599812-52cd0000018c25d6edf10a231179_1279_1486.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6561387515",
@@ -7738,7 +7137,6 @@ const products = [
   {
     name: "CALVIN KLEIN BOXERS",
     category: "Underwear",
-    subcategory: "",
     price: "$5.50",
     image: "https://media.usfans.com/2026/08/10/132818/2a053a17-ca1d-48ed-872c-c7ae335dcf7d.jpg",
     linkKakobuy: "https://usfans.com/product/1/996598139208?ref=TX9V9N",
@@ -7749,7 +7147,6 @@ const products = [
   {
     name: "ED HARDY JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$34.10",
     image: "https://img.alicdn.com/bao/uploaded/i1/2479034848/O1CN01tPFgT21lgRC1K3Vq1_!!2479034848.jpg",
     linkKakobuy: "https://usfans.com/product/2/eHTh_3rHnt53lX8Db48estsNNq3jFxUyaUcB9vVp_sz0IjnTJoQiaQ?ref=TX9V9N",
@@ -7760,7 +7157,6 @@ const products = [
   {
     name: "UNDERCOVER JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$39.18",
     image: "https://img.alicdn.com/bao/uploaded/i1/3926619803/O1CN01rY2odV2MHpmHOAoPQ_!!3926619803.jpg",
     linkKakobuy: "https://usfans.com/product/2/mPQQLI01LJ_YqIvIhcj3tnOnKcbW3XK_ETz-ypJqV1orwG8bSP1MY5U?ref=TX9V9N",
@@ -7771,7 +7167,6 @@ const products = [
   {
     name: "VETEMENTS ZURICH ANTWERPEN TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$27.54",
     image: "https://img.alicdn.com/bao/uploaded/i2/3822597683/O1CN01VSwsi126cs7vgm1B6_!!3822597683.webp",
     linkKakobuy: "https://usfans.com/product/2/vXnufMRY36yz4CWGSe23Ul2-UhCIPZx3os_43vuzZ-Std7AOnqAxAHI?ref=TX9V9N",
@@ -7782,7 +7177,6 @@ const products = [
   {
     name: "JUNYA WATANNABE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$24.43",
     image: "https://si.geilicdn.com/wdseller2087598183-3db90000019f603f93de0a20e284_768_960.jpg",
     linkKakobuy: "https://usfans.com/product/3/7809371138?ref=TX9V9N",
@@ -7793,7 +7187,6 @@ const products = [
   {
     name: "MARGIELA GATS",
     category: "Shoes",
-    subcategory: "",
     price: "$59.01",
     image: "https://si.geilicdn.com/wdseller1505219366-1a0100000199075dd9d20a2303ee_1184_1184.jpg",
     linkKakobuy: "https://ikako.vip/yvvktz",
@@ -7815,7 +7208,6 @@ const products = [
   {
     name: "KOBE 6,8,9",
     category: "Shoes",
-    subcategory: "",
     price: "$63.93",
     image: "https://si.geilicdn.com/open1733523732-1234478995-5f31000001937e800af50a210559_1179_884.jpg",
     linkKakobuy: "https://ikako.vip/ykdwts",
@@ -7826,7 +7218,6 @@ const products = [
   {
     name: "NIKE VOMERO 5",
     category: "Shoes",
-    subcategory: "",
     price: "$36.06",
     image: "https://si.geilicdn.com/wdseller1745861162-08a30000019d204531790a8132bd_1206_1207.jpg",
     linkKakobuy: "https://ikako.vip/z6yfs",
@@ -7837,7 +7228,6 @@ const products = [
   {
     name: "NIKE ZOOM FLY 6",
     category: "Shoes",
-    subcategory: "",
     price: "$40.89",
     image: "https://si.geilicdn.com/wdseller1505219366-3fa6000001955e3244720a230215_1080_1080.jpg",
     linkKakobuy: "https://ikako.vip/fccrs",
@@ -7848,7 +7238,6 @@ const products = [
   {
     name: "NIKE P6000",
     category: "Shoes",
-    subcategory: "",
     price: "$36.06",
     image: "https://si.geilicdn.com/wdseller1745861162-71d80000019ac0a1dbf60a207569_1179_1180.jpg",
     linkKakobuy: "https://ikako.vip/7ry92",
@@ -7870,7 +7259,6 @@ const products = [
   {
     name: "YSL TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.94",
     image: "https://img.alicdn.com/bao/uploaded/i4/2222264012868/O1CN01C5JnBJ1X3b3ldKNdT_!!2222264012868.jpg",
     linkKakobuy: "https://usfans.com/product/2/SPrQntyUkYPt-3KgqqtT6N6tvS-rTmNYm8xL6JQHYfkNesptOtYR4Gc?ref=TX9V9N",
@@ -7892,7 +7280,6 @@ const products = [
   {
     name: "VESCARTES ONI HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$60.48",
     image: "https://si.geilicdn.com/wdseller1995625455-6ec20000019f4195fb370a230417_3025_3026.jpg",
     linkKakobuy: "https://usfans.com/product/3/7803167673?ref=TX9V9N",
@@ -7903,7 +7290,6 @@ const products = [
   {
     name: "VESCARTES CHURCH JACKET",
     category: "Jackets",
-    subcategory: "",
     price: "$47.37",
     image: "https://si.geilicdn.com/wdseller1995625455-62730000019bd504712b0a23138d_1290_1720.jpg",
     linkKakobuy: "https://usfans.com/product/3/7665557479?ref=TX9V9N",
@@ -7914,7 +7300,6 @@ const products = [
   {
     name: "NOTE TREE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$30.89",
     image: "https://si.geilicdn.com/wdseller1995625455-37130000019ecacd3e3f0a20e284_1280_1282.jpg",
     linkKakobuy: "https://usfans.com/product/3/7788996856?ref=TX9V9N",
@@ -7925,7 +7310,6 @@ const products = [
   {
     name: "PEACEINWAR MULTIDIMENSIONAL HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$39.18",
     image: "https://si.geilicdn.com/wdseller1995625455-4eff0000019f655494450a23138d_3025_3026.jpg",
     linkKakobuy: "https://usfans.com/product/3/7807096959?ref=TX9V9N",
@@ -7936,7 +7320,6 @@ const products = [
   {
     name: "VERSCARTES CHERRY BLOSSOM HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$47.37",
     image: "https://si.geilicdn.com/wdseller1995625455-14c70000019f93de20370a23b6ac_1320_1760.jpg",
     linkKakobuy: "https://usfans.com/product/3/7815363956?ref=TX9V9N",
@@ -7969,7 +7352,6 @@ const products = [
   {
     name: "PATCHWORK SLIM TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.43",
     image: "https://img.alicdn.com/bao/uploaded/i3/346392213/O1CN014tcydU1SDbYtEjnq3_!!346392213.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D916769760503",
@@ -8002,7 +7384,6 @@ const products = [
   {
     name: "RANDOM WHITE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.79",
     image: "https://img.alicdn.com/bao/uploaded/i4/346392213/O1CN012AUdBZ1SDbYnZGm8O_!!346392213.jpg",
     linkKakobuy: "https://usfans.com/product/2/K5MutcsOxnCQSa4sTSTihF3Pv_mUtSdrPIfRTLg9mf1k2lcGVNrR3A?ref=TX9V9N",
@@ -8035,7 +7416,6 @@ const products = [
   {
     name: "NUMBER NINE T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.67",
     image: "https://img.alicdn.com/bao/uploaded/i1/2943390456/O1CN01Ouqaas1FEtbvGWPN4_!!2943390456.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D850743820998",
@@ -8046,7 +7426,6 @@ const products = [
   {
     name: "COMPRESS GYMSHARK TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$5.76",
     image: "https://media.usfans.com/2026/08/20/104555/47640019-1490-4c03-bf3d-084e43016c6f.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F1%2F927820001124",
@@ -8057,7 +7436,6 @@ const products = [
   {
     name: "MERCEDES BENZ TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$4.08",
     image: "https://img.alicdn.com/bao/uploaded/i2/839766424/O1CN01Nqgltb1xKFAud7dL8_!!839766424.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D723821143736",
@@ -8079,7 +7457,6 @@ const products = [
   {
     name: "CASABLANCA T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.08",
     image: "https://si.geilicdn.com/open1624782517-1624782517-1c370000019574c4be9e0a22d249_900_900.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7684858750",
@@ -8101,7 +7478,6 @@ const products = [
   {
     name: "WHO ATE ALL PUSSY TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.48",
     image: "https://img.alicdn.com/bao/uploaded/i3/2218252751209/O1CN013CWTCc1KnlrsZKpjO_!!2218252751209.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D869918350175",
@@ -8112,7 +7488,6 @@ const products = [
   {
     name: "UNDERCOVER 06AW INSECT JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$49.16",
     image: "https://img.alicdn.com/bao/uploaded/i2/2652892586/O1CN01z4tu7B1UyRKLUOvIu_!!2652892586.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D991666428473",
@@ -8123,7 +7498,6 @@ const products = [
   {
     name: "BIG BOY SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$14.47",
     image: "https://img.alicdn.com/imgextra/i1/3447686649/O1CN01ly1fTp1yzIOyOpZ9i_!!3447686649.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.html%3Fid%3D759570060248",
@@ -8134,7 +7508,6 @@ const products = [
   {
     name: "ULTRALIGHT SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$27.29",
     image: "https://si.geilicdn.com/wdseller1940384309-35d10000019b138aaf980a2301f1_1320_1320.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7631408037",
@@ -8145,7 +7518,6 @@ const products = [
   {
     name: "BROWN VINTAGE SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$16.28",
     image: "https://img.alicdn.com/bao/uploaded/i1/2212509635566/O1CN01GvDLQP1qzHTAC5xme_!!2212509635566.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.html%3Fid%3D809804989823",
@@ -8156,7 +7528,6 @@ const products = [
   {
     name: "VINTAGE WASHED SHORTS #2",
     category: "Shorts",
-    subcategory: "",
     price: "$15.62",
     image: "https://img.alicdn.com/bao/uploaded/i3/2212509635566/O1CN01NRgnPF1qzHLauODZS_!!2212509635566.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.html%3Fid%3D722239425551",
@@ -8167,7 +7538,6 @@ const products = [
   {
     name: "GYM SHARK SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$16.44",
     image: "https://img.alicdn.com/bao/uploaded/i4/3704401267/O1CN01YoVu991LEKcrOoWbF_!!3704401267.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.html%3Fid%3D746491732438",
@@ -8178,7 +7548,6 @@ const products = [
   {
     name: "RANDOM T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$6.25",
     image: "https://media.usfans.com/2026/05/24/094244/523949bf-c381-453e-b7f0-7b5d1562b86a.jpg",
     linkKakobuy: "https://usfans.com/product/1/896628437121?ref=TX9V9N",
@@ -8189,7 +7558,6 @@ const products = [
   {
     name: "CALVIN KLEIN THONGS",
     category: "Underwear",
-    subcategory: "",
     price: "$11.51",
     image: "https://si.geilicdn.com/pcitem1234071531-1d450000019f7e95325f0a8132bd-unadjust_918_926.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7809359271",
@@ -8211,7 +7579,6 @@ const products = [
   {
     name: "YE MUST BORN AGAIN HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$14.47",
     image: "https://img.alicdn.com/bao/uploaded/i3/2075710764/O1CN01OaAJHM1HVxRxTDbg1_!!2075710764.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D652795879259",
@@ -8222,7 +7589,6 @@ const products = [
   {
     name: "RICK OWENS DRKSHDW PANTSS",
     category: "Pants",
-    subcategory: "",
     price: "$26.80",
     image: "https://img.alicdn.com/bao/uploaded/i2/2214514093/O1CN01JCrXsO1g6e8tZktHn_!!2214514093.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D908386666823",
@@ -8233,7 +7599,6 @@ const products = [
   {
     name: "verscartes cherry blossom jeans",
     category: "Pants",
-    subcategory: "",
     price: "$17.76",
     image: "https://media.usfans.com/2026/08/12/145246/3cecf4af-bffb-4669-ad8d-d6981a49c3fa.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1045220427999.html",
@@ -8244,7 +7609,6 @@ const products = [
   {
     name: "RANDOM FIVE BUTTONS JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$30.91",
     image: "https://img.alicdn.com/bao/uploaded/i2/346392213/O1CN01bWrhmd1SDbbgqyCxQ_!!346392213.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1007496500280",
@@ -8255,7 +7619,6 @@ const products = [
   {
     name: "CARHARTT JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$12.23",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/22/f3731c69fce83122a0d05e0dd59fd07d.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F1%2F845225146226",
@@ -8266,7 +7629,6 @@ const products = [
   {
     name: "WIDE LEG JEANS #1",
     category: "Pants",
-    subcategory: "",
     price: "$14.46",
     image: "https://img.alicdn.com/bao/uploaded/i1/345828840/O1CN01vy98Li2FAm5w2O2CG_!!345828840.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D735968374544",
@@ -8277,7 +7639,6 @@ const products = [
   {
     name: "BALENCIAGA WFP TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.28",
     image: "https://si.geilicdn.com/wdseller1258568610-2b790000019e369f73ec0a23037f_1320_1321.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7766546617",
@@ -8288,7 +7649,6 @@ const products = [
   {
     name: "BALENCIAGA LOOP SPORTS JACKET",
     category: "Jackets",
-    subcategory: "",
     price: "$65.44",
     image: "https://kako-alosshk-pic.lucklybuy.com/whg/202603/14/a2f6eff7e7df69b1c3d5bbf37b28d863.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7664397603%26spider_token%3Db7c0",
@@ -8299,7 +7659,6 @@ const products = [
   {
     name: "GOYARD PHONE CASE",
     category: "Belts",
-    subcategory: "",
     price: "$1.40",
     image: "https://cbu01.alicdn.com/img/ibank/22777373006_436360510.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F631910643130.html",
@@ -8310,7 +7669,6 @@ const products = [
   {
     name: "IPHONE MAGSAFE CASE",
     category: "Belts",
-    subcategory: "",
     price: "$1.07",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01FpbCvq1zWGh7BpuMu_!!3953236721-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F1%2F667647980956",
@@ -8343,7 +7701,6 @@ const products = [
   {
     name: "GREER STREET TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.98",
     image: "https://si.geilicdn.com/wdseller1995625455-6f1e0000019f9351c2fc0a230449_4284_4287.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7812069589",
@@ -8376,7 +7733,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR GUITAR TEE (WHITE)",
     category: "Tshirts",
-    subcategory: "",
     price: "$26.13",
     image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01zPu6j01RR3exmaRzj_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1059970527256",
@@ -8387,7 +7743,6 @@ const products = [
   {
     name: "NATIONAL GEOGRAPHIC TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$8.19",
     image: "https://media.usfans.com/2026/08/27/153730/75172967-a89e-4ff0-a234-dd0812e53e82.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1012429810968",
@@ -8398,7 +7753,6 @@ const products = [
   {
     name: "CR7 TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$7.71",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN019bVsMs1Yz8GIp9uvL_!!2217950923129-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F816615191785.html",
@@ -8409,7 +7763,6 @@ const products = [
   {
     name: "MAISON MARGIELA T-SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.53",
     image: "https://media.usfans.com/2026/08/27/140751/7f34c239-796f-4033-af12-2d8f45985004.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F907117531177.html",
@@ -8420,7 +7773,6 @@ const products = [
   {
     name: "GLOGANG HOODIE'S",
     category: "Hoodies",
-    subcategory: "",
     price: "$29.58 - $41.90",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01xlMQTV2Bsxwo1VSPD_!!2217591168395-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F1%2F774801852263",
@@ -8431,7 +7783,6 @@ const products = [
   {
     name: "CELINE LOGNSLEEVE",
     category: "Tshirts",
-    subcategory: "",
     price: "$17.26",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01mr369O23fDF8R3LyA_!!2220831547282-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F980126094840.html",
@@ -8442,7 +7793,6 @@ const products = [
   {
     name: "LGB TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.62",
     image: "https://img.alicdn.com/bao/uploaded/i2/2208067697769/O1CN0114wcHw27GG9j1y0tx_!!2208067697769.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1017737154416",
@@ -8453,7 +7803,6 @@ const products = [
   {
     name: "MINJI JINWENCHI TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$5.35",
     image: "https://img.alicdn.com/bao/uploaded/i4/2208782615098/O1CN01OL7VDT1nWwBHpA2Of_!!2208782615098.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D893729574019",
@@ -8464,7 +7813,6 @@ const products = [
   {
     name: "DEPUTY TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.62",
     image: "https://si.geilicdn.com/wdseller1940384309-4d1600000199c4433eff0a2305d8_1320_1320.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7567319841",
@@ -8475,7 +7823,6 @@ const products = [
   {
     name: "JIL SANDRE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$17.74",
     image: "https://img.alicdn.com/bao/uploaded/i4/1588063656/O1CN01uAFv0r1csV5KrM0Bi_!!1588063656.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D944458054166",
@@ -8486,7 +7833,6 @@ const products = [
   {
     name: "VAMP TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.95",
     image: "https://img.alicdn.com/bao/uploaded/i3/2212643669335/O1CN01nuAbEP2IpUF4Sh9Lv_!!2212643669335.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D809406858727",
@@ -8497,7 +7843,6 @@ const products = [
   {
     name: "ERD HOODIE BEST",
     category: "Hoodies",
-    subcategory: "",
     price: "$48.44",
     image: "https://si.geilicdn.com/wdseller1399882362-7d690000019af8cef6c90a239646_1179_1562.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7627149437",
@@ -8508,7 +7853,6 @@ const products = [
   {
     name: "ERD LAKE BLUE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$48.44",
     image: "https://si.geilicdn.com/wdseller1399882362-3c8100000198668fdc520a20e284_1206_1622.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7518681507",
@@ -8519,7 +7863,6 @@ const products = [
   {
     name: "ERD HOODIE DISTRESSED HEM CREWNECK",
     category: "Hoodies",
-    subcategory: "",
     price: "$49.10",
     image: "https://si.geilicdn.com/wdseller1399882362-0a7f00000198c209999a0a8133cc_1206_1184.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7528498255",
@@ -8541,7 +7884,6 @@ const products = [
   {
     name: "ERD MUSSOLINI HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$53.21",
     image: "https://si.geilicdn.com/wdseller1399882362-1db8000001993ce291320a811411_1206_1206.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7548909474",
@@ -8552,7 +7894,6 @@ const products = [
   {
     name: "RAF SIMONS MORAL TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.69",
     image: "https://img.alicdn.com/bao/uploaded/i2/3926619803/O1CN01JtXLRP2MHplzvpF3K_!!3926619803.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1051398369817",
@@ -8563,7 +7904,6 @@ const products = [
   {
     name: "BALENCIAGA BRITNEY HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$26.11",
     image: "https://si.geilicdn.com/wdseller1951584266-29970000019bb24049390a23c1e0_1179_1544.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7665579001",
@@ -8574,7 +7914,6 @@ const products = [
   {
     name: "CHROME HEARTS CARPENTERS",
     category: "Pants",
-    subcategory: "",
     price: "$49.10",
     image: "https://si.geilicdn.com/wdseller1258568610-3f9c00000197e5c637200a2303ee_1170_1560.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7806954071",
@@ -8585,7 +7924,6 @@ const products = [
   {
     name: "NOFAITH BLUE WASHED JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$47.29",
     image: "https://img.alicdn.com/bao/uploaded/i1/2201254611318/O1CN01VP1hsG1Lbh6DWEM5e_!!2201254611318.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D967052135981",
@@ -8596,7 +7934,6 @@ const products = [
   {
     name: "NOFAITH BOOTCUT JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$57.11",
     image: "https://img.alicdn.com/bao/uploaded/i2/2201254611318/O1CN01sut5uq1Lbh7hyHc1z_!!2201254611318.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1001089524068",
@@ -8607,7 +7944,6 @@ const products = [
   {
     name: "NOFAITH PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$55.67",
     image: "https://img.alicdn.com/bao/uploaded/i2/2201254611318/O1CN01v2ojd21Lbh8rgztNR_!!2201254611318.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1016323263904",
@@ -8618,7 +7954,6 @@ const products = [
   {
     name: "UNDERCOVER LOSER TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$26.11",
     image: "https://img.alicdn.com/bao/uploaded/i2/3578229930/O1CN01FBwscJ2NE04yIx7BF_!!3578229930.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1050926714276",
@@ -8629,7 +7964,6 @@ const products = [
   {
     name: "BALENCIAGA ARENA HIGH",
     category: "Shoes",
-    subcategory: "",
     price: "$98.36",
     image: "https://img.alicdn.com/bao/uploaded/i3/2216340648336/O1CN01ezvKr7xuIIK3bC6I_!!2216340648336.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1059064104086",
@@ -8640,7 +7974,6 @@ const products = [
   {
     name: "JORDAN 12",
     category: "Shoes",
-    subcategory: "",
     price: "$73.89",
     image: "https://si.geilicdn.com/open1733523732-1234478995-62750000019379b0dd250a210298_2560_2560.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7780610171",
@@ -8695,7 +8028,6 @@ const products = [
   {
     name: "NEWROCK X VETEMENTS",
     category: "Shoes",
-    subcategory: "",
     price: "$173.89",
     image: "https://img.alicdn.com/bao/uploaded/i4/2217802793950/O1CN01xYAEqu1f39a4xjjH3_!!2217802793950.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1006417785627",
@@ -8706,7 +8038,6 @@ const products = [
   {
     name: "BALENCIAGA ARENA LOW",
     category: "Shoes",
-    subcategory: "",
     price: "$98.36",
     image: "https://img.alicdn.com/bao/uploaded/i4/2216340648336/O1CN01SOWwfgrxUwJ3VX04_!!2216340648336.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1066942945466",
@@ -8717,7 +8048,6 @@ const products = [
   {
     name: "GUCCI HIGH TOPS",
     category: "Shoes",
-    subcategory: "",
     price: "$77.18",
     image: "https://si.geilicdn.com/wdseller1437660918-66c80000019adb8c56bc0a20e273_1204_1204.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7622585971",
@@ -8728,7 +8058,6 @@ const products = [
   {
     name: "SUPRA SKYTOP",
     category: "Shoes",
-    subcategory: "",
     price: "$63.71",
     image: "https://img.alicdn.com/bao/uploaded/i4/901791614/O1CN01GkvfNhDh1LL1jNZR_!!901791614.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D544387649855",
@@ -8739,7 +8068,6 @@ const products = [
   {
     name: "PHILIP PLEIN SNEAKERS",
     category: "Shoes",
-    subcategory: "",
     price: "$53.86",
     image: "https://img.alicdn.com/bao/uploaded/i1/2854361675/O1CN01EDidYuSNLcK1chua_!!2854361675.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D635154229795",
@@ -8750,7 +8078,6 @@ const products = [
   {
     name: "DC COURT GRAFFIK",
     category: "Shoes",
-    subcategory: "",
     price: "$26.28",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN017KU5sg29fZDkYuYul_!!2219411848095-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F946228500846.html",
@@ -8761,7 +8088,6 @@ const products = [
   {
     name: "BALENCIAGA MONDAY",
     category: "Shoes",
-    subcategory: "",
     price: "$50.91",
     image: "https://si.geilicdn.com/wdseller1845163825-461c0000019424c90d3e0a23038e_1080_1080.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7611473323",
@@ -8816,7 +8142,6 @@ const products = [
   {
     name: "GREER STREETS SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$21.19",
     image: "https://si.geilicdn.com/wdseller1995625455-54230000019f88ddefaf0a2305d8_1320_1760.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7810610971",
@@ -8838,7 +8163,6 @@ const products = [
   {
     name: "IHS SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$37.61",
     image: "https://si.geilicdn.com/wdseller1995625455-03de0000019f7eb0831b0a23c1e0_4284_4284.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7812089028",
@@ -8849,7 +8173,6 @@ const products = [
   {
     name: "IDT SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$37.61",
     image: "https://si.geilicdn.com/wdseller1995625455-31e30000019fb251bd800a2102b1_4258_4261.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7815475769",
@@ -8860,7 +8183,6 @@ const products = [
   {
     name: "IDT ARROGANT HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$34.32",
     image: "https://si.geilicdn.com/wdseller1995625455-4c570000019fad0cc8180a23c191_4284_4287.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7817705818",
@@ -8871,7 +8193,6 @@ const products = [
   {
     name: "PEACEINWAR BRAIN HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$35.31",
     image: "https://si.geilicdn.com/wdseller1995625455-497f0000019f6551dfde0a23c1e0_3025_3026.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7810161744",
@@ -8882,7 +8203,6 @@ const products = [
   {
     name: "PEACEINWAR ICELAND HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$34.16",
     image: "https://si.geilicdn.com/wdseller1995625455-22340000019d24d7fdc00a210247_1320_1760.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7717389783",
@@ -8893,7 +8213,6 @@ const products = [
   {
     name: "PROJECT CAPRI PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$30.38",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/20/8f0b18e8fcc36d0b83c818a105134d85.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F850707276274.html",
@@ -8904,7 +8223,6 @@ const products = [
   {
     name: "PROJECT CAPRI TSHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.78",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01O49Pcg2BsxwXSW0M7_!!2217591168395-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F815232196489.html",
@@ -8915,7 +8233,6 @@ const products = [
   {
     name: "VERTABRAE TSHIRTS BUDGET",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.32",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01V8W7YM2Bsy3UCgaJB_!!2217591168395-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F823544923536.html",
@@ -8926,7 +8243,6 @@ const products = [
   {
     name: "SAINT VANITY ITEMS",
     category: "Pants",
-    subcategory: "",
     price: "$32.02",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/28/5e34b980c3fd30736213e29ba057e339.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F899126915070.html",
@@ -8937,7 +8253,6 @@ const products = [
   {
     name: "SMOKEDOPE2016 PEAK TOUR HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$39.08",
     image: "https://media.usfans.com/2026/06/05/094602/e06e43e0-3ca8-4f42-b494-123bd5063454.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1050652068209",
@@ -8948,7 +8263,6 @@ const products = [
   {
     name: "SMOKEDOPE2016 PEAK TOUR TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.02",
     image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01nEOWD61gquErLhpzq_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1048047823925",
@@ -8959,7 +8273,6 @@ const products = [
   {
     name: "NOKIA ANGEL TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.02",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN01UtOlQq1gquEyTY7HE_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1050614550782",
@@ -8970,7 +8283,6 @@ const products = [
   {
     name: "ETNA VERA VELA TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.02",
     image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01C0hrWu1gquD4VIoUK_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1000338243490",
@@ -8981,7 +8293,6 @@ const products = [
   {
     name: "BRITISH TEEN TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.02",
     image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01hz0Woi1gquD5h2q0w_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1002858668341",
@@ -8992,7 +8303,6 @@ const products = [
   {
     name: "DG TRIAL SENTENCE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.02",
     image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN015MFlvb1gqu9cQE00e_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D919623011875",
@@ -9014,7 +8324,6 @@ const products = [
   {
     name: "DG EVERSINCE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$42.37",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215791284194/O1CN016fKbku1gquCPhyXRf_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D989374205237",
@@ -9036,7 +8345,6 @@ const products = [
   {
     name: "YUNG LEAN UD TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.02",
     image: "https://media.usfans.com/PDA/457dfc76-a123-4780-9019-d332c870dd0c.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D868775547400",
@@ -9047,7 +8355,6 @@ const products = [
   {
     name: "BLADEE VIRUS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$19.38",
     image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN01GiHZSc1gqu7SkTbJc_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D862949006239",
@@ -9058,7 +8365,6 @@ const products = [
   {
     name: "DG SWEDEN & POLAND TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.02",
     image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01FDJ11M1gqu7RuvEIh_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D862549217332",
@@ -9069,7 +8375,6 @@ const products = [
   {
     name: "DG RED LIGHT TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.02",
     image: "https://img.alicdn.com/bao/uploaded/i4/2215791284194/O1CN01akKiLH1gqu8oJma1I_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D841249526824",
@@ -9080,7 +8385,6 @@ const products = [
   {
     name: "YUNG LEAN TEE #2",
     category: "Tshirts",
-    subcategory: "",
     price: "$19.38",
     image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN01iNWhUU1gqu94qyxnE_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D904894227280",
@@ -9102,7 +8406,6 @@ const products = [
   {
     name: "DG TRASH ISLAND TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.02",
     image: "https://media.usfans.com/2026/06/29/161147/aa26a30c-e768-4249-82af-6baa27da7841.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D998385156444",
@@ -9113,7 +8416,6 @@ const products = [
   {
     name: "DG SAINT MICHAEL TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$19.38",
     image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01g1LtnS1gqu93nNWBl_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D909311332419",
@@ -9124,7 +8426,6 @@ const products = [
   {
     name: "DRAIN TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.02",
     image: "https://img.alicdn.com/bao/uploaded/i3/2215791284194/O1CN01BDVBuH1gqu8W3bxvV_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D892219403341",
@@ -9146,7 +8447,6 @@ const products = [
   {
     name: "DG STARDUST TOUR TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$19.38",
     image: "https://img.alicdn.com/bao/uploaded/i2/2215791284194/O1CN019J1wex1gqu708Y2ji_!!2215791284194.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D856215166815",
@@ -9157,7 +8457,6 @@ const products = [
   {
     name: "CDG TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.62",
     image: "https://media.usfans.com/2026/08/30/194739/0bb90a76-cd6d-46d4-80aa-7077549db88e.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D884935784366",
@@ -9168,7 +8467,6 @@ const products = [
   {
     name: "HBA APHEX TWIN TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$24.31",
     image: "https://img.alicdn.com/bao/uploaded/i2/82460901/O1CN011Vrum51IWhyqvQZ9I~crop,0,295,1773,1773~_!!82460901.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1027031180710",
@@ -9179,7 +8477,6 @@ const products = [
   {
     name: "NUMBASIA TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$22.66",
     image: "https://img.alicdn.com/bao/uploaded/i3/2221940821665/O1CN01JUR5iz1OAcaEEcCUM_!!2221940821665.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1041970641417",
@@ -9190,7 +8487,6 @@ const products = [
   {
     name: "LUCKYWORLD TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$26.11",
     image: "https://img.alicdn.com/bao/uploaded/i1/2214713868977/O1CN01wvwbTI2GBWXJA85Tj_!!2214713868977.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D920493794025",
@@ -9201,7 +8497,6 @@ const products = [
   {
     name: "HUMAN REGISTER CODE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$26.11",
     image: "https://img.alicdn.com/bao/uploaded/i1/2927174202/O1CN013U7zUK1guZ6ZaF2e7_!!2927174202.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D713198791453",
@@ -9212,7 +8507,6 @@ const products = [
   {
     name: "CELINE WITCH TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$26.11",
     image: "https://si.geilicdn.com/wdseller1623957871-13d90000019f03da5beb0a230449_1320_1737.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7798817828",
@@ -9223,7 +8517,6 @@ const products = [
   {
     name: "EXTINCT HBA TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$24.31",
     image: "https://img.alicdn.com/bao/uploaded/i1/82460901/O1CN01jXWzua1IWhz2qatgK_!!82460901.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D922594097252",
@@ -9234,7 +8527,6 @@ const products = [
   {
     name: "TYPOGRAPHY TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.11",
     image: "https://media.usfans.com/2026/08/19/214107/4096fd7a-e538-49bd-9ee8-41e0de0e2da2.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1009176473934",
@@ -9245,7 +8537,6 @@ const products = [
   {
     name: "SKINS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$22.83",
     image: "https://img.alicdn.com/bao/uploaded/i3/2215792313733/O1CN010D7PK71dRlau58gNa_!!2215792313733.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D963063638156",
@@ -9256,7 +8547,6 @@ const products = [
   {
     name: "AD RED LIGHT TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$22.83",
     image: "https://img.alicdn.com/bao/uploaded/i3/2215792313733/O1CN01KwtmgU1dRldBKnilW_!!2215792313733.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1018770789731",
@@ -9267,7 +8557,6 @@ const products = [
   {
     name: "DETW TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$31.04",
     image: "https://img.alicdn.com/bao/uploaded/i4/3791109895/O1CN014CBy9y2MxyCH5aASx~crop,0,240,1440,1440~_!!3791109895.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1029410028043",
@@ -9278,7 +8567,6 @@ const products = [
   {
     name: "INFRIGEMENTS HBA Tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$22.83",
     image: "https://img.alicdn.com/bao/uploaded/i4/2975255440/O1CN01EICYnP1q3ZeO7DgRE_!!2975255440.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D919390897474",
@@ -9289,7 +8577,6 @@ const products = [
   {
     name: "[BUDGET] VETEMENTS TSHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.86",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01mwLxBk2FFoc0xkn4p_!!2933058851-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F889722162353.html",
@@ -9300,7 +8587,6 @@ const products = [
   {
     name: "BALENCIAGA NICOLE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$36.16",
     image: "https://si.geilicdn.com/wdseller1756130041-05d20000019b06610a490a811411_1136_1096.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7632270788",
@@ -9311,7 +8597,6 @@ const products = [
   {
     name: "SOLOIST TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.86",
     image: "https://img.alicdn.com/bao/uploaded/i2/2215682763001/O1CN01pssh4I1Y2VZBDZ63W_!!2215682763001.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D806232780363",
@@ -9322,7 +8607,6 @@ const products = [
   {
     name: "VETEMENTS 11 GUN CLUB TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$30.87",
     image: "https://img.alicdn.com/bao/uploaded/i3/3822597683/O1CN01SJmprs26cs2ignA8u_!!3822597683.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D946337003435",
@@ -9344,7 +8628,6 @@ const products = [
   {
     name: "NO E MOSEN LEATHER JACKET",
     category: "Jackets",
-    subcategory: "",
     price: "$62.11",
     image: "https://media.usfans.com/2026/08/19/180608/62df4a02-f493-4e87-9df6-8b085ca0047a.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D817350360191",
@@ -9355,7 +8638,6 @@ const products = [
   {
     name: "DETW WOOL JACKET",
     category: "Jackets",
-    subcategory: "",
     price: "$72.13",
     image: "https://img.alicdn.com/bao/uploaded/i1/3791109895/O1CN01xkrsna2MxyAegcuxk_!!3791109895.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D989882809705",
@@ -9366,7 +8648,6 @@ const products = [
   {
     name: "SUPREME DENIM JACKET BLUE",
     category: "Jackets",
-    subcategory: "",
     price: "$85.44",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/29/396d5027245a56707c45114b41d67b22.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D998054961449",
@@ -9377,7 +8658,6 @@ const products = [
   {
     name: "SUPREME DENIM JACKET RED",
     category: "Jackets",
-    subcategory: "",
     price: "$80.51",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/12/2643bbd7daf88d9bfaa8cd2e3fa1cf93.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1005005884227",
@@ -9410,7 +8690,6 @@ const products = [
   {
     name: "SUPREME X TNF JACKET",
     category: "Jackets",
-    subcategory: "",
     price: "$45.68",
     image: "https://media.usfans.com/2026/08/13/135837/1145734d-8015-4108-ba7c-deb9a096bbe7.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D862527874499",
@@ -9443,7 +8722,6 @@ const products = [
   {
     name: "SUPREME DENIM FUR JACKET",
     category: "Jackets",
-    subcategory: "",
     price: "$106.80",
     image: "https://kako-alosshk-pic.lucklybuy.com/whg/202603/20/5bf6d41dec83a0ca4a290d9ac34bf4e2.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D961767279417",
@@ -9509,7 +8787,6 @@ const products = [
   {
     name: "ANOVAIR HELNEY",
     category: "Tshirts",
-    subcategory: "",
     price: "$34.51",
     image: "https://img.alicdn.com/bao/uploaded/i4/2221000788969/O1CN01mowouA2G7rSNa4viT_!!2221000788969.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1055245992185",
@@ -9520,7 +8797,6 @@ const products = [
   {
     name: "545 HENLEY",
     category: "Tshirts",
-    subcategory: "",
     price: "$32.04",
     image: "https://img.alicdn.com/bao/uploaded/i2/2221000788969/O1CN01obqe1Y2G7rSNXLzJF_!!2221000788969.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1055252256020",
@@ -9531,7 +8807,6 @@ const products = [
   {
     name: "SLP FLANNEL",
     category: "Tshirts",
-    subcategory: "",
     price: "$28.43",
     image: "https://img.alicdn.com/bao/uploaded/i3/2214183518581/O1CN01uNQjKs2DG9joYmKyx_!!2214183518581.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D985364355778",
@@ -9542,7 +8817,6 @@ const products = [
   {
     name: "CHROME HEARTS FLANNEL",
     category: "Tshirts",
-    subcategory: "",
     price: "$32.70",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01EpNsvh20yV4inRuqI_!!2218799276918-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F979422621108.html",
@@ -9564,7 +8838,6 @@ const products = [
   {
     name: "NOFAITH JEANS BLACK",
     category: "Pants",
-    subcategory: "",
     price: "$36.48",
     image: "https://media.usfans.com/2026/08/23/110537/65a9bc0a-0fa4-4903-8d5d-e3976dfe91cd.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D848401729469",
@@ -9575,7 +8848,6 @@ const products = [
   {
     name: "EVISU JEANS [BUDGET]",
     category: "Pants",
-    subcategory: "",
     price: "$20.71",
     image: "https://media.usfans.com/2026/08/17/203751/cc2e3021-23a2-4a7e-b2a9-aecafa80c60a.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D719193134814",
@@ -9586,7 +8858,6 @@ const products = [
   {
     name: "JUNO RINSE JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$49.29",
     image: "https://media.usfans.com/2026/08/23/144151/b02bd6a7-250c-4c8c-b119-6f330424ba23.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1041917371194",
@@ -9597,7 +8868,6 @@ const products = [
   {
     name: "ACNE 3D JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$37.43",
     image: "https://media.usfans.com/2026/07/04/173916/bf8eabc0-fcf7-415c-a969-2ea71ed186d4.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7381247260",
@@ -9608,7 +8878,6 @@ const products = [
   {
     name: "COLDASIA JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$57.18",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/18/4326212bc49ef820b5968dc18f82d096.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1008937084952",
@@ -9619,7 +8888,6 @@ const products = [
   {
     name: "NO E MOSEN CAMO PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$53.90",
     image: "https://media.usfans.com/PDA/650abf8f-80f2-4d48-bbe4-0faa0dce758e.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D765728979961",
@@ -9630,7 +8898,6 @@ const products = [
   {
     name: "JADED LDN FLAG JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$35.82",
     image: "https://img.alicdn.com/bao/uploaded/i2/2713525982/O1CN011xjEoT1u3o8IkWJIY_!!2713525982.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D732986821302",
@@ -9641,7 +8908,6 @@ const products = [
   {
     name: "VETEMENTS EMBRO JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$65.40",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/07/fc3fd55524d97e8ad228eac5229d3faa.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D809980001702",
@@ -9652,7 +8918,6 @@ const products = [
   {
     name: "BALENCIAGA PLAID JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$34.18",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/27/7448a2522c51c832d0862dc647544543.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7783255839",
@@ -9663,7 +8928,6 @@ const products = [
   {
     name: "MOWALOLA CUFFED SWEATS",
     category: "Pants",
-    subcategory: "",
     price: "$28.43",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/23/6e4e97e5aa29d98fe9f6c39fe1bc83ab.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D970955320865",
@@ -9674,7 +8938,6 @@ const products = [
   {
     name: "VETEMENTS HI-SPEED SWEATS",
     category: "Pants",
-    subcategory: "",
     price: "$57.35",
     image: "https://img.alicdn.com/bao/uploaded/i3/2201254611318/O1CN01eToFQR1LbgtVLMpPB_!!2201254611318.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D739795518212",
@@ -9685,7 +8948,6 @@ const products = [
   {
     name: "ARTIEMASTER 350GSM SWEATS",
     category: "Pants",
-    subcategory: "",
     price: "$10.36",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/31/c75b5e36eb8b892e903b8866a03f6a8e.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F727120435119.html",
@@ -9696,7 +8958,6 @@ const products = [
   {
     name: "RICK OWENS SWEATS",
     category: "Pants",
-    subcategory: "",
     price: "$22.84",
     image: "https://img.alicdn.com/bao/uploaded/i3/672277232/O1CN01Acc2Bz23IJIfjw2Ku_!!672277232.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D559495506460",
@@ -9707,7 +8968,6 @@ const products = [
   {
     name: "FYREWRLD PLAID SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$32.86",
     image: "https://media.usfans.com/2026/08/07/115957/f13da22b-f4f7-43af-9869-e40c49372722.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1072105696140",
@@ -9718,7 +8978,6 @@ const products = [
   {
     name: "BALENCIAGA X NBA SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$25.96",
     image: "https://si.geilicdn.com/wdseller902062624543-0b010000019f03befeeb0a231316_1290_1134.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7783050034",
@@ -9729,7 +8988,6 @@ const products = [
   {
     name: "JOSHUA JAMAL SHORTS",
     category: "Shorts",
-    subcategory: "",
     price: "$29.41",
     image: "https://img.alicdn.com/bao/uploaded/i3/2210283781838/O1CN01uw7ykF1PRr6EDdNlF_!!2210283781838.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1037930369961",
@@ -9740,7 +8998,6 @@ const products = [
   {
     name: "LULULEMON SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$1.56",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01Y08mHo2BXtqzxXUVj_!!2215386608349-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F990840917396.html",
@@ -9751,7 +9008,6 @@ const products = [
   {
     name: "CARHARTT SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$1.48",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN0116fNE51RHRGcjHxNW_!!2220176752086-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F953212468946.html",
@@ -9762,7 +9018,6 @@ const products = [
   {
     name: "ACNE STUDIOS SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$2.79",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01axjPQ81RHRHfGdWyO_!!2220176752086-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F977560773006.html",
@@ -9773,7 +9028,6 @@ const products = [
   {
     name: "GALLERY DEPT SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$2.96",
     image: "https://si.geilicdn.com/pcitem1234071531-3a790000018775fab8fe0a22b3e4_1280_1280.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7589277587",
@@ -9784,7 +9038,6 @@ const products = [
   {
     name: "BALENCIAGA SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$4.92",
     image: "https://si.geilicdn.com/open1847561709-1234478995-584100000196397f19440a231226_1276_1276.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7447271651",
@@ -9795,7 +9048,6 @@ const products = [
   {
     name: "SUPREME TOWEL SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$1.79",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01m35vVu1TRAyby2WOI_!!6000000002378-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F966066140740.html",
@@ -9806,7 +9058,6 @@ const products = [
   {
     name: "DETW TEE",
     category: "Girls",
-    subcategory: "",
     price: "$23.07",
     image: "https://img.alicdn.com/bao/uploaded/i3/3791109895/O1CN01pMgLY22MxyCTVKtXB_!!3791109895.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1034061846140",
@@ -9817,7 +9068,6 @@ const products = [
   {
     name: "BALENCIAGA PARIS CUP",
     category: "RoomDecor",
-    subcategory: "",
     price: "$9",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01LBaiOX2GvmWpTjNy2_!!2212802979078-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F901648491210.html",
@@ -9828,7 +9078,6 @@ const products = [
   {
     name: "STUSSY JACKET",
     category: "Jackets",
-    subcategory: "",
     price: "$41.48",
     image: "https://media.usfans.com/2026/08/30/134848/e554a593-47f4-4974-83ef-8ed9ab3bf0ef.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6644923605",
@@ -9905,7 +9154,6 @@ const products = [
   {
     name: "OFFWHITE SLEEVE",
     category: "Hoodies",
-    subcategory: "",
     price: "$22.57",
     image: "https://media.usfans.com/2026/08/25/161317/40778545-c292-431a-a925-f4b47dc739a2.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D813875485383",
@@ -9916,7 +9164,6 @@ const products = [
   {
     name: "BALENCIAGA  SPEEDHUNTERS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$76.03",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/24/36abcc5128b865d47dc87b20b72dd782.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D730474657101",
@@ -9927,7 +9174,6 @@ const products = [
   {
     name: "AD RED LIGHT DISTRICT HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$61.09",
     image: "https://img.alicdn.com/bao/uploaded/i1/2215792313733/O1CN01dX3E5V1dRldOnJKsn_!!2215792313733.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1012296414371",
@@ -9938,7 +9184,6 @@ const products = [
   {
     name: "GUCCI SILK TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.44",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/15/474e23be29857265dbe65cb997ff5e91.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1071980154888",
@@ -9949,7 +9194,6 @@ const products = [
   {
     name: "GTA 6 BOX (LARP)",
     category: "RoomDecor",
-    subcategory: "",
     price: "$6.40",
     image: "https://img.alicdn.com/bao/uploaded/i1/32038684/O1CN01Jspp1M2E1KaLM2LEs_!!32038684.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1061779742817",
@@ -9960,7 +9204,6 @@ const products = [
   {
     name: "JELLYCAT TOYS",
     category: "RoomDecor",
-    subcategory: "",
     price: "$3 - $14",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01tdgmDF1qV3OzGtPit_!!2219517375500-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F976578788327.html",
@@ -9971,7 +9214,6 @@ const products = [
   {
     name: "YOUTUBE PLAY BUTTON",
     category: "RoomDecor",
-    subcategory: "",
     price: "$19.59",
     image: "https://img.alicdn.com/bao/uploaded/i2/1666489496/O1CN01sV1yPc2K1E65IhagT_!!1666489496.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D673991675214",
@@ -9982,7 +9224,6 @@ const products = [
   {
     name: "CHROME HEARTS CARDS",
     category: "RoomDecor",
-    subcategory: "",
     price: "$1.65",
     image: "https://si.geilicdn.com/pcitem1378088195-4e3000000197e536e3400a2396f4_3024_3024.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7503851819",
@@ -9993,7 +9234,6 @@ const products = [
   {
     name: "NETTSPEND REHAB FLAG",
     category: "RoomDecor",
-    subcategory: "",
     price: "$4.14",
     image: "https://img.alicdn.com/bao/uploaded/i4/2213180084817/O1CN01RZHB2C1lSEyiyYjtJ_!!2213180084817.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D800435876931",
@@ -10004,7 +9244,6 @@ const products = [
   {
     name: "BAPE MOUSEPADS",
     category: "RoomDecor",
-    subcategory: "",
     price: "$2.78",
     image: "https://img.alicdn.com/bao/uploaded/i1/2200644958919/O1CN012Gea082FkxARJ5IkF_!!2200644958919.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D636239116793",
@@ -10015,7 +9254,6 @@ const products = [
   {
     name: "CHROME HEARTS CRYSTAL DICE",
     category: "RoomDecor",
-    subcategory: "",
     price: "$10.80",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01O9jrzM2GvmNHbwSn9_!!2212802979078-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F743890553486.html",
@@ -10026,7 +9264,6 @@ const products = [
   {
     name: "TAKASHI MURAKAMI PILLOWS",
     category: "RoomDecor",
-    subcategory: "",
     price: "$10.30",
     image: "https://img.alicdn.com/bao/uploaded/i1/741571609/O1CN01CloPux1Nky5uTbBKy_!!741571609.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D565679177060",
@@ -10037,7 +9274,6 @@ const products = [
   {
     name: "FAZE X MURAKAMI MOUSEPAD",
     category: "RoomDecor",
-    subcategory: "",
     price: "$4.82",
     image: "https://img.alicdn.com/bao/uploaded/i2/92203689/O1CN01LRTEhZ1d7bvIIJ3g9_!!92203689.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D680559937128",
@@ -10048,7 +9284,6 @@ const products = [
   {
     name: "ICE SPICE FLAG",
     category: "RoomDecor",
-    subcategory: "",
     price: "$4.30",
     image: "https://img.alicdn.com/bao/uploaded/i3/2213180084817/O1CN01PSzH991lSExpJE143_!!2213180084817.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D710557276827",
@@ -10059,7 +9294,6 @@ const products = [
   {
     name: "DESIGNER BOOKS",
     category: "RoomDecor",
-    subcategory: "",
     price: "$27.41",
     image: "https://img.alicdn.com/bao/uploaded/i1/2817547410/O1CN01YFwzyo24bpWHkNC0F_!!2817547410.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D642768295879",
@@ -10136,7 +9370,6 @@ const products = [
   {
     name: "PRAYING SET",
     category: "Girls",
-    subcategory: "",
     price: "$49.50",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/01/cca8a5de9bd5d73cb6d7d1645fe1fe9b.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1009308097810",
@@ -10147,7 +9380,6 @@ const products = [
   {
     name: "DIA SHORTS",
     category: "Girls",
-    subcategory: "",
     price: "$31.40",
     image: "https://media.usfans.com/2026/08/14/151600/102c1233-599d-4bdd-8252-59d8ef504016.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D937520717679",
@@ -10158,7 +9390,6 @@ const products = [
   {
     name: "DETW SLEEVE",
     category: "Girls",
-    subcategory: "",
     price: "$28.08",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202607/21/25e33473129282685cef0978343b2376.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1033359955754",
@@ -10169,7 +9400,6 @@ const products = [
   {
     name: "JADED LONDON TOP",
     category: "Girls",
-    subcategory: "",
     price: "$16.28",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202605/18/c13a2aacd96909689d64bce8f8f6bd26.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D781662370509",
@@ -10180,7 +9410,6 @@ const products = [
   {
     name: "NY YANKES POLO",
     category: "Girls",
-    subcategory: "",
     price: "$19.27",
     image: "https://media.usfans.com/2026/06/10/094500/03ec25c0-c858-4fff-975e-d8dafd355c91.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D893344989040",
@@ -10191,7 +9420,6 @@ const products = [
   {
     name: "OMIGHTY SET",
     category: "Girls",
-    subcategory: "",
     price: "$22",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/03/3835c058a94ac0f46b171ace97224f5c.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D905774474753",
@@ -10202,7 +9430,6 @@ const products = [
   {
     name: "JADED LDN DENIM SKIRT",
     category: "Girls",
-    subcategory: "",
     price: "$23.09",
     image: "https://media.usfans.com/2026/08/05/143435/682fa84c-9432-44d9-ac03-31c42e58926e.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D796882846542",
@@ -10213,7 +9440,6 @@ const products = [
   {
     name: "CHAI X KATE MOSS TOP",
     category: "Girls",
-    subcategory: "",
     price: "$28.08",
     image: "https://media.usfans.com/2026/06/19/161657/0f388723-d41b-4674-b34e-8c540fac9fa2.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1041686147620",
@@ -10224,7 +9450,6 @@ const products = [
   {
     name: "CSONLINE TANK TOP",
     category: "Girls",
-    subcategory: "",
     price: "$26.41",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/07/2642e51fd64a05acc523eaf45117607f.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D909547603588",
@@ -10235,7 +9460,6 @@ const products = [
   {
     name: "AF1 AMBUSH (LJR)",
     category: "Shoes",
-    subcategory: "",
     price: "$41.53",
     image: "https://cdn.doppel.fit/dieZjcCH9tVhnyAiOAal14pdSgZmcwMXX0ZqK4UmDww/rs:fill:1920/q:85/f:webp/V0VJRElBTi81Nzk0ODk3MzAwL2FjYnV5Xzg4NDYxY2ZlMDM5M2Mvd2F0ZXJtYXJrZWQvcGRhXzE3NzMxMjM4NDk4NTg0RDg1RDg4Qi01MjA2LTQxRjAtODc1My02MTYyMDI2ODBFMUYud2VicA",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F5794897300",
@@ -10257,7 +9481,6 @@ const products = [
   {
     name: "SUVENE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$23.09",
     image: "https://si.geilicdn.com/pcitem2088921286-509e0000019fa89d69f80a2396f4-unadjust_988_984.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7814238073",
@@ -10279,7 +9502,6 @@ const products = [
   {
     name: "SUVENE SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$22.43",
     image: "https://media.usfans.com/2026/08/26/111310/cc3944e9-c3eb-4af2-a4ed-3464b394a6d9.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7817206562",
@@ -10290,7 +9512,6 @@ const products = [
   {
     name: "SUVENE SWEATPANTS #2",
     category: "Pants",
-    subcategory: "",
     price: "$25.75",
     image: "https://media.usfans.com/2026/09/03/103740/c04f28df-9d7b-401c-bd42-99e05b7f63c5.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7817212456",
@@ -10301,7 +9522,6 @@ const products = [
   {
     name: "JORDAN 6",
     category: "Shoes",
-    subcategory: "",
     price: "$79.90-83",
     image: "https://si.geilicdn.com/open1733523732-1234478995-0f46000001937482a9720a239383_1125_720.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7563993189",
@@ -10312,7 +9532,6 @@ const products = [
   {
     name: "NIKE VOMERO 18",
     category: "Shoes",
-    subcategory: "",
     price: "$26.58",
     image: "https://media.usfans.com/2026/09/01/174918/41505eeb-31e8-43ab-8115-416f6728300d.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7611429427",
@@ -10334,7 +9553,6 @@ const products = [
   {
     name: "VIVIENNE WESTWOOD GLOVES",
     category: "Belts",
-    subcategory: "",
     price: "$6.48",
     image: "https://si.geilicdn.com/open1847561709-1234478995-1c03000001963a3841220a23b491_1629_923.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7449122986",
@@ -10345,7 +9563,6 @@ const products = [
   {
     name: "LV WALLETS",
     category: "Belts",
-    subcategory: "",
     price: "$3.83",
     image: "https://si.geilicdn.com/wdseller169153426-4802000001872c2910950a2313df_2560_1920.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6178665612",
@@ -10356,7 +9573,6 @@ const products = [
   {
     name: "SAUER CIGARETTE WALLET",
     category: "Belts",
-    subcategory: "",
     price: "$4.31",
     image: "https://img.alicdn.com/bao/uploaded/i2/2218868826111/O1CN011UNwXu1v0tNJWo0mX_!!2218868826111.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D861934982129",
@@ -10367,7 +9583,6 @@ const products = [
   {
     name: "RANDOM SCARFS",
     category: "Belts",
-    subcategory: "",
     price: "$1.66",
     image: "https://img.alicdn.com/bao/uploaded/i2/2253296857/O1CN01OpTfX320WYw9Kmmiq_!!2253296857.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D716263709864",
@@ -10389,7 +9604,6 @@ const products = [
   {
     name: "SUPREME X YOHJI YAMAMOTO BEANIE",
     category: "Belts",
-    subcategory: "",
     price: "$6.32",
     image: "https://media.usfans.com/2026/08/24/171816/966bc6d5-7565-47f6-96ef-bbd3a9d19873.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F977726022651.html",
@@ -10411,7 +9625,6 @@ const products = [
   {
     name: "ERD PHONE CASE",
     category: "Belts",
-    subcategory: "",
     price: "$9.80",
     image: "https://img.alicdn.com/bao/uploaded/i1/3423162424/O1CN01Wggm231TmF8aZ3GjJ_!!3423162424.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D952624358286",
@@ -10433,7 +9646,6 @@ const products = [
   {
     name: "SLP BELT",
     category: "Belts",
-    subcategory: "",
     price: "$6-17",
     image: "https://img.alicdn.com/bao/uploaded/i1/2214183518581/O1CN01tWE1tq2DG9kPrHGzc_!!2214183518581.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D988001679714",
@@ -10455,7 +9667,6 @@ const products = [
   {
     name: "VIVIENNE WESTWOOD SCARF",
     category: "Belts",
-    subcategory: "",
     price: "$11.30",
     image: "https://si.geilicdn.com/pcitem1914294265-041a00000193f28e97380a2301b4_1080_1080.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7329545496",
@@ -10466,7 +9677,6 @@ const products = [
   {
     name: "RICK OWENS PHONE CASE",
     category: "Belts",
-    subcategory: "",
     price: "$7.15",
     image: "https://img.alicdn.com/bao/uploaded/i4/62314016/O1CN01pjhmek1fXNbtc3Pls_!!62314016.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D852597407566",
@@ -10477,7 +9687,6 @@ const products = [
   {
     name: "BALENCIAGA PHONE CASE",
     category: "Belts",
-    subcategory: "",
     price: "$2.63",
     image: "https://img.alicdn.com/bao/uploaded/i1/467767632/O1CN01iUDV3a26FVjHHieCH_!!467767632.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D794171203019",
@@ -10499,7 +9708,6 @@ const products = [
   {
     name: "AF1 OFF WHITE",
     category: "Shoes",
-    subcategory: "",
     price: "$61.50",
     image: "https://si.geilicdn.com/open1850717273-1234478995-0d7600000190a94438a10a22d234_1170_808.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7611437475",
@@ -10510,7 +9718,6 @@ const products = [
   {
     name: "AF1 X SYNA WORLD",
     category: "Shoes",
-    subcategory: "",
     price: "$44.55",
     image: "https://media.usfans.com/2026/08/25/153849/321828a2-a23b-4cff-b049-e3ffe479dca5.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7743227946",
@@ -10521,7 +9728,6 @@ const products = [
   {
     name: "VANS OLD SCHOOL SOUVENIR",
     category: "Shoes",
-    subcategory: "",
     price: "$16.62",
     image: "https://si.geilicdn.com/pcitem902062392635-26ca0000019f4670e8630a231177_3024_3024.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7613472323",
@@ -10532,7 +9738,6 @@ const products = [
   {
     name: "RAF SIMONS PHARASUX",
     category: "Shoes",
-    subcategory: "",
     price: "$39.89",
     image: "https://si.geilicdn.com/pcitem902012418622-76130000019c34d1ff370a23913e_1440_1440.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7623083553",
@@ -10554,7 +9759,6 @@ const products = [
   {
     name: "shibuya girl tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.81",
     image: "https://img.alicdn.com/bao/uploaded/i3/2210780923152/O1CN01qNKiOr1Z9fRafpeNv_!!2210780923152.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D903338954164",
@@ -10565,7 +9769,6 @@ const products = [
   {
     name: "XAVIERSOBASED HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$28.07",
     image: "https://img.alicdn.com/bao/uploaded/i4/2212643669335/O1CN018BX8L82IpUOfJNC7P_!!2212643669335.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1019987655598",
@@ -10620,7 +9823,6 @@ const products = [
   {
     name: "PEACEINWAR PINK TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.13",
     image: "https://si.geilicdn.com/wdseller1995625455-58d40000019f1d0b438b0a23c286_1320_1760.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7798589021",
@@ -10642,7 +9844,6 @@ const products = [
   {
     name: "DIOR SS06 HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$42.88",
     image: "https://si.geilicdn.com/wdseller1527017215-5ec9000001a0857d5eb50a2304a0_1180_1572.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7713781628",
@@ -10653,7 +9854,6 @@ const products = [
   {
     name: "DIOR 06SS \"BOY ABOUT HOME\" HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$47.87",
     image: "https://si.geilicdn.com/wdseller1527017215-24d7000001a0857dbaaf0a2394a4_1178_1570.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7539645059",
@@ -10664,7 +9864,6 @@ const products = [
   {
     name: "UNDERCOVER BLUE YARN JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$71.14",
     image: "https://img.alicdn.com/imgextra/i4/275950640/O1CN018JWdRK1GbAYQIsU6Y_!!275950640.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D968509323403",
@@ -10675,7 +9874,6 @@ const products = [
   {
     name: "DIOR CUMMERBUND JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$66.32",
     image: "https://media.usfans.com/2026/09/02/142915/a3c440db-75cf-4e02-a29a-35101fb5efc7.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1062707614818",
@@ -10686,7 +9884,6 @@ const products = [
   {
     name: "UNDERCOVER HEART JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$57.84",
     image: "https://img.alicdn.com/bao/uploaded/i2/2220838465365/O1CN01NHGf1n1pVE1DvdrPR~crop,0,199,2268,3024~_!!2220838465365.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1028244309387",
@@ -10708,7 +9905,6 @@ const products = [
   {
     name: "PEACEINWAR PROTEST HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$38.06",
     image: "https://img.alicdn.com/bao/uploaded/i3/2687803572/O1CN01LqP5TvzIhLJ8gXh0_!!2687803572.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1077472897320",
@@ -10741,7 +9937,6 @@ const products = [
   {
     name: "UPINFLAMES FUR HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$39.89",
     image: "https://si.geilicdn.com/wdseller2073272636-32410000019ee14a175a0a8133cc_1320_1320.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7788530467",
@@ -10763,7 +9958,6 @@ const products = [
   {
     name: "REPRESENT HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$15.79",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN014YkKaJ1wKs7DUTLKp_!!2214989406290-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F693177011096.html",
@@ -10774,7 +9968,6 @@ const products = [
   {
     name: "CORTEIZ BOLO JACKET",
     category: "Jackets",
-    subcategory: "",
     price: "$41.39",
     image: "https://si.geilicdn.com/wdseller2014771294-76350000019f35ee9f7f0a23111a_1320_1320.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7656805164",
@@ -10785,7 +9978,6 @@ const products = [
   {
     name: "CORTEIZ BOLO JACKET CREAM",
     category: "Jackets",
-    subcategory: "",
     price: "$31.42",
     image: "https://si.geilicdn.com/wdseller2078166457-57ab0000019eba8b809d0a207569_1320_1320.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787342970",
@@ -10796,7 +9988,6 @@ const products = [
   {
     name: "TRAPSTAR JACKET BLACK",
     category: "Jackets",
-    subcategory: "",
     price: "$14.80",
     image: "https://si.geilicdn.com/wdseller163498710-10050000018ce91e46400a20e273_1344_1344.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7234124801",
@@ -10829,7 +10020,6 @@ const products = [
   {
     name: "SCUFFERS EFORTLESS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$44.88",
     image: "https://media.usfans.com/2026/08/16/133733/141ebb94-5458-4824-9e8d-56e3440bd865.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1047650488238",
@@ -10840,7 +10030,6 @@ const products = [
   {
     name: "SCUFFERS SNAKE HOODED",
     category: "Hoodies",
-    subcategory: "",
     price: "$46.54",
     image: "https://media.usfans.com/2026/09/09/172152/fa0ccc9e-38fa-4131-ae3c-45e0e669e205.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1061338873312",
@@ -10851,7 +10040,6 @@ const products = [
   {
     name: "Balenciaga cola wave t-shirt",
     category: "Tshirts",
-    subcategory: "",
     price: "$32.91",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/30/5b55067d5dc2560d0fca5c561e71204d.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7645197475",
@@ -10873,7 +10061,6 @@ const products = [
   {
     name: "BALENCIAGA BAT HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$47.87",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/14/67d0560f1ff51ca0c9f258b242203daa.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7638056715",
@@ -10884,7 +10071,6 @@ const products = [
   {
     name: "BURBERRY LINE WAR",
     category: "Hoodies",
-    subcategory: "",
     price: "$56.18",
     image: "https://media.usfans.com/2026/09/09/093641/320b4a9a-abbb-45fe-a93e-f093ba2ec9e8.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7655548311",
@@ -10917,7 +10103,6 @@ const products = [
   {
     name: "BALENCIAGA PARIS WASHED HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$56.18",
     image: "https://media.usfans.com/2026/06/15/173455/fe3734de-aee5-45bc-8ee5-368bccd00f34.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7640943546",
@@ -10928,7 +10113,6 @@ const products = [
   {
     name: "DIOR CD HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$51.19",
     image: "https://media.usfans.com/2026/05/07/154554/56f1f1c3-0d21-426c-a841-4d5603f6c17c.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7637963237",
@@ -10939,7 +10123,6 @@ const products = [
   {
     name: "20471120 HYOMA CAT TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$31.42",
     image: "https://si.geilicdn.com/wdseller1623957871-54970000019fbc7430120a81347d_1200_1200.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7816959457",
@@ -10961,7 +10144,6 @@ const products = [
   {
     name: "HG WHITE SKULL TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$23.11",
     image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01c9HZZo1RR3dw9kq0r_!!2126072107.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1041692340552",
@@ -11126,7 +10308,6 @@ const products = [
   {
     name: "FYRWRLD BELT",
     category: "Belts",
-    subcategory: "",
     price: "$29.92",
     image: "https://img.alicdn.com/bao/uploaded/i2/3324545123/O1CN01cWwbvn1niOBnu1QjS_!!3324545123.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1047144066043",
@@ -11137,7 +10318,6 @@ const products = [
   {
     name: "Gojoyjinni Jeans",
     category: "Pants",
-    subcategory: "",
     price: "$89.42",
     image: "https://img.alicdn.com/bao/uploaded/i3/3511652204/O1CN01hEHqsl1S9U4SgmamD_!!3511652204.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1017792414798",
@@ -11148,7 +10328,6 @@ const products = [
   {
     name: "CINDERVEIN WAXED JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$77.79",
     image: "https://img.alicdn.com/bao/uploaded/i1/2221301785103/O1CN01U5NfmM1nZEFLXyRXM~crop,250,0,1500,2000~_!!2221301785103.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1020277927075",
@@ -11159,7 +10338,6 @@ const products = [
   {
     name: "PEACEINWAR T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.51",
     image: "https://kk-oss-wh-hk.kakobyy.com/whg/202609/11/3acca4edd493349cb7e2b682821a4304.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1044442158590.html",
@@ -11170,7 +10348,6 @@ const products = [
   {
     name: "PATCHWORK HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$36.24",
     image: "https://img.alicdn.com/bao/uploaded/i4/346392213/O1CN01C8XFyx9czmC43lmS_!!346392213.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1073958340785",
@@ -11181,7 +10358,6 @@ const products = [
   {
     name: "RHSU HORNETS",
     category: "Hoodies",
-    subcategory: "",
     price: "$36.40",
     image: "https://si.geilicdn.com/wdseller2018810290-2dd90000019f268f9d100a230417_1320_1760.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7799843995",
@@ -11192,7 +10368,6 @@ const products = [
   {
     name: "ERD WELL OF LONELINESS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$47.54",
     image: "https://si.geilicdn.com/wdseller1399882362-1e520000019bf01e21b60a2303ee_1440_1918.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7674713072",
@@ -11214,7 +10389,6 @@ const products = [
   {
     name: "FYREWRLD JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$55.65",
     image: "https://img.alicdn.com/bao/uploaded/i4/3324545123/O1CN01hjqEJ51niO9xeX8O0_!!3324545123.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1008420373040",
@@ -11225,7 +10399,6 @@ const products = [
   {
     name: "Fyredwrld Red-Ear Scimitar Jeans",
     category: "Pants",
-    subcategory: "",
     price: "$55.68",
     image: "https://img.alicdn.com/bao/uploaded/i3/3324545123/O1CN01rLv1h2x1CrH2b8G8_!!3324545123.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1009171040654",
@@ -11236,7 +10409,6 @@ const products = [
   {
     name: "FYREWRLD MATCHA JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$34.91",
     image: "https://img.alicdn.com/bao/uploaded/i1/3324545123/O1CN01VSP5291niOBqzlNPB_!!3324545123.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1057126369830",
@@ -11247,7 +10419,6 @@ const products = [
   {
     name: "FYRWRLD WORK PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$33.24",
     image: "https://img.alicdn.com/bao/uploaded/i1/3324545123/O1CN01YuIBEd1niOB68Nl1y_!!3324545123.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1044841444329",
@@ -11258,7 +10429,6 @@ const products = [
   {
     name: "FYREWRLD BLACK PLAID JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$56.51",
     image: "https://img.alicdn.com/bao/uploaded/i2/3324545123/O1CN012x3ZUrSi1vI2b8G8_!!3324545123.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1055360375087",
@@ -11269,7 +10439,6 @@ const products = [
   {
     name: "OUR LEGACY JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$54.52",
     image: "https://img.alicdn.com/bao/uploaded/i2/2220317100262/O1CN01KErH2w1Do2uSKcBK0_!!2220317100262.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1050359868586",
@@ -11280,7 +10449,6 @@ const products = [
   {
     name: "NIGHT LAB JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$49.70",
     image: "https://img.alicdn.com/bao/uploaded/i2/2310918540/O1CN016PZmLX2CxNXfnsaxo_!!2310918540.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1051972932555",
@@ -11291,7 +10459,6 @@ const products = [
   {
     name: "VERSCARTES ARMOR JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$38.06",
     image: "https://si.geilicdn.com/wdseller1995625455-639b0000019b929030000a2305d8_1290_1720.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7653085807",
@@ -11302,7 +10469,6 @@ const products = [
   {
     name: "DERSCHUTZE STATUE JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$34.91",
     image: "https://si.geilicdn.com/wdseller1940384309-07020000019f8aedd8ff0a20e2c5_1320_1320.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7528940993",
@@ -11313,7 +10479,6 @@ const products = [
   {
     name: "FLARED SPLATTER JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$24.93",
     image: "https://img.alicdn.com/bao/uploaded/i2/2131899552/O1CN011iBUII2KQsITwHyoe_!!2131899552.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D956353039009",
@@ -11324,7 +10489,6 @@ const products = [
   {
     name: "FIREMADE JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$43.22",
     image: "https://img.alicdn.com/bao/uploaded/i4/3324545123/O1CN01ZYY0Er1niOANU9MEV_!!3324545123.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1019455317195",
@@ -11335,7 +10499,6 @@ const products = [
   {
     name: "RICK OWNES BOLAN JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$35.74",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01T4mmma21EzLqktIXd_!!2213343996954-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1001108954386.html",
@@ -11346,7 +10509,6 @@ const products = [
   {
     name: "MIJKO FLARED",
     category: "Pants",
-    subcategory: "",
     price: "$21.28",
     image: "https://media.usfans.com/2026/09/10/110325/8f805345-a053-48c9-a4f2-d7ce6a6f75d6.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D838557969354",
@@ -11357,7 +10519,6 @@ const products = [
   {
     name: "SUPREME JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$33.24",
     image: "https://media.usfans.com/2026/06/24/164216/3b895de4-16bb-41b9-b8b5-5c5b6574693b.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7723593666",
@@ -11368,7 +10529,6 @@ const products = [
   {
     name: "HYDROGEN JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$25.77",
     image: "https://img.alicdn.com/bao/uploaded/i2/99635133/O1CN01kNqQzf1nmy8LbcCwa_!!99635133.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1030539535672",
@@ -11379,7 +10539,6 @@ const products = [
   {
     name: "CARHART JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$31.58",
     image: "https://si.geilicdn.com/pcitem902071367408-2af20000019e79d22ca10a23041a-unadjust_1085_1097.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7778987860",
@@ -11390,7 +10549,6 @@ const products = [
   {
     name: "RICK OWNES GETH PANTS",
     category: "Pants",
-    subcategory: "",
     price: "$48.04",
     image: "https://img.alicdn.com/bao/uploaded/i2/2206361270119/O1CN01NHKZQ51CkYEtjaA8T_!!2206361270119.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D997819314155",
@@ -11401,7 +10559,6 @@ const products = [
   {
     name: "nofaith flared bootcut jeans",
     category: "Pants",
-    subcategory: "",
     price: "$56.31",
     image: "https://img.alicdn.com/bao/uploaded/i4/2201254611318/O1CN01AB1TH11LbhAZXesid~crop,270,1644,2664,2664~_!!2201254611318.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1067837110535",
@@ -11412,7 +10569,6 @@ const products = [
   {
     name: "greer studio blue hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$36.38",
     image: "https://si.geilicdn.com/wdseller1995625455-7648000001a05d770e7c0a2301af_4275_4278.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7843531621",
@@ -11423,7 +10579,6 @@ const products = [
   {
     name: "GREER STUDIO HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$36.38",
     image: "https://si.geilicdn.com/wdseller1995625455-76c9000001a05d71ab1e0a22d58f_4002_4002.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7843505697",
@@ -11445,7 +10600,6 @@ const products = [
   {
     name: "IDLE TIME MATRIOSHKA HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$39.70",
     image: "https://si.geilicdn.com/wdseller1995625455-65420000019fb73b42f60a23c191_4284_4287.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7818989400",
@@ -11478,7 +10632,6 @@ const products = [
   {
     name: "PEACEINWAR BIG BANG HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$34.72",
     image: "https://si.geilicdn.com/wdseller1995625455-5cb3000001a080cd7bd00a2305d8_4284_4287.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7851143670",
@@ -11489,7 +10642,6 @@ const products = [
   {
     name: "PEACEINWAR JAPAN HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$34.72",
     image: "https://si.geilicdn.com/wdseller1995625455-28c2000001a0424b45f60a23c191_4284_4284.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7842414968",
@@ -11500,7 +10652,6 @@ const products = [
   {
     name: "ACNE STUDIOS SCARF",
     category: "Belts",
-    subcategory: "",
     price: "$4.16",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01nbhDEs1l9Si0AEO86_!!2212822604776-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F659766751240.html",
@@ -11511,7 +10662,6 @@ const products = [
   {
     name: "EXP5 HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$39.61",
     image: "https://si.geilicdn.com/wdseller2018810290-3bfc0000019f12ebf50b0a2305d8_1320_1760.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7797560409",
@@ -11522,7 +10672,6 @@ const products = [
   {
     name: "AMI T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.16",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01ma0MjR1kRUcITBIWY_!!2217704784680-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F877510826217.html",
@@ -11533,7 +10682,6 @@ const products = [
   {
     name: "BALENCIAGA KIM TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$36.61",
     image: "https://si.geilicdn.com/wdseller1756130041-5c3b0000019aaf46bf800a239646_3486_4305.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7614050531",
@@ -11555,7 +10703,6 @@ const products = [
   {
     name: "ALUREHOPE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$34.78",
     image: "https://si.geilicdn.com/pcitem2023274866-4363000001a07589ee060a207569_2800_2800.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7849749048",
@@ -11610,7 +10757,6 @@ const products = [
   {
     name: "MAYBACH PEN",
     category: "Belts",
-    subcategory: "",
     price: "$1.67",
     image: "https://img.alicdn.com/bao/uploaded/i1/4003234698/O1CN01k7cSEw1kZjm1NGMTz_!!4003234698.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.html%3Fid%3D925009201520",
@@ -11621,7 +10767,6 @@ const products = [
   {
     name: "evisu x palace cherry blossom tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.32",
     image: "https://media.usfans.com/2026/08/31/163404/4245f6c3-8318-4c9f-8115-ca55adf7d0ae.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7775938655",
@@ -11643,7 +10788,6 @@ const products = [
   {
     name: "hysteric glamour newspaper tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.81",
     image: "https://img.alicdn.com/bao/uploaded/i1/2219741768392/O1CN012QFZDa2Brav38Itn3_!!2219741768392.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1046280788559",
@@ -11654,7 +10798,6 @@ const products = [
   {
     name: "hysteric glamour adventures tee best",
     category: "Tshirts",
-    subcategory: "",
     price: "$19.81",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN011vTIsM1RR3e4avsKh_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1045742968147",
@@ -11665,7 +10808,6 @@ const products = [
   {
     name: "hysteric glamour jukebox tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.81",
     image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01NdKtc91RR3exsEI6v_!!2126072107.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1059988827388",
@@ -11676,7 +10818,6 @@ const products = [
   {
     name: "hysteric kurt tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$23.13",
     image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01y4MHWm1RR3eS1jT8a_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1050427871733",
@@ -11687,7 +10828,6 @@ const products = [
   {
     name: "hysteric glamour hysteric time tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.47",
     image: "https://img.alicdn.com/bao/uploaded/i4/2126072107/O1CN01cbcpJR1RR3eAxfEVE_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1048116612994",
@@ -11698,7 +10838,6 @@ const products = [
   {
     name: "hysteric glamour destroyer tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.81",
     image: "https://img.alicdn.com/bao/uploaded/i3/2126072107/O1CN01NeLTub1RR3e061f9y_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1044864953168",
@@ -11709,7 +10848,6 @@ const products = [
   {
     name: "hysteric glamour star tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$26.64",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN016RXcwn1RR3fK1VDM6_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1069895560891",
@@ -11731,7 +10869,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR WHITE SKULL HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$46.43",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01CXSaLd1RR3eNjEsLQ_!!2126072107.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1051838724939",
@@ -11742,7 +10879,6 @@ const products = [
   {
     name: "Carcass Surgical Tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$18.31",
     image: "https://img.alicdn.com/bao/uploaded/i4/2216358447865/O1CN01hBnmmh27yEDMY93UW_!!2216358447865.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1047624445289",
@@ -11753,7 +10889,6 @@ const products = [
   {
     name: "undercover war is peace tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$6.49",
     image: "https://si.geilicdn.com/wdseller1776599220-794b000001a076561af30a20e672_1200_1600.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7849826958",
@@ -11775,7 +10910,6 @@ const products = [
   {
     name: "ERL VAMP SHOES",
     category: "Shoes",
-    subcategory: "",
     price: "$94.69",
     image: "https://img.alicdn.com/bao/uploaded/i1/2217802793950/O1CN01AY2MDB1f39ZaHOtan_!!2217802793950.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1006390725481",
@@ -11786,7 +10920,6 @@ const products = [
   {
     name: "HYSTERIC GLAMOUR BELT",
     category: "Girls",
-    subcategory: "",
     price: "$8.81",
     image: "https://img.alicdn.com/bao/uploaded/i2/2126072107/O1CN01h6j6zf1RR3bslTIJ5_!!2126072107.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D990111196122",
@@ -11797,7 +10930,6 @@ const products = [
   {
     name: "MAISON MARGIELA TABI",
     category: "Girls",
-    subcategory: "",
     price: "$49.92",
     image: "https://si.geilicdn.com/pcitem901953596047-200700000197a86def970a20e7c7_1080_1440.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7614431574",
@@ -11808,7 +10940,6 @@ const products = [
   {
     name: "CHLOE PADDINGTON BAG",
     category: "Girls",
-    subcategory: "",
     price: "$26.30",
     image: "https://img.alicdn.com/bao/uploaded/i3/3210546292/O1CN01v8SRUY1wLn7zrStH3_!!3210546292.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D963125015361",
@@ -11819,7 +10950,6 @@ const products = [
   {
     name: "CALVIN KLEIN UNDERWEAR",
     category: "Girls",
-    subcategory: "",
     price: "$15.81",
     image: "https://si.geilicdn.com/open1847561709-1234478995-04850000019639a3b02f0aa0834c_2560_2560.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7449119934",
@@ -11830,7 +10960,6 @@ const products = [
   {
     name: "LULULEMON CROPPED JACKET",
     category: "Girls",
-    subcategory: "",
     price: "$36.31",
     image: "https://si.geilicdn.com/open1769158365-252808396-682c0000019808df97cc0a8115c2_1000_1000.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7509826426",
@@ -11841,7 +10970,6 @@ const products = [
   {
     name: "LULULEMON LUON JACKET",
     category: "Girls",
-    subcategory: "",
     price: "$38.32",
     image: "https://si.geilicdn.com/pcitem1956155466-1d9b0000019d8c746c050a2396f4_960_949.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7523207086",
@@ -11852,7 +10980,6 @@ const products = [
   {
     name: "FUR JACKET",
     category: "Girls",
-    subcategory: "",
     price: "$48.59",
     image: "https://img.alicdn.com/bao/uploaded/i1/777583091/O1CN0131LScc1YhjFk75Syi_!!777583091.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D856966755428",
@@ -11863,7 +10990,6 @@ const products = [
   {
     name: "UGG LOWMEL",
     category: "Girls",
-    subcategory: "",
     price: "$29.26",
     image: "https://si.geilicdn.com/pcitem902012418622-00a20000019fd0cd9f400a2304aa_1440_1440.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7615231442",
@@ -11874,7 +11000,6 @@ const products = [
   {
     name: "VINTAGE JEANS",
     category: "Girls",
-    subcategory: "",
     price: "$47.93",
     image: "https://img.alicdn.com/bao/uploaded/i2/2206846405350/O1CN01jq3eOw1pOM0zdSErS_!!2206846405350.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D938011676096",
@@ -11885,7 +11010,6 @@ const products = [
   {
     name: "RICK OWNES LEATHER JACKET",
     category: "Girls",
-    subcategory: "",
     price: "$21.30",
     image: "https://media.usfans.com/2026/09/16/112215/87acd687-dce1-4a7a-99c8-fd17d7dd2a20.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F936618194824.html",
@@ -11896,7 +11020,6 @@ const products = [
   {
     name: "MIU MIU ZIP UP",
     category: "Girls",
-    subcategory: "",
     price: "$19.54",
     image: "https://media.usfans.com/2026/08/12/174321/0bcaa12a-40c3-4fb5-8c6c-2af7ef213d0f.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F855490321326.html",
@@ -11907,7 +11030,6 @@ const products = [
   {
     name: "MIU MIU JACKET",
     category: "Girls",
-    subcategory: "",
     price: "$22.97",
     image: "https://cdn.doppel.fit/WO-pQ3ZBZiNcbagouo8KgMcpVULc_9HrIq9QEYCXnSI/rs:fill:1920/q:85/f:webp/MTY4OC84NDA5ODAxOTY5MTQvbXljbmJveF8xMzAyMTgyNjkyL3dhdGVybWFya2VkL21wZzV0bmJnXzJtaDIud2VicA",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F840980196914.html",
@@ -11918,7 +11040,6 @@ const products = [
   {
     name: "BOOTCUT JEANS",
     category: "Girls",
-    subcategory: "",
     price: "$13.07",
     image: "https://cdn.doppel.fit/UYD3Y_UmCVknJ50gUIWxZ_1Uy4XJOHJ4Px7LpJHl-8w/rs:fill:1920/q:85/f:webp/VEFPQkFPLzg5MTU3NTc5NzA5Ny9hY2J1eV8yZWYwZDVjNjE0MmZmL3dhdGVybWFya2VkL3BkYV8xNzY5MzA4MzMzNjU2OTJBRjA0MEItNzQyRi00NEQwLUE2QzUtRTFDNzE5MkZEQzA5LndlYnA",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D891575797097",
@@ -11929,7 +11050,6 @@ const products = [
   {
     name: "undercover double swirl portrait tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.82",
     image: "https://img.alicdn.com/bao/uploaded/i1/2219806430381/O1CN01GcJaCB1EgY1xddCWY_!!2219806430381.heic",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D940912405471",
@@ -11940,7 +11060,6 @@ const products = [
   {
     name: "HYOMA PANDA TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$29.77",
     image: "https://img.alicdn.com/bao/uploaded/i2/2216391452427/O1CN01qUiLUmDLd6G2Rogo_!!2216391452427.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1081222421691",
@@ -11951,7 +11070,6 @@ const products = [
   {
     name: "2026 distressed washed jeans",
     category: "Pants",
-    subcategory: "",
     price: "$26.45",
     image: "https://img.alicdn.com/bao/uploaded/i2/2131899552/O1CN01TrhOjF2KQsBPuYE9L_!!2131899552.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D802877141317",
@@ -11962,7 +11080,6 @@ const products = [
   {
     name: "TABBIC VINTAGE LOOSE JANS",
     category: "Pants",
-    subcategory: "",
     price: "$29.61",
     image: "https://img.alicdn.com/bao/uploaded/i2/2222255986096/O1CN01W5nfKL1uu1Ywdc9IG~crop,223,314,1418,1891~_!!2222255986096.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1047482163715",
@@ -11973,7 +11090,6 @@ const products = [
   {
     name: "Blaexit Paris Bootcut jeans",
     category: "Pants",
-    subcategory: "",
     price: "$22.90",
     image: "https://img.alicdn.com/bao/uploaded/i4/2208117102724/O1CN018Phm3j1Vze20pa8R0_!!2208117102724.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D800058872631",
@@ -11984,7 +11100,6 @@ const products = [
   {
     name: "Vg Homme 08Ss Blood-Stained jeans",
     category: "Pants",
-    subcategory: "",
     price: "$47.90",
     image: "https://img.alicdn.com/bao/uploaded/i3/2210299185015/O1CN011q76oIrHEFI5ZQrD_!!2210299185015.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1070324933047",
@@ -12017,7 +11132,6 @@ const products = [
   {
     name: "asian girl tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.96",
     image: "https://img.alicdn.com/bao/uploaded/i3/346392213/O1CN01LaAklk1SDbPuWxq6F_!!346392213.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D767520783896",
@@ -12039,7 +11153,6 @@ const products = [
   {
     name: "SAINT LAURENT MALIBU HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$66.11",
     image: "https://img.alicdn.com/bao/uploaded/i2/2200736549757/O1CN01fcUb1o2LwlYFcddwK_!!2200736549757.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1049118896190",
@@ -12050,7 +11163,6 @@ const products = [
   {
     name: "SLP HOODIES",
     category: "Hoodies",
-    subcategory: "",
     price: "$32.06",
     image: "https://img.alicdn.com/bao/uploaded/i1/2214183518581/O1CN010KGJUB2DG9k5GFvnB_!!2214183518581.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D989985856937",
@@ -12072,7 +11184,6 @@ const products = [
   {
     name: "HEAT BULLETPROOF TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.94",
     image: "https://img.alicdn.com/bao/uploaded/i1/2218252751209/O1CN01TbCjVJ1KnlqBJfUrO_!!2218252751209.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D841983022398",
@@ -12083,7 +11194,6 @@ const products = [
   {
     name: "dark distressed & washed hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$16.28",
     image: "https://img.alicdn.com/bao/uploaded/i3/2218252751209/O1CN01oVVJqQ1KnlqY7JyhK_!!2218252751209.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D847516441642",
@@ -12094,7 +11204,6 @@ const products = [
   {
     name: "AK47 T-SHIRTS",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.94",
     image: "https://img.alicdn.com/bao/uploaded/i3/2218252751209/O1CN01bKFWNr1KnlxmLtoWV_!!2218252751209.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1014871091490",
@@ -12105,7 +11214,6 @@ const products = [
   {
     name: "RANDOM BLUE TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.94",
     image: "https://img.alicdn.com/bao/uploaded/i4/2218252751209/O1CN01Gjb6AU1KnlxiMF8Ir_!!2218252751209.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1013543227979",
@@ -12116,7 +11224,6 @@ const products = [
   {
     name: "RANDOM STARS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$9.94",
     image: "https://img.alicdn.com/bao/uploaded/i4/2218252751209/O1CN01tnOM961Knlxt8sP1M_!!2218252751209.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1022409356026",
@@ -12127,7 +11234,6 @@ const products = [
   {
     name: "trythm club hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$16.95",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01WtG7Lr1ju3eiqurls_!!2215844974607-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F820481883072.html",
@@ -12138,7 +11244,6 @@ const products = [
   {
     name: "SCUFFERS [BUDGET]",
     category: "Hoodies",
-    subcategory: "",
     price: "$28.74",
     image: "https://img.alicdn.com/bao/uploaded/i1/2143400835/O1CN01IvjAdd1I2TrHZEVZ4_!!2143400835.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1000326104674",
@@ -12149,7 +11254,6 @@ const products = [
   {
     name: "NUMBER NINE SOVC [BUDGET]",
     category: "Hoodies",
-    subcategory: "",
     price: "$29.72",
     image: "https://img.alicdn.com/bao/uploaded/i3/2212643669335/O1CN01IyuZnM2IpUGjDR1Gi_!!2212643669335.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D838245331655",
@@ -12171,7 +11275,6 @@ const products = [
   {
     name: "helmut lang motorcycle jacket",
     category: "Jackets",
-    subcategory: "",
     price: "$74.42",
     image: "https://img.alicdn.com/bao/uploaded/i2/2207431618838/O1CN01z0FPp32F9rQO3xGrZ_!!2207431618838.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D839772160733",
@@ -12182,7 +11285,6 @@ const products = [
   {
     name: "helmut lang waxed denim jacke",
     category: "Jackets",
-    subcategory: "",
     price: "$89.37",
     image: "https://img.alicdn.com/bao/uploaded/i3/2207431618838/O1CN01bdsseJ2F9rYNQAU2t_!!2207431618838.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1024435701596",
@@ -12193,7 +11295,6 @@ const products = [
   {
     name: "christmast nike socks",
     category: "Underwear",
-    subcategory: "",
     price: "$2.06",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01sKuCOZ1W63ViAEtAk_!!2220481152738-0-cib.jpg",
     linkKakobuy: "https://usfans.com/product/1/964133267807?ref=TX9V9N",
@@ -12204,7 +11305,6 @@ const products = [
   {
     name: "(3 PAIR) adidas socks",
     category: "Underwear",
-    subcategory: "",
     price: "$4.82",
     image: "https://si.geilicdn.com/open1847561709-1234478995-1e250000019639412cf50a23b491_800_800.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7447131555",
@@ -12215,7 +11315,6 @@ const products = [
   {
     name: "NIKE NBA SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$3.31",
     image: "https://si.geilicdn.com/pcitem1944479080-252f00000198a81c53030a207569_1276_1276.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7525030163",
@@ -12226,7 +11325,6 @@ const products = [
   {
     name: "(6 PACK) CK SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$5.82",
     image: "https://si.geilicdn.com/pcitem1944479080-061b0000019a672ba5120a239646_1276_1276.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7600482508",
@@ -12237,7 +11335,6 @@ const products = [
   {
     name: "3 pairs nike x nocta socks",
     category: "Underwear",
-    subcategory: "",
     price: "$8.14",
     image: "https://si.geilicdn.com/pcitem901541691039-26aa0000017e4793650c0a22e17f_1080_1080.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7592514845",
@@ -12248,7 +11345,6 @@ const products = [
   {
     name: "TRAVIS SCOTT SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$0.77",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01fMmH4w1XbU0T4s22l_!!4272442942-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F661778775436.html",
@@ -12259,7 +11355,6 @@ const products = [
   {
     name: "MASTERMIND SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$1.47",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01ilcWim1RHRHRdGqoq_!!2220176752086-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F972396816819.html",
@@ -12270,7 +11365,6 @@ const products = [
   {
     name: "THOM BROWNE SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$1.70",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01AUGBz41RHRI9nuW69_!!2220176752086-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F987192051624.html",
@@ -12281,7 +11375,6 @@ const products = [
   {
     name: "YORI BOXERS",
     category: "Underwear",
-    subcategory: "",
     price: "$4.77",
     image: "https://si.geilicdn.com/weidian1468816995-6d8b0000019874bf59d00a811411_750_1000.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7519832781",
@@ -12292,7 +11385,6 @@ const products = [
   {
     name: "[BUDGET] NIKE NOCTA SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$1.50",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01XyrP7T2BXthm9AdUG_!!2215386608349-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F714075609703.html",
@@ -12303,7 +11395,6 @@ const products = [
   {
     name: "onrunning socks",
     category: "Underwear",
-    subcategory: "",
     price: "$1.17",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01bEAsL31HqZSpInjVj_!!2218864280809-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F909401749379.html",
@@ -12314,7 +11405,6 @@ const products = [
   {
     name: "YEEZY DESERT BOOTS",
     category: "Shoes",
-    subcategory: "",
     price: "$74.75",
     image: "https://si.geilicdn.com/open1733523732-1234478995-635800000193833ebbaa0a8115b5_1180_1770.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fshop1614983740.v.weidian.com%2Fitem.html%3FitemID%3D7780503541%26wfr%3Dc%26source%3Dgoods_home%26ifr%3Ditemdetail%26sfr%3Dapp",
@@ -12325,7 +11415,6 @@ const products = [
   {
     name: "undercover beaded ghost hand jeans",
     category: "Pants",
-    subcategory: "",
     price: "$61.13",
     image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01PLv5071CUylckBJ6k_!!2025450085.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D990510654397",
@@ -12347,7 +11436,6 @@ const products = [
   {
     name: "NENET TSHIRTS (A LOT OF CW)",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.62",
     image: "https://img.alicdn.com/bao/uploaded/i4/282429573/O1CN01b9vC4w2KaUCB2QWHl_!!282429573.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D637531994309",
@@ -12358,7 +11446,6 @@ const products = [
   {
     name: "RIPPED FLARED JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$27.91",
     image: "https://img.alicdn.com/bao/uploaded/i4/2131899552/O1CN017pUVqf2KQsIKm0OB7_!!2131899552.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D952842650129",
@@ -12369,7 +11456,6 @@ const products = [
   {
     name: "RICK OWENS BANANA CUTS",
     category: "Pants",
-    subcategory: "",
     price: "$79.60",
     image: "https://si.geilicdn.com/wdseller2087598183-3c86000001a0af5d62a90a2103bd_1173_1564.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7856821142",
@@ -12391,7 +11477,6 @@ const products = [
   {
     name: "celine youth knight poem",
     category: "Hoodies",
-    subcategory: "",
     price: "$49.73",
     image: "https://si.geilicdn.com/wdseller1635581967-38cc0000019fd710eee90a2396f4_1206_1608.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7823165268",
@@ -12402,7 +11487,6 @@ const products = [
   {
     name: "Undercover07Aw Fang tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.47",
     image: "https://img.alicdn.com/bao/uploaded/i3/2215647843546/O1CN01L57TLPb3zmJ2OPw7_!!2215647843546.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1058888526044",
@@ -12424,7 +11508,6 @@ const products = [
   {
     name: "MARTY SUPREME JACKET",
     category: "Jackets",
-    subcategory: "",
     price: "$66.52",
     image: "https://media.usfans.com/2026/09/20/155411/f83295be-4db7-402e-8f90-20f3b93ff8f7.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D1064922259106",
@@ -12435,7 +11518,6 @@ const products = [
   {
     name: "cdg rollin stones tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.97",
     image: "https://media.usfans.com/2026/09/15/110701/15eb93bb-c375-4ac0-a779-7045c01d491e.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1068371871904",
@@ -12446,7 +11528,6 @@ const products = [
   {
     name: "BAPE X CDG TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.30",
     image: "https://cdn11.bigcommerce.com/s-e2ftvydejy/images/stencil/1280x1280/products/13323/74449/BAPE-x-Comme-des-Garcons-Osaka-1-Tee-Black__37390.1657580235.jpg?c=1?imbypass=on",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7688092762",
@@ -12457,7 +11538,6 @@ const products = [
   {
     name: "bape x cdg (colorful) tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.48",
     image: "https://images.stockx.com/images/BAPE-x-CDG-Osaka-Tee-SS25-White.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1746034109",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7714740944",
@@ -12490,7 +11570,6 @@ const products = [
   {
     name: "EVISU SHORTS (3CW)",
     category: "Shorts",
-    subcategory: "",
     price: "$26.61",
     image: "https://us.evisu.com/cdn/shop/files/2ESHTM6DS1211RXDN-BLDD_m1_6f342680-7289-46aa-b162-b3312fdafc44.jpg?v=1772518731&width=1180",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7807775770",
@@ -12501,7 +11580,6 @@ const products = [
   {
     name: "Jeremy Scott x adidas money",
     category: "Shoes",
-    subcategory: "",
     price: "$39.92",
     image: "https://si.geilicdn.com/pcitem902084712424-32380000019fe5c754740a21146b_1440_1440.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7824634200",
@@ -12512,7 +11590,6 @@ const products = [
   {
     name: "Jeremy Scott x Adidas high",
     category: "Shoes",
-    subcategory: "",
     price: "$44.74",
     image: "https://si.geilicdn.com/wdseller1985969299-0e830000019f857fb0bd0a230417_3510_4431.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7809935489",
@@ -12523,7 +11600,6 @@ const products = [
   {
     name: "maison margiela high gats",
     category: "Shoes",
-    subcategory: "",
     price: "$99.62",
     image: "https://img.alicdn.com/bao/uploaded/i3/1101571305/O1CN012Uq66agMJlG4tdMC_!!1101571305.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1085701557743",
@@ -12534,7 +11610,6 @@ const products = [
   {
     name: "maison margiela cuban chain links",
     category: "Shoes",
-    subcategory: "",
     price: "$131.05",
     image: "https://img.alicdn.com/bao/uploaded/i1/2210299185015/O1CN01OXgCxkPhXPC8SorO~crop,23,0,3909,5213~_!!2210299185015.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1080491485761",
@@ -12545,7 +11620,6 @@ const products = [
   {
     name: "Saint Laurent SL/10H Sneaker",
     category: "Shoes",
-    subcategory: "",
     price: "$149.51",
     image: "https://si.geilicdn.com/wdseller1674667562-4cae0000019ee6ce58420a22d535_1290_1247.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7770981995",
@@ -12556,7 +11630,6 @@ const products = [
   {
     name: "Saint Laurent SL/08H Sneaker",
     category: "Shoes",
-    subcategory: "",
     price: "$64.53",
     image: "https://img.alicdn.com/bao/uploaded/i4/1991699106/O1CN01Humo5K2H8biMza92l_!!1991699106.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D947936617129",
@@ -12567,7 +11640,6 @@ const products = [
   {
     name: "Rick Owens Taped Ramones",
     category: "Shoes",
-    subcategory: "",
     price: "$98.45",
     image: "https://si.geilicdn.com/pcitem1348580183-1e8500000197793656830a23047e_1280_1280.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7459124307",
@@ -12578,7 +11650,6 @@ const products = [
   {
     name: "af1 independece day",
     category: "Shoes",
-    subcategory: "",
     price: "$32.93",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01OQy27Z2Crsl10kddo_!!2219709768528-0-cib.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F999893201747.html",
@@ -12589,7 +11660,6 @@ const products = [
   {
     name: "JORDAN 13",
     category: "Shoes",
-    subcategory: "",
     price: "$79.83",
     image: "https://si.geilicdn.com/wdseller2075017176-49060000019e930173a70a23037f_1179_1179.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7780080519",
@@ -12600,7 +11670,6 @@ const products = [
   {
     name: "AF1 MID",
     category: "Shoes",
-    subcategory: "",
     price: "$28.28",
     image: "https://si.geilicdn.com/pcitem1238871281-29610000019d4f91967a0a20e284-unadjust_600_600.gif",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7233879757",
@@ -12611,7 +11680,6 @@ const products = [
   {
     name: "SHOX CDG (DRAGON)",
     category: "Shoes",
-    subcategory: "",
     price: "$31.60",
     image: "https://i.ebayimg.com/images/g/HLcAAOSwv9RloIaL/s-l1200.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7648018582",
@@ -12622,7 +11690,6 @@ const products = [
   {
     name: "JORDAN 8",
     category: "Shoes",
-    subcategory: "",
     price: "$66.52",
     image: "https://si.geilicdn.com/open1850717273-1234478995-17c100000192e18e9ea80a210559_1074_1074.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7611453519",
@@ -12633,7 +11700,6 @@ const products = [
   {
     name: "AF1 SKELETON",
     category: "Shoes",
-    subcategory: "",
     price: "$44.91",
     image: "https://si.geilicdn.com/open1619761113-1234478995-45310000018eadb99df60a8115b5-unadjust_600_600.png",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7232477311",
@@ -12754,7 +11820,6 @@ const products = [
   {
     name: "RALPH LAUREN SHIRT",
     category: "Tshirts",
-    subcategory: "",
     price: "$19.63",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01Wq3CKw29V2BSjpPzP_!!2222475048072-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1052321437148.html",
@@ -12765,7 +11830,6 @@ const products = [
   {
     name: "BUDGET CHROME HEARTS JEANS",
     category: "Pants",
-    subcategory: "",
     price: "$22.46",
     image: "https://si.geilicdn.com/wdseller1303790680-455300000182baaf68520a20e2c5_1284_1284.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7563971401",
@@ -12776,7 +11840,6 @@ const products = [
   {
     name: "HOMIXIDE HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$27.94",
     image: "https://img.alicdn.com/bao/uploaded/i2/2212643669335/O1CN01DfXSor2IpUF162zGd_!!2212643669335.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D809413007423",
@@ -12787,7 +11850,6 @@ const products = [
   {
     name: "IG BRAND HOODIE #1",
     category: "Hoodies",
-    subcategory: "",
     price: "$16.44",
     image: "https://img.alicdn.com/bao/uploaded/i1/2218252751209/O1CN01ehR2kt1Knlxfhs8E6_!!2218252751209.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1014889186645",
@@ -12798,7 +11860,6 @@ const products = [
   {
     name: "fascination ends hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$18.12",
     image: "https://img.alicdn.com/bao/uploaded/i3/2218252751209/O1CN01U6nyP61KnlrmwsGmi_!!2218252751209.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D866833955006",
@@ -12809,7 +11870,6 @@ const products = [
   {
     name: "IG BRAND HOODIE #2",
     category: "Hoodies",
-    subcategory: "",
     price: "$16.44",
     image: "https://img.alicdn.com/bao/uploaded/i2/2218252751209/O1CN01DWvZbu1KnlxTrdLBm_!!2218252751209.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1008430845677",
@@ -12831,7 +11891,6 @@ const products = [
   {
     name: "make america 2016 again hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$16.47",
     image: "https://img.alicdn.com/bao/uploaded/i4/2208782615098/O1CN01X6N00l1nWwF9BfubH_!!2208782615098.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D989541717156",
@@ -12842,7 +11901,6 @@ const products = [
   {
     name: "rick owens vans (leather)",
     category: "Shoes",
-    subcategory: "",
     price: "$83",
     image: "https://img.alicdn.com/bao/uploaded///img.alicdn.com/imgextra/i2/2073165527/O1CN01bES3bg1qhPwdzQXr6_!!2073165527.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D744570330907",
@@ -12853,7 +11911,6 @@ const products = [
   {
     name: "RICK OWENS RAMONES HIGH",
     category: "Shoes",
-    subcategory: "",
     price: "$88",
     image: "https://img.alicdn.com/bao/uploaded/i3/2073165527/O1CN01485J8C1qhPwUphXp2_!!2073165527.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D743123887757",
@@ -12864,7 +11921,6 @@ const products = [
   {
     name: "RICK OWENS JUMBO LACE",
     category: "Shoes",
-    subcategory: "",
     price: "$86.31",
     image: "https://img.alicdn.com/bao/uploaded/i4/2073165527/O1CN01JL2OQR1qhPwYGBH7M_!!2073165527.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D743011642576",
@@ -12875,7 +11931,6 @@ const products = [
   {
     name: "RICK OWENS RAMONES (leather)",
     category: "Shoes",
-    subcategory: "",
     price: "$83",
     image: "https://img.alicdn.com/bao/uploaded/i1/2073165527/O1CN01eUiyqN1qhQBVDtcG1_!!2073165527.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1033419326067",
@@ -12886,7 +11941,6 @@ const products = [
   {
     name: "RICK OWENS HEXAGON",
     category: "Shoes",
-    subcategory: "",
     price: "$73.01",
     image: "https://img.alicdn.com/bao/uploaded/i3/2073165527/O1CN01mthpbK1qhQ9yaVoNj_!!2073165527.png",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D992971499327",
@@ -12908,12 +11962,10 @@ const products = [
   {
     name: "junya watanabe frankenstein tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$21.29",
     image: "https://img.alicdn.com/bao/uploaded/i3/2220863143615/O1CN01Sf8AF9E0f7HEPAJW_!!2220863143615.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1061604017205",
     linkUsfans: "https://usfans.com/product/2/NodTwOQmJBjCT4Eia93p9MrcqrwUwx_NBWJV3lxeomrsFkQWfuJfbbQ?ref=TX9V9N",
-    tag: "",
     rating: 5
   },
   {
@@ -12930,29 +11982,24 @@ const products = [
   {
     name: "nenet scarf",
     category: "Belts",
-    subcategory: "",
     price: "$4.98",
     image: "https://img.alicdn.com/bao/uploaded/i2/63095227/TB2SQ.3oOMnBKNjSZFoXXbOSFXa_!!63095227.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D869262432351",
     linkUsfans: "https://usfans.com/product/2/REcqjWScfLyB_YEladY1VMfWYsFDt-1qXkoxWbHBTUHvHhLb6C3D-Q?ref=TX9V9N",
-    tag: "",
     rating: 5
   },
   {
     name: "RAF SIMONS POLTERGEIST HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$49.73",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01QxNpG2EB0gK2NHou_!!2025450085.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1080099673409",
     linkUsfans: "https://usfans.com/product/2/PV9kC7nwL79VV4t1ByTSYKsQPEBRWM_4YTElNeAIJM4aglE-BKc2xLs?ref=TX9V9N",
-    tag: "",
     rating: 5
   },
   {
     name: "Idependent undercover tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.47",
     image: "https://img.alicdn.com/bao/uploaded/i2/1885602090/O1CN01Uz1n331RJGvEWmQti~crop,150,0,1350,1800~_!!1885602090.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1056629421834",
@@ -12963,7 +12010,6 @@ const products = [
   {
     name: "number nine 'extra heavy' tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$24.62",
     image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01ER3DLB1CUyocBrp6X~crop,0,267,1200,1200~_!!2025450085.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1065024488978",
@@ -12974,7 +12020,6 @@ const products = [
   {
     name: "raf simons solemn x tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$27.94",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01uD047F1CUyngNjT6w_!!2025450085.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1045403564544",
@@ -12985,7 +12030,6 @@ const products = [
   {
     name: "hba half face tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$27.94",
     image: "https://img.alicdn.com/bao/uploaded/i3/82460901/O1CN01cD8n0h1IWhz1fcBbE_!!82460901.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1030817607134",
@@ -13007,7 +12051,6 @@ const products = [
   {
     name: "TIMBERLAND X CH",
     category: "Shoes",
-    subcategory: "",
     price: "$79.54 - $112.13",
     image: "https://si.geilicdn.com/weidian901995075041-623600000199d77d73380a2304aa_1280_1280.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7571998884",
@@ -13029,7 +12072,6 @@ const products = [
   {
     name: "timberland veneda carter",
     category: "Shoes",
-    subcategory: "",
     price: "$81.33",
     image: "https://si.geilicdn.com/wdseller1748043198-68d10000019b993dbc350a23111a_1280_1280.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7657440668",
@@ -13128,7 +12170,6 @@ const products = [
   {
     name: "margiela gats (white)",
     category: "Shoes",
-    subcategory: "",
     price: "$68.02",
     image: "https://i.pinimg.com/564x/e3/b1/e8/e3b1e8049bfc9f3894fd4d2e26b7902f.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D1081083290058",
@@ -13139,7 +12180,6 @@ const products = [
   {
     name: "margiela gats (black)",
     category: "Shoes",
-    subcategory: "",
     price: "$68.02",
     image: "https://img.alicdn.com/bao/uploaded/i3/2223054845092/O1CN014BD6aiSkmjG2eHNi_!!2223054845092.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1083187792507",
@@ -13150,7 +12190,6 @@ const products = [
   {
     name: "margiela gats (full black)",
     category: "Shoes",
-    subcategory: "",
     price: "$68.02",
     image: "https://img.alicdn.com/bao/uploaded/i1/2223054845092/O1CN01qJIUkUOWLjB1nX8G_!!2223054845092.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1082167341399",
@@ -13161,7 +12200,6 @@ const products = [
   {
     name: "nike blazer off white",
     category: "Shoes",
-    subcategory: "",
     price: "$64.86",
     image: "https://si.geilicdn.com/open1733523732-1234478995-5c9800000193b35545fe0a8115b5_960_961.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7780529395",
@@ -13172,7 +12210,6 @@ const products = [
   {
     name: "peaceinwar haunted house jeans",
     category: "Pants",
-    subcategory: "",
     price: "$36.42",
     image: "https://si.geilicdn.com/wdseller1995625455-3031000001a094a5872e0a23b54f_4284_4287.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7850292615",
@@ -13194,7 +12231,6 @@ const products = [
   {
     name: "Dior Homme 03ss Follow Me Clawmarks",
     category: "Pants",
-    subcategory: "",
     price: "$66.48",
     image: "https://media.usfans.com/upload/ori/2026/09/24/151943/4465c6da-68d6-4949-bdfe-28dae4cc31c9.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fe.tb.cn%2Fh.7ve1EpScs51kAz2%3Ftk%3DvmSmUlGujq8",
@@ -13205,7 +12241,6 @@ const products = [
   {
     name: "ihatestars hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$13.17",
     image: "https://si.geilicdn.com/wdseller1995625455-0bd90000019e15ebf1190a210247_3025_3026.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7763208968",
@@ -13216,7 +12251,6 @@ const products = [
   {
     name: "peaceinwar canada tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.17",
     image: "https://si.geilicdn.com/wdseller1995625455-1e2f000001a095bef4330a240147_4284_4287.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7850400253",
@@ -13227,29 +12261,24 @@ const products = [
   {
     name: "BALENCIAGA BOXERS",
     category: "Underwear",
-    subcategory: "",
     price: "$6.49",
     image: "https://si.geilicdn.com/wdseller1553898455-412000000189e9f5c3d70a20e35c_1284_1257.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D6542818689",
     linkUsfans: "https://usfans.com/product/3/6542818689?ref=TX9V9N",
-    tag: "",
     rating: 5
   },
   {
     name: "OPIUM YVL BOXERS",
     category: "Underwear",
-    subcategory: "",
     price: "$4.99",
     image: "https://img.alicdn.com/bao/uploaded/i1/909482473/O1CN01iKLjf21U8gWmJTHGk_!!909482473.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D925823613689",
     linkUsfans: "https://usfans.com/product/2/pNIpYocnzsLpX7TLIXLhF0V5I4bgcSrCBwratifaoGSLBamDhkMsPw?ref=TX9V9N",
-    tag: "",
     rating: 5
   },
   {
     name: "CH SOCKS",
     category: "Underwear",
-    subcategory: "",
     price: "$1.82",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01u4Es3w24ucB3BdZHZ_!!2220566547451-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F978838664623.html",
@@ -13260,7 +12289,6 @@ const products = [
   {
     name: "exp5 gradient hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$42.99",
     image: "https://si.geilicdn.com/wdseller2018810290-21050000019f0e3cbbdc0a2304a0_1320_1760.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7796633011",
@@ -13271,7 +12299,6 @@ const products = [
   {
     name: "ym diamond black jeans",
     category: "Pants",
-    subcategory: "",
     price: "$46.49",
     image: "https://si.geilicdn.com/wdseller2018810290-09190000019f4a6c2e2d0a23c1e0_1320_1760.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7807382794",
@@ -13282,7 +12309,6 @@ const products = [
   {
     name: "EXP5 George Jacket-Plaid",
     category: "Jackets",
-    subcategory: "",
     price: "$48.15",
     image: "https://si.geilicdn.com/wdseller2018810290-122a0000019ef9ba780e0a210247_1320_1760.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7794579401",
@@ -13293,7 +12319,6 @@ const products = [
   {
     name: "exp5 multicolor hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$39.66",
     image: "https://si.geilicdn.com/wdseller2018810290-4dd10000019fe1ee1f920a23b6ac_1320_1760.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7821433913",
@@ -13304,7 +12329,6 @@ const products = [
   {
     name: "EXP5 WASHED TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$18.16",
     image: "https://si.geilicdn.com/wdseller2018810290-11400000019e49d12dc90a22d58f_1320_1760.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7772405728",
@@ -13315,7 +12339,6 @@ const products = [
   {
     name: "stone island hoodies",
     category: "Hoodies",
-    subcategory: "",
     price: "$29.99",
     image: "https://si.geilicdn.com/pcitem1329468934-395d0000019961e360730a210256_2560_1920.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7630848358",
@@ -13326,7 +12349,6 @@ const products = [
   {
     name: "stone island sweaters",
     category: "Hoodies",
-    subcategory: "",
     price: "$36.66",
     image: "https://si.geilicdn.com/pcitem1329468934-0f5a0000019856021efe0a23057e-unadjust_962_764.png",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7627770471&affcode=archivee",
@@ -13337,7 +12359,6 @@ const products = [
   {
     name: "stone island fleece hoodies",
     category: "Hoodies",
-    subcategory: "",
     price: "$36.66",
     image: "https://si.geilicdn.com/pcitem1329468934-31b50000019a5cd1a6b90a23038e_2560_2560.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7630909656&affcode=archivee",
@@ -13348,7 +12369,6 @@ const products = [
   {
     name: "stone island soft shell jacket",
     category: "Jackets",
-    subcategory: "",
     price: "$43.32",
     image: "https://media.usfans.com/upload/ori/2026/10/09/102247/3197cf1e-2f17-421a-85d6-9de4801e5e4f.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785789292&affcode=archivee",
@@ -13359,7 +12379,6 @@ const products = [
   {
     name: "number nine fender hoodie (black)",
     category: "Hoodies",
-    subcategory: "",
     price: "$41.32",
     image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01m2epc31CUyldAknO3_!!2025450085.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D990517666261&affcode=archivee",
@@ -13370,7 +12389,6 @@ const products = [
   {
     name: "number nine striped jeans",
     category: "Pants",
-    subcategory: "",
     price: "$44.82",
     image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01VbbXb3gWFZK1WPjS_!!2025450085.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D903285937614&affcode=archivee",
@@ -13381,7 +12399,6 @@ const products = [
   {
     name: "CLOUDTILT",
     category: "Shoes",
-    subcategory: "",
     price: "$43.32",
     image: "https://si.geilicdn.com/pcitem901878883297-33af0000019faccb1f2e0a2396f4_1440_1440.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7817542998&affcode=archivee",
@@ -13392,7 +12409,6 @@ const products = [
   {
     name: "BAPESTA [LINK 2]",
     category: "Shoes",
-    subcategory: "",
     price: "$25",
     image: "https://si.geilicdn.com/pcitem902012928833-36490000019bc5f5d10f0a239846_1074_1074.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7622106470&affcode=archivee",
@@ -13403,7 +12419,6 @@ const products = [
   {
     name: "AIR YEEZY 2",
     category: "Shoes",
-    subcategory: "",
     price: "$119.96",
     image: "https://si.geilicdn.com/wdseller1909199332-0d280000019be571c81b0a23138d_2560_2560.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7334181985",
@@ -13414,29 +12429,24 @@ const products = [
   {
     name: "ASICS GEL KAHANA 8",
     category: "Shoes",
-    subcategory: "",
     price: "$28",
     image: "https://si.geilicdn.com/pcitem902045249308-2e670000019dae45836d0a8132bd_3024_3024.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7699697228&affcode=archivee",
     linkUsfans: "https://usfans.com/product/3/7699697228?ref=TX9V9N",
-    tag: "",
     rating: 5
   },
   {
     name: "ASICS GEL 1130",
     category: "Shoes",
-    subcategory: "",
     price: "$29.66",
     image: "https://si.geilicdn.com/pcitem901870080011-5bdd0000019784c11aa00a239646_1440_1440.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7703922718&affcode=archivee",
     linkUsfans: "https://usfans.com/product/3/7703922718?ref=TX9V9N",
-    tag: "",
     rating: 5
   },
   {
     name: "BALENCIAGA 10XL",
     category: "Shoes",
-    subcategory: "",
     price: "$61.28",
     image: "https://si.geilicdn.com/pcitem1710010242-44c1000001983716dd330a20e273_3072_3072.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7227681077&affcode=archivee",
@@ -13447,7 +12457,6 @@ const products = [
   {
     name: "BALENCIAGA STAPLER",
     category: "Shoes",
-    subcategory: "",
     price: "$62.93",
     image: "https://si.geilicdn.com/pcitem1710010242-3d5000000198370b0ad70a23037f_3072_3072.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7266112493&affcode=archivee",
@@ -13458,7 +12467,6 @@ const products = [
   {
     name: "NUMBERIS [BUDGET]",
     category: "Shoes",
-    subcategory: "",
     price: "$29.66",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN019j97uw1dCC9YpPJ55_!!2220059103699-0-cib.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F972250196381.html&affcode=archivee",
@@ -13491,7 +12499,6 @@ const products = [
   {
     name: "gucci chateau marmont hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$57.98",
     image: "https://img.alicdn.com/bao/uploaded/i4/2220863143615/O1CN01sgGbQzAMqYF3VX04_!!2220863143615.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1073540898333&affcode=archivee",
@@ -13513,7 +12520,6 @@ const products = [
   {
     name: "revenge hoodie [budget]",
     category: "Hoodies",
-    subcategory: "",
     price: "$24.66",
     image: "https://img.alicdn.com/bao/uploaded/i4/2196894558/O1CN017jJZWi1jXc99YdSZv_!!2196894558.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D653778439915&affcode=archivee",
@@ -13524,7 +12530,6 @@ const products = [
   {
     name: "denim tears hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$49.65",
     image: "https://media.usfans.com/upload/ori/2026/10/08/192955/4b331f7f-7caf-4291-adbd-0f7189a4ff36.jpg?x-oss-process=image/auto-orient,1/watermark,image_d2F0ZXJtYXJrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzIw,g_ne,x_1,y_20",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1001952763181&affcode=archivee",
@@ -13535,7 +12540,6 @@ const products = [
   {
     name: "denim tears sweatpants",
     category: "Pants",
-    subcategory: "",
     price: "$44.65",
     image: "https://media.usfans.com/2026/10/08/104648/21e56f20-69fc-41a7-ad7d-d46ac624dd4a.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1001967311797&affcode=archivee",
@@ -13546,7 +12550,6 @@ const products = [
   {
     name: "denim tears tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.33",
     image: "https://media.usfans.com/2026/09/10/115241/91fc67ab-7dbe-48cc-b137-1ceecdee4d8c.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1002599406861&affcode=archivee",
@@ -13557,7 +12560,6 @@ const products = [
   {
     name: "denim tears shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$28",
     image: "https://media.usfans.com/2026/08/28/145844/2a93bff6-8607-4fab-87ae-4e80fcd42573.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1004136388105&affcode=archivee",
@@ -13579,7 +12581,6 @@ const products = [
   {
     name: "ultralight rainbow letters tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.50",
     image: "https://si.geilicdn.com/wdseller2073272636-49980000019fb9c30e8f0a2394a4_1320_1320.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7816445873&affcode=archivee",
@@ -13612,7 +12613,6 @@ const products = [
   {
     name: "deputy red lips hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$26.66",
     image: "https://si.geilicdn.com/wdseller2073272636-051f0000019f9cfa3f380a2301af_2560_2560.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7812948869&affcode=archivee",
@@ -13623,7 +12623,6 @@ const products = [
   {
     name: "mutimer ballet tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.83",
     image: "https://si.geilicdn.com/wdseller2073272636-114d0000019f4d0841ea0a20e2c5_1320_1320.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7805019117&affcode=archivee",
@@ -13634,7 +12633,6 @@ const products = [
   {
     name: "mutimer chair tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.17",
     image: "https://si.geilicdn.com/wdseller2073272636-6cea0000019f38a5a6fa0a239646_1320_1320.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7804643178&affcode=archivee",
@@ -13656,7 +12654,6 @@ const products = [
   {
     name: "vszn paparazzi tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.17",
     image: "https://si.geilicdn.com/wdseller2088921286-7dfb0000019fb98cc1c20a2315ef_1280_1280.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7816391863&affcode=archivee",
@@ -13667,7 +12664,6 @@ const products = [
   {
     name: "exp5 watch tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.50",
     image: "https://si.geilicdn.com/pcitem2088921286-56f00000019fa882c3c90a23041a-unadjust_990_964.png",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7817202504&affcode=archivee",
@@ -13678,7 +12674,6 @@ const products = [
   {
     name: "exp5 plaid button shirt",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.17",
     image: "https://si.geilicdn.com/pcitem2088921286-33980000019fa87ea3310a23111a-unadjust_962_986.png",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7814186695&affcode=archivee",
@@ -13689,7 +12684,6 @@ const products = [
   {
     name: "exp5 brick belt",
     category: "Belts",
-    subcategory: "",
     price: "$27.49",
     image: "https://si.geilicdn.com/pcitem2088921286-016f0000019fa889b5080a20e273-unadjust_822_838.png",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7814182847&affcode=archivee",
@@ -13700,7 +12694,6 @@ const products = [
   {
     name: "reaven tears tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.50",
     image: "https://si.geilicdn.com/pcitem2088921286-39b30000019fa88c4bc50a230115-unadjust_988_986.png",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7814060965&affcode=archivee",
@@ -13711,7 +12704,6 @@ const products = [
   {
     name: "ESSENTIALS 25SS 24FW HOODIES",
     category: "Hoodies",
-    subcategory: "",
     price: "$23.66",
     image: "https://si.geilicdn.com/pcitem2077227601-64620000019ea75d97590a230115_900_1201.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784864283",
@@ -13722,7 +12714,6 @@ const products = [
   {
     name: "broken planet love u hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$34.82",
     image: "https://si.geilicdn.com/wdseller211957776-21ba0000019f1ff12ce00a20e284_1204_1204.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop211957776.v.weidian.com%2Fitem.html%3FitemID%3D7801980342",
@@ -13733,7 +12724,6 @@ const products = [
   {
     name: "tech fleece 2025 shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$33.16",
     image: "https://si.geilicdn.com/pcitem2065060864-15640000019f3d401ad90a23047e-unadjust_815_786.png",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7773108745",
@@ -13755,7 +12745,6 @@ const products = [
   {
     name: "essentials 26ss hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$23.66",
     image: "https://si.geilicdn.com/pcitem2077227601-3a2f0000019fd6c177680a23037f_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7820251359",
@@ -13766,7 +12755,6 @@ const products = [
   {
     name: "essentials 25SS polo Fleece",
     category: "Hoodies",
-    subcategory: "",
     price: "$23.66",
     image: "https://si.geilicdn.com/pcitem2077227601-4ecd0000019ea75dac110a20e7c7_900_1201.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784913809",
@@ -13777,7 +12765,6 @@ const products = [
   {
     name: "essentials 21ss hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$21.16",
     image: "https://si.geilicdn.com/pcitem2077227601-4f080000019ea736500d0a8132bd_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787005238",
@@ -13788,7 +12775,6 @@ const products = [
   {
     name: "essentials 25SP Hoodie metallic-logo",
     category: "Hoodies",
-    subcategory: "",
     price: "$23.66",
     image: "https://si.geilicdn.com/pcitem2077227601-7e900000019ea764500b0a2303ee_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784918723",
@@ -13799,7 +12785,6 @@ const products = [
   {
     name: "essentials 2021SS Union X FOG",
     category: "Hoodies",
-    subcategory: "",
     price: "$21.66",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN0143DFPB1qHJXvu18Te_!!2219381645470-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F942998213755.html",
@@ -13810,7 +12795,6 @@ const products = [
   {
     name: "ESSENTIALS 24SS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$23.66",
     image: "https://si.geilicdn.com/pcitem2077227601-5c350000019ea758ceb60a20e284_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784857079",
@@ -13821,7 +12805,6 @@ const products = [
   {
     name: "ESSENTIALS 24SS Nylon Fleece Hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$25.33",
     image: "https://si.geilicdn.com/pcitem2077227601-3b6f0000019ea75a06a30a231177_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784938201",
@@ -13832,7 +12815,6 @@ const products = [
   {
     name: "ESSENTIALS 23SS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$21.16",
     image: "https://si.geilicdn.com/pcitem2077227601-27220000019ea73349360a207569_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7782556961",
@@ -13843,7 +12825,6 @@ const products = [
   {
     name: "ESSENTIALS 24SU HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$23.66",
     image: "https://si.geilicdn.com/pcitem2077227601-5c350000019ea758ceb60a20e284_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784857079",
@@ -13854,7 +12835,6 @@ const products = [
   {
     name: "ESSENTIALS 23SS Black Core Collection Hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$20.33",
     image: "https://si.geilicdn.com/pcitem2077227601-761f0000019ea7669ecd0a23037f_1600_2400.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7788510204",
@@ -13865,7 +12845,6 @@ const products = [
   {
     name: "ESSENTIALS 2021SS Core HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$21.16",
     image: "https://si.geilicdn.com/pcitem2077227601-43b00000019ea73cefcd0a81347d_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787068248",
@@ -13876,7 +12855,6 @@ const products = [
   {
     name: "ESSENTIALS 25SS 24FW Hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$23.66",
     image: "https://si.geilicdn.com/pcitem2077227601-2e750000019ea75d99290a20e672_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784864283",
@@ -13887,7 +12865,6 @@ const products = [
   {
     name: "ESSENTIALS 24FW-State Hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$27",
     image: "https://si.geilicdn.com/pcitem2077227601-586d0000019ea755a8e80a210256_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7786664123",
@@ -13898,7 +12875,6 @@ const products = [
   {
     name: "ESSENTIALS 22SS-Hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$21.16",
     image: "https://si.geilicdn.com/pcitem2077227601-0be90000019ea25cfaa00a8133cc-unadjust_800_800.png",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7781917165",
@@ -13909,7 +12885,6 @@ const products = [
   {
     name: "ESSENTIALS 19SS HOODIE",
     category: "Hoodies",
-    subcategory: "",
     price: "$21.16",
     image: "https://si.geilicdn.com/pcitem2077227601-12920000019eb65023540a811411_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7786984630",
@@ -13920,7 +12895,6 @@ const products = [
   {
     name: "essentials 20SS hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$21.16",
     image: "https://si.geilicdn.com/pcitem2077227601-48f90000019ea73ace870a2396f4_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787054196",
@@ -13942,7 +12916,6 @@ const products = [
   {
     name: "essentials 23fw hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$23.66",
     image: "https://si.geilicdn.com/pcitem2077227601-7ad90000019ea76890930a8133cc_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7782631851",
@@ -13953,7 +12926,6 @@ const products = [
   {
     name: "ESSENTIALS 26SS SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$20.33",
     image: "https://si.geilicdn.com/pcitem2077227601-359e0000019fd6c1cbfb0a81347d_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7820035529",
@@ -13964,7 +12936,6 @@ const products = [
   {
     name: "essentials 25ss nba sweatpants",
     category: "Pants",
-    subcategory: "",
     price: "$22.50",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01pIsm3428s6WFpS5ni_!!2216476787987-0-cib.jpg?__r__=1779345936445",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1067489366757.html",
@@ -13975,7 +12946,6 @@ const products = [
   {
     name: "essentials sp25 metalic logo sweatpants",
     category: "Pants",
-    subcategory: "",
     price: "$20.33",
     image: "https://si.geilicdn.com/pcitem2077227601-38220000019ea7648d3f0a20e672_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7788009804",
@@ -13986,7 +12956,6 @@ const products = [
   {
     name: "essentials 19SS-PatchPants",
     category: "Pants",
-    subcategory: "",
     price: "$21.66",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01gX2Tfh1qHJXvepbYU_!!2219381645470-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F942388634734.html",
@@ -13997,7 +12966,6 @@ const products = [
   {
     name: "essentials 22SS-Sweatpants",
     category: "Pants",
-    subcategory: "",
     price: "$17.83",
     image: "https://si.geilicdn.com/pcitem2077227601-117c0000019f02e918090a239646-unadjust_800_800.png",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7798571124",
@@ -14008,7 +12976,6 @@ const products = [
   {
     name: "essentials 24ss sweatpants",
     category: "Pants",
-    subcategory: "",
     price: "$20.33",
     image: "https://si.geilicdn.com/pcitem2077227601-0beb0000019ea75a11830a21146b_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787870792",
@@ -14019,7 +12986,6 @@ const products = [
   {
     name: "essentials 21SS CORE SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$17.83",
     image: "https://si.geilicdn.com/pcitem2077227601-44300000019ea73cf2fd0a8133cc_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787068248",
@@ -14030,7 +12996,6 @@ const products = [
   {
     name: "essentials 24FW25SS Sweatpants",
     category: "Pants",
-    subcategory: "",
     price: "$20.33",
     image: "https://si.geilicdn.com/pcitem2077227601-6de90000019ea75da4010a23038e_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784901987",
@@ -14041,7 +13006,6 @@ const products = [
   {
     name: "ESSENTIALS 24FW SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$22.83",
     image: "https://si.geilicdn.com/pcitem2077227601-59770000019ea755ba210a230115_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7786622713",
@@ -14052,7 +13016,6 @@ const products = [
   {
     name: "essentials 22SS SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$17.83",
     image: "https://si.geilicdn.com/pcitem2077227601-4d510000019ea6ce83120a210256-unadjust_800_800.png",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784894562",
@@ -14063,7 +13026,6 @@ const products = [
   {
     name: "essentials 23ss sweatpants",
     category: "Pants",
-    subcategory: "",
     price: "$17.83",
     image: "https://si.geilicdn.com/pcitem2077227601-311c0000019ea733838b0a20e284_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785505514",
@@ -14074,7 +13036,6 @@ const products = [
   {
     name: "essentials 20ss sweatpants",
     category: "Pants",
-    subcategory: "",
     price: "$17.83",
     image: "https://si.geilicdn.com/pcitem2077227601-43ad0000019ea73c3f610a23047e_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784018833",
@@ -14085,7 +13046,6 @@ const products = [
   {
     name: "essentials 21SS SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$17.83",
     image: "https://si.geilicdn.com/pcitem2077227601-5f140000019eb69960900a22d1a4_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784072251",
@@ -14096,7 +13056,6 @@ const products = [
   {
     name: "essentials 22FW SWEATPANTS",
     category: "Pants",
-    subcategory: "",
     price: "$17.83",
     image: "https://si.geilicdn.com/pcitem2077227601-1b220000019ea7320c280a20e7c7_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784867592",
@@ -14107,7 +13066,6 @@ const products = [
   {
     name: "essentials 1977 sweatpants",
     category: "Pants",
-    subcategory: "",
     price: "$17.83",
     image: "https://si.geilicdn.com/pcitem2077227601-58d20000019ea6d146a70a23047e_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784937260",
@@ -14118,7 +13076,6 @@ const products = [
   {
     name: "essentials 22SS relaxed pants",
     category: "Pants",
-    subcategory: "",
     price: "$17.83",
     image: "https://si.geilicdn.com/pcitem2077227601-5d360000019ea6ce93b60a2396f4_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7781925577",
@@ -14129,7 +13086,6 @@ const products = [
   {
     name: "essentials 25AS sweatpants",
     category: "Pants",
-    subcategory: "",
     price: "$20.33",
     image: "https://si.geilicdn.com/pcitem2077227601-3ee80000019ea75c8b4f0a231177_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784839271",
@@ -14140,7 +13096,6 @@ const products = [
   {
     name: "essentials 23fw sweatpants CLOUD",
     category: "Pants",
-    subcategory: "",
     price: "$20.33",
     image: "https://si.geilicdn.com/pcitem2077227601-7efb0000019ea76899d60a22d535_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785633754",
@@ -14151,7 +13106,6 @@ const products = [
   {
     name: "essentials 22SS-1977Sweatpants",
     category: "Pants",
-    subcategory: "",
     price: "$17.83",
     image: "https://si.geilicdn.com/pcitem2077227601-4fb80000019ea6d13ba40a20e284_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784958888",
@@ -14162,7 +13116,6 @@ const products = [
   {
     name: "essentials 26ss tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.67",
     image: "https://si.geilicdn.com/pcitem2077227601-2e350000019fd6c10e490a230115_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7820271157",
@@ -14173,7 +13126,6 @@ const products = [
   {
     name: "essentials nba tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.33",
     image: "https://si.geilicdn.com/pcitem2077227601-698e0000019ecfbe79cf0a23038e_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7786619699",
@@ -14184,7 +13136,6 @@ const products = [
   {
     name: "essentials 23fw v-neck",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.67",
     image: "https://si.geilicdn.com/pcitem2077227601-7b710000019ea768f2690a23047e_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785624274",
@@ -14195,7 +13146,6 @@ const products = [
   {
     name: "essentials 25sp metalic tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.67",
     image: "https://si.geilicdn.com/pcitem2077227601-7bfb0000019ea76406250a2396f4_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7788003972",
@@ -14206,7 +13156,6 @@ const products = [
   {
     name: "essentials 21ss union x fog tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.83",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01jCHNdW1qHJXtoATFA_!!2219381645470-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F943525752959.html",
@@ -14217,7 +13166,6 @@ const products = [
   {
     name: "essentials 2019 fg tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.83",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01aEsPkY1qHJXujwvAc_!!2219381645470-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F942999205665.html",
@@ -14228,7 +13176,6 @@ const products = [
   {
     name: "essentials 19ss tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.50",
     image: "https://si.geilicdn.com/pcitem2077227601-5ea30000019eb6573f990a8132bd_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7786947158",
@@ -14239,7 +13186,6 @@ const products = [
   {
     name: "essentials 24SU tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.33",
     image: "https://si.geilicdn.com/pcitem2077227601-52970000019ea758b4780a207569_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787892888",
@@ -14250,7 +13196,6 @@ const products = [
   {
     name: "essentials 24SU BASIC TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$8.83",
     image: "https://si.geilicdn.com/pcitem2077227601-31ff0000019f02de6f9f0a8132bd_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7795616339",
@@ -14261,7 +13206,6 @@ const products = [
   {
     name: "essentials 22SS tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.50",
     image: "https://si.geilicdn.com/pcitem2077227601-282a0000019f02e8ff300a23038e-unadjust_800_800.png",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7798614534",
@@ -14272,7 +13216,6 @@ const products = [
   {
     name: "essentials 23SS tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.67",
     image: "https://si.geilicdn.com/pcitem2077227601-7c9c0000019ea766aa460a22d535_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785464783",
@@ -14283,7 +13226,6 @@ const products = [
   {
     name: "essentials 25AS tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.67",
     image: "https://si.geilicdn.com/pcitem2077227601-5e110000019ea75c72f60a23057e_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784825319",
@@ -14294,7 +13236,6 @@ const products = [
   {
     name: "essentials 25SS 24FW TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.67",
     image: "https://si.geilicdn.com/pcitem2077227601-5fd00000019ea75d8ae20a23057e_900_1201.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787811388",
@@ -14305,7 +13246,6 @@ const products = [
   {
     name: "essentials 24SS HEAVY TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.33",
     image: "https://si.geilicdn.com/pcitem2077227601-5c590000019ea758ad120a210256_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787892888",
@@ -14316,7 +13256,6 @@ const products = [
   {
     name: "essentials 2022SS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.50",
     image: "https://si.geilicdn.com/pcitem2077227601-4b980000019ea6ccebd50a20e284-unadjust_800_800.png",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7781940983",
@@ -14327,7 +13266,6 @@ const products = [
   {
     name: "essentials 23SS TEE",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.50",
     image: "https://si.geilicdn.com/pcitem2077227601-391c0000019ea73350650a81347d_3024_3024.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785594188",
@@ -14338,7 +13276,6 @@ const products = [
   {
     name: "essentials 22fw tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.50",
     image: "https://si.geilicdn.com/pcitem2077227601-2f3f0000019ea731d9c60a20e284_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7782014471",
@@ -14349,7 +13286,6 @@ const products = [
   {
     name: "essentials 22fw big logo",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.50",
     image: "https://si.geilicdn.com/pcitem2077227601-26260000019ea731db440a20e273-unadjust_800_800.png",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785275738",
@@ -14360,7 +13296,6 @@ const products = [
   {
     name: "essentials 24ss tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.67",
     image: "https://si.geilicdn.com/pcitem2077227601-6c010000019ea758aad30a2396f4_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787823514",
@@ -14371,7 +13306,6 @@ const products = [
   {
     name: "essentials 24fw tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$12.50",
     image: "https://si.geilicdn.com/pcitem2077227601-5adb0000019ea75070930a8133cc_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7786650313",
@@ -14382,7 +13316,6 @@ const products = [
   {
     name: "essentials 20ss tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.50",
     image: "https://si.geilicdn.com/pcitem2077227601-2fb60000019ea73a9bd10a20e273_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787008250",
@@ -14393,7 +13326,6 @@ const products = [
   {
     name: "essentials 23fw cloud tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.67",
     image: "https://si.geilicdn.com/pcitem2077227601-785b0000019ea76867860a23037f_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7782578615",
@@ -14404,7 +13336,6 @@ const products = [
   {
     name: "essentials 1977 2022ss tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.50",
     image: "https://si.geilicdn.com/pcitem2077227601-115a0000019ea6cea00d0a22d1a4-unadjust_800_800.png",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7782027827",
@@ -14415,7 +13346,6 @@ const products = [
   {
     name: "essentials 21ss tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$10.50",
     image: "https://si.geilicdn.com/pcitem2077227601-2fb60000019ea73a9bd10a20e273_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787008250",
@@ -14426,7 +13356,6 @@ const products = [
   {
     name: "essentials 26ss shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$13",
     image: "https://si.geilicdn.com/pcitem2077227601-2ff00000019fd6c228640a230115_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7820283099",
@@ -14437,7 +13366,6 @@ const products = [
   {
     name: "essentials 1977 terry shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$12.17",
     image: "https://si.geilicdn.com/pcitem2077227601-2d6d0000019ea73ab5650a2102c5_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7810515984",
@@ -14448,7 +13376,6 @@ const products = [
   {
     name: "essentials 25sp metalic shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$13",
     image: "https://si.geilicdn.com/pcitem2077227601-30590000019ea76423f80a22d1a4_3000_4652.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787994136",
@@ -14459,7 +13386,6 @@ const products = [
   {
     name: "essentials 24ss running shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$13",
     image: "https://si.geilicdn.com/pcitem2077227601-75fd0000019ea758c4880a23041a_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784885093",
@@ -14470,7 +13396,6 @@ const products = [
   {
     name: "essentials 2022ss shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$12.17",
     image: "https://si.geilicdn.com/pcitem2077227601-3d7c0000019f02e907c60a8132bd-unadjust_800_800.png",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7795582799",
@@ -14481,7 +13406,6 @@ const products = [
   {
     name: "essentials 25as shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$13",
     image: "https://si.geilicdn.com/pcitem2077227601-259e0000019ea75c79e00a22d1a4_2362_2362.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784876693",
@@ -14492,7 +13416,6 @@ const products = [
   {
     name: "essentials 22fw shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$12.17",
     image: "https://si.geilicdn.com/pcitem2077227601-05290000019ea731eb020a811411-unadjust_800_800.png",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7781976637",
@@ -14503,7 +13426,6 @@ const products = [
   {
     name: "essentials 24fw shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$15.50",
     image: "https://si.geilicdn.com/pcitem2077227601-5a500000019ea75084230a81347d_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7789575248",
@@ -14514,7 +13436,6 @@ const products = [
   {
     name: "essentials 21ss union x fog shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$15",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01KcFHnS1qHJXwOoNNQ_!!2219381645470-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F943563992413.html",
@@ -14525,7 +13446,6 @@ const products = [
   {
     name: "essentials 22ss shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$12.17",
     image: "https://si.geilicdn.com/pcitem2077227601-113a0000019ea6ce7d670a22d1a4_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784932792",
@@ -14536,7 +13456,6 @@ const products = [
   {
     name: "essentials 23ss shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$12.17",
     image: "https://si.geilicdn.com/pcitem2077227601-02af0000019ea7337b060a2304aa_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7785601876",
@@ -14547,7 +13466,6 @@ const products = [
   {
     name: "essentials 20ss shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$12.17",
     image: "https://si.geilicdn.com/pcitem2077227601-2d6d0000019ea73ab5650a2102c5_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784014935",
@@ -14558,7 +13476,6 @@ const products = [
   {
     name: "essentials 24ss shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$13",
     image: "https://si.geilicdn.com/pcitem2077227601-32c60000019ea758bd0b0a20e2c5_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784938117",
@@ -14569,7 +13486,6 @@ const products = [
   {
     name: "essentials 23fw cloud shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$13",
     image: "https://si.geilicdn.com/pcitem2077227601-01d30000019ea76876b90a2396f4_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7782610173",
@@ -14580,7 +13496,6 @@ const products = [
   {
     name: "essentials 2021ss shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$12.17",
     image: "https://si.geilicdn.com/pcitem2077227601-33e40000019ea73639e70a20e284_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784009299",
@@ -14591,7 +13506,6 @@ const products = [
   {
     name: "essentials 24su running shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$13",
     image: "https://si.geilicdn.com/pcitem2077227601-75fd0000019ea758c4880a23041a_800_800.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7784885093",
@@ -14613,7 +13527,6 @@ const products = [
   {
     name: "hysteric glamour stoner hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$49.65",
     image: "https://img.alicdn.com/bao/uploaded/i4/2222150862801/O1CN01cHDrJO8okAC1WPjS_!!2222150862801.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1075542814122",
@@ -14624,7 +13537,6 @@ const products = [
   {
     name: "nofaith sun faded jeans",
     category: "Pants",
-    subcategory: "",
     price: "$39.82",
     image: "https://img.alicdn.com/bao/uploaded/i1/2172884485/O1CN01uy4yLW1j0BTIjWAZU_!!2172884485.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1011512349028",
@@ -14635,7 +13547,6 @@ const products = [
   {
     name: "mm6 belt [budget]",
     category: "Belts",
-    subcategory: "",
     price: "$2.15",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01Q1ZHN91f7jPVuBZCe_!!2217492963960-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F833218047485.html",
@@ -14646,7 +13557,6 @@ const products = [
   {
     name: "hysteric glamour snake tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$29.83",
     image: "https://img.alicdn.com/bao/uploaded/i1/2126072107/O1CN01Syi3Cd1RR3eB3VtxJ~crop,0,0,1280,1706~_!!2126072107.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1047234629527",
@@ -14657,7 +13567,6 @@ const products = [
   {
     name: "lgb shorts",
     category: "Shorts",
-    subcategory: "",
     price: "$26.49",
     image: "https://img.alicdn.com/bao/uploaded/i3/2212554637278/O1CN01bQ3TxX23dNhs6hPrO_!!2212554637278.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1051106981587",
@@ -14668,7 +13577,6 @@ const products = [
   {
     name: "givenchy tee [budget]",
     category: "Tshirts",
-    subcategory: "",
     price: "$13",
     image: "https://img.alicdn.com/bao/uploaded/i1/1055132907/O1CN01m3Lsrb1XLSK69Ouyg_!!1055132907.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D803346454328",
@@ -14701,7 +13609,6 @@ const products = [
   {
     name: "peaceinwar nwo tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.17",
     image: "https://si.geilicdn.com/wdseller1995625455-30850000019ffa6b4e8b0a23b5fa_4284_4287.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7830707426",
@@ -14712,7 +13619,6 @@ const products = [
   {
     name: "peaceinwar little danmu te",
     category: "Tshirts",
-    subcategory: "",
     price: "$17.50",
     image: "https://si.geilicdn.com/wdseller1995625455-78430000019f654edea10a2102b1_3025_3026.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7807155889",
@@ -14723,7 +13629,6 @@ const products = [
   {
     name: "peaceinwar hand painted war te",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.17",
     image: "https://si.geilicdn.com/wdseller1995625455-497a0000019f655082560a23c1e0_3025_3026.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7807122441",
@@ -14745,7 +13650,6 @@ const products = [
   {
     name: "peaceinwar pocket war hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$34.82",
     image: "https://si.geilicdn.com/wdseller1995625455-345a000001a04249700c0a23b4f4_4284_4287.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7842151478",
@@ -14756,7 +13660,6 @@ const products = [
   {
     name: "peaceinwar blossom hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$34.82",
     image: "https://si.geilicdn.com/wdseller1995625455-5658000001a02895f4c50a23010f_4284_4287.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7838033888",
@@ -14767,7 +13670,6 @@ const products = [
   {
     name: "peaceinwar international hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$39.82",
     image: "https://si.geilicdn.com/wdseller1995625455-20700000019f65534fdc0a23c191_3025_3026.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7810083176",
@@ -14778,7 +13680,6 @@ const products = [
   {
     name: "peaceinwar nuke sweatpants",
     category: "Pants",
-    subcategory: "",
     price: "$38.16",
     image: "https://si.geilicdn.com/wdseller1995625455-352a000001a0289431ed0a23138d_4284_4287.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7838075772",
@@ -14789,7 +13690,6 @@ const products = [
   {
     name: "peaceinwar canada sweatpants",
     category: "Pants",
-    subcategory: "",
     price: "$36.49",
     image: "https://si.geilicdn.com/wdseller1995625455-7605000001a0289836330a23b5fa_4284_4287.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7837965018",
@@ -14800,7 +13700,6 @@ const products = [
   {
     name: "bape tshirt (a lot of cw)",
     category: "Tshirts",
-    subcategory: "",
     price: "$7.51",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01iDsZUU1zbJHzkwHeU_!!2217703186732-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F817960081214.html",
@@ -14811,7 +13710,6 @@ const products = [
   {
     name: "cdg play tee [budget]",
     category: "Tshirts",
-    subcategory: "",
     price: "$3.51",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01FDAlK31YhjK14jYog_!!2215788503091-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F780676363975.html",
@@ -14833,7 +13731,6 @@ const products = [
   {
     name: "ISABEL MARANT",
     category: "Shoes",
-    subcategory: "",
     price: "$71.73",
     image: "https://si.geilicdn.com/pcitem902087794413-4786000001a07848e9bc0a20e672_1440_1920.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7847045635",
@@ -14844,7 +13741,6 @@ const products = [
   {
     name: "undercover card tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$16.54",
     image: "https://si.geilicdn.com/wdseller1744067351-50240000019f98e6b1990a20e273_1180_1572.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7812736781",
@@ -14855,7 +13751,6 @@ const products = [
   {
     name: "jellycat pendant",
     category: "Belts",
-    subcategory: "",
     price: "$2.33",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01YB9JxY1yl6Hb5ZGu9_!!2221368666618-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1016947587881.html",
@@ -14877,7 +13772,6 @@ const products = [
   {
     name: "stone island phone case",
     category: "Belts",
-    subcategory: "",
     price: "$0.50",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01w8XikE2AnBLXI61gR_!!2218570258247-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F837404564540.html",
@@ -14888,7 +13782,6 @@ const products = [
   {
     name: "RIMOWA PHONE CASE",
     category: "Belts",
-    subcategory: "",
     price: "$9.02",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01oXl1lr233CNl2ejWx_!!2220920547199-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F995353028712.html",
@@ -14899,7 +13792,6 @@ const products = [
   {
     name: "nocta phone case",
     category: "Belts",
-    subcategory: "",
     price: "$0.59",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01HktNig1ui7Dn74Z4f_!!2218874636070-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F992186045488.html",
@@ -14910,7 +13802,6 @@ const products = [
   {
     name: "tnf phone case",
     category: "Belts",
-    subcategory: "",
     price: "$0.59",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01IEjcS41IEqJ5jVvOI_!!2215151140862-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F746209479716.html",
@@ -14921,7 +13812,6 @@ const products = [
   {
     name: "chrome hearts phone case",
     category: "Belts",
-    subcategory: "",
     price: "$1.31",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01VnUaFg1KLN40gqJwi_!!3585621147-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F614731778970.html",
@@ -14932,7 +13822,6 @@ const products = [
   {
     name: "rimowa phone case (2)",
     category: "Belts",
-    subcategory: "",
     price: "$2.21",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN01ITlp3f1UjKJ35m7IX_!!2219977232553-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1061493283690.html",
@@ -14943,7 +13832,6 @@ const products = [
   {
     name: "ch trouser chain",
     category: "Belts",
-    subcategory: "",
     price: "$1.09",
     image: "https://cbu01.alicdn.com/img/ibank/O1CN0111LVOD1pSTUl5fnwn_!!2217812975359-0-cib.jpg",
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F822249396308.html",
@@ -14954,7 +13842,6 @@ const products = [
   {
     name: "JOJO SCARF",
     category: "Belts",
-    subcategory: "",
     price: "$5.01",
     image: "https://img.alicdn.com/bao/uploaded/i3/3624541446/O1CN01monT6P1MYJbeC4gsJ_!!3624541446.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D603882869568&affcode=archivee",
@@ -14976,7 +13863,6 @@ const products = [
   {
     name: "Alurehope tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.88",
     image: "https://si.geilicdn.com/wdseller211957776-0d7c000001a13adb1bec0a23041a_1182_1182.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7875851420&affcode=archivee",
@@ -14987,7 +13873,6 @@ const products = [
   {
     name: "ihatestars x idle time tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$11.53",
     image: "https://si.geilicdn.com/wdseller1995625455-2614000001a12f0b73680a23012d_4284_4287.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7874606494&affcode=archivee",
@@ -14998,7 +13883,6 @@ const products = [
   {
     name: "peaceinwar battlefield thermal",
     category: "Tshirts",
-    subcategory: "",
     price: "$23.23",
     image: "https://si.geilicdn.com/wdseller1995625455-1cd1000001a0d2a239900a23012d_4284_4287.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7862431058&affcode=archivee",
@@ -15020,7 +13904,6 @@ const products = [
   {
     name: "greer street sweats",
     category: "Pants",
-    subcategory: "",
     price: "$34.93",
     image: "https://si.geilicdn.com/wdseller1995625455-371b000001a0b91713910a20e273_1320_1760.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7858027604&affcode=archivee",
@@ -15042,7 +13925,6 @@ const products = [
   {
     name: "HCW Jeans",
     category: "Pants",
-    subcategory: "",
     price: "$36.60",
     image: "https://si.geilicdn.com/wdseller1995625455-58db0000019f1d0e6c4a0a23c286_2560_3413.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7798619341&affcode=archivee",
@@ -15075,7 +13957,6 @@ const products = [
   {
     name: "ihatestars Jeans",
     category: "Pants",
-    subcategory: "",
     price: "$38.27",
     image: "https://si.geilicdn.com/wdseller1995625455-3f8d000001a014181d000a23b5fa_4283_4283.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7830808379&affcode=archivee",
@@ -15086,7 +13967,6 @@ const products = [
   {
     name: "peaceinwar solider Sweats",
     category: "Pants",
-    subcategory: "",
     price: "$38.27",
     image: "https://si.geilicdn.com/wdseller1995625455-1eda000001a004a0746b0a23c1e0_2560_3413.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7832111866&affcode=archivee",
@@ -15097,7 +13977,6 @@ const products = [
   {
     name: "peaceinwar world flags tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.21",
     image: "https://si.geilicdn.com/wdseller1995625455-693e0000019ffa69dc380a2301af_4284_4287.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7827790681&affcode=archivee",
@@ -15108,7 +13987,6 @@ const products = [
   {
     name: "idle time resist tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.88",
     image: "https://si.geilicdn.com/wdseller1995625455-67c40000019ffa67db050a23c191_1320_1760.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7830733056&affcode=archivee",
@@ -15119,7 +13997,6 @@ const products = [
   {
     name: "idle time rainbow skull tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$14.88",
     image: "https://si.geilicdn.com/wdseller1995625455-65710000019ffa66f5640a240147_4284_4287.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7830752824&affcode=archivee",
@@ -15141,7 +14018,6 @@ const products = [
   {
     name: "forgetraven thermal",
     category: "Tshirts",
-    subcategory: "",
     price: "$15.88",
     image: "https://media.usfans.com/2026/10/16/142145/5052107a-f060-4f3b-8f04-c218975e3dfc.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7805196871&affcode=archivee",
@@ -15152,7 +14028,6 @@ const products = [
   {
     name: "peaceinwar sketch hoodie",
     category: "Hoodies",
-    subcategory: "",
     price: "$38.27",
     image: "https://si.geilicdn.com/wdseller1995625455-22760000019f40fc166b0a2303ea_3019_3021.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7806106126&affcode=archivee",
@@ -15185,7 +14060,6 @@ const products = [
   {
     name: "fyrewrld blank tee",
     category: "Tshirts",
-    subcategory: "",
     price: "$17.13",
     image: "https://img.alicdn.com/bao/uploaded/i4/3324545123/O1CN01IoDKQa1niOBqBuQXv_!!3324545123.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1055089915783&affcode=archivee",
@@ -15196,7 +14070,6 @@ const products = [
   {
     name: "fyrewrld tank top",
     category: "Tshirts",
-    subcategory: "",
     price: "$13.88",
     image: "https://img.alicdn.com/bao/uploaded/i2/3324545123/O1CN01a4reoS1niOCaoQp5a_!!3324545123.jpg",
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1069789755322&affcode=archivee",
@@ -15356,6 +14229,119 @@ const products = [
     linkKakobuy: "https://item2.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D718874618717",
     linkUsfans: "https://usfans.com/product/2/xrBVVaU5RNHBqJH-KXLF74RGUG8iNLSPW6vnp1z7BfsP2b-h6D5HMg?ref=TX9V9N",
     tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "balenciaga card holder",
+    category: "Belts",
+    subcategory: "wallet",
+    price: "$11.71",
+    image: "https://si.geilicdn.com/wdseller1487901458-227e0000019afed7aa5f0a23047e_1179_1173.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7630877280",
+    linkUsfans: "https://usfans.com/product/3/7630877280?ref=TX9V9N",
+    rating: 5
+  },
+  {
+    name: "Mertra Belt",
+    category: "Belts",
+    subcategory: "belts",
+    price: "$32.61",
+    image: "https://si.geilicdn.com/wdseller1940384309-3b340000019ce64616fd0a2301af_2560_2560.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7709638038",
+    linkUsfans: "https://usfans.com/product/3/7709638038?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "derschutze belt",
+    category: "Belts",
+    subcategory: "belts",
+    price: "$24.25",
+    image: "https://si.geilicdn.com/wdseller1940384309-2ace0000019c3971bf6e0a23c286_2560_2560.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7689276467",
+    linkUsfans: "https://usfans.com/product/3/7689276467?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "Vivienne Westwood Belt",
+    category: "Belts",
+    subcategory: "belts",
+    price: "$11.20",
+    image: "https://img.alicdn.com/bao/uploaded/i2/85071092/O1CN011u4goB1JwBSZ7SKoA_!!85071092.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D716795160027",
+    linkUsfans: "https://usfans.com/product/2/m0iLaDdUKnSO_Vpt3-s2L2gSN2KXVCCg7PwjCzdrbf8gl3LHwALpHQ?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "ralph lauren wool scarf",
+    category: "Belts",
+    subcategory: "scarfs",
+    price: "$21.41",
+    image: "https://si.geilicdn.com/pcitem901993774356-7e480000019ab42f352d0a81347d_1280_1599.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7614514337",
+    linkUsfans: "https://usfans.com/product/3/7614514337?ref=TX9V9N",
+    tag: "REPKINGDOM",
+    rating: 5
+  },
+  {
+    name: "Supreme Ski googles",
+    category: "Belts",
+    price: "$23.25",
+    image: "https://si.geilicdn.com/pcitem1378088195-31460000018e89af1df90a2313e0_1440_1440.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7232419238",
+    linkUsfans: "https://usfans.com/product/3/7232419238?ref=TX9V9N",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "Vivienne westwood longsleevegsleeve",
+    category: "Tshirts",
+    subcategory: "longsleeve",
+    price: "$24.92",
+    image: "https://si.geilicdn.com/wdseller1756493945-5d8b000001a067a41d730a23b4f4_2560_3024.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7844939247",
+    linkUsfans: "https://usfans.com/product/3/7844939247?ref=TX9V9N",
+    rating: 5
+  },
+  {
+    name: "Celine Cosmic Cruiser Hoodie",
+    category: "Hoodies",
+    price: "$55.41",
+    image: "https://media.usfans.com/2026/10/18/192215/666f69b4-a8a5-4a83-b79e-a01c14bf33a9.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1053953174318",
+    linkUsfans: "https://usfans.com/product/2/f0eR631qumquWnP195jlqUAr4uqMIrgop3Yd6j5sJQdySOkRyNW0WaM?ref=TX9V9N",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "Undercover zamiang tee",
+    category: "Tshirts",
+    price: "$26.44",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2222453015331/O1CN018ve51m1pFeZCyYFlq_!!2222453015331.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1049814079771",
+    linkUsfans: "https://usfans.com/product/2/KRan4vQt3Tltqmw3zzJcyn0Sx9k0NS9v-ub9SVHHxl78NXWaQIJZsRk?ref=TX9V9N",
+    tag: "eyes",
+    rating: 5
+  },
+  {
+    name: "bring me the horizon tee",
+    category: "Tshirts",
+    price: "$17.19",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2219766444625/O1CN01K6ucAaaBRJI49wDi_!!2219766444625.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1076489863595",
+    linkUsfans: "https://usfans.com/product/2/Eyb9yuwmpPVP9eMKB6TArZ7ZBOyv_uEHKhz7EGLuI84ATNVpR5wEco4?ref=TX9V9N",
+    rating: 5
+  },
+  {
+    name: "rick owens ramones denim",
+    category: "Shoes",
+    price: "$79.54",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2073165527/O1CN01oKC6iP1qhQBQP2CwC_!!2073165527.webp",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1029457874364",
+    linkUsfans: "https://usfans.com/product/2/2ybixAzkmzBa2hXjku22gLXITtcXom0NTny623YvqVfxkUBA0VI2C5I?ref=TX9V9N",
+    tag: "BEST",
     rating: 5
   },
 ];
