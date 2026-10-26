@@ -14,17 +14,14 @@
 // ============================================
 const subcategoryConfig = {
   Shoes: [
-    { key: 'shoes', label: 'Shoes' },
     { key: 'slides', label: 'Slides' },
     { key: 'boots', label: 'Boots' }
   ],
   Hoodies: [
-    { key: 'hoodies', label: 'Hoodies' },
     { key: 'zip-ups', label: 'Zip-ups' },
     { key: 'sweaters', label: 'Sweaters' }
   ],
   Tshirts: [
-    { key: 't-shirts', label: 'T-shirts' },
     { key: 'longsleeve', label: 'Longsleeve' },
     { key: 'polo', label: 'Polo' },
     { key: 'tank-tops', label: 'Tank Tops' }
@@ -40,7 +37,9 @@ const subcategoryConfig = {
     { key: 'beanie', label: 'Beanie' },
     { key: 'hats', label: 'Hats' },
     { key: 'belts', label: 'Belts' },
-    { key: 'glasses', label: 'Glasses' }
+    { key: 'glasses', label: 'Glasses' },
+   { key: 'scarfs', label: 'Scarfs' },
+    { key: 'wallet', label: 'Wallet' }
   ]
 };
 // ============================================
