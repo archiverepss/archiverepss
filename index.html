@@ -9,7 +9,7 @@
   <meta name="robots" content="index, follow">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://archivereps.pl">
-  <meta property="og:title" content="ArchiveReps - Spreadsheet">
+  <meta property="og:title" content="Archive Collection - Spreadsheet">
   <meta property="og:description" content="Najlepszy spreadsheet w Polsce. Sprawdź najlepsze batche, codziennie nowe produkty!">
   <meta property="og:image" content="https://archivereps.pl/banner2.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -40,9 +40,11 @@
     .navbar{position:fixed;top:12px;left:50%;transform:translateX(-50%);width:calc(100% - 32px);max-width:1400px;height:64px;z-index:1000;background:rgba(10,12,30,.65);backdrop-filter:blur(24px) saturate(180%);-webkit-backdrop-filter:blur(24px) saturate(180%);border:1px solid var(--border-glass);border-radius:20px}
     .nav-container{height:100%;padding:0 16px;display:flex;align-items:center;gap:14px;width:100%}
     .nav-left{display:flex;align-items:center;gap:14px;flex-shrink:0}
-    .brand-logo{display:flex;align-items:center;gap:6px;font-size:17px;font-weight:800;letter-spacing:-.5px;cursor:pointer}
-    .logo-archive{color:#fff}
-    .logo-repss{background:linear-gradient(90deg,#7c5cff,#4ad4ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    
+    .brand-logo { display: flex; align-items: center; gap: 10px; cursor: pointer; height: 44px; transition: transform 0.2s ease; }
+    .brand-logo:hover { transform: scale(1.02); }
+    .brand-logo svg { height: 100%; width: auto; filter: drop-shadow(0 0 15px rgba(124, 92, 255, 0.5)); }
+
     .nav-links{display:flex;align-items:center;gap:2px;flex:1;justify-content:center}
     .nav-link{color:#8b8fa8;font-size:12.5px;font-weight:500;padding:8px 12px;border-radius:10px;border:1px solid transparent;white-space:nowrap;display:inline-flex;align-items:center;cursor:pointer;transition:all .22s ease}
     .nav-link.active{color:#fff;background:linear-gradient(135deg,rgba(124,92,255,.18),rgba(74,212,255,.06));border-color:rgba(124,92,255,.35)}
@@ -76,7 +78,6 @@
       .nav-links { display: none !important; }
       .nav-search-inline { display: none !important; }
       .hamburger-btn { display: flex; }
-      .brand-logo { font-size: 16px !important; }
       body { padding-top: 90px !important; }
       body.no-banner { padding-top: 46px !important; }
       .navbar { top: 8px !important; width: calc(100% - 16px) !important; height: 58px !important; min-height: 58px !important; border-radius: 16px !important; }
@@ -84,11 +85,12 @@
       .nav-left { width: auto !important; flex: 1 !important; }
       .nav-right-icons { order: 0 !important; gap: 8px !important; }
       .product-card .zoom-icon, .product-card .qc-icon, .featured-card .zoom-icon, .featured-card .qc-icon, .slider-item .zoom-icon, .slider-item .qc-icon { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }
+      .brand-logo { height: 38px !important; }
     }
     @media (max-width: 400px) {
       .hamburger-btn { width: 36px; height: 36px; }
       .icon-btn, .icon-btn-lang { width: 32px !important; height: 32px !important; font-size: 11px !important; }
-      .brand-logo { font-size: 15px !important; }
+      .brand-logo { height: 32px !important; }
     }
     .promo-banner{position:relative;z-index:1001;width:calc(100% - 32px);max-width:1400px;margin:12px auto 0}
     .promo-banner.hidden{display:none}
@@ -117,6 +119,10 @@
     .category-chip.active{background:linear-gradient(135deg,var(--accent),#a78bfa);color:#fff;border-color:transparent}
     .products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px}
     html.no-js body{opacity:1 !important}
+
+    .agent-modal-card { background: #0d111c; border: 1px solid rgba(124, 92, 255, 0.2); border-radius: 24px; box-shadow: 0 20px 60px rgba(0,0,0,0.6); }
+    .agent-select-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(74,212,255,0.15); border-color: rgba(74,212,255,0.5) !important; }
+    .agent-select-btn:active { transform: scale(0.98); }
   </style>
   <noscript><style>body{opacity:1 !important}</style></noscript>
   <link rel="stylesheet" href="style.css">
@@ -127,7 +133,6 @@
   <script data-goatcounter="https://archiverepss.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
-  <!-- GLOBALNY LOADER -->
 <div id="globalLoader" class="global-loader">
   <div class="loader-spinner"></div>
   <div class="loader-text">Ładowanie świeżych findów...</div>
@@ -155,12 +160,20 @@
 <nav class="navbar">
   <div class="nav-container">
     <div class="nav-left">
+      <!-- NOWE LOGO - WEKTOROWE SVG -->
       <div class="brand-logo" id="logoText">
-        <svg class="logo-mark" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M3 20L12 4L21 20H3Z" stroke="#7c5cff" stroke-width="2.5" stroke-linejoin="round"/>
-          <circle cx="12" cy="16" r="1.5" fill="#4ad4ff"/>
+        <svg viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="textGrad" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#7c5cff" />
+                    <stop offset="100%" stop-color="#4ad4ff" />
+                </linearGradient>
+            </defs>
+            <rect x="0" y="5" width="40" height="40" rx="10" fill="#0F1225" stroke="#7c5cff" stroke-width="2.5"/>
+            <text x="20" y="32" font-family="Inter, sans-serif" font-weight="900" font-size="18" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.5">AR</text>
+            <text x="50" y="22" font-family="Inter, sans-serif" font-weight="900" font-size="16" fill="#FFFFFF" letter-spacing="1">ARCHIVE</text>
+            <text x="50" y="38" font-family="Inter, sans-serif" font-weight="800" font-size="11" fill="url(#textGrad)" letter-spacing="1.5">REPS COLLECTION</text>
         </svg>
-        <span class="logo-archive">archive</span><span class="logo-repss">reps</span>
       </div>
     </div>
     <div class="nav-links">
@@ -290,7 +303,6 @@
         <button class="filter-toggle-btn" id="filterToggleBtn"><span>Filtry</span></button>
       </div>
       
-      <!-- NOWY PANEL FILTRÓW -->
       <div class="advanced-filters-panel" id="advancedFilters">
         <div class="filter-group">
           <label id="lblSorting">Sortowanie</label>
@@ -308,7 +320,6 @@
           </div>
         </div>
         
-        <!-- TUTAJ POJAWIAJĄ SIĘ TAGI (SUBCATEGORIE) -->
         <div class="filter-group filter-group-tags" id="subcategoryFilterGroup" style="display:none;">
           <label>Tagi (Rodzaj)</label>
           <div class="subcategory-chips-container" id="subcategoriesContainer"></div>
@@ -501,52 +512,94 @@
   </div>
 </div>
 
+<!-- POPUP WYBORU AGENTA -->
 <div class="popup-overlay" id="agentPopupOverlay">
-  <div class="agent-modal-card">
-    <button class="modal-close-x" onclick="closeAgentPopup()">×</button>
-    <div class="modal-header"><h2 id="agentPopupTitle">Wybierz Agenta</h2><p id="agentPopupDesc">Wybierz preferowanego agenta.</p></div>
-    <div class="agent-options-grid">
-      <button class="agent-select-btn" onclick="selectAgent('kakobuy')"><div class="agent-btn-content"><span class="agent-logo-dot kakobuy-dot"></span><span class="agent-name">Kakobuy</span></div><svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
-      <button class="agent-select-btn" onclick="selectAgent('usfans')"><div class="agent-btn-content"><span class="agent-logo-dot usfans-dot"></span><span class="agent-name">USFans</span></div><svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+  <div class="agent-modal-card" style="padding: 32px 28px; border-radius: 24px; max-width: 460px; width: 95%;">
+    <div style="display: flex; justify-content: center; margin-bottom: 24px;">
+      <svg viewBox="0 0 200 50" style="height: 56px; width: auto; filter: drop-shadow(0 0 15px rgba(124, 92, 255, 0.4));">
+          <defs>
+              <linearGradient id="popupGrad" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#7c5cff" />
+                  <stop offset="100%" stop-color="#4ad4ff" />
+              </linearGradient>
+          </defs>
+          <rect x="0" y="5" width="40" height="40" rx="10" fill="#0F1225" stroke="#7c5cff" stroke-width="2.5"/>
+          <text x="20" y="32" font-family="Inter, sans-serif" font-weight="900" font-size="18" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.5">AR</text>
+          <text x="50" y="22" font-family="Inter, sans-serif" font-weight="900" font-size="16" fill="#FFFFFF" letter-spacing="1">ARCHIVE</text>
+          <text x="50" y="38" font-family="Inter, sans-serif" font-weight="800" font-size="11" fill="url(#popupGrad)" letter-spacing="1.5">REPS COLLECTION</text>
+      </svg>
     </div>
+    <div style="text-align: center; margin-bottom: 24px;">
+      <h2 style="font-size: 22px; font-weight: 800; color: #fff; margin-bottom: 6px;" id="agentPopupTitle">Wybierz Agenta</h2>
+      <p style="font-size: 13.5px; color: #8b8fa8; line-height: 1.5; max-width: 280px; margin: 0 auto;" id="agentPopupDesc">Wybierz preferowanego agenta do zakupów przedmiotów.</p>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px;">
+      <!-- Zmieniono onclick na selectAgentButton -->
+      <button class="agent-select-btn" onclick="selectAgentButton('usfans')" style="width: 100%; background: rgba(74,212,255,0.05); border: 1px solid rgba(74,212,255,0.3); border-radius: 16px; padding: 16px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; transition: all 0.2s;">
+        <div style="display: flex; align-items: center; gap: 14px;">
+          <img src="https://swagworld.eu/assets/usfans-DTQr6n0M.webp" alt="USFans" style="width: 44px; height: 44px; border-radius: 10px; background: #fff; padding: 4px;">
+          <div style="text-align: left;">
+            <div style="font-size: 15px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 8px;">
+              USFans 
+              <span style="font-size: 9px; background: rgba(52,211,153,0.15); color: #34D399; padding: 3px 8px; border-radius: 6px; border: 1px solid rgba(52,211,153,0.3);">⭐ Recommended</span>
+            </div>
+            <div style="font-size: 12px; color: #8b8fa8;">usfans.com</div>
+          </div>
+        </div>
+        <!-- Kółko domyślne -->
+        <div style="width: 22px; height: 22px; border-radius: 50%; border: 2px solid #4AD4FF; display: flex; align-items: center; justify-content: center;">
+          <div style="width: 10px; height: 10px; background: #4AD4FF; border-radius: 50%;"></div>
+        </div>
+      </button>
+      <button class="agent-select-btn" onclick="selectAgentButton('kakobuy')" style="width: 100%; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 16px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; transition: all 0.2s;">
+        <div style="display: flex; align-items: center; gap: 14px;">
+          <div style="width: 44px; height: 44px; border-radius: 10px; background: #E62E2E; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 20px;">K</div>
+          <div style="text-align: left;">
+            <div style="font-size: 15px; font-weight: 700; color: #fff;">KakoBuy</div>
+            <div style="font-size: 12px; color: #8b8fa8;">kakobuy.com</div>
+          </div>
+        </div>
+        <div style="width: 22px; height: 22px; border-radius: 50%; border: 2px solid rgba(255,255,255,0.2);"></div>
+      </button>
+    </div>
+    <!-- Zmieniono onclick na confirmAgentSelection -->
+    <button onclick="confirmAgentSelection()" style="width: 100%; padding: 16px; background: #3B82F6; color: #fff; font-size: 15px; font-weight: 700; border: none; border-radius: 12px; cursor: pointer; transition: background 0.2s; display: flex; align-items: center; justify-content: center; gap: 8px;">
+      Continue <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+    </button>
+    <div style="text-align: center; font-size: 11px; color: #565A72; margin-top: 16px;">You can change it anytime with the ⚙️ icon in the menu.</div>
   </div>
 </div>
 
+<!-- POPRAWIONY POPUP Z KODEM (UNIWERSALNY DLA OBU AGENTÓW) -->
 <div class="popup-overlay" id="popupOverlay">
-  <div class="popup-card popup-card-v2">
-    <button class="popup-close" id="popupClose">×</button>
-    <div class="popup-header-v2">
-      <div class="popup-brand-v2">
-        <div class="popup-agent-logo" id="popupAgentLogo">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 20L12 4L21 20H3Z" stroke="#7c5cff" stroke-width="2.5" stroke-linejoin="round"/>
-            <circle cx="12" cy="16" r="1.5" fill="#4ad4ff"/>
-          </svg>
-        </div>
-        <span class="popup-brand-name">ArchiveReps</span>
-      </div>
-      <div class="popup-badges-v2">
-        <span class="popup-badge-v2 partner">PARTNER</span>
-        <span class="popup-badge-v2 limited">LIMITOWANA</span>
-      </div>
+  <div class="popup-card popup-card-v2" style="position: relative; background: #0d111c; border: 1px solid rgba(124, 92, 255, 0.2); border-radius: 24px; padding: 32px 28px; max-width: 420px; text-align: center; box-shadow: 0 20px 60px rgba(0,0,0,0.6);">
+    <button class="popup-close" id="popupClose" style="position: absolute; top: 16px; right: 16px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #8b8fa8; cursor: pointer; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 16px; transition: all 0.2s ease;">×</button>
+    <div style="display: flex; justify-content: center; margin-bottom: 24px;">
+      <svg viewBox="0 0 200 50" style="height: 56px; width: auto; filter: drop-shadow(0 0 15px rgba(124, 92, 255, 0.4));">
+          <defs>
+              <linearGradient id="popupGrad2" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#7c5cff" />
+                  <stop offset="100%" stop-color="#4ad4ff" />
+              </linearGradient>
+          </defs>
+          <rect x="0" y="5" width="40" height="40" rx="10" fill="#0F1225" stroke="#7c5cff" stroke-width="2.5"/>
+          <text x="20" y="32" font-family="Inter, sans-serif" font-weight="900" font-size="18" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.5">AR</text>
+          <text x="50" y="22" font-family="Inter, sans-serif" font-weight="900" font-size="16" fill="#FFFFFF" letter-spacing="1">ARCHIVE</text>
+          <text x="50" y="38" font-family="Inter, sans-serif" font-weight="800" font-size="11" fill="url(#popupGrad2)" letter-spacing="1.5">REPS COLLECTION</text>
+      </svg>
     </div>
-    <h3 class="popup-headline" id="popupHeadline">Zapłać za 10kg tylko 350zł!</h3>
-    <p class="popup-subtext" id="popupDesc">Zarejestruj się przez nasz link, później w Kuponach wpisz kod <strong id="popupSubtextCode">CARE40</strong>.</p>
-    <div class="popup-live" id="popupLive"><span class="popup-live-dot"></span><span><strong id="popupLiveCount">75</strong> osób ogląda teraz</span></div>
-    <div class="popup-benefits">
-      <div class="popup-benefit"><div class="popup-benefit-left"><div class="popup-benefit-icon">🏷️</div><span class="popup-benefit-text" id="popupBenefit1Text">Masa kuponów</span></div><span class="popup-benefit-tag gratis" id="popupBenefit1Tag">GRATIS</span></div>
-      <div class="popup-benefit"><div class="popup-benefit-left"><div class="popup-benefit-icon">💧</div><span class="popup-benefit-text" id="popupBenefit2Text">Odbierz kupon -40%</span></div><span class="popup-benefit-tag discount" id="popupBenefit2Tag">−40%</span></div>
-    </div>
-    <div class="popup-code-section">
-      <div class="code-row">
-        <span class="code-label" id="popupCodeLabel">Kod referencyjny:</span>
-        <div class="code-value-wrapper"><span class="code-value" id="popupCodeValue">CARE40</span><button class="copy-code-btn" onclick="copyCode()">Kopiuj</button></div>
+    <h3 class="popup-headline" id="popupHeadline" style="font-size: 24px; font-weight: 800; color: #fff; line-height: 1.2; margin-bottom: 12px;">Kup taniej w USFans</h3>
+    <div class="popup-code-section" style="background: rgba(0, 0, 0, 0.25); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 12px; padding: 16px; margin-bottom: 24px; display: flex; align-items: center; justify-content: space-between;">
+      <span class="code-label" id="popupCodeLabel" style="font-size: 12px; font-weight: 600; color: #8b8fa8; text-transform: uppercase; letter-spacing: 0.5px;">Kod referencyjny:</span>
+      <div class="code-value-wrapper" style="display: flex; align-items: center; gap: 10px;">
+        <span class="code-value" id="popupCodeValue" style="font-size: 18px; font-weight: 800; color: #fff; letter-spacing: 1px;">CARE40</span>
+        <button class="copy-code-btn" onclick="copyCode()" style="background: rgba(255,255,255,0.1); border: none; color: #fff; padding: 6px 12px; border-radius: 6px; font-size: 11px; font-weight: 600; cursor: pointer;">Kopiuj</button>
       </div>
     </div>
-    <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="popup-btn popup-btn-v2" id="popupRegisterBtn">
-      <span class="popup-btn-icon">❄️</span><span id="popupBtnText">Zarejestruj się i odbierz bonusy</span><span class="popup-btn-arrow">→</span>
+    <a href="https://usfans.com/register?ref=TX9V9N" target="_blank" rel="noopener noreferrer" class="popup-btn popup-btn-v2" id="popupRegisterBtn" style="display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 16px; background: linear-gradient(135deg, #ff3d8f 0%, #d946ef 50%, #a78bfa 100%); color: #ffffff; font-size: 15px; font-weight: 800; border-radius: 14px; text-decoration: none; border: none; cursor: pointer; margin-bottom: 12px; text-align: center; box-shadow: 0 8px 20px rgba(255, 61, 143, 0.3);">
+      <span id="popupBtnText">Zarejestruj się i odbierz bonusy</span><span>→</span>
     </a>
-    <div class="popup-footer" id="popupFooter">Bez zobowiązań · Bonusy działają tylko przez ten link</div>
+    <div class="popup-footer" id="popupFooter" style="font-size: 11px; color: #565a72; text-align: center;">Bez zobowiązań · Bonusy działają tylko przez ten link</div>
   </div>
 </div>
 

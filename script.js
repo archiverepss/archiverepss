@@ -14994,9 +14994,10 @@ const featuredProducts = [];
    ============================================================ */
 
 
-/* ============================================================
-   KONFIGURACJA
-   ============================================================ */
+
+// ============================================
+// KONFIGURACJA
+// ============================================
 const CONFIG = Object.freeze({
   QC_PROXY_URL: 'https://nameless-band-5b92.buzzbrief80.workers.dev/',
   IMAGE_PROXY: 'https://wsrv.nl/?url=',
@@ -15036,7 +15037,7 @@ const PLACEHOLDER_SVG = 'data:image/svg+xml;utf8,' + encodeURIComponent(
 // ============================================
 const state = {
   currentCategory: 'All',
-  currentSubcategory: null,   // 🆕 TAG
+  currentSubcategory: null,
   searchQuery: '',
   currentLanguage: localStorage.getItem('selectedLanguage') || 'pl',
   preferredAgent: localStorage.getItem('preferredAgent') || null,
@@ -15267,8 +15268,8 @@ const categoryMapping = [
 ];
 
 const agentConfig = {
-  kakobuy: { name: 'Kakobuy', codeLabel: 'Kod rabatowy:', code: 'archiverepss', headline: 'Zapłać mniej za wysyłkę w Kakobuy!', desc: 'Zarejestruj się przez nasz link, a później w Kuponach wpisz kod <strong>archiverepss</strong> i odbierz bonusy powitalne.', benefit1Text: 'Darmowy kupon na shipping', benefit1Tag: 'GRATIS', benefit2Text: 'Odbierz bonus -15$ na shipping!', benefit2Tag: '−15$', btnText: 'Zarejestruj się i odbierz bonusy', btnUrl: 'https://www.kakobuy.com/register/?affcode=archivee', footer: 'Bez zobowiązań · Bonusy działają tylko przez ten link' },
-  usfans: { name: 'USFans', codeLabel: 'Kod referencyjny:', code: 'CARE40', headline: 'Kup taniej w USFans — kod CARE40', desc: 'Zarejestruj się przez nasz link, później w Kuponach wpisz kod <strong>CARE40</strong> i otrzymaj kupony, które możesz łączyć!', benefit1Text: 'Masa zajebistych kuponów', benefit1Tag: 'GRATIS', benefit2Text: 'Odbierz kupon -40% na USFans!', benefit2Tag: '−40%', btnText: 'Zarejestruj się i odbierz bonusy', btnUrl: 'https://usfans.com/register?ref=TX9V9N', footer: 'Bez zobowiązań · Bonusy działają tylko przez ten link' }
+  kakobuy: { name: 'Kakobuy', codeLabel: 'Kod referencyjny:', code: 'archiverepss', headline: 'Zapłać mniej za wysyłkę w Kakobuy!', desc: 'Zarejestruj się przez nasz link, a później w Kuponach wpisz kod <strong>archiverepss</strong> i odbierz bonusy powitalne.', btnText: 'Zarejestruj się i odbierz bonusy', btnUrl: 'https://www.kakobuy.com/register/?affcode=archivee', footer: 'Bez zobowiązań · Bonusy działają tylko przez ten link' },
+  usfans: { name: 'USFans', codeLabel: 'Kod referencyjny:', code: 'CARE40', headline: 'Kup taniej w USFans — kod CARE40', desc: 'Zarejestruj się przez nasz link, później w Kuponach wpisz kod <strong>CARE40</strong> i otrzymaj kupony, które możesz łączyć!', btnText: 'Zarejestruj się i odbierz bonusy', btnUrl: 'https://usfans.com/register?ref=TX9V9N', footer: 'Bez zobowiązań · Bonusy działają tylko przez ten link' }
 };
 
 // ============================================
@@ -15863,7 +15864,7 @@ window.applyFiltersAndSort = applyFiltersAndSort;
 function clearPriceFilters() {
   const min = $('priceMin'); if (min) min.value = "";
   const max = $('priceMax'); if (max) max.value = "";
-  state.currentSubcategory = null; // Resetujemy też tagi
+  state.currentSubcategory = null;
   const subContainer = $('subcategoriesContainer');
   if (subContainer) {
     $$('.subcategory-chip', subContainer).forEach(b => b.classList.remove('active'));
@@ -16201,18 +16202,16 @@ function renderCategories() {
     container.appendChild(fragment);
   }
 
-  // === TAGI (WEWNĄTRZ PANELU FILTRÓW) ===
   if (!subContainer || !subGroup) return;
   const subs = subcategoryConfig[state.currentCategory];
   
   if (!subs || subs.length === 0) {
     subContainer.innerHTML = '';
-    subGroup.style.display = 'none'; // Ukrywamy grupę jeśli brak tagów
+    subGroup.style.display = 'none';
     lastRenderedSubcategory = null;
     return;
   }
   
-  // Pokazujemy grupę
   subGroup.style.display = 'flex';
 
   if (lastRenderedSubcategory === state.currentCategory && subContainer.children.length > 0) {
@@ -16727,32 +16726,45 @@ function trackParcel() {
 window.trackParcel = trackParcel;
 
 // ============================================
-// POPUPY
+// POPUPY I LOGIKA STARTOWA
 // ============================================
-function showLanguagePopup() { $('languagePopupOverlay')?.classList.add('active'); }
-function hideLanguagePopup() { $('languagePopupOverlay')?.classList.remove('active'); }
+function showLanguagePopup() { 
+  $('languagePopupOverlay')?.classList.add('active'); 
+}
+
+function hideLanguagePopup() { 
+  $('languagePopupOverlay')?.classList.remove('active'); 
+}
+
 function selectLanguage(lang) {
   state.currentLanguage = lang;
   localStorage.setItem('selectedLanguage', lang);
   $$('.language-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
 }
+
 function confirmLanguage() {
   hideLanguagePopup();
   localStorage.setItem('hasVisited', 'true');
   state.isFirstVisit = false;
+  
   setupLanguage();
   renderCategories();
   renderHomeFeatured();
   renderHomeLatest();
   renderHomeSellers();
   applyFiltersAndSort();
+  
   setTimeout(showAgentPopup, 300);
 }
-window.selectLanguage = selectLanguage;
-window.confirmLanguage = confirmLanguage;
 
-function showAgentPopup() { $('agentPopupOverlay')?.classList.add('active'); }
-function closeAgentPopup() { $('agentPopupOverlay')?.classList.remove('active'); }
+function showAgentPopup() { 
+  $('agentPopupOverlay')?.classList.add('active'); 
+}
+
+function closeAgentPopup() { 
+  $('agentPopupOverlay')?.classList.remove('active'); 
+}
+
 function selectAgent(name) {
   state.preferredAgent = name;
   localStorage.setItem('preferredAgent', name);
@@ -16762,12 +16774,20 @@ function selectAgent(name) {
   applyFiltersAndSort();
   setTimeout(showRegisterPopup, 500);
 }
+
+function showRegisterPopup() { 
+  $('popupOverlay')?.classList.add('active'); 
+}
+
+function hideRegisterPopup() { 
+  $('popupOverlay')?.classList.remove('active'); 
+}
+
 window.closeAgentPopup = closeAgentPopup;
 window.selectAgent = selectAgent;
-
-function showRegisterPopup() { $('popupOverlay')?.classList.add('active'); }
-function hideRegisterPopup() { $('popupOverlay')?.classList.remove('active'); }
 window.hideRegisterPopup = hideRegisterPopup;
+window.selectLanguage = selectLanguage;
+window.confirmLanguage = confirmLanguage;
 
 function updateRegisterPopup() {
   const config = agentConfig[state.preferredAgent || 'kakobuy'];
@@ -16776,10 +16796,6 @@ function updateRegisterPopup() {
   set('popupHeadline', config.headline);
   const desc = $('popupDesc'); if (desc) desc.innerHTML = config.desc;
   set('popupSubtextCode', config.code);
-  set('popupBenefit1Text', config.benefit1Text);
-  set('popupBenefit1Tag', config.benefit1Tag);
-  set('popupBenefit2Text', config.benefit2Text);
-  set('popupBenefit2Tag', config.benefit2Tag);
   set('popupCodeLabel', config.codeLabel);
   set('popupCodeValue', config.code);
   set('popupBtnText', config.btnText);
@@ -17102,7 +17118,7 @@ async function initApp() {
       setTimeout(showAgentPopup, 500);
     } else {
       updateRegisterPopup();
-      setTimeout(showRegisterPopup, 1500);
+      setTimeout(showRegisterPopup, 1000);
     }
   }
 
@@ -17117,7 +17133,7 @@ async function initApp() {
     requestAnimationFrame(() => document.body.classList.add('app-ready'));
   });
 
-  console.log('ArchiveReps loaded (v3.1 — subcategories in filter panel).');
+  console.log('ArchiveReps loaded (naprawiony USFans).');
 }
 
 document.addEventListener('DOMContentLoaded', initApp);
@@ -17174,3 +17190,167 @@ document.addEventListener('DOMContentLoaded', initApp);
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initMobileMenu);
   else initMobileMenu();
 })();
+// ============================================
+// FUNKCJE: POPUPY I LOGIKA AGENTA
+// ============================================
+
+// NOWA FUNKCJA: Zapisuje wybór agenta (wizualnie w popupie)
+function selectAgentButton(name) {
+  state.tempSelectedAgent = name;
+  
+  const usfansBtn = document.querySelector('.agent-select-btn[onclick*="usfans"]');
+  const kakobuyBtn = document.querySelector('.agent-select-btn[onclick*="kakobuy"]');
+  
+  if (usfansBtn && kakobuyBtn) {
+    const usfansCircle = usfansBtn.querySelector('div[style*="border-radius: 50%"]');
+    const kakobuyCircle = kakobuyBtn.querySelector('div[style*="border-radius: 50%"]');
+    
+    if (usfansCircle) {
+        usfansCircle.style.borderColor = 'rgba(255,255,255,0.2)';
+        usfansCircle.innerHTML = ''; // Usuwa środek
+    }
+    if (kakobuyCircle) {
+        kakobuyCircle.style.borderColor = 'rgba(255,255,255,0.2)';
+        kakobuyCircle.innerHTML = '';
+    }
+
+    const selectedBtn = name === 'usfans' ? usfansBtn : kakobuyBtn;
+    const selectedCircle = name === 'usfans' ? usfansCircle : kakobuyCircle;
+    
+    if (selectedCircle) {
+        selectedCircle.style.borderColor = '#4AD4FF';
+        selectedCircle.innerHTML = '<div style="width: 10px; height: 10px; background: #4AD4FF; border-radius: 50%;"></div>';
+    }
+  }
+}
+
+// NOWA FUNKCJA: Wywoływana po kliknięciu "Continue"
+function confirmAgentSelection() {
+  // Jeśli użytkownik nic nie kliknął, wybierz domyślnie USFans
+  const finalAgent = state.tempSelectedAgent || 'usfans';
+  selectAgent(finalAgent);
+}
+
+function showLanguagePopup() { $('languagePopupOverlay')?.classList.add('active'); }
+function hideLanguagePopup() { $('languagePopupOverlay')?.classList.remove('active'); }
+
+function selectLanguage(lang) {
+  state.currentLanguage = lang;
+  localStorage.setItem('selectedLanguage', lang);
+  $$('.language-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+}
+
+function confirmLanguage() {
+  hideLanguagePopup();
+  localStorage.setItem('hasVisited', 'true');
+  state.isFirstVisit = false;
+  setupLanguage();
+  renderCategories();
+  renderHomeFeatured();
+  renderHomeLatest();
+  renderHomeSellers();
+  applyFiltersAndSort();
+  setTimeout(showAgentPopup, 300);
+}
+
+function showAgentPopup() { 
+    state.tempSelectedAgent = null; // Reset przy każdym otwarciu
+    $('agentPopupOverlay')?.classList.add('active'); 
+}
+function closeAgentPopup() { $('agentPopupOverlay')?.classList.remove('active'); }
+
+function selectAgent(name) {
+  state.preferredAgent = name;
+  localStorage.setItem('preferredAgent', name);
+  updateRegisterPopup();
+  closeAgentPopup();
+  filterCache.invalidate();
+  applyFiltersAndSort();
+  setTimeout(showRegisterPopup, 500);
+}
+
+function showRegisterPopup() { $('popupOverlay')?.classList.add('active'); }
+function hideRegisterPopup() { $('popupOverlay')?.classList.remove('active'); }
+
+function updateRegisterPopup() {
+  const config = agentConfig[state.preferredAgent || 'usfans'];
+  if (!config) return;
+  const set = (id, txt) => { const el = $(id); if (el) el.textContent = txt; };
+  set('popupHeadline', config.headline);
+  const desc = $('popupDesc'); if (desc) desc.innerHTML = config.desc;
+  set('popupSubtextCode', config.code);
+  set('popupCodeLabel', config.codeLabel);
+  set('popupCodeValue', config.code);
+  set('popupBtnText', config.btnText);
+  set('popupFooter', config.footer);
+  const btn = $('popupRegisterBtn'); if (btn) btn.href = config.btnUrl;
+}
+
+function copyCode() {
+  const code = $('popupCodeValue')?.textContent || 'CARE40';
+  if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(code).then(showCopyFeedback).catch(showCopyFeedback);
+  else {
+    const t = document.createElement('textarea');
+    t.value = code;
+    document.body.appendChild(t);
+    t.select();
+    try { document.execCommand('copy'); } catch {}
+    document.body.removeChild(t);
+    showCopyFeedback();
+  }
+}
+
+function showCopyFeedback() {
+  const btn = document.querySelector('.copy-code-btn');
+  if (!btn) return;
+  const orig = btn.innerHTML;
+  btn.innerHTML = 'Skopiowano!';
+  setTimeout(() => btn.innerHTML = orig, 2000);
+}
+
+function closePromoBanner() {
+  $('promoBanner')?.classList.add('hidden');
+  document.body.classList.add('no-banner');
+  localStorage.setItem('promoBannerClosed', 'true');
+}
+
+function showToast(msg) {
+  const existing = document.querySelector('.outfit-toast');
+  if (existing) existing.remove();
+  const toast = document.createElement('div');
+  toast.className = 'outfit-toast';
+  toast.textContent = msg;
+  toast.style.cssText = 'position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(20px);background:rgba(16,18,36,0.95);backdrop-filter:blur(20px);border:1px solid rgba(124,92,255,0.4);color:#fff;padding:14px 24px;border-radius:12px;font-size:14px;font-weight:600;z-index:10000;opacity:0;transition:all 0.3s ease;box-shadow:0 12px 40px rgba(0,0,0,0.6);pointer-events:none;';
+  document.body.appendChild(toast);
+  requestAnimationFrame(() => {
+    toast.style.opacity = '1';
+    toast.style.transform = 'translateX(-50%) translateY(0)';
+  });
+  setTimeout(() => {
+    toast.style.opacity = '0';
+    toast.style.transform = 'translateX(-50%) translateY(20px)';
+    setTimeout(() => toast.remove(), 300);
+  }, 2500);
+}
+
+function setupLanguage() {
+  const lang = translations[state.currentLanguage];
+  const set = (id, txt) => { const el = $(id); if (el) el.textContent = txt; };
+  const setQ = (id, txt) => { const el = $(id); if (el && el.querySelector('span')) el.querySelector('span').textContent = txt; };
+  setQ('navSpreadsheet', lang.spreadsheet);
+  setQ('navSellers', lang.sellers);
+  const search = $('search'); if (search) search.placeholder = lang.searchPlaceholder;
+  set('lblSorting', lang.sorting);
+  set('optDefault', lang.defaultSort);
+  set('optAsc', lang.priceAsc);
+  set('optDesc', lang.priceDesc);
+  set('lblPriceFilter', lang.priceFilter);
+  const min = $('priceMin'); if (min) min.placeholder = lang.min;
+  const max = $('priceMax'); if (max) max.placeholder = lang.max;
+  set('clearFilterBtn', lang.clearFilter);
+  set('agentPopupTitle', lang.agentPopupTitle);
+  set('agentPopupDesc', lang.agentPopupDesc);
+  set('langPopupTitle', lang.langPopupTitle);
+  set('langPopupDesc', lang.langPopupDesc);
+  set('confirmLangBtn', lang.langConfirm);
+}
