@@ -884,26 +884,6 @@ const products = [
     rating: 5
   },
   {
-    name: "CHROME HEARTS USA HOODIE",
-    category: "Hoodies",
-    price: "$46",
-    image: "https://n-hype.com/cdn/shop/files/Chrome_Hearts_USA_Flag_Thermal_Black_Zip-up_Hoodie_Showroom_NHype_Lodz_Polska_1800x1800.png?v=1718778366",
-    linkKakobuy: "https://ikako.vip/nmtan",
-    linkUsfans: "https://usfans.com/product/3/7644624191?ref=TX9V9N",
-    tag: "TOPHOT",
-    rating: 5
-  },
-  {
-    name: "CHROME HEARTS HOODIE",
-    category: "Hoodies",
-    price: "$46",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/29/fe1c33a49608f3c31f683f10a1dd34cd.jpg",
-    linkKakobuy: "https://ikako.vip/dbudg",
-    linkUsfans: "https://usfans.com/product/3/7619790982?ref=TX9V9N",
-    tag: "TOPHOT",
-    rating: 5
-  },
-  {
     name: "CHROME HEARTS DEADLY DOLL HOODIE",
     category: "Hoodies",
     price: "$42",
@@ -1086,17 +1066,6 @@ const products = [
     rating: 5
   },
   {
-    name: "RAF SIMONS VIRGINIA CREEPER CREWNECK",
-    category: "Hoodies",
-    subcategory: "sweaters",
-    price: "$62",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/18/87db2535902729346f1b20f54751989d.jpg",
-    linkKakobuy: "https://ikako.vip/myvhe3",
-    linkUsfans: "https://usfans.com/product/2/84PPKhN2NDcDKsSshVBxICjqEfu0sWfLDhHoV6EPIWDGmTleEyrK1A?ref=TX9V9N",
-    tag: "MADEBYSWAG",
-    rating: 5
-  },
-  {
     name: "PEACE IN WAR CHERRY BLOSSOM HOODIE",
     category: "Hoodies",
     price: "$31",
@@ -1134,16 +1103,6 @@ const products = [
     linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7567731360%26wfr%3Dc&affcode=archivee",
     linkUsfans: "https://usfans.com/product/3/7567731360?ref=TX9V9N",
     tag: "ALIEN",
-    rating: 5
-  },
-  {
-    name: "BURBERRY BLACK HOODIE",
-    category: "Hoodies",
-    price: "$48.27",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/13/6be7311acca5546e85446e84396a055b.jpg",
-    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7524095139%3Fref%3DTX9V9N",
-    linkUsfans: "https://usfans.com/product/3/7524095139?ref=TX9V9N",
-    tag: "THUNDER",
     rating: 5
   },
   {
@@ -1189,36 +1148,6 @@ const products = [
     rating: 3
   },
   {
-    name: "ESSENTIALS FOG",
-    category: "Hoodies",
-    price: "$36.24",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/e18f98ce66ec33a026096aae8e59cee0.jpg",
-    linkKakobuy: "https://ikako.vip/9jecu",
-    linkUsfans: "https://usfans.com/product/2/yMzdVnRQix_eP2a6EEq8DcRBxUuswkKIxVqiKM3IKV7lR14jIXw_Rw?ref=TX9V9N",
-    tag: "TOPHOT",
-    rating: 4
-  },
-  {
-    name: "ESSENTIALS FOG",
-    category: "Hoodies",
-    price: "$31",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/11/b7239d9756a065d5d55db2b307947615.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D978371331776&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/LOifYg3a69p5Kc6A3bUU51ytJB85Z-2l-IMDzPkYsgbGCEUGzjLGQw?ref=TX9V9N",
-    tag: "TOPHOT",
-    rating: 4
-  },
-  {
-    name: "ESSENTIALS FOG",
-    category: "Hoodies",
-    price: "$34.84",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/11/802a6f35780b40baf23b8b6e34068ca0.jpg",
-    linkKakobuy: "https://ikako.vip/rqe7wa",
-    linkUsfans: "https://usfans.com/product/2/wm3PPS1v3OYyAYJnLSznq-o7yFpAapR4I2L9j2qFSAU9a5PfYw6oKg?ref=TX9V9N",
-    tag: "TOPHOT",
-    rating: 4
-  },
-  {
     name: "RALPH LAUREN ZIPPER HOODIE",
     category: "Hoodies",
     subcategory: "zip-ups",
@@ -1256,17 +1185,6 @@ const products = [
     image: "https://si.geilicdn.com/wdseller1746487736-2220000001956987605d0a23041a_1170_1170.jpg",
     linkKakobuy: "https://ikako.vip/9q9e8",
     linkUsfans: "https://usfans.com/product/3/7409966155?ref=TX9V9N",
-    tag: "HOTDOG",
-    rating: 5
-  },
-  {
-    name: "BROKEN PLANET ZIP UP HOODIE",
-    category: "Hoodies",
-    subcategory: "zip-ups",
-    price: "$34.32",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/17/0c05c924d34c2c57735613ff7b958e6b.jpg",
-    linkKakobuy: "https://ikako.vip/89xdp",
-    linkUsfans: "https://usfans.com/product/3/7342492758?ref=TX9V9N",
     tag: "HOTDOG",
     rating: 5
   },
@@ -1670,16 +1588,6 @@ const products = [
     rating: 4
   },
   {
-    name: "BALENCIAGA BLUE FLARED LOST TAPES",
-    category: "Pants",
-    price: "$62.96",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/2e1e9a448e834633f20451e8996d735a.jpg",
-    linkKakobuy: "https://ikako.vip/7zk79",
-    linkUsfans: "https://usfans.com/product/2/88PSRyBg_XwtMO34v2n5484j06fqLm92V4FdAufREq5pGiZ4WTwwyA?ref=TX9V9N",
-    tag: "MVT",
-    rating: 5
-  },
-  {
     name: "BUDGET BALENCIAGA BAGGY JEANS",
     category: "Pants",
     price: "$21.42",
@@ -1780,16 +1688,6 @@ const products = [
     rating: 3
   },
   {
-    name: "ESSENTIALS FOG PANTS",
-    category: "Pants",
-    price: "$28.38",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/6/125c4d37e99863a1509cd2ea48d04914.jpg",
-    linkKakobuy: "https://ikako.vip/gud2k",
-    linkUsfans: "https://usfans.com/product/2/iW_-6Rmyx3dLSmP-l1CknOFRD8_8XcxIhMZMvpMOYwfRkyiScY3l1w?ref=TX9V9N",
-    tag: "TOPHOT",
-    rating: 5
-  },
-  {
     name: "RICK OWENS SUBHUMAN WAXED PANTS",
     category: "Pants",
     price: "$34.17",
@@ -1840,92 +1738,12 @@ const products = [
     rating: 4
   },
   {
-    name: "GUCCI DEMNA BLACK JEANS",
-    category: "Pants",
-    price: "$63.5",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/26/ab1bd2aea8baab67c337ea8110c87103.jpg",
-    linkKakobuy: "https://ikako.vip/4na4r",
-    linkUsfans: "https://usfans.com/product/2/1000766846017?ref=TX9V9N",
-    tag: "MVT",
-    rating: 5
-  },
-  {
-    name: "GUCCI DEMNA JEANS",
-    category: "Pants",
-    price: "$63.5",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/25/41d1bb469c2875b723dd64d5839b48ff.jpg",
-    linkKakobuy: "https://ikako.vip/4na4r",
-    linkUsfans: "https://usfans.com/product/2/1000766846017?ref=TX9V9N",
-    tag: "MVT",
-    rating: 5
-  },
-  {
-    name: "GALLERY DEPT SWEATPANTS (BUDGET)",
-    category: "Pants",
-    price: "$30.78",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/20/3897ba39e80549745b2d931aad7e38a8.jpg",
-    linkKakobuy: "https://ikako.vip/w6nrz",
-    linkUsfans: "https://usfans.com/product/2/756275697322?ref=TX9V9N",
-    tag: "BUDGET",
-    rating: 4
-  },
-  {
-    name: "GALLERY DEPT PANTS",
-    category: "Pants",
-    price: "$48.07",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/19/4ea0ec8e7e5f2b07e8255ca310236cc5.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D821375995617&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/821375995617?ref=TX9V9N",
-    tag: "TOPHOT",
-    rating: 5
-  },
-  {
-    name: "HELLSTAR UNIFORM PANTS",
-    category: "Pants",
-    price: "$55",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202507/27/697b7b347c5aa8789840344516f33bd5.jpg",
-    linkKakobuy: "https://ikako.vip/sjqrn",
-    linkUsfans: "https://usfans.com/product/2/835085163698?ref=TX9V9N",
-    tag: "PIKA",
-    rating: 5
-  },
-  {
-    name: "HELLSTAR PANTS",
-    category: "Pants",
-    price: "$28.06",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/13/2c6efc36b1fc6bbab51bfddf9ccc3c67.jpg",
-    linkKakobuy: "https://ikako.vip/zb326",
-    linkUsfans: "https://usfans.com/product/2/770997590604?ref=TX9V9N",
-    tag: "RANDOM",
-    rating: 4
-  },
-  {
     name: "TRUE RELIGION JEANS",
     category: "Pants",
     price: "$27",
     image: "https://img.alicdn.com/bao/uploaded/i4/2404365569/O1CN01Dd5upM1r0egErRCpf_!!2404365569.jpg",
     linkKakobuy: "https://ikako.vip/yn4wj",
     linkUsfans: "https://usfans.com/product/2/XKlY8mxeQLAZENSf1WKdJDEsVNlgne9eVOGUzy1eTCG4fbtiybZI3A?ref=TX9V9N",
-    tag: "RANDOM",
-    rating: 4
-  },
-  {
-    name: "NIKE X STUSSY SWEATPANTS",
-    category: "Pants",
-    price: "$23.55",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/16/0236cfe2a833020b9233c5441ae5f14c.jpg",
-    linkKakobuy: "https://ikako.vip/7czwr",
-    linkUsfans: "https://usfans.com/product/3/7595061507?ref=TX9V9N",
-    tag: "NEWDP",
-    rating: 4
-  },
-  {
-    name: "NIKE X NOCTA",
-    category: "Pants",
-    price: "$25.08",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/11/4465525b6a49c60f138d8bee4cfbbfd6.jpg",
-    linkKakobuy: "https://ikako.vip/h3w3s",
-    linkUsfans: "https://usfans.com/product/1/837019488337?ref=TX9V9N",
     tag: "RANDOM",
     rating: 4
   },
@@ -1983,26 +1801,6 @@ const products = [
     rating: 5
   },
   {
-    name: "Derschutze blue Denim Pants",
-    category: "Pants",
-    price: "$32.91",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/31/6d865564526a5a676882dd6cd609facb.jpg",
-    linkKakobuy: "https://ikako.vip/fpsdy",
-    linkUsfans: "https://usfans.com/product/3/7619232142?ref=TX9V9N",
-    tag: "PENGREPS",
-    rating: 5
-  },
-  {
-    name: "Derschutze Western Jogger",
-    category: "Pants",
-    price: "$32.91",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/27/ad5cf687195083e02bf18eecb6740cb2.jpg",
-    linkKakobuy: "https://ikako.vip/z3g2x",
-    linkUsfans: "https://usfans.com/product/3/7428893156?ref=TX9V9N",
-    tag: "PENGREPS",
-    rating: 5
-  },
-  {
     name: "Derschutze Denim Pants",
     category: "Pants",
     price: "$32.91",
@@ -2043,96 +1841,6 @@ const products = [
     rating: 5
   },
   {
-    name: "BPM RENT'S DUE PANTS",
-    category: "Pants",
-    price: "$28.99",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/2/cd56a7fa0e73e86b596b5e69de6d6dc9.jpg",
-    linkKakobuy: "https://ikako.vip/f5yw8",
-    linkUsfans: "https://usfans.com/product/3/7409905283?ref=TX9V9N",
-    tag: "HOTDOG",
-    rating: 5
-  },
-  {
-    name: "BPM PANTS ALL THE STARS",
-    category: "Pants",
-    price: "$31.19",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/30/c2ce72f87d12679b12048bb059796047.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1621342910.v.weidian.com%2Fitem.html%3FitemID%3D7499784900&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7499784900?ref=TX9V9N",
-    tag: "HOTDOG",
-    rating: 5
-  },
-  {
-    name: "HYSTERIC GLAMOUR HAGI JEANS",
-    category: "Pants",
-    price: "$64.18",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/21/6611d64c5141dd3bae6bdfb05b5c2c91.jpg",
-    linkKakobuy: "https://ikako.vip/zqt64",
-    linkUsfans: "https://usfans.com/product/2/988104391140?ref=TX9V9N",
-    tag: "BDSS",
-    rating: 5
-  },
-  {
-    name: "BALENCIAGA SHORTS",
-    category: "Shorts",
-    price: "$18.65",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/14/67ab0f21735bbada4796e8a5723f6d83.jpg",
-    linkKakobuy: "https://ikako.vip/e3wcb",
-    linkUsfans: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7242666854&affcode=archivee",
-    tag: "SATANMADE",
-    rating: 5
-  },
-  {
-    name: "BALENCIAGA SHORTS",
-    category: "Shorts",
-    price: "$34.17",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202508/25/c101b6e35b82ad64eed0589c6ec742a0.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7519004840%26spider_token%3D8dbf&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7519004840?ref=TX9V9N",
-    tag: "THUNDER",
-    rating: 5
-  },
-  {
-    name: "BALENCIAGA SHORTS",
-    category: "Shorts",
-    price: "$32.6",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/18/10f059bf1e46c242e52a9784466bd5a3.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7499057490%26spider_token%3Da6ee&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7499057490?ref=TX9V9N",
-    tag: "THUNDER",
-    rating: 5
-  },
-  {
-    name: "BALENCIAGA SHORTS",
-    category: "Shorts",
-    price: "$42",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/2/c1dfbc22d5b6d0fd9466ab6969479fc7.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7497106511%26spider_token%3Df58f&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7497106511?ref=TX9V9N",
-    tag: "THUNDER",
-    rating: 5
-  },
-  {
-    name: "BALENCIAGA SHORTS",
-    category: "Shorts",
-    price: "$34.42",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/24/c7de5443bfae1f2aaa028671d078de7f.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7618065701%26wfr%3Dc&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7618065701?ref=TX9V9N",
-    tag: "THUNDER",
-    rating: 5
-  },
-  {
-    name: "BALENCIAGA SHORTS",
-    category: "Shorts",
-    price: "$35.89",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/30/c0bbe2344e541f395d0b5e6c2c1101d3.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7604006524%26wfr%3Dc&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7604006524?ref=TX9V9N",
-    tag: "TOPHOT",
-    rating: 5
-  },
-  {
     name: "BALENCIAGA DOUBLE WAIST SHORTS",
     category: "Shorts",
     price: "$28.05",
@@ -2151,36 +1859,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/1/983502446561?ref=TX9V9N",
     tag: "YISHAN",
     rating: 4
-  },
-  {
-    name: "ESSENTIALS FOG SHORTS",
-    category: "Shorts",
-    price: "$23.95",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/114450d1949c026e2889fc048bbcb7ea.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D962037909233&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/962037909233?ref=TX9V9N",
-    tag: "TOPHOT",
-    rating: 5
-  },
-  {
-    name: "ESSENTIALS FOG SHORTS",
-    category: "Shorts",
-    price: "$27",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/28/c4b3acab7da80306ff239e225b14fa5f.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fft%3Dt%26id%3D934124406348&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/934124406348?ref=TX9V9N",
-    tag: "TOPHOT",
-    rating: 5
-  },
-  {
-    name: "ESSENTIALS FOG SHORTS",
-    category: "Shorts",
-    price: "$27",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202512/28/5d81b84ec4734a2de9c94bc0814f42b7.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7254715223%26wfr%3Dc&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7254715223?ref=TX9V9N",
-    tag: "TOPHOT",
-    rating: 5
   },
   {
     name: "GALLERY DEPT SHORTS",
@@ -2949,16 +2627,6 @@ const products = [
     rating: 5
   },
   {
-    name: "NIKE X NOCTA HOODIES",
-    category: "Hoodies",
-    price: "$32",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/14/e0d7afed2005d6bde1003ba80a38791b.jpg",
-    linkKakobuy: "https://ikako.vip/87fzm",
-    linkUsfans: "https://usfans.com/product/3/7633774866?ref=TX9V9N",
-    tag: "RANDOM",
-    rating: 5
-  },
-  {
     name: "Derschutze Ariza Hoodie",
     category: "Hoodies",
     price: "$35.06",
@@ -2976,16 +2644,6 @@ const products = [
     image: "https://img.alicdn.com/bao/uploaded/i1/1854157063/O1CN01QyqjQx222uUMVbfRC_!!1854157063.jpg",
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7513541026",
     linkUsfans: "https://usfans.com/product/2/4VMpfH0IaGB_42wUonjJlGC0tMgWVZA1b1bFLViwLKs4qdbeKuqx5w?ref=TX9V9N",
-    tag: "PENGREPS / BEST",
-    rating: 5
-  },
-  {
-    name: "Derschutze Hoodie",
-    category: "Hoodies",
-    price: "$36",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/27/877099cfac8f23bb9f89f10d4a7561a9.jpg",
-    linkKakobuy: "https://ikako.vip/jfr3x",
-    linkUsfans: "https://usfans.com/product/2/EO_6d43RfJIq4eYBcC0T1zXWj8aGxTodImx_ALnYI5bOh70C913RZw?ref=TX9V9N",
     tag: "PENGREPS / BEST",
     rating: 5
   },
@@ -3050,16 +2708,6 @@ const products = [
     image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/29/9ba1aab474da34577ab50582277951da.jpg",
     linkKakobuy: "https://ikako.vip/3hu3p",
     linkUsfans: "https://usfans.com/product/3/7653809265?ref=TX9V9N",
-    tag: "GOAT / BEST",
-    rating: 5
-  },
-  {
-    name: " CORTEIZ BLACK ALCATRAZ HOODIE",
-    category: "Hoodies",
-    price: "$32",
-    image: "https://si.geilicdn.com/wdseller1781632402-291f00000189b9c04af50a2102d0_750_750.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1760986891.v.weidian.com%2Fitem.html%3FitemID%3D7653811325&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7653811325?ref=TX9V9N",
     tag: "GOAT / BEST",
     rating: 5
   },
@@ -3307,16 +2955,6 @@ const products = [
     rating: 5
   },
   {
-    name: "CHROME HEARTS MORO LONGSLEEVE",
-    category: "Hoodies",
-    price: "$31.37",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202509/6/cb50d32e7616cd79c15d4e855f2a7b61.jpg",
-    linkKakobuy: "https://ikako.vip/buhj4",
-    linkUsfans: "https://usfans.com/product/3/7507441990?ref=TX9V9N",
-    tag: "TOPHOT / BEST",
-    rating: 5
-  },
-  {
     name: "CHROME HEARTS LONGSLEEVE",
     category: "Hoodies",
     price: "$26.64",
@@ -3493,16 +3131,6 @@ const products = [
     rating: 5
   },
   {
-    name: "BASIC NIKE PANTS",
-    category: "Pants",
-    price: "$13.37",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/10/fd5cfb59281b8cb55b947a6c9f9b2568.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7535370671&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/3/7535370671?ref=TX9V9N",
-    tag: "RANDOM",
-    rating: 3
-  },
-  {
     name: "Survet Flared joggers",
     category: "Pants",
     price: "$12",
@@ -3511,36 +3139,6 @@ const products = [
     linkUsfans: "https://usfans.com/product/3/7536809461?ref=TX9V9N",
     tag: "RANDOM",
     rating: 3
-  },
-  {
-    name: "(BUDGET) ACNE STUDIOS JEANS",
-    category: "Pants",
-    price: "$28.16",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/31/37b4f42c2cfe7c74c4ae63dd565aa82c.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D896534806883&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/896534806883?ref=TX9V9N",
-    tag: "BUDGET",
-    rating: 3
-  },
-  {
-    name: "NO FAITH STUDIOS JEANS",
-    category: "Pants",
-    price: "$40.15",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202601/26/bf6a07eeb00ca9b39ddceb49721aa468.jpg",
-    linkKakobuy: "https://ikako.vip/fj85r",
-    linkUsfans: "https://usfans.com/product/2/863520488114?ref=TX9V9N",
-    tag: "INFINITE / BEST",
-    rating: 5
-  },
-  {
-    name: "(BUDGET) GALLERY DEPT JEANS",
-    category: "Pants",
-    price: "$20.01",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202604/1/6bf9a3c39e99d20e8624b1d2f4ecafeb.jpg",
-    linkKakobuy: "https://ikako.vip/uhsqa",
-    linkUsfans: "https://usfans.com/product/2/700551477968?ref=TX9V9N",
-    tag: "BUDGET",
-    rating: 4
   },
   {
     name: "GOLDEN GOOSE SUPER STAR",
@@ -3682,16 +3280,6 @@ const products = [
     image: "https://si.geilicdn.com/weidian1744790155-524b0000018cdbccae590a231418_1536_2048.jpg",
     linkKakobuy: "https://ikako.vip/8fa4d",
     linkUsfans: "https://www.usfans.com/product/3/6565730165?ref=TX9V9N",
-    tag: "RANDOM/BUDGET",
-    rating: 3
-  },
-  {
-    name: "(BUDGET) RANDOM FLARED PANTS",
-    category: "Pants",
-    price: "$24.13",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202603/5/db25d86d05522290e161b280a055f232.jpg",
-    linkKakobuy: "https://ikako.vip/et2g3",
-    linkUsfans: "https://www.usfans.com/product/2/945274664699?ref=TX9V9N",
     tag: "RANDOM/BUDGET",
     rating: 3
   },
@@ -8825,17 +8413,6 @@ const products = [
     rating: 5
   },
   {
-    name: "SAINT ALEXANDER KNIT",
-    category: "Hoodies",
-    subcategory: "sweaters",
-    price: "$29.58",
-    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202606/28/634a5b7f1b11b249f69b49f6b9490b99.jpg",
-    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1010131652510",
-    linkUsfans: "https://usfans.com/product/2/0qIaAsHQOSjgJr_Z17hME1DGYyY9RmClO7WOfusbJSznU5pTf7_ZjbA?ref=TX9V9N",
-    tag: "RANDOM",
-    rating: 5
-  },
-  {
     name: "NOFAITH JEANS BLACK",
     category: "Pants",
     price: "$36.48",
@@ -9159,16 +8736,6 @@ const products = [
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D813875485383",
     linkUsfans: "https://usfans.com/product/2/kc5T4GGzw5WN6VtJr5nTBcVj1jgM-4rFhClrDeovF54EIfZ6Js2qJA?ref=TX9V9N",
     tag: "BUDGET",
-    rating: 5
-  },
-  {
-    name: "BALENCIAGA  SPEEDHUNTERS HOODIE",
-    category: "Hoodies",
-    price: "$76.03",
-    image: "https://kk-oss-wh-hk.kakobyy.com/whg/202608/24/36abcc5128b865d47dc87b20b72dd782.jpg",
-    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D730474657101",
-    linkUsfans: "https://usfans.com/product/2/o_2l5bKaOx1tdhVe5rKXNendtfI0USV3nSs6ELMKpEUPD1lxhMtnXQ?ref=TX9V9N",
-    tag: "MADEBYSWAG",
     rating: 5
   },
   {
