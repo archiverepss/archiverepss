@@ -2040,48 +2040,6 @@ const products = [
     rating: 5
   },
   {
-    name: "MONCLER VEST BUDGET",
-    category: "Jackets",
-    subcategory: "vest",
-    price: "$68.17",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/5/78ac8e7f607b21da8b89a3b27967897e.jpg",
-    linkKakobuy: "https://ikako.vip/2zwqd",
-    tag: "BUDGET BATCH",
-    rating: 5
-  },
-  {
-    name: "MONCLER MAYA BEST BATCH",
-    category: "Jackets",
-    subcategory: "puffer",
-    price: "$204.18",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/8/7f2ba002068ecdfe1d72796567584c56.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fh5.m.taobao.com%2Fawp%2Fcore%2Fdetail.htm%3Fft%3Dt%26id%3D903368724429&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/903368724429?ref=TX9V9N",
-    tag: "JIEYI / BEST",
-    rating: 5
-  },
-  {
-    name: "MONCLER TBELIARD BEST BATCH",
-    category: "Jackets",
-    subcategory: "puffer",
-    price: "$221.73",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202511/26/ff8f17f63ff47b9585f44fc60e5228f4.jpg",
-    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D699573998420%26spm%3Da213gs.v2success.result.1.61584831mOrh1a&affcode=archivee",
-    linkUsfans: "https://usfans.com/product/2/699573998420?ref=TX9V9N",
-    tag: "JIEYI / BEST",
-    rating: 5
-  },
-  {
-    name: "RICK OWENS SECRET PARKA JACKET",
-    category: "Jackets",
-    price: "$208",
-    image: "https://kako-alosshk-pic.kakobuy.com/whg/202602/9/4ab182e98917ca976d54543797db3b23.jpg",
-    linkKakobuy: "https://ikako.vip/wdg8b",
-    linkUsfans: "https://usfans.com/product/2/1018167906778?ref=TX9V9N",
-    tag: "APEXMADE / BEST",
-    rating: 5
-  },
-  {
     name: "JORDAN SOCKS 2 PAIR (42-46)",
     category: "Underwear",
     price: "$7.21",
@@ -8663,17 +8621,6 @@ const products = [
     rating: 5
   },
   {
-    name: "CP COMPANY JACKET",
-    category: "Jackets",
-    subcategory: "puffer",
-    price: "$99.54",
-    image: "https://media.usfans.com/2026/08/27/212736/8ffafc80-6b2e-4857-9aef-ecc2eacc33a2.jpg",
-    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7719828849",
-    linkUsfans: "https://usfans.com/product/3/7719828849?ref=TX9V9N",
-    tag: "DRAGONREP",
-    rating: 5
-  },
-  {
     name: "PALACE WHITE JACKET",
     category: "Jackets",
     subcategory: "puffer",
@@ -9032,17 +8979,6 @@ const products = [
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F5794897300",
     linkUsfans: "https://usfans.com/product/3/5794897300?ref=TX9V9N",
     tag: "LJR / BEST",
-    rating: 5
-  },
-  {
-    name: "MERTRA HEAT ACTIVE JACKET",
-    category: "Jackets",
-    subcategory: "puffer",
-    price: "$38.21",
-    image: "https://media.usfans.com/2026/09/04/104614/7948dd3e-f469-4188-a420-83e60b417d78.jpg",
-    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7547344748",
-    linkUsfans: "https://usfans.com/product/3/7547344748?ref=TX9V9N",
-    tag: "PENGREPS",
     rating: 5
   },
   {
@@ -9530,36 +9466,6 @@ const products = [
     linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F693177011096.html",
     linkUsfans: "https://usfans.com/product/1/693177011096?ref=TX9V9N",
     tag: "BUDGET",
-    rating: 5
-  },
-  {
-    name: "CORTEIZ BOLO JACKET",
-    category: "Jackets",
-    price: "$41.39",
-    image: "https://si.geilicdn.com/wdseller2014771294-76350000019f35ee9f7f0a23111a_1320_1320.jpg",
-    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7656805164",
-    linkUsfans: "https://usfans.com/product/3/7656805164?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  },
-  {
-    name: "CORTEIZ BOLO JACKET CREAM",
-    category: "Jackets",
-    price: "$31.42",
-    image: "https://si.geilicdn.com/wdseller2078166457-57ab0000019eba8b809d0a207569_1320_1320.jpg",
-    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7787342970",
-    linkUsfans: "https://usfans.com/product/3/7787342970?ref=TX9V9N",
-    tag: "GOAT",
-    rating: 5
-  },
-  {
-    name: "TRAPSTAR JACKET BLACK",
-    category: "Jackets",
-    price: "$14.80",
-    image: "https://si.geilicdn.com/wdseller163498710-10050000018ce91e46400a20e273_1344_1344.jpg",
-    linkKakobuy: "https://item.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7234124801",
-    linkUsfans: "https://usfans.com/product/3/7234124801?ref=TX9V9N",
-    tag: "GOAT666",
     rating: 5
   },
   {
