@@ -14742,7 +14742,7 @@ const categoryMapping = [
 
 const agentConfig = {
   kakobuy: { name: 'Kakobuy', codeLabel: 'Kod referencyjny:', code: 'archiverepss', headline: 'Zapłać mniej za wysyłkę w Kakobuy!', desc: 'Zarejestruj się przez nasz link, a później w Kuponach wpisz kod <strong>archiverepss</strong> i odbierz bonusy powitalne.', btnText: 'Zarejestruj się i odbierz bonusy', btnUrl: 'https://www.kakobuy.com/register/?affcode=archivee', footer: 'Bez zobowiązań · Bonusy działają tylko przez ten link' },
-  usfans: { name: 'USFans', codeLabel: 'Kod referencyjny:', code: 'CARE40', headline: 'Kup taniej w USFans — kod CARE40', desc: 'Zarejestruj się przez nasz link, później w Kuponach wpisz kod <strong>CARE40</strong> i otrzymaj kupony, które możesz łączyć!', btnText: 'Zarejestruj się i odbierz bonusy', btnUrl: 'https://usfans.com/register?ref=TX9V9N', footer: 'Bez zobowiązań · Bonusy działają tylko przez ten link' }
+  usfans: { name: 'USFans', codeLabel: 'Kod referencyjny:', code: 'CARE40', headline: 'Kup taniej w USFans — kod CARE40', desc: 'Zarejestruj się przez nasz link, później w Kuponach wpisz kod <strong>CARE40</strong> i otrzymaj kupony, które możesz łączyć!', btnText: 'Zarejestruj się i odbierz bonusy', btnUrl: 'https://usfans.com/register?ref=archivee', footer: 'Bez zobowiązań · Bonusy działają tylko przez ten link' }
 };
 
 // ============================================
@@ -15554,7 +15554,7 @@ function stopHeroRotation() { if (state.heroTimer) { clearInterval(state.heroTim
 
 function handleHeroAction(action) {
   if (action === 'register') {
-    window.open('https://usfans.com/register?ref=TX9V9N', '_blank', 'noopener,noreferrer');
+    window.open('https://usfans.com/register?ref=archivee', '_blank', 'noopener,noreferrer');
     showToast('Otwieram rejestrację USFans...');
   } else if (action === 'copy') {
     copyCode();
