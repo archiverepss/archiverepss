@@ -13817,6 +13817,67 @@ const products = [
     tag: "BEST",
     rating: 5
   },
+  {
+    name: "Derschutze Dragon Hoodie",
+    category: "Hoodies",
+    price: "$31.83",
+    image: "https://si.geilicdn.com/wdseller2073272636-5b820000019f797af8cf0a20e284_1320_1320.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7808865961",
+    linkUsfans: "https://usfans.com/product/3/7808865961?ref=archivee",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "mertra beanie",
+    category: "Belts",
+    subcategory: "beanie",
+    price: "$10.83",
+    image: "https://si.geilicdn.com/wdseller1940384309-75490000019d95240e090a2301af_1320_1320.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fshop1739784557.v.weidian.com%2Fitem.html%3FitemID%3D7737007107",
+    linkUsfans: "https://usfans.com/product/3/7737007107?ref=archivee",
+    rating: 5
+  },
+  {
+    name: "protect double waffle LS",
+    category: "Tshirts",
+    subcategory: "longsleeve",
+    price: "$19.27",
+    image: "https://si.geilicdn.com/wdseller2073272636-54d20000019f96bf85940a2394a4_1320_1320.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7815564100",
+    linkUsfans: "https://usfans.com/product/3/7815564100?ref=archivee",
+    tag: "BEST",
+    rating: 5
+  },
+  {
+    name: "protect gray denim jeans",
+    category: "Pants",
+    price: "$28.31",
+    image: "https://si.geilicdn.com/wdseller2073272636-3d070000019f536c7d5a0a22d535_1320_1320.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7808475740",
+    linkUsfans: "https://usfans.com/product/3/7808475740?ref=archivee",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "protect blue denim jeans",
+    category: "Pants",
+    price: "$28.31",
+    image: "https://si.geilicdn.com/wdseller2073272636-6b950000019f4d06295d0a20e273_1320_1320.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7808056466",
+    linkUsfans: "https://usfans.com/product/3/7808056466?ref=archivee",
+    tag: "PENGREPS",
+    rating: 5
+  },
+  {
+    name: "protect washed faded jeans",
+    category: "Pants",
+    price: "$28.31",
+    image: "https://si.geilicdn.com/wdseller2073272636-3c470000019f47dacf720a22d58f_2560_2560.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7804339337",
+    linkUsfans: "https://usfans.com/product/3/7804339337?ref=archivee",
+    tag: "PENGREPS",
+    rating: 5
+  },
 ];
 
 // ============================================
