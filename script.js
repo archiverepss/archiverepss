@@ -727,8 +727,8 @@ const products = [
     category: "Shoes",
     price: "$76",
     image: "https://si.geilicdn.com/pcitem1710010242-1de500000198412384980a230115_1840_1840.jpg",
-    linkKakobuy: "https://ikako.vip/gj47w",
-    linkUsfans: "https://usfans.com/product/3/5925479942?ref=TX9V9N",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fusfans.com%2Fproduct%2F3%2F7614250357%3Fref%3Darchivee",
+    linkUsfans: "https://usfans.com/product/3/7614250357?ref=archivee",
     tag: "BEST",
     rating: 5
   },
