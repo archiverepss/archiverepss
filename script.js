@@ -13878,6 +13878,118 @@ const products = [
     tag: "PENGREPS",
     rating: 5
   },
+  {
+    name: "Number Nine x converse",
+    category: "Shoes",
+    price: "$91.91",
+    image: "https://si.geilicdn.com/wdseller901910887734-2544000001a178783ebb0a23049c_1290_1290.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7883370936",
+    linkUsfans: "https://usfans.com/product/3/7883370936?ref=archivee",
+    tag: "ANON",
+    rating: 5
+  },
+  {
+    name: "valley dreams hoodies",
+    category: "Hoodies",
+    price: "$48.46",
+    image: "https://cbu01.alicdn.com/img/ibank/O1CN01OZ714820Rz0elyI1Y_!!2218903556847-0-cib.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fdetail.1688.com%2Foffer%2F1044808574287.html",
+    linkUsfans: "https://usfans.com/product/1/1044808574287?ref=archivee",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "satoshi nakamoto hoodies",
+    category: "Hoodies",
+    price: "$33.09",
+    image: "https://si.geilicdn.com/pcitem1375395368-59d3000001a020a837160a231177_886_886.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D7833783903",
+    linkUsfans: "https://usfans.com/product/3/7833783903?ref=archivee",
+    tag: "RANDOM",
+    rating: 5
+  },
+  {
+    name: "numbernine montreal tee",
+    category: "Tshirts",
+    price: "$27.13",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01niJHWP1CUyogTRfdq~crop,0,193,1204,1204~_!!2025450085.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1063068618326",
+    linkUsfans: "https://usfans.com/product/2/3br8a8R1UQJz8kUIXeg5GE8IIU9X2ZNMoMNFRA5Iwei24fNiz0zNihw?ref=archivee",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "number nine double skull crewneck",
+    category: "Hoodies",
+    subcategory: "sweaters",
+    price: "$34.04",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01iXW9mG1CUykXzkSu6_!!2025450085.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D966580095892",
+    linkUsfans: "https://usfans.com/product/2/cgC3nUc0FsyCtqx909aOOjWK94MDH1jsyYNKWlncnuE_0cFzO27jJA?ref=archivee",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "number nine fuck you hoodie",
+    category: "Hoodies",
+    subcategory: "zip-ups",
+    price: "$45.96",
+    image: "https://img.alicdn.com/bao/uploaded/i2/2025450085/O1CN01WT99pd1CUykcyerR6_!!2025450085.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D969429369406",
+    linkUsfans: "https://usfans.com/product/2/xCnsDexm86V1Rl9XYKWop-ktX1GJGTANy2HoMxNxaHHX0TFmhKXpDg?ref=archivee",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "beauty beast pirate crewneck",
+    category: "Hoodies",
+    subcategory: "sweaters",
+    price: "$60.47",
+    image: "https://img.alicdn.com/bao/uploaded/i4/2025450085/O1CN01aIH58J1CUymNZAeix_!!2025450085.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1006008119065",
+    linkUsfans: "https://usfans.com/product/2/AJzRNTPa9p9tuXHUczgfcJba5i27bYLqHFzDnnGW4Kfk7XJL2PHjXP0?ref=archivee",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "number nine crying heart hoodie",
+    category: "Hoodies",
+    subcategory: "zip-ups",
+    price: "$47.54",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN0155HJB21CUyknPOfEp_!!2025450085.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D973736861285",
+    linkUsfans: "https://usfans.com/product/2/oij0WQjU6fsDg7Z0hh9-KF3gDXIDoKBcD2ks3ikDbx2c9QFE0mW9Hg?ref=archivee",
+    tag: "HONGSHENG",
+    rating: 5
+  },
+  {
+    name: "umber nine hipster tee",
+    category: "Tshirts",
+    price: "$26.94",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN01nwljrm1CUyieRQZ3A_!!2025450085.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D920079922560",
+    linkUsfans: "https://usfans.com/product/2/2GMYGmONYfVkuFFhsqyYrjCTAfioVzlXIHYvepwhyJpd_STghhCzDA?ref=archivee",
+    rating: 5
+  },
+  {
+    name: "number nine fender tee",
+    category: "Tshirts",
+    price: "$21.85",
+    image: "https://img.alicdn.com/bao/uploaded/i3/2025450085/O1CN01EQA2Hz1CUynEQQlZy_!!2025450085.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D1032110444970",
+    linkUsfans: "https://usfans.com/product/2/hjMjoH5qE1P0dz1bH6vmQiw7NExT9vznPZ1t0mAF6rTCnGm-rnGK1sw?ref=archivee",
+    rating: 5
+  },
+  {
+    name: "raf simons poltergeist black",
+    category: "Hoodies",
+    price: "$51.57",
+    image: "https://img.alicdn.com/bao/uploaded/i1/2025450085/O1CN017OeeIo1CUyld5GQ6s_!!2025450085.jpg",
+    linkKakobuy: "https://www.kakobuy.com/item/details?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D991974468311",
+    linkUsfans: "https://usfans.com/product/2/0AbAO9Q-5n0uJAil8pML-eNHjjBT1Tp35jCzoZUxs6M-efOjX35plQ?ref=archivee",
+    tag: "HONGSHENG",
+    rating: 5
+  },
 ];
 
 // ============================================
